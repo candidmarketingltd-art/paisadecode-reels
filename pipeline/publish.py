@@ -13,7 +13,7 @@ from Meta Business Manager with instagram_basic + instagram_content_publish + pa
 import json, os, time
 import requests
 
-VER = os.environ.get("META_API_VERSION", "v26.0")
+VER = (os.environ.get("META_API_VERSION") or "v26.0")
 GRAPH = f"https://graph.facebook.com/{VER}"
 
 
@@ -53,9 +53,9 @@ def _find(obj, keys):
 
 def _upload_post(mp4_path, caption, share_to_feed):
     hdr = {"Authorization": f"Apikey {os.environ['UPLOAD_POST_API_KEY']}"}
-    data = {"user": os.environ.get("UPLOAD_POST_USER", "paisadecode"), "platform[]": "instagram", "media_type": "REELS",
+    data = {"user": (os.environ.get("UPLOAD_POST_USER") or "paisadecode"), "platform[]": "instagram", "media_type": "REELS",
             "title": caption, "instagram_title": caption, "share_to_feed": "true" if share_to_feed else "false",
-            "audio_name": os.environ.get("IG_AUDIO_NAME", "Paisa Decode Theme"), "async_upload": "true"}
+            "audio_name": (os.environ.get("IG_AUDIO_NAME") or "Paisa Decode Theme"), "async_upload": "true"}
     with open(mp4_path, "rb") as f:
         r = requests.post(f"{UP}/upload", headers=hdr, data=data, files={"video": (os.path.basename(mp4_path), f, "video/mp4")}, timeout=900)
     js = _check(r)
@@ -81,7 +81,7 @@ def _meta(mp4_path, caption, share_to_feed=True):
     c = _check(requests.post(f"{GRAPH}/{_ig()}/media", data={
         "media_type": "REELS", "upload_type": "resumable", "caption": caption,
         "share_to_feed": "true" if share_to_feed else "false",
-        "audio_name": os.environ.get("IG_AUDIO_NAME", "Paisa Decode Theme"), "access_token": _tok()}, timeout=60))
+        "audio_name": (os.environ.get("IG_AUDIO_NAME") or "Paisa Decode Theme"), "access_token": _tok()}, timeout=60))
     cid = c["id"]
     up_url = c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{VER}/{cid}"
     with open(mp4_path, "rb") as f:

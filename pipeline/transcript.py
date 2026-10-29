@@ -6,7 +6,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "transcripts"
-ACTOR = os.environ.get("APIFY_TRANSCRIPT_ACTOR", "johnvc~YoutubeTranscripts")
+ACTOR = (os.environ.get("APIFY_TRANSCRIPT_ACTOR") or "johnvc~YoutubeTranscripts")
 
 
 def get(video_id):

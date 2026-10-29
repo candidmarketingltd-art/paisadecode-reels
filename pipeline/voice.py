@@ -3,8 +3,8 @@ import base64, os
 import requests
 
 API = "https://api.elevenlabs.io/v1"
-VOICE = os.environ.get("ELEVENLABS_VOICE_ID", "dVIifp6W0jifqeThgNN0")  # "Rohan"
-MODELS = [m for m in (os.environ.get("ELEVENLABS_MODEL", "eleven_v4"), "eleven_v3", "eleven_multilingual_v2") if m]
+VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or "dVIifp6W0jifqeThgNN0")  # "Rohan"
+MODELS = [m for m in ((os.environ.get("ELEVENLABS_MODEL") or "eleven_v4"), "eleven_v3", "eleven_multilingual_v2") if m]
 
 
 def _hdr():
@@ -97,7 +97,7 @@ def _voice_id():
     """The Rohan voice: use ELEVENLABS_VOICE_ID if this key can see it, else look it up by name ("Rohan")."""
     if "id" in _RESOLVED: return _RESOLVED["id"]
     r = requests.get(f"{API}/voices/{VOICE}", headers=_hdr(), timeout=60)
-    if r.status_code == 200:
+    if r.status_code != 404:  # found it, or the key just isn't allowed to read voices -> use the configured id
         _RESOLVED["id"] = VOICE; return VOICE
     want = (os.environ.get("ELEVENLABS_VOICE_NAME") or "Rohan").lower()
     lst = requests.get(f"{API}/voices", headers=_hdr(), timeout=60)

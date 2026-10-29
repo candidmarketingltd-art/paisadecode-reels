@@ -5,7 +5,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 VIDEOS = ROOT / "calendar" / "videos.json"
-CHANNEL = os.environ.get("YT_CHANNEL_URL", "https://www.youtube.com/@PaisaDecodeHQ/videos")
+CHANNEL = (os.environ.get("YT_CHANNEL_URL") or "https://www.youtube.com/@PaisaDecodeHQ/videos")
 
 
 def views(v):

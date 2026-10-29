@@ -50,13 +50,28 @@ POSTS_PER_DAY = 3
 
 
 def queued_count():
-    """Posts currently waiting in Buffer. Asks Buffer; if that query isn't available, estimates from our own log
-    (3 go out per day)."""
-    q = "query { posts(input: { organizationId: %s, filter: { status: [scheduled] } }) { edges { node { id } } } }" % lit(org_id())
+    """Posts waiting in Buffer for our Instagram channel = due in the future and not sent yet.
+    Falls back to our own estimate (3 go out per day) if Buffer can't be read."""
+    import datetime as _dt
+    q = ("query { posts(first: 100, input: { organizationId: %s }) { edges { node { id status channelId dueAt } } } }" % lit(org_id()))
     try:
-        return len(_gql(q)["posts"]["edges"]), "buffer"
+        edges = _gql(q)["posts"]["edges"]
+        now = _dt.datetime.now(_dt.timezone.utc)
+        ch = os.environ.get("BUFFER_CHANNEL_ID")
+        seen, waiting = {}, 0
+        for e in edges:
+            n = e["node"]; st = n.get("status")
+            st = ",".join(st) if isinstance(st, list) else str(st)
+            seen[st] = seen.get(st, 0) + 1
+            if ch and n.get("channelId") not in (None, ch): continue
+            due = n.get("dueAt")
+            future = bool(due) and _dt.datetime.fromisoformat(due.replace("Z", "+00:00")) > now
+            if future and not any(w in st.lower() for w in ("sent", "error", "fail", "draft")):
+                waiting += 1
+        print(f"      [buffer] post statuses seen: {seen}", flush=True)
+        return waiting, "buffer"
     except Exception as e:
-        print(f"      (couldn't read Buffer queue: {str(e)[:120]}; estimating)")
+        print(f"      (couldn't read Buffer queue: {str(e)[:160]}; estimating)", flush=True)
     try:
         st = json.load(open(STATE))
     except Exception:

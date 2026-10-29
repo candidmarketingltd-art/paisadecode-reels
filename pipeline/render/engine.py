@@ -25,7 +25,7 @@ GOLD = (242, 182, 48); WHITE = (250, 247, 240); RED = (232, 72, 60); GREEN = (12
 BLUE = (130, 200, 245); INK = (14, 12, 16); MUTED = (170, 160, 150); ICE = (170, 210, 255)
 COLORS = {"gold": GOLD, "white": WHITE, "red": RED, "green": GREEN, "blue": BLUE, "muted": MUTED, "ice": ICE}
 OPEN_END = None  # set per render
-HANDLE = "@" + os.environ.get("IG_HANDLE", "makemoneywithrohan").lstrip("@")
+HANDLE = "@" + (os.environ.get("IG_HANDLE") or "makemoneywithrohan").lstrip("@")
 
 # =====================================================================  helpers
 @functools.lru_cache(None)
