@@ -128,7 +128,6 @@ def _diagnose():
 def _eleven(text, mp3_path):
     last = None
     vid = _voice_id()
-    _diagnose()
     for model in MODELS:
         r = requests.post(f"{API}/text-to-speech/{vid}/with-timestamps", params={"output_format": "mp3_44100_128"},
                           headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
