@@ -25,6 +25,7 @@ GOLD = (242, 182, 48); WHITE = (250, 247, 240); RED = (232, 72, 60); GREEN = (12
 BLUE = (130, 200, 245); INK = (14, 12, 16); MUTED = (170, 160, 150); ICE = (170, 210, 255)
 COLORS = {"gold": GOLD, "white": WHITE, "red": RED, "green": GREEN, "blue": BLUE, "muted": MUTED, "ice": ICE}
 OPEN_END = None  # set per render
+HANDLE = "@" + os.environ.get("IG_HANDLE", "makemoneywithrohan").lstrip("@")
 
 # =====================================================================  helpers
 @functools.lru_cache(None)
@@ -352,6 +353,8 @@ class Reel:
             icon_plane(d, 540 + (1 - a) * -500 + 20 * math.sin(t * 4), 280, 1.3)
             pop_text(img, (540, 520), c.get("line1", ""), "bold", 100, WHITE, c.get("line1_at", t0 + 0.2), t, stroke=8)
             pop_text(img, (540, 660), c.get("line2", ""), "bold", 62, GOLD, c.get("line2_at"), t, stroke=6)
+            if t >= t0 + 0.8:  # follow tag under the share line
+                chip(img, 540, 800, f"Follow {HANDLE}", INK, GOLD, t0 + 0.8, t, size=52)
 
     # ------------------------------------------------------------- cold open
     def cold_open(self, img, t):
@@ -367,7 +370,7 @@ class Reel:
             f = fit_font(d, s, "disp", 128, 960)
             text(d, (540, y0 + k * 170), s[:m], f, col(ln.get("color"), WHITE if k < n - 1 else GOLD), stroke=4)
         if t > 0.5:
-            text(d, (540, 1350), "PAISA DECODE", F("latin", 34), (120, 110, 100))
+            text(d, (540, 1350), HANDLE.upper(), F("latin", 34), (120, 110, 100))
 
     # ------------------------------------------------------------- captions
     def captions(self, img, t):
@@ -420,7 +423,7 @@ class Reel:
             img.alpha_composite(m, ((WIDTH - MASCOT_W) // 2, int(860 + (1 - rise) * 700 + bob)))
             if sc: self.card(img, sc, t)
             self.captions(img, t)
-            text(ImageDraw.Draw(img), (60, 70), "PAISA DECODE", F("latin", 30), GOLD + (200,), anchor="lm")
+            text(ImageDraw.Draw(img), (60, 70), HANDLE, F("latin", 30), GOLD + (210,), anchor="lm")
         z = 1.0
         for p in self.cuts:
             if p <= t < p + 0.3: z = 1 + 0.07 * (1 - (t - p) / 0.3)

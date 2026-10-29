@@ -1,42 +1,276 @@
 {
-  "video_id": "mHCYU1HJTUw",
-  "angle": "A",
-  "voiceover": "[slow, deep, dramatic] ₹6 लाख... एक दिसंबर... और 300 नीले जार।\n\n[intrigued, building energy] तुम्हारे घर जो ₹30 का पानी का जार आता है ना... उसमें पानी सिर्फ़ ₹4 का है। तो बाकी ₹26 किसकी जेब में जाते हैं?\n\n[excited, fast] मई की गर्मी। कैलकुलेटर बोलता है 87% मार्जिन। लगता है ये बिज़नेस नहीं, पैसा छापने की मशीन है। सेविंग्स, थोड़ा पापा से उधार, और ₹6 लाख का प्लांट तैयार।\n\n[serious] फिर आती हैं तीन चोट। [punchy] पहली: 300 में से 50 जार गायब। [amused] किसी के घर गमला बन गया, किसी में गंगा जल रखा है। ₹15,000 गए। दूसरी: शर्मा जी का \"कल पक्का\"। तीसरी: गली के मोड़ पे नया प्लांट, \"ठंडा पानी सिर्फ़ ₹20।\" [sighs] अब हर जार पे बचते हैं... ₹3। इतने में तो कटिंग चाय भी नहीं आती।\n\n[mysterious, slower] और दिसंबर में सामने वाली सोसाइटी पे एक लड़का आता है। ना मशीन, ना बोरवेल, ना शेड। बड़े प्लांट से जार ₹15 से 20 में उठाता है, ₹35 में बेचता है। [emphatic] क्योंकि असली बिज़नेस पानी नहीं... तीसरी मंज़िल तक पहुँचाना है।\n\n[confident] इसलिए मशीन सबसे आख़िर में। पहले 3 महीने खुद जार बेचो। 100 पक्के कस्टमर नहीं बने? तो ₹6 लाख बच गए।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हर बार बोलता है, \"यार, RO प्लांट लगाते हैं।\"",
-  "cold_open": [
-    {"text": "₹6 लाख", "at": "₹6 लाख"},
-    {"text": "एक दिसंबर", "at": "एक दिसंबर"},
-    {"text": "300 नीले जार", "at": "और 300 नीले जार"}
-  ],
-  "scenes": [
-    {"at": "तुम्हारे घर", "mood": "neutral", "beats": [{"at": "₹26", "mood": "smirk"}],
-     "card": {"type": "split", "icon": "jar", "left": {"text": "पानी = ₹4", "at": "₹4"}, "right": {"text": "₹26 ?", "at": "₹26"}}},
-    {"at": "मई की गर्मी", "mood": "neutral", "point": true,
-     "card": {"type": "percent", "value": 87, "at": "87%", "label": "मार्जिन", "label_at": "मार्जिन"}},
-    {"at": "लगता है ये", "mood": "neutral",
-     "card": {"type": "money_rain", "line1": "पैसा छापने", "line1_at": "पैसा छापने", "line2": "की मशीन?", "line2_at": "मशीन"}},
-    {"at": "सेविंग्स", "mood": "neutral",
-     "card": {"type": "counter", "label": "सेविंग्स + पापा का उधार", "prefix": "₹", "to": 600000, "at": "₹6 लाख", "done_text": "प्लांट तैयार!", "done_at": "तैयार"}},
-    {"at": "फिर आती हैं", "mood": "serious",
-     "card": {"type": "title_slam", "title": "3 चोट", "at": "चोट"}},
-    {"at": "पहली", "mood": "serious", "beats": [{"at": "गायब", "mood": "shocked"}, {"at": "किसी के घर", "mood": "smirk"}, {"at": "₹15,000", "mood": "shocked"}],
-     "card": {"type": "warning", "title": "चोट #1 · जार गायब", "sub": "300 में से 50", "sub_at": "50", "chips": [{"text": "गमला", "at": "गमला", "color": "green"}, {"text": "गंगा जल", "at": "गंगा जल"}], "big": "−₹15,000", "big_at": "₹15,000"}},
-    {"at": "दूसरी", "mood": "smirk",
-     "card": {"type": "warning", "title": "चोट #2 · उधार", "sub": "शर्मा जी: \"कल पक्का\"", "sub_at": "शर्मा"}},
-    {"at": "तीसरी: गली", "mood": "serious",
-     "card": {"type": "split", "title": "चोट #3 · पड़ोसी", "left": {"text": "तुम्हारा ₹30", "at": "गली"}, "right": {"text": "नया ₹20", "at": "₹20", "color": "red"}}},
-    {"at": "अब हर जार", "mood": "serious", "beats": [{"at": "₹3", "mood": "shocked"}, {"at": "इतने में", "mood": "serious"}],
-     "card": {"type": "big_number", "label": "हर जार पे बचत", "value": "₹3", "value_at": "₹3", "note": "कटिंग चाय भी नहीं", "note_at": "कटिंग"}},
-    {"at": "और दिसंबर में", "mood": "smirk", "tint": "cold", "beats": [{"at": "ना मशीन", "mood": "neutral", "point": true}],
-     "card": {"type": "strike_list", "title": "दिसंबर", "color": "ice", "items": [{"text": "ना मशीन", "at": "मशीन"}, {"text": "ना बोरवेल", "at": "बोरवेल"}, {"text": "ना शेड", "at": "शेड"}]}},
-    {"at": "बड़े प्लांट", "mood": "neutral",
-     "card": {"type": "compare_arrow", "title": "बिना मशीन वाला", "from_text": "₹15–20", "from_at": "₹15", "to_text": "₹35", "to_at": "₹35", "result": "हर जार पे +₹15", "result_at": "बेचता"}},
-    {"at": "क्योंकि असली", "mood": "serious", "point": true,
-     "card": {"type": "headline", "title": "असली बिज़नेस =", "at": "असली", "sub": "तीसरी मंज़िल तक डिलीवरी", "sub_at": "तीसरी"}},
-    {"at": "इसलिए मशीन", "mood": "neutral", "point": true,
-     "card": {"type": "checklist", "title": "मेरा प्लान", "items": [{"text": "मशीन सबसे आख़िर में", "at": "मशीन"}, {"text": "3 महीने खुद जार बेचो", "at": "पहले 3"}, {"text": "100 पक्के कस्टमर?", "at": "100"}], "final": "₹6 लाख बच गए!", "final_at": "बच गए"}},
-    {"at": "ये रील", "mood": "neutral", "point": true,
-     "card": {"type": "cta", "line1": "उस दोस्त को भेजो", "line1_at": "भेजो", "line2": "जो RO प्लांट लगाना चाहता है", "line2_at": "यार"}}
-  ],
-  "ig_caption": "₹30 के जार में पानी सिर्फ़ ₹4 का है 💧 बाकी ₹26 का सच जानकर हैरान रह जाओगे।\n\nउस दोस्त को भेजो जो RO प्लांट लगाना चाहता है 👇\n\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
-  "hashtags": ["#WaterPlantBusiness", "#BusinessIdeas", "#PaisaDecode", "#SmallBusinessIndia", "#Hindi"]
+ "video_id": "mHCYU1HJTUw",
+ "angle": "A",
+ "voiceover": "[slow, deep, dramatic] ₹6 लाख... एक दिसंबर... और 300 नीले जार।\n\n[intrigued, building energy] तुम्हारे घर जो ₹30 का पानी का जार आता है ना... उसमें पानी सिर्फ़ ₹4 का है। तो बाकी ₹26 किसकी जेब में जाते हैं?\n\n[excited, fast] मई की गर्मी। कैलकुलेटर बोलता है 87% मार्जिन। लगता है ये बिज़नेस नहीं, पैसा छापने की मशीन है। सेविंग्स, थोड़ा पापा से उधार, और ₹6 लाख का प्लांट तैयार।\n\n[serious] फिर आती हैं तीन चोट। [punchy] पहली: 300 में से 50 जार गायब। [amused] किसी के घर गमला बन गया, किसी में गंगा जल रखा है। ₹15,000 गए। दूसरी: शर्मा जी का \"कल पक्का\"। तीसरी: गली के मोड़ पे नया प्लांट, \"ठंडा पानी सिर्फ़ ₹20।\" [sighs] अब हर जार पे बचते हैं... ₹3। इतने में तो कटिंग चाय भी नहीं आती।\n\n[mysterious, slower] और दिसंबर में सामने वाली सोसाइटी पे एक लड़का आता है। ना मशीन, ना बोरवेल, ना शेड। बड़े प्लांट से जार ₹15 से 20 में उठाता है, ₹35 में बेचता है। [emphatic] क्योंकि असली बिज़नेस पानी नहीं... तीसरी मंज़िल तक पहुँचाना है।\n\n[confident] इसलिए मशीन सबसे आख़िर में। पहले 3 महीने खुद जार बेचो। 100 पक्के कस्टमर नहीं बने? तो ₹6 लाख बच गए।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हर बार बोलता है, \"यार, RO प्लांट लगाते हैं।\"",
+ "cold_open": [
+  {
+   "text": "₹6 लाख",
+   "at": "₹6 लाख"
+  },
+  {
+   "text": "एक दिसंबर",
+   "at": "एक दिसंबर"
+  },
+  {
+   "text": "300 नीले जार",
+   "at": "और 300 नीले जार"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "तुम्हारे घर",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "₹26",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "icon": "jar",
+    "left": {
+     "text": "पानी = ₹4",
+     "at": "₹4"
+    },
+    "right": {
+     "text": "₹26 ?",
+     "at": "₹26"
+    }
+   }
+  },
+  {
+   "at": "मई की गर्मी",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "percent",
+    "value": 87,
+    "at": "87%",
+    "label": "मार्जिन",
+    "label_at": "मार्जिन"
+   }
+  },
+  {
+   "at": "लगता है ये",
+   "mood": "neutral",
+   "card": {
+    "type": "money_rain",
+    "line1": "पैसा छापने",
+    "line1_at": "पैसा छापने",
+    "line2": "की मशीन?",
+    "line2_at": "मशीन"
+   }
+  },
+  {
+   "at": "सेविंग्स",
+   "mood": "neutral",
+   "card": {
+    "type": "counter",
+    "label": "सेविंग्स + पापा का उधार",
+    "prefix": "₹",
+    "to": 600000,
+    "at": "₹6 लाख",
+    "done_text": "प्लांट तैयार!",
+    "done_at": "तैयार"
+   }
+  },
+  {
+   "at": "फिर आती हैं",
+   "mood": "serious",
+   "card": {
+    "type": "title_slam",
+    "title": "3 चोट",
+    "at": "चोट"
+   }
+  },
+  {
+   "at": "पहली",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "गायब",
+     "mood": "shocked"
+    },
+    {
+     "at": "किसी के घर",
+     "mood": "smirk"
+    },
+    {
+     "at": "₹15,000",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "चोट #1 · जार गायब",
+    "sub": "300 में से 50",
+    "sub_at": "50",
+    "chips": [
+     {
+      "text": "गमला",
+      "at": "गमला",
+      "color": "green"
+     },
+     {
+      "text": "गंगा जल",
+      "at": "गंगा जल"
+     }
+    ],
+    "big": "−₹15,000",
+    "big_at": "₹15,000"
+   }
+  },
+  {
+   "at": "दूसरी",
+   "mood": "smirk",
+   "card": {
+    "type": "warning",
+    "title": "चोट #2 · उधार",
+    "sub": "शर्मा जी: \"कल पक्का\"",
+    "sub_at": "शर्मा"
+   }
+  },
+  {
+   "at": "तीसरी: गली",
+   "mood": "serious",
+   "card": {
+    "type": "split",
+    "title": "चोट #3 · पड़ोसी",
+    "left": {
+     "text": "तुम्हारा ₹30",
+     "at": "गली"
+    },
+    "right": {
+     "text": "नया ₹20",
+     "at": "₹20",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "अब हर जार",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "₹3",
+     "mood": "shocked"
+    },
+    {
+     "at": "इतने में",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "हर जार पे बचत",
+    "value": "₹3",
+    "value_at": "₹3",
+    "note": "कटिंग चाय भी नहीं",
+    "note_at": "कटिंग"
+   }
+  },
+  {
+   "at": "और दिसंबर में",
+   "mood": "smirk",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "ना मशीन",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "दिसंबर",
+    "color": "ice",
+    "items": [
+     {
+      "text": "ना मशीन",
+      "at": "मशीन"
+     },
+     {
+      "text": "ना बोरवेल",
+      "at": "बोरवेल"
+     },
+     {
+      "text": "ना शेड",
+      "at": "शेड"
+     }
+    ]
+   }
+  },
+  {
+   "at": "बड़े प्लांट",
+   "mood": "neutral",
+   "card": {
+    "type": "compare_arrow",
+    "title": "बिना मशीन वाला",
+    "from_text": "₹15–20",
+    "from_at": "₹15",
+    "to_text": "₹35",
+    "to_at": "₹35",
+    "result": "हर जार पे +₹15",
+    "result_at": "बेचता"
+   }
+  },
+  {
+   "at": "क्योंकि असली",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "असली बिज़नेस =",
+    "at": "असली",
+    "sub": "तीसरी मंज़िल तक डिलीवरी",
+    "sub_at": "तीसरी"
+   }
+  },
+  {
+   "at": "इसलिए मशीन",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "मेरा प्लान",
+    "items": [
+     {
+      "text": "मशीन सबसे आख़िर में",
+      "at": "मशीन"
+     },
+     {
+      "text": "3 महीने खुद जार बेचो",
+      "at": "पहले 3"
+     },
+     {
+      "text": "100 पक्के कस्टमर?",
+      "at": "100"
+     }
+    ],
+    "final": "₹6 लाख बच गए!",
+    "final_at": "बच गए"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो RO प्लांट लगाना चाहता है",
+    "line2_at": "यार"
+   }
+  }
+ ],
+ "ig_caption": "₹30 के जार में पानी सिर्फ़ ₹4 का है 💧 बाकी ₹26 का सच जानकर हैरान रह जाओगे।\n\nउस दोस्त को भेजो जो RO प्लांट लगाना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#WaterPlantBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ]
 }
