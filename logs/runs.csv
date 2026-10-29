@@ -1,2 +1,3 @@
 run_at_ist,video_id,angle,status,note
 2026-10-29 16:05,mHCYU1HJTUw,A,publish_error,Buffer rejected the post: Cannot add to queue: No posting schedule configured for this channel
+2026-10-29 16:09,mHCYU1HJTUw,A,publish_error,"Buffer rejected the post: Invalid post: Instagram posts require a type (post, story, or reel)."
