@@ -3,30 +3,36 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
+      [buffer] post statuses seen: {'sent': 1}
 Buffer queue: 0 waiting (buffer); target 2 -> making 2
 --- reel 1/2: slot 2 (money) row 1: RFRlBf96f2A A
 [1/4] script  RFRlBf96f2A A: reusing saved plan
 [2/4] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"74ebc9c870703f384b0cbe6227bb6ff4"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"1e55eeb9d8070125636a423314c75ed3"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      [eleven] with-timestamps eleven_v4: 404 {"detail":"Not Found"}
-      [eleven] with-timestamps eleven_v3: 404 {"detail":"Not Found"}
-      [eleven] with-timestamps eleven_multilingual_v2: 404 {"detail":"Not Found"}
-      [eleven] plain TTS eleven_v4: 404 {"detail":"Not Found"}
-      [eleven] plain TTS eleven_v3: 404 {"detail":"Not Found"}
-      [eleven] plain TTS eleven_multilingual_v2: 404 {"detail":"Not Found"}
-Traceback (most recent call last):
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 190, in refill
-    mp4, caption = make_reel(row, wd)
-                   ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 92, in make_reel
-    words, model = voice.synthesize(plan["voiceover"], mp3)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 83, in synthesize
-    return _eleven(text, mp3_path)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 158, in _eleven
-    raise RuntimeError(f"ElevenLabs TTS failed: {last}")
-RuntimeError: ElevenLabs TTS failed: eleven_multilingual_v2: 404 {"detail":"Not Found"}
-added 0 reel(s) to Buffer
-::error::ElevenLabs TTS failed: eleven_multilingual_v2: 404 {"detail":"Not Found"}
+      174 words, 74.5s, model eleven_v4
+[3/4] render
+  frame 0/2263
+  frame 300/2263
+  frame 600/2263
+  frame 900/2263
+  frame 1200/2263
+  frame 1500/2263
+  frame 1800/2263
+  frame 2100/2263
+--- reel 2/2: slot 3 (ideas) row 2: 3aYy4tj-L8w I1
+[1/4] script  3aYy4tj-L8w I1: 5 Boring Businesses That Quietly Make People Rich in India
+[2/4] voice
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"e1846ba1d57d67d29d3165946c41b531"}}
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      205 words, 74.5s, model eleven_v4
+[3/4] render
+  frame 0/2263
+  frame 300/2263
+  frame 600/2263
+  frame 900/2263
+  frame 1200/2263
+  frame 1500/2263
+  frame 1800/2263
+  frame 2100/2263
+added 2 reel(s) to Buffer

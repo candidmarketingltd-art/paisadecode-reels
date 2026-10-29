@@ -9,3 +9,5 @@ run_at_ist,video_id,angle,status,note
 2026-10-29 16:16,lj1xmsQKwcE,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
 2026-10-29 16:18,RFRlBf96f2A,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
 2026-10-29 16:20,RFRlBf96f2A,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
+2026-10-29 16:24,RFRlBf96f2A,A,in_buffer,6ae325fa35265d851e02c408
+2026-10-29 16:27,3aYy4tj-L8w,I1,in_buffer,6ae326ab568655049ebfebcc
