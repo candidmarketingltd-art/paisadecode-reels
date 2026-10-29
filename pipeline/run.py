@@ -78,11 +78,15 @@ def make_reel(row, workdir):
     if row["status"] == "rendered" and pre.exists():
         plan = json.loads(plan_path.read_text(encoding="utf-8")) if plan_path.exists() else {}
         return str(pre), caption_of(plan, row)
-    tr = transcript.get(vid)
-    print(f"[1/4] script  {vid} {angle}: {row['title']}", flush=True)
-    plan = script_writer.write(tr["text"], tr.get("title") or row["title"], angle, row["angle_brief"], previous_hooks(vid, angle))
-    PLANS.mkdir(parents=True, exist_ok=True)
-    plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
+    if plan_path.exists():  # script + edit already written on an earlier attempt -> don't pay Claude twice
+        print(f"[1/4] script  {vid} {angle}: reusing saved plan", flush=True)
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+    else:
+        tr = transcript.get(vid)
+        print(f"[1/4] script  {vid} {angle}: {row['title']}", flush=True)
+        plan = script_writer.write(tr["text"], tr.get("title") or row["title"], angle, row["angle_brief"], previous_hooks(vid, angle))
+        PLANS.mkdir(parents=True, exist_ok=True)
+        plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     print("[2/4] voice", flush=True)
     mp3 = f"{workdir}/vo.mp3"
     words, model = voice.synthesize(plan["voiceover"], mp3)
@@ -176,7 +180,7 @@ def refill(rows, target, dry):
             except script_writer.FactCheckError as e:
                 row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
             except Exception as e:
-                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); continue
+                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); break
             if dry:
                 print(f"DRY RUN — reel at {mp4}"); log(row, "dry_run", mp4); made += 1; k += 1; continue
             try:
