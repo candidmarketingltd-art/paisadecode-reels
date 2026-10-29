@@ -155,6 +155,8 @@ def main():
 def refill(rows, target, dry):
     """Buffer mode: keep `target` reels waiting in Buffer's queue (stays inside the free plan's queue limit)."""
     from pipeline import buffer
+    for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "APIFY_TOKEN", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"):
+        print(f"  {k}: {'set' if os.environ.get(k) else 'MISSING'}", flush=True)
     level, how = buffer.queued_count()
     need = max(0, target - level)
     print(f"Buffer queue: {level} waiting ({how}); target {target} -> making {need}", flush=True)
