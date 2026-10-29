@@ -133,6 +133,8 @@ def main():
     rows = load()
     if "--refill" in args:
         return refill(rows, int(args[args.index("--refill") + 1]), dry)
+    if "--make" in args:
+        return make_batch(rows, int(args[args.index("--make") + 1]), int(os.environ.get("BUFFER_CAP") or 9))
     now = dt.datetime.now(IST)
     slot = int(args[args.index("--slot") + 1]) if "--slot" in args else current_slot(now)
     if "--row" in args:
@@ -179,6 +181,17 @@ def refill(rows, target, dry):
     try: k = json.loads(st_path.read_text())["next"]
     except Exception: k = 0
     made = 0; tries = 0; errors = []
+    for i, row in sorted([(i, r) for i, r in enumerate(rows) if r["status"] == "ready"], key=lambda x: x[1].get("posted_at", "")):
+        if made >= need: break
+        pf = PLANS / f"{row['video_id']}_{row['angle']}.json"
+        plan = json.loads(pf.read_text(encoding="utf-8")) if pf.exists() else {}
+        try:
+            pid = buffer.add_to_queue(row["notes"], caption_of(plan, row))
+        except Exception as e:
+            errors.append(str(e)[:200]); print("could not queue ready reel:", e); need = made; break  # Buffer refused -> don't make new ones either
+        row.update(status="in_buffer", ig_media_id=pid, posted_at=f"queued {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
+        save(rows); log(row, "in_buffer", pid); made += 1
+        print(f"--- queued ready-made reel {row['video_id']} {row['angle']}", flush=True)
     while made < need and tries < need + 4:
         tries += 1
         slot = k % 3 + 1
@@ -210,6 +223,47 @@ def refill(rows, target, dry):
     if errors and made < need:
         print("::error::" + " | ".join(errors))
         sys.exit(1)  # show the run as failed so problems are visible in Actions
+
+
+def make_batch(rows, n, cap):
+    """Make n reels now. Queue them in Buffer while it has room (keeps <= cap waiting, free plan max is 10);
+    the rest are hosted and marked 'ready' so the twice-daily top-ups queue them later without re-rendering."""
+    from pipeline import buffer
+    level, how = buffer.queued_count()
+    print(f"Batch: making {n} reels; Buffer has {level} waiting ({how}), cap {cap}", flush=True)
+    st_path = ROOT / "logs" / "rotation.json"
+    try: k = json.loads(st_path.read_text())["next"]
+    except Exception: k = 0
+    made = queued = 0; errors = []
+    while made < n and len(errors) < 3:
+        slot = k % 3 + 1
+        i, row = pick(rows, slot)
+        if row is None: print("calendar empty"); break
+        print(f"--- reel {made + 1}/{n}: slot {slot} ({SLOT_CAT[slot]}) {row['video_id']} {row['angle']}", flush=True)
+        with tempfile.TemporaryDirectory() as wd:
+            try:
+                mp4, caption = make_reel(row, wd)
+                url = buffer.host_video(mp4, f"reel-{row['video_id']}-{row['angle']}".replace("_", "-"))
+            except script_writer.FactCheckError as e:
+                row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
+            except Exception as e:
+                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); continue
+        made += 1; k += 1; st_path.write_text(json.dumps({"next": k}))
+        if level + queued < cap:
+            try:
+                pid = buffer.add_to_queue(url, caption)
+                row.update(status="in_buffer", ig_media_id=pid, notes=url, posted_at=f"queued {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
+                save(rows); log(row, "in_buffer", pid); queued += 1
+                print(f"      queued in Buffer ({level + queued} waiting)", flush=True)
+                continue
+            except Exception as e:
+                print(f"      Buffer full or refused ({str(e)[:120]}) -> keeping as ready", flush=True)
+        row.update(status="ready", notes=url, posted_at=f"ready {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
+        save(rows); log(row, "ready", url)
+    buffer.remember_level(level + queued)
+    print(f"made {made} reels: {queued} queued in Buffer, {made - queued} ready for the next top-ups")
+    if errors and made == 0:
+        print("::error::" + " | ".join(errors)); sys.exit(1)
 
 
 if __name__ == "__main__":

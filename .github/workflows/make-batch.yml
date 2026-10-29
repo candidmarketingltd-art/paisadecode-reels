@@ -1,0 +1,83 @@
+name: Make a batch of reels now
+
+# Used when the repo variable POSTING_MODE = buffer.
+# Twice a day: count what's waiting in Buffer and top it up to 9 (free plan holds max 10).
+# Ready-made reels (from a batch) are queued first, so nothing is rendered twice.
+# Buffer's own posting schedule (08:30 / 13:30 / 19:30 IST) publishes them.
+on:
+  push:
+    paths: ["triggers/make-now.txt"]   # push a number to this file to make that many reels now
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "How many reels to make now (extra ones wait as ready-made)"
+        default: "20"
+      dry_run:
+        description: "Render only, don't send to Buffer"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  refill:
+    if: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig
+          mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
+      - name: Python packages
+        run: |
+          pip install -q -r requirements.txt
+          python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
+      - name: Make reels and queue them in Buffer
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          BUFFER_ORG_ID: ${{ vars.BUFFER_ORG_ID }}
+          MEDIA_REPO: ${{ vars.MEDIA_REPO }}
+          MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
+          EDIT_MODEL: ${{ vars.EDIT_MODEL }}
+          VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '' }}
+        run: |
+          TARGET="${{ inputs.target }}"
+          if [ "${{ github.event_name }}" = "push" ]; then TARGET=$(tr -dc '0-9' < triggers/make-now.txt); fi
+          python -m pipeline.run --make "${TARGET:-20}"
+      - name: Keep the reels (7 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reels-${{ github.run_number }}
+          path: out/*.mp4
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Save calendar & logs
+        if: always()
+        run: |
+          git config user.name "paisadecode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for d in calendar logs transcripts; do [ -e "$d" ] && git add "$d"; done
+          git diff --cached --quiet || git commit -m "batch ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"
