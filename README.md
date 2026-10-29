@@ -3,10 +3,10 @@
 Three Hindi reels a day, made from the @PaisaDecodeHQ YouTube channel and posted to Instagram with no one touching anything.
 
 ```
-calendar slot ─▶ YouTube transcript ─▶ Claude writes script + scene plan ─▶ fact-check every number
+calendar slot ─▶ YouTube transcript ─▶ Gemini writes script + scene plan ─▶ fact-check every number
    (Apify)                               (prompts/script_writer.md)          (stops if anything is invented)
-        ─▶ ElevenLabs "Rohan" voice + word timings ─▶ render Rohan mascot reel ─▶ sound design + mix ─▶ post to Instagram
-                                                     (pipeline/render)                                (Graph API)
+        ─▶ ElevenLabs "Rohan" voice + word timings ─▶ render Rohan mascot reel ─▶ theme music + mix ─▶ Buffer queue ─▶ Instagram
+           (free Microsoft voice when credits run out)  (pipeline/render)
 ```
 
 | When (IST) | Slot | What gets posted |
@@ -21,55 +21,51 @@ with the Instagram link, and every run is logged in `logs/runs.csv`. Scripts are
 
 ---
 
-## One-time setup (~20 minutes)
+## One-time setup — 100% free (~20 minutes)
 
-All keys go into **GitHub → this repo → Settings → Secrets and variables → Actions → New repository secret**.
-Never paste them into chat or commit them.
+Secrets go in **GitHub → this repo → Settings → Secrets and variables → Actions → Secrets**.
+Plain settings go in the **Variables** tab of the same page. Never paste keys into chat or commit them.
 
-### 1. Claude API — writes the scripts
-console.anthropic.com → API keys → create key → secret **`ANTHROPIC_API_KEY`**.
+### 0. Make this repo public
+Settings → General → Danger zone → *Change visibility* → Public.
+Buffer downloads each video from a public link, and public repos get **unlimited free GitHub Actions minutes**.
+Your keys stay private (secrets are never shown, even in public repos).
 
-### 2. ElevenLabs — Rohan's voice
-elevenlabs.io → profile → API keys → create key (same workspace as the "Rohan" voice) → secret **`ELEVENLABS_API_KEY`**.
-Each reel uses ~1,100 credits → ~100,000 credits/month at 3 reels a day. The **Pro** plan (500k) gives comfortable headroom;
-Creator (100k) is just enough.
+### 1. Script writing — Google Gemini (free)
+aistudio.google.com → *Get API key* → create key (no card needed) → secret **`GEMINI_API_KEY`**.
+(Free tier: Google may use free-tier prompts to improve its products — fine here, scripts are public anyway.)
 
-### 3. Apify — YouTube transcripts and new-upload detection
-console.apify.com → Settings → API & Integrations → copy the personal token → secret **`APIFY_TOKEN`**. (Costs cents per month.)
+### 2. Voice — ElevenLabs "Rohan" while credits last, then a free Microsoft voice
+elevenlabs.io → API keys → create key (same workspace as the "Rohan" voice) → secret **`ELEVENLABS_API_KEY`**.
+When your monthly ElevenLabs credits run out, reels automatically switch to Microsoft's free Hindi voice
+(`hi-IN-MadhurNeural`) until credits refill, so posting never stops.
+Want the free voice always (consistent sound, ₹0)? Add variable **`VOICE_PROVIDER`** = `edge`.
 
-### 4. Instagram — posting (pick ONE)
+### 3. Transcripts — Apify (free plan)
+console.apify.com → Settings → API & Integrations → personal token → secret **`APIFY_TOKEN`**.
 
-**Option A — easy (recommended): Upload-Post**
-1. Instagram app → switch to a **Professional (Creator or Business)** account (no Facebook Page needed).
-2. Sign up at **app.upload-post.com** → create a profile (e.g. `paisadecode`) → *Connect* → Instagram → log in and approve.
-3. Upload-Post → *API Keys* → create a key → GitHub secret **`UPLOAD_POST_API_KEY`**.
-4. GitHub → Settings → Secrets and variables → **Variables** tab → new variable **`UPLOAD_POST_USER`** = your profile name.
-5. Plan: the free plan allows 10 uploads a month; 3 reels a day needs a paid plan (from $16/month billed yearly, $24 monthly).
+### 4. Posting — Buffer (free plan)
+1. Instagram app → switch to a **Professional (Creator or Business)** account.
+2. buffer.com → sign up free → *Connect channel* → Instagram.
+3. Buffer → *Settings → Posting schedule* for the Instagram channel → set times **08:30, 13:30, 19:30** (timezone Asia/Kolkata), every day.
+4. publish.buffer.com/settings/api → create an API key → secret **`BUFFER_API_KEY`**.
+5. Open the Instagram channel in Buffer — the address bar shows `.../channels/<ID>/...` → variable **`BUFFER_CHANNEL_ID`** = that ID.
+6. Variable **`POSTING_MODE`** = `buffer`.
 
-When `UPLOAD_POST_API_KEY` is set the pipeline uses Upload-Post and ignores the Meta settings below.
-
-**Option B — free: Meta's own API** (more setup, no monthly fee)
-
-Uses the official Instagram API with Facebook Login, with a System User token that **never expires**.
-
-1. In the Instagram app: Settings → Account type → switch to **Professional (Creator or Business)**, and link it to a **Facebook Page**.
-2. Go to **business.facebook.com** → create a Business portfolio (if you don't have one) → *Accounts* → add your Facebook Page and your Instagram account.
-3. Go to **developers.facebook.com** → *Create app* → type **Business** → connect it to that Business portfolio →
-   add the product **Instagram** → choose *API setup with Facebook login*.
-4. Back in **business.facebook.com → Settings → Users → System users** → *Add* (role: Admin).
-   - *Assign assets*: your Page (full control) and your Instagram account (full control). *Add assets* → *Apps* → your new app.
-   - *Generate token* → pick your app → expiry **Never** → tick `instagram_basic`, `instagram_content_publish`,
-     `pages_read_engagement`, `pages_show_list` → copy it → secret **`IG_ACCESS_TOKEN`**.
-5. Find your Instagram account ID: open **developers.facebook.com/tools/explorer**, paste the token, and run
-   `me/accounts?fields=name,instagram_business_account` → copy `instagram_business_account.id` → secret **`IG_USER_ID`**.
+Twice a day the bot checks Buffer's queue and adds reels until **6** are waiting — always under the free plan's limit.
+Buffer publishes them at your three daily times.
 
 ### 5. Test, then go live
-- **Actions → Make & post reel → Run workflow** with *dry_run* ticked. When it finishes, download the reel from the run's *Artifacts*.
-- Happy with it? Run once more with *dry_run* unticked to post for real. From then on the schedule runs by itself.
-- Optional repo **variables** (Settings → Secrets and variables → Variables): `CLAUDE_MODEL` (default `claude-sonnet-5-5`),
-  `ELEVENLABS_VOICE_ID` (default: Rohan), `DRY_RUN=true` to pause posting without turning anything off.
+- **Actions → Top up Buffer queue → Run workflow** with *target* = `1` and *dry_run* ticked → download the reel from *Artifacts*.
+- Happy? Run it again with *dry_run* unticked and target `6`. From then on it runs by itself.
 
----
+<details><summary>Other posting options (optional)</summary>
+
+- **Meta's own API (free, no queue limit, more setup):** follow Meta's System User token steps, add secrets `IG_USER_ID` + `IG_ACCESS_TOKEN`,
+  and leave `POSTING_MODE` empty — the *Make & post reel* workflow then posts directly at 08:30 / 13:30 / 19:30.
+- **Upload-Post (paid for 3/day):** secret `UPLOAD_POST_API_KEY`, variable `UPLOAD_POST_USER`.
+- **Claude instead of Gemini for scripts (paid, per use):** secret `ANTHROPIC_API_KEY` — used automatically when present.
+</details>
 
 ## Everyday controls
 - **Pause everything:** Actions → *Make & post reel* → ⋯ → *Disable workflow*.
@@ -79,9 +75,9 @@ Uses the official Instagram API with Facebook Login, with a System User token th
 - **Something failed:** the run shows red in Actions; the calendar row gets a note. A reel that fails twice is marked `failed` and the queue moves on.
   If the fact-check rejects a script (a number not found in the video), the row becomes `skipped_factcheck` and nothing is posted.
 
-## Costs (approx., per month at 90 reels)
-GitHub Actions: free for this usage (~12–15 min per run) · Claude API: a few dollars · ElevenLabs: Creator/Pro plan · Apify: < $1.
-Instagram allows up to 100 API posts per 24 hours, so 3 a day is far inside the limit.
+## Costs
+₹0 with the setup above: GitHub (public repo), Gemini free tier, Apify free credit, Buffer free plan, Microsoft voice.
+The only thing that can cost money is ElevenLabs — and the bot never goes past the credits your current plan includes.
 
 ## Layout
 ```

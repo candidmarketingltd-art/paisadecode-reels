@@ -1,10 +1,36 @@
-"""Write the reel script + scene plan with the Claude API, then fact-check every number against the transcript."""
+"""Write the reel script + scene plan (Gemini free tier, or Claude if a key is set), then fact-check every number against the transcript."""
 import json, os, re
 from pathlib import Path
-import anthropic
+import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
+MODEL = os.environ.get("CLAUDE_MODEL") or "claude-sonnet-5-5"
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+
+
+def _chat(system, msgs):
+    """One model call. Uses Claude if ANTHROPIC_API_KEY is set, otherwise Gemini's free tier (GEMINI_API_KEY)."""
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        import anthropic
+        resp = anthropic.Anthropic().messages.create(model=MODEL, max_tokens=8000, system=system, messages=msgs)
+        return "".join(b.text for b in resp.content if b.type == "text").strip()
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError("set GEMINI_API_KEY (free) or ANTHROPIC_API_KEY")
+    body = {"systemInstruction": {"parts": [{"text": system}]},
+            "contents": [{"role": "model" if m["role"] == "assistant" else "user", "parts": [{"text": m["content"]}]} for m in msgs],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.8, "maxOutputTokens": 8192}}
+    for attempt in range(4):
+        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                          params={"key": key}, json=body, timeout=300)
+        if r.status_code in (429, 500, 503) and attempt < 3:
+            import time; time.sleep(30 * (attempt + 1)); continue
+        if r.status_code >= 400:
+            raise RuntimeError(f"Gemini {r.status_code}: {r.text[:400]}")
+        cands = r.json().get("candidates") or []
+        if not cands:
+            raise RuntimeError(f"Gemini returned no text: {r.text[:300]}")
+        return "".join(p.get("text", "") for p in cands[0].get("content", {}).get("parts", [])).strip()
 
 
 class FactCheckError(Exception):
@@ -37,12 +63,10 @@ def write(transcript, title, angle_code, angle_brief, previous_hooks=()):
             + (f"Other reels from this video already used these hooks — pick a different hook and focus:\n- " + "\n- ".join(previous_hooks) + "\n\n" if previous_hooks else "")
             + f"TRANSCRIPT (auto-generated Hindi captions; may contain small recognition errors — ignore garbled numbers):\n{transcript}\n\n"
             "Return only the JSON plan.")
-    client = anthropic.Anthropic()
     msgs = [{"role": "user", "content": user}]
     last_err = None
     for attempt in range(3):
-        resp = client.messages.create(model=MODEL, max_tokens=8000, system=system, messages=msgs)
-        raw = "".join(b.text for b in resp.content if b.type == "text").strip()
+        raw = _chat(system, msgs)
         raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
         try:
             plan = json.loads(raw)

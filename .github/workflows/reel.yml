@@ -26,6 +26,8 @@ concurrency:
 
 jobs:
   reel:
+    # direct posting via Meta API / Upload-Post; switched off when POSTING_MODE = buffer
+    if: vars.POSTING_MODE != 'buffer' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -49,6 +51,7 @@ jobs:
 
       - name: Make reel
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -57,6 +60,9 @@ jobs:
           UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
           UPLOAD_POST_USER: ${{ vars.UPLOAD_POST_USER }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
         run: |

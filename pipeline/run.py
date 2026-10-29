@@ -116,6 +116,8 @@ def main():
     args = sys.argv[1:]
     dry = "--dry-run" in args or os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
     rows = load()
+    if "--refill" in args:
+        return refill(rows, int(args[args.index("--refill") + 1]), dry)
     now = dt.datetime.now(IST)
     slot = int(args[args.index("--slot") + 1]) if "--slot" in args else current_slot(now)
     if "--row" in args:
@@ -148,6 +150,46 @@ def main():
         row.update(status="posted", ig_media_id=mid, notes=link, posted_at=dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"))
         save(rows); log(row, "posted", link)
         print(f"POSTED {mid} {link}")
+
+
+def refill(rows, target, dry):
+    """Buffer mode: keep `target` reels waiting in Buffer's queue (stays inside the free plan's queue limit)."""
+    from pipeline import buffer
+    level, how = buffer.queued_count()
+    need = max(0, target - level)
+    print(f"Buffer queue: {level} waiting ({how}); target {target} -> making {need}", flush=True)
+    st_path = ROOT / "logs" / "rotation.json"
+    try: k = json.loads(st_path.read_text())["next"]
+    except Exception: k = 0
+    made = 0; tries = 0
+    while made < need and tries < need + 4:
+        tries += 1
+        slot = k % 3 + 1
+        i, row = pick(rows, slot)
+        if row is None: print("calendar empty"); break
+        print(f"--- reel {made + 1}/{need}: slot {slot} ({SLOT_CAT[slot]}) row {i}: {row['video_id']} {row['angle']}", flush=True)
+        with tempfile.TemporaryDirectory() as wd:
+            try:
+                mp4, caption = make_reel(row, wd)
+            except script_writer.FactCheckError as e:
+                row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
+            except Exception as e:
+                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); continue
+            if dry:
+                print(f"DRY RUN — reel at {mp4}"); log(row, "dry_run", mp4); made += 1; k += 1; continue
+            try:
+                tag = f"reel-{row['video_id']}-{row['angle']}".replace("_", "-")
+                url = buffer.host_video(mp4, tag)
+                pid = buffer.add_to_queue(url, caption)
+            except Exception as e:
+                traceback.print_exc(); fail(row, f"buffer failed: {str(e)[:250]}"); save(rows); log(row, "publish_error", str(e)[:300]); break
+            row.update(status="in_buffer", ig_media_id=pid, notes=url, posted_at=f"queued {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
+            save(rows); log(row, "in_buffer", pid)
+            made += 1; k += 1
+            st_path.write_text(json.dumps({"next": k}))
+    if not dry:
+        buffer.remember_level(level + made)
+    print(f"added {made} reel(s) to Buffer")
 
 
 if __name__ == "__main__":

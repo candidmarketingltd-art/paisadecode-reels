@@ -1,0 +1,81 @@
+name: Top up Buffer queue (free plan)
+
+# Used when the repo variable POSTING_MODE = buffer.
+# Twice a day: count what's waiting in Buffer and make new reels until 6 are queued.
+# Buffer's own posting schedule (08:30 / 13:30 / 19:30 IST) publishes them.
+on:
+  schedule:
+    - cron: "10 0 * * *"    # 05:40 IST
+    - cron: "10 11 * * *"   # 16:40 IST
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "How many reels to keep waiting in Buffer"
+        default: "6"
+      dry_run:
+        description: "Render only, don't send to Buffer"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  refill:
+    if: vars.POSTING_MODE == 'buffer' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig
+          mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
+      - name: Python packages
+        run: |
+          pip install -q -r requirements.txt
+          python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
+      - name: Make reels and queue them in Buffer
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          BUFFER_ORG_ID: ${{ vars.BUFFER_ORG_ID }}
+          MEDIA_REPO: ${{ vars.MEDIA_REPO }}
+          MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '' }}
+        run: python -m pipeline.run --refill "${{ inputs.target || '6' }}"
+      - name: Keep the reels (7 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reels-${{ github.run_number }}
+          path: out/*.mp4
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Save calendar & logs
+        if: always()
+        run: |
+          git config user.name "paisadecode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add calendar logs transcripts
+          git diff --cached --quiet || git commit -m "buffer refill ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"

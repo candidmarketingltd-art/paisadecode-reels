@@ -40,14 +40,64 @@ def _stt_words(mp3_path):
     return out
 
 
+EDGE_VOICE = os.environ.get("EDGE_VOICE") or "hi-IN-MadhurNeural"
+
+
+def _edge(text, mp3_path):
+    """Free Microsoft neural Hindi voice (via edge-tts) with word timings. Audio tags are removed."""
+    import asyncio, re
+    import edge_tts
+    clean = re.sub(r"\[[^\]]*\]", " ", text)
+    clean = re.sub(r"[ \t]+", " ", clean).strip()
+    words = []
+
+    async def go():
+        try:
+            comm = edge_tts.Communicate(clean, EDGE_VOICE, rate="+6%", boundary="WordBoundary")
+        except TypeError:  # older edge-tts versions emit word boundaries by default
+            comm = edge_tts.Communicate(clean, EDGE_VOICE, rate="+6%")
+        with open(mp3_path, "wb") as f:
+            async for chunk in comm.stream():
+                if chunk["type"] == "audio":
+                    f.write(chunk["data"])
+                elif chunk["type"] == "WordBoundary":
+                    s = chunk["offset"] / 1e7; d = chunk["duration"] / 1e7
+                    words.append((chunk["text"], s, s + d))
+    asyncio.run(go())
+    words = [w for w in words if any(c.isalnum() for c in w[0])]
+    if len(words) < 20:
+        raise RuntimeError("edge-tts returned no word timings")
+    return words
+
+
+def _quota_error(status, body):
+    b = body.lower()
+    return status in (400, 401, 402, 429) and any(k in b for k in ("quota", "credit", "limit", "subscription", "payment"))
+
+
 def synthesize(text, mp3_path):
-    """Returns list of (word, start, end). Writes the MP3."""
+    """Returns (words, voice_used). Uses ElevenLabs (Rohan) while credits last, else the free Microsoft voice."""
+    if os.environ.get("VOICE_PROVIDER", "").lower() == "edge" or not os.environ.get("ELEVENLABS_API_KEY"):
+        return _edge(text, mp3_path), f"edge:{EDGE_VOICE}"
+    try:
+        return _eleven(text, mp3_path)
+    except QuotaError as e:
+        print(f"      ElevenLabs out of credits ({e}) -> using free voice {EDGE_VOICE}", flush=True)
+        return _edge(text, mp3_path), f"edge:{EDGE_VOICE}"
+
+
+class QuotaError(RuntimeError):
+    pass
+
+
+def _eleven(text, mp3_path):
     last = None
     for model in MODELS:
         r = requests.post(f"{API}/text-to-speech/{VOICE}/with-timestamps", params={"output_format": "mp3_44100_128"},
                           headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
         if r.status_code >= 400:
             last = f"{model}: {r.status_code} {r.text[:300]}"
+            if _quota_error(r.status_code, r.text): raise QuotaError(last)
             if r.status_code in (400, 404, 422): continue  # model not available for this voice/account -> try next
             r.raise_for_status()
         js = r.json()
