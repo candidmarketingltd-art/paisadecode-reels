@@ -100,7 +100,8 @@ def host_video(path, tag):
 
 def add_to_queue(video_url, caption):
     inp = {"text": caption, "channelId": os.environ["BUFFER_CHANNEL_ID"], "schedulingType": Enum("automatic"), "mode": Enum("addToQueue"),
-           "assets": [{"video": {"url": video_url, "metadata": {"thumbnailOffset": 6000}}}]}
+           "assets": [{"video": {"url": video_url, "metadata": {"thumbnailOffset": 6000}}}],
+           "metadata": {"instagram": {"type": Enum("reel"), "shouldShareToFeed": True}}}
     m = ("mutation CreatePost { createPost(input: %s) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }" % lit(inp))
     res = _gql(m)["createPost"]
     if not res.get("post"):
