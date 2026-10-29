@@ -1,0 +1,284 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹11,000... ₹6 लाख... और 2018 की एक पुरानी पेट्रोल गाड़ी।\n\n[intrigued, building energy] E20 की वजह से तुम्हारा साल का पेट्रोल बिल ₹7,000 से ₹11,000 बढ़ सकता है। और इसे बचाने के लिए लोग ₹6 लाख extra देने को तैयार हैं। ये मैथ किसने सिखाया?\n\n[excited, fast] देखो हिसाब। गाड़ी 15 kmpl देती थी। साल में 12,000 कि.मी., पेट्रोल ₹100 लीटर। मतलब 800 लीटर, ₹80,000। अब माइलेज 8% गिरी, तो 870 लीटर, ₹87,000। फ़र्क़ सिर्फ़ ₹7,000। [serious] 12% गिरी? तब भी बस ₹11,000।\n\n[punchy] अब दूसरी तरफ़। पुरानी गाड़ी ₹4 लाख में बेचो, नई के लिए जेब से ₹6 लाख extra। [amused] यानी 5 साल में ₹55,000 का पेट्रोल बचाने के लिए ₹6 लाख फूँक दिए।\n\n[mysterious, slower] असली खेल ये है। तुम्हारा प्रॉब्लम छोटा सा running cost का था। [emphatic] तुमने उसे ₹6 लाख का capital cost प्रॉब्लम बना दिया।\n\n[confident] तो क्या करें? पहला: फ्यूल कैप, ओनर मैनुअल या service center से अपनी गाड़ी की E20 compatibility चेक करो। दूसरा: अपनी असली kmpl नापो और extra खर्च ₹ में निकालो। तीसरा: अगली सर्विस पर फ्यूल सिस्टम inspect कराओ। ₹5,000 से ₹10,000 का upgrade बनाम ₹6 लाख का रिप्लेसमेंट।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोल रहा है, \"यार E20 आ गया, अब गाड़ी बेचनी पड़ेगी।\"",
+ "ig_caption": "₹10,000 के साल के प्रॉब्लम के लिए ₹6 लाख का फ़ैसला? 🚗 E20 का असली मैथ देखो।\n\nउस दोस्त को भेजो जो पुरानी गाड़ी बेचने की सोच रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#E20Petrol",
+  "#CarMath",
+  "#PaisaDecode",
+  "#OldCar",
+  "#PersonalFinanceIndia",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "2018",
+  "₹11,000",
+  "₹6 लाख",
+  "₹7,000 से ₹11,000",
+  "15 kmpl",
+  "12,000 कि.मी.",
+  "₹100 पर लीटर",
+  "800 लीटर",
+  "₹80,000",
+  "8%",
+  "870 लीटर",
+  "₹87,000",
+  "₹7,000",
+  "12%",
+  "₹11,000",
+  "₹4 लाख",
+  "₹6 लाख extra",
+  "5 साल",
+  "₹55,000",
+  "₹5,000 से ₹10,000"
+ ],
+ "cold_open": [
+  {
+   "text": "₹11,000",
+   "at": "₹11,000"
+  },
+  {
+   "text": "₹6 लाख",
+   "at": "₹6 लाख"
+  },
+  {
+   "text": "2018 की पुरानी गाड़ी",
+   "at": "और 2018 की"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "E20 की वजह",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "बढ़ सकता",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "E20: साल का extra बिल",
+    "value": "₹7,000–₹11,000",
+    "value_at": "₹7,000 से",
+    "note": "पेट्रोल बिल बढ़ा",
+    "note_at": "बढ़ सकता",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "और इसे बचाने",
+   "mood": "shocked",
+   "beats": [
+    {
+     "at": "ये मैथ",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "₹6 लाख extra?",
+    "at": "₹6 लाख extra",
+    "sub": "ये मैथ किसने सिखाया?",
+    "sub_at": "ये मैथ",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "देखो हिसाब",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "पुराना हिसाब",
+    "items": [
+     {
+      "text": "15 kmpl",
+      "at": "15 kmpl"
+     },
+     {
+      "text": "12,000 कि.मी./साल",
+      "at": "12,000 कि.मी."
+     },
+     {
+      "text": "पेट्रोल ₹100/लीटर",
+      "at": "₹100 लीटर"
+     }
+    ],
+    "final": "800 लीटर = ₹80,000",
+    "final_at": "₹80,000"
+   }
+  },
+  {
+   "at": "अब माइलेज 8%",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "फ़र्क़ सिर्फ़",
+     "mood": "smirk",
+     "point": false
+    }
+   ],
+   "card": {
+    "type": "compare_arrow",
+    "title": "माइलेज 8% गिरी",
+    "from_text": "870 लीटर",
+    "from_at": "870 लीटर",
+    "to_text": "₹87,000",
+    "to_at": "₹87,000",
+    "result": "फ़र्क़ सिर्फ़ ₹7,000",
+    "result_at": "फ़र्क़ सिर्फ़"
+   }
+  },
+  {
+   "at": "12% गिरी",
+   "mood": "serious",
+   "card": {
+    "type": "big_number",
+    "label": "माइलेज 12% गिरी?",
+    "value": "₹11,000",
+    "value_at": "बस ₹11,000",
+    "note": "तब भी बस इतना",
+    "note_at": "तब भी",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "अब दूसरी तरफ़",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "split",
+    "title": "दूसरी तरफ़",
+    "title_at": "दूसरी तरफ़",
+    "left": {
+     "text": "पुरानी: ₹4 लाख",
+     "at": "₹4 लाख",
+     "color": "white"
+    },
+    "right": {
+     "text": "जेब से +₹6 लाख",
+     "at": "जेब से",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "यानी 5 साल",
+   "mood": "smirk",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "फूँक दिए",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "5 साल का हिसाब",
+    "title_at": "यानी 5 साल",
+    "left": {
+     "text": "बचत ₹55,000",
+     "at": "₹55,000",
+     "color": "green"
+    },
+    "right": {
+     "text": "फूँके ₹6 लाख",
+     "at": "फूँक दिए",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "असली खेल",
+   "mood": "smirk",
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "असली खेल",
+    "at": "असली खेल",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "तुम्हारा प्रॉब्लम",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "compare_arrow",
+    "title": "प्रॉब्लम बदल गया",
+    "from_text": "छोटा running cost",
+    "from_at": "running cost",
+    "to_text": "₹6 लाख capital cost",
+    "to_at": "capital cost",
+    "result": "खुद बना दिया!",
+    "result_at": "बना दिया"
+   }
+  },
+  {
+   "at": "तो क्या",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "3 काम करो",
+    "items": [
+     {
+      "text": "E20 compatibility चेक",
+      "at": "फ्यूल कैप"
+     },
+     {
+      "text": "असली kmpl नापो",
+      "at": "असली kmpl"
+     },
+     {
+      "text": "फ्यूल सिस्टम inspect",
+      "at": "फ्यूल सिस्टम"
+     }
+    ],
+    "final": "फिर फ़ैसला करो",
+    "final_at": "inspect कराओ"
+   }
+  },
+  {
+   "at": "₹5,000 से",
+   "mood": "smirk",
+   "tint": "green",
+   "card": {
+    "type": "split",
+    "title": "बनाम",
+    "title_at": "₹5,000 से",
+    "left": {
+     "text": "upgrade ₹5,000–10,000",
+     "at": "₹10,000 का",
+     "color": "green"
+    },
+    "right": {
+     "text": "रिप्लेसमेंट ₹6 लाख",
+     "at": "रिप्लेसमेंट",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो गाड़ी बेचने चला है",
+    "line2_at": "यार E20"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

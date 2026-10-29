@@ -1,0 +1,279 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹1.30 प्रति किलोमीटर... ₹6.80 प्रति किलोमीटर... और ₹4 लाख एक्स्ट्रा।\n\n[intrigued, building energy] EV वाला बोलता है, \"भाई, मेरी गाड़ी सिर्फ़ ₹1.30 प्रति किलोमीटर में चलती है।\" पेट्रोल वाला कैलकुलेटर खोलता है, ₹6.80। तो क्या पेट्रोल कार लेना बेवकूफ़ी है? रुको। असली सवाल कुछ और है।\n\n[excited, fast] पहले भैया महीने में सिर्फ़ 600 कि.मी. चलाते हैं। पेट्रोल का बिल ₹4,100। EV का सिर्फ़ ₹770। [amused] EV वाले की छाती चौड़ी। [serious] पर उसने ₹4 लाख extra दिए थे। वो वापस आने में लगेंगे रफ़ली 10 साल।\n\n[punchy] अब दूसरे भैया। महीने के 2500 कि.मी.। पेट्रोल का बिल ₹17,000। EV का ₹3,200। [excited] अब वही ₹4 लाख का premium रफ़ली 29 महीने में, यानी 2.5 साल में वसूल।\n\n[mysterious, slower] गाड़ी वही। रेट वही। प्रति किलोमीटर खर्चा वही। बस किलोमीटर बदले, और जवाब पूरा पलट गया। [emphatic] चीपेस्ट गाड़ी का जवाब शोरूम में नहीं... तुम्हारे ओडोमीटर में है।\n\n[confident] तो पहले, पिछले 6 से 12 महीने का average किलोमीटर निकालो। फिर हर गाड़ी का cost प्रति किलोमीटर। फिर extra दाम को महीने की saving से भाग दो। वही तुम्हारा break-even।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो पूछता है, \"भाई, पेट्रोल लूं, CNG लूं या EV?\"",
+ "ig_caption": "EV ₹1.30 प्रति किमी में चलती है, पेट्रोल ₹6.80 में। फिर भी हर किसी के लिए EV सस्ती नहीं है 🚗 असली सवाल है कि तुम महीने में चलाते कितना हो।\n\nउस दोस्त को भेजो जो पेट्रोल, CNG और EV में कन्फ्यूज़ है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not exact market quotes or financial advice.",
+ "hashtags": [
+  "#PetrolVsEV",
+  "#CNG",
+  "#HybridCars",
+  "#CarBuyingTips",
+  "#PaisaDecode",
+  "#PersonalFinanceIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹1.3 / ₹1.30 per km",
+  "6.80 per km",
+  "4 लाख extra",
+  "600 कि.मी. per month",
+  "₹4100",
+  "₹770",
+  "रफली 10 साल",
+  "2500 कि.मी. per month",
+  "₹17,000",
+  "₹3200",
+  "रफली 29 मंथ",
+  "2.5 इयर्स",
+  "पिछले 6 से 12 महीने"
+ ],
+ "cold_open": [
+  {
+   "text": "₹1.30 / कि.मी.",
+   "at": "₹1.30 प्रति किलोमीटर"
+  },
+  {
+   "text": "₹6.80 / कि.मी.",
+   "at": "₹6.80 प्रति किलोमीटर"
+  },
+  {
+   "text": "+₹4 लाख एक्स्ट्रा",
+   "at": "और ₹4 लाख एक्स्ट्रा"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "EV वाला बोलता",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "कैलकुलेटर खोलता",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "प्रति किलोमीटर खर्चा",
+    "title_at": "EV वाला बोलता",
+    "left": {
+     "text": "EV ₹1.30",
+     "at": "₹1.30",
+     "color": "green"
+    },
+    "right": {
+     "text": "पेट्रोल ₹6.80",
+     "at": "₹6.80",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "तो क्या पेट्रोल",
+   "mood": "smirk",
+   "beats": [
+    {
+     "at": "रुको",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "पेट्रोल = बेवकूफ़ी?",
+    "at": "बेवकूफ़ी",
+    "sub": "असली सवाल कुछ और",
+    "sub_at": "असली सवाल",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पहले भैया",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "छाती चौड़ी",
+     "mood": "smirk",
+     "point": false
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "भैया #1 · 600 कि.मी.",
+    "title_at": "600",
+    "left": {
+     "text": "पेट्रोल ₹4,100",
+     "at": "₹4,100",
+     "color": "red"
+    },
+    "right": {
+     "text": "EV ₹770",
+     "at": "₹770",
+     "color": "green"
+    },
+    "result": "EV की छाती चौड़ी",
+    "result_at": "छाती चौड़ी"
+   }
+  },
+  {
+   "at": "पर उसने",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "10 साल",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "पर... extra दाम",
+    "sub": "₹4 लाख extra दिए",
+    "sub_at": "₹4 लाख extra",
+    "chips": [
+     {
+      "text": "वसूली में",
+      "at": "वापस आने",
+      "color": "muted"
+     }
+    ],
+    "big": "10 साल",
+    "big_at": "10 साल",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "अब दूसरे भैया",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "भैया #2 · 2500 कि.मी.",
+    "title_at": "2500",
+    "left": {
+     "text": "पेट्रोल ₹17,000",
+     "at": "₹17,000",
+     "color": "red"
+    },
+    "right": {
+     "text": "EV ₹3,200",
+     "at": "₹3,200",
+     "color": "green"
+    }
+   }
+  },
+  {
+   "at": "अब वही",
+   "mood": "shocked",
+   "tint": "green",
+   "beats": [
+    {
+     "at": "2.5 साल",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "₹4 लाख premium वसूल",
+    "value": "29 महीने",
+    "value_at": "29 महीने",
+    "note": "यानी 2.5 साल",
+    "note_at": "2.5 साल",
+    "color": "green"
+   }
+  },
+  {
+   "at": "गाड़ी वही",
+   "mood": "neutral",
+   "tint": "cold",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "सब वही",
+    "color": "ice",
+    "items": [
+     {
+      "text": "गाड़ी वही",
+      "at": "गाड़ी वही",
+      "strike": false
+     },
+     {
+      "text": "रेट वही",
+      "at": "रेट वही",
+      "strike": false
+     },
+     {
+      "text": "खर्चा वही",
+      "at": "खर्चा वही",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "बस किलोमीटर बदले",
+   "mood": "shocked",
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "जवाब पलटा",
+    "at": "पूरा पलट",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "चीपेस्ट गाड़ी",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "शोरूम में नहीं...",
+    "at": "शोरूम में",
+    "sub": "तुम्हारे ओडोमीटर में",
+    "sub_at": "ओडोमीटर",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "तो पहले, पिछले",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "मेरा प्लान",
+    "items": [
+     {
+      "text": "6–12 महीने का avg km",
+      "at": "average किलोमीटर"
+     },
+     {
+      "text": "हर गाड़ी: ₹ प्रति km",
+      "at": "हर गाड़ी"
+     },
+     {
+      "text": "extra दाम ÷ saving",
+      "at": "भाग दो"
+     }
+    ],
+    "final": "= तुम्हारा break-even",
+    "final_at": "तुम्हारा break-even"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "पेट्रोल, CNG या EV?",
+    "line2_at": "CNG लूं"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

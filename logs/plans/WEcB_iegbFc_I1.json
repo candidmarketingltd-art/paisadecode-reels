@@ -1,0 +1,323 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹1 लाख... ₹15,000 का किराया... और अभी एक भी कस्टमर नहीं।\n\n[intrigued, building energy] दो बंदे। दोनों के पास ₹1 लाख। एक ने शॉप ली। दूसरे ने मशीन ली और सीधा कस्टमर के घर पहुँच गया। उसका बिज़नेस? सोफ़ा और मैट्रेस की डीप क्लीनिंग। सुनने में बोरिंग है ना? पर असली खेल इसकी कमाई में है।\n\n[excited, fast] सोफ़ा कोई तुम्हारी शॉप पर उठाकर नहीं लाएगा। धूल, दाग, पेट के बाल, बच्चे ने जूस गिरा दिया। प्रॉब्लम कस्टमर के घर में ही पड़ी है। बेसिक सोफ़ा क्लीनिंग रफ़ली ₹400 से शुरू होती है। प्रीमियम सर्विस ₹1500 के आसपास।\n\n[serious] अब बिगिनर सोचता है, \"एक सोफ़ा किया, ₹500 आ गए।\" [punchy] पर 7 कि.मी. जाओ, मशीन सेटअप करो, एक मैट्रेस साफ़ करो, बिल ₹500। फिर पैक करो, और अगले कस्टमर के लिए 8 कि.मी. अलग। [sighs] ये बहुत कमज़ोर है।\n\n[mysterious, slower] अब वही घर, वही ट्रैवल, वही सेटअप। बस सोफ़ा, दो मैट्रेस, कारपेट और डाइनिंग चेयर, सब एक साथ। बिल बना ₹2500। [emphatic] आपको 10 कस्टमर नहीं चाहिए। आपको 10 प्रॉफिटेबल स्टॉप चाहिए।\n\n[confident] तो शॉप मत लो। टूल्स और मशीन लो, WhatsApp बिज़नेस और Google लिस्टिंग बनाओ। और हर घर में एक आइटम नहीं, पूरा घर पिच करो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, पहले शॉप देख रहा हूँ।\"",
+ "ig_caption": "शॉप का किराया ₹15,000, और कस्टमर ज़ीरो 🛋️ सोफ़ा क्लीनिंग में असली गणित एक घर के ₹500 और ₹2500 का है।\n\nउस दोस्त को भेजो जो बिज़नेस के लिए पहले शॉप देख रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nPrices are rough market estimates from the video, not financial advice.",
+ "hashtags": [
+  "#ShoplessBusiness",
+  "#LowInvestmentBusiness",
+  "#ServiceBusiness",
+  "#BusinessIdeasHindi",
+  "#PaisaDecode",
+  "#SmallBusinessIndia"
+ ],
+ "numbers": [
+  "₹1 लाख",
+  "₹15,000",
+  "₹400",
+  "₹1500",
+  "₹500",
+  "7 कि.मी.",
+  "8 कि.मी.",
+  "दो मैट्रेस",
+  "₹2500",
+  "10 कस्टमर",
+  "10 प्रॉफिटेबल स्टॉप"
+ ],
+ "cold_open": [
+  {
+   "text": "₹1 लाख",
+   "at": "₹1 लाख"
+  },
+  {
+   "text": "₹15,000 का किराया",
+   "at": "₹15,000 का किराया"
+  },
+  {
+   "text": "एक भी कस्टमर नहीं",
+   "at": "एक भी कस्टमर"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "दो बंदे",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "icon": "shop",
+    "title": "दोनों के पास ₹1 लाख",
+    "title_at": "दोनों के पास",
+    "left": {
+     "text": "शॉप ली",
+     "at": "शॉप ली",
+     "color": "red"
+    },
+    "right": {
+     "text": "मशीन ली",
+     "at": "मशीन ली",
+     "color": "green"
+    },
+    "result": "सीधा कस्टमर के घर",
+    "result_at": "सीधा कस्टमर"
+   }
+  },
+  {
+   "at": "उसका बिज़नेस?",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "सुनने में बोरिंग",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "सोफ़ा + मैट्रेस",
+    "at": "सोफ़ा और मैट्रेस",
+    "sub": "डीप क्लीनिंग",
+    "sub_at": "डीप क्लीनिंग",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पर असली खेल",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "icon": "coin",
+    "title": "असली खेल =",
+    "at": "असली खेल",
+    "sub": "इसकी कमाई",
+    "sub_at": "कमाई",
+    "color": "gold",
+    "sub_color": "green"
+   }
+  },
+  {
+   "at": "सोफ़ा कोई तुम्हारी",
+   "mood": "smirk",
+   "card": {
+    "type": "strike_list",
+    "title": "घर की प्रॉब्लम",
+    "color": "gold",
+    "items": [
+     {
+      "text": "धूल",
+      "at": "धूल",
+      "strike": false
+     },
+     {
+      "text": "दाग",
+      "at": "दाग",
+      "strike": false
+     },
+     {
+      "text": "पेट के बाल",
+      "at": "पेट के बाल",
+      "strike": false
+     },
+     {
+      "text": "जूस गिरा",
+      "at": "जूस गिरा",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "प्रॉब्लम कस्टमर के",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "प्रॉब्लम घर में है",
+    "at": "प्रॉब्लम कस्टमर",
+    "sub": "शॉप पे नहीं",
+    "sub_at": "पड़ी है",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "बेसिक सोफ़ा क्लीनिंग",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "compare_arrow",
+    "title": "सोफ़ा क्लीनिंग रेट",
+    "from_text": "बेसिक ₹400",
+    "from_at": "₹400",
+    "to_text": "प्रीमियम ₹1500",
+    "to_at": "₹1500",
+    "result": "प्रीमियम सर्विस",
+    "result_at": "प्रीमियम सर्विस"
+   }
+  },
+  {
+   "at": "अब बिगिनर सोचता",
+   "mood": "smirk",
+   "card": {
+    "type": "big_number",
+    "label": "बिगिनर का हिसाब",
+    "value": "₹500",
+    "value_at": "₹500 आ",
+    "note": "एक सोफ़ा किया",
+    "note_at": "गए",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "पर 7 कि.मी.",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "असली हिसाब",
+    "sub": "7 कि.मी. जाओ",
+    "sub_at": "7 कि.मी.",
+    "chips": [
+     {
+      "text": "मशीन सेटअप",
+      "at": "मशीन सेटअप",
+      "color": "white"
+     },
+     {
+      "text": "1 मैट्रेस",
+      "at": "एक मैट्रेस",
+      "color": "white"
+     }
+    ],
+    "big": "₹500",
+    "big_at": "बिल ₹500",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "फिर पैक करो",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "ये बहुत कमज़ोर",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "+8 कि.मी. अलग",
+    "at": "8 कि.मी.",
+    "sub": "बहुत कमज़ोर",
+    "sub_at": "बहुत कमज़ोर",
+    "color": "red",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "अब वही घर",
+   "mood": "smirk",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "बस सोफ़ा",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "checklist",
+    "title": "वही घर, एक स्टॉप",
+    "items": [
+     {
+      "text": "सोफ़ा",
+      "at": "बस सोफ़ा"
+     },
+     {
+      "text": "दो मैट्रेस",
+      "at": "दो मैट्रेस"
+     },
+     {
+      "text": "कारपेट + चेयर",
+      "at": "कारपेट और"
+     }
+    ],
+    "final": "सब एक साथ",
+    "final_at": "सब एक साथ"
+   }
+  },
+  {
+   "at": "बिल बना ₹2500",
+   "mood": "shocked",
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "एक घर का बिल",
+    "value": "₹2500",
+    "value_at": "₹2500",
+    "note": "वही ट्रैवल, वही सेटअप",
+    "note_at": "₹2500",
+    "color": "green"
+   }
+  },
+  {
+   "at": "आपको 10 कस्टमर",
+   "mood": "serious",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "split",
+    "left": {
+     "text": "10 कस्टमर",
+     "at": "10 कस्टमर",
+     "color": "red"
+    },
+    "right": {
+     "text": "10 प्रॉफिटेबल स्टॉप",
+     "at": "प्रॉफिटेबल स्टॉप",
+     "color": "green"
+    }
+   }
+  },
+  {
+   "at": "तो शॉप मत",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "प्लान",
+    "items": [
+     {
+      "text": "शॉप नहीं, मशीन लो",
+      "at": "टूल्स और मशीन"
+     },
+     {
+      "text": "WhatsApp + Google",
+      "at": "WhatsApp बिज़नेस"
+     },
+     {
+      "text": "एक आइटम नहीं",
+      "at": "एक आइटम"
+     }
+    ],
+    "final": "पूरा घर पिच करो!",
+    "final_at": "पिच करो"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो पहले शॉप देख रहा है",
+    "line2_at": "पहले शॉप"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

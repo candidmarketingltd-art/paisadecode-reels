@@ -1,0 +1,325 @@
+{
+ "voiceover": "[slow, deep, dramatic] कोई शोरूम नहीं। कोई वेबसाइट नहीं। बस 20 लीटर के जार... और एक रूट।\n\n[intrigued, building energy] एक बिज़नेस जहां ओनर को सुबह ये नहीं सोचना पड़ता कि आज कस्टमर कहां से आएंगे। और मज़ेदार बात, कमाई जार से नहीं, रूट से होती है। कैसे?\n\n[excited, fast] सीधा सा सिस्टम है। कुछ अपार्टमेंट, एक ऑफिस, कुछ PG, कुछ शॉप्स। सोमवार को जार गए, पानी ख़त्म हुआ, जार खाली। अगले हफ़्ते कस्टमर को फिर पानी चाहिए। ना ऐड, ना ऑफर। Bisleri भी 20 लीटर जार के सब्सक्रिप्शन शेड्यूल ऑफर करता है।\n\n[serious] अब असली खेल देखो। 100 कस्टमर पूरे शहर में बिखरे हैं। [punchy] एक डिलीवरी इधर, दूसरी 7 कि.मी. दूर, फिर ट्रैफ़िक, फिर कस्टमर घर पर नहीं। [sighs] मार्जिन को पेट्रोल और टाइम खा जाते हैं।\n\n[mysterious, slower] अब वही 100 कस्टमर, वही जार, पर 3 से 4 सोसाइटी और ऑफिस क्लस्टर में। [emphatic] बिल्कुल अलग बिज़नेस। क्योंकि असली एसेट जार नहीं है। गाड़ी भी नहीं। असली एसेट है डेंस रिकरिंग रूट।\n\n[confident] तो क्या करना है? पहले क्लस्टर चुनो, पूरे शहर में मत फैलो। सोमवार सुबह पता हो कि कहां जाना है। और याद रखो, कस्टमर कॉम्पिटिटर को कॉल कर सकता है, इसलिए कॉन्ट्रैक्ट की तरफ़ बढ़ो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"बिज़नेस तो वही चलता है जिसमें कस्टमर बार-बार आए।\"",
+ "ig_caption": "वॉटर जार बिज़नेस में कमाई जार से नहीं, रूट से होती है 💧 वही 100 कस्टमर, पर रूट अलग तो बिज़नेस अलग।\n\nउस दोस्त को भेजो जो \"बोरिंग लेकिन पक्का\" बिज़नेस ढूंढ रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNot financial advice.",
+ "hashtags": [
+  "#WaterJarBusiness",
+  "#RecurringRevenue",
+  "#BoringBusiness",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#BusinessIdeas",
+  "#Hindi"
+ ],
+ "numbers": [
+  "20 लीटर",
+  "100 कस्टमर",
+  "7 कि.मी.",
+  "तीन से चार सोसाइटी और ऑफिस क्लस्टर",
+  "एक ऑफिस, दो पीजीस"
+ ],
+ "cold_open": [
+  {
+   "text": "कोई शोरूम नहीं",
+   "at": "कोई शोरूम नहीं"
+  },
+  {
+   "text": "कोई वेबसाइट नहीं",
+   "at": "कोई वेबसाइट नहीं"
+  },
+  {
+   "text": "20 लीटर जार · एक रूट",
+   "at": "बस 20 लीटर"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "एक बिज़नेस जहां",
+   "mood": "neutral",
+   "card": {
+    "type": "headline",
+    "icon": "jar",
+    "title": "कस्टमर ढूंढने की",
+    "at": "सोचना पड़ता",
+    "sub": "टेंशन ज़ीरो",
+    "sub_at": "कस्टमर कहां",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "और मज़ेदार बात",
+   "mood": "smirk",
+   "beats": [
+    {
+     "at": "कैसे",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "कमाई कहां से?",
+    "title_at": "मज़ेदार बात",
+    "left": {
+     "text": "जार ✗",
+     "at": "जार से नहीं",
+     "color": "muted"
+    },
+    "right": {
+     "text": "रूट ✓",
+     "at": "रूट से होती",
+     "color": "gold"
+    },
+    "result": "कैसे?",
+    "result_at": "कैसे"
+   }
+  },
+  {
+   "at": "सीधा सा सिस्टम",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "एक रूट पे कौन?",
+    "items": [
+     {
+      "text": "अपार्टमेंट",
+      "at": "कुछ अपार्टमेंट"
+     },
+     {
+      "text": "ऑफिस",
+      "at": "एक ऑफिस"
+     },
+     {
+      "text": "PG + शॉप्स",
+      "at": "कुछ PG"
+     }
+    ],
+    "final": "सब एक रूट पे",
+    "final_at": "कुछ शॉप्स"
+   }
+  },
+  {
+   "at": "सोमवार को जार",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "compare_arrow",
+    "title": "हर हफ़्ते का चक्र",
+    "from_text": "सोमवार: जार गए",
+    "from_at": "सोमवार को",
+    "to_text": "जार खाली",
+    "to_at": "जार खाली",
+    "result": "फिर पानी चाहिए",
+    "result_at": "फिर पानी"
+   }
+  },
+  {
+   "at": "ना ऐड, ना",
+   "mood": "smirk",
+   "card": {
+    "type": "strike_list",
+    "title": "खर्चा ज़ीरो",
+    "color": "gold",
+    "items": [
+     {
+      "text": "ऐड",
+      "at": "ना ऐड",
+      "strike": true
+     },
+     {
+      "text": "ऑफर",
+      "at": "ना ऑफर",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "Bisleri भी 20",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "icon": "jar",
+    "title": "Bisleri भी",
+    "at": "Bisleri भी",
+    "sub": "20L जार सब्सक्रिप्शन",
+    "sub_at": "सब्सक्रिप्शन",
+    "color": "blue",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "अब असली खेल",
+   "mood": "serious",
+   "card": {
+    "type": "title_slam",
+    "title": "असली खेल",
+    "at": "असली खेल",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "100 कस्टमर पूरे",
+   "mood": "serious",
+   "card": {
+    "type": "big_number",
+    "label": "कस्टमर",
+    "value": "100",
+    "value_at": "100 कस्टमर",
+    "note": "पूरे शहर में बिखरे",
+    "note_at": "बिखरे हैं",
+    "color": "white"
+   }
+  },
+  {
+   "at": "एक डिलीवरी इधर",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "7 कि.मी.",
+     "mood": "shocked"
+    },
+    {
+     "at": "घर पर नहीं",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "बिखरा रूट",
+    "sub": "दूसरी 7 कि.मी. दूर",
+    "sub_at": "7 कि.मी.",
+    "chips": [
+     {
+      "text": "ट्रैफ़िक",
+      "at": "फिर ट्रैफ़िक",
+      "color": "red"
+     },
+     {
+      "text": "कस्टमर घर पर नहीं",
+      "at": "घर पर नहीं",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "at": "मार्जिन को पेट्रोल",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "मार्जिन खा गए",
+    "at": "मार्जिन को",
+    "sub": "पेट्रोल + टाइम",
+    "sub_at": "टाइम खा",
+    "color": "red",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "अब वही 100",
+   "mood": "smirk",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "बिल्कुल अलग",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "compare_arrow",
+    "title": "वही 100 कस्टमर",
+    "from_text": "पूरा शहर",
+    "from_at": "वही जार",
+    "to_text": "3–4 क्लस्टर",
+    "to_at": "3 से 4",
+    "result": "बिल्कुल अलग बिज़नेस",
+    "result_at": "बिल्कुल अलग"
+   }
+  },
+  {
+   "at": "क्योंकि असली एसेट",
+   "mood": "serious",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "strike_list",
+    "title": "असली एसेट?",
+    "color": "ice",
+    "items": [
+     {
+      "text": "जार",
+      "at": "जार नहीं",
+      "strike": true
+     },
+     {
+      "text": "गाड़ी",
+      "at": "गाड़ी भी",
+      "strike": true
+     },
+     {
+      "text": "डेंस रिकरिंग रूट",
+      "at": "डेंस रिकरिंग",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "तो क्या करना",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "कॉम्पिटिटर को",
+     "mood": "serious"
+    },
+    {
+     "at": "कॉन्ट्रैक्ट की",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "checklist",
+    "title": "मेरा प्लान",
+    "items": [
+     {
+      "text": "पहले क्लस्टर चुनो",
+      "at": "पहले क्लस्टर"
+     },
+     {
+      "text": "सोमवार का रूट तय",
+      "at": "सोमवार सुबह"
+     },
+     {
+      "text": "कॉन्ट्रैक्ट की तरफ़",
+      "at": "कॉन्ट्रैक्ट की"
+     }
+    ],
+    "final": "कस्टमर पक्का!",
+    "final_at": "तरफ़ बढ़ो"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "कस्टमर बार-बार आए",
+    "line2_at": "बार-बार आए"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

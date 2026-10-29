@@ -1,0 +1,270 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹50,000 का फोन... तीन दोस्त... और तीन अलग दाम।\n\n[intrigued, building energy] पहले ने UPI से दिए ₹50,000। दूसरे ने क्रेडिट कार्ड से दिए ₹47,500। और तीसरे ने नो कॉस्ट EMI ली, और सारी फीस जोड़ने के बाद भी उसका फोन पड़ा सिर्फ़ ₹47,250। सेम फोन, सेम सेल। तो सबसे सस्ता कौन?\n\n[excited, fast] क्रेडिट कार्ड पे ₹2,500 का इंस्टेंट डिस्काउंट मिला। पर शर्त है, ड्यू डेट पे पूरा बिल भरना पड़ेगा। [serious] सिर्फ़ मिनिमम भरा? तो हर महीने 3.75% तक का चार्ज, और वो डिस्काउंट हवा।\n\n[punchy] अब नो कॉस्ट EMI। इंटरेस्ट सेलर भरता है, पर प्रोसेसिंग फीस और GST तुम्हारी जेब से। उदाहरण में करीब ₹750 एक्स्ट्रा। मतलब ऑफर के बिना फोन ₹50,700 से ₹50,800 तक पहुँच सकता है। [amused] फ्री लोन? फ्री कुछ नहीं होता।\n\n[mysterious, slower] पर यहाँ ट्विस्ट है। इस सेल में EMI पे अलग ₹3,500 का डिस्काउंट था। इसीलिए वही EMI सबसे सस्ती निकली। [emphatic] पेमेंट मेथड का नाम मायने नहीं रखता... ऑफर का स्ट्रक्चर मायने रखता है।\n\n[confident] तो 60 सेकंड में ऐसे निकालो। हर मेथड का अलग प्राइस लिखो। फीस और GST जोड़ो। सिर्फ़ गारंटीड डिस्काउंट घटाओ। और आख़िर में पूछो, बिल पूरा भर पाओगे?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"भाई, नो कॉस्ट EMI तो स्कैम है।\"",
+ "ig_caption": "₹50,000 का एक ही फोन, तीन पेमेंट मेथड, तीन अलग दाम 📱 सबसे सस्ता कौन? जवाब चेकआउट में छुपा है।\n\nउस दोस्त को भेजो जो कहता है \"नो कॉस्ट EMI स्कैम है\" 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#NoCostEMI",
+  "#CreditCard",
+  "#PaisaDecode",
+  "#SmartShopping",
+  "#PersonalFinanceIndia",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹50,000",
+  "₹47,500",
+  "₹47,250",
+  "₹2,500",
+  "3.75%",
+  "₹750",
+  "₹50,700 से ₹50,800",
+  "₹3,500",
+  "60 सेकंड"
+ ],
+ "cold_open": [
+  {
+   "text": "₹50,000 का फोन",
+   "at": "₹50,000 का फोन"
+  },
+  {
+   "text": "3 दोस्त",
+   "at": "तीन दोस्त"
+  },
+  {
+   "text": "3 अलग दाम",
+   "at": "और तीन अलग दाम"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "पहले ने UPI",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "₹47,250",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "3 दोस्त, 3 दाम",
+    "color": "gold",
+    "items": [
+     {
+      "text": "UPI: ₹50,000",
+      "at": "UPI से दिए",
+      "strike": false
+     },
+     {
+      "text": "कार्ड: ₹47,500",
+      "at": "₹47,500",
+      "strike": false
+     },
+     {
+      "text": "EMI: ₹47,250",
+      "at": "₹47,250",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "सेम फोन, सेम",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "सेम फोन, सेम सेल",
+    "at": "सेम फोन",
+    "sub": "सबसे सस्ता कौन?",
+    "sub_at": "सबसे सस्ता कौन?",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "क्रेडिट कार्ड पे",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "इंस्टेंट डिस्काउंट",
+    "value": "₹2,500",
+    "value_at": "₹2,500",
+    "note": "शर्त: पूरा बिल भरो",
+    "note_at": "ड्यू डेट",
+    "color": "green"
+   }
+  },
+  {
+   "at": "सिर्फ़ मिनिमम भरा?",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "3.75% तक",
+     "mood": "shocked"
+    },
+    {
+     "at": "डिस्काउंट हवा",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "शर्त टूटी",
+    "sub": "सिर्फ़ मिनिमम भरा",
+    "sub_at": "मिनिमम भरा?",
+    "chips": [
+     {
+      "text": "डिस्काउंट हवा",
+      "at": "डिस्काउंट हवा",
+      "color": "red"
+     }
+    ],
+    "big": "3.75% हर महीना",
+    "big_at": "3.75% तक",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "अब नो कॉस्ट",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "नो कॉस्ट EMI",
+    "title_at": "अब नो कॉस्ट",
+    "left": {
+     "text": "इंटरेस्ट: सेलर",
+     "at": "सेलर भरता",
+     "color": "green"
+    },
+    "right": {
+     "text": "फीस + GST: तुम",
+     "at": "तुम्हारी जेब",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "उदाहरण में करीब",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "₹50,800 तक",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "फीस + GST",
+    "value": "+₹750",
+    "value_at": "₹750",
+    "note": "फोन ₹50,800 तक",
+    "note_at": "₹50,800 तक",
+    "color": "red"
+   }
+  },
+  {
+   "at": "फ्री लोन?",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "फ्री लोन?",
+    "at": "फ्री लोन?",
+    "sub": "फ्री कुछ नहीं होता",
+    "sub_at": "कुछ नहीं",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पर यहाँ ट्विस्ट",
+   "mood": "shocked",
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "ट्विस्ट",
+    "at": "ट्विस्ट",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "इस सेल में",
+   "mood": "shocked",
+   "tint": "green",
+   "beats": [
+    {
+     "at": "इसीलिए वही",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "EMI पे अलग डिस्काउंट",
+    "value": "₹3,500",
+    "value_at": "₹3,500",
+    "note": "EMI सबसे सस्ती!",
+    "note_at": "सबसे सस्ती",
+    "color": "green"
+   }
+  },
+  {
+   "at": "पेमेंट मेथड का",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "मेथड का नाम नहीं...",
+    "at": "मायने नहीं",
+    "sub": "ऑफर का स्ट्रक्चर",
+    "sub_at": "ऑफर का स्ट्रक्चर",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "तो 60 सेकंड",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "60 सेकंड का हिसाब",
+    "items": [
+     {
+      "text": "हर मेथड का प्राइस",
+      "at": "अलग प्राइस"
+     },
+     {
+      "text": "+ फीस और GST",
+      "at": "फीस और GST"
+     },
+     {
+      "text": "− गारंटीड डिस्काउंट",
+      "at": "गारंटीड डिस्काउंट"
+     }
+    ],
+    "final": "बिल पूरा भर पाओगे?",
+    "final_at": "बिल पूरा"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "\"EMI तो स्कैम है\"",
+    "line2_at": "स्कैम"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "voiceover": "[slow, deep, dramatic] 10 घंटे... 90 मिनट... और एक मशीन।\n\n[intrigued, building energy] ज़ेरॉक्स की दुकान में कॉपियर 10 घंटे अवेलेबल रहता है। पर असली प्रिंटिंग होती है सिर्फ़ 90 मिनट। तो बाकी टाइम मशीन क्या कर रही है... और पैसा कौन बना रहा है?\n\n[excited, fast] ₹2 लाख से कम में बिज़नेस चाहिए? नंबर 1 है ज़ेरॉक्स या प्रिंटिंग शॉप। फोटोकॉपी, लेमिनेशन, स्पाइरल बाइंडिंग, स्कैन। कॉलेज असाइनमेंट, सरकारी फ़ॉर्म, लीगल डॉक्यूमेंट। इंडिया का सबसे बोरिंग बिज़नेस।\n\n[serious] नई कमर्शियल कॉपियर ख़रीदने गए, तो बजट गायब। इसलिए मशीन लीज़ पर लो। 2026 के अंदाज़े में लीज़ वाला सेटअप ₹1 से ₹1.5 लाख के इक्विपमेंट और फ़िक्स्चर में हो सकता है। [punchy] पर डिपॉज़िट और मंथली रेंट ऊपर से। इसलिए अंडर ₹2 लाख तभी, जब लोकेशन सस्ती हो।\n\n[amused] लीज़ चल रही है, रेंट चल रहा है, बिजली, टोनर, पेपर, टेक्नीशियन सब चल रहा है। बस मशीन खाली बैठी है।\n\n[mysterious, slower] अब वही मशीन, वही लीज़, कॉलेज गेट पर एग्ज़ाम सीज़न में लगातार चलती है। [emphatic] सस्ती मशीन का मतलब सस्ता बिज़नेस नहीं। असली एसेट कॉपियर नहीं... उसके आसपास का फुटफॉल है।\n\n[confident] इसलिए पहले लोकेशन चुनो, मशीन बाद में। कॉलेज, कोर्ट, सरकारी ऑफिस, कोचिंग क्लस्टर या हॉस्पिटल। मशीन लीज़ पर लो। और डिपॉज़िट और रेंट पहले जोड़ लो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, ज़ेरॉक्स मशीन ख़रीदकर दुकान खोल लेता हूँ।\"",
+ "ig_caption": "ज़ेरॉक्स मशीन 10 घंटे खुली, काम सिर्फ़ 90 मिनट 🖨️ बाकी टाइम का हिसाब चौंका देगा।\n\nउस दोस्त को भेजो जो ज़ेरॉक्स की दुकान खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nCost figures are rough 2026 estimates, not financial advice.",
+ "hashtags": [
+  "#XeroxShop",
+  "#BoringBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#LowInvestmentBusiness",
+  "#Hindi"
+ ],
+ "numbers": [
+  "5 बोरिंग बिज़नेस",
+  "नंबर वन",
+  "₹2 लाख से कम (वीडियो टाइटल: Under ₹2 Lakh)",
+  "2026 एस्टीमेट",
+  "एक से ₹1.5 लाख",
+  "10 घंटे",
+  "90 मिनट्स"
+ ],
+ "cold_open": [
+  {
+   "text": "10 घंटे",
+   "at": "10 घंटे"
+  },
+  {
+   "text": "90 मिनट",
+   "at": "90 मिनट"
+  },
+  {
+   "text": "और एक मशीन",
+   "at": "और एक मशीन"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "ज़ेरॉक्स की दुकान",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "कॉपियर का दिन",
+    "title_at": "ज़ेरॉक्स की दुकान",
+    "left": {
+     "text": "अवेलेबल: 10 घंटे",
+     "at": "घंटे अवेलेबल",
+     "color": "white"
+    },
+    "right": {
+     "text": "प्रिंटिंग: 90 मिनट",
+     "at": "सिर्फ़ 90 मिनट",
+     "color": "red"
+    },
+    "result": "बाकी टाइम?",
+    "result_at": "तो बाकी टाइम"
+   }
+  },
+  {
+   "at": "मशीन क्या कर",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "मशीन क्या कर रही?",
+    "at": "मशीन क्या कर",
+    "sub": "पैसा कौन बना रहा?",
+    "sub_at": "पैसा कौन",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "₹2 लाख से",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "बजट",
+    "value": "< ₹2 लाख",
+    "value_at": "₹2 लाख से",
+    "note": "नंबर 1: ज़ेरॉक्स शॉप",
+    "note_at": "नंबर 1 है",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "फोटोकॉपी, लेमिनेशन",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "क्या-क्या बिकता है",
+    "color": "gold",
+    "items": [
+     {
+      "text": "फोटोकॉपी",
+      "at": "फोटोकॉपी",
+      "strike": false
+     },
+     {
+      "text": "लेमिनेशन",
+      "at": "लेमिनेशन",
+      "strike": false
+     },
+     {
+      "text": "स्पाइरल बाइंडिंग",
+      "at": "स्पाइरल बाइंडिंग",
+      "strike": false
+     },
+     {
+      "text": "स्कैन",
+      "at": "स्कैन",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "कॉलेज असाइनमेंट",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "इंडिया का सबसे",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "icon": "shop",
+    "title": "कॉलेज · फ़ॉर्म · लीगल",
+    "at": "कॉलेज असाइनमेंट",
+    "sub": "सबसे बोरिंग बिज़नेस",
+    "sub_at": "सबसे बोरिंग",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "नई कमर्शियल",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "बजट गायब",
+     "mood": "shocked"
+    },
+    {
+     "at": "इसलिए मशीन लीज़",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "नई कॉपियर?",
+    "title_at": "नई कमर्शियल",
+    "left": {
+     "text": "ख़रीदो = बजट गायब",
+     "at": "बजट गायब",
+     "color": "red"
+    },
+    "right": {
+     "text": "लीज़ पर लो",
+     "at": "इसलिए मशीन लीज़",
+     "color": "green"
+    }
+   }
+  },
+  {
+   "at": "2026 के अंदाज़े",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "2026 अंदाज़ा: सेटअप",
+    "value": "₹1–1.5 लाख",
+    "value_at": "₹1 से",
+    "note": "इक्विपमेंट + फ़िक्स्चर",
+    "note_at": "इक्विपमेंट",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "पर डिपॉज़िट",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "ऊपर से ख़र्च",
+    "sub": "अंडर ₹2 लाख तभी…",
+    "sub_at": "इसलिए अंडर",
+    "chips": [
+     {
+      "text": "डिपॉज़िट",
+      "at": "डिपॉज़िट और मंथली",
+      "color": "red"
+     },
+     {
+      "text": "मंथली रेंट",
+      "at": "मंथली रेंट",
+      "color": "red"
+     },
+     {
+      "text": "सस्ती लोकेशन",
+      "at": "लोकेशन सस्ती",
+      "color": "green"
+     }
+    ]
+   }
+  },
+  {
+   "at": "लीज़ चल रही",
+   "mood": "smirk",
+   "tint": "red",
+   "card": {
+    "type": "strike_list",
+    "title": "सब चल रहा है",
+    "color": "red",
+    "items": [
+     {
+      "text": "लीज़",
+      "at": "लीज़ चल",
+      "strike": false
+     },
+     {
+      "text": "रेंट",
+      "at": "रेंट चल",
+      "strike": false
+     },
+     {
+      "text": "बिजली, टोनर, पेपर",
+      "at": "बिजली",
+      "strike": false
+     },
+     {
+      "text": "टेक्नीशियन",
+      "at": "टेक्नीशियन",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "बस मशीन",
+   "mood": "shocked",
+   "tint": "red",
+   "card": {
+    "type": "title_slam",
+    "title": "मशीन खाली!",
+    "at": "खाली बैठी",
+    "color": "red"
+   }
+  },
+  {
+   "at": "अब वही मशीन",
+   "mood": "smirk",
+   "tint": "cold",
+   "card": {
+    "type": "compare_arrow",
+    "title": "वही मशीन, वही लीज़",
+    "from_text": "खाली दुकान",
+    "from_at": "वही लीज़",
+    "to_text": "कॉलेज गेट",
+    "to_at": "कॉलेज गेट",
+    "result": "लगातार चलती है",
+    "result_at": "लगातार चलती"
+   }
+  },
+  {
+   "at": "सस्ती मशीन का",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "असली एसेट ≠ कॉपियर",
+    "at": "असली एसेट",
+    "sub": "आसपास का फुटफॉल",
+    "sub_at": "फुटफॉल",
+    "color": "ice",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "इसलिए पहले लोकेशन",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "strike_list",
+    "title": "पहले लोकेशन",
+    "color": "green",
+    "items": [
+     {
+      "text": "कॉलेज",
+      "at": "कॉलेज, कोर्ट",
+      "strike": false
+     },
+     {
+      "text": "कोर्ट",
+      "at": "कोर्ट, सरकारी",
+      "strike": false
+     },
+     {
+      "text": "सरकारी ऑफिस",
+      "at": "सरकारी ऑफिस",
+      "strike": false
+     },
+     {
+      "text": "कोचिंग · हॉस्पिटल",
+      "at": "कोचिंग क्लस्टर",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "मशीन लीज़ पर",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "मेरा प्लान",
+    "items": [
+     {
+      "text": "मशीन लीज़ पर",
+      "at": "मशीन लीज़ पर"
+     },
+     {
+      "text": "डिपॉज़िट + रेंट",
+      "at": "डिपॉज़िट और रेंट"
+     },
+     {
+      "text": "पहले जोड़ लो",
+      "at": "पहले जोड़"
+     }
+    ],
+    "final": "बजट पक्का!",
+    "final_at": "जोड़ लो"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो मशीन ख़रीदना चाहे",
+    "line2_at": "यार"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

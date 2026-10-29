@@ -1,0 +1,347 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹15,000 का RO। एक बार बिका। [pause] और कहानी खत्म नहीं हुई।\n\n[intrigued, building energy] तुम्हारे पास ₹1 लाख हैं और तुम RO का बिज़नेस सोच रहे हो। तो ज़्यादातर लोग क्या करते हैं? 20 purifier स्टॉक में भर लेते हैं। पर मैं कहूँगा, यही गलत है। क्यों?\n\n[excited, fast] क्योंकि purifier एक बार बिकता है। लेकिन उसके अंदर का सामान बार-बार बदलता है। Sediment फिल्टर, कार्बन फिल्टर, मेंब्रेन, UV लैंप, पंप। फिर सर्विस, लीकेज, TDS के issues। मतलब जो मशीन घर में लग चुकी है, वही आगे की demand बना रही है।\n\n[punchy] तो डीलरशिप नहीं। पहले existing मशीनों की सर्विस। [serious] बेसिक टेस्टिंग या सर्विस टूल्स, कॉमन फिल्टर, कुछ fast-moving spares, ट्रेनिंग, ट्रांसपोर्ट, एक WhatsApp नंबर, लोकल लिस्टिंग, और एक एरिया चुनो।\n\n[mysterious, slower] अब मान लो तुमने 100 कस्टमर बना लिए। हर कोई हर महीने पैसे नहीं देगा। पर किसी का फिल्टर due होगा, किसी की सर्विस, किसी का मेंब्रेन, किसी का पंप, किसी का AMC renewal। [emphatic] तुम्हारा asset मशीन नहीं है... installed customer base है।\n\n[serious] एक warning। Random फिल्टर मत बदलना। हर मशीन अलग है, पानी का TDS अलग है, फिल्टर की life अलग है। Problem diagnose करना skill है। Unnecessary पार्ट्स बेचे, तो एक बार पैसा बनेगा, पर repeat कस्टमर जाएगा।\n\n[confident] याद रखो, ₹1 लाख के बिज़नेस में first sale से ज़्यादा valuable second sale होती है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो ₹1 लाख लेकर बोलता है, \"यार, RO की दुकान खोलते हैं।\"",
+ "ig_caption": "₹15,000 का RO बिका, पर असली कमाई उसके बाद शुरू होती है 💧\n\nये रील उस दोस्त को भेजो जिसके पास ₹1 लाख हैं और बिज़नेस का सपना है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nलीन वर्जन से डिमांड टेस्ट करने का आइडिया है, गारंटीड इनकम नहीं। Not financial advice.",
+ "hashtags": [
+  "#BoringBusiness",
+  "#BusinessIdeas",
+  "#ROService",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#RepeatCustomers",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹15,000",
+  "₹1 लाख",
+  "20 प्यूरीफायर",
+  "100 आरओ कस्टमर्स",
+  "नंबर वन बिज़नेस",
+  "फर्स्ट सेल",
+  "सेकंड सेल"
+ ],
+ "cold_open": [
+  {
+   "text": "₹15,000 का RO",
+   "at": "₹15,000 का RO"
+  },
+  {
+   "text": "एक बार बिका",
+   "at": "एक बार बिका"
+  },
+  {
+   "text": "कहानी खत्म नहीं",
+   "at": "और कहानी खत्म"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "तुम्हारे पास ₹1",
+   "mood": "neutral",
+   "card": {
+    "type": "big_number",
+    "label": "तुम्हारा बजट",
+    "value": "₹1 लाख",
+    "value_at": "₹1 लाख हैं",
+    "note": "RO का बिज़नेस?",
+    "note_at": "RO का बिज़नेस",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "तो ज़्यादातर लोग",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "20 purifier",
+     "mood": "smirk"
+    },
+    {
+     "at": "यही गलत",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "गलती · स्टॉक भरना",
+    "sub": "20 purifier स्टॉक में",
+    "sub_at": "20 purifier",
+    "chips": [
+     {
+      "text": "यही गलत है",
+      "at": "यही गलत",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "at": "क्योंकि purifier एक",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "split",
+    "title": "असली खेल",
+    "title_at": "क्योंकि purifier",
+    "left": {
+     "text": "purifier: 1 बार",
+     "at": "एक बार बिकता",
+     "color": "muted"
+    },
+    "right": {
+     "text": "सामान: बार-बार",
+     "at": "बार-बार बदलता",
+     "color": "green"
+    },
+    "icon": "coin"
+   }
+  },
+  {
+   "at": "Sediment फिल्टर, कार्बन",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "बार-बार बिकने वाला",
+    "color": "gold",
+    "items": [
+     {
+      "text": "Sediment फिल्टर",
+      "at": "Sediment फिल्टर",
+      "strike": false
+     },
+     {
+      "text": "कार्बन फिल्टर",
+      "at": "कार्बन फिल्टर",
+      "strike": false
+     },
+     {
+      "text": "मेंब्रेन",
+      "at": "मेंब्रेन",
+      "strike": false
+     },
+     {
+      "text": "UV लैंप, पंप",
+      "at": "UV लैंप",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "फिर सर्विस, लीकेज",
+   "mood": "smirk",
+   "beats": [
+    {
+     "at": "मतलब जो",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "सर्विस · लीकेज · TDS",
+    "at": "फिर सर्विस",
+    "sub": "मशीन = आगे की demand",
+    "sub_at": "आगे की demand",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "तो डीलरशिप नहीं",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "पहला कदम",
+    "color": "gold",
+    "items": [
+     {
+      "text": "डीलरशिप",
+      "at": "डीलरशिप",
+      "strike": true
+     },
+     {
+      "text": "पहले सर्विस",
+      "at": "existing मशीनों",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "बेसिक टेस्टिंग या",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "₹1 लाख में सेटअप",
+    "items": [
+     {
+      "text": "टूल्स + कॉमन फिल्टर",
+      "at": "कॉमन फिल्टर"
+     },
+     {
+      "text": "ट्रेनिंग, ट्रांसपोर्ट",
+      "at": "ट्रेनिंग"
+     },
+     {
+      "text": "WhatsApp + लिस्टिंग",
+      "at": "WhatsApp नंबर"
+     }
+    ],
+    "final": "एक एरिया चुनो",
+    "final_at": "एरिया चुनो"
+   }
+  },
+  {
+   "at": "अब मान लो",
+   "mood": "neutral",
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "मान लो",
+    "value": "100",
+    "value_at": "100 कस्टमर",
+    "note": "हर महीने पैसे नहीं",
+    "note_at": "हर कोई",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "पर किसी का",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "strike_list",
+    "title": "हर महीने कोई न कोई",
+    "color": "ice",
+    "items": [
+     {
+      "text": "फिल्टर due",
+      "at": "फिल्टर due",
+      "strike": false
+     },
+     {
+      "text": "सर्विस, मेंब्रेन",
+      "at": "किसी की सर्विस",
+      "strike": false
+     },
+     {
+      "text": "पंप",
+      "at": "किसी का पंप",
+      "strike": false
+     },
+     {
+      "text": "AMC renewal",
+      "at": "AMC renewal",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "तुम्हारा asset मशीन",
+   "mood": "serious",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "असली asset =",
+    "at": "तुम्हारा asset",
+    "sub": "installed customer base",
+    "sub_at": "installed customer",
+    "color": "gold",
+    "sub_color": "green"
+   }
+  },
+  {
+   "at": "एक warning",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "⚠ Random फिल्टर नहीं",
+    "sub": "हर मशीन अलग है",
+    "sub_at": "हर मशीन",
+    "chips": [
+     {
+      "text": "TDS अलग",
+      "at": "TDS अलग",
+      "color": "ice"
+     },
+     {
+      "text": "life अलग",
+      "at": "life अलग",
+      "color": "ice"
+     },
+     {
+      "text": "diagnose = skill",
+      "at": "diagnose करना",
+      "color": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "at": "Unnecessary पार्ट्स बेचे",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "repeat कस्टमर",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "गलत पार्ट्स बेचे तो",
+    "title_at": "Unnecessary पार्ट्स",
+    "left": {
+     "text": "1 बार पैसा",
+     "at": "एक बार पैसा",
+     "color": "gold"
+    },
+    "right": {
+     "text": "repeat कस्टमर गया",
+     "at": "repeat कस्टमर",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "याद रखो",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "compare_arrow",
+    "title": "₹1 लाख का नियम",
+    "from_text": "first sale",
+    "from_at": "first sale",
+    "to_text": "second sale",
+    "to_at": "second sale",
+    "result": "ज़्यादा valuable",
+    "result_at": "होती है"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो RO दुकान खोलेगा",
+    "line2_at": "यार"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

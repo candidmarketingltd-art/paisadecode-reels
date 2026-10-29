@@ -1,0 +1,332 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹518 का ऑर्डर... सिर्फ़ ₹3 की बचत... और रोज़ 36 लाख ऑर्डर।\n\n[intrigued, building energy] ब्लिंकिट 10 मिनट में दूध, ब्रेड, चिप्स पहुँचा देता है। पर ₹518 के ऑर्डर में कंपनी के पास बचता कितना है? सिर्फ़ ₹3। तो फिर ये बिज़नेस चलता कैसे है?\n\n[excited, fast] पहले लगता है धमाका। ₹518 के ऑर्डर पे करीब ₹140 ग्रॉस प्रॉफिट। [serious] फिर आता है रेंट, स्टाफ, पैकिंग, डिलीवरी, एक्सपायरी, चोरी, डिस्काउंट। [punchy] ₹140 घटकर बचता है ₹27 कॉन्ट्रिब्यूशन। [sighs] फिर टेक्नोलॉजी, हेड ऑफिस का खर्चा... और बचते हैं ₹3। कटिंग चाय का आधा भी नहीं।\n\n[mysterious, slower] पर ₹3 को 36 लाख से गुणा करो। [emphatic] रोज़ 1 करोड़। और क्वार्टर में ₹102 करोड़ का adjusted EBITDA। असली बिज़नेस डिलीवरी की स्पीड नहीं है... डेंसिटी है।\n\n[amused] एक किराना दुकान पे दिन में 200 कस्टमर आते हैं। एक डार्क स्टोर पे 1,500 से 2,000, कभी 3,000 से ऊपर ऑर्डर। रेंट वही, मैनेजर वही, फ्रीज़र वही। बस ऑर्डर 4 गुना, तो हर ऑर्डर सस्ता पड़ता है।\n\n[confident] इसलिए अगली बार कोई बोले \"बस 10 मिनट डिलीवरी का खेल है\", तो पूछना: एक स्टोर के 2 से 3 कि.मी. में कितने ऑर्डर आ रहे हैं? असली नंबर वही है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, क्विक कॉमर्स में तो ₹20 की डिलीवरी फ़ीस से सब निकल जाता होगा।\"",
+ "ig_caption": "₹518 के ऑर्डर पे ब्लिंकिट के पास बचते हैं सिर्फ़ ₹3 🛵 फिर भी ₹102 करोड़ का प्रॉफिट कैसे? जवाब है डेंसिटी।\n\nउस दोस्त को भेजो जो सोचता है 10 मिनट डिलीवरी सिर्फ़ स्पीड का खेल है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are approximate network averages and industry estimates, not financial advice.",
+ "hashtags": [
+  "#Blinkit",
+  "#QuickCommerce",
+  "#DarkStore",
+  "#PaisaDecode",
+  "#BusinessModel",
+  "#StartupIndia",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹518",
+  "₹3",
+  "36 लाख",
+  "10 मिनट",
+  "₹140",
+  "₹27",
+  "1 करोड़",
+  "102 करोड़",
+  "₹102 करोड़",
+  "200 कस्टमर",
+  "1500 से 2000",
+  "3000 प्लस",
+  "2 से 3 कि.मी.",
+  "4x",
+  "₹20"
+ ],
+ "cold_open": [
+  {
+   "text": "₹518 का ऑर्डर",
+   "at": "₹518 का ऑर्डर"
+  },
+  {
+   "text": "सिर्फ़ ₹3 की बचत",
+   "at": "सिर्फ़ ₹3 की बचत"
+  },
+  {
+   "text": "रोज़ 36 लाख ऑर्डर",
+   "at": "रोज़ 36 लाख ऑर्डर"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "ब्लिंकिट 10 मिनट",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "icon": "shop",
+    "title": "10 मिनट डिलीवरी",
+    "at": "10 मिनट",
+    "sub": "दूध, ब्रेड, चिप्स",
+    "sub_at": "दूध, ब्रेड",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पर ₹518 के",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "सिर्फ़ ₹3",
+     "mood": "shocked"
+    },
+    {
+     "at": "तो फिर",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "₹518 ऑर्डर पे बचत",
+    "value": "₹3",
+    "value_at": "सिर्फ़ ₹3",
+    "note": "चलता कैसे है?",
+    "note_at": "चलता कैसे",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "पहले लगता है",
+   "mood": "smirk",
+   "card": {
+    "type": "counter",
+    "label": "₹518 के ऑर्डर पे",
+    "prefix": "₹",
+    "to": 140,
+    "at": "₹140 ग्रॉस",
+    "done_text": "ग्रॉस प्रॉफिट!",
+    "done_at": "प्रॉफिट"
+   }
+  },
+  {
+   "at": "फिर आता है",
+   "mood": "serious",
+   "tint": "red",
+   "card": {
+    "type": "strike_list",
+    "title": "खर्चे",
+    "color": "red",
+    "items": [
+     {
+      "text": "रेंट, स्टाफ",
+      "at": "रेंट",
+      "strike": true
+     },
+     {
+      "text": "पैकिंग, डिलीवरी",
+      "at": "पैकिंग",
+      "strike": true
+     },
+     {
+      "text": "एक्सपायरी, चोरी",
+      "at": "एक्सपायरी",
+      "strike": true
+     },
+     {
+      "text": "डिस्काउंट",
+      "at": "डिस्काउंट",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "₹140 घटकर",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "₹27",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "compare_arrow",
+    "title": "ऑर्डर पे कमाई",
+    "from_text": "₹140",
+    "from_at": "₹140 घटकर",
+    "to_text": "₹27",
+    "to_at": "₹27",
+    "result": "कॉन्ट्रिब्यूशन",
+    "result_at": "कॉन्ट्रिब्यूशन"
+   }
+  },
+  {
+   "at": "फिर टेक्नोलॉजी",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "बचते हैं",
+     "mood": "shocked"
+    },
+    {
+     "at": "कटिंग चाय",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "टेक + हेड ऑफिस के बाद",
+    "value": "₹3",
+    "value_at": "बचते हैं ₹3",
+    "note": "चाय का आधा भी नहीं",
+    "note_at": "कटिंग चाय",
+    "color": "red"
+   }
+  },
+  {
+   "at": "पर ₹3 को",
+   "mood": "smirk",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "रोज़ 1 करोड़",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "गुणा करो",
+    "title_at": "गुणा करो",
+    "left": {
+     "text": "₹3",
+     "at": "पर ₹3",
+     "color": "gold"
+    },
+    "right": {
+     "text": "× 36 लाख",
+     "at": "36 लाख",
+     "color": "ice"
+    },
+    "result": "रोज़ 1 करोड़",
+    "result_at": "रोज़ 1 करोड़"
+   }
+  },
+  {
+   "at": "और क्वार्टर में",
+   "mood": "shocked",
+   "tint": "green",
+   "card": {
+    "type": "money_rain",
+    "line1": "₹102 करोड़",
+    "line1_at": "₹102 करोड़",
+    "line2": "adjusted EBITDA",
+    "line2_at": "adjusted EBITDA"
+   }
+  },
+  {
+   "at": "असली बिज़नेस डिलीवरी",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "स्पीड नहीं...",
+    "at": "स्पीड नहीं",
+    "sub": "डेंसिटी",
+    "sub_at": "डेंसिटी",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "एक किराना दुकान",
+   "mood": "smirk",
+   "beats": [
+    {
+     "at": "3,000 से",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "रोज़ के ऑर्डर",
+    "title_at": "किराना दुकान",
+    "left": {
+     "text": "किराना: 200",
+     "at": "200 कस्टमर",
+     "color": "muted"
+    },
+    "right": {
+     "text": "डार्क स्टोर: 1,500–2,000",
+     "at": "1,500 से",
+     "color": "gold"
+    },
+    "result": "कभी 3,000+",
+    "result_at": "3,000 से"
+   }
+  },
+  {
+   "at": "रेंट वही",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "खर्चा वही",
+    "items": [
+     {
+      "text": "रेंट वही",
+      "at": "रेंट वही"
+     },
+     {
+      "text": "मैनेजर वही",
+      "at": "मैनेजर वही"
+     },
+     {
+      "text": "फ्रीज़र वही",
+      "at": "फ्रीज़र वही"
+     }
+    ],
+    "final": "ऑर्डर 4 गुना → सस्ता",
+    "final_at": "4 गुना"
+   }
+  },
+  {
+   "at": "इसलिए अगली बार",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "\"बस 10 मिनट का खेल\"",
+    "at": "खेल है",
+    "sub": "सच में?",
+    "sub_at": "तो पूछना",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "तो पूछना",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "असली नंबर",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "2–3 कि.मी. में",
+    "at": "2 से 3",
+    "sub": "कितने ऑर्डर?",
+    "sub_at": "कितने ऑर्डर",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "₹20 फ़ीस से सब निकलेगा?",
+    "line2_at": "₹20 की"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}
