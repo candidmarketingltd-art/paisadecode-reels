@@ -1,0 +1,328 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹3 लाख सस्ती गाड़ी... 5 साल... और बचे सिर्फ़ ₹94,000।\n\n[intrigued, building energy] आरव ने नई गाड़ी ली, ₹10 लाख की। कबीर ने सेम गाड़ी 3 साल पुरानी ली, ₹7 लाख की। खरीद के दिन कबीर ₹3 लाख आगे था। तो 5 साल बाद असली बचत कितनी हुई?\n\n[excited, fast] पहली चोट: डेप्रिसिएशन। आरव का ₹5.5 लाख गया, कबीर का ₹4.2 लाख। बचत? सिर्फ़ ₹1.3 लाख। [serious] क्योंकि पुरानी गाड़ी भी तो और पुरानी होती है ना।\n\n[punchy] दूसरी: लोन। कबीर का लोन ₹2.4 लाख कम था, पर रेट 12% था। इंटरेस्ट में बचे सिर्फ़ ₹9,000। [amused] इंश्योरेंस में ₹25,000 बचे, पर रिपेयर में कबीर ने ₹60,000 ज़्यादा फूँके।\n\n[mysterious, slower] टोटल खर्चा? आरव का ₹9.16 लाख। कबीर का ₹8.22 लाख। [emphatic] फ़र्क़ सिर्फ़ ₹94,000। और अगर कबीर की गाड़ी में ₹1.5 लाख का रिपेयर निकल आया, तो नई कार वाला आगे निकल जाता है।\n\n[confident] इसलिए स्टिकर प्राइस मत देखो। 5 साल का स्कोरकार्ड बनाओ: डेप्रिसिएशन, लोन इंटरेस्ट, इंश्योरेंस, मेंटेनेंस। और पुरानी गाड़ी लो तो ₹3,000 की इंस्पेक्शन ज़रूर कराओ।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, यूज़्ड ले ले, ₹3 लाख बच जाएँगे।\"",
+ "ig_caption": "₹3 लाख सस्ती यूज़्ड कार, पर 5 साल बाद बचत सिर्फ़ ₹94,000 🚗 बाकी पैसा कहाँ गया?\n\nउस दोस्त को भेजो जो नई और यूज़्ड कार में कन्फ्यूज़ है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#NewCarVsUsedCar",
+  "#CarBuyingTips",
+  "#CarLoan",
+  "#PaisaDecode",
+  "#PersonalFinanceIndia",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹3 लाख",
+  "5 साल",
+  "₹94,000",
+  "₹10 लाख",
+  "₹7 लाख",
+  "3 साल",
+  "₹5.5 लाख",
+  "₹4.2 लाख",
+  "1.3 लाख",
+  "₹2.4 लाख",
+  "12%",
+  "₹9,000",
+  "₹25,000",
+  "₹60,000",
+  "9.16 लाख",
+  "8.22 लाख",
+  "1.5 लाख",
+  "₹3,000"
+ ],
+ "cold_open": [
+  {
+   "text": "₹3 लाख सस्ती",
+   "at": "₹3 लाख सस्ती"
+  },
+  {
+   "text": "5 साल",
+   "at": "5 साल"
+  },
+  {
+   "text": "बचे सिर्फ़ ₹94,000",
+   "at": "बचे सिर्फ़ ₹94,000"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "आरव ने नई",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "₹3 लाख आगे",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "icon": "coin",
+    "title": "सेम गाड़ी",
+    "title_at": "सेम गाड़ी",
+    "left": {
+     "text": "आरव: नई ₹10 लाख",
+     "at": "₹10 लाख",
+     "color": "white"
+    },
+    "right": {
+     "text": "कबीर: ₹7 लाख",
+     "at": "₹7 लाख",
+     "color": "gold"
+    },
+    "result": "कबीर ₹3 लाख आगे",
+    "result_at": "₹3 लाख आगे"
+   }
+  },
+  {
+   "at": "तो 5 साल",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "5 साल बाद?",
+    "at": "5 साल बाद",
+    "sub": "असली बचत कितनी?",
+    "sub_at": "असली बचत",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पहली चोट",
+   "mood": "neutral",
+   "point": true,
+   "tint": "red",
+   "beats": [
+    {
+     "at": "सिर्फ़ ₹1.3 लाख",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "चोट #1 · डेप्रिसिएशन",
+    "title_at": "पहली चोट",
+    "left": {
+     "text": "आरव −₹5.5 लाख",
+     "at": "₹5.5 लाख",
+     "color": "red"
+    },
+    "right": {
+     "text": "कबीर −₹4.2 लाख",
+     "at": "₹4.2 लाख",
+     "color": "red"
+    },
+    "result": "बचत सिर्फ़ ₹1.3 लाख",
+    "result_at": "₹1.3 लाख"
+   }
+  },
+  {
+   "at": "क्योंकि पुरानी",
+   "mood": "serious",
+   "card": {
+    "type": "headline",
+    "title": "पुरानी गाड़ी भी",
+    "at": "पुरानी गाड़ी भी",
+    "sub": "और पुरानी होती है",
+    "sub_at": "और पुरानी होती",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "दूसरी: लोन",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "रेट 12%",
+     "mood": "shocked"
+    },
+    {
+     "at": "बचे सिर्फ़ ₹9,000",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "चोट #2 · लोन",
+    "sub": "₹2.4 लाख कम लोन",
+    "sub_at": "₹2.4 लाख",
+    "chips": [
+     {
+      "text": "रेट 12%",
+      "at": "12%",
+      "color": "red"
+     }
+    ],
+    "big": "बचत ₹9,000",
+    "big_at": "₹9,000",
+    "big_color": "gold"
+   }
+  },
+  {
+   "at": "इंश्योरेंस में",
+   "mood": "smirk",
+   "beats": [
+    {
+     "at": "फूँके",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "इंश्योरेंस vs रिपेयर",
+    "title_at": "इंश्योरेंस में",
+    "left": {
+     "text": "इंश्योरेंस +₹25,000",
+     "at": "₹25,000",
+     "color": "green"
+    },
+    "right": {
+     "text": "रिपेयर −₹60,000",
+     "at": "₹60,000",
+     "color": "red"
+    }
+   }
+  },
+  {
+   "at": "टोटल खर्चा?",
+   "mood": "neutral",
+   "tint": "cold",
+   "card": {
+    "type": "split",
+    "title": "टोटल खर्चा",
+    "title_at": "टोटल खर्चा",
+    "left": {
+     "text": "आरव ₹9.16 लाख",
+     "at": "₹9.16 लाख",
+     "color": "white"
+    },
+    "right": {
+     "text": "कबीर ₹8.22 लाख",
+     "at": "₹8.22 लाख",
+     "color": "ice"
+    }
+   }
+  },
+  {
+   "at": "फ़र्क़ सिर्फ़",
+   "mood": "shocked",
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "असली फ़र्क़",
+    "value": "₹94,000",
+    "value_at": "₹94,000",
+    "note": "₹3 लाख नहीं!",
+    "note_at": "₹94,000",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "और अगर कबीर",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "आगे निकल",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "ट्विस्ट · बड़ा रिपेयर",
+    "sub": "कबीर की गाड़ी में",
+    "sub_at": "कबीर की गाड़ी",
+    "chips": [
+     {
+      "text": "नई कार आगे!",
+      "at": "नई कार",
+      "color": "green"
+     }
+    ],
+    "big": "−₹1.5 लाख",
+    "big_at": "₹1.5 लाख",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "इसलिए स्टिकर",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "स्टिकर प्राइस मत देखो",
+    "at": "स्टिकर प्राइस",
+    "sub": "5 साल का स्कोरकार्ड",
+    "sub_at": "स्कोरकार्ड",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "डेप्रिसिएशन, लोन",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "strike_list",
+    "title": "स्कोरकार्ड",
+    "color": "gold",
+    "items": [
+     {
+      "text": "डेप्रिसिएशन",
+      "at": "डेप्रिसिएशन, लोन",
+      "strike": false
+     },
+     {
+      "text": "लोन इंटरेस्ट",
+      "at": "लोन इंटरेस्ट",
+      "strike": false
+     },
+     {
+      "text": "इंश्योरेंस",
+      "at": "इंश्योरेंस, मेंटेनेंस",
+      "strike": false
+     },
+     {
+      "text": "मेंटेनेंस",
+      "at": "मेंटेनेंस",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "पुरानी गाड़ी लो",
+   "mood": "serious",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "यूज़्ड गाड़ी? पहले",
+    "value": "₹3,000",
+    "value_at": "₹3,000",
+    "note": "इंस्पेक्शन ज़रूर",
+    "note_at": "इंस्पेक्शन",
+    "color": "green"
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो बोले: यूज़्ड ले ले",
+    "line2_at": "यूज़्ड ले ले"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

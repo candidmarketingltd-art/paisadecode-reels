@@ -1,3 +1,9 @@
 run_at_ist,video_id,angle,status,note
 2026-10-29 16:05,mHCYU1HJTUw,A,publish_error,Buffer rejected the post: Cannot add to queue: No posting schedule configured for this channel
 2026-10-29 16:09,mHCYU1HJTUw,A,publish_error,"Buffer rejected the post: Invalid post: Instagram posts require a type (post, story, or reel)."
+2026-10-29 16:11,mHCYU1HJTUw,A,in_buffer,6ae322d57b777f7b03c222bd
+2026-10-29 16:12,RFRlBf96f2A,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
+2026-10-29 16:13,RFRlBf96f2A,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
+2026-10-29 16:14,OTRGJ9nj3UA,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
+2026-10-29 16:15,OTRGJ9nj3UA,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
+2026-10-29 16:16,lj1xmsQKwcE,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":""Not Found""}"
