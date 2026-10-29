@@ -1,0 +1,332 @@
+{
+ "voiceover": "[slow, deep, dramatic] 3 BHK फ्लैट... ग्रीसी किचन... बाथरूम में हार्ड वाटर के दाग... और बस एक संडे।\n\n[intrigued, building energy] फैमिली का संडे है, पर वो पूरा घर स्क्रब करने में नहीं बिताना। तो वो किसी को बुलाते हैं। इस बोरिंग बिज़नेस के लिए ना शोरूम चाहिए, ना दुकान। सेटअप ₹15,000 से शुरू हो सकता है। फिर भी ज़्यादातर लोग अपने ₹50,000 पहले ही हफ़्ते में उड़ा देते हैं।\n\n[excited, fast] क्या चाहिए? वैक्यूम, ब्रश, माइक्रोफाइबर कपड़े, क्लीनिंग केमिकल, ग्लव्स। बस। लेकिन गलती यहीं होती है। लोग पहले सामान खरीदते हैं, और फिर Google करते हैं, \"कस्टमर कैसे लाएं?\"\n\n[serious] [sighs] वो उल्टा है भाई।\n\n[punchy] पहले अपने एरिया की 3 हाउसिंग सोसाइटी चुनो। सिर्फ़ एक ऑफर बनाओ: किचन प्लस 2 बाथरूम डीप क्लीनिंग। बस इतना ही। 10 इंक्वायरी में से 3 पेड बुकिंग मिल गई? तब मशीन खरीदना समझदारी है। नहीं मिली? तो जवाब पहले ही मिल गया, पैसा जलने से पहले।\n\n[mysterious, slower] और इस बिज़नेस का हिडन नंबर पता है? जॉब का रेट नहीं... [emphatic] इक्विपमेंट का utilization। सामान पूरे हफ़्ते पड़ा रहा, और जॉब सिर्फ़ संडे को मिली? तो मशीन सस्ती थी, पर बिज़नेस महंगा हो गया।\n\n[confident] याद रखो: टूल्स तब काम के हैं, जब कैलेंडर में जॉब्स हैं। पहले कस्टमर, फिर खरीदारी।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बिज़नेस शुरू करने से पहले ही सारा सामान खरीदने निकल पड़ता है।",
+ "ig_caption": "₹50,000 में बिज़नेस शुरू करना है? पहले सामान नहीं, पहला कस्टमर ढूँढो 🧽\n\n10 इंक्वायरी में 3 पेड बुकिंग मिलीं? तब खरीदारी शुरू करो।\n\nउस दोस्त को भेजो जो पहले दुकान सजाता है और कस्टमर बाद में ढूँढता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are rough/indicative, not financial advice.",
+ "hashtags": [
+  "#BoringBusiness",
+  "#LowInvestmentBusiness",
+  "#CleaningBusiness",
+  "#SmallBusinessIndia",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹50,000",
+  "3 बीएचके",
+  "15,000",
+  "तीन हाउसिंग सोसाइटी",
+  "किचन प्लस टू बाथरूम डीप क्लीनिंग",
+  "10 इंक्वायरी में से तीन पेड बुकिंग",
+  "संडे"
+ ],
+ "cold_open": [
+  {
+   "text": "3 BHK फ्लैट",
+   "at": "3 BHK फ्लैट"
+  },
+  {
+   "text": "ग्रीसी किचन",
+   "at": "ग्रीसी किचन"
+  },
+  {
+   "text": "बस एक संडे",
+   "at": "बस एक संडे"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "फैमिली का संडे",
+   "mood": "neutral",
+   "card": {
+    "type": "headline",
+    "title": "संडे = आराम",
+    "at": "फैमिली का संडे",
+    "sub": "किसी को बुलाते हैं",
+    "sub_at": "किसी को बुलाते",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "इस बोरिंग बिज़नेस",
+   "mood": "smirk",
+   "card": {
+    "type": "strike_list",
+    "title": "बोरिंग बिज़नेस",
+    "color": "gold",
+    "items": [
+     {
+      "text": "शोरूम",
+      "at": "शोरूम",
+      "strike": true
+     },
+     {
+      "text": "दुकान",
+      "at": "दुकान",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "सेटअप ₹15,000 से",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "सेटअप शुरू",
+    "value": "₹15,000",
+    "value_at": "₹15,000",
+    "note": "बस इतने से",
+    "note_at": "शुरू हो सकता",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "फिर भी ज़्यादातर",
+   "mood": "shocked",
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "ज़्यादातर लोग",
+    "sub": "पहले ही हफ़्ते में",
+    "sub_at": "पहले ही हफ़्ते",
+    "chips": [
+     {
+      "text": "उड़ा देते हैं",
+      "at": "उड़ा देते",
+      "color": "red"
+     }
+    ],
+    "big": "−₹50,000",
+    "big_at": "₹50,000",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "क्या चाहिए? वैक्यूम,",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "क्या चाहिए?",
+    "items": [
+     {
+      "text": "वैक्यूम + ब्रश",
+      "at": "वैक्यूम"
+     },
+     {
+      "text": "माइक्रोफाइबर कपड़े",
+      "at": "माइक्रोफाइबर कपड़े"
+     },
+     {
+      "text": "केमिकल + ग्लव्स",
+      "at": "क्लीनिंग केमिकल"
+     }
+    ],
+    "final": "बस!",
+    "final_at": "ग्लव्स"
+   }
+  },
+  {
+   "at": "लेकिन गलती यहीं",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "कस्टमर कैसे",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "compare_arrow",
+    "title": "गलती यहीं है",
+    "from_text": "पहले सामान",
+    "from_at": "पहले सामान",
+    "to_text": "फिर Google",
+    "to_at": "फिर Google",
+    "result": "कस्टमर कैसे लाएं?",
+    "result_at": "कस्टमर कैसे"
+   }
+  },
+  {
+   "at": "वो उल्टा है",
+   "mood": "serious",
+   "card": {
+    "type": "title_slam",
+    "title": "उल्टा है!",
+    "at": "उल्टा",
+    "color": "red"
+   }
+  },
+  {
+   "at": "पहले अपने एरिया",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "सही तरीका",
+    "items": [
+     {
+      "text": "3 सोसाइटी चुनो",
+      "at": "3 हाउसिंग"
+     },
+     {
+      "text": "सिर्फ़ एक ऑफर",
+      "at": "एक ऑफर"
+     },
+     {
+      "text": "किचन + 2 बाथरूम",
+      "at": "किचन प्लस"
+     }
+    ],
+    "final": "बस इतना ही",
+    "final_at": "बस इतना"
+   }
+  },
+  {
+   "at": "10 इंक्वायरी में",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "split",
+    "title": "टेस्ट",
+    "title_at": "10 इंक्वायरी",
+    "left": {
+     "text": "10 इंक्वायरी",
+     "at": "10 इंक्वायरी",
+     "color": "white"
+    },
+    "right": {
+     "text": "3 पेड बुकिंग",
+     "at": "3 पेड",
+     "color": "green"
+    },
+    "result": "तब मशीन खरीदो",
+    "result_at": "तब मशीन"
+   }
+  },
+  {
+   "at": "नहीं मिली? तो",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "नहीं मिली?",
+    "at": "नहीं मिली",
+    "sub": "जलने से पहले जवाब",
+    "sub_at": "पैसा जलने",
+    "color": "white",
+    "sub_color": "green"
+   }
+  },
+  {
+   "at": "और इस बिज़नेस",
+   "mood": "smirk",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "इक्विपमेंट का",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "हिडन नंबर",
+    "color": "ice",
+    "items": [
+     {
+      "text": "जॉब का रेट",
+      "at": "जॉब का रेट",
+      "strike": true
+     },
+     {
+      "text": "इक्विपमेंट utilization",
+      "at": "इक्विपमेंट का",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "सामान पूरे हफ़्ते",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "बिज़नेस महंगा",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "मशीन खाली पड़ी",
+    "sub": "पूरा हफ़्ता बेकार",
+    "sub_at": "पूरे हफ़्ते",
+    "chips": [
+     {
+      "text": "जॉब सिर्फ़ संडे",
+      "at": "सिर्फ़ संडे",
+      "color": "red"
+     },
+     {
+      "text": "मशीन सस्ती थी",
+      "at": "मशीन सस्ती",
+      "color": "muted"
+     }
+    ],
+    "big": "बिज़नेस महंगा",
+    "big_at": "बिज़नेस महंगा",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "याद रखो: टूल्स",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "टूल्स तब काम के",
+    "at": "टूल्स तब",
+    "sub": "जब कैलेंडर में जॉब्स",
+    "sub_at": "कैलेंडर में",
+    "color": "gold",
+    "sub_color": "green"
+   }
+  },
+  {
+   "at": "पहले कस्टमर, फिर",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "compare_arrow",
+    "title": "गोल्डन रूल",
+    "from_text": "पहले कस्टमर",
+    "from_at": "पहले कस्टमर",
+    "to_text": "फिर खरीदारी",
+    "to_at": "फिर खरीदारी",
+    "result": "पैसा सेफ",
+    "result_at": "फिर खरीदारी"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो पहले सामान लेता है",
+    "line2_at": "सारा सामान"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

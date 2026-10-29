@@ -1,0 +1,328 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹16,000 की सेल... फिर भी ₹400 का घाटा। ढाबा वही... स्टाफ वही।\n\n[intrigued, building energy] संडे को 170 कस्टमर, ₹10,400 का सरप्लस। मंडे को 80 कस्टमर, ₹400 का घाटा। तो ₹150 की थाली से ओनर कमाता कैसे है?\n\n[excited, fast] थाली में ₹52 का सामान। लगता है ₹98 बचे। [serious] यहीं ट्रैप है। गैस, स्टाफ, रेंट, बिजली अभी बाकी हैं। एवरेज बिल ₹200 पर ₹80 वेरिएबल कॉस्ट, तो हर कस्टमर से बचते हैं ₹120। और फिक्स्ड खर्चा ₹3 लाख महीना। मतलब रोज़ ₹10,000, कस्टमर आएं या ना आएं।\n\n[punchy] फिर महेश सोचता है, संडे को भीड़ थी, ₹2 लाख और लगाकर सीटें बढ़ा देता हूँ। [sighs] नया वर्कर ₹18,000 का। और एक्स्ट्रा ₹24,000 में से बचते हैं सिर्फ़ ₹6,000।\n\n[mysterious, slower] असली झटका तब लगा, जब बारिश में कस्टमर सिर्फ़ 25% कम हुए। लगा कमाई 25% ही घटी है ना? [emphatic] पर ₹74,400 का सरप्लस बदल गया ₹19,200 के घाटे में।\n\n[confident] इसलिए तीन नंबर याद रखो। 84 कस्टमर रोज़ पर ब्रेक-इवन। 95 पर ओनर की ₹40,000 सैलरी। 102 पर ₹25,000 की सेविंग भी। और ₹12 लाख लगाने से पहले संडे नहीं, वीकडे का फुटफॉल गिनो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हाईवे पर ढाबा खोलने का सपना देख रहा है।",
+ "ig_caption": "₹16,000 की सेल के बाद भी ढाबा घाटे में गया 🍛 ₹150 की थाली का असली हिसाब यहाँ है।\n\nये रील उस दोस्त को भेजो जो हाईवे पर ढाबा खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#DhabaBusiness",
+  "#RestaurantBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#BreakEven",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹16,000",
+  "₹400",
+  "170 कस्टमर्स",
+  "₹10,400",
+  "80 कस्टमर्स",
+  "₹150 की थाली",
+  "₹52",
+  "₹98",
+  "₹200 एवरेज बिल",
+  "₹80 वेरिएबल कॉस्ट",
+  "₹120",
+  "₹3 लाख",
+  "₹10,000",
+  "₹2 लाख",
+  "₹18,000",
+  "₹24,000",
+  "₹6,000",
+  "25%",
+  "₹74,400",
+  "₹19,200",
+  "84",
+  "95",
+  "₹40,000",
+  "102",
+  "₹25,000",
+  "₹12 लाख"
+ ],
+ "cold_open": [
+  {
+   "text": "₹16,000 की सेल",
+   "at": "₹16,000 की सेल"
+  },
+  {
+   "text": "फिर भी ₹400 घाटा",
+   "at": "₹400 का घाटा"
+  },
+  {
+   "text": "ढाबा वही",
+   "at": "ढाबा वही"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "संडे को 170",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "मंडे को 80",
+     "mood": "shocked"
+    },
+    {
+     "at": "तो ₹150",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "वही ढाबा",
+    "title_at": "संडे को 170",
+    "left": {
+     "text": "संडे: +₹10,400",
+     "at": "₹10,400",
+     "color": "green"
+    },
+    "right": {
+     "text": "मंडे: −₹400",
+     "at": "₹400 का घाटा",
+     "color": "red"
+    },
+    "result": "₹150 की थाली?",
+    "result_at": "तो ₹150"
+   }
+  },
+  {
+   "at": "थाली में ₹52",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "₹150 की थाली",
+    "title_at": "थाली में",
+    "left": {
+     "text": "सामान ₹52",
+     "at": "₹52",
+     "color": "white"
+    },
+    "right": {
+     "text": "बचे ₹98?",
+     "at": "₹98 बचे",
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "at": "यहीं ट्रैप है",
+   "mood": "serious",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "गैस, स्टाफ",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "अभी बाकी हैं",
+    "color": "ice",
+    "items": [
+     {
+      "text": "गैस",
+      "at": "गैस",
+      "strike": false
+     },
+     {
+      "text": "स्टाफ",
+      "at": "स्टाफ",
+      "strike": false
+     },
+     {
+      "text": "रेंट",
+      "at": "रेंट",
+      "strike": false
+     },
+     {
+      "text": "बिजली",
+      "at": "बिजली",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "एवरेज बिल ₹200",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "compare_arrow",
+    "title": "एवरेज बिल",
+    "from_text": "बिल ₹200",
+    "from_at": "₹200",
+    "to_text": "कॉस्ट −₹80",
+    "to_at": "₹80",
+    "result": "हर कस्टमर: ₹120",
+    "result_at": "₹120"
+   }
+  },
+  {
+   "at": "और फिक्स्ड खर्चा",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "कस्टमर आएं",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "फिक्स्ड खर्चा/महीना",
+    "value": "₹3 लाख",
+    "value_at": "₹3 लाख",
+    "note": "रोज़ ₹10,000",
+    "note_at": "₹10,000",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "फिर महेश सोचता",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "महेश का प्लान",
+    "at": "महेश",
+    "sub": "+₹2 लाख, ज़्यादा सीटें",
+    "sub_at": "₹2 लाख",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "नया वर्कर ₹18,000",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "सिर्फ़ ₹6,000",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "नया खर्चा",
+    "sub": "एक्स्ट्रा सेल ₹24,000",
+    "sub_at": "₹24,000",
+    "chips": [
+     {
+      "text": "वर्कर ₹18,000",
+      "at": "₹18,000",
+      "color": "red"
+     }
+    ],
+    "big": "बचे सिर्फ़ ₹6,000",
+    "big_at": "₹6,000",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "असली झटका",
+   "mood": "serious",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "लगा कमाई",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "percent",
+    "value": 25,
+    "at": "25% कम",
+    "label": "बारिश: कम कस्टमर",
+    "label_at": "बारिश"
+   }
+  },
+  {
+   "at": "पर ₹74,400",
+   "mood": "shocked",
+   "tint": "red",
+   "card": {
+    "type": "compare_arrow",
+    "title": "बारिश का असर",
+    "from_text": "+₹74,400",
+    "from_at": "₹74,400",
+    "to_text": "−₹19,200",
+    "to_at": "₹19,200",
+    "result": "सरप्लस → घाटा",
+    "result_at": "घाटे में"
+   }
+  },
+  {
+   "at": "इसलिए तीन नंबर",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "title_slam",
+    "title": "3 नंबर",
+    "at": "तीन नंबर",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "84 कस्टमर रोज़",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "रोज़ के कस्टमर",
+    "items": [
+     {
+      "text": "84 = ब्रेक-इवन",
+      "at": "84"
+     },
+     {
+      "text": "95 = ₹40,000 सैलरी",
+      "at": "95"
+     },
+     {
+      "text": "102 = ₹25,000 सेविंग",
+      "at": "102"
+     }
+    ],
+    "final": "सेविंग भी!",
+    "final_at": "सेविंग भी"
+   }
+  },
+  {
+   "at": "और ₹12 लाख",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "₹12 लाख से पहले",
+    "title_at": "₹12 लाख",
+    "left": {
+     "text": "संडे ✗",
+     "at": "संडे नहीं",
+     "color": "red"
+    },
+    "right": {
+     "text": "वीकडे फुटफॉल ✓",
+     "at": "वीकडे",
+     "color": "green"
+    }
+   }
+  },
+  {
+   "at": "ये रील",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "जो ढाबा खोलना चाहता है",
+    "line2_at": "ढाबा खोलने"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

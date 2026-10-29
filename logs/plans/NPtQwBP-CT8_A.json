@@ -1,0 +1,345 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹5 लाख... ₹40 लाख का होम लोन... और 39 महीने की EMI, जो देनी ही नहीं पड़ी।\n\n[intrigued, building energy] ₹5 लाख इन्वेस्ट करो तो 15 साल में बनते हैं करीब ₹20.9 लाख। प्रीपे करो तो बचता है सिर्फ़ ₹10.5 लाख का ब्याज। लगता है इन्वेस्टिंग जीत गई, है ना? [emphatic] पर ये तुलना ही गलत है।\n\n[excited, fast] लोन ₹40 लाख, ब्याज 8.5%, EMI ₹39,400। ₹5 लाख प्रीपे किए तो लोन हुआ ₹35 लाख। EMI वही रखी तो लोन 11 साल 9 महीने में खत्म। यानी 39 महीने पहले।\n\n[serious] अब इन्साफ़ देखो। इन 39 महीने वो बंदा ₹39,400 इन्वेस्ट करता है। [punchy] उसका पॉट बनता है करीब ₹18 लाख। फ़र्क़ सिर्फ़ ₹3 लाख। [amused] डबल वाली कहानी यहीं ख़त्म।\n\n[mysterious, slower] और रिटर्न 10% की जगह 7% मान लो? ₹5 लाख बनते हैं ₹13.8 लाख, जबकि प्रीपेमेंट वाला पहुँचता है करीब ₹17 लाख पर। [emphatic] और 10% भी गारंटी नहीं, सिर्फ़ इलस्ट्रेशन है। बैंक का ब्याज बचना पक्का है। मार्केट का रिटर्न सिर्फ़ उम्मीद है।\n\n[confident] तो पहले एक सवाल पूछो: इन ₹5 लाख के जाने के बाद इमरजेंसी के लिए क्या बचेगा? जवाब \"लगभग कुछ नहीं\" है, तो कैलकुलेशन रोक दो। पर्सनल लोन 12 से 18% का पड़ सकता है। कुछ हिस्सा कैश रखो, फिर रेस चुनो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोनस आते ही बोलता है, \"यार, लोन खत्म कर दूँ या इन्वेस्ट?\"",
+ "ig_caption": "₹5 लाख: होम लोन प्रीपे करें या इन्वेस्ट? 💸 असली फ़र्क़ सिर्फ़ ₹3 लाख का निकला।\n\nउस दोस्त को भेजो जिसके अकाउंट में अचानक ₹5 लाख आए हैं 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative (10% return is not guaranteed), not financial advice.",
+ "hashtags": [
+  "#HomeLoan",
+  "#Prepayment",
+  "#PaisaDecode",
+  "#PersonalFinanceIndia",
+  "#MutualFunds",
+  "#EMI",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹5 लाख",
+  "₹40 लाख",
+  "8.5%",
+  "15 साल",
+  "₹39,400",
+  "₹35 लाख",
+  "11 साल 9 महीने",
+  "39 महीने",
+  "₹10.5 लाख",
+  "10%",
+  "₹20.9 लाख",
+  "₹18 लाख",
+  "₹3 लाख",
+  "7%",
+  "₹13.8 लाख",
+  "₹17 लाख",
+  "12 से 18%"
+ ],
+ "cold_open": [
+  {
+   "text": "₹5 लाख",
+   "at": "₹5 लाख"
+  },
+  {
+   "text": "₹40 लाख का होम लोन",
+   "at": "₹40 लाख का"
+  },
+  {
+   "text": "39 महीने: EMI नहीं",
+   "at": "और 39 महीने"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "लाख इन्वेस्ट करो",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "इन्वेस्टिंग जीत गई",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "15 साल बाद",
+    "title_at": "15 साल में",
+    "left": {
+     "text": "इन्वेस्ट: ₹20.9 लाख",
+     "at": "₹20.9 लाख",
+     "color": "green"
+    },
+    "right": {
+     "text": "प्रीपे: ₹10.5 लाख",
+     "at": "₹10.5 लाख",
+     "color": "muted"
+    },
+    "result": "इन्वेस्टिंग जीती?",
+    "result_at": "इन्वेस्टिंग जीत गई"
+   }
+  },
+  {
+   "at": "पर ये तुलना",
+   "mood": "shocked",
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "तुलना ही गलत!",
+    "at": "तुलना ही गलत",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "लोन ₹40 लाख",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "होम लोन",
+    "color": "gold",
+    "items": [
+     {
+      "text": "लोन ₹40 लाख",
+      "at": "लोन ₹40 लाख",
+      "strike": false
+     },
+     {
+      "text": "ब्याज 8.5%",
+      "at": "8.5%",
+      "strike": false
+     },
+     {
+      "text": "EMI ₹39,400",
+      "at": "EMI ₹39,400",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "₹5 लाख प्रीपे",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "compare_arrow",
+    "title": "₹5 लाख प्रीपे",
+    "from_text": "₹40 लाख",
+    "from_at": "प्रीपे किए",
+    "to_text": "₹35 लाख",
+    "to_at": "₹35 लाख",
+    "result": "EMI वही रखी",
+    "result_at": "EMI वही"
+   }
+  },
+  {
+   "at": "लोन 11 साल",
+   "mood": "neutral",
+   "tint": "green",
+   "beats": [
+    {
+     "at": "यानी 39 महीने",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "11 साल 9 महीने में",
+    "value": "39 महीने",
+    "value_at": "यानी 39 महीने",
+    "note": "पहले लोन खत्म!",
+    "note_at": "महीने पहले",
+    "color": "green"
+   }
+  },
+  {
+   "at": "अब इन्साफ़ देखो",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "इन्साफ़ वाली तुलना",
+    "at": "इन्साफ़ देखो",
+    "sub": "39 महीने × ₹39,400",
+    "sub_at": "बंदा ₹39,400",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "उसका पॉट बनता",
+   "mood": "serious",
+   "beats": [
+    {
+     "at": "फ़र्क़ सिर्फ़",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "counter",
+    "label": "प्रीपे वाले का पॉट",
+    "prefix": "₹",
+    "to": 1800000,
+    "at": "₹18 लाख",
+    "done_text": "फ़र्क़ सिर्फ़ ₹3 लाख",
+    "done_at": "फ़र्क़ सिर्फ़"
+   }
+  },
+  {
+   "at": "डबल वाली कहानी",
+   "mood": "smirk",
+   "card": {
+    "type": "strike_list",
+    "title": "डबल वाली कहानी",
+    "color": "red",
+    "items": [
+     {
+      "text": "इन्वेस्टिंग = डबल",
+      "at": "डबल वाली",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "और रिटर्न 10%",
+   "mood": "neutral",
+   "tint": "cold",
+   "card": {
+    "type": "compare_arrow",
+    "title": "रिटर्न कम हुआ तो?",
+    "from_text": "10%",
+    "from_at": "रिटर्न 10%",
+    "to_text": "7%",
+    "to_at": "7% मान",
+    "result": "अब देखो",
+    "result_at": "मान लो"
+   }
+  },
+  {
+   "at": "लाख बनते हैं",
+   "mood": "neutral",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "₹17 लाख",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "7% पर",
+    "title_at": "लाख बनते हैं",
+    "left": {
+     "text": "इन्वेस्ट: ₹13.8 लाख",
+     "at": "₹13.8 लाख",
+     "color": "muted"
+    },
+    "right": {
+     "text": "प्रीपे: ₹17 लाख",
+     "at": "₹17 लाख",
+     "color": "green"
+    },
+    "result": "प्रीपे आगे!",
+    "result_at": "लाख पर"
+   }
+  },
+  {
+   "at": "और 10% भी",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "10% = इलस्ट्रेशन",
+    "title_at": "गारंटी नहीं",
+    "left": {
+     "text": "ब्याज बचत = पक्की",
+     "at": "बचना पक्का",
+     "color": "green"
+    },
+    "right": {
+     "text": "मार्केट = उम्मीद",
+     "at": "सिर्फ़ उम्मीद",
+     "color": "ice"
+    }
+   }
+  },
+  {
+   "at": "तो पहले एक",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "पहला सवाल",
+    "at": "एक सवाल",
+    "sub": "इमरजेंसी फंड बचेगा?",
+    "sub_at": "इमरजेंसी",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "जवाब",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "पर्सनल लोन",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "रुको!",
+    "sub": "कैलकुलेशन रोक दो",
+    "sub_at": "कैलकुलेशन रोक",
+    "chips": [
+     {
+      "text": "लगभग कुछ नहीं",
+      "at": "लगभग कुछ",
+      "color": "muted"
+     },
+     {
+      "text": "पर्सनल लोन",
+      "at": "पर्सनल लोन",
+      "color": "red"
+     }
+    ],
+    "big": "12–18%",
+    "big_at": "18% का",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "कुछ हिस्सा कैश",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "प्लान",
+    "items": [
+     {
+      "text": "कुछ हिस्सा कैश रखो",
+      "at": "हिस्सा कैश"
+     },
+     {
+      "text": "फिर रेस चुनो",
+      "at": "रेस चुनो"
+     }
+    ],
+    "final": "प्रीपे या इन्वेस्ट",
+    "final_at": "रेस चुनो"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "लोन खत्म या इन्वेस्ट?",
+    "line2_at": "लोन खत्म कर"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

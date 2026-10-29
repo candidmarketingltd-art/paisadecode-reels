@@ -1,10 +1,155 @@
-  ANTHROPIC_API_KEY: set
-  ELEVENLABS_API_KEY: set
-  APIFY_TOKEN: set
-  BUFFER_API_KEY: set
-  BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 8, 'sent': 4}
-Buffer queue: 8 waiting (buffer); target 10 -> making 2
---- queued ready-made reel mjpT-dwFNuA A
---- queued ready-made reel 1dNvTfp8a6E A
-added 2 reel(s) to Buffer
+      [buffer] post statuses seen: {'sent': 10, 'sending': 4}
+Batch: making 10 reels; Buffer has 0 waiting (buffer), cap 10
+--- reel 1/10: slot 3 (ideas) eYBQ6mIaCs4 I1
+[1/4] script  eYBQ6mIaCs4 I1: 5 Boring Businesses You Can Start Testing Under ₹50,000
+[2/4] voice
+      213 words, 79.3s, model eleven_v4
+[3/4] render
+  frame 0/2407
+  frame 300/2407
+  frame 600/2407
+  frame 900/2407
+  frame 1200/2407
+  frame 1500/2407
+  frame 1800/2407
+  frame 2100/2407
+  frame 2400/2407
+      queued in Buffer (1 waiting)
+--- reel 2/10: slot 1 (economics) jABAglhLMx4 A
+[1/4] script  jABAglhLMx4 A: The Economics of an Indian Chai Tapri: Can ₹20 Chai Make ₹1 Lakh a Month?
+[2/4] voice
+      213 words, 84.5s, model eleven_v4
+[3/4] render
+  frame 0/2563
+  frame 300/2563
+  frame 600/2563
+  frame 900/2563
+  frame 1200/2563
+  frame 1500/2563
+  frame 1800/2563
+  frame 2100/2563
+  frame 2400/2563
+      queued in Buffer (2 waiting)
+--- reel 3/10: slot 2 (money) 6QA0sKHIIkQ A
+[1/4] script  6QA0sKHIIkQ A: Your Salary Stops Tomorrow. How Long Can You Survive?
+[2/4] voice
+      217 words, 87.3s, model eleven_v4
+[3/4] render
+  frame 0/2647
+  frame 300/2647
+  frame 600/2647
+  frame 900/2647
+  frame 1200/2647
+  frame 1500/2647
+  frame 1800/2647
+  frame 2100/2647
+  frame 2400/2647
+      queued in Buffer (3 waiting)
+--- reel 4/10: slot 3 (ideas) alAIJhAqD-k T1
+[1/4] script  alAIJhAqD-k T1: Amazon & Flipkart Sale 2026: 7 Tricks to Check BEFORE You Buy Anything
+[2/4] voice
+      188 words, 89.3s, model eleven_v4
+[3/4] render
+  frame 0/2706
+  frame 300/2706
+  frame 600/2706
+  frame 900/2706
+  frame 1200/2706
+  frame 1500/2706
+  frame 1800/2706
+  frame 2100/2706
+  frame 2400/2706
+  frame 2700/2706
+      queued in Buffer (4 waiting)
+--- reel 5/10: slot 1 (economics) HoclpRkQt2g A
+[1/4] script  HoclpRkQt2g A: ₹150 Thali at a Highway Dhaba. How Many Customers to Make Profit?
+[2/4] voice
+      190 words, 85.6s, model eleven_v4
+[3/4] render
+  frame 0/2596
+  frame 300/2596
+  frame 600/2596
+  frame 900/2596
+  frame 1200/2596
+  frame 1500/2596
+  frame 1800/2596
+  frame 2100/2596
+  frame 2400/2596
+      queued in Buffer (5 waiting)
+--- reel 6/10: slot 2 (money) NPtQwBP-CT8 A
+[1/4] script  NPtQwBP-CT8 A: You Have ₹5 Lakh. Prepay Your Home Loan or Invest It?
+[2/4] voice
+      216 words, 89.6s, model eleven_v4
+[3/4] render
+  frame 0/2716
+  frame 300/2716
+  frame 600/2716
+  frame 900/2716
+  frame 1200/2716
+  frame 1500/2716
+  frame 1800/2716
+  frame 2100/2716
+  frame 2400/2716
+  frame 2700/2716
+      queued in Buffer (6 waiting)
+--- reel 7/10: slot 3 (ideas) cutJkJ4H7-U I1
+[1/4] script  cutJkJ4H7-U I1: 5 Boring Businesses Nobody Notices Behind Restaurants, Hotels & Hospital
+[2/4] voice
+      195 words, 73.3s, model eleven_v4
+[3/4] render
+  frame 0/2227
+  frame 300/2227
+  frame 600/2227
+  frame 900/2227
+  frame 1200/2227
+  frame 1500/2227
+  frame 1800/2227
+  frame 2100/2227
+      queued in Buffer (7 waiting)
+--- reel 8/10: slot 1 (economics) fdzsF7lYX5M A
+[1/4] script  fdzsF7lYX5M A: ₹50,000 Poultry Farming Business: 100 Chickens Ka Profit Kitna Hai?
+[2/4] voice
+      257 words, 108.4s, model eleven_v4
+[3/4] render
+  frame 0/3280
+  frame 300/3280
+  frame 600/3280
+  frame 900/3280
+  frame 1200/3280
+  frame 1500/3280
+  frame 1800/3280
+  frame 2100/3280
+  frame 2400/3280
+  frame 2700/3280
+  frame 3000/3280
+      queued in Buffer (8 waiting)
+--- reel 9/10: slot 2 (money) T7oW6D8R8YI A
+[1/4] script  T7oW6D8R8YI A: No-Cost EMI Isn't Free. So Where Are You Actually Paying?
+[2/4] voice
+      210 words, 86.2s, model eleven_v4
+[3/4] render
+  frame 0/2613
+  frame 300/2613
+  frame 600/2613
+  frame 900/2613
+  frame 1200/2613
+  frame 1500/2613
+  frame 1800/2613
+  frame 2100/2613
+  frame 2400/2613
+      queued in Buffer (9 waiting)
+--- reel 10/10: slot 3 (ideas) 3aYy4tj-L8w I2
+[1/4] script  3aYy4tj-L8w I2: 5 Boring Businesses That Quietly Make People Rich in India
+[2/4] voice
+      181 words, 74.1s, model eleven_v4
+[3/4] render
+  frame 0/2251
+  frame 300/2251
+  frame 600/2251
+  frame 900/2251
+  frame 1200/2251
+  frame 1500/2251
+  frame 1800/2251
+  frame 2100/2251
+      queued in Buffer (10 waiting)
+made 10 reels: 10 queued in Buffer, 0 ready for the next top-ups

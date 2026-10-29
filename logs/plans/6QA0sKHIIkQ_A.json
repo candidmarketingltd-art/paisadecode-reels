@@ -1,0 +1,331 @@
+{
+ "voiceover": "[slow, deep, dramatic] कल सुबह HR का कॉल। \"आज लास्ट वर्किंग डे।\" सैलरी जीरो।\n\n[intrigued, building energy] तुम्हारी इन-हैंड सैलरी ₹1 लाख थी। बैंक में ₹3 लाख पड़े हैं। तुम सोचोगे, \"3 महीने तो सेफ हूँ।\" पर सच ये है कि ये ₹3 लाख 3 महीने भी चल सकते हैं, और 7 महीने भी।\n\n[excited, fast] रेंट को HR का मेल नहीं मिला। EMI को भी नहीं। SIP ₹15,000 की बंद। शॉपिंग बंद। सब्सक्रिप्शन बंद। ₹1 लाख की लाइफ आ गई सर्वाइवल मोड में ₹70,000 पर। ₹3 लाख भाग ₹70,000, तो 4.3 महीने।\n\n[serious] अब घड़ी चलाओ। पहले महीने के बाद बचे ₹2.3 लाख। दूसरे के बाद ₹1.6 लाख। तीसरे के बाद ₹90,000। चौथे के बाद सिर्फ़ ₹20,000। [sighs] और ज़िंदगी स्प्रेडशीट नहीं है। लैपटॉप की रिपेयर ₹8,000। 4.3 महीने आधे महीने से ज़्यादा सिकुड़ गए।\n\n[mysterious, slower] अब दो लोग सोचो। दोनों की सैलरी ₹1 लाख। दोनों के पास ₹3 लाख। पर्सन A का सर्वाइवल खर्चा ₹40,000, तो साढ़े 7 महीने। पर्सन B का खर्चा ₹75,000, तो सिर्फ़ 4 महीने। [emphatic] क्योंकि जॉब जाने के बाद सैलरी नहीं, फिक्स्ड कमिटमेंट्स मैटर करते हैं।\n\n[confident] आज रात तीन नंबर निकालो। एक: असली कैश कितना है, क्रेडिट कार्ड लिमिट नहीं। दो: सर्वाइवल खर्चा कितना। तीन: कैश भाग खर्चा। वही तुम्हारा रनवे है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, ₹3 लाख पड़े हैं, जॉब गई तो भी टेंशन नहीं।\"",
+ "ig_caption": "₹3 लाख बैंक में हैं, पर सैलरी रुक गई तो कितने महीने चलेंगे? जवाब 3 नहीं है 💸\n\nसेम सैलरी, सेम सेविंग्स: एक का रनवे साढ़े 7 महीने, दूसरे का 4 महीने।\n\nउस दोस्त को भेजो जो सोचता है कि ₹3 लाख काफ़ी हैं 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "hashtags": [
+  "#EmergencyFund",
+  "#JobLoss",
+  "#FinancialRunway",
+  "#PersonalFinanceIndia",
+  "#PaisaDecode",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹1 लाख (in-hand salary)",
+  "3 लाख (bank balance)",
+  "3 मंथ",
+  "7 मंथ्स",
+  "SIP ₹15,000",
+  "₹70,000 per month (survival mode)",
+  "4.3 मंथ्स",
+  "2.3 लाख",
+  "1.6 लाख",
+  "₹90,000",
+  "₹20,000",
+  "₹8,000 (laptop repair)",
+  "आधे महीने से ज्यादा श्रिंक",
+  "पर्सन A: 40,000 per month, 7 और आधा महीना",
+  "पर्सन B: 75,000 per month, 4 महीने"
+ ],
+ "cold_open": [
+  {
+   "text": "HR का कॉल",
+   "at": "HR का कॉल"
+  },
+  {
+   "text": "लास्ट वर्किंग डे",
+   "at": "लास्ट वर्किंग डे"
+  },
+  {
+   "text": "सैलरी जीरो",
+   "at": "सैलरी जीरो"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "तुम्हारी इन-हैंड",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "तुम्हारी हालत",
+    "title_at": "तुम्हारी इन-हैंड",
+    "left": {
+     "text": "सैलरी ₹1 लाख",
+     "at": "₹1 लाख थी",
+     "color": "white"
+    },
+    "right": {
+     "text": "बैंक में ₹3 लाख",
+     "at": "बैंक में",
+     "color": "gold"
+    },
+    "result": "सैलरी जीरो",
+    "result_at": "पड़े हैं"
+   }
+  },
+  {
+   "at": "तुम सोचोगे",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "\"3 महीने तो सेफ\"",
+    "at": "3 महीने तो",
+    "sub": "₹3 लाख ÷ ₹1 लाख",
+    "sub_at": "सेफ हूँ",
+    "color": "gold",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "पर सच ये",
+   "mood": "shocked",
+   "card": {
+    "type": "compare_arrow",
+    "title": "वही ₹3 लाख",
+    "from_text": "3 महीने",
+    "from_at": "3 महीने भी",
+    "to_text": "7 महीने",
+    "to_at": "7 महीने",
+    "result": "फ़र्क किसका?",
+    "result_at": "7 महीने"
+   }
+  },
+  {
+   "at": "रेंट को HR",
+   "mood": "smirk",
+   "card": {
+    "type": "headline",
+    "title": "रेंट + EMI",
+    "at": "रेंट को",
+    "sub": "HR का मेल नहीं मिला",
+    "sub_at": "EMI को",
+    "color": "red",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "SIP ₹15,000",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "सब बंद",
+    "color": "red",
+    "items": [
+     {
+      "text": "SIP ₹15,000",
+      "at": "SIP",
+      "strike": true
+     },
+     {
+      "text": "शॉपिंग",
+      "at": "शॉपिंग",
+      "strike": true
+     },
+     {
+      "text": "सब्सक्रिप्शन",
+      "at": "सब्सक्रिप्शन",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "₹1 लाख की",
+   "mood": "neutral",
+   "card": {
+    "type": "compare_arrow",
+    "title": "सर्वाइवल मोड",
+    "from_text": "₹1 लाख",
+    "from_at": "₹1 लाख की",
+    "to_text": "₹70,000",
+    "to_at": "₹70,000 पर",
+    "result": "हर महीने का खर्चा",
+    "result_at": "सर्वाइवल मोड"
+   }
+  },
+  {
+   "at": "₹3 लाख भाग",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "₹3 लाख ÷ ₹70,000",
+    "value": "4.3 महीने",
+    "value_at": "4.3 महीने",
+    "note": "काग़ज़ पे",
+    "note_at": "4.3 महीने",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "अब घड़ी चलाओ",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "सिर्फ़ ₹20,000",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "घड़ी चालू",
+    "color": "red",
+    "items": [
+     {
+      "text": "महीना 1: ₹2.3 लाख",
+      "at": "₹2.3 लाख",
+      "strike": false
+     },
+     {
+      "text": "महीना 2: ₹1.6 लाख",
+      "at": "₹1.6 लाख",
+      "strike": false
+     },
+     {
+      "text": "महीना 3: ₹90,000",
+      "at": "₹90,000",
+      "strike": false
+     },
+     {
+      "text": "महीना 4: ₹20,000",
+      "at": "₹20,000",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "और ज़िंदगी स्प्रेडशीट",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "₹8,000",
+     "mood": "shocked"
+    },
+    {
+     "at": "सिकुड़ गए",
+     "mood": "serious"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "झटका · लैपटॉप",
+    "sub": "ज़िंदगी स्प्रेडशीट नहीं",
+    "sub_at": "स्प्रेडशीट",
+    "chips": [
+     {
+      "text": "4.3 महीने सिकुड़े",
+      "at": "सिकुड़ गए",
+      "color": "red"
+     }
+    ],
+    "big": "−₹8,000",
+    "big_at": "₹8,000",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "अब दो लोग",
+   "mood": "smirk",
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "दो लोग",
+    "at": "दो लोग",
+    "sub": "₹1 लाख सैलरी · ₹3 लाख",
+    "sub_at": "दोनों के पास",
+    "color": "ice",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "पर्सन A का",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "सिर्फ़ 4 महीने",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "सर्वाइवल खर्चा",
+    "title_at": "सर्वाइवल खर्चा",
+    "left": {
+     "text": "A: ₹40,000",
+     "at": "₹40,000",
+     "color": "green"
+    },
+    "right": {
+     "text": "B: ₹75,000",
+     "at": "₹75,000",
+     "color": "red"
+    },
+    "result": "साढ़े 7 vs 4 महीने",
+    "result_at": "सिर्फ़ 4 महीने"
+   }
+  },
+  {
+   "at": "क्योंकि जॉब जाने",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "सैलरी नहीं,",
+    "at": "सैलरी नहीं",
+    "sub": "फिक्स्ड कमिटमेंट्स",
+    "sub_at": "फिक्स्ड कमिटमेंट्स",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "आज रात तीन",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "आज रात 3 नंबर",
+    "items": [
+     {
+      "text": "असली कैश (लिमिट नहीं)",
+      "at": "असली कैश"
+     },
+     {
+      "text": "सर्वाइवल खर्चा",
+      "at": "दो: सर्वाइवल"
+     },
+     {
+      "text": "कैश ÷ खर्चा",
+      "at": "तीन: कैश"
+     }
+    ],
+    "final": "= तुम्हारा रनवे",
+    "final_at": "रनवे है"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "\"जॉब गई? टेंशन नहीं\"",
+    "line2_at": "टेंशन नहीं"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}

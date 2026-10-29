@@ -1,0 +1,331 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹60,000 का फोन... \"नो कॉस्ट\" EMI... और स्टेटमेंट में इंटरेस्ट।\n\n[intrigued, building energy] नो कॉस्ट EMI में भी तुम ₹3,800 ज़्यादा दे सकते हो। और वो इंटरेस्ट की वजह से नहीं है। तो फिर किसकी वजह से?\n\n[excited, fast] पहले इंटरेस्ट। बैंक ने चार्ज किया करीब ₹2,500। पर दुकान ने उतना ही डिस्काउंट दे दिया। हिसाब बराबर। तो फ्री? [punchy] रुको। इंटरेस्ट पर 18% GST, यानी करीब ₹450। ऊपर से ₹99 की प्रोसेसिंग फीस, उस पर भी GST। [serious] मतलब करीब ₹800 एक्स्ट्रा।\n\n[amused] अब असली खेल। फुल पेमेंट पे कार्ड ऑफर था ₹3,000 का इंस्टेंट डिस्काउंट। फोन पड़ता ₹57,000 का। EMI पे वो डिस्काउंट गायब। [sighs] तो ₹57,000 के सामने ₹60,000 और ऊपर से ₹800। फ़र्क़... ₹3,800।\n\n[mysterious, slower] पर सबसे महँगा हिस्सा ये भी नहीं। तुम शोरूम गए थे ₹45,000 के फोन के लिए। सेल्समैन बोला, \"सर, बस ₹10,000 महीना।\" फिर, \"बस ₹2,000 और।\" और बजट पहुँच गया ₹72,000 पे। [emphatic] प्रोडक्ट सस्ता नहीं हुआ। बिल ने बस छोटे कपड़े पहन लिए।\n\n[confident] इसलिए दो स्क्रीनशॉट लो। एक फुल पेमेंट का, एक EMI का। फिर फाइनल रुपये की फाइनल रुपये से तुलना करो। महीने की किस्त मत देखो। और खुद से पूछो: EMI ना होती, तो क्या मैं ये फोन इसी प्राइस पे लेता?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हर चीज़ \"बस इतने रुपये महीना\" में खरीद लेता है।",
+ "ig_caption": "नो कॉस्ट EMI में इंटरेस्ट छुपा नहीं, छूटा हुआ डिस्काउंट महँगा पड़ता है 📱 ₹60,000 के फोन पे ₹3,800 का फ़र्क़।\n\nउस दोस्त को भेजो जो हर चीज़ \"बस इतने रुपये महीना\" में खरीदता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, actual amounts vary by bank and offer. Not financial advice.",
+ "hashtags": [
+  "#NoCostEMI",
+  "#EMI",
+  "#PersonalFinanceIndia",
+  "#PaisaDecode",
+  "#MoneyTips",
+  "#SmartSpending",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹60,000",
+  "6 महीने",
+  "₹2,500",
+  "18%",
+  "₹450",
+  "₹99",
+  "₹800",
+  "₹3,000",
+  "₹57,000",
+  "₹3,800",
+  "₹45,000",
+  "₹10,000 per month",
+  "₹2,000",
+  "₹72,000"
+ ],
+ "cold_open": [
+  {
+   "text": "₹60,000 का फोन",
+   "at": "₹60,000 का फोन"
+  },
+  {
+   "text": "\"नो कॉस्ट\" EMI",
+   "at": "नो कॉस्ट"
+  },
+  {
+   "text": "स्टेटमेंट में इंटरेस्ट?",
+   "at": "स्टेटमेंट में इंटरेस्ट"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "नो कॉस्ट EMI में",
+   "mood": "neutral",
+   "beats": [
+    {
+     "at": "₹3,800 ज़्यादा",
+     "mood": "shocked"
+    },
+    {
+     "at": "किसकी वजह",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "big_number",
+    "label": "नो कॉस्ट EMI में भी",
+    "value": "+₹3,800",
+    "value_at": "₹3,800 ज़्यादा",
+    "note": "इंटरेस्ट नहीं… तो फिर?",
+    "note_at": "किसकी वजह",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "पहले इंटरेस्ट।",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "तो फ्री?",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "पहले इंटरेस्ट",
+    "title_at": "पहले इंटरेस्ट",
+    "left": {
+     "text": "बैंक: +₹2,500",
+     "at": "₹2,500",
+     "color": "red"
+    },
+    "right": {
+     "text": "दुकान: −₹2,500",
+     "at": "डिस्काउंट दे",
+     "color": "green"
+    },
+    "result": "हिसाब बराबर… फ्री?",
+    "result_at": "हिसाब बराबर"
+   }
+  },
+  {
+   "at": "रुको। इंटरेस्ट पर",
+   "mood": "shocked",
+   "card": {
+    "type": "percent",
+    "value": 18,
+    "at": "18% GST",
+    "label": "इंटरेस्ट पर GST",
+    "label_at": "18% GST"
+   }
+  },
+  {
+   "at": "यानी करीब ₹450",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "₹800 एक्स्ट्रा",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "छुपा खर्च · GST + फीस",
+    "sub": "इंटरेस्ट पर GST ≈ ₹450",
+    "sub_at": "₹450",
+    "chips": [
+     {
+      "text": "प्रोसेसिंग ₹99",
+      "at": "₹99 की",
+      "color": "red"
+     },
+     {
+      "text": "उस पर भी GST",
+      "at": "उस पर भी",
+      "color": "red"
+     }
+    ],
+    "big": "+₹800",
+    "big_at": "₹800 एक्स्ट्रा",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "अब असली खेल",
+   "mood": "smirk",
+   "card": {
+    "type": "title_slam",
+    "title": "असली खेल",
+    "at": "असली खेल",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "फुल पेमेंट पे",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "डिस्काउंट गायब",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "compare_arrow",
+    "title": "कार्ड ऑफर · फुल पेमेंट",
+    "from_text": "₹60,000 − ₹3,000",
+    "from_at": "₹3,000 का",
+    "to_text": "₹57,000",
+    "to_at": "₹57,000 का",
+    "result": "EMI पे ऑफर गायब!",
+    "result_at": "डिस्काउंट गायब"
+   }
+  },
+  {
+   "at": "तो ₹57,000 के",
+   "mood": "serious",
+   "tint": "red",
+   "beats": [
+    {
+     "at": "फ़र्क़",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "split",
+    "title": "असली तुलना",
+    "title_at": "तो ₹57,000",
+    "left": {
+     "text": "फुल: ₹57,000",
+     "at": "₹57,000 के",
+     "color": "green"
+    },
+    "right": {
+     "text": "EMI: ₹60,000 + ₹800",
+     "at": "₹60,000 और",
+     "color": "red"
+    },
+    "result": "फ़र्क़ = ₹3,800",
+    "result_at": "फ़र्क़"
+   }
+  },
+  {
+   "at": "पर सबसे महँगा",
+   "mood": "smirk",
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "सबसे महँगा हिस्सा?",
+    "at": "सबसे महँगा",
+    "sub": "ये भी नहीं…",
+    "sub_at": "ये भी नहीं",
+    "color": "ice",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "तुम शोरूम गए",
+   "mood": "neutral",
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "सेल्समैन बोला",
+     "mood": "smirk"
+    },
+    {
+     "at": "₹72,000 पे",
+     "mood": "shocked"
+    }
+   ],
+   "card": {
+    "type": "strike_list",
+    "title": "शोरूम में बजट",
+    "color": "ice",
+    "items": [
+     {
+      "text": "प्लान: ₹45,000",
+      "at": "₹45,000 के",
+      "strike": true
+     },
+     {
+      "text": "\"बस ₹10,000 महीना\"",
+      "at": "₹10,000 महीना",
+      "strike": false
+     },
+     {
+      "text": "\"बस ₹2,000 और\"",
+      "at": "₹2,000 और",
+      "strike": false
+     },
+     {
+      "text": "बजट: ₹72,000",
+      "at": "₹72,000 पे",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "प्रोडक्ट सस्ता नहीं",
+   "mood": "serious",
+   "point": true,
+   "beats": [
+    {
+     "at": "बिल ने",
+     "mood": "smirk"
+    }
+   ],
+   "card": {
+    "type": "headline",
+    "title": "प्रोडक्ट सस्ता नहीं",
+    "at": "प्रोडक्ट सस्ता",
+    "sub": "बिल ने छोटे कपड़े पहने",
+    "sub_at": "छोटे कपड़े",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "इसलिए दो स्क्रीनशॉट",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "checklist",
+    "title": "मेरा प्लान",
+    "items": [
+     {
+      "text": "दो स्क्रीनशॉट लो",
+      "at": "दो स्क्रीनशॉट"
+     },
+     {
+      "text": "फुल vs EMI",
+      "at": "एक फुल"
+     },
+     {
+      "text": "फाइनल ₹ की तुलना",
+      "at": "फाइनल रुपये"
+     }
+    ],
+    "final": "किस्त मत देखो!",
+    "final_at": "किस्त मत"
+   }
+  },
+  {
+   "at": "और खुद से",
+   "mood": "serious",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "EMI ना होती, तो?",
+    "at": "EMI ना होती",
+    "sub": "इसी प्राइस पे लेता?",
+    "sub_at": "इसी प्राइस",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "ये रील उस",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "cta",
+    "line1": "उस दोस्त को भेजो",
+    "line1_at": "भेजो",
+    "line2": "\"बस इतने रुपये महीना\"",
+    "line2_at": "बस इतने"
+   }
+  }
+ ],
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ }
+}
