@@ -31,6 +31,9 @@ def _ask_json(model, system, user, check, attempts=3):
     raise FactCheckError(f"{model} output rejected after {attempts} attempts: {err}")
 
 
+MIN_WORDS, MAX_WORDS = 150, int(os.environ.get("MAX_WORDS") or 190)  # ~190 Hindi words ≈ 75 s in Rohan's voice
+
+
 class FactCheckError(Exception):
     pass
 
@@ -91,6 +94,10 @@ def write(transcript, title, angle_code, angle_brief, previous_hooks=()):
 
     def check1(d):
         if not d.get("voiceover"): raise ValueError("missing 'voiceover'")
+        n = len(_spoken(d["voiceover"]))
+        if n > MAX_WORDS:
+            raise ValueError(f"the voiceover has {n} spoken words; the reel must stay under ~75 seconds, so cut it to "
+                             f"{MIN_WORDS}-{MAX_WORDS} words (tighten the body, keep the hook, twist and share line)")
         fact_check({"voiceover": d["voiceover"]}, transcript, title)
     script = _ask_json(SCRIPT_MODEL, sys1, user1, check1)
 
