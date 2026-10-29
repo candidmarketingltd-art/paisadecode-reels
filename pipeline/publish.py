@@ -24,7 +24,8 @@ def publish_reel(mp4_path, caption, share_to_feed=True):
     size = os.path.getsize(mp4_path)
     c = _check(requests.post(f"{GRAPH}/{_ig()}/media", data={
         "media_type": "REELS", "upload_type": "resumable", "caption": caption,
-        "share_to_feed": "true" if share_to_feed else "false", "access_token": _tok()}, timeout=60))
+        "share_to_feed": "true" if share_to_feed else "false",
+        "audio_name": os.environ.get("IG_AUDIO_NAME", "Paisa Decode Theme"), "access_token": _tok()}, timeout=60))
     cid = c["id"]
     up_url = c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{VER}/{cid}"
     with open(mp4_path, "rb") as f:

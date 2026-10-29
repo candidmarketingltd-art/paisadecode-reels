@@ -60,7 +60,8 @@ def build_sfx(cues, path, seed=1):
     pad *= 0.5 + 0.5 * np.sin(2 * np.pi * 0.05 * t) ** 2
     oe = cues.get("open_end", 0)
     pad *= np.clip((t - max(0, oe - 0.7)) / 1.5, 0, 1) * np.clip((cues["duration"] + 0.8 - t) / 1.0, 0, 1)
-    out += pad * 0.05
+    if not cues.get("music"):
+        out += pad * 0.05  # only when no theme music is used
 
     for k, ot in enumerate(cues.get("open_lines", [])):
         add(boom(2.0 if k == 0 else 1.6), ot - 0.06, [0.9, 0.5, 0.65][min(k, 2)])
@@ -78,13 +79,35 @@ def build_sfx(cues, path, seed=1):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767).astype(np.int16).tobytes())
 
 
-def mix(video, voice, sfx, out, workdir):
+MUSIC_DIR = __import__("os").path.join(__import__("os").path.dirname(__import__("os").path.abspath(__file__)), "music")
+
+
+def theme_path():
+    import os
+    for n in ("theme_loop.wav", "theme_loop.mp3"):
+        p = os.path.join(MUSIC_DIR, n)
+        if os.path.exists(p): return p
+    return None
+
+
+def mix(video, voice, sfx, out, workdir, music_start=0.0, music_gain=0.30):
+    """Voice on top; signature theme + sound design underneath, ducked whenever Rohan speaks."""
     vo = f"{workdir}/vo_proc.wav"; mixed = f"{workdir}/mix.wav"
     run = lambda *a: subprocess.run(["ffmpeg", "-y", "-v", "error", *a], check=True)
     run("-i", voice, "-af", "aresample=48000,highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5:LRA=9", "-ar", "48000", vo)
-    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video], capture_output=True, text=True, check=True).stdout.strip()
-    run("-i", vo, "-i", sfx, "-filter_complex",
-        f"[1:a]aresample=48000,volume=0.9[bed];[0:a]apad=whole_dur={dur},asplit=2[vo][sc];"
-        "[bed][sc]sidechaincompress=threshold=0.04:ratio=6:attack=10:release=250[duck];"
-        "[vo][duck]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95", "-t", dur, mixed)
-    run("-i", video, "-i", mixed, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", dur, "-movflags", "+faststart", out)
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video], capture_output=True, text=True, check=True).stdout.strip())
+    theme = theme_path()
+    ins = ["-i", vo, "-i", sfx]
+    if theme:
+        ms = max(0.0, music_start - 0.4)
+        ins += ["-stream_loop", "-1", "-i", theme]
+        music = (f"[2:a]aresample=48000,atrim=0:{dur - ms:.2f},afade=t=in:d=0.8,afade=t=out:st={max(0, dur - ms - 1.8):.2f}:d=1.8,"
+                 f"volume={music_gain},adelay={int(ms * 1000)}:all=1[mus];[1:a]aresample=48000,volume=0.9[fx];"
+                 "[mus][fx]amix=inputs=2:duration=longest:normalize=0[bed];")
+    else:
+        music = "[1:a]aresample=48000,volume=0.9[bed];"
+    run(*ins, "-filter_complex",
+        music + f"[0:a]apad=whole_dur={dur:.3f},asplit=2[vo][sc];"
+        "[bed][sc]sidechaincompress=threshold=0.03:ratio=8:attack=8:release=300[duck];"
+        "[vo][duck]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95", "-t", f"{dur:.3f}", mixed)
+    run("-i", video, "-i", mixed, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{dur:.3f}", "-movflags", "+faststart", out)

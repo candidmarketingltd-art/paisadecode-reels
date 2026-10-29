@@ -91,10 +91,11 @@ def make_reel(row, workdir):
     print("[3/4] render", flush=True)
     vid_only = f"{workdir}/video_only.mp4"
     cues = engine.render(plan, words, dur, vid_only)
+    cues["music"] = bool(audio.theme_path())
     sfx = f"{workdir}/sfx.wav"; audio.build_sfx(cues, sfx)
     OUT.mkdir(exist_ok=True)
     final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}.mp4")
-    audio.mix(vid_only, mp3, sfx, final, workdir)
+    audio.mix(vid_only, mp3, sfx, final, workdir, music_start=cues["open_end"])
     return final, caption_of(plan, row)
 
 
