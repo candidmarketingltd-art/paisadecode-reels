@@ -134,7 +134,7 @@ def main():
     if "--refill" in args:
         return refill(rows, int(args[args.index("--refill") + 1]), dry)
     if "--make" in args:
-        return make_batch(rows, int(args[args.index("--make") + 1]), int(os.environ.get("BUFFER_CAP") or 9))
+        return make_batch(rows, int(args[args.index("--make") + 1]), int(os.environ.get("BUFFER_CAP") or 10))
     now = dt.datetime.now(IST)
     slot = int(args[args.index("--slot") + 1]) if "--slot" in args else current_slot(now)
     if "--row" in args:

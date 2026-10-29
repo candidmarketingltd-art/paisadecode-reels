@@ -1,7 +1,7 @@
 name: Top up Buffer queue (free plan)
 
 # Used when the repo variable POSTING_MODE = buffer.
-# Twice a day: count what's waiting in Buffer and top it up to 9 (free plan holds max 10).
+# Twice a day: count what's waiting in Buffer and top it up to 10 (the free plan's max).
 # Ready-made reels (from a batch) are queued first, so nothing is rendered twice.
 # Buffer's own posting schedule (08:30 / 13:30 / 19:30 IST) publishes them.
 on:
@@ -14,7 +14,7 @@ on:
     inputs:
       target:
         description: "How many reels to keep waiting in Buffer (free plan max 10)"
-        default: "9"
+        default: "10"
       dry_run:
         description: "Render only, don't send to Buffer"
         type: boolean
@@ -67,7 +67,7 @@ jobs:
         run: |
           TARGET="${{ inputs.target }}"
           if [ "${{ github.event_name }}" = "push" ]; then TARGET=$(tr -dc '0-9' < triggers/run-now.txt); fi
-          python -m pipeline.run --refill "${TARGET:-9}"
+          python -m pipeline.run --refill "${TARGET:-10}"
       - name: Keep the reels (7 days)
         if: always()
         uses: actions/upload-artifact@v4
