@@ -1,0 +1,90 @@
+"""Original sound design + final mix. Everything is synthesised, so nothing can be claimed or muted.
+
+cues: dict from engine.render() -> open_lines, open_end, cuts, pops, duration
+"""
+import subprocess, wave
+import numpy as np
+
+SR = 44100
+
+
+def _env(n, a=0.005, r=0.3):
+    t = np.arange(n) / SR
+    return np.minimum(1, t / a) * np.exp(-t / r)
+
+
+def _lp(x, k):
+    # one-pole low-pass, vectorised with an IIR via cumulative trick (good enough for noise shaping)
+    y = np.empty_like(x); acc = 0.0
+    for i in range(len(x)):
+        acc += k * (x[i] - acc); y[i] = acc
+    return y
+
+
+def build_sfx(cues, path, seed=1):
+    rng = np.random.default_rng(seed)
+    dur = cues["duration"] + 1.2
+    N = int(dur * SR); out = np.zeros(N, np.float32)
+
+    def add(sig, t, g):
+        i = int(max(0, t) * SR); j = min(N, i + len(sig)); out[i:j] += sig[: j - i] * g
+
+    def boom(d=2.0):
+        t = np.arange(int(d * SR)) / SR
+        return np.sin(2 * np.pi * np.cumsum(34 + 50 * np.exp(-t * 6)) / SR) * _env(len(t), 0.004, 0.7)
+
+    noise_bank = _lp(rng.normal(0, 1, int(1.6 * SR)).astype(np.float32), 0.12)
+    low_bank = _lp(noise_bank, 0.08)
+
+    def whoosh(d=0.45):
+        n = int(d * SR); x = noise_bank[:n] - _lp(noise_bank[:n], 0.01)
+        return x * np.sin(np.linspace(0, np.pi, n)) ** 2 * 0.9
+
+    def riser(d=1.4):
+        n = int(d * SR); t = np.arange(n) / SR
+        s = np.sin(2 * np.pi * np.cumsum(200 + 600 * (t / d) ** 2) / SR) * (t / d) ** 3 * 0.25
+        return low_bank[:n] * (t / d) ** 2 * 0.8 + s
+
+    def pop(f):
+        t = np.arange(int(0.12 * SR)) / SR
+        return (np.sin(2 * np.pi * f * t) + 0.4 * np.sin(4 * np.pi * f * t)) * _env(len(t), 0.002, 0.04)
+
+    def thud():
+        t = np.arange(int(0.5 * SR)) / SR
+        return np.sin(2 * np.pi * (60 + 80 * np.exp(-t * 20)) * t) * _env(len(t), 0.002, 0.15)
+
+    t = np.arange(N) / SR
+    pad = np.zeros(N, np.float32)
+    for f, g in ((55, .5), (110, .35), (164.8, .22), (220, .15), (261.6, .1)):
+        pad += g * np.sin(2 * np.pi * f * t + 0.3 * np.sin(2 * np.pi * 0.07 * t * f / 55))
+    pad *= 0.5 + 0.5 * np.sin(2 * np.pi * 0.05 * t) ** 2
+    oe = cues.get("open_end", 0)
+    pad *= np.clip((t - max(0, oe - 0.7)) / 1.5, 0, 1) * np.clip((cues["duration"] + 0.8 - t) / 1.0, 0, 1)
+    out += pad * 0.05
+
+    for k, ot in enumerate(cues.get("open_lines", [])):
+        add(boom(2.0 if k == 0 else 1.6), ot - 0.06, [0.9, 0.5, 0.65][min(k, 2)])
+    if oe > 1.5:
+        add(riser(), oe - 1.3, 0.35)
+    add(thud(), oe, 0.8)
+    for c in cues.get("cuts", []):
+        add(whoosh(), c - 0.2, 0.28)
+    tones = [880, 990, 1180, 1320, 660]
+    for k, p in enumerate(cues.get("pops", [])):
+        add(pop(tones[k % len(tones)]), p, 0.16)
+
+    out /= max(1e-6, np.abs(out).max()) / 0.5
+    with wave.open(path, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767).astype(np.int16).tobytes())
+
+
+def mix(video, voice, sfx, out, workdir):
+    vo = f"{workdir}/vo_proc.wav"; mixed = f"{workdir}/mix.wav"
+    run = lambda *a: subprocess.run(["ffmpeg", "-y", "-v", "error", *a], check=True)
+    run("-i", voice, "-af", "aresample=48000,highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5:LRA=9", "-ar", "48000", vo)
+    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video], capture_output=True, text=True, check=True).stdout.strip()
+    run("-i", vo, "-i", sfx, "-filter_complex",
+        f"[1:a]aresample=48000,volume=0.9[bed];[0:a]apad=whole_dur={dur},asplit=2[vo][sc];"
+        "[bed][sc]sidechaincompress=threshold=0.04:ratio=6:attack=10:release=250[duck];"
+        "[vo][duck]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95", "-t", dur, mixed)
+    run("-i", video, "-i", mixed, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", dur, "-movflags", "+faststart", out)

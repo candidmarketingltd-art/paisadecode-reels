@@ -1,0 +1,81 @@
+name: Make & post reel
+
+on:
+  schedule:
+    # 3 reels a day. Runs ~25 min before each post time (IST): 08:30, 13:30, 19:30
+    - cron: "35 2 * * *"    # 08:05 IST
+    - cron: "35 7 * * *"    # 13:05 IST
+    - cron: "35 13 * * *"   # 19:05 IST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render only, don't post to Instagram"
+        type: boolean
+        default: true
+      slot:
+        description: "Force slot 1 (economics), 2 (money) or 3 (ideas); blank = by time of day"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: System packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig
+          mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
+
+      - name: Python packages
+        run: |
+          pip install -q -r requirements.txt
+          python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
+
+      - name: Make reel
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.slot }}" ]; then ARGS="--slot ${{ inputs.slot }}"; fi
+          python -m pipeline.run $ARGS
+
+      - name: Keep the reel (7 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_number }}
+          path: out/*.mp4
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Save calendar & logs
+        if: always()
+        run: |
+          git config user.name "paisadecode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add calendar logs transcripts
+          git diff --cached --quiet || git commit -m "reel run ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"
