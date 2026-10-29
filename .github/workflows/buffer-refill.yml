@@ -46,7 +46,6 @@ jobs:
           python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
       - name: Make reels and queue them in Buffer
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -56,8 +55,8 @@ jobs:
           MEDIA_REPO: ${{ vars.MEDIA_REPO }}
           MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
+          EDIT_MODEL: ${{ vars.EDIT_MODEL }}
           VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}

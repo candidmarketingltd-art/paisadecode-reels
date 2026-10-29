@@ -3,7 +3,7 @@
 Three Hindi reels a day, made from the @PaisaDecodeHQ YouTube channel and posted to Instagram with no one touching anything.
 
 ```
-calendar slot ─▶ YouTube transcript ─▶ Gemini writes script + scene plan ─▶ fact-check every number
+calendar slot ─▶ YouTube transcript ─▶ Claude Sonnet writes script ─▶ Claude Opus edits (scene plan) ─▶ fact-check every number
    (Apify)                               (prompts/script_writer.md)          (stops if anything is invented)
         ─▶ ElevenLabs "Rohan" voice + word timings ─▶ render Rohan mascot reel ─▶ theme music + mix ─▶ Buffer queue ─▶ Instagram
            (free Microsoft voice when credits run out)  (pipeline/render)
@@ -21,7 +21,7 @@ with the Instagram link, and every run is logged in `logs/runs.csv`. Scripts are
 
 ---
 
-## One-time setup — 100% free (~20 minutes)
+## One-time setup (~20 minutes)
 
 Secrets go in **GitHub → this repo → Settings → Secrets and variables → Actions → Secrets**.
 Plain settings go in the **Variables** tab of the same page. Never paste keys into chat or commit them.
@@ -31,9 +31,11 @@ Settings → General → Danger zone → *Change visibility* → Public.
 Buffer downloads each video from a public link, and public repos get **unlimited free GitHub Actions minutes**.
 Your keys stay private (secrets are never shown, even in public repos).
 
-### 1. Script writing — Google Gemini (free)
-aistudio.google.com → *Get API key* → create key (no card needed) → secret **`GEMINI_API_KEY`**.
-(Free tier: Google may use free-tier prompts to improve its products — fine here, scripts are public anyway.)
+### 1. Claude API — script (Sonnet) + video editing (Opus 5.5)
+console.anthropic.com → API keys → create key → secret **`ANTHROPIC_API_KEY`**.
+- **Claude Sonnet** (`claude-sonnet-5-5`) writes each Hindi script in your channel's tone.
+- **Claude Opus 5.5** (`claude-opus-5-5`) edits the video: picks every card, when it appears, Rohan's reactions, cuts and the cold open.
+- Billed per use from API credits you top up (no monthly plan). To change models later, set variables `SCRIPT_MODEL` / `EDIT_MODEL`.
 
 ### 2. Voice — ElevenLabs "Rohan" while credits last, then a free Microsoft voice
 elevenlabs.io → API keys → create key (same workspace as the "Rohan" voice) → secret **`ELEVENLABS_API_KEY`**.
@@ -64,20 +66,19 @@ Buffer publishes them at your three daily times.
 - **Meta's own API (free, no queue limit, more setup):** follow Meta's System User token steps, add secrets `IG_USER_ID` + `IG_ACCESS_TOKEN`,
   and leave `POSTING_MODE` empty — the *Make & post reel* workflow then posts directly at 08:30 / 13:30 / 19:30.
 - **Upload-Post (paid for 3/day):** secret `UPLOAD_POST_API_KEY`, variable `UPLOAD_POST_USER`.
-- **Claude instead of Gemini for scripts (paid, per use):** secret `ANTHROPIC_API_KEY` — used automatically when present.
 </details>
 
 ## Everyday controls
 - **Pause everything:** Actions → *Make & post reel* → ⋯ → *Disable workflow*.
 - **Change what posts next:** edit `calendar/calendar.csv` on GitHub — put `1` in the `priority` column of a row, or change `status` to `skip`.
 - **Post a specific video soon:** add it to `calendar/videos.json`, then run *Add new YouTube uploads to the calendar*.
-- **Change tone or structure of scripts:** edit `prompts/script_writer.md` (plain English).
+- **Change tone or structure of scripts:** edit `prompts/script_writer.md`; **change the editing style:** edit `prompts/video_editor.md` (both plain English).
 - **Something failed:** the run shows red in Actions; the calendar row gets a note. A reel that fails twice is marked `failed` and the queue moves on.
   If the fact-check rejects a script (a number not found in the video), the row becomes `skipped_factcheck` and nothing is posted.
 
 ## Costs
-₹0 with the setup above: GitHub (public repo), Gemini free tier, Apify free credit, Buffer free plan, Microsoft voice.
-The only thing that can cost money is ElevenLabs — and the bot never goes past the credits your current plan includes.
+No subscriptions: GitHub (public repo), Apify free credit, Buffer free plan, Microsoft voice fallback are all free.
+Paid per use: the Claude API (two calls per reel: Sonnet + Opus). ElevenLabs never goes past the credits your current plan includes.
 
 ## Layout
 ```
