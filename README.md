@@ -37,7 +37,19 @@ Creator (100k) is just enough.
 ### 3. Apify — YouTube transcripts and new-upload detection
 console.apify.com → Settings → API & Integrations → copy the personal token → secret **`APIFY_TOKEN`**. (Costs cents per month.)
 
-### 4. Instagram — posting
+### 4. Instagram — posting (pick ONE)
+
+**Option A — easy (recommended): Upload-Post**
+1. Instagram app → switch to a **Professional (Creator or Business)** account (no Facebook Page needed).
+2. Sign up at **app.upload-post.com** → create a profile (e.g. `paisadecode`) → *Connect* → Instagram → log in and approve.
+3. Upload-Post → *API Keys* → create a key → GitHub secret **`UPLOAD_POST_API_KEY`**.
+4. GitHub → Settings → Secrets and variables → **Variables** tab → new variable **`UPLOAD_POST_USER`** = your profile name.
+5. Plan: the free plan allows 10 uploads a month; 3 reels a day needs a paid plan (from $16/month billed yearly, $24 monthly).
+
+When `UPLOAD_POST_API_KEY` is set the pipeline uses Upload-Post and ignores the Meta settings below.
+
+**Option B — free: Meta's own API** (more setup, no monthly fee)
+
 Uses the official Instagram API with Facebook Login, with a System User token that **never expires**.
 
 1. In the Instagram app: Settings → Account type → switch to **Professional (Creator or Business)**, and link it to a **Facebook Page**.
