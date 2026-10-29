@@ -163,7 +163,7 @@ def refill(rows, target, dry):
     st_path = ROOT / "logs" / "rotation.json"
     try: k = json.loads(st_path.read_text())["next"]
     except Exception: k = 0
-    made = 0; tries = 0
+    made = 0; tries = 0; errors = []
     while made < need and tries < need + 4:
         tries += 1
         slot = k % 3 + 1
@@ -176,7 +176,7 @@ def refill(rows, target, dry):
             except script_writer.FactCheckError as e:
                 row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
             except Exception as e:
-                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); continue
+                traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); continue
             if dry:
                 print(f"DRY RUN — reel at {mp4}"); log(row, "dry_run", mp4); made += 1; k += 1; continue
             try:
@@ -184,7 +184,7 @@ def refill(rows, target, dry):
                 url = buffer.host_video(mp4, tag)
                 pid = buffer.add_to_queue(url, caption)
             except Exception as e:
-                traceback.print_exc(); fail(row, f"buffer failed: {str(e)[:250]}"); save(rows); log(row, "publish_error", str(e)[:300]); break
+                traceback.print_exc(); fail(row, f"buffer failed: {str(e)[:250]}"); save(rows); log(row, "publish_error", str(e)[:300]); errors.append(str(e)[:200]); break
             row.update(status="in_buffer", ig_media_id=pid, notes=url, posted_at=f"queued {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
             save(rows); log(row, "in_buffer", pid)
             made += 1; k += 1
@@ -192,6 +192,9 @@ def refill(rows, target, dry):
     if not dry:
         buffer.remember_level(level + made)
     print(f"added {made} reel(s) to Buffer")
+    if errors and made < need:
+        print("::error::" + " | ".join(errors))
+        sys.exit(1)  # show the run as failed so problems are visible in Actions
 
 
 if __name__ == "__main__":
