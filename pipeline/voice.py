@@ -113,14 +113,28 @@ def _voice_id():
     return _RESOLVED["id"]
 
 
+def _diagnose():
+    """Write what this ElevenLabs key can do into the run log (no secrets)."""
+    try:
+        u = requests.get(f"{API}/user/subscription", headers=_hdr(), timeout=30)
+        print(f"      [eleven] subscription: {u.status_code} {u.text[:300]}", flush=True)
+        m = requests.get(f"{API}/models", headers=_hdr(), timeout=30)
+        ids = [x.get("model_id") for x in m.json()] if m.status_code == 200 else m.text[:200]
+        print(f"      [eleven] models: {m.status_code} {ids}", flush=True)
+    except Exception as e:
+        print(f"      [eleven] diagnose failed: {e}", flush=True)
+
+
 def _eleven(text, mp3_path):
     last = None
     vid = _voice_id()
+    _diagnose()
     for model in MODELS:
         r = requests.post(f"{API}/text-to-speech/{vid}/with-timestamps", params={"output_format": "mp3_44100_128"},
                           headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
         if r.status_code >= 400:
             last = f"{model}: {r.status_code} {r.text[:300]}"
+            print(f"      [eleven] with-timestamps {model}: {r.status_code} {r.text[:200]}", flush=True)
             if _quota_error(r.status_code, r.text): raise QuotaError(last)
             if r.status_code in (400, 404, 422): continue  # model not available for this voice/account -> try next
             r.raise_for_status()
@@ -132,4 +146,13 @@ def _eleven(text, mp3_path):
         if len(words) < 20:  # alignment missing/odd -> transcribe the audio instead
             words = _stt_words(mp3_path)
         return words, model
+    for model in MODELS:  # fallback: standard endpoint (no timestamps), timings via speech-to-text
+        r = requests.post(f"{API}/text-to-speech/{vid}", params={"output_format": "mp3_44100_128"},
+                          headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
+        print(f"      [eleven] plain TTS {model}: {r.status_code} {'' if r.ok else r.text[:200]}", flush=True)
+        if r.ok:
+            with open(mp3_path, "wb") as f: f.write(r.content)
+            return _stt_words(mp3_path), model
+        last = f"{model}: {r.status_code} {r.text[:300]}"
+        if _quota_error(r.status_code, r.text): raise QuotaError(last)
     raise RuntimeError(f"ElevenLabs TTS failed: {last}")

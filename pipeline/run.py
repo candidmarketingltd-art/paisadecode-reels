@@ -116,7 +116,18 @@ def caption_of(plan, row):
     return f"{cap}\n\n{tags}"[:2150]
 
 
+class _Tee:
+    def __init__(self, *streams): self.streams = streams
+    def write(self, x):
+        for st in self.streams: st.write(x)
+    def flush(self):
+        for st in self.streams: st.flush()
+
+
 def main():
+    (ROOT / "logs").mkdir(exist_ok=True)
+    _log = open(ROOT / "logs" / "last_run.log", "w", encoding="utf-8")
+    sys.stdout = _Tee(sys.__stdout__, _log); sys.stderr = _Tee(sys.__stderr__, _log)
     args = sys.argv[1:]
     dry = "--dry-run" in args or os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
     rows = load()
