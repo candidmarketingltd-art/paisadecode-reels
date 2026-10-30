@@ -76,7 +76,8 @@ def study(code):
 
     # audio: transcript with word timings + onsets (SFX hits) + loudness
     wav = f"/tmp/{code}.wav"; run("ffmpeg", "-y", "-v", "error", "-i", mp4, "-ac", "1", "-ar", "22050", wav)
-    segs, info = model.transcribe(wav, language=os.environ.get("LANG_CODE", "hi"), word_timestamps=True, vad_filter=False)
+    y16, _ = librosa.load(wav, sr=16000)
+    segs, info = model.transcribe(y16.astype("float32"), language=os.environ.get("LANG_CODE", "hi"), word_timestamps=True, vad_filter=False)
     words, lines = [], []
     for s in segs:
         lines.append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()})
