@@ -11,6 +11,8 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 ## Editing principles (this is what makes the series feel premium)
 - Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
 - Whenever a number is spoken, it is on screen at that exact word. Big reveals (the shocking number, the twist) get a `big_number` or `title_slam`.
+- The FIRST element of every scene lands on the scene's own `at` words, so a new scene never opens on an empty screen.
+- Card values must be short (≤ 7 characters, e.g. "₹2L", "60", "AMC", "OFF"); put longer words in a `headline` or `pill` instead.
 - One idea per scene; a new scene for every new beat of the script (typically 10–14 scenes before the CTA).
 - Show, don't caption: the voiceover is already captioned, so elements carry the *data* (numbers, labels, comparisons, lists), not sentences.
 - Use illustrations (`ill` / `illustration`) for concrete objects in the story — at most one or two per scene, only when they fit.

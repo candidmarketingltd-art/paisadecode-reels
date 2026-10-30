@@ -29,7 +29,7 @@ const DotGrid: React.FC<{ at: number; n: number; cols: number; size: number; gap
 
 const StatCard: React.FC<{ c: any; w: number; h: number }> = ({ c, w, h }) => {
   const color = col(c.color, COL.gold);
-  const vs = fit(c.value || "", w - 56, h * 0.42, 0.6);
+  const vs = fit(c.value || "", w - 56 - (c.ill ? Math.min(110, h * 0.36) * 0.75 : 0), h * 0.42, 0.7);
   return (
     <Card w={w} h={h} label={c.label} accent={color} glow={c.glow ? color : undefined} glowAt={c.at} shineAt={c.at + 0.15}>
       {c.ill && <div style={{ position: "absolute", right: 14, top: 10 }}><Ill name={c.ill} size={Math.min(110, h * 0.36)} at={c.at + 0.1} /></div>}
@@ -85,7 +85,7 @@ export const SPECS: Record<string, Spec> = {
       <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
           {e.ill && <Ill name={e.ill} size={200} at={e.at + 0.15} />}
-          <Big s={fit(e.value, e.ill ? 680 : 900, 320, 0.6)} c={col(e.color, COL.gold)} at={e.at}>{e.value}</Big>
+          <Big s={fit(e.value, e.ill ? 680 : 900, 320, 0.7)} c={col(e.color, COL.gold)} at={e.at}>{e.value}</Big>
         </div>
         {e.note && <Reveal at={e.note_at ?? e.at + 0.5} style={{ marginTop: 18 }}><Pill text={e.note} bg={col(e.note_color, COL.red)} outline size={fit(e.note, 860, 30, 0.72)} /></Reveal>}
       </div>
@@ -147,7 +147,7 @@ export const SPECS: Record<string, Spec> = {
       const sa = e.strike_at ?? Rr.at + 0.3;
       const strike = interpolate(f, [fx(sa), fx(sa + 0.3)], [0, 1], { ...clamp, easing: easeOut });
       const lose = f >= fx(Rr.at);
-      const vsL = fit(L.value, 400, 150, 0.6), vsR = fit(Rr.value, 400, 150, 0.6);
+      const vsL = fit(L.value, 395, 150, 0.7), vsR = fit(Rr.value, Rr.ill ? 330 : 395, 150, 0.7);
       return (
         <div style={{ position: "relative", width: W, height: 380 }}>
           <Reveal at={e.at} style={{ position: "absolute", left: 0 }}>

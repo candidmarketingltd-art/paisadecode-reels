@@ -61,7 +61,7 @@ const Scene: React.FC<{ s: SceneT; i: number }> = ({ s, i }) => {
   const stacked = els.filter((_, k) => hs[k] > 0);
   const total = hs.filter((h) => h > 0).reduce((a, b) => a + b, 0) + GAP * Math.max(0, stacked.length - 1);
   const k = total > AREA ? AREA / total : 1;
-  const top = TOP + (total < AREA ? Math.min(90, (AREA - total) / 3) : 0);
+  const top = TOP + (total < AREA ? (AREA - total) * 0.42 : 0);
   const p = interpolate(f, [fx(s.start), fx(s.end)], [0, 1], clamp);
   let y = 0;
   return (
