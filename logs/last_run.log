@@ -3,7 +3,7 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 15}
+      [buffer] post statuses seen: {'sent': 17, 'scheduled': 9}
 Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- queued ready-made reel WEcB_iegbFc I1
+--- queued ready-made reel WzuVYEBZoxo A
 added 1 reel(s) to Buffer
