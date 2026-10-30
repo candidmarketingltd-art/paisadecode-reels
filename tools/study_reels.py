@@ -38,10 +38,14 @@ def sheet(frames, path, cols=4, w=270):
     S.save(path, quality=72)
 
 
-for code in codes:
+import traceback
+LOG = open(os.path.join(out, "log.txt"), "a")
+
+
+def study(code):
     it = items.get(code)
     if not it or not it.get("videoUrl"):
-        print("missing", code); continue
+        print("missing", code, file=LOG); return
     d = os.path.join(out, code); os.makedirs(d + "/f", exist_ok=True)
     mp4 = f"/tmp/{code}.mp4"
     with open(mp4, "wb") as fh:
@@ -103,3 +107,11 @@ for code in codes:
     ax.set_title(f"{code}: loudness (dB), blue=speech, red=visual cuts, orange=strong audio hits"); plt.tight_layout()
     plt.savefig(f"{d}/timeline.png", dpi=80); plt.close()
     print("done", code, f"{dur:.0f}s", len(cuts), "cuts", len(strong), "hits", flush=True)
+
+
+for code in codes:
+    try:
+        study(code)
+        print("ok", code, file=LOG, flush=True)
+    except Exception:
+        LOG.write(f"FAIL {code}\n{traceback.format_exc()}\n"); LOG.flush()
