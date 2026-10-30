@@ -1,0 +1,669 @@
+{
+ "voiceover": "[slow, deep, dramatic] ₹6 लाख... एक दिसंबर... और 300 नीले जार।\n\n[intrigued, building energy] तुम्हारे घर जो ₹30 का पानी का जार आता है ना... उसमें पानी सिर्फ़ ₹4 का है। तो बाकी ₹26 किसकी जेब में जाते हैं?\n\n[excited, fast] मई की गर्मी। कैलकुलेटर बोलता है 87% मार्जिन। लगता है ये बिज़नेस नहीं, पैसा छापने की मशीन है। सेविंग्स, थोड़ा पापा से उधार, और ₹6 लाख का प्लांट तैयार।\n\n[serious] फिर आती हैं तीन चोट। [punchy] पहली: 300 में से 50 जार गायब। [amused] किसी के घर गमला बन गया, किसी में गंगा जल रखा है। ₹15,000 गए। दूसरी: शर्मा जी का \"कल पक्का\"। तीसरी: गली के मोड़ पे नया प्लांट, \"ठंडा पानी सिर्फ़ ₹20।\" [sighs] अब हर जार पे बचते हैं... ₹3। इतने में तो कटिंग चाय भी नहीं आती।\n\n[mysterious, slower] और दिसंबर में सामने वाली सोसाइटी पे एक लड़का आता है। ना मशीन, ना बोरवेल, ना शेड। बड़े प्लांट से जार ₹15 से 20 में उठाता है, ₹35 में बेचता है। [emphatic] क्योंकि असली बिज़नेस पानी नहीं... तीसरी मंज़िल तक पहुँचाना है।\n\n[confident] इसलिए मशीन सबसे आख़िर में। पहले 3 महीने खुद जार बेचो। 100 पक्के कस्टमर नहीं बने? तो ₹6 लाख बच गए।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हर बार बोलता है, \"यार, RO प्लांट लगाते हैं।\"",
+ "tag": "WATER JAR",
+ "disclaimer": true,
+ "captions": [
+  "*₹6",
+  "*lakh...",
+  "Ek",
+  "*December...",
+  "Aur",
+  "*300",
+  "*neele",
+  "jar.",
+  "Tumhare",
+  "ghar",
+  "jo",
+  "*₹30",
+  "ka",
+  "paani",
+  "ka",
+  "jar",
+  "aata",
+  "hai",
+  "na...",
+  "Usmein",
+  "paani",
+  "sirf",
+  "*₹4",
+  "ka",
+  "hai.",
+  "Toh",
+  "baaki",
+  "*₹26",
+  "kiski",
+  "jeb",
+  "mein",
+  "jaate",
+  "hain?",
+  "May",
+  "ki",
+  "garmi.",
+  "Calculator",
+  "bolta",
+  "hai",
+  "*87%",
+  "*margin.",
+  "Lagta",
+  "hai",
+  "ye",
+  "business",
+  "nahi,",
+  "*paisa",
+  "*chhapne",
+  "ki",
+  "*machine",
+  "hai.",
+  "Savings,",
+  "thoda",
+  "papa",
+  "se",
+  "udhaar,",
+  "aur",
+  "*₹6",
+  "*lakh",
+  "ka",
+  "plant",
+  "taiyaar.",
+  "Phir",
+  "aati",
+  "hain",
+  "*teen",
+  "*chot.",
+  "Pehli:",
+  "300",
+  "mein",
+  "se",
+  "*50",
+  "jar",
+  "*gaayab.",
+  "Kisi",
+  "ke",
+  "ghar",
+  "*gamla",
+  "ban",
+  "gaya,",
+  "kisi",
+  "mein",
+  "*Ganga",
+  "*jal",
+  "rakha",
+  "hai.",
+  "*₹15,000",
+  "gaye.",
+  "Doosri:",
+  "*Sharma",
+  "*ji",
+  "ka",
+  "\"kal",
+  "*pakka\".",
+  "Teesri:",
+  "gali",
+  "ke",
+  "mod",
+  "pe",
+  "naya",
+  "plant,",
+  "\"thanda",
+  "paani",
+  "sirf",
+  "*₹20.\"",
+  "Ab",
+  "har",
+  "jar",
+  "pe",
+  "bachte",
+  "hain...",
+  "*₹3.",
+  "Itne",
+  "mein",
+  "toh",
+  "*cutting",
+  "*chai",
+  "bhi",
+  "nahi",
+  "aati.",
+  "Aur",
+  "*December",
+  "mein",
+  "saamne",
+  "wali",
+  "society",
+  "pe",
+  "ek",
+  "*ladka",
+  "aata",
+  "hai.",
+  "Na",
+  "*machine,",
+  "na",
+  "*borewell,",
+  "na",
+  "*shed.",
+  "Bade",
+  "plant",
+  "se",
+  "jar",
+  "*₹15",
+  "se",
+  "*20",
+  "mein",
+  "uthaata",
+  "hai,",
+  "*₹35",
+  "mein",
+  "bechta",
+  "hai.",
+  "Kyunki",
+  "asli",
+  "business",
+  "paani",
+  "nahi...",
+  "*teesri",
+  "*manzil",
+  "tak",
+  "pahunchana",
+  "hai.",
+  "Isliye",
+  "*machine",
+  "sabse",
+  "*aakhir",
+  "mein.",
+  "Pehle",
+  "*3",
+  "*mahine",
+  "khud",
+  "jar",
+  "becho.",
+  "*100",
+  "pakke",
+  "customer",
+  "nahi",
+  "bane?",
+  "Toh",
+  "*₹6",
+  "*lakh",
+  "*bach",
+  "*gaye.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "har",
+  "baar",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*RO",
+  "plant",
+  "lagaate",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹6 लाख...",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "WATER JAR · ASLI HISAAB",
+     "at": "₹6 लाख..."
+    },
+    {
+     "type": "stat_row",
+     "at": "₹6 लाख...",
+     "cards": [
+      {
+       "label": "INVESTMENT",
+       "value": "₹6L",
+       "sub": "savings + udhaar",
+       "color": "gold",
+       "at": "₹6 लाख..."
+      },
+      {
+       "label": "MONTH",
+       "value": "DEC",
+       "sub": "sab badal gaya",
+       "color": "blue",
+       "at": "एक दिसंबर..."
+      },
+      {
+       "label": "STOCK",
+       "value": "300",
+       "sub": "neele jar",
+       "color": "blue",
+       "ill": "droplet",
+       "at": "और 300 नीले"
+      }
+     ]
+    },
+    {
+     "type": "object3d",
+     "kind": "jar",
+     "at": "और 300 नीले"
+    }
+   ]
+  },
+  {
+   "at": "तुम्हारे घर",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "jar",
+     "at": "तुम्हारे घर"
+    },
+    {
+     "type": "headline",
+     "text": "₹30",
+     "size": "l",
+     "at": "₹30 का"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹4 का",
+     "parts": [
+      {
+       "label": "₹4 · PAANI",
+       "value": 4,
+       "text": "₹4",
+       "color": "blue",
+       "at": "₹4 का"
+      },
+      {
+       "label": "₹26 · KAHAN?",
+       "value": 26,
+       "text": "₹26",
+       "color": "gold",
+       "at": "₹26 किसकी"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "₹26 किसकी",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "मई की गर्मी।",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "87%",
+     "label": "MARGIN (KAAGAZ PE)",
+     "at": "कैलकुलेटर बोलता",
+     "value_at": "87% मार्जिन।"
+    },
+    {
+     "type": "pill",
+     "text": "PAISA CHHAPNE KI MACHINE?",
+     "at": "पैसा छापने"
+    },
+    {
+     "type": "money_rain",
+     "at": "पैसा छापने"
+    }
+   ]
+  },
+  {
+   "at": "सेविंग्स, थोड़ा",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "सेविंग्स, थोड़ा",
+     "cards": [
+      {
+       "label": "SAVINGS",
+       "value": "₹ ••••",
+       "color": "white",
+       "ill": "coin",
+       "at": "सेविंग्स, थोड़ा"
+      },
+      {
+       "label": "PAPA SE UDHAAR",
+       "value": "₹ ••",
+       "color": "white",
+       "at": "पापा से उधार,"
+      }
+     ]
+    },
+    {
+     "type": "stat_row",
+     "at": "₹6 लाख का",
+     "cards": [
+      {
+       "label": "TOTAL · PLANT SETUP",
+       "value": "₹6,00,000",
+       "color": "gold",
+       "glow": true,
+       "at": "₹6 लाख का"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "PLANT TAIYAAR",
+     "color": "green",
+     "at": "प्लांट तैयार।"
+    }
+   ]
+  },
+  {
+   "at": "फिर आती",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "3",
+     "sub": "CHOT",
+     "color": "red",
+     "at": "तीन चोट।"
+    }
+   ]
+  },
+  {
+   "at": "पहली: 300",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #1 · JAR GAAYAB",
+     "color": "red",
+     "at": "पहली: 300"
+    },
+    {
+     "type": "dot_grid",
+     "total": 300,
+     "lost": 50,
+     "at": "पहली: 300",
+     "lost_at": "50 जार",
+     "total_text": "300",
+     "left_text": "250"
+    },
+    {
+     "type": "stat_row",
+     "at": "गमला बन",
+     "cards": [
+      {
+       "label": "JAR #1",
+       "value": "Gamla",
+       "color": "muted",
+       "ill": "potted_plant",
+       "at": "गमला बन"
+      },
+      {
+       "label": "JAR #2",
+       "value": "Ganga jal",
+       "color": "muted",
+       "ill": "water_wave",
+       "at": "गंगा जल"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "−₹15,000",
+     "color": "red",
+     "at": "₹15,000 गए।"
+    }
+   ],
+   "react": [
+    {
+     "at": "गंगा जल",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "दूसरी: शर्मा",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #2 · UDHAAR",
+     "color": "red",
+     "at": "दूसरी: शर्मा"
+    },
+    {
+     "type": "ledger",
+     "title": "UDHAAR KHATA",
+     "at": "शर्मा जी",
+     "rows": [
+      {
+       "text": "Sharma ji",
+       "at": "शर्मा जी"
+      },
+      {
+       "text": "\"kal pakka\"",
+       "mark": "₹0",
+       "at": "\"कल पक्का\"।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "तीसरी: गली",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #3 · PADOSI KA PRICE WAR",
+     "color": "red",
+     "at": "तीसरी: गली"
+    },
+    {
+     "type": "vs",
+     "at": "तीसरी: गली",
+     "left": {
+      "label": "TUMHARA PLANT",
+      "value": "₹30",
+      "sub": "per jar"
+     },
+     "right": {
+      "label": "NAYA PLANT",
+      "value": "₹20",
+      "sub": "thanda paani",
+      "color": "red",
+      "ill": "ice",
+      "at": "सिर्फ़ ₹20।\""
+     }
+    }
+   ]
+  },
+  {
+   "at": "अब हर",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹20 KA JAR · ANDAR KYA HAI",
+     "at": "अब हर"
+    },
+    {
+     "type": "split_bar",
+     "at": "अब हर",
+     "parts": [
+      {
+       "label": "PAANI",
+       "value": 4,
+       "text": "₹4",
+       "color": "blue",
+       "at": "अब हर"
+      },
+      {
+       "label": "SALARY·PETROL·RENT",
+       "value": 13,
+       "text": "₹13",
+       "color": "muted",
+       "at": "जार पे"
+      },
+      {
+       "label": "BACHAT",
+       "value": 3,
+       "color": "gold",
+       "at": "बचते हैं..."
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹3",
+     "color": "gold",
+     "ill": "hot_beverage",
+     "at": "₹3।",
+     "note": "< 1 CUTTING CHAI",
+     "note_at": "कटिंग चाय"
+    }
+   ],
+   "react": [
+    {
+     "at": "₹3।",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "और दिसंबर",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TWIST · DECEMBER",
+     "color": "blue",
+     "at": "और दिसंबर"
+    },
+    {
+     "type": "headline",
+     "text": "1 ladka + 1 lift",
+     "ill": "elevator",
+     "at": "लड़का आता"
+    },
+    {
+     "type": "strike_list",
+     "at": "ना मशीन,",
+     "items": [
+      {
+       "text": "Machine",
+       "at": "ना मशीन,"
+      },
+      {
+       "text": "Borewell",
+       "at": "ना बोरवेल,"
+      },
+      {
+       "text": "Shed",
+       "at": "ना शेड।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "बड़े प्लांट",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "₹15 से",
+     "left": {
+      "label": "UTHAATA HAI",
+      "value": "₹15–20",
+      "sub": "bade plant se"
+     },
+     "right": {
+      "label": "BECHTA HAI",
+      "value": "₹35",
+      "sub": "ghar tak",
+      "at": "₹35 में"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "+₹15 HAR JAR PE · BINA MACHINE",
+     "color": "green",
+     "at": "बेचता है।"
+    }
+   ]
+  },
+  {
+   "at": "क्योंकि असली",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI BUSINESS =",
+     "at": "क्योंकि असली"
+    },
+    {
+     "type": "headline",
+     "text": "Teesri manzil tak",
+     "color": "gold",
+     "at": "तीसरी मंज़िल"
+    },
+    {
+     "type": "illustration",
+     "name": "delivery_truck",
+     "size": "l",
+     "at": "पहुँचाना है।"
+    }
+   ],
+   "react": [
+    {
+     "at": "क्योंकि असली",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "इसलिए मशीन",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "इसलिए मशीन"
+    },
+    {
+     "type": "steps",
+     "at": "इसलिए मशीन",
+     "dim_at": "बच गए।",
+     "items": [
+      {
+       "text": "Machine sabse aakhir mein",
+       "at": "इसलिए मशीन"
+      },
+      {
+       "text": "3 mahine khud jar becho",
+       "at": "पहले 3"
+      },
+      {
+       "text": "100 pakke customer?",
+       "at": "100 पक्के"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "₹6 LAKH BACH GAYE",
+     "color": "green",
+     "at": "बच गए।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo RO plant lagana chahta hai",
+  "line2_at": "RO प्लांट"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 business decoded"
+ }
+}

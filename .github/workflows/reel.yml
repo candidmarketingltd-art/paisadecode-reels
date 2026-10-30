@@ -6,6 +6,8 @@ on:
     - cron: "35 2 * * *"    # 08:05 IST
     - cron: "35 7 * * *"    # 13:05 IST
     - cron: "35 13 * * *"   # 19:05 IST
+  push:
+    paths: ["triggers/preview.txt"]   # push any change to this file = make ONE preview reel (not posted; download it from the run)
   workflow_dispatch:
     inputs:
       dry_run:
@@ -27,9 +29,9 @@ concurrency:
 jobs:
   reel:
     # direct posting via Meta API / Upload-Post; switched off when POSTING_MODE = buffer
-    if: vars.POSTING_MODE != 'buffer' || github.event_name == 'workflow_dispatch'
+    if: vars.POSTING_MODE != 'buffer' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -49,6 +51,20 @@ jobs:
           pip install -q -r requirements.txt
           python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
 
+      - uses: actions/setup-node@v4
+        if: vars.RENDERER != 'pil'
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+      - name: Remotion (HISAAB motion style)
+        if: vars.RENDERER != 'pil'
+        working-directory: remotion
+        run: |
+          sudo apt-get install -y -qq libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcups2 || true
+          sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
+          npm ci --no-audit --no-fund
+          npx remotion browser ensure
       - name: Make reel
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -61,9 +77,10 @@ jobs:
           SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
           EDIT_MODEL: ${{ vars.EDIT_MODEL }}
           VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          RENDERER: ${{ vars.RENDERER }}
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
+          DRY_RUN: ${{ github.event_name == 'push' && 'true' || (github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN) }}
         run: |
           ARGS=""
           if [ -n "${{ inputs.slot }}" ]; then ARGS="--slot ${{ inputs.slot }}"; fi

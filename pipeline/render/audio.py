@@ -90,24 +90,75 @@ def theme_path():
     return None
 
 
-def mix(video, voice, sfx, out, workdir, music_start=0.0, music_gain=0.30):
-    """Voice on top; signature theme + sound design underneath, ducked whenever Rohan speaks."""
+def mix(video, voice, sfx, out, workdir, music_start=0.0, music_gain=0.30, duck_sfx=True, sfx_gain=0.9):
+    """Voice on top; signature theme (+ sound design when duck_sfx) underneath, ducked whenever Rohan speaks.
+    duck_sfx=False keeps UI hits at full level over the voice (Hisaab style)."""
     vo = f"{workdir}/vo_proc.wav"; mixed = f"{workdir}/mix.wav"
     run = lambda *a: subprocess.run(["ffmpeg", "-y", "-v", "error", *a], check=True)
     run("-i", voice, "-af", "aresample=48000,highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5:LRA=9", "-ar", "48000", vo)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video], capture_output=True, text=True, check=True).stdout.strip())
     theme = theme_path()
     ins = ["-i", vo, "-i", sfx]
+    fx = f"[1:a]aresample=48000,volume={sfx_gain}[fx];"
     if theme:
         ms = max(0.0, music_start - 0.4)
         ins += ["-stream_loop", "-1", "-i", theme]
-        music = (f"[2:a]aresample=48000,atrim=0:{dur - ms:.2f},afade=t=in:d=0.8,afade=t=out:st={max(0, dur - ms - 1.8):.2f}:d=1.8,"
-                 f"volume={music_gain},adelay={int(ms * 1000)}:all=1[mus];[1:a]aresample=48000,volume=0.9[fx];"
-                 "[mus][fx]amix=inputs=2:duration=longest:normalize=0[bed];")
+        mus = (f"[2:a]aresample=48000,atrim=0:{dur - ms:.2f},afade=t=in:d=0.8,afade=t=out:st={max(0, dur - ms - 1.8):.2f}:d=1.8,"
+               f"volume={music_gain},adelay={int(ms * 1000)}:all=1[mus];")
+        bed = mus + fx + ("[mus][fx]amix=inputs=2:duration=longest:normalize=0[bed];" if duck_sfx else "[mus]anull[bed];")
     else:
-        music = "[1:a]aresample=48000,volume=0.9[bed];"
+        bed = fx + ("[fx]anull[bed];" if duck_sfx else "anullsrc=r=48000:cl=mono,atrim=0:1[bed];")
+    tail = ("[vo][duck]amix=inputs=2:duration=longest:normalize=0" if duck_sfx else "[vo][duck][fx]amix=inputs=3:duration=longest:normalize=0")
+    if not duck_sfx:
+        bed = bed.replace(fx, "") ; bed = fx + bed
     run(*ins, "-filter_complex",
-        music + f"[0:a]apad=whole_dur={dur:.3f},asplit=2[vo][sc];"
-        "[bed][sc]sidechaincompress=threshold=0.03:ratio=8:attack=8:release=300[duck];"
-        "[vo][duck]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95", "-t", f"{dur:.3f}", mixed)
+        bed + f"[0:a]apad=whole_dur={dur:.3f},asplit=2[vo][sc];"
+        "[bed][sc]sidechaincompress=threshold=0.03:ratio=10:attack=8:release=300[duck];"
+        + tail + ",alimiter=limit=0.95", "-t", f"{dur:.3f}", mixed)
     run("-i", video, "-i", mixed, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{dur:.3f}", "-movflags", "+faststart", out)
+
+
+# ---------------------------------------------------------------- UI sound design for the Remotion ("Hisaab") style
+def build_ui_sfx(hits, duration, path, seed=5):
+    """A crisp sound on every visual event: pop (element in), tick (counters/strikes), thud (reveals),
+    ding (payoff), whoosh (scene change). `hits` = [(seconds, kind)]."""
+    sr = 48000
+    n_total = int(duration * sr); out = np.zeros(n_total, np.float32)
+    rng = np.random.default_rng(seed)
+
+    def env(n, a, r):
+        t = np.arange(n) / sr
+        return np.minimum(1, t / a) * np.exp(-t / r)
+
+    def pop():
+        n = int(0.07 * sr); t = np.arange(n) / sr
+        return np.sin(2 * np.pi * np.cumsum(900 + 600 * np.exp(-t * 60)) / sr) * env(n, 0.002, 0.018)
+
+    def tick():
+        n = int(0.02 * sr); t = np.arange(n) / sr
+        return (np.sin(2 * np.pi * 2600 * t) * 0.6 + rng.normal(0, 0.4, n)) * env(n, 0.0005, 0.004)
+
+    def thud():
+        n = int(0.35 * sr); t = np.arange(n) / sr
+        return np.sin(2 * np.pi * (60 + 90 * np.exp(-t * 25)) * t) * env(n, 0.002, 0.12) + rng.normal(0, 1, n) * env(n, 0.0005, 0.006) * 0.3
+
+    def ding():
+        n = int(0.6 * sr); t = np.arange(n) / sr
+        return (np.sin(2 * np.pi * 1568 * t) + 0.5 * np.sin(2 * np.pi * 2349 * t)) * env(n, 0.002, 0.16) * 0.6
+
+    def whoosh():
+        n = int(0.4 * sr); x = rng.normal(0, 1, n).astype(np.float32)
+        k = np.exp(-np.linspace(3, 0.2, n)); y = np.empty_like(x); acc = 0.0
+        for i in range(n):
+            acc += k[i] * 0.25 * (x[i] - acc); y[i] = acc
+        return y * np.sin(np.linspace(0, np.pi, n)) ** 2 * 1.6
+
+    bank = {"pop": (pop(), 0.22), "tick": (tick(), 0.10), "thud": (thud(), 0.5), "ding": (ding(), 0.20), "whoosh": (whoosh(), 0.25)}
+    for t, kind in hits:
+        if kind not in bank: continue
+        sig, g = bank[kind]
+        i = int(max(0, t) * sr); j = min(n_total, i + len(sig))
+        if j > i: out[i:j] += sig[: j - i] * g
+    out /= max(1e-6, np.abs(out).max()) / 0.6
+    with wave.open(path, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((out * 32767).astype(np.int16).tobytes())

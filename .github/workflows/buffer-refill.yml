@@ -31,7 +31,7 @@ jobs:
   refill:
     if: vars.POSTING_MODE == 'buffer' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -47,6 +47,20 @@ jobs:
         run: |
           pip install -q -r requirements.txt
           python -c "from PIL import features; assert features.check('raqm'), 'Hindi text shaping (raqm) missing'"
+      - uses: actions/setup-node@v4
+        if: vars.RENDERER != 'pil'
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+      - name: Remotion (HISAAB motion style)
+        if: vars.RENDERER != 'pil'
+        working-directory: remotion
+        run: |
+          sudo apt-get install -y -qq libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcups2 || true
+          sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
+          npm ci --no-audit --no-fund
+          npx remotion browser ensure
       - name: Make reels and queue them in Buffer
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -61,6 +75,7 @@ jobs:
           SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
           EDIT_MODEL: ${{ vars.EDIT_MODEL }}
           VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          RENDERER: ${{ vars.RENDERER }}
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '' }}

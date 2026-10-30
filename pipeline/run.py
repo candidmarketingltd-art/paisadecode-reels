@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from pipeline import transcript, script_writer, voice, publish  # noqa: E402
-from pipeline.render import engine, audio  # noqa: E402
+from pipeline.render import engine, audio, remo  # noqa: E402
 
 CAL = ROOT / "calendar" / "calendar.csv"
 OUT = ROOT / "out"; PLANS = ROOT / "logs" / "plans"; MEDIA = ROOT / "media"
@@ -81,26 +81,46 @@ def make_reel(row, workdir):
     if plan_path.exists():  # script + edit already written on an earlier attempt -> don't pay Claude twice
         print(f"[1/4] script  {vid} {angle}: reusing saved plan", flush=True)
         plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        if script_writer.RENDERER == "remotion" and plan.get("style") != "v2":  # old card-style edit -> re-edit only (script kept)
+            tr = transcript.get(vid)
+            print("      re-editing the saved script for the HISAAB style", flush=True)
+            plan = {**script_writer.edit_v2(plan, tr["text"], tr.get("title") or row["title"]), "episode": plan.get("episode")}
     else:
         tr = transcript.get(vid)
         print(f"[1/4] script  {vid} {angle}: {row['title']}", flush=True)
         plan = script_writer.write(tr["text"], tr.get("title") or row["title"], angle, row["angle_brief"], previous_hooks(vid, angle))
-        PLANS.mkdir(parents=True, exist_ok=True)
-        plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
+    if plan.get("style") == "v2" and not plan.get("episode"):
+        plan["episode"] = next_episode()
+    PLANS.mkdir(parents=True, exist_ok=True)
+    plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     print("[2/4] voice", flush=True)
     mp3 = f"{workdir}/vo.mp3"
     words, model = voice.synthesize(plan["voiceover"], mp3)
     dur = max(e for _, _, e in words) + 0.1
     print(f"      {len(words)} words, {dur:.1f}s, model {model}", flush=True)
     print("[3/4] render", flush=True)
+    OUT.mkdir(exist_ok=True)
+    final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}.mp4")
+    if plan.get("style") == "v2":
+        remo.render(plan, words, dur, mp3, final, workdir, episode=plan.get("episode"))
+        return final, caption_of(plan, row)
     vid_only = f"{workdir}/video_only.mp4"
     cues = engine.render(plan, words, dur, vid_only)
     cues["music"] = bool(audio.theme_path())
     sfx = f"{workdir}/sfx.wav"; audio.build_sfx(cues, sfx)
-    OUT.mkdir(exist_ok=True)
-    final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}.mp4")
     audio.mix(vid_only, mp3, sfx, final, workdir, music_start=cues["open_end"])
     return final, caption_of(plan, row)
+
+
+def next_episode():
+    """HISAAB episode number = how many HISAAB-style plans exist already + 1."""
+    n = 0
+    for p in PLANS.glob("*.json"):
+        try:
+            if json.loads(p.read_text(encoding="utf-8")).get("style") == "v2": n += 1
+        except Exception:
+            pass
+    return n + 1
 
 
 def fail(row, note):
