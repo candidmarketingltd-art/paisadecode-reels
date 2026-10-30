@@ -1,9 +1,18 @@
-  ANTHROPIC_API_KEY: set
-  ELEVENLABS_API_KEY: set
-  APIFY_TOKEN: set
-  BUFFER_API_KEY: set
-  BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'sent': 17, 'scheduled': 9}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- queued ready-made reel WzuVYEBZoxo A
-added 1 reel(s) to Buffer
+slot 3 (ideas) -> row 35: BD2IoRlhECg I2 | dry_run=True
+[1/4] script  BD2IoRlhECg I2: 5 Boring Businesses in India That Get Paid Again and Again
+[2/4] voice
+      179 words, 71.9s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpropp3dxv/video_only.mp4
+DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1930_BD2IoRlhECg_I2.mp4
+--- caption ---
+CCTV चल रहा है... पर रिकॉर्डिंग बंद है 📹 यही है सबसे ख़तरनाक सिचुएशन।
+
+कैमरा बेचना एक बार की कमाई है, AMC हर साल की।
+
+उस दोस्त को भेजो जिसने दुकान में CCTV लगवाया और कभी चेक नहीं किया 👇
+
+Follow @makemoneywithrohan for daily money math
+Full video: YouTube @PaisaDecodeHQ
+
+#CCTV #AMC #BoringBusiness #RecurringRevenue #BusinessIdeasHindi #PaisaDecode #SmallBusinessIndia
