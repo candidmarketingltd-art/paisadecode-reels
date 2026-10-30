@@ -1,0 +1,34 @@
+name: Study reels (private, encrypted output)
+
+on:
+  push:
+    paths: ["triggers/study.txt"]   # line 1: username, line 2: comma-separated shortcodes
+
+permissions:
+  contents: write
+
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg age
+          pip install -q faster-whisper librosa matplotlib pillow requests
+      - name: Download and analyse
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          U=$(sed -n 1p triggers/study.txt | tr -d '[:space:]'); C=$(sed -n 2p triggers/study.txt | tr -d '[:space:]')
+          python tools/study_reels.py "$U" "$C" study_out
+      - name: Encrypt and save (only the session key can open it)
+        if: always()
+        run: |
+          mkdir -p study && tar czf - study_out | age -r "$(cat tools/study_pubkey.txt)" > study/result.tar.gz.age
+          ls -la study
+          git config user.name "paisadecode-bot"; git config user.email "bot@users.noreply.github.com"
+          git add study && git commit -m "study result" && git pull -q --rebase && git push -q || true
