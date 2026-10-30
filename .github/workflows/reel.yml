@@ -95,6 +95,16 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
+      - name: Publish preview to the "previews" branch
+        if: github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          f=$(ls out/*.mp4 2>/dev/null | head -1); [ -n "$f" ] || exit 0
+          mkdir -p /tmp/pv && cp "$f" /tmp/pv/preview.mp4 && cp logs/last_run.log /tmp/pv/ && cd /tmp/pv
+          git init -q && git checkout -q -b previews && git add . && git -c user.name=paisadecode-bot -c user.email=bot@users.noreply.github.com commit -qm "preview ${{ github.run_number }}"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" previews
+
       - name: Save calendar & logs
         if: always()
         run: |
