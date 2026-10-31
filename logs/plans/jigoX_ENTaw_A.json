@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] रोज़ ₹10,000 की सेल... महीने के ₹3 लाख... और हाथ में बचे सिर्फ़ ₹15,000।\n\n[intrigued, building energy] यानी रोज़ के ₹500। और कभी-कभी तो वो ₹15,000 भी बैंक में नहीं होते। रोज़ हज़ारों का सामान बिकता है, तो पैसा आख़िर जाता कहाँ है?\n\n[excited, fast] संदीप ने ₹4 लाख की सेविंग से किराना दुकान खोली। पहले दिन ₹10,000 की सेल देखकर बोला, \"वाह!\" पर ₹3 लाख की सेल पर 12% मार्जिन माने सिर्फ़ ₹36,000 का ग्रॉस प्रॉफिट। उसमें से किराया ₹12,000, बिजली ₹3,000, बाकी ख़र्चे ₹6,000। बचे ₹15,000।\n\n[serious] और रोज़ 12 घंटे दुकान पर बैठा, यानी महीने के 360 घंटे। हिसाब लगाओ तो एक घंटे के करीब ₹42। [punchy] फिर आया उधार। ₹25,000 सेल में गिने गए, पर जेब में आए नहीं। [sighs] सप्लायर को पेमेंट देनी थी, तो ₹10,000 अपनी सेविंग से लगाने पड़ सकते थे।\n\n[mysterious, slower] फिर सामने नई दुकान खुली और संदीप ने डिस्काउंट दे दिया। सेल 20% बढ़ी, पर मार्जिन गिरकर 9%। [emphatic] ₹60,000 ज़्यादा सामान बिका... और प्रॉफिट ₹3,600 कम हो गया। भीड़ बढ़ी, कमाई घटी।\n\n[confident] इसलिए दुकान खोलने से पहले तीन चीज़ें चेक करो। एक, तुम्हारे एरिया में रोज़ की सेल कितनी हो सकती है। दो, असली ब्लेंडेड ग्रॉस मार्जिन कितना है। तीन, सारे ख़र्चे और अपनी मेहनत की क़ीमत निकालकर कितना बचता है। साथ में उधार और स्टॉक के लिए अलग कैश बफर रखो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, किराना दुकान खोल लेते हैं, रोज़ ₹10,000 की सेल तो होगी ही।\"",
- "ig_caption": "₹3 लाख की सेल, और हाथ में सिर्फ़ ₹15,000 🛒 बाकी पैसा कहाँ गया, ये हिसाब देखकर चौंक जाओगे।\n\nदुकान की असली कमाई सेल नहीं, बचत है।\n\nउस दोस्त को भेजो जो किराना दुकान खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nकहानी काल्पनिक है, नंबर सिर्फ़ उदाहरण हैं। Not financial advice.",
+ "ig_caption": "₹3 lakh ki sale, aur haath mein sirf ₹15,000 🛒 Baaki paisa kahaan gaya, ye hisaab dekhkar chaunk jaoge.\n\nDukaan ki asli kamaai sale nahi, bachat hai.\n\nUs dost ko bhejo jo kirana dukaan kholna chahta hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nKahani kaalpanik hai, numbers sirf udaharan hain. Not financial advice.",
  "hashtags": [
   "#KiranaStore",
   "#BusinessIdeas",
@@ -48,275 +48,668 @@
  ],
  "scenes": [
   {
-   "at": "यानी रोज़ के",
-   "mood": "shocked",
-   "beats": [
+   "at": "रोज़ ₹10,000 की",
+   "tint": "warm",
+   "elements": [
     {
-     "at": "कभी-कभी तो",
-     "mood": "serious"
+     "type": "pill",
+     "text": "KIRANA · ASLI HISAAB",
+     "at": "रोज़ ₹10,000 की"
+    },
+    {
+     "type": "stat_row",
+     "at": "रोज़ ₹10,000 की",
+     "cards": [
+      {
+       "label": "ROZ KI SALE",
+       "value": "₹10,000",
+       "color": "gold",
+       "ill": "shopping_cart",
+       "at": "रोज़ ₹10,000 की"
+      },
+      {
+       "label": "MAHINE KI SALE",
+       "value": "₹3L",
+       "color": "blue",
+       "at": "महीने के ₹3"
+      },
+      {
+       "label": "HAATH MEIN",
+       "value": "₹15,000",
+       "color": "red",
+       "at": "सिर्फ़ ₹15,000।"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "रोज़ की असली कमाई",
-    "value": "₹500",
-    "value_at": "₹500",
-    "note": "कभी बैंक में भी नहीं",
-    "note_at": "बैंक में",
-    "color": "gold"
-   }
+   ]
   },
   {
-   "at": "रोज़ हज़ारों का",
-   "mood": "smirk",
-   "card": {
-    "type": "headline",
-    "icon": "shop",
-    "title": "हज़ारों की बिक्री",
-    "at": "हज़ारों का",
-    "sub": "पैसा जाता कहाँ?",
-    "sub_at": "जाता कहाँ",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   "at": "यानी रोज़ के",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ROZ KI ASLI KAMAAI",
+     "at": "यानी रोज़ के"
+    },
+    {
+     "type": "big_number",
+     "value": "₹500",
+     "color": "gold",
+     "at": "के ₹500।",
+     "note": "BANK MEIN BHI NAHI?",
+     "note_at": "बैंक में नहीं",
+     "note_color": "red"
+    },
+    {
+     "type": "headline",
+     "text": "Paisa kahaan gaya?",
+     "ill": "red_question_mark",
+     "at": "पैसा आख़िर"
+    }
+   ]
   },
   {
    "at": "संदीप ने ₹4",
-   "mood": "neutral",
-   "beats": [
+   "elements": [
     {
-     "at": "देखकर बोला",
-     "mood": "smirk"
+     "type": "stat_row",
+     "at": "संदीप ने ₹4",
+     "cards": [
+      {
+       "label": "SANDEEP KI SAVING",
+       "value": "₹4L",
+       "color": "gold",
+       "ill": "coin",
+       "at": "संदीप ने ₹4"
+      },
+      {
+       "label": "DUKAAN",
+       "value": "KIRANA",
+       "color": "blue",
+       "ill": "convenience_store",
+       "at": "किराना दुकान खोली।"
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "text": "DAY 1 · ₹10,000",
+     "size": "m",
+     "at": "दिन ₹10,000 की"
+    },
+    {
+     "type": "pill",
+     "text": "\"WAAH!\"",
+     "color": "green",
+     "at": "बोला, \"वाह!\""
     }
-   ],
-   "card": {
-    "type": "counter",
-    "label": "संदीप की सेविंग",
-    "prefix": "₹",
-    "to": 400000,
-    "at": "₹4 लाख",
-    "done_text": "किराना दुकान!",
-    "done_at": "किराना दुकान"
-   }
+   ]
   },
   {
    "at": "पर ₹3 लाख",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "compare_arrow",
-    "title": "12% मार्जिन",
-    "from_text": "सेल ₹3 लाख",
-    "from_at": "₹3 लाख की",
-    "to_text": "₹36,000",
-    "to_at": "₹36,000",
-    "result": "बस ग्रॉस प्रॉफिट",
-    "result_at": "ग्रॉस प्रॉफिट"
-   }
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "₹36,000",
+     "label": "₹3L SALE × 12% MARGIN",
+     "at": "पर ₹3 लाख",
+     "value_at": "₹36,000 का"
+    },
+    {
+     "type": "pill",
+     "text": "SIRF GROSS PROFIT",
+     "color": "gold",
+     "at": "ग्रॉस प्रॉफिट।"
+    }
+   ]
   },
   {
    "at": "उसमें से किराया",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "strike_list",
-    "title": "हर महीने के ख़र्चे",
-    "color": "red",
-    "items": [
-     {
-      "text": "किराया ₹12,000",
-      "at": "किराया ₹12,000",
-      "strike": true
-     },
-     {
-      "text": "बिजली ₹3,000",
-      "at": "बिजली ₹3,000",
-      "strike": true
-     },
-     {
-      "text": "बाकी ₹6,000",
-      "at": "बाकी ख़र्चे",
-      "strike": true
-     }
-    ]
-   }
-  },
-  {
-   "at": "बचे ₹15,000",
-   "mood": "shocked",
-   "card": {
-    "type": "big_number",
-    "label": "हाथ में बचे",
-    "value": "₹15,000",
-    "value_at": "बचे ₹15,000",
-    "note": "महीने का प्रॉफिट",
-    "note_at": "बचे ₹15,000",
-    "color": "gold"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹36,000 KAHAN GAYA",
+     "color": "red",
+     "at": "उसमें से किराया"
+    },
+    {
+     "type": "split_bar",
+     "at": "किराया ₹12,000,",
+     "parts": [
+      {
+       "label": "KIRAAYA",
+       "value": 12,
+       "text": "₹12,000",
+       "color": "red",
+       "at": "किराया ₹12,000,"
+      },
+      {
+       "label": "BIJLI",
+       "value": 3,
+       "text": "₹3,000",
+       "color": "muted",
+       "at": "बिजली ₹3,000,"
+      },
+      {
+       "label": "BAAKI KHARCHE",
+       "value": 6,
+       "text": "₹6,000",
+       "color": "muted",
+       "at": "बाकी ख़र्चे"
+      },
+      {
+       "label": "BACHE",
+       "value": 15,
+       "text": "₹15,000",
+       "color": "gold",
+       "at": "बचे ₹15,000।"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹15,000",
+     "color": "gold",
+     "at": "बचे ₹15,000।"
+    }
+   ]
   },
   {
    "at": "और रोज़ 12",
-   "mood": "serious",
-   "point": true,
-   "beats": [
+   "tint": "red",
+   "elements": [
     {
-     "at": "करीब ₹42",
-     "mood": "shocked",
-     "point": false
+     "type": "stat_row",
+     "at": "और रोज़ 12",
+     "cards": [
+      {
+       "label": "ROZ DUKAAN PE",
+       "value": "12 HRS",
+       "color": "blue",
+       "ill": "alarm_clock",
+       "at": "और रोज़ 12"
+      },
+      {
+       "label": "MAHINE MEIN",
+       "value": "360 HRS",
+       "color": "blue",
+       "at": "के 360 घंटे।"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹42",
+     "color": "red",
+     "at": "करीब ₹42।",
+     "note": "PER GHANTA",
+     "note_at": "करीब ₹42।",
+     "note_color": "red"
     }
    ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "मेहनत का हिसाब",
-    "from_text": "रोज़ 12 घंटे",
-    "from_at": "12 घंटे",
-    "to_text": "360 घंटे/महीना",
-    "to_at": "360 घंटे",
-    "result": "₹42 प्रति घंटा",
-    "result_at": "₹42"
-   }
-  },
-  {
-   "at": "फिर आया उधार",
-   "mood": "serious",
-   "tint": "red",
-   "beats": [
+   "react": [
     {
-     "at": "₹25,000 सेल",
+     "at": "करीब ₹42।",
      "mood": "shocked"
     }
-   ],
-   "card": {
-    "type": "warning",
-    "title": "चोट · उधार",
-    "sub": "सेल में गिने गए",
-    "sub_at": "सेल में गिने",
-    "chips": [
-     {
-      "text": "जेब में नहीं",
-      "at": "जेब में",
-      "color": "red"
-     }
-    ],
-    "big": "₹25,000",
-    "big_at": "₹25,000",
-    "big_color": "red"
-   }
+   ]
   },
   {
-   "at": "सप्लायर को पेमेंट",
-   "mood": "serious",
+   "at": "फिर आया उधार।",
    "tint": "red",
-   "card": {
-    "type": "big_number",
-    "label": "सप्लायर की पेमेंट",
-    "value": "−₹10,000",
-    "value_at": "₹10,000 अपनी",
-    "note": "अपनी सेविंग से",
-    "note_at": "सेविंग से लगाने",
-    "color": "red"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT · UDHAAR",
+     "color": "red",
+     "at": "फिर आया उधार।"
+    },
+    {
+     "type": "ledger",
+     "title": "UDHAAR KHATA",
+     "at": "फिर आया उधार।",
+     "rows": [
+      {
+       "text": "Sale mein gina: ₹25,000",
+       "at": "₹25,000 सेल"
+      },
+      {
+       "text": "Jeb mein aaya",
+       "mark": "₹0",
+       "at": "आए नहीं।"
+      }
+     ]
+    },
+    {
+     "type": "stat_row",
+     "at": "सप्लायर को पेमेंट",
+     "cards": [
+      {
+       "label": "SUPPLIER PAYMENT",
+       "value": "−₹10K",
+       "sub": "apni saving se",
+       "color": "red",
+       "ill": "receipt",
+       "at": "₹10,000 अपनी सेविंग"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "फिर सामने नई",
-   "mood": "serious",
    "tint": "cold",
-   "beats": [
+   "elements": [
     {
-     "at": "डिस्काउंट दे",
-     "mood": "shocked"
-    }
-   ],
-   "card": {
-    "type": "title_slam",
-    "title": "डिस्काउंट",
-    "at": "डिस्काउंट दे",
-    "color": "ice"
-   }
-  },
-  {
-   "at": "सेल 20% बढ़ी",
-   "mood": "neutral",
-   "tint": "cold",
-   "point": true,
-   "card": {
-    "type": "split",
-    "title": "डिस्काउंट के बाद",
-    "title_at": "सेल 20% बढ़ी",
-    "left": {
-     "text": "सेल +20%",
-     "at": "20% बढ़ी",
-     "color": "green"
+     "type": "pill",
+     "text": "TWIST · NAYI DUKAAN",
+     "color": "blue",
+     "at": "फिर सामने नई"
     },
-    "right": {
-     "text": "मार्जिन 9%",
-     "at": "गिरकर 9%",
-     "color": "red"
+    {
+     "type": "stat_row",
+     "at": "डिस्काउंट दे",
+     "cards": [
+      {
+       "label": "DISCOUNT",
+       "value": "ON",
+       "color": "blue",
+       "ill": "label",
+       "at": "डिस्काउंट दे"
+      },
+      {
+       "label": "SALE",
+       "value": "+20%",
+       "color": "green",
+       "ill": "chart_increasing",
+       "at": "सेल 20%"
+      }
+     ]
+    },
+    {
+     "type": "vs",
+     "at": "पर मार्जिन गिरकर",
+     "left": {
+      "label": "MARGIN PEHLE",
+      "value": "12%"
+     },
+     "right": {
+      "label": "MARGIN AB",
+      "value": "9%",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "गिरकर 9%।"
+     }
     }
-   }
+   ]
   },
   {
-   "at": "₹60,000 ज़्यादा सामान",
-   "mood": "shocked",
-   "tint": "cold",
-   "beats": [
+   "at": "₹60,000 ज़्यादा",
+   "tint": "red",
+   "elements": [
     {
-     "at": "भीड़ बढ़ी",
-     "mood": "serious"
+     "type": "arrow_pair",
+     "at": "₹60,000 ज़्यादा",
+     "left": {
+      "label": "ZYADA SALE",
+      "value": "+₹60K",
+      "color": "green"
+     },
+     "right": {
+      "label": "PROFIT",
+      "value": "−₹3,600",
+      "color": "red",
+      "at": "₹3,600 कम"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "BHEED ↑ · KAMAAI ↓",
+     "color": "red",
+     "at": "भीड़ बढ़ी,"
     }
    ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "ज़्यादा भीड़",
-    "from_text": "+₹60,000 सेल",
-    "from_at": "₹60,000",
-    "to_text": "−₹3,600 प्रॉफिट",
-    "to_at": "₹3,600",
-    "result": "कमाई घटी",
-    "result_at": "कमाई घटी"
-   }
+   "react": [
+    {
+     "at": "भीड़ बढ़ी,",
+     "mood": "smirk"
+    }
+   ]
   },
   {
    "at": "इसलिए दुकान खोलने",
-   "mood": "neutral",
-   "point": true,
    "tint": "green",
-   "card": {
-    "type": "checklist",
-    "title": "खोलने से पहले चेक",
-    "items": [
-     {
-      "text": "रोज़ की सेल कितनी?",
-      "at": "तुम्हारे एरिया"
-     },
-     {
-      "text": "असली ब्लेंडेड मार्जिन",
-      "at": "ब्लेंडेड ग्रॉस"
-     },
-     {
-      "text": "मेहनत के बाद बचत",
-      "at": "मेहनत की"
-     }
-    ],
-    "final": "+ अलग कैश बफर",
-    "final_at": "कैश बफर"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "KHOLNE SE PEHLE · 3 CHECK",
+     "color": "gold",
+     "at": "इसलिए दुकान खोलने"
+    },
+    {
+     "type": "steps",
+     "at": "एक, तुम्हारे",
+     "items": [
+      {
+       "text": "Area mein roz ki sale?",
+       "ill": "magnifying_glass_tilted_right",
+       "at": "एक, तुम्हारे"
+      },
+      {
+       "text": "Asli blended gross margin",
+       "ill": "bar_chart",
+       "at": "दो, असली"
+      },
+      {
+       "text": "Kharche + mehnat ke baad?",
+       "ill": "balance_scale",
+       "at": "तीन, सारे"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "इसलिए दुकान खोलने",
+     "mood": "serious",
+     "point": true
+    }
+   ]
   },
   {
-   "at": "ये रील उस",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "दोस्त को भेजो",
-    "line2": "\"₹10,000 तो होगी ही\"",
-    "line2_at": "होगी ही"
-   }
+   "at": "साथ में उधार",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "साथ में उधार",
+     "cards": [
+      {
+       "label": "UDHAAR KE LIYE",
+       "value": "BUFFER",
+       "color": "gold",
+       "ill": "credit_card",
+       "at": "साथ में उधार"
+      },
+      {
+       "label": "STOCK KE LIYE",
+       "value": "BUFFER",
+       "color": "gold",
+       "ill": "package",
+       "at": "स्टॉक के लिए"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "ALAG CASH BUFFER RAKHO",
+     "color": "green",
+     "at": "कैश बफर रखो।"
+    }
+   ],
+   "react": [
+    {
+     "at": "साथ में उधार",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "KIRANA STORE",
+ "disclaimer": true,
+ "captions": [
+  "Roz",
+  "*₹10,000",
+  "ki",
+  "sale...",
+  "Mahine",
+  "ke",
+  "*₹3",
+  "*lakh...",
+  "Aur",
+  "haath",
+  "mein",
+  "bache",
+  "sirf",
+  "*₹15,000.",
+  "Yaani",
+  "roz",
+  "ke",
+  "*₹500.",
+  "Aur",
+  "kabhi-kabhi",
+  "toh",
+  "woh",
+  "*₹15,000",
+  "bhi",
+  "*bank",
+  "mein",
+  "nahi",
+  "hote.",
+  "Roz",
+  "hazaaron",
+  "ka",
+  "saamaan",
+  "bikta",
+  "hai,",
+  "toh",
+  "*paisa",
+  "aakhir",
+  "jaata",
+  "*kahaan",
+  "hai?",
+  "*Sandeep",
+  "ne",
+  "*₹4",
+  "*lakh",
+  "ki",
+  "saving",
+  "se",
+  "kirana",
+  "dukaan",
+  "kholi.",
+  "Pehle",
+  "din",
+  "*₹10,000",
+  "ki",
+  "sale",
+  "dekhkar",
+  "bola,",
+  "\"*Waah!\"",
+  "Par",
+  "₹3",
+  "lakh",
+  "ki",
+  "sale",
+  "par",
+  "*12%",
+  "margin",
+  "maane",
+  "sirf",
+  "*₹36,000",
+  "ka",
+  "gross",
+  "profit.",
+  "Usmein",
+  "se",
+  "kiraaya",
+  "*₹12,000,",
+  "bijli",
+  "₹3,000,",
+  "baaki",
+  "kharche",
+  "₹6,000.",
+  "Bache",
+  "*₹15,000.",
+  "Aur",
+  "roz",
+  "*12",
+  "*ghante",
+  "dukaan",
+  "par",
+  "baitha,",
+  "yaani",
+  "mahine",
+  "ke",
+  "*360",
+  "ghante.",
+  "Hisaab",
+  "lagao",
+  "toh",
+  "ek",
+  "ghante",
+  "ke",
+  "kareeb",
+  "*₹42.",
+  "Phir",
+  "aaya",
+  "*udhaar.",
+  "*₹25,000",
+  "sale",
+  "mein",
+  "gine",
+  "gaye,",
+  "par",
+  "jeb",
+  "mein",
+  "aaye",
+  "nahi.",
+  "Supplier",
+  "ko",
+  "payment",
+  "deni",
+  "thi,",
+  "toh",
+  "*₹10,000",
+  "apni",
+  "*saving",
+  "se",
+  "lagaane",
+  "pad",
+  "sakte",
+  "the.",
+  "Phir",
+  "saamne",
+  "*nayi",
+  "*dukaan",
+  "khuli",
+  "aur",
+  "Sandeep",
+  "ne",
+  "*discount",
+  "de",
+  "diya.",
+  "Sale",
+  "*20%",
+  "badhi,",
+  "par",
+  "margin",
+  "girkar",
+  "*9%.",
+  "*₹60,000",
+  "zyada",
+  "saamaan",
+  "bika...",
+  "aur",
+  "profit",
+  "*₹3,600",
+  "kam",
+  "ho",
+  "gaya.",
+  "*Bheed",
+  "badhi,",
+  "*kamaai",
+  "ghati.",
+  "Isliye",
+  "dukaan",
+  "kholne",
+  "se",
+  "pehle",
+  "*teen",
+  "cheezein",
+  "check",
+  "karo.",
+  "Ek,",
+  "tumhare",
+  "area",
+  "mein",
+  "roz",
+  "ki",
+  "*sale",
+  "kitni",
+  "ho",
+  "sakti",
+  "hai.",
+  "Do,",
+  "asli",
+  "blended",
+  "gross",
+  "*margin",
+  "kitna",
+  "hai.",
+  "Teen,",
+  "saare",
+  "kharche",
+  "aur",
+  "apni",
+  "*mehnat",
+  "ki",
+  "keemat",
+  "nikaalkar",
+  "kitna",
+  "*bachta",
+  "hai.",
+  "Saath",
+  "mein",
+  "udhaar",
+  "aur",
+  "stock",
+  "ke",
+  "liye",
+  "alag",
+  "*cash",
+  "*buffer",
+  "rakho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*kirana",
+  "dukaan",
+  "khol",
+  "lete",
+  "hain,",
+  "roz",
+  "*₹10,000",
+  "ki",
+  "sale",
+  "toh",
+  "hogi",
+  "hi.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo kirana dukaan kholna chahta hai",
+  "line2_at": "किराना दुकान खोल"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 dukaan decoded"
+ },
+ "episode": 12
 }

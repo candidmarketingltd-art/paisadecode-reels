@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹1 लाख... ₹15,000 का किराया... और अभी एक भी कस्टमर नहीं।\n\n[intrigued, building energy] दो बंदे। दोनों के पास ₹1 लाख। एक ने शॉप ली। दूसरे ने मशीन ली और सीधा कस्टमर के घर पहुँच गया। उसका बिज़नेस? सोफ़ा और मैट्रेस की डीप क्लीनिंग। सुनने में बोरिंग है ना? पर असली खेल इसकी कमाई में है।\n\n[excited, fast] सोफ़ा कोई तुम्हारी शॉप पर उठाकर नहीं लाएगा। धूल, दाग, पेट के बाल, बच्चे ने जूस गिरा दिया। प्रॉब्लम कस्टमर के घर में ही पड़ी है। बेसिक सोफ़ा क्लीनिंग रफ़ली ₹400 से शुरू होती है। प्रीमियम सर्विस ₹1500 के आसपास।\n\n[serious] अब बिगिनर सोचता है, \"एक सोफ़ा किया, ₹500 आ गए।\" [punchy] पर 7 कि.मी. जाओ, मशीन सेटअप करो, एक मैट्रेस साफ़ करो, बिल ₹500। फिर पैक करो, और अगले कस्टमर के लिए 8 कि.मी. अलग। [sighs] ये बहुत कमज़ोर है।\n\n[mysterious, slower] अब वही घर, वही ट्रैवल, वही सेटअप। बस सोफ़ा, दो मैट्रेस, कारपेट और डाइनिंग चेयर, सब एक साथ। बिल बना ₹2500। [emphatic] आपको 10 कस्टमर नहीं चाहिए। आपको 10 प्रॉफिटेबल स्टॉप चाहिए।\n\n[confident] तो शॉप मत लो। टूल्स और मशीन लो, WhatsApp बिज़नेस और Google लिस्टिंग बनाओ। और हर घर में एक आइटम नहीं, पूरा घर पिच करो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, पहले शॉप देख रहा हूँ।\"",
- "ig_caption": "शॉप का किराया ₹15,000, और कस्टमर ज़ीरो 🛋️ सोफ़ा क्लीनिंग में असली गणित एक घर के ₹500 और ₹2500 का है।\n\nउस दोस्त को भेजो जो बिज़नेस के लिए पहले शॉप देख रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nPrices are rough market estimates from the video, not financial advice.",
+ "ig_caption": "Shop ka kiraya ₹15,000, aur customer zero 🛋️ Sofa cleaning mein asli ganit ek ghar ke ₹500 aur ₹2500 ka hai.\n\nUs dost ko bhejo jo business ke liye pehle shop dekh raha hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nPrices are rough market estimates from the video, not financial advice.",
  "hashtags": [
   "#ShoplessBusiness",
   "#LowInvestmentBusiness",
@@ -38,286 +38,600 @@
  ],
  "scenes": [
   {
-   "at": "दो बंदे",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "split",
-    "icon": "shop",
-    "title": "दोनों के पास ₹1 लाख",
-    "title_at": "दोनों के पास",
-    "left": {
-     "text": "शॉप ली",
-     "at": "शॉप ली",
-     "color": "red"
+   "at": "₹1 लाख...",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "NO SHOP · ASLI HISAAB",
+     "at": "₹1 लाख..."
     },
-    "right": {
-     "text": "मशीन ली",
-     "at": "मशीन ली",
-     "color": "green"
+    {
+     "type": "stat_row",
+     "at": "₹1 लाख...",
+     "cards": [
+      {
+       "label": "BUDGET",
+       "value": "₹1L",
+       "sub": "poori savings",
+       "color": "gold",
+       "ill": "coin",
+       "at": "₹1 लाख..."
+      },
+      {
+       "label": "SHOP RENT",
+       "value": "₹15,000",
+       "sub": "har mahine",
+       "color": "red",
+       "at": "₹15,000 का किराया..."
+      },
+      {
+       "label": "CUSTOMERS",
+       "value": "0",
+       "sub": "abhi tak",
+       "color": "muted",
+       "at": "एक भी कस्टमर"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "दो बंदे।",
+   "elements": [
+    {
+     "type": "label",
+     "text": "DO BANDE · ₹1 LAKH EACH",
+     "at": "दो बंदे।"
     },
-    "result": "सीधा कस्टमर के घर",
-    "result_at": "सीधा कस्टमर"
-   }
+    {
+     "type": "vs",
+     "at": "एक ने शॉप",
+     "left": {
+      "label": "BANDA #1",
+      "value": "SHOP",
+      "sub": "rent + intezaar"
+     },
+     "right": {
+      "label": "BANDA #2",
+      "value": "MACHINE",
+      "sub": "seedha ghar pe",
+      "color": "green",
+      "ill": "house",
+      "at": "मशीन ली और"
+     }
+    }
+   ]
   },
   {
    "at": "उसका बिज़नेस?",
-   "mood": "neutral",
-   "beats": [
+   "elements": [
     {
-     "at": "सुनने में बोरिंग",
+     "type": "headline",
+     "text": "Sofa + Mattress",
+     "size": "l",
+     "ill": "couch_and_lamp",
+     "at": "उसका बिज़नेस?",
+     "sub": "DEEP CLEANING",
+     "sub_at": "डीप क्लीनिंग।",
+     "sub_color": "gold"
+    },
+    {
+     "type": "pill",
+     "text": "BORING? KAMAI DEKHO",
+     "color": "gold",
+     "at": "असली खेल"
+    }
+   ],
+   "react": [
+    {
+     "at": "बोरिंग है ना?",
      "mood": "smirk"
     }
-   ],
-   "card": {
-    "type": "headline",
-    "title": "सोफ़ा + मैट्रेस",
-    "at": "सोफ़ा और मैट्रेस",
-    "sub": "डीप क्लीनिंग",
-    "sub_at": "डीप क्लीनिंग",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   ]
   },
   {
-   "at": "पर असली खेल",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "icon": "coin",
-    "title": "असली खेल =",
-    "at": "असली खेल",
-    "sub": "इसकी कमाई",
-    "sub_at": "कमाई",
-    "color": "gold",
-    "sub_color": "green"
-   }
-  },
-  {
-   "at": "सोफ़ा कोई तुम्हारी",
-   "mood": "smirk",
-   "card": {
-    "type": "strike_list",
-    "title": "घर की प्रॉब्लम",
-    "color": "gold",
-    "items": [
-     {
-      "text": "धूल",
-      "at": "धूल",
-      "strike": false
-     },
-     {
-      "text": "दाग",
-      "at": "दाग",
-      "strike": false
-     },
-     {
-      "text": "पेट के बाल",
-      "at": "पेट के बाल",
-      "strike": false
-     },
-     {
-      "text": "जूस गिरा",
-      "at": "जूस गिरा",
-      "strike": false
-     }
-    ]
-   }
-  },
-  {
-   "at": "प्रॉब्लम कस्टमर के",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "title": "प्रॉब्लम घर में है",
-    "at": "प्रॉब्लम कस्टमर",
-    "sub": "शॉप पे नहीं",
-    "sub_at": "पड़ी है",
-    "color": "white",
-    "sub_color": "gold"
-   }
-  },
-  {
-   "at": "बेसिक सोफ़ा क्लीनिंग",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "compare_arrow",
-    "title": "सोफ़ा क्लीनिंग रेट",
-    "from_text": "बेसिक ₹400",
-    "from_at": "₹400",
-    "to_text": "प्रीमियम ₹1500",
-    "to_at": "₹1500",
-    "result": "प्रीमियम सर्विस",
-    "result_at": "प्रीमियम सर्विस"
-   }
-  },
-  {
-   "at": "अब बिगिनर सोचता",
-   "mood": "smirk",
-   "card": {
-    "type": "big_number",
-    "label": "बिगिनर का हिसाब",
-    "value": "₹500",
-    "value_at": "₹500 आ",
-    "note": "एक सोफ़ा किया",
-    "note_at": "गए",
-    "color": "gold"
-   }
-  },
-  {
-   "at": "पर 7 कि.मी.",
-   "mood": "serious",
-   "tint": "red",
-   "card": {
-    "type": "warning",
-    "title": "असली हिसाब",
-    "sub": "7 कि.मी. जाओ",
-    "sub_at": "7 कि.मी.",
-    "chips": [
-     {
-      "text": "मशीन सेटअप",
-      "at": "मशीन सेटअप",
-      "color": "white"
-     },
-     {
-      "text": "1 मैट्रेस",
-      "at": "एक मैट्रेस",
-      "color": "white"
-     }
-    ],
-    "big": "₹500",
-    "big_at": "बिल ₹500",
-    "big_color": "red"
-   }
-  },
-  {
-   "at": "फिर पैक करो",
-   "mood": "serious",
-   "tint": "red",
-   "beats": [
+   "at": "सोफ़ा कोई",
+   "elements": [
     {
-     "at": "ये बहुत कमज़ोर",
-     "mood": "serious"
+     "type": "label",
+     "text": "SOFA SHOP PE NAHI AAYEGA",
+     "at": "सोफ़ा कोई"
+    },
+    {
+     "type": "strike_list",
+     "at": "धूल,",
+     "items": [
+      {
+       "text": "Dhool",
+       "at": "धूल,"
+      },
+      {
+       "text": "Daag",
+       "at": "दाग,"
+      },
+      {
+       "text": "Pet ke baal",
+       "at": "पेट के"
+      },
+      {
+       "text": "Juice gira diya",
+       "at": "जूस गिरा"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "PROBLEM = CUSTOMER KA GHAR",
+     "at": "प्रॉब्लम कस्टमर"
+    }
+   ]
+  },
+  {
+   "at": "बेसिक सोफ़ा",
+   "elements": [
+    {
+     "type": "label",
+     "text": "RATE CARD · SOFA CLEANING",
+     "color": "gold",
+     "at": "बेसिक सोफ़ा"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹400 से",
+     "cards": [
+      {
+       "label": "BASIC",
+       "value": "₹400",
+       "sub": "se shuru",
+       "color": "blue",
+       "at": "₹400 से"
+      },
+      {
+       "label": "PREMIUM",
+       "value": "₹1500",
+       "sub": "ke aaspaas",
+       "color": "gold",
+       "ill": "sparkles",
+       "at": "₹1500 के"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब बिगिनर",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "BEGINNER KA HISAAB",
+     "color": "red",
+     "at": "अब बिगिनर"
+    },
+    {
+     "type": "big_number",
+     "value": "₹500",
+     "color": "gold",
+     "at": "₹500 आ",
+     "note": "1 SOFA · KHUSH?",
+     "note_at": "₹500 आ"
+    }
+   ]
+  },
+  {
+   "at": "पर 7",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "1 STOP KA DIN",
+     "at": "पर 7",
+     "rows": [
+      {
+       "text": "7 km jao",
+       "at": "पर 7"
+      },
+      {
+       "text": "Machine setup",
+       "at": "मशीन सेटअप"
+      },
+      {
+       "text": "1 mattress · bill",
+       "mark": "₹500",
+       "at": "बिल ₹500।"
+      },
+      {
+       "text": "Pack + 8 km alag",
+       "at": "8 कि.मी."
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "BAHUT KAMZOR",
+     "color": "red",
+     "at": "बहुत कमज़ोर"
     }
    ],
-   "card": {
-    "type": "headline",
-    "title": "+8 कि.मी. अलग",
-    "at": "8 कि.मी.",
-    "sub": "बहुत कमज़ोर",
-    "sub_at": "बहुत कमज़ोर",
-    "color": "red",
-    "sub_color": "muted"
-   }
+   "react": [
+    {
+     "at": "बहुत कमज़ोर",
+     "mood": "shocked"
+    }
+   ]
   },
   {
-   "at": "अब वही घर",
-   "mood": "smirk",
+   "at": "अब वही",
    "tint": "cold",
-   "beats": [
+   "elements": [
     {
-     "at": "बस सोफ़ा",
+     "type": "pill",
+     "text": "TWIST · WAHI GHAR",
+     "color": "blue",
+     "at": "अब वही"
+    },
+    {
+     "type": "strike_list",
+     "at": "बस सोफ़ा,",
+     "items": [
+      {
+       "text": "Sofa",
+       "at": "बस सोफ़ा,",
+       "strike": false
+      },
+      {
+       "text": "2 mattress",
+       "at": "दो मैट्रेस,",
+       "strike": false
+      },
+      {
+       "text": "Carpet",
+       "at": "कारपेट और",
+       "strike": false
+      },
+      {
+       "text": "Dining chair",
+       "at": "डाइनिंग चेयर,",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "बिल बना",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "बिल बना",
+     "left": {
+      "label": "1 ITEM",
+      "value": "₹500",
+      "sub": "same travel"
+     },
+     "right": {
+      "label": "POORA GHAR",
+      "value": "₹2500",
+      "sub": "same setup",
+      "color": "green",
+      "ill": "house",
+      "at": "₹2500।"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "SAB EK SAATH",
+     "color": "green",
+     "at": "₹2500।"
+    }
+   ]
+  },
+  {
+   "at": "आपको 10",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI GAME",
+     "color": "gold",
+     "at": "आपको 10"
+    },
+    {
+     "type": "vs",
+     "at": "आपको 10",
+     "left": {
+      "label": "NAHI CHAHIYE",
+      "value": "10",
+      "sub": "customer"
+     },
+     "right": {
+      "label": "CHAHIYE",
+      "value": "10",
+      "sub": "profitable stop",
+      "color": "green",
+      "ill": "round_pushpin",
+      "at": "प्रॉफिटेबल स्टॉप"
+     },
+     "strike_at": "प्रॉफिटेबल स्टॉप"
+    }
+   ],
+   "react": [
+    {
+     "at": "प्रॉफिटेबल स्टॉप",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "तो शॉप",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "तो शॉप"
+    },
+    {
+     "type": "steps",
+     "at": "तो शॉप",
+     "dim_at": "पूरा घर",
+     "items": [
+      {
+       "text": "Shop mat lo",
+       "at": "तो शॉप"
+      },
+      {
+       "text": "Tools + machine lo",
+       "at": "टूल्स और",
+       "ill": "toolbox"
+      },
+      {
+       "text": "WhatsApp + Google listing",
+       "at": "WhatsApp बिज़नेस",
+       "ill": "mobile_phone"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "POORA GHAR PITCH KARO",
+     "color": "green",
+     "at": "पूरा घर"
+    }
+   ],
+   "react": [
+    {
+     "at": "तो शॉप",
      "mood": "neutral",
      "point": true
     }
-   ],
-   "card": {
-    "type": "checklist",
-    "title": "वही घर, एक स्टॉप",
-    "items": [
-     {
-      "text": "सोफ़ा",
-      "at": "बस सोफ़ा"
-     },
-     {
-      "text": "दो मैट्रेस",
-      "at": "दो मैट्रेस"
-     },
-     {
-      "text": "कारपेट + चेयर",
-      "at": "कारपेट और"
-     }
-    ],
-    "final": "सब एक साथ",
-    "final_at": "सब एक साथ"
-   }
-  },
-  {
-   "at": "बिल बना ₹2500",
-   "mood": "shocked",
-   "tint": "green",
-   "card": {
-    "type": "big_number",
-    "label": "एक घर का बिल",
-    "value": "₹2500",
-    "value_at": "₹2500",
-    "note": "वही ट्रैवल, वही सेटअप",
-    "note_at": "₹2500",
-    "color": "green"
-   }
-  },
-  {
-   "at": "आपको 10 कस्टमर",
-   "mood": "serious",
-   "point": true,
-   "tint": "green",
-   "card": {
-    "type": "split",
-    "left": {
-     "text": "10 कस्टमर",
-     "at": "10 कस्टमर",
-     "color": "red"
-    },
-    "right": {
-     "text": "10 प्रॉफिटेबल स्टॉप",
-     "at": "प्रॉफिटेबल स्टॉप",
-     "color": "green"
-    }
-   }
-  },
-  {
-   "at": "तो शॉप मत",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "प्लान",
-    "items": [
-     {
-      "text": "शॉप नहीं, मशीन लो",
-      "at": "टूल्स और मशीन"
-     },
-     {
-      "text": "WhatsApp + Google",
-      "at": "WhatsApp बिज़नेस"
-     },
-     {
-      "text": "एक आइटम नहीं",
-      "at": "एक आइटम"
-     }
-    ],
-    "final": "पूरा घर पिच करो!",
-    "final_at": "पिच करो"
-   }
-  },
-  {
-   "at": "ये रील उस",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो पहले शॉप देख रहा है",
-    "line2_at": "पहले शॉप"
-   }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "SOFA CLEANING",
+ "disclaimer": true,
+ "captions": [
+  "*₹1",
+  "*lakh...",
+  "*₹15,000",
+  "ka",
+  "*kiraya...",
+  "Aur",
+  "abhi",
+  "ek",
+  "bhi",
+  "*customer",
+  "nahi.",
+  "Do",
+  "bande.",
+  "Dono",
+  "ke",
+  "paas",
+  "*₹1",
+  "*lakh.",
+  "Ek",
+  "ne",
+  "*shop",
+  "li.",
+  "Doosre",
+  "ne",
+  "*machine",
+  "li",
+  "aur",
+  "seedha",
+  "customer",
+  "ke",
+  "*ghar",
+  "pahunch",
+  "gaya.",
+  "Uska",
+  "business?",
+  "*Sofa",
+  "aur",
+  "*mattress",
+  "ki",
+  "deep",
+  "cleaning.",
+  "Sunne",
+  "mein",
+  "*boring",
+  "hai",
+  "na?",
+  "Par",
+  "asli",
+  "khel",
+  "iski",
+  "*kamai",
+  "mein",
+  "hai.",
+  "*Sofa",
+  "koi",
+  "tumhari",
+  "*shop",
+  "par",
+  "uthakar",
+  "nahi",
+  "laayega.",
+  "*Dhool,",
+  "*daag,",
+  "pet",
+  "ke",
+  "baal,",
+  "bachche",
+  "ne",
+  "juice",
+  "gira",
+  "diya.",
+  "Problem",
+  "customer",
+  "ke",
+  "*ghar",
+  "mein",
+  "hi",
+  "padi",
+  "hai.",
+  "Basic",
+  "sofa",
+  "cleaning",
+  "roughly",
+  "*₹400",
+  "se",
+  "shuru",
+  "hoti",
+  "hai.",
+  "Premium",
+  "service",
+  "*₹1500",
+  "ke",
+  "aaspaas.",
+  "Ab",
+  "*beginner",
+  "sochta",
+  "hai,",
+  "\"Ek",
+  "sofa",
+  "kiya,",
+  "*₹500",
+  "aa",
+  "gaye.\"",
+  "Par",
+  "*7",
+  "*km",
+  "jao,",
+  "machine",
+  "setup",
+  "karo,",
+  "ek",
+  "mattress",
+  "saaf",
+  "karo,",
+  "bill",
+  "*₹500.",
+  "Phir",
+  "pack",
+  "karo,",
+  "aur",
+  "agle",
+  "customer",
+  "ke",
+  "liye",
+  "*8",
+  "*km",
+  "alag.",
+  "Ye",
+  "bahut",
+  "*kamzor",
+  "hai.",
+  "Ab",
+  "*wahi",
+  "ghar,",
+  "wahi",
+  "travel,",
+  "wahi",
+  "setup.",
+  "Bas",
+  "sofa,",
+  "do",
+  "mattress,",
+  "carpet",
+  "aur",
+  "dining",
+  "chair,",
+  "*sab",
+  "*ek",
+  "saath.",
+  "Bill",
+  "bana",
+  "*₹2500.",
+  "Aapko",
+  "10",
+  "*customer",
+  "nahi",
+  "chahiye.",
+  "Aapko",
+  "*10",
+  "*profitable",
+  "stop",
+  "chahiye.",
+  "Toh",
+  "*shop",
+  "mat",
+  "lo.",
+  "Tools",
+  "aur",
+  "*machine",
+  "lo,",
+  "*WhatsApp",
+  "Business",
+  "aur",
+  "*Google",
+  "listing",
+  "banao.",
+  "Aur",
+  "har",
+  "ghar",
+  "mein",
+  "ek",
+  "item",
+  "nahi,",
+  "*poora",
+  "*ghar",
+  "pitch",
+  "karo.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "pehle",
+  "*shop",
+  "dekh",
+  "raha",
+  "hoon.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo pehle shop dekh raha hai",
+  "line2_at": "पहले शॉप"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 service business decoded"
+ },
+ "episode": 5
 }

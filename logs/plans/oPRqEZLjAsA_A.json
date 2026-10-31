@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹100 का पेट्रोल... सिर्फ़ ₹4 कमीशन... और ₹1 करोड़ 94 लाख की सेल।\n\n[intrigued, building energy] पंप ओनर की महीने की सेल लगभग 2 करोड़ दिखती है। पर इसमें से उसके हाथ में कितना आता है? और क्या एक बिज़ी पंप भी लॉस में जा सकता है?\n\n[excited, fast] ₹2000 का पेट्रोल, मतलब 20 लीटर। ग्रॉस कमीशन? ₹80। बस। अब रोज़ 5000 लीटर बिके, तो दिन का करीब ₹17,000 और महीने का रफ़ली ₹5 लाख। सुनने में मस्त है ना?\n\n[serious] अब आती हैं तीन चोट। [punchy] पहली: खर्चे। स्टाफ ₹2.2 लाख, लैंड रेंट ₹1.1 लाख, बिजली और जनरेटर ₹55,000, बाकी मेंटेनेंस ₹65,000। ऊपर से 30 पैसे प्रति लीटर का हैंडलिंग। टोटल ₹5.1 लाख। [sighs] 2 लाख लीटर बिकने पर भी बचा सिर्फ़ ₹1.7 लाख। और इसमें लोन का इंटरेस्ट और टैक्स तो गिना ही नहीं। [punchy] दूसरी: सेल घटकर 1 लाख लीटर रह गई? किराया और सैलरी आधी नहीं होती। पंप सीधा लॉस में। [amused] तीसरी: 20 ट्रक उधार में डीज़ल भरवाते हैं, और पेमेंट 15 दिन लेट। सेल है, पर कैश नहीं।\n\n[mysterious, slower] तो पंप की कमाई का इंजन क्या है? [emphatic] पेट्रोल का रेट नहीं... डेली वॉल्यूम। इस मॉडल में ब्रेक-इवन आता है 1.45 लाख लीटर महीने पर, यानी लगभग 5000 लीटर रोज़।\n\n[confident] इसलिए डीलरशिप से पहले 7 से 14 दिन लोकेशन का असली ट्रैफ़िक गिनो। बिज़नेस को 1.25 या 1.5 लाख लीटर पर स्ट्रेस टेस्ट करो। और वर्किंग कैपिटल अलग रखो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"भाई, पेट्रोल पंप खोलते हैं, करोड़ों की सेल होती है।\"",
- "ig_caption": "₹100 के पेट्रोल में पंप ओनर को सिर्फ़ ₹4 के आसपास मिलते हैं ⛽ और 2 लाख लीटर बिकने पर भी बचते हैं सिर्फ़ ₹1.7 लाख।\n\nउस दोस्त को भेजो जो पेट्रोल पंप खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "ig_caption": "₹100 ke petrol mein pump owner ko sirf ₹4 ke aaspaas milte hain ⛽ aur 2 lakh litre bikne par bhi bachte hain sirf ₹1.7 lakh.\n\nUs dost ko bhejo jo petrol pump kholna chahta hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
  "hashtags": [
   "#PetrolPumpBusiness",
   "#BusinessIdeas",
@@ -55,316 +55,744 @@
  ],
  "scenes": [
   {
+   "at": "₹100 का पेट्रोल...",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "PETROL PUMP · ASLI HISAAB",
+     "at": "₹100 का पेट्रोल..."
+    },
+    {
+     "type": "stat_row",
+     "at": "₹100 का पेट्रोल...",
+     "cards": [
+      {
+       "label": "PETROL",
+       "value": "₹100",
+       "color": "white",
+       "ill": "fuel_pump",
+       "at": "₹100 का पेट्रोल..."
+      },
+      {
+       "label": "COMMISSION",
+       "value": "₹4",
+       "sub": "owner ka",
+       "color": "gold",
+       "at": "₹4 कमीशन..."
+      },
+      {
+       "label": "MONTHLY SALE",
+       "value": "₹1.94Cr",
+       "color": "blue",
+       "glow": true,
+       "at": "₹1 करोड़ 94"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "पंप ओनर की",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "elements": [
     {
-     "at": "हाथ में",
-     "mood": "smirk"
+     "type": "label",
+     "text": "PUMP OWNER · MAHINE KI SALE",
+     "at": "पंप ओनर की"
+    },
+    {
+     "type": "stat_row",
+     "at": "2 करोड़ दिखती",
+     "cards": [
+      {
+       "label": "SALE / MONTH",
+       "value": "~₹2Cr",
+       "color": "gold",
+       "ill": "bar_chart",
+       "at": "2 करोड़ दिखती"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "HAATH MEIN KITNA?",
+     "at": "हाथ में कितना"
+    },
+    {
+     "type": "pill",
+     "text": "BUSY PUMP = LOSS?",
+     "color": "red",
+     "at": "लॉस में जा"
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "महीने की सेल",
-    "value": "~₹2 करोड़",
-    "value_at": "2 करोड़",
-    "note": "हाथ में कितना?",
-    "note_at": "हाथ में",
-    "color": "gold"
-   }
+   ]
   },
   {
-   "at": "और क्या एक",
-   "mood": "shocked",
-   "card": {
-    "type": "headline",
-    "title": "बिज़ी पंप भी",
-    "at": "बिज़ी पंप",
-    "sub": "लॉस में?",
-    "sub_at": "लॉस में",
-    "color": "white",
-    "sub_color": "red"
-   }
-  },
-  {
-   "at": "₹2000 का पेट्रोल",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "at": "₹2000 का पेट्रोल,",
+   "elements": [
     {
-     "at": "बस",
-     "mood": "smirk"
+     "type": "arrow_pair",
+     "at": "₹2000 का पेट्रोल,",
+     "left": {
+      "label": "PETROL",
+      "value": "₹2000",
+      "sub": "20 litre"
+     },
+     "right": {
+      "label": "GROSS COMMISSION",
+      "value": "₹80",
+      "color": "gold",
+      "sub": "bas itna",
+      "at": "₹80। बस।"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "₹4 HAR ₹100 PE",
+     "outline": true,
+     "at": "बस।"
     }
-   ],
-   "card": {
-    "type": "split",
-    "icon": "coin",
-    "title": "एक बार भरवाया",
-    "title_at": "₹2000",
-    "left": {
-     "text": "₹2000 = 20 लीटर",
-     "at": "20 लीटर",
-     "color": "white"
-    },
-    "right": {
-     "text": "कमीशन ₹80",
-     "at": "₹80",
-     "color": "gold"
-    },
-    "result": "बस!",
-    "result_at": "बस"
-   }
+   ]
   },
   {
    "at": "अब रोज़ 5000",
-   "mood": "neutral",
-   "point": true,
-   "tint": "green",
-   "beats": [
+   "elements": [
     {
-     "at": "सुनने में",
-     "mood": "smirk",
-     "point": false
+     "type": "stat_row",
+     "at": "अब रोज़ 5000",
+     "cards": [
+      {
+       "label": "ROZ KI SALE",
+       "value": "5000L",
+       "sub": "litre",
+       "color": "blue",
+       "at": "अब रोज़ 5000"
+      },
+      {
+       "label": "DIN KA",
+       "value": "₹17,000",
+       "color": "gold",
+       "at": "₹17,000"
+      },
+      {
+       "label": "MAHINE KA",
+       "value": "₹5L",
+       "sub": "roughly",
+       "color": "green",
+       "glow": true,
+       "at": "₹5 लाख।"
+      }
+     ]
+    },
+    {
+     "type": "money_rain",
+     "at": "₹5 लाख।"
     }
    ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "रोज़ 5000 लीटर",
-    "from_text": "दिन ₹17,000",
-    "from_at": "₹17,000",
-    "to_text": "महीना ₹5 लाख",
-    "to_at": "₹5 लाख",
-    "result": "मस्त है ना?",
-    "result_at": "मस्त"
-   }
+   "react": [
+    {
+     "at": "मस्त है",
+     "mood": "smirk"
+    }
+   ]
   },
   {
-   "at": "अब आती हैं",
-   "mood": "serious",
-   "card": {
-    "type": "title_slam",
-    "title": "3 चोट",
-    "at": "तीन चोट",
-    "color": "red"
-   }
-  },
-  {
-   "at": "पहली: खर्चे",
-   "mood": "serious",
-   "point": true,
+   "at": "तीन चोट।",
    "tint": "red",
-   "card": {
-    "type": "strike_list",
-    "title": "चोट #1 · खर्चे",
-    "color": "red",
-    "items": [
-     {
-      "text": "स्टाफ ₹2.2 लाख",
-      "at": "स्टाफ",
-      "strike": false
-     },
-     {
-      "text": "लैंड रेंट ₹1.1 लाख",
-      "at": "लैंड रेंट",
-      "strike": false
-     },
-     {
-      "text": "बिजली ₹55,000",
-      "at": "बिजली",
-      "strike": false
-     },
-     {
-      "text": "मेंटेनेंस ₹65,000",
-      "at": "बाकी मेंटेनेंस",
-      "strike": false
-     }
-    ]
-   }
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "3",
+     "sub": "CHOT",
+     "color": "red",
+     "at": "तीन चोट।"
+    }
+   ]
+  },
+  {
+   "at": "पहली: खर्चे।",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #1 · KHARCHE",
+     "color": "red",
+     "at": "पहली: खर्चे।"
+    },
+    {
+     "type": "ledger",
+     "title": "MAHINE KA KHARCHA",
+     "at": "पहली: खर्चे।",
+     "rows": [
+      {
+       "text": "Staff · ₹2.2 lakh",
+       "at": "स्टाफ ₹2.2"
+      },
+      {
+       "text": "Land rent · ₹1.1 lakh",
+       "at": "लैंड रेंट"
+      },
+      {
+       "text": "Bijli + generator · ₹55,000",
+       "at": "बिजली और"
+      },
+      {
+       "text": "Maintenance · ₹65,000",
+       "at": "बाकी मेंटेनेंस"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "ऊपर से 30",
-   "mood": "serious",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "टोटल ₹5.1 लाख",
-     "mood": "shocked"
+     "type": "stat_row",
+     "at": "ऊपर से 30",
+     "cards": [
+      {
+       "label": "HANDLING",
+       "value": "30p/L",
+       "sub": "prati litre",
+       "color": "red",
+       "at": "30 पैसे"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹5.1L",
+     "color": "red",
+     "note": "TOTAL KHARCHA",
+     "note_at": "टोटल ₹5.1",
+     "at": "टोटल ₹5.1"
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "+30 पैसे/लीटर हैंडलिंग",
-    "value": "−₹5.1 लाख",
-    "value_at": "टोटल ₹5.1 लाख",
-    "note": "टोटल खर्चा",
-    "note_at": "टोटल",
-    "color": "red"
-   }
+   ]
   },
   {
    "at": "2 लाख लीटर",
-   "mood": "serious",
-   "beats": [
+   "elements": [
     {
-     "at": "तो गिना",
-     "mood": "shocked"
+     "type": "stat_row",
+     "at": "2 लाख लीटर",
+     "cards": [
+      {
+       "label": "VOLUME / MONTH",
+       "value": "2L LTR",
+       "color": "blue",
+       "at": "2 लाख लीटर"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹1.7L",
+     "color": "gold",
+     "ill": "coin",
+     "at": "₹1.7 लाख।",
+     "note": "LOAN + TAX ABHI BAAKI",
+     "note_at": "लोन का इंटरेस्ट",
+     "note_color": "red"
     }
    ],
-   "card": {
-    "type": "big_number",
-    "label": "2 लाख लीटर पर बचत",
-    "value": "₹1.7 लाख",
-    "value_at": "₹1.7 लाख",
-    "note": "लोन + टैक्स बाकी!",
-    "note_at": "लोन का",
-    "color": "gold"
-   }
+   "react": [
+    {
+     "at": "₹1.7 लाख।",
+     "mood": "shocked"
+    }
+   ]
   },
   {
-   "at": "दूसरी: सेल",
-   "mood": "serious",
+   "at": "दूसरी: सेल घटकर",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "सीधा लॉस",
-     "mood": "shocked"
-    }
-   ],
-   "card": {
-    "type": "warning",
-    "title": "चोट #2 · सेल गिरी",
-    "sub": "सिर्फ़ 1 लाख लीटर",
-    "sub_at": "1 लाख",
-    "chips": [
-     {
-      "text": "किराया आधा नहीं",
-      "at": "किराया और",
-      "color": "red"
+     "type": "label",
+     "text": "CHOT #2 · SALE GHATI",
+     "color": "red",
+     "at": "दूसरी: सेल घटकर"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "दूसरी: सेल घटकर",
+     "left": {
+      "label": "PEHLE",
+      "value": "2L LTR"
      },
-     {
-      "text": "सैलरी आधी नहीं",
-      "at": "सैलरी आधी",
-      "color": "red"
+     "right": {
+      "label": "AB",
+      "value": "1L LTR",
+      "color": "red",
+      "at": "1 लाख लीटर"
      }
-    ],
-    "big": "लॉस!",
-    "big_at": "सीधा लॉस",
-    "big_color": "red"
-   }
+    },
+    {
+     "type": "stat_row",
+     "at": "किराया और",
+     "cards": [
+      {
+       "label": "KIRAYA",
+       "value": "SAME",
+       "color": "muted",
+       "at": "किराया और"
+      },
+      {
+       "label": "SALARY",
+       "value": "SAME",
+       "color": "muted",
+       "at": "सैलरी आधी"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "SEEDHA LOSS",
+     "color": "red",
+     "at": "सीधा लॉस"
+    }
+   ]
   },
   {
    "at": "तीसरी: 20 ट्रक",
-   "mood": "smirk",
-   "beats": [
+   "tint": "red",
+   "elements": [
     {
-     "at": "कैश नहीं",
-     "mood": "serious"
+     "type": "label",
+     "text": "CHOT #3 · UDHAAR DIESEL",
+     "color": "red",
+     "at": "तीसरी: 20 ट्रक"
+    },
+    {
+     "type": "stat_row",
+     "at": "तीसरी: 20 ट्रक",
+     "cards": [
+      {
+       "label": "TRUCKS",
+       "value": "20",
+       "sub": "udhaar pe",
+       "color": "white",
+       "ill": "articulated_lorry",
+       "at": "तीसरी: 20 ट्रक"
+      },
+      {
+       "label": "PAYMENT",
+       "value": "15 DIN",
+       "sub": "late",
+       "color": "red",
+       "ill": "spiral_calendar",
+       "at": "15 दिन लेट।"
+      }
+     ]
+    },
+    {
+     "type": "vs",
+     "at": "सेल है,",
+     "left": {
+      "label": "SALE",
+      "value": "HAI"
+     },
+     "right": {
+      "label": "CASH",
+      "value": "NAHI",
+      "color": "red",
+      "at": "कैश नहीं।"
+     }
     }
    ],
-   "card": {
-    "type": "split",
-    "title": "चोट #3 · उधार",
-    "title_at": "तीसरी",
-    "left": {
-     "text": "20 ट्रक उधार",
-     "at": "20 ट्रक",
-     "color": "white"
-    },
-    "right": {
-     "text": "पेमेंट 15 दिन लेट",
-     "at": "15 दिन",
-     "color": "red"
-    },
-    "result": "सेल है, कैश नहीं",
-    "result_at": "कैश नहीं"
-   }
+   "react": [
+    {
+     "at": "कैश नहीं।",
+     "mood": "smirk"
+    }
+   ]
   },
   {
    "at": "तो पंप की",
-   "mood": "smirk",
    "tint": "cold",
-   "beats": [
+   "elements": [
     {
-     "at": "डेली वॉल्यूम",
+     "type": "pill",
+     "text": "KAMAAI KA ENGINE?",
+     "color": "blue",
+     "at": "तो पंप की"
+    },
+    {
+     "type": "strike_list",
+     "at": "पेट्रोल का रेट",
+     "items": [
+      {
+       "text": "Petrol ka rate",
+       "at": "पेट्रोल का रेट"
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "text": "DAILY VOLUME",
+     "size": "l",
+     "color": "gold",
+     "ill": "gear",
+     "at": "डेली वॉल्यूम।"
+    }
+   ],
+   "react": [
+    {
+     "at": "डेली वॉल्यूम।",
      "mood": "serious",
      "point": true
     }
-   ],
-   "card": {
-    "type": "strike_list",
-    "title": "कमाई का इंजन?",
-    "color": "ice",
-    "items": [
-     {
-      "text": "पेट्रोल का रेट",
-      "at": "रेट नहीं",
-      "strike": true
-     },
-     {
-      "text": "डेली वॉल्यूम",
-      "at": "डेली वॉल्यूम",
-      "strike": false
-     }
-    ]
-   }
+   ]
   },
   {
    "at": "इस मॉडल में",
-   "mood": "neutral",
-   "point": true,
    "tint": "cold",
-   "card": {
-    "type": "big_number",
-    "label": "ब्रेक-इवन / महीना",
-    "value": "1.45 लाख लीटर",
-    "value_at": "1.45 लाख",
-    "note": "≈ 5000 लीटर रोज़",
-    "note_at": "5000 लीटर रोज़",
-    "color": "ice"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "BREAK-EVEN POINT",
+     "at": "इस मॉडल में"
+    },
+    {
+     "type": "stat_row",
+     "at": "1.45 लाख",
+     "cards": [
+      {
+       "label": "PER MONTH",
+       "value": "1.45L",
+       "sub": "litre",
+       "color": "gold",
+       "glow": true,
+       "at": "1.45 लाख"
+      },
+      {
+       "label": "PER DAY",
+       "value": "~5000",
+       "sub": "litre",
+       "color": "blue",
+       "ill": "fuel_pump",
+       "at": "5000 लीटर रोज़।"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "ISSE NEECHE = LOSS",
+     "color": "red",
+     "outline": true,
+     "at": "5000 लीटर रोज़।"
+    }
+   ]
   },
   {
    "at": "इसलिए डीलरशिप",
-   "mood": "neutral",
-   "point": true,
    "tint": "green",
-   "card": {
-    "type": "checklist",
-    "title": "पंप से पहले",
-    "items": [
-     {
-      "text": "7–14 दिन ट्रैफ़िक गिनो",
-      "at": "7 से 14"
-     },
-     {
-      "text": "1.25–1.5 लाख पे टेस्ट",
-      "at": "स्ट्रेस टेस्ट"
-     },
-     {
-      "text": "वर्किंग कैपिटल अलग",
-      "at": "वर्किंग कैपिटल"
-     }
-    ],
-    "final": "कैश अलग रखो!",
-    "final_at": "अलग रखो"
-   }
-  },
-  {
-   "at": "ये रील",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो पंप खोलना चाहता है",
-    "line2_at": "करोड़ों"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "इसलिए डीलरशिप"
+    },
+    {
+     "type": "steps",
+     "at": "7 से 14",
+     "dim_at": "अलग रखो।",
+     "items": [
+      {
+       "text": "7–14 din traffic gino",
+       "ill": "automobile",
+       "at": "7 से 14"
+      },
+      {
+       "text": "Stress test: 1.25–1.5L ltr",
+       "ill": "bar_chart",
+       "at": "1.25 या 1.5"
+      },
+      {
+       "text": "Working capital alag",
+       "ill": "briefcase",
+       "at": "वर्किंग कैपिटल"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "PEHLE VOLUME, PHIR PUMP",
+     "color": "green",
+     "at": "अलग रखो।"
+    }
+   ],
+   "react": [
+    {
+     "at": "इसलिए डीलरशिप",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "PETROL PUMP",
+ "disclaimer": true,
+ "captions": [
+  "*₹100",
+  "ka",
+  "petrol...",
+  "sirf",
+  "*₹4",
+  "*commission...",
+  "Aur",
+  "*₹1",
+  "*crore",
+  "94",
+  "lakh",
+  "ki",
+  "sale.",
+  "Pump",
+  "owner",
+  "ki",
+  "mahine",
+  "ki",
+  "sale",
+  "lagbhag",
+  "*2",
+  "*crore",
+  "dikhti",
+  "hai.",
+  "Par",
+  "ismein",
+  "se",
+  "uske",
+  "*haath",
+  "mein",
+  "kitna",
+  "aata",
+  "hai?",
+  "Aur",
+  "kya",
+  "ek",
+  "*busy",
+  "pump",
+  "bhi",
+  "*loss",
+  "mein",
+  "ja",
+  "sakta",
+  "hai?",
+  "*₹2000",
+  "ka",
+  "petrol,",
+  "matlab",
+  "*20",
+  "litre.",
+  "Gross",
+  "commission?",
+  "*₹80.",
+  "Bas.",
+  "Ab",
+  "roz",
+  "*5000",
+  "litre",
+  "bike,",
+  "toh",
+  "din",
+  "ka",
+  "kareeb",
+  "*₹17,000",
+  "aur",
+  "mahine",
+  "ka",
+  "roughly",
+  "*₹5",
+  "*lakh.",
+  "Sunne",
+  "mein",
+  "mast",
+  "hai",
+  "na?",
+  "Ab",
+  "aati",
+  "hain",
+  "*teen",
+  "*chot.",
+  "Pehli:",
+  "*kharche.",
+  "Staff",
+  "*₹2.2",
+  "lakh,",
+  "land",
+  "rent",
+  "*₹1.1",
+  "lakh,",
+  "bijli",
+  "aur",
+  "generator",
+  "₹55,000,",
+  "baaki",
+  "maintenance",
+  "₹65,000.",
+  "Upar",
+  "se",
+  "*30",
+  "*paise",
+  "prati",
+  "litre",
+  "ka",
+  "handling.",
+  "Total",
+  "*₹5.1",
+  "*lakh.",
+  "2",
+  "lakh",
+  "litre",
+  "bikne",
+  "par",
+  "bhi",
+  "bacha",
+  "sirf",
+  "*₹1.7",
+  "*lakh.",
+  "Aur",
+  "ismein",
+  "*loan",
+  "ka",
+  "interest",
+  "aur",
+  "*tax",
+  "toh",
+  "gina",
+  "hi",
+  "nahi.",
+  "Doosri:",
+  "sale",
+  "ghatkar",
+  "*1",
+  "*lakh",
+  "litre",
+  "reh",
+  "gayi?",
+  "Kiraya",
+  "aur",
+  "salary",
+  "aadhi",
+  "nahi",
+  "hoti.",
+  "Pump",
+  "seedha",
+  "*loss",
+  "mein.",
+  "Teesri:",
+  "*20",
+  "*truck",
+  "udhaar",
+  "mein",
+  "diesel",
+  "bharwaate",
+  "hain,",
+  "aur",
+  "payment",
+  "*15",
+  "din",
+  "late.",
+  "Sale",
+  "hai,",
+  "par",
+  "*cash",
+  "nahi.",
+  "Toh",
+  "pump",
+  "ki",
+  "kamaai",
+  "ka",
+  "*engine",
+  "kya",
+  "hai?",
+  "Petrol",
+  "ka",
+  "rate",
+  "nahi...",
+  "*daily",
+  "*volume.",
+  "Is",
+  "model",
+  "mein",
+  "*break-even",
+  "aata",
+  "hai",
+  "*1.45",
+  "lakh",
+  "litre",
+  "mahine",
+  "par,",
+  "yaani",
+  "lagbhag",
+  "*5000",
+  "litre",
+  "roz.",
+  "Isliye",
+  "dealership",
+  "se",
+  "pehle",
+  "*7",
+  "se",
+  "*14",
+  "din",
+  "location",
+  "ka",
+  "asli",
+  "*traffic",
+  "gino.",
+  "Business",
+  "ko",
+  "1.25",
+  "ya",
+  "1.5",
+  "lakh",
+  "litre",
+  "par",
+  "*stress",
+  "*test",
+  "karo.",
+  "Aur",
+  "*working",
+  "*capital",
+  "alag",
+  "rakho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Bhai,",
+  "*petrol",
+  "*pump",
+  "kholte",
+  "hain,",
+  "*croron",
+  "ki",
+  "sale",
+  "hoti",
+  "hai.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo petrol pump kholna chahta hai",
+  "line2_at": "पेट्रोल पंप खोलते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 petrol pump decoded"
+ },
+ "episode": 9
 }

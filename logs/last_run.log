@@ -1,19 +1,85 @@
-slot 2 (money) -> row 34: k-bazkQ4sEE A | dry_run=True
-[1/4] script  k-bazkQ4sEE A: reusing saved plan
+      [buffer] post statuses seen: {'sent': 22}
+Batch: making 10 reels; Buffer has 0 waiting (buffer), cap 10
+--- reel 1/10: slot 1 (economics) WzuVYEBZoxo A
+[1/4] script  WzuVYEBZoxo A: reusing saved plan
+      re-editing the saved script for the HISAAB style
 [2/4] voice
       voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Rohan (IcsYcP26eMwajlgx2SDe)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      178 words, 80.9s, model eleven_v4
+      184 words, 81.0s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmpax04efj5/video_only.mp4
-DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1330_k-bazkQ4sEE_A.mp4
---- caption ---
-₹1 करोड़ का रिटायरमेंट फंड भी लगभग 79 की उम्र तक खत्म हो सकता है 😳 पहले 5 साल तो पता भी नहीं चलता।
-
-उस दोस्त को भेजो जो कहता है "बस ₹1 करोड़ हो जाएं, फिर रिटायर" 👇
-
-Follow @makemoneywithrohan for daily money math
-Full video: YouTube @PaisaDecodeHQ
-Numbers illustrative, not financial advice.
-
-#Retirement #RetirementPlanning #PaisaDecode #PersonalFinanceIndia #Inflation #MoneyMath #Hindi
+      remotion: Reel /tmp/tmpd4nhmm4_/video_only.mp4
+      queued in Buffer (1 waiting)
+--- reel 2/10: slot 2 (money) T7oW6D8R8YI A
+[1/4] script  T7oW6D8R8YI A: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      210 words, 86.2s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmp4h_sb1jt/video_only.mp4
+      queued in Buffer (2 waiting)
+--- reel 3/10: slot 3 (ideas) WEcB_iegbFc I1
+[1/4] script  WEcB_iegbFc I1: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      202 words, 78.7s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpmr36a3k7/video_only.mp4
+      queued in Buffer (3 waiting)
+--- reel 4/10: slot 1 (economics) fdzsF7lYX5M A
+[1/4] script  fdzsF7lYX5M A: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      257 words, 107.6s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpnoq037gv/video_only.mp4
+      queued in Buffer (4 waiting)
+--- reel 5/10: slot 2 (money) cutJkJ4H7-U I1
+[1/4] script  cutJkJ4H7-U I1: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      195 words, 74.0s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpqzl4gxeu/video_only.mp4
+      queued in Buffer (5 waiting)
+--- reel 6/10: slot 3 (ideas) 3aYy4tj-L8w I2
+[1/4] script  3aYy4tj-L8w I2: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      181 words, 74.9s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmp2lrxxnit/video_only.mp4
+      queued in Buffer (6 waiting)
+--- reel 7/10: slot 1 (economics) oPRqEZLjAsA A
+[1/4] script  oPRqEZLjAsA A: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      242 words, 99.5s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmppcep3dn8/video_only.mp4
+      queued in Buffer (7 waiting)
+--- reel 8/10: slot 2 (money) 9g6R5TOxKFk A
+[1/4] script  9g6R5TOxKFk A: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      197 words, 82.4s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpn5_gniq_/video_only.mp4
+      queued in Buffer (8 waiting)
+--- reel 9/10: slot 3 (ideas) GQ_iId8G1_I I1
+[1/4] script  GQ_iId8G1_I I1: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      231 words, 84.4s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpgg4ytj4o/video_only.mp4
+      queued in Buffer (9 waiting)
+--- reel 10/10: slot 1 (economics) jigoX_ENTaw A
+[1/4] script  jigoX_ENTaw A: reusing saved plan
+      re-editing the saved script for the HISAAB style
+[2/4] voice
+      234 words, 96.3s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpwzh_t2dc/video_only.mp4
+      queued in Buffer (10 waiting)
+made 10 reels: 10 queued in Buffer, 0 ready for the next top-ups

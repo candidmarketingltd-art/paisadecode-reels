@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹25,000 की बिक्री... ₹20,150 का खर्चा... और बचे सिर्फ़ ₹4,000।\n\n[intrigued, building energy] 100 चिक्स, 40 से 45 दिन की मेहनत। फिर भी सिर्फ़ ₹4,000? और सेम फार्म, सेम चिक्स, सेम फीड... बस एक नंबर बदलो, तो ये ₹4,000 लॉस भी बन सकता है, और ₹8,000 से ज़्यादा का फ़ायदा भी।\n\n[excited, fast] पहले लगता है ₹125 किलो, 2 किलो का मुर्गा, 100 मुर्गे, ₹25,000! एक साल में 5-6 बैच, मतलब रेगुलर इनकम। [serious] पर चिक्स पर लगे ₹5,200, और फीड पर उसके डबल से भी ज़्यादा। [punchy] 5% मुर्गे बचते ही नहीं। 95 बर्ड, 190 किलो, कमाई ₹24,000। [sighs] और ये ₹4,000 भी पूरा प्रॉफिट नहीं है, तुम्हारी लेबर तो गिनी ही नहीं।\n\n[serious] दूसरी चोट: रेट। ₹125-130 वाला रेट कभी ₹76 किलो तक गिरा है। तुम्हारा ब्रेक-ईवन है करीब ₹106 किलो। ₹100 मिला तो सिर्फ़ ₹19,000 आएँगे, और बैच लॉस में। [amused] और मुर्गे को गोदाम में रख नहीं सकते, रोज़ फीड खाता है। 5 दिन रुककर ₹3 ज़्यादा मिला? कमाई सिर्फ़ ₹570।\n\n[mysterious, slower] अब ट्विस्ट। रेट ₹150 हो गया तो वही मुर्गे ₹28,500 देंगे। [emphatic] यानी मुर्गी पालना तुम्हारे हाथ में है, भाव नहीं। असली कमाई मुर्गों में नहीं, उस सिस्टम में है जो बार-बार सही बर्ड सही बायर तक पहुँचाए। 100 पर नहीं चला, तो 1000 पर प्रॉब्लम बस 10 गुना बड़ी होगी।\n\n[confident] तो पहले 3 से 5 ट्रेडर्स से बायर पक्का करो। फिर हैचरी और फीड के कोटेशन लो। कम से कम 3 बैच का डेटा देखो। उसके बाद ही 200 या 300 चिकन सोचो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, गाँव में मुर्गी फार्म खोलते हैं, ₹25,000 हर बैच!\"",
- "ig_caption": "₹25,000 की बिक्री में बचते हैं सिर्फ़ ~₹4,000 🐔 और रेट ₹100 हुआ तो लॉस!\n\nपोल्ट्री फार्म का असली गणित वीडियो में देखो।\n\nये रील उस दोस्त को भेजो जो मुर्गी फार्म खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "ig_caption": "₹25,000 ki bikri mein bachte hain sirf ~₹4,000 🐔 Aur rate ₹100 hua toh loss!\n\nPoultry farm ka asli ganit video mein dekho.\n\nYe reel us dost ko bhejo jo murgi farm kholna chahta hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
  "hashtags": [
   "#PoultryFarming",
   "#BroilerFarming",
@@ -57,317 +57,864 @@
  ],
  "scenes": [
   {
-   "at": "100 चिक्स",
-   "mood": "neutral",
-   "beats": [
+   "at": "₹25,000 की",
+   "tint": "warm",
+   "elements": [
     {
-     "at": "फिर भी",
-     "mood": "smirk"
+     "type": "pill",
+     "text": "POULTRY · ASLI HISAAB",
+     "at": "₹25,000 की"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹25,000 की",
+     "cards": [
+      {
+       "label": "BIKRI",
+       "value": "₹25,000",
+       "sub": "1 batch",
+       "color": "gold",
+       "ill": "chicken",
+       "at": "₹25,000 की"
+      },
+      {
+       "label": "KHARCHA",
+       "value": "₹20,150",
+       "sub": "chicks + feed",
+       "color": "red",
+       "at": "₹20,150 का"
+      },
+      {
+       "label": "BACHA",
+       "value": "₹4,000",
+       "sub": "sirf itna",
+       "color": "white",
+       "glow": true,
+       "at": "बचे सिर्फ़ ₹4,000।"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "headline",
-    "title": "100 चिक्स · 45 दिन",
-    "at": "100 चिक्स",
-    "sub": "फिर भी सिर्फ़ ₹4,000?",
-    "sub_at": "फिर भी",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   ]
   },
   {
-   "at": "और सेम फार्म",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "at": "100 चिक्स,",
+   "elements": [
     {
-     "at": "लॉस भी",
-     "mood": "shocked"
+     "type": "stat_row",
+     "at": "100 चिक्स,",
+     "cards": [
+      {
+       "label": "CHICKS",
+       "value": "100",
+       "color": "gold",
+       "ill": "chicken",
+       "at": "100 चिक्स,"
+      },
+      {
+       "label": "MEHNAT",
+       "value": "40–45",
+       "sub": "din",
+       "color": "blue",
+       "ill": "calendar",
+       "at": "40 से 45"
+      }
+     ]
     },
     {
-     "at": "₹8,000 से",
-     "mood": "smirk"
+     "type": "big_number",
+     "value": "₹4,000?",
+     "color": "gold",
+     "at": "सिर्फ़ ₹4,000?"
     }
-   ],
-   "card": {
-    "type": "split",
-    "title": "बस एक नंबर बदलो",
-    "title_at": "एक नंबर",
-    "left": {
-     "text": "₹4,000 लॉस",
-     "at": "लॉस भी",
-     "color": "red"
+   ]
+  },
+  {
+   "at": "और सेम",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "और सेम",
+     "items": [
+      {
+       "text": "SAME FARM",
+       "at": "सेम फार्म,",
+       "strike": false
+      },
+      {
+       "text": "SAME CHICKS",
+       "at": "सेम चिक्स,",
+       "strike": false
+      },
+      {
+       "text": "SAME FEED",
+       "at": "सेम फीड...",
+       "strike": false
+      }
+     ]
     },
-    "right": {
-     "text": "₹8,000+ फ़ायदा",
-     "at": "₹8,000 से",
-     "color": "green"
+    {
+     "type": "label",
+     "text": "BAS 1 NUMBER BADLO",
+     "color": "blue",
+     "at": "एक नंबर"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "₹4,000 लॉस",
+     "left": {
+      "label": "LOSS",
+      "value": "−₹4,000",
+      "color": "red"
+     },
+     "right": {
+      "label": "FAAYDA",
+      "value": "₹8,000+",
+      "color": "green",
+      "at": "₹8,000 से"
+     }
     }
-   }
+   ]
   },
   {
    "at": "पहले लगता है",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "counter",
-    "label": "100 मुर्गे × ₹125/किलो",
-    "prefix": "₹",
-    "to": 25000,
-    "at": "100 मुर्गे",
-    "done_text": "5-6 बैच हर साल!",
-    "done_at": "रेगुलर इनकम"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "KAAGAZ PE MATH",
+     "color": "gold",
+     "at": "पहले लगता है"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹125 किलो,",
+     "cards": [
+      {
+       "label": "RATE / KG",
+       "value": "₹125",
+       "color": "gold",
+       "at": "₹125 किलो,"
+      },
+      {
+       "label": "WEIGHT",
+       "value": "2 KG",
+       "sub": "per murga",
+       "color": "blue",
+       "at": "2 किलो"
+      },
+      {
+       "label": "MURGE",
+       "value": "100",
+       "color": "blue",
+       "ill": "chicken",
+       "at": "100 मुर्गे,"
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "text": "₹25,000",
+     "size": "l",
+     "color": "gold",
+     "at": "₹25,000!"
+    }
+   ]
+  },
+  {
+   "at": "एक साल में",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "एक साल में",
+     "cards": [
+      {
+       "label": "BATCH / SAAL",
+       "value": "5-6",
+       "color": "gold",
+       "ill": "spiral_calendar",
+       "at": "5-6 बैच,"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "REGULAR INCOME?",
+     "color": "green",
+     "at": "रेगुलर इनकम।"
+    },
+    {
+     "type": "money_rain",
+     "at": "रेगुलर इनकम।"
+    }
+   ]
   },
   {
    "at": "पर चिक्स पर",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "split",
-    "title": "खर्चा",
-    "title_at": "पर चिक्स",
-    "left": {
-     "text": "चिक्स ₹5,200",
-     "at": "₹5,200",
-     "color": "red"
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI KHARCHA",
+     "color": "red",
+     "at": "पर चिक्स पर"
     },
-    "right": {
-     "text": "फीड: डबल से ज़्यादा",
-     "at": "डबल से",
-     "color": "red"
+    {
+     "type": "split_bar",
+     "at": "₹5,200,",
+     "parts": [
+      {
+       "label": "CHICKS",
+       "value": 5200,
+       "text": "₹5,200",
+       "color": "blue",
+       "at": "₹5,200,"
+      },
+      {
+       "label": "FEED · DOUBLE SE ZYADA",
+       "value": 11500,
+       "text": "2X+",
+       "color": "red",
+       "at": "डबल से"
+      }
+     ]
+    },
+    {
+     "type": "illustration",
+     "name": "sheaf_of_rice",
+     "size": "m",
+     "at": "डबल से"
     }
-   }
+   ]
   },
   {
-   "at": "5% मुर्गे बचते",
-   "mood": "shocked",
+   "at": "5% मुर्गे",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "95 बर्ड",
-     "mood": "serious",
-     "point": true
+     "type": "label",
+     "text": "CHOT #1 · 5% MURGE GAYE",
+     "color": "red",
+     "at": "5% मुर्गे"
+    },
+    {
+     "type": "dot_grid",
+     "total": 100,
+     "lost": 5,
+     "at": "5% मुर्गे",
+     "lost_at": "बचते ही",
+     "total_text": "100",
+     "left_text": "95"
+    },
+    {
+     "type": "stat_row",
+     "at": "95 बर्ड,",
+     "cards": [
+      {
+       "label": "BIRDS",
+       "value": "95",
+       "color": "blue",
+       "at": "95 बर्ड,"
+      },
+      {
+       "label": "WEIGHT",
+       "value": "190 KG",
+       "color": "blue",
+       "at": "190 किलो,"
+      },
+      {
+       "label": "KAMAI",
+       "value": "₹24,000",
+       "color": "gold",
+       "at": "कमाई ₹24,000।"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "5% मुर्गे बचते नहीं",
-    "from_text": "95 बर्ड · 190 किलो",
-    "from_at": "95 बर्ड",
-    "to_text": "₹24,000",
-    "to_at": "कमाई ₹24,000",
-    "result": "₹25,000 नहीं",
-    "result_at": "कमाई ₹24,000"
-   }
+   ]
   },
   {
    "at": "और ये ₹4,000",
-   "mood": "serious",
-   "beats": [
+   "elements": [
     {
-     "at": "लेबर तो",
+     "type": "ledger",
+     "title": "ASLI PROFIT",
+     "at": "और ये ₹4,000",
+     "rows": [
+      {
+       "text": "Bacha · ₹4,000",
+       "at": "ये ₹4,000"
+      },
+      {
+       "text": "Tumhari labour",
+       "mark": "₹0",
+       "at": "तुम्हारी लेबर"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "गिनी ही",
      "mood": "smirk"
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "बचत",
-    "value": "₹4,000",
-    "value_at": "ये ₹4,000",
-    "note": "लेबर गिनी ही नहीं",
-    "note_at": "लेबर तो",
-    "color": "gold"
-   }
+   ]
   },
   {
-   "at": "दूसरी चोट: रेट",
-   "mood": "serious",
+   "at": "दूसरी चोट:",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "₹76 किलो",
-     "mood": "shocked"
+     "type": "title_slam",
+     "text": "RATE",
+     "sub": "CHOT #2",
+     "color": "red",
+     "at": "दूसरी चोट:"
     }
-   ],
-   "card": {
-    "type": "warning",
-    "title": "चोट #2 · रेट",
-    "sub": "रेट गिरा तो?",
-    "sub_at": "कभी ₹76",
-    "chips": [
-     {
-      "text": "₹125-130 वाला रेट",
-      "at": "₹125-130 वाला",
-      "color": "white"
+   ]
+  },
+  {
+   "at": "₹125-130 वाला",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "₹125-130 वाला",
+     "left": {
+      "label": "NORMAL RATE",
+      "value": "₹125",
+      "sub": "se ₹130 / kg"
+     },
+     "right": {
+      "label": "KABHI GIRA",
+      "value": "₹76",
+      "sub": "per kg",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "₹76 किलो"
      }
-    ],
-    "big": "₹76/किलो",
-    "big_at": "₹76 किलो",
-    "big_color": "red"
-   }
+    }
+   ]
   },
   {
    "at": "तुम्हारा ब्रेक-ईवन",
-   "mood": "serious",
-   "point": true,
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "बैच लॉस",
-     "mood": "shocked"
+     "type": "label",
+     "text": "TUMHARA BREAK-EVEN",
+     "at": "तुम्हारा ब्रेक-ईवन"
+    },
+    {
+     "type": "headline",
+     "text": "₹106 / KG",
+     "size": "l",
+     "color": "gold",
+     "at": "₹106 किलो।"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "₹100 मिला",
+     "left": {
+      "label": "RATE MILA",
+      "value": "₹100",
+      "sub": "per kg"
+     },
+     "right": {
+      "label": "KAMAI",
+      "value": "₹19,000",
+      "color": "red",
+      "at": "₹19,000 आएँगे,"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "BATCH LOSS MEIN",
+     "color": "red",
+     "at": "बैच लॉस"
     }
    ],
-   "card": {
-    "type": "big_number",
-    "label": "ब्रेक-ईवन",
-    "value": "₹106/किलो",
-    "value_at": "₹106 किलो",
-    "note": "₹100 मिला → ₹19,000",
-    "note_at": "₹19,000 आएँगे",
-    "color": "red"
-   }
+   "react": [
+    {
+     "at": "₹19,000 आएँगे,",
+     "mood": "shocked"
+    }
+   ]
   },
   {
    "at": "और मुर्गे को",
-   "mood": "smirk",
-   "beats": [
+   "elements": [
     {
-     "at": "रोज़ फीड",
-     "mood": "neutral",
+     "type": "headline",
+     "text": "GODAAM? NAHI.",
+     "ill": "chicken",
+     "at": "और मुर्गे को"
+    },
+    {
+     "type": "pill",
+     "text": "ROZ FEED KHAATA HAI",
+     "color": "red",
+     "at": "रोज़ फीड"
+    },
+    {
+     "type": "stat_row",
+     "at": "5 दिन रुककर",
+     "cards": [
+      {
+       "label": "WAIT",
+       "value": "5 DIN",
+       "color": "blue",
+       "ill": "hourglass_not_done",
+       "at": "5 दिन रुककर"
+      },
+      {
+       "label": "EXTRA RATE",
+       "value": "+₹3/kg",
+       "color": "blue",
+       "at": "₹3 ज़्यादा"
+      },
+      {
+       "label": "KAMAI",
+       "value": "₹570",
+       "color": "red",
+       "at": "₹570।"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "₹570।",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "अब ट्विस्ट।",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TWIST",
+     "color": "blue",
+     "at": "अब ट्विस्ट।"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "रेट ₹150",
+     "left": {
+      "label": "NAYA RATE",
+      "value": "₹150",
+      "sub": "per kg",
+      "color": "blue"
+     },
+     "right": {
+      "label": "WAHI MURGE",
+      "value": "₹28,500",
+      "color": "green",
+      "at": "₹28,500 देंगे।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "यानी मुर्गी",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "यानी मुर्गी",
+     "items": [
+      {
+       "text": "Murgi paalna · tumhare haath",
+       "at": "मुर्गी पालना",
+       "strike": false
+      },
+      {
+       "text": "Bhaav · tumhare haath",
+       "at": "भाव नहीं।",
+       "strike": true
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "यानी मुर्गी",
+     "mood": "serious",
      "point": true
+    }
+   ]
+  },
+  {
+   "at": "असली कमाई",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI KAMAI =",
+     "at": "असली कमाई"
     },
     {
-     "at": "कमाई सिर्फ़",
-     "mood": "smirk"
-    }
-   ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "गोदाम में नहीं रखते",
-    "from_text": "5 दिन रुको",
-    "from_at": "5 दिन",
-    "to_text": "+₹3/किलो",
-    "to_at": "₹3 ज़्यादा",
-    "result": "कमाई सिर्फ़ ₹570",
-    "result_at": "कमाई सिर्फ़"
-   }
-  },
-  {
-   "at": "अब ट्विस्ट",
-   "mood": "shocked",
-   "tint": "cold",
-   "beats": [
-    {
-     "at": "वही मुर्गे",
-     "mood": "smirk"
-    }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "रेट ₹150 हुआ तो",
-    "value": "₹28,500",
-    "value_at": "₹28,500 देंगे",
-    "note": "वही मुर्गे",
-    "note_at": "वही मुर्गे",
-    "color": "ice"
-   }
-  },
-  {
-   "at": "यानी मुर्गी पालना",
-   "mood": "serious",
-   "point": true,
-   "tint": "cold",
-   "card": {
-    "type": "split",
-    "title": "किसके हाथ में?",
-    "title_at": "मुर्गी पालना",
-    "left": {
-     "text": "मुर्गी पालना ✓",
-     "at": "तुम्हारे हाथ",
-     "color": "green"
+     "type": "headline",
+     "text": "SYSTEM",
+     "size": "l",
+     "color": "gold",
+     "at": "उस सिस्टम",
+     "sub": "sahi bird → sahi buyer",
+     "sub_at": "सही बायर"
     },
-    "right": {
-     "text": "भाव ✗",
-     "at": "भाव नहीं",
-     "color": "red"
+    {
+     "type": "illustration",
+     "name": "bullseye",
+     "size": "m",
+     "at": "पहुँचाए।"
     }
-   }
-  },
-  {
-   "at": "असली कमाई मुर्गों",
-   "mood": "serious",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "title": "असली कमाई =",
-    "at": "असली कमाई",
-    "sub": "सही बर्ड → सही बायर",
-    "sub_at": "सही बायर",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   ]
   },
   {
    "at": "100 पर नहीं",
-   "mood": "shocked",
-   "beats": [
+   "tint": "red",
+   "elements": [
     {
-     "at": "बड़ी होगी",
-     "mood": "serious"
+     "type": "arrow_pair",
+     "at": "100 पर नहीं",
+     "left": {
+      "label": "100 CHICKEN",
+      "value": "1X",
+      "sub": "problem"
+     },
+     "right": {
+      "label": "1000 CHICKEN",
+      "value": "10X",
+      "sub": "problem",
+      "color": "red",
+      "at": "10 गुना"
+     }
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "1000 पर प्रॉब्लम",
-    "value": "10 गुना",
-    "value_at": "10 गुना",
-    "note": "100 पर नहीं चला तो",
-    "note_at": "बड़ी होगी",
-    "color": "red"
-   }
+   ]
   },
   {
    "at": "तो पहले 3",
-   "mood": "neutral",
-   "point": true,
    "tint": "green",
-   "card": {
-    "type": "checklist",
-    "title": "मेरा प्लान",
-    "items": [
-     {
-      "text": "3-5 ट्रेडर्स: बायर पक्का",
-      "at": "ट्रेडर्स से"
-     },
-     {
-      "text": "हैचरी + फीड कोटेशन",
-      "at": "हैचरी और"
-     },
-     {
-      "text": "3 बैच का डेटा",
-      "at": "3 बैच"
-     }
-    ],
-    "final": "फिर 200-300 चिकन",
-    "final_at": "200 या"
-   }
-  },
-  {
-   "at": "ये रील उस",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो मुर्गी फार्म खोलेगा",
-    "line2_at": "मुर्गी फार्म"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "तो पहले 3"
+    },
+    {
+     "type": "steps",
+     "at": "तो पहले 3",
+     "dim_at": "200 या",
+     "items": [
+      {
+       "text": "3-5 traders se buyer pakka",
+       "ill": "telephone_receiver",
+       "at": "पहले 3"
+      },
+      {
+       "text": "Hatchery + feed quotation",
+       "ill": "receipt",
+       "at": "हैचरी और"
+      },
+      {
+       "text": "Kam se kam 3 batch data",
+       "ill": "bar_chart",
+       "at": "कम से"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "PHIR 200–300 CHICKEN",
+     "color": "green",
+     "at": "200 या"
+    }
+   ],
+   "react": [
+    {
+     "at": "तो पहले 3",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "POULTRY FARM",
+ "disclaimer": true,
+ "captions": [
+  "*₹25,000",
+  "ki",
+  "bikri...",
+  "*₹20,150",
+  "ka",
+  "kharcha...",
+  "Aur",
+  "bache",
+  "sirf",
+  "*₹4,000.",
+  "*100",
+  "chicks,",
+  "40",
+  "se",
+  "45",
+  "din",
+  "ki",
+  "mehnat.",
+  "Phir",
+  "bhi",
+  "sirf",
+  "*₹4,000?",
+  "Aur",
+  "same",
+  "farm,",
+  "same",
+  "chicks,",
+  "same",
+  "feed...",
+  "Bas",
+  "*ek",
+  "*number",
+  "badlo,",
+  "toh",
+  "ye",
+  "₹4,000",
+  "*loss",
+  "bhi",
+  "ban",
+  "sakta",
+  "hai,",
+  "aur",
+  "*₹8,000",
+  "se",
+  "zyada",
+  "ka",
+  "faayda",
+  "bhi.",
+  "Pehle",
+  "lagta",
+  "hai",
+  "*₹125",
+  "kilo,",
+  "2",
+  "kilo",
+  "ka",
+  "murga,",
+  "100",
+  "murge,",
+  "*₹25,000!",
+  "Ek",
+  "saal",
+  "mein",
+  "*5-6",
+  "batch,",
+  "matlab",
+  "regular",
+  "income.",
+  "Par",
+  "chicks",
+  "par",
+  "lage",
+  "*₹5,200,",
+  "aur",
+  "*feed",
+  "par",
+  "uske",
+  "*double",
+  "se",
+  "bhi",
+  "zyada.",
+  "*5%",
+  "murge",
+  "bachte",
+  "hi",
+  "nahi.",
+  "95",
+  "bird,",
+  "190",
+  "kilo,",
+  "kamai",
+  "*₹24,000.",
+  "Aur",
+  "ye",
+  "₹4,000",
+  "bhi",
+  "poora",
+  "*profit",
+  "nahi",
+  "hai,",
+  "tumhari",
+  "*labour",
+  "toh",
+  "gini",
+  "hi",
+  "nahi.",
+  "Doosri",
+  "chot:",
+  "*rate.",
+  "₹125-130",
+  "wala",
+  "rate",
+  "kabhi",
+  "*₹76",
+  "kilo",
+  "tak",
+  "gira",
+  "hai.",
+  "Tumhara",
+  "*break-even",
+  "hai",
+  "kareeb",
+  "*₹106",
+  "kilo.",
+  "₹100",
+  "mila",
+  "toh",
+  "sirf",
+  "*₹19,000",
+  "aayenge,",
+  "aur",
+  "batch",
+  "*loss",
+  "mein.",
+  "Aur",
+  "murge",
+  "ko",
+  "*godaam",
+  "mein",
+  "rakh",
+  "nahi",
+  "sakte,",
+  "roz",
+  "*feed",
+  "khaata",
+  "hai.",
+  "5",
+  "din",
+  "rukkar",
+  "₹3",
+  "zyada",
+  "mila?",
+  "Kamai",
+  "sirf",
+  "*₹570.",
+  "Ab",
+  "*twist.",
+  "Rate",
+  "*₹150",
+  "ho",
+  "gaya",
+  "toh",
+  "wahi",
+  "murge",
+  "*₹28,500",
+  "denge.",
+  "Yaani",
+  "murgi",
+  "paalna",
+  "tumhare",
+  "*haath",
+  "mein",
+  "hai,",
+  "*bhaav",
+  "nahi.",
+  "Asli",
+  "kamai",
+  "murgon",
+  "mein",
+  "nahi,",
+  "us",
+  "*system",
+  "mein",
+  "hai",
+  "jo",
+  "baar-baar",
+  "sahi",
+  "bird",
+  "sahi",
+  "*buyer",
+  "tak",
+  "pahunchaye.",
+  "100",
+  "par",
+  "nahi",
+  "chala,",
+  "toh",
+  "*1000",
+  "par",
+  "problem",
+  "bas",
+  "*10",
+  "guna",
+  "badi",
+  "hogi.",
+  "Toh",
+  "pehle",
+  "*3",
+  "se",
+  "*5",
+  "traders",
+  "se",
+  "buyer",
+  "pakka",
+  "karo.",
+  "Phir",
+  "*hatchery",
+  "aur",
+  "feed",
+  "ke",
+  "*quotation",
+  "lo.",
+  "Kam",
+  "se",
+  "kam",
+  "*3",
+  "*batch",
+  "ka",
+  "data",
+  "dekho.",
+  "Uske",
+  "baad",
+  "hi",
+  "*200",
+  "ya",
+  "*300",
+  "chicken",
+  "socho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "gaon",
+  "mein",
+  "*murgi",
+  "*farm",
+  "kholte",
+  "hain,",
+  "₹25,000",
+  "har",
+  "batch!\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo murgi farm kholna chahta hai",
+  "line2_at": "मुर्गी फार्म"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 poultry farm decoded"
+ },
+ "episode": 6
 }

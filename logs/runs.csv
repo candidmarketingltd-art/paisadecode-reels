@@ -51,3 +51,13 @@ run_at_ist,video_id,angle,status,note
 2026-10-30 19:58,BD2IoRlhECg,I2,in_buffer,6ae4a9979394ea34c11b3c45
 2026-10-31 15:54,k-bazkQ4sEE,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":{""type"":""not_found"",""code"":""voice_not_found"",""message"":""A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found."",""status"":""voice_not_found"",""request_id"":""e25feaaedf7205c6be681f09fdda0a6e""}}"
 2026-10-31 16:00,k-bazkQ4sEE,A,dry_run,/home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1330_k-bazkQ4sEE_A.mp4
+2026-10-31 16:10,WzuVYEBZoxo,A,in_buffer,6ae5c5b8a1145743499d149a
+2026-10-31 16:16,T7oW6D8R8YI,A,in_buffer,6ae5c709eaa24d6f9a6cb17a
+2026-10-31 16:21,WEcB_iegbFc,I1,in_buffer,6ae5c814b84259308bd02ac0
+2026-10-31 16:27,fdzsF7lYX5M,A,in_buffer,6ae5c9951891472093ca244c
+2026-10-31 16:32,cutJkJ4H7-U,I1,in_buffer,6ae5caae406ab8a018b35f38
+2026-10-31 16:36,3aYy4tj-L8w,I2,in_buffer,6ae5cbc9a1145743499eccfb
+2026-10-31 16:42,oPRqEZLjAsA,A,in_buffer,6ae5cd38eaa24d6f9a6ed0bb
+2026-10-31 16:47,9g6R5TOxKFk,A,in_buffer,6ae5ce4da1145743499f8e12
+2026-10-31 16:52,GQ_iId8G1_I,I1,in_buffer,6ae5cf6eceb491e585f26e36
+2026-10-31 16:57,jigoX_ENTaw,A,in_buffer,6ae5d0b2406ab8a018b51ae2

@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹50 की प्लेट... रोज़ 200 प्लेट... ₹3 लाख का रेवेन्यू।\n\n[intrigued, building energy] लगता है ₹1 लाख महीना पक्का। हर प्लेट पे ₹30 बचते हैं, यानी 60% मार्जिन। तो फिर मोमो वाले भैया अमीर क्यों नहीं हो जाते?\n\n[excited, fast] पहली चोट: ₹30 प्रॉफिट नहीं है। रेंट, हेल्पर, गैस... खर्चा ₹45,000। ऊपर से तुम्हारी अपनी सैलरी ₹25,000। यानी ₹70,000। रोज़ 78 प्लेट तो बस बिल भरने में गईं।\n\n[serious] दूसरी चोट: 7:30 पे कोचिंग छूटा, 18 कस्टमर एक साथ। स्टीमर में मोमो तैयार सिर्फ़ 36। [sighs] आधे लोग लाइन छोड़कर चले गए। डिमांड थी, पर थ्रूपुट नहीं था।\n\n[punchy] तीसरी: 1300 मोमोज़ बनाए, बारिश हो गई, बिकी सिर्फ़ 110 प्लेट। [amused] मोमो बचे, मेहनत गई।\n\n[mysterious, slower] अब ट्विस्ट। रेट वही ₹50 रखो, बस मेन्यू बदलो। ₹70 वाला फ्राइड, ₹90 वाला प्रीमियम, ₹30 की ड्रिंक। 100 कस्टमर का बिल हो गया ₹7,300। [emphatic] एवरेज ₹73। और ₹1 लाख के लिए 200 की जगह चाहिए सिर्फ़ 140 कस्टमर।\n\n[confident] इसलिए पहले 3 जगह टेस्ट करो। ₹50 हीरो प्रोडक्ट रखो। पहला टारगेट रोज़ 80 पेड ऑर्डर। और दूसरी स्टॉल तभी, जब पहली तुम्हारे बिना चले।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, मोमो स्टॉल खोलते हैं।\"",
- "ig_caption": "₹50 के मोमो से ₹1 लाख महीना? हाँ, पॉसिबल है 🥟 पर 200 कस्टमर की जगह 140 में कैसे, ये देखो।\n\nउस दोस्त को भेजो जो मोमो स्टॉल खोलना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are from an illustrative example model, not financial advice.",
+ "ig_caption": "₹50 ke momo se ₹1 lakh mahina? Haan, possible hai 🥟 Par 200 customer ki jagah 140 mein kaise, ye dekho.\n\nUs dost ko bhejo jo momo stall kholna chahta hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are from an illustrative example model, not financial advice.",
  "hashtags": [
   "#MomoStall",
   "#StreetFoodBusiness",
@@ -53,310 +53,678 @@
  ],
  "scenes": [
   {
+   "at": "₹50 की प्लेट...",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "MOMO STALL · ASLI HISAAB",
+     "at": "₹50 की प्लेट..."
+    },
+    {
+     "type": "stat_row",
+     "at": "₹50 की प्लेट...",
+     "cards": [
+      {
+       "label": "PRICE",
+       "value": "₹50",
+       "sub": "per plate",
+       "color": "gold",
+       "ill": "dumpling",
+       "at": "₹50 की प्लेट..."
+      },
+      {
+       "label": "ROZ",
+       "value": "200",
+       "sub": "plate",
+       "color": "blue",
+       "at": "रोज़ 200 प्लेट..."
+      },
+      {
+       "label": "REVENUE",
+       "value": "₹3L",
+       "sub": "har mahina",
+       "color": "gold",
+       "glow": true,
+       "at": "₹3 लाख का"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "लगता है ₹1",
-   "mood": "neutral",
-   "card": {
-    "type": "counter",
-    "label": "हर महीने",
-    "prefix": "₹",
-    "to": 100000,
-    "at": "₹1 लाख",
-    "done_text": "पक्का?",
-    "done_at": "पक्का"
-   }
-  },
-  {
-   "at": "हर प्लेट पे",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "elements": [
     {
-     "at": "मोमो वाले भैया",
-     "mood": "smirk",
-     "point": false
+     "type": "headline",
+     "text": "₹1L / MAHINA?",
+     "size": "l",
+     "color": "gold",
+     "at": "लगता है ₹1"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹30 बचते",
+     "cards": [
+      {
+       "label": "BACHAT / PLATE",
+       "value": "₹30",
+       "color": "green",
+       "at": "₹30 बचते"
+      },
+      {
+       "label": "MARGIN",
+       "value": "60%",
+       "sub": "kaagaz pe",
+       "color": "gold",
+       "at": "60% मार्जिन।"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "BHAIYA AMEER KYUN NAHI?",
+     "outline": true,
+     "at": "अमीर क्यों"
     }
    ],
-   "card": {
-    "type": "percent",
-    "value": 60,
-    "at": "60% मार्जिन",
-    "label": "मार्जिन · ₹30/प्लेट",
-    "label_at": "मार्जिन"
-   }
+   "react": [
+    {
+     "at": "अमीर क्यों",
+     "mood": "smirk"
+    }
+   ]
   },
   {
-   "at": "पहली चोट",
-   "mood": "serious",
+   "at": "पहली चोट:",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "₹45,000",
-     "mood": "shocked"
+     "type": "label",
+     "text": "CHOT #1 · ₹30 PROFIT NAHI",
+     "color": "red",
+     "at": "पहली चोट:"
+    },
+    {
+     "type": "ledger",
+     "title": "MAHINE KA KHARCHA",
+     "at": "पहली चोट:",
+     "rows": [
+      {
+       "text": "Rent",
+       "at": "रेंट,"
+      },
+      {
+       "text": "Helper",
+       "at": "हेल्पर,"
+      },
+      {
+       "text": "Gas",
+       "at": "गैस..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "खर्चा ₹45,000।",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "खर्चा ₹45,000।",
+     "cards": [
+      {
+       "label": "KHARCHA",
+       "value": "₹45K",
+       "sub": "rent·helper·gas",
+       "color": "red",
+       "at": "खर्चा ₹45,000।"
+      },
+      {
+       "label": "TUMHARI SALARY",
+       "value": "₹25K",
+       "color": "muted",
+       "at": "सैलरी ₹25,000।"
+      }
+     ]
+    },
+    {
+     "type": "stat_row",
+     "at": "यानी ₹70,000।",
+     "cards": [
+      {
+       "label": "TOTAL · HAR MAHINA",
+       "value": "₹70,000",
+       "color": "red",
+       "glow": true,
+       "at": "यानी ₹70,000।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "रोज़ 78",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "78",
+     "color": "red",
+     "ill": "receipt",
+     "at": "रोज़ 78",
+     "note": "PLATE · SIRF BILL BHARNE",
+     "note_at": "बिल भरने"
     }
    ],
-   "card": {
-    "type": "warning",
-    "title": "चोट #1 · असली खर्चा",
-    "sub": "₹30 प्रॉफिट नहीं",
-    "sub_at": "प्रॉफिट नहीं",
-    "chips": [
-     {
-      "text": "रेंट",
-      "at": "रेंट"
-     },
-     {
-      "text": "हेल्पर",
-      "at": "हेल्पर"
-     },
-     {
-      "text": "गैस",
-      "at": "गैस"
-     }
-    ],
-    "big": "−₹45,000",
-    "big_at": "₹45,000",
-    "big_color": "red"
-   }
-  },
-  {
-   "at": "ऊपर से तुम्हारी",
-   "mood": "serious",
-   "tint": "red",
-   "card": {
-    "type": "split",
-    "title": "महीने का बिल",
-    "title_at": "ऊपर से",
-    "left": {
-     "text": "खर्चा ₹45,000",
-     "at": "ऊपर से",
-     "color": "white"
-    },
-    "right": {
-     "text": "सैलरी ₹25,000",
-     "at": "₹25,000",
-     "color": "red"
-    },
-    "result": "= ₹70,000",
-    "result_at": "₹70,000"
-   }
-  },
-  {
-   "at": "रोज़ 78 प्लेट",
-   "mood": "shocked",
-   "tint": "red",
-   "card": {
-    "type": "big_number",
-    "label": "रोज़ सिर्फ़ बिल के लिए",
-    "value": "78 प्लेट",
-    "value_at": "78 प्लेट",
-    "note": "बस बिल भरने में गईं",
-    "note_at": "बिल भरने",
-    "color": "red"
-   }
-  },
-  {
-   "at": "दूसरी चोट",
-   "mood": "serious",
-   "beats": [
+   "react": [
     {
-     "at": "18 कस्टमर",
+     "at": "78 प्लेट",
      "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "दूसरी चोट:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #2 · RUSH HOUR",
+     "color": "red",
+     "at": "दूसरी चोट:"
     },
     {
+     "type": "stat_row",
+     "at": "7:30 पे",
+     "cards": [
+      {
+       "label": "COACHING CHHOOTA",
+       "value": "7:30",
+       "color": "blue",
+       "ill": "seven_thirty",
+       "at": "7:30 पे"
+      },
+      {
+       "label": "CUSTOMER",
+       "value": "18",
+       "sub": "ek saath",
+       "color": "gold",
+       "at": "18 कस्टमर"
+      },
+      {
+       "label": "READY MOMO",
+       "value": "36",
+       "sub": "steamer mein",
+       "color": "red",
+       "ill": "dumpling",
+       "at": "तैयार सिर्फ़ 36।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "आधे लोग",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 18,
+     "lost": 9,
      "at": "आधे लोग",
-     "mood": "serious"
+     "lost_at": "लाइन छोड़कर",
+     "total_text": "18",
+     "label": "AADHE LINE CHHOD GAYE"
+    },
+    {
+     "type": "stat_row",
+     "at": "डिमांड थी,",
+     "cards": [
+      {
+       "label": "DEMAND",
+       "value": "HIGH",
+       "color": "green",
+       "at": "डिमांड थी,"
+      },
+      {
+       "label": "THROUGHPUT",
+       "value": "LOW",
+       "color": "red",
+       "at": "थ्रूपुट नहीं"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "warning",
-    "title": "चोट #2 · भीड़",
-    "sub": "7:30, कोचिंग छूटा",
-    "sub_at": "कोचिंग",
-    "chips": [
-     {
-      "text": "18 कस्टमर",
-      "at": "18 कस्टमर",
-      "color": "white"
-     },
-     {
-      "text": "मोमो तैयार: 36",
-      "at": "सिर्फ़ 36",
-      "color": "red"
-     }
-    ],
-    "big": "आधे लोग चले गए",
-    "big_at": "आधे लोग",
-    "big_color": "red"
-   }
-  },
-  {
-   "at": "डिमांड थी",
-   "mood": "serious",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "title": "डिमांड थी ✓",
-    "at": "डिमांड थी",
-    "sub": "थ्रूपुट नहीं ✗",
-    "sub_at": "थ्रूपुट",
-    "color": "gold",
-    "sub_color": "red"
-   }
+   ]
   },
   {
    "at": "तीसरी: 1300",
-   "mood": "serious",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "बारिश",
-     "mood": "shocked"
+     "type": "label",
+     "text": "CHOT #3 · BAARISH",
+     "color": "red",
+     "at": "तीसरी: 1300"
     },
     {
-     "at": "मोमो बचे",
-     "mood": "smirk"
+     "type": "arrow_pair",
+     "at": "तीसरी: 1300",
+     "left": {
+      "label": "BANAYE",
+      "value": "1300",
+      "sub": "momos",
+      "color": "blue"
+     },
+     "right": {
+      "label": "BIKI",
+      "value": "110",
+      "sub": "plate",
+      "color": "red",
+      "at": "110 प्लेट।"
+     }
+    },
+    {
+     "type": "illustration",
+     "name": "cloud_with_rain",
+     "size": "m",
+     "at": "बारिश हो"
     }
    ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "चोट #3 · बारिश",
-    "from_text": "1300 मोमोज़ बनाए",
-    "from_at": "1300 मोमोज़",
-    "to_text": "बिकी 110 प्लेट",
-    "to_at": "110 प्लेट",
-    "result": "मोमो बचे, मेहनत गई",
-    "result_at": "मेहनत गई"
-   }
+   "react": [
+    {
+     "at": "मोमो बचे,",
+     "mood": "smirk"
+    }
+   ]
   },
   {
-   "at": "अब ट्विस्ट",
-   "mood": "smirk",
+   "at": "अब ट्विस्ट।",
    "tint": "cold",
-   "card": {
-    "type": "title_slam",
-    "title": "ट्विस्ट",
-    "at": "ट्विस्ट",
-    "color": "ice"
-   }
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TWIST · MENU BADLO",
+     "color": "blue",
+     "at": "अब ट्विस्ट।"
+    },
+    {
+     "type": "headline",
+     "text": "Rate wahi ₹50",
+     "size": "l",
+     "at": "₹50 रखो,",
+     "sub": "SIRF MENU BADLO",
+     "sub_at": "मेन्यू बदलो।",
+     "sub_color": "blue"
+    }
+   ]
   },
   {
-   "at": "रेट वही",
-   "mood": "neutral",
-   "point": true,
+   "at": "₹70 वाला",
    "tint": "cold",
-   "card": {
-    "type": "headline",
-    "title": "रेट वही ₹50",
-    "at": "रेट वही",
-    "sub": "बस मेन्यू बदलो",
-    "sub_at": "मेन्यू बदलो",
-    "color": "white",
-    "sub_color": "ice"
-   }
-  },
-  {
-   "at": "₹70 वाला फ्राइड",
-   "mood": "neutral",
-   "point": true,
-   "tint": "cold",
-   "card": {
-    "type": "strike_list",
-    "title": "नया मेन्यू",
-    "color": "ice",
-    "items": [
-     {
-      "text": "फ्राइड ₹70",
-      "at": "₹70 वाला",
-      "strike": false
-     },
-     {
-      "text": "प्रीमियम ₹90",
-      "at": "₹90 वाला",
-      "strike": false
-     },
-     {
-      "text": "ड्रिंक ₹30",
-      "at": "₹30 की",
-      "strike": false
-     }
-    ]
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "NAYA MENU",
+     "color": "blue",
+     "at": "₹70 वाला"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹70 वाला",
+     "cards": [
+      {
+       "label": "FRIED",
+       "value": "₹70",
+       "color": "gold",
+       "ill": "dumpling",
+       "at": "₹70 वाला"
+      },
+      {
+       "label": "PREMIUM",
+       "value": "₹90",
+       "color": "gold",
+       "ill": "sparkles",
+       "at": "₹90 वाला"
+      },
+      {
+       "label": "DRINK",
+       "value": "₹30",
+       "color": "blue",
+       "ill": "cup_with_straw",
+       "at": "₹30 की ड्रिंक।"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "100 कस्टमर का",
-   "mood": "neutral",
-   "tint": "green",
-   "beats": [
+   "tint": "cold",
+   "elements": [
     {
-     "at": "एवरेज ₹73",
-     "mood": "shocked"
+     "type": "stat_row",
+     "at": "100 कस्टमर का",
+     "cards": [
+      {
+       "label": "CUSTOMER",
+       "value": "100",
+       "color": "blue",
+       "at": "100 कस्टमर का"
+      },
+      {
+       "label": "TOTAL BILL",
+       "value": "₹7,300",
+       "color": "gold",
+       "at": "₹7,300।"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹73",
+     "color": "green",
+     "at": "एवरेज ₹73।",
+     "note": "AVERAGE BILL",
+     "note_at": "एवरेज ₹73।",
+     "note_color": "green"
     }
-   ],
-   "card": {
-    "type": "counter",
-    "label": "100 कस्टमर का बिल",
-    "prefix": "₹",
-    "to": 7300,
-    "at": "₹7,300",
-    "done_text": "एवरेज ₹73",
-    "done_at": "एवरेज ₹73"
-   }
+   ]
   },
   {
    "at": "और ₹1 लाख",
-   "mood": "smirk",
    "tint": "green",
-   "card": {
-    "type": "compare_arrow",
-    "title": "₹1 लाख के लिए",
-    "from_text": "200 कस्टमर",
-    "from_at": "200 की",
-    "to_text": "सिर्फ़ 140 कस्टमर",
-    "to_at": "140 कस्टमर",
-    "result": "बस मेन्यू से",
-    "result_at": "140 कस्टमर"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹1 LAKH KE LIYE CHAHIYE",
+     "color": "green",
+     "at": "और ₹1 लाख"
+    },
+    {
+     "type": "vs",
+     "at": "और ₹1 लाख",
+     "left": {
+      "label": "PEHLE",
+      "value": "200",
+      "sub": "customer"
+     },
+     "right": {
+      "label": "AB",
+      "value": "140",
+      "sub": "customer",
+      "color": "green",
+      "ill": "bullseye",
+      "at": "सिर्फ़ 140 कस्टमर।"
+     },
+     "strike_at": "सिर्फ़ 140 कस्टमर।"
+    },
+    {
+     "type": "pill",
+     "text": "₹1 LAKH · 140 CUSTOMER",
+     "color": "green",
+     "at": "140 कस्टमर।"
+    }
+   ],
+   "react": [
+    {
+     "at": "और ₹1 लाख",
+     "mood": "serious",
+     "point": true
+    }
+   ]
   },
   {
    "at": "इसलिए पहले",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "मेरा प्लान",
-    "items": [
-     {
-      "text": "3 जगह टेस्ट करो",
-      "at": "3 जगह"
-     },
-     {
-      "text": "₹50 हीरो प्रोडक्ट",
-      "at": "हीरो प्रोडक्ट"
-     },
-     {
-      "text": "रोज़ 80 पेड ऑर्डर",
-      "at": "80 पेड"
-     }
-    ],
-    "final": "दूसरी स्टॉल: बाद में",
-    "final_at": "तुम्हारे बिना"
-   }
-  },
-  {
-   "at": "ये रील",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो मोमो स्टॉल खोलेगा",
-    "line2_at": "यार"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "इसलिए पहले"
+    },
+    {
+     "type": "steps",
+     "at": "इसलिए पहले",
+     "dim_at": "दूसरी स्टॉल",
+     "items": [
+      {
+       "text": "3 jagah test karo",
+       "at": "इसलिए पहले",
+       "ill": "round_pushpin"
+      },
+      {
+       "text": "₹50 hero product",
+       "at": "₹50 हीरो",
+       "ill": "dumpling"
+      },
+      {
+       "text": "Roz 80 paid order",
+       "at": "पहला टारगेट",
+       "ill": "bullseye"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "STALL #2 · TUMHARE BINA",
+     "color": "green",
+     "at": "दूसरी स्टॉल"
+    }
+   ],
+   "react": [
+    {
+     "at": "इसलिए पहले",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "MOMO STALL",
+ "disclaimer": true,
+ "captions": [
+  "*₹50",
+  "ki",
+  "plate...",
+  "roz",
+  "*200",
+  "plate...",
+  "*₹3",
+  "*lakh",
+  "ka",
+  "revenue.",
+  "Lagta",
+  "hai",
+  "*₹1",
+  "*lakh",
+  "mahina",
+  "pakka.",
+  "Har",
+  "plate",
+  "pe",
+  "*₹30",
+  "bachte",
+  "hain,",
+  "yaani",
+  "*60%",
+  "*margin.",
+  "Toh",
+  "phir",
+  "momo",
+  "waale",
+  "bhaiya",
+  "*ameer",
+  "kyun",
+  "nahi",
+  "ho",
+  "jaate?",
+  "Pehli",
+  "*chot:",
+  "*₹30",
+  "profit",
+  "nahi",
+  "hai.",
+  "Rent,",
+  "helper,",
+  "gas...",
+  "kharcha",
+  "*₹45,000.",
+  "Upar",
+  "se",
+  "tumhari",
+  "apni",
+  "salary",
+  "*₹25,000.",
+  "Yaani",
+  "*₹70,000.",
+  "Roz",
+  "*78",
+  "plate",
+  "toh",
+  "bas",
+  "*bill",
+  "bharne",
+  "mein",
+  "gayi.",
+  "Doosri",
+  "*chot:",
+  "*7:30",
+  "pe",
+  "coaching",
+  "chhoota,",
+  "*18",
+  "customer",
+  "ek",
+  "saath.",
+  "Steamer",
+  "mein",
+  "momo",
+  "taiyaar",
+  "sirf",
+  "*36.",
+  "*Aadhe",
+  "log",
+  "line",
+  "chhodkar",
+  "chale",
+  "gaye.",
+  "*Demand",
+  "thi,",
+  "par",
+  "*throughput",
+  "nahi",
+  "tha.",
+  "Teesri:",
+  "*1300",
+  "momos",
+  "banaye,",
+  "*baarish",
+  "ho",
+  "gayi,",
+  "biki",
+  "sirf",
+  "*110",
+  "plate.",
+  "Momo",
+  "bache,",
+  "*mehnat",
+  "gayi.",
+  "Ab",
+  "*twist.",
+  "Rate",
+  "wahi",
+  "*₹50",
+  "rakho,",
+  "bas",
+  "*menu",
+  "badlo.",
+  "*₹70",
+  "wala",
+  "fried,",
+  "*₹90",
+  "wala",
+  "premium,",
+  "*₹30",
+  "ki",
+  "drink.",
+  "100",
+  "customer",
+  "ka",
+  "bill",
+  "ho",
+  "gaya",
+  "*₹7,300.",
+  "Average",
+  "*₹73.",
+  "Aur",
+  "₹1",
+  "lakh",
+  "ke",
+  "liye",
+  "200",
+  "ki",
+  "jagah",
+  "chahiye",
+  "sirf",
+  "*140",
+  "*customer.",
+  "Isliye",
+  "pehle",
+  "*3",
+  "*jagah",
+  "test",
+  "karo.",
+  "*₹50",
+  "*hero",
+  "product",
+  "rakho.",
+  "Pehla",
+  "target",
+  "roz",
+  "*80",
+  "paid",
+  "order.",
+  "Aur",
+  "doosri",
+  "*stall",
+  "tabhi,",
+  "jab",
+  "pehli",
+  "tumhare",
+  "*bina",
+  "chale.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*momo",
+  "stall",
+  "kholte",
+  "hain.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo momo stall kholna chahta hai",
+  "line2_at": "मोमो स्टॉल"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 momo stall decoded"
+ },
+ "episode": 3
 }

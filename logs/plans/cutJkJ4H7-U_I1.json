@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹800 का डिनर... 100 कमरों का होटल... और 20 आइटम की लिस्ट।\n\n[intrigued, building energy] होटल को 20 अलग हाउसकीपिंग आइटम चाहिए। तुम उनमें से 15 एक ही इनवॉइस में दे दो, तो तुम फ्लोर क्लीनर नहीं बेच रहे। तो फिर क्या बेच रहे हो?\n\n[excited, fast] ये है बिज़नेस नंबर 1: हाउसकीपिंग केमिकल और हाइजीन सप्लाई। फ्लोर क्लीनर, हैंडवाश, टिश्यू, डिसइंफेक्टेंट, किचन का डीग्रीसर। होटल, रेस्टोरेंट, हॉस्पिटल, सबको चाहिए। [punchy] ये चीज़ें इस्तेमाल होती हैं और खत्म हो जाती हैं। होटल ने जनवरी में फ्लोर क्लीनर खरीदा, तो फरवरी में फ्लोर साफ़ करना बंद नहीं करेगा। बोरिंग है, पर रिपीट है।\n\n[mysterious, slower] तुम बेच रहे हो... सिरदर्द की छुट्टी। [emphatic] परचेस मैनेजर को हर हफ्ते 8 वेंडर के पीछे नहीं भागना पड़ता।\n\n[serious] पर यहाँ पेच है। मार्जिन कम हो सकता है। होटल बोलता है, \"पेमेंट 30 दिन बाद।\" [sighs] और सप्लायर को माल पहले खरीदना पड़ता है। यानी असली बोझ इन्वेंटरी और कैश का है।\n\n[confident] इसलिए सवाल ये नहीं कि ₹2 लाख का ऑर्डर मिला। सवाल ये है कि उसमें मार्जिन कितना बचा और कैश कितने दिन बाद आया? सही पैक साइज, वही क्वालिटी, टाइम पर डिलीवरी। यही बिज़नेस है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, फ्लोर क्लीनर बेचूँगा।\"",
- "ig_caption": "₹800 के डिनर के पीछे छुपा बोरिंग बिज़नेस 🧴 जहाँ असली खेल मार्जिन और 30 दिन के इंतज़ार का है।\n\nउस दोस्त को भेजो जो फ्लोर क्लीनर बेचना चाहता है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nVideo में इस बिज़नेस की स्टार्टअप कॉस्ट नहीं बताई गई। ₹2 लाख का ऑर्डर एक उदाहरण है। Not financial advice.",
+ "ig_caption": "₹800 ke dinner ke peeche chhupa boring business 🧴 jahan asli khel margin aur 30 din ke intezaar ka hai.\n\nUs dost ko bhejo jo floor cleaner bechna chahta hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nVideo mein is business ki startup cost nahi batayi gayi. ₹2 lakh ka order ek udaharan hai. Not financial advice.",
  "hashtags": [
   "#BoringBusiness",
   "#HiddenBusiness",
@@ -36,287 +36,671 @@
  ],
  "scenes": [
   {
-   "at": "होटल को 20",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "at": "₹800 का डिनर...",
+   "tint": "warm",
+   "elements": [
     {
-     "at": "फ्लोर क्लीनर नहीं",
+     "type": "pill",
+     "text": "BORING BUSINESS · ASLI HISAAB",
+     "at": "₹800 का डिनर..."
+    },
+    {
+     "type": "stat_row",
+     "at": "₹800 का डिनर...",
+     "cards": [
+      {
+       "label": "DINNER",
+       "value": "₹800",
+       "sub": "ek plate",
+       "color": "gold",
+       "ill": "fork_and_knife_with_plate",
+       "at": "₹800 का डिनर..."
+      },
+      {
+       "label": "HOTEL",
+       "value": "100",
+       "sub": "kamre",
+       "color": "blue",
+       "ill": "hotel",
+       "at": "100 कमरों का"
+      },
+      {
+       "label": "LIST",
+       "value": "20",
+       "sub": "items",
+       "color": "blue",
+       "ill": "clipboard",
+       "at": "20 आइटम की"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "होटल को 20",
+   "react": [
+    {
+     "at": "क्या बेच रहे",
      "mood": "smirk"
     }
    ],
-   "card": {
-    "type": "split",
-    "title": "होटल की लिस्ट",
-    "title_at": "होटल को 20",
-    "left": {
-     "text": "20 आइटम चाहिए",
-     "at": "20 अलग",
-     "color": "white"
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "होटल को 20",
+     "cards": [
+      {
+       "label": "HOTEL KO CHAHIYE",
+       "value": "20",
+       "sub": "housekeeping items",
+       "color": "blue",
+       "at": "होटल को 20"
+      },
+      {
+       "label": "EK INVOICE MEIN",
+       "value": "15",
+       "sub": "tum de do",
+       "color": "gold",
+       "ill": "receipt",
+       "glow": true,
+       "at": "15 एक ही"
+      }
+     ]
     },
-    "right": {
-     "text": "15 एक इनवॉइस में",
-     "at": "15 एक",
-     "color": "gold"
+    {
+     "type": "strike_list",
+     "at": "फ्लोर क्लीनर नहीं",
+     "items": [
+      {
+       "text": "Floor cleaner bechna",
+       "at": "फ्लोर क्लीनर नहीं"
+      }
+     ]
     },
-    "result": "तो क्या बेच रहे हो?",
-    "result_at": "क्या बेच"
-   }
+    {
+     "type": "pill",
+     "text": "TOH KYA BECH RAHE HO?",
+     "color": "gold",
+     "at": "क्या बेच रहे"
+    }
+   ]
   },
   {
    "at": "ये है बिज़नेस",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "title": "बिज़नेस #1",
-    "at": "नंबर 1",
-    "sub": "हाउसकीपिंग + हाइजीन",
-    "sub_at": "हाउसकीपिंग केमिकल",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "BORING BUSINESS",
+     "color": "gold",
+     "at": "ये है बिज़नेस"
+    },
+    {
+     "type": "title_slam",
+     "text": "#1",
+     "sub": "HOUSEKEEPING SUPPLY",
+     "color": "gold",
+     "at": "नंबर 1:"
+    },
+    {
+     "type": "object3d",
+     "kind": "box",
+     "at": "हाउसकीपिंग केमिकल"
+    },
+    {
+     "type": "pill",
+     "text": "CHEMICAL + HYGIENE",
+     "at": "हाउसकीपिंग केमिकल"
+    }
+   ]
   },
   {
-   "at": "फ्लोर क्लीनर, हैंडवाश",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "strike_list",
-    "title": "क्या-क्या बिकता है?",
-    "color": "gold",
-    "items": [
-     {
-      "text": "फ्लोर क्लीनर",
-      "at": "फ्लोर क्लीनर, हैंडवाश",
-      "strike": false
-     },
-     {
-      "text": "हैंडवाश · टिश्यू",
-      "at": "टिश्यू",
-      "strike": false
-     },
-     {
-      "text": "डिसइंफेक्टेंट",
-      "at": "डिसइंफेक्टेंट",
-      "strike": false
-     },
-     {
-      "text": "किचन डीग्रीसर",
-      "at": "डीग्रीसर",
-      "strike": false
-     }
-    ]
-   }
+   "at": "फ्लोर क्लीनर, हैंडवाश,",
+   "elements": [
+    {
+     "type": "label",
+     "text": "EK INVOICE · SAB KUCH",
+     "at": "फ्लोर क्लीनर, हैंडवाश,"
+    },
+    {
+     "type": "strike_list",
+     "at": "फ्लोर क्लीनर, हैंडवाश,",
+     "items": [
+      {
+       "text": "Floor cleaner",
+       "strike": false,
+       "at": "फ्लोर क्लीनर, हैंडवाश,"
+      },
+      {
+       "text": "Handwash",
+       "strike": false,
+       "at": "हैंडवाश,"
+      },
+      {
+       "text": "Tissue",
+       "strike": false,
+       "at": "टिश्यू,"
+      },
+      {
+       "text": "Disinfectant + degreaser",
+       "strike": false,
+       "at": "डिसइंफेक्टेंट,"
+      }
+     ]
+    },
+    {
+     "type": "illustration",
+     "name": "sponge",
+     "size": "m",
+     "at": "किचन का डीग्रीसर।"
+    }
+   ]
   },
   {
-   "at": "होटल, रेस्टोरेंट, हॉस्पिटल",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "कस्टमर कौन?",
-    "items": [
-     {
-      "text": "होटल",
-      "at": "होटल, रेस्टोरेंट"
-     },
-     {
-      "text": "रेस्टोरेंट",
-      "at": "रेस्टोरेंट, हॉस्पिटल"
-     },
-     {
-      "text": "हॉस्पिटल",
-      "at": "हॉस्पिटल, सबको"
-     }
-    ],
-    "final": "सबको चाहिए!",
-    "final_at": "सबको चाहिए"
-   }
+   "at": "होटल, रेस्टोरेंट,",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "होटल, रेस्टोरेंट,",
+     "cards": [
+      {
+       "label": "HOTEL",
+       "value": "✓",
+       "color": "blue",
+       "ill": "hotel",
+       "at": "होटल, रेस्टोरेंट,"
+      },
+      {
+       "label": "RESTAURANT",
+       "value": "✓",
+       "color": "blue",
+       "ill": "cooking",
+       "at": "रेस्टोरेंट,"
+      },
+      {
+       "label": "HOSPITAL",
+       "value": "✓",
+       "color": "blue",
+       "ill": "hospital",
+       "at": "हॉस्पिटल,"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "SABKO CHAHIYE",
+     "color": "green",
+     "at": "सबको चाहिए।"
+    }
+   ]
   },
   {
    "at": "ये चीज़ें इस्तेमाल",
-   "mood": "serious",
-   "point": true,
-   "card": {
-    "type": "headline",
-    "title": "इस्तेमाल → खत्म",
-    "at": "इस्तेमाल होती",
-    "sub": "फिर से ऑर्डर",
-    "sub_at": "खत्म हो",
-    "color": "gold",
-    "sub_color": "green"
-   }
-  },
-  {
-   "at": "होटल ने जनवरी",
-   "mood": "neutral",
-   "beats": [
+   "elements": [
     {
-     "at": "बंद नहीं",
-     "mood": "smirk"
+     "type": "label",
+     "text": "USE → KHATAM → REPEAT",
+     "at": "ये चीज़ें इस्तेमाल"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "जनवरी में",
+     "left": {
+      "label": "KHAREEDA",
+      "value": "JAN",
+      "sub": "floor cleaner",
+      "color": "white"
+     },
+     "right": {
+      "label": "PHIR CHAHIYE",
+      "value": "FEB",
+      "sub": "safai band nahi",
+      "color": "gold",
+      "at": "फरवरी में"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "BORING, PAR REPEAT",
+     "color": "green",
+     "at": "पर रिपीट"
     }
-   ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "रिपीट ऑर्डर",
-    "from_text": "जनवरी",
-    "from_at": "जनवरी में",
-    "to_text": "फरवरी",
-    "to_at": "फरवरी में",
-    "result": "बोरिंग, पर रिपीट",
-    "result_at": "पर रिपीट"
-   }
+   ]
   },
   {
    "at": "तुम बेच रहे",
-   "mood": "smirk",
    "tint": "cold",
-   "card": {
-    "type": "title_slam",
-    "title": "सिरदर्द की छुट्टी",
-    "at": "सिरदर्द की",
-    "color": "ice"
-   }
-  },
-  {
-   "at": "परचेस मैनेजर को",
-   "mood": "neutral",
-   "point": true,
-   "tint": "cold",
-   "card": {
-    "type": "big_number",
-    "label": "हर हफ्ते पीछा",
-    "value": "8 वेंडर",
-    "value_at": "8 वेंडर",
-    "note": "अब भाग-दौड़ नहीं",
-    "note_at": "भागना पड़ता",
-    "color": "ice"
-   }
+   "react": [
+    {
+     "at": "सिरदर्द की",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "text": "ASLI PRODUCT",
+     "color": "blue",
+     "at": "तुम बेच रहे"
+    },
+    {
+     "type": "headline",
+     "text": "Sirdard ki chhutti",
+     "size": "l",
+     "color": "gold",
+     "at": "सिरदर्द की"
+    },
+    {
+     "type": "stat_row",
+     "at": "8 वेंडर",
+     "cards": [
+      {
+       "label": "PURCHASE MANAGER",
+       "value": "8",
+       "sub": "vendor har hafte",
+       "color": "red",
+       "ill": "running_shoe",
+       "at": "8 वेंडर"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "पर यहाँ पेच",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "warning",
-    "title": "पेच · मार्जिन",
-    "sub": "मार्जिन कम हो सकता है",
-    "sub_at": "मार्जिन कम",
-    "chips": [
-     {
-      "text": "कम मार्जिन",
-      "at": "हो सकता",
-      "color": "red"
-     }
-    ]
-   }
-  },
-  {
-   "at": "होटल बोलता है",
-   "mood": "shocked",
-   "tint": "red",
-   "card": {
-    "type": "big_number",
-    "label": "होटल: पेमेंट",
-    "value": "30 दिन",
-    "value_at": "30 दिन",
-    "note": "बाद में मिलेगा",
-    "note_at": "दिन बाद",
-    "color": "red"
-   }
+   "react": [
+    {
+     "at": "30 दिन",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "PECH YAHAN HAI",
+     "color": "red",
+     "at": "पर यहाँ पेच"
+    },
+    {
+     "type": "stat_row",
+     "at": "मार्जिन कम",
+     "cards": [
+      {
+       "label": "MARGIN",
+       "value": "KAM",
+       "sub": "ho sakta hai",
+       "color": "red",
+       "at": "मार्जिन कम"
+      },
+      {
+       "label": "PAYMENT",
+       "value": "30 DIN",
+       "sub": "baad mein",
+       "color": "red",
+       "ill": "spiral_calendar",
+       "at": "30 दिन"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "और सप्लायर को",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "split",
-    "title": "माल पहले खरीदो",
-    "title_at": "माल पहले",
-    "left": {
-     "text": "इन्वेंटरी",
-     "at": "इन्वेंटरी",
-     "color": "white"
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "और सप्लायर को",
+     "left": {
+      "label": "SUPPLIER KHAREEDE",
+      "value": "PEHLE",
+      "sub": "maal apne paise se",
+      "color": "white"
+     },
+     "right": {
+      "label": "PAISA AAYE",
+      "value": "30 DIN",
+      "sub": "baad",
+      "color": "red",
+      "at": "पहले खरीदना"
+     }
     },
-    "right": {
-     "text": "कैश फँसा",
-     "at": "कैश का",
-     "color": "red"
+    {
+     "type": "label",
+     "text": "ASLI BOJH",
+     "color": "red",
+     "at": "यानी असली बोझ"
     },
-    "result": "असली बोझ",
-    "result_at": "असली बोझ"
-   }
+    {
+     "type": "stat_row",
+     "at": "इन्वेंटरी और",
+     "cards": [
+      {
+       "label": "INVENTORY",
+       "value": "MAAL",
+       "sub": "godown mein",
+       "color": "gold",
+       "ill": "package",
+       "at": "इन्वेंटरी और"
+      },
+      {
+       "label": "CASH",
+       "value": "ATKA",
+       "sub": "hotel ke paas",
+       "color": "red",
+       "ill": "hourglass_not_done",
+       "at": "कैश का"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "इसलिए सवाल ये",
-   "mood": "neutral",
-   "point": true,
-   "tint": "green",
-   "card": {
-    "type": "strike_list",
-    "title": "असली सवाल",
-    "color": "green",
-    "items": [
-     {
-      "text": "₹2 लाख का ऑर्डर",
-      "at": "₹2 लाख",
-      "strike": true
+   "tint": "cold",
+   "react": [
+    {
+     "at": "सवाल ये है",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI SAWAAL",
+     "color": "blue",
+     "at": "इसलिए सवाल ये"
+    },
+    {
+     "type": "vs",
+     "at": "₹2 लाख",
+     "strike_at": "मार्जिन कितना",
+     "left": {
+      "label": "ORDER MILA",
+      "value": "₹2L",
+      "sub": "sirf size"
      },
-     {
-      "text": "मार्जिन कितना बचा?",
-      "at": "कितना बचा",
-      "strike": false
-     },
-     {
-      "text": "कैश कब आया?",
-      "at": "कितने दिन",
-      "strike": false
+     "right": {
+      "label": "KITNA BACHA",
+      "value": "MARGIN",
+      "sub": "asli hisaab",
+      "color": "gold",
+      "ill": "balance_scale",
+      "at": "मार्जिन कितना"
      }
-    ]
-   }
+    },
+    {
+     "type": "pill",
+     "text": "CASH KITNE DIN BAAD?",
+     "color": "gold",
+     "at": "कितने दिन बाद"
+    }
+   ]
   },
   {
-   "at": "सही पैक साइज",
-   "mood": "neutral",
-   "point": true,
+   "at": "सही पैक साइज,",
    "tint": "green",
-   "card": {
-    "type": "checklist",
-    "title": "जीतने का फ़ॉर्मूला",
-    "items": [
-     {
-      "text": "सही पैक साइज",
-      "at": "पैक साइज"
-     },
-     {
-      "text": "वही क्वालिटी",
-      "at": "वही क्वालिटी"
-     },
-     {
-      "text": "टाइम पर डिलीवरी",
-      "at": "टाइम पर"
-     }
-    ],
-    "final": "यही बिज़नेस है!",
-    "final_at": "यही बिज़नेस"
-   }
-  },
-  {
-   "at": "ये रील",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो क्लीनर बेचेगा",
-    "line2_at": "क्लीनर बेचूँगा"
-   }
+   "react": [
+    {
+     "at": "सही पैक",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "JEETNE KA FORMULA",
+     "color": "gold",
+     "at": "सही पैक साइज,"
+    },
+    {
+     "type": "steps",
+     "at": "सही पैक साइज,",
+     "dim_at": "यही बिज़नेस है।",
+     "items": [
+      {
+       "text": "Sahi pack size",
+       "ill": "package",
+       "at": "सही पैक साइज,"
+      },
+      {
+       "text": "Wahi quality",
+       "ill": "check_mark_button",
+       "at": "वही क्वालिटी,"
+      },
+      {
+       "text": "Time par delivery",
+       "ill": "delivery_truck",
+       "at": "टाइम पर डिलीवरी।"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "YAHI BUSINESS HAI",
+     "color": "green",
+     "at": "यही बिज़नेस है।"
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "HYGIENE SUPPLY",
+ "disclaimer": true,
+ "captions": [
+  "*₹800",
+  "ka",
+  "dinner...",
+  "*100",
+  "kamron",
+  "ka",
+  "hotel...",
+  "Aur",
+  "*20",
+  "item",
+  "ki",
+  "list.",
+  "Hotel",
+  "ko",
+  "*20",
+  "alag",
+  "housekeeping",
+  "item",
+  "chahiye.",
+  "Tum",
+  "unmein",
+  "se",
+  "*15",
+  "ek",
+  "hi",
+  "*invoice",
+  "mein",
+  "de",
+  "do,",
+  "toh",
+  "tum",
+  "floor",
+  "cleaner",
+  "nahi",
+  "bech",
+  "rahe.",
+  "Toh",
+  "phir",
+  "*kya",
+  "bech",
+  "rahe",
+  "ho?",
+  "Ye",
+  "hai",
+  "business",
+  "*number",
+  "*1:",
+  "*housekeeping",
+  "chemical",
+  "aur",
+  "*hygiene",
+  "supply.",
+  "Floor",
+  "cleaner,",
+  "handwash,",
+  "tissue,",
+  "disinfectant,",
+  "kitchen",
+  "ka",
+  "degreaser.",
+  "*Hotel,",
+  "*restaurant,",
+  "*hospital,",
+  "sabko",
+  "chahiye.",
+  "Ye",
+  "cheezein",
+  "istemaal",
+  "hoti",
+  "hain",
+  "aur",
+  "*khatam",
+  "ho",
+  "jaati",
+  "hain.",
+  "Hotel",
+  "ne",
+  "*January",
+  "mein",
+  "floor",
+  "cleaner",
+  "khareeda,",
+  "toh",
+  "*February",
+  "mein",
+  "floor",
+  "saaf",
+  "karna",
+  "band",
+  "nahi",
+  "karega.",
+  "*Boring",
+  "hai,",
+  "par",
+  "*repeat",
+  "hai.",
+  "Tum",
+  "bech",
+  "rahe",
+  "ho...",
+  "*sirdard",
+  "ki",
+  "*chhutti.",
+  "Purchase",
+  "manager",
+  "ko",
+  "har",
+  "hafte",
+  "*8",
+  "*vendor",
+  "ke",
+  "peeche",
+  "nahi",
+  "bhaagna",
+  "padta.",
+  "Par",
+  "yahan",
+  "*pech",
+  "hai.",
+  "*Margin",
+  "kam",
+  "ho",
+  "sakta",
+  "hai.",
+  "Hotel",
+  "bolta",
+  "hai,",
+  "\"Payment",
+  "*30",
+  "*din",
+  "baad.\"",
+  "Aur",
+  "supplier",
+  "ko",
+  "maal",
+  "*pehle",
+  "khareedna",
+  "padta",
+  "hai.",
+  "Yaani",
+  "asli",
+  "bojh",
+  "*inventory",
+  "aur",
+  "*cash",
+  "ka",
+  "hai.",
+  "Isliye",
+  "sawaal",
+  "ye",
+  "nahi",
+  "ki",
+  "*₹2",
+  "*lakh",
+  "ka",
+  "order",
+  "mila.",
+  "Sawaal",
+  "ye",
+  "hai",
+  "ki",
+  "usmein",
+  "*margin",
+  "kitna",
+  "bacha",
+  "aur",
+  "*cash",
+  "kitne",
+  "din",
+  "baad",
+  "aaya?",
+  "Sahi",
+  "*pack",
+  "size,",
+  "wahi",
+  "*quality,",
+  "time",
+  "par",
+  "*delivery.",
+  "Yahi",
+  "business",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*floor",
+  "*cleaner",
+  "bechunga.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo floor cleaner bechna chahta hai",
+  "line2_at": "फ्लोर क्लीनर बेचूँगा।\""
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 boring business decoded"
+ },
+ "episode": 7
 }

@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] सोमवार, बेडशीट गंदी। मंगलवार, फिर गंदी। बुधवार... फिर वही।\n\n[intrigued, building energy] होटल ये नहीं बोल सकता कि \"इस महीने लॉन्ड्री स्किप कर देते हैं।\" और यहीं से शुरू होता है एक ऐसा बिज़नेस, जो Instagram पर कभी नहीं दिखेगा... पर हर दिन बिल बनाता है।\n\n[excited, fast] ये नॉर्मल लॉन्ड्री नहीं है, भाई। ये है कमर्शियल लॉन्ड्री। होटल, हॉस्पिटल, हॉस्टल, बैंक्वेट हॉल। बेडशीट, टॉवल, यूनिफॉर्म। रोज़ सैकड़ों किलो।\n\n[punchy] अब कमाई का गणित देखो। सुबह ट्रक पिकअप करता है। प्लांट में वॉश, आयरन, फोल्ड। शाम को डिलीवरी। अगले दिन... फिर वही। [amused] एक्सट्रीमली बोरिंग। लेकिन कॉन्ट्रैक्ट मिल गया, तो रेवेन्यू भी रिपीट होकर आता है।\n\n[serious] पर ख़र्चे भी हैं। मशीनें महँगी। ऊपर से पानी, बिजली, केमिकल, लेबर, डिलीवरी। और एक हॉस्पिटल कॉन्ट्रैक्ट गया, तो कैपेसिटी का बड़ा हिस्सा अचानक खाली बैठ जाता है।\n\n[mysterious, slower] तो इसमें पैसा कहाँ है? [emphatic] मशीन ख़रीदने में नहीं। मशीन को लगातार बिज़ी रखने में।\n\n[confident] इसलिए ये बिज़नेस वॉशिंग मशीन का नहीं है। ये है कॉन्ट्रैक्ट, प्लस वॉल्यूम, प्लस रूट का बिज़नेस। पहले रिपीट कॉन्ट्रैक्ट, फिर मशीन।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, कैफे खोलते हैं, Instagram पर मस्त लगेगा।\"",
- "ig_caption": "वॉशिंग मशीन नहीं, कॉन्ट्रैक्ट + वॉल्यूम + रूट का बिज़नेस 🧺 बोरिंग है, पर रिपीट रेवेन्यू वाला।\n\nउस दोस्त को भेजो जो कैफे खोलने के सपने देख रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nEducational content, not financial advice.",
+ "ig_caption": "Washing machine nahi, contract + volume + route ka business 🧺 Boring hai, par repeat revenue wala.\n\nUs dost ko bhejo jo cafe kholne ke sapne dekh raha hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nEducational content, not financial advice.",
  "hashtags": [
   "#BoringBusiness",
   "#CommercialLaundry",
@@ -32,291 +32,695 @@
  ],
  "scenes": [
   {
+   "at": "सोमवार, बेडशीट",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "BORING BUSINESS · ASLI HISAAB",
+     "at": "सोमवार, बेडशीट"
+    },
+    {
+     "type": "stat_row",
+     "at": "सोमवार, बेडशीट",
+     "cards": [
+      {
+       "label": "SOMVAAR",
+       "value": "GANDI",
+       "sub": "bedsheet",
+       "color": "white",
+       "ill": "bed",
+       "at": "सोमवार, बेडशीट"
+      },
+      {
+       "label": "MANGALVAAR",
+       "value": "GANDI",
+       "sub": "phir se",
+       "color": "white",
+       "at": "मंगलवार, फिर"
+      },
+      {
+       "label": "BUDHVAAR",
+       "value": "WAHI",
+       "sub": "har din",
+       "color": "gold",
+       "at": "बुधवार... फिर"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "होटल ये नहीं",
-   "mood": "smirk",
-   "card": {
-    "type": "headline",
-    "title": "लॉन्ड्री स्किप?",
-    "at": "लॉन्ड्री स्किप",
-    "sub": "होटल: नामुमकिन",
-    "sub_at": "कर देते",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   "elements": [
+    {
+     "type": "headline",
+     "text": "HOTEL",
+     "size": "l",
+     "ill": "hotel",
+     "at": "होटल ये नहीं"
+    },
+    {
+     "type": "pill",
+     "text": "LAUNDRY SKIP? NAHI.",
+     "color": "red",
+     "at": "लॉन्ड्री स्किप"
+    }
+   ],
+   "react": [
+    {
+     "at": "लॉन्ड्री स्किप",
+     "mood": "smirk"
+    }
+   ]
   },
   {
    "at": "और यहीं से",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "split",
-    "icon": "coin",
-    "title": "एक बोरिंग बिज़नेस",
-    "title_at": "एक ऐसा बिज़नेस",
-    "left": {
-     "text": "Instagram: कभी नहीं",
-     "at": "Instagram पर कभी",
-     "color": "muted"
+   "elements": [
+    {
+     "type": "label",
+     "text": "EK BORING BUSINESS",
+     "color": "gold",
+     "at": "और यहीं से"
     },
-    "right": {
-     "text": "बिल: हर दिन",
-     "at": "हर दिन बिल",
-     "color": "green"
+    {
+     "type": "stat_row",
+     "at": "Instagram पर कभी",
+     "cards": [
+      {
+       "label": "INSTAGRAM PE",
+       "value": "NAHI",
+       "sub": "kabhi nahi dikhega",
+       "color": "muted",
+       "ill": "mobile_phone",
+       "at": "Instagram पर कभी"
+      },
+      {
+       "label": "BILL BANTA HAI",
+       "value": "ROZ",
+       "sub": "har din",
+       "color": "gold",
+       "ill": "receipt",
+       "at": "हर दिन बिल"
+      }
+     ]
     }
-   }
+   ]
   },
   {
    "at": "ये नॉर्मल लॉन्ड्री",
-   "mood": "smirk",
-   "beats": [
+   "tint": "cold",
+   "elements": [
     {
-     "at": "कमर्शियल लॉन्ड्री",
-     "mood": "neutral",
-     "point": true
-    }
-   ],
-   "card": {
-    "type": "title_slam",
-    "title": "कमर्शियल लॉन्ड्री",
-    "at": "कमर्शियल लॉन्ड्री",
-    "color": "gold"
-   }
-  },
-  {
-   "at": "होटल, हॉस्पिटल, हॉस्टल",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "strike_list",
-    "title": "कस्टमर कौन?",
-    "color": "gold",
-    "items": [
-     {
-      "text": "होटल",
-      "at": "होटल, हॉस्पिटल, हॉस्टल",
-      "strike": false
-     },
-     {
-      "text": "हॉस्पिटल",
-      "at": "हॉस्पिटल, हॉस्टल",
-      "strike": false
-     },
-     {
-      "text": "हॉस्टल",
-      "at": "हॉस्टल, बैंक्वेट",
-      "strike": false
-     },
-     {
-      "text": "बैंक्वेट हॉल",
-      "at": "बैंक्वेट हॉल",
-      "strike": false
-     }
-    ]
-   }
-  },
-  {
-   "at": "बेडशीट, टॉवल, यूनिफॉर्म",
-   "mood": "neutral",
-   "beats": [
+     "type": "strike_list",
+     "at": "ये नॉर्मल लॉन्ड्री",
+     "items": [
+      {
+       "text": "Normal laundry",
+       "at": "ये नॉर्मल लॉन्ड्री"
+      }
+     ]
+    },
     {
-     "at": "रोज़ सैकड़ों",
-     "mood": "shocked"
+     "type": "title_slam",
+     "text": "COMMERCIAL",
+     "sub": "LAUNDRY",
+     "color": "gold",
+     "at": "कमर्शियल लॉन्ड्री।"
     }
-   ],
-   "card": {
-    "type": "headline",
-    "title": "बेडशीट · टॉवल · वर्दी",
-    "at": "बेडशीट, टॉवल",
-    "sub": "रोज़ सैकड़ों किलो",
-    "sub_at": "रोज़ सैकड़ों",
-    "color": "white",
-    "sub_color": "gold"
-   }
+   ]
   },
   {
-   "at": "अब कमाई का",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "रोज़ का चक्कर",
-    "items": [
-     {
-      "text": "सुबह: ट्रक पिकअप",
-      "at": "सुबह ट्रक"
-     },
-     {
-      "text": "वॉश · आयरन · फोल्ड",
-      "at": "प्लांट में वॉश"
-     },
-     {
-      "text": "शाम: डिलीवरी",
-      "at": "शाम को डिलीवरी"
-     }
-    ],
-    "final": "अगले दिन... फिर वही",
-    "final_at": "अगले दिन"
-   }
+   "at": "होटल, हॉस्पिटल,",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CLIENTS",
+     "color": "gold",
+     "at": "होटल, हॉस्पिटल,"
+    },
+    {
+     "type": "strike_list",
+     "at": "होटल, हॉस्पिटल,",
+     "items": [
+      {
+       "text": "Hotel",
+       "at": "होटल, हॉस्पिटल,",
+       "strike": false
+      },
+      {
+       "text": "Hospital",
+       "at": "हॉस्पिटल, हॉस्टल,",
+       "strike": false
+      },
+      {
+       "text": "Hostel",
+       "at": "हॉस्टल, बैंक्वेट",
+       "strike": false
+      },
+      {
+       "text": "Banquet hall",
+       "at": "बैंक्वेट हॉल।",
+       "strike": false
+      }
+     ]
+    }
+   ]
   },
   {
-   "at": "एक्सट्रीमली बोरिंग",
-   "mood": "smirk",
-   "card": {
-    "type": "title_slam",
-    "title": "बोरिंग!",
-    "at": "एक्सट्रीमली बोरिंग",
-    "color": "muted"
-   }
+   "at": "बेडशीट, टॉवल,",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "बेडशीट, टॉवल,",
+     "cards": [
+      {
+       "label": "BEDSHEET",
+       "value": "SHEETS",
+       "color": "blue",
+       "ill": "bed",
+       "at": "बेडशीट, टॉवल,"
+      },
+      {
+       "label": "TOWEL",
+       "value": "TOWELS",
+       "color": "blue",
+       "ill": "bathtub",
+       "at": "टॉवल, यूनिफॉर्म।"
+      },
+      {
+       "label": "UNIFORM",
+       "value": "UNIFORM",
+       "color": "blue",
+       "ill": "lab_coat",
+       "at": "यूनिफॉर्म।"
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "text": "Roz saikdon kilo",
+     "color": "gold",
+     "ill": "basket",
+     "at": "सैकड़ों किलो।"
+    }
+   ]
   },
   {
-   "at": "लेकिन कॉन्ट्रैक्ट मिल",
-   "mood": "neutral",
-   "point": true,
+   "at": "अब कमाई",
+   "elements": [
+    {
+     "type": "label",
+     "text": "KAMAI KA GANIT",
+     "color": "gold",
+     "at": "अब कमाई"
+    },
+    {
+     "type": "steps",
+     "at": "सुबह ट्रक",
+     "items": [
+      {
+       "text": "Subah: truck pickup",
+       "at": "सुबह ट्रक",
+       "ill": "delivery_truck"
+      },
+      {
+       "text": "Plant: wash · iron · fold",
+       "at": "प्लांट में",
+       "ill": "bubbles"
+      },
+      {
+       "text": "Shaam: delivery",
+       "at": "शाम को",
+       "ill": "package"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "AGLE DIN... PHIR WAHI",
+     "color": "blue",
+     "outline": true,
+     "at": "अगले दिन..."
+    }
+   ]
+  },
+  {
+   "at": "एक्सट्रीमली बोरिंग।",
    "tint": "green",
-   "card": {
-    "type": "compare_arrow",
-    "title": "असली जादू",
-    "from_text": "कॉन्ट्रैक्ट मिला",
-    "from_at": "कॉन्ट्रैक्ट मिल गया",
-    "to_text": "रिपीट रेवेन्यू",
-    "to_at": "रिपीट होकर",
-    "result": "बिल बार-बार आता है",
-    "result_at": "आता है"
-   }
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "BORING",
+     "color": "muted",
+     "at": "एक्सट्रीमली बोरिंग।"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "कॉन्ट्रैक्ट मिल",
+     "left": {
+      "label": "CONTRACT",
+      "value": "MILA",
+      "sub": "ek baar",
+      "color": "gold"
+     },
+     "right": {
+      "label": "REVENUE",
+      "value": "REPEAT",
+      "sub": "har mahine",
+      "color": "green",
+      "at": "रिपीट होकर"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "REPEAT REVENUE",
+     "color": "green",
+     "at": "आता है।"
+    }
+   ],
+   "react": [
+    {
+     "at": "एक्सट्रीमली बोरिंग।",
+     "mood": "smirk"
+    }
+   ]
   },
   {
    "at": "पर ख़र्चे भी",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "strike_list",
-    "title": "ख़र्चे",
-    "color": "red",
-    "items": [
-     {
-      "text": "महँगी मशीनें",
-      "at": "मशीनें महँगी",
-      "strike": false
-     },
-     {
-      "text": "पानी · बिजली",
-      "at": "पानी, बिजली",
-      "strike": false
-     },
-     {
-      "text": "केमिकल · लेबर",
-      "at": "केमिकल, लेबर",
-      "strike": false
-     },
-     {
-      "text": "डिलीवरी",
-      "at": "लेबर, डिलीवरी",
-      "strike": false
-     }
-    ]
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "KHARCHE BHI HAIN",
+     "color": "red",
+     "at": "पर ख़र्चे भी"
+    },
+    {
+     "type": "stat_row",
+     "at": "मशीनें महँगी।",
+     "cards": [
+      {
+       "label": "MACHINES",
+       "value": "MEHNGI",
+       "color": "red",
+       "ill": "gear",
+       "at": "मशीनें महँगी।"
+      }
+     ]
+    },
+    {
+     "type": "ledger",
+     "title": "KHARCHA KHATA",
+     "at": "पानी,",
+     "rows": [
+      {
+       "text": "Paani",
+       "at": "पानी,"
+      },
+      {
+       "text": "Bijli",
+       "at": "बिजली,"
+      },
+      {
+       "text": "Chemical",
+       "at": "केमिकल,"
+      },
+      {
+       "text": "Labour + delivery",
+       "at": "लेबर, डिलीवरी।"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "और एक हॉस्पिटल",
-   "mood": "serious",
    "tint": "red",
-   "beats": [
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "और एक हॉस्पिटल",
+     "cards": [
+      {
+       "label": "HOSPITAL CONTRACT",
+       "value": "GAYA",
+       "color": "red",
+       "ill": "hospital",
+       "at": "और एक हॉस्पिटल"
+      }
+     ]
+    },
+    {
+     "type": "vs",
+     "at": "कैपेसिटी का",
+     "strike_at": "खाली बैठ",
+     "left": {
+      "label": "CAPACITY",
+      "value": "BUSY",
+      "sub": "pehle"
+     },
+     "right": {
+      "label": "CAPACITY",
+      "value": "KHAALI",
+      "sub": "achaanak",
+      "color": "red",
+      "ill": "warning",
+      "at": "खाली बैठ"
+     }
+    }
+   ],
+   "react": [
     {
      "at": "अचानक खाली",
      "mood": "shocked"
     }
-   ],
-   "card": {
-    "type": "warning",
-    "title": "ख़तरा · कॉन्ट्रैक्ट गया",
-    "sub": "हॉस्पिटल ने छोड़ा",
-    "sub_at": "हॉस्पिटल कॉन्ट्रैक्ट गया",
-    "chips": [
-     {
-      "text": "कैपेसिटी खाली",
-      "at": "कैपेसिटी का बड़ा",
-      "color": "red"
-     },
-     {
-      "text": "मशीनें बेकार",
-      "at": "खाली बैठ",
-      "color": "muted"
-     }
-    ]
-   }
+   ]
   },
   {
    "at": "तो इसमें पैसा",
-   "mood": "smirk",
    "tint": "cold",
-   "beats": [
+   "elements": [
     {
-     "at": "मशीन ख़रीदने में",
+     "type": "headline",
+     "text": "Paisa kahan hai?",
+     "ill": "magnifying_glass_tilted_left",
+     "at": "तो इसमें पैसा"
+    },
+    {
+     "type": "strike_list",
+     "at": "मशीन ख़रीदने",
+     "items": [
+      {
+       "text": "Machine kharidna",
+       "at": "मशीन ख़रीदने"
+      },
+      {
+       "text": "Machine ko busy rakhna",
+       "at": "लगातार बिज़ी",
+       "strike": false
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "लगातार बिज़ी",
      "mood": "serious",
      "point": true
     }
-   ],
-   "card": {
-    "type": "split",
-    "title": "पैसा कहाँ है?",
-    "title_at": "पैसा कहाँ",
-    "left": {
-     "text": "मशीन ख़रीदना ✗",
-     "at": "ख़रीदने में नहीं",
-     "color": "red"
+   ]
+  },
+  {
+   "at": "इसलिए ये",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI BUSINESS =",
+     "color": "gold",
+     "at": "इसलिए ये"
     },
-    "right": {
-     "text": "मशीन बिज़ी रखना ✓",
-     "at": "लगातार बिज़ी",
-     "color": "green"
+    {
+     "type": "strike_list",
+     "at": "वॉशिंग मशीन",
+     "items": [
+      {
+       "text": "Washing machine",
+       "at": "वॉशिंग मशीन"
+      }
+     ]
+    },
+    {
+     "type": "stat_row",
+     "at": "कॉन्ट्रैक्ट, प्लस",
+     "cards": [
+      {
+       "label": "CONTRACT",
+       "value": "DEAL",
+       "color": "gold",
+       "ill": "memo",
+       "at": "कॉन्ट्रैक्ट, प्लस"
+      },
+      {
+       "label": "VOLUME",
+       "value": "KILO",
+       "color": "gold",
+       "ill": "package",
+       "at": "वॉल्यूम, प्लस"
+      },
+      {
+       "label": "ROUTE",
+       "value": "TRUCK",
+       "color": "gold",
+       "ill": "delivery_truck",
+       "at": "रूट का"
+      }
+     ]
     }
-   }
+   ]
   },
   {
-   "at": "इसलिए ये बिज़नेस",
-   "mood": "neutral",
-   "point": true,
+   "at": "पहले रिपीट",
    "tint": "green",
-   "card": {
-    "type": "headline",
-    "title": "वॉशिंग मशीन नहीं",
-    "at": "वॉशिंग मशीन का",
-    "sub": "कॉन्ट्रैक्ट+वॉल्यूम+रूट",
-    "sub_at": "प्लस वॉल्यूम",
-    "color": "white",
-    "sub_color": "gold"
-   }
-  },
-  {
-   "at": "पहले रिपीट कॉन्ट्रैक्ट",
-   "mood": "serious",
-   "point": true,
-   "tint": "green",
-   "card": {
-    "type": "headline",
-    "title": "पहले कॉन्ट्रैक्ट",
-    "at": "पहले रिपीट कॉन्ट्रैक्ट",
-    "sub": "फिर मशीन",
-    "sub_at": "फिर मशीन",
-    "color": "gold",
-    "sub_color": "green"
-   }
-  },
-  {
-   "at": "ये रील उस",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो कैफे खोलना चाहता है",
-    "line2_at": "कैफे खोलते"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "पहले रिपीट"
+    },
+    {
+     "type": "steps",
+     "at": "पहले रिपीट",
+     "items": [
+      {
+       "text": "Pehle repeat contract",
+       "at": "पहले रिपीट",
+       "ill": "memo"
+      },
+      {
+       "text": "Phir machine",
+       "at": "फिर मशीन।",
+       "ill": "gear"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "CONTRACT FIRST",
+     "color": "green",
+     "at": "फिर मशीन।"
+    }
+   ],
+   "react": [
+    {
+     "at": "पहले रिपीट",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "COMMERCIAL LAUNDRY",
+ "disclaimer": false,
+ "captions": [
+  "*Somvaar,",
+  "*bedsheet",
+  "gandi.",
+  "Mangalvaar,",
+  "phir",
+  "gandi.",
+  "Budhvaar...",
+  "phir",
+  "wahi.",
+  "Hotel",
+  "ye",
+  "nahi",
+  "bol",
+  "sakta",
+  "ki",
+  "\"is",
+  "mahine",
+  "*laundry",
+  "*skip",
+  "kar",
+  "dete",
+  "hain.\"",
+  "Aur",
+  "yahin",
+  "se",
+  "shuru",
+  "hota",
+  "hai",
+  "ek",
+  "aisa",
+  "*business,",
+  "jo",
+  "*Instagram",
+  "par",
+  "kabhi",
+  "nahi",
+  "dikhega...",
+  "par",
+  "har",
+  "din",
+  "*bill",
+  "banata",
+  "hai.",
+  "Ye",
+  "normal",
+  "laundry",
+  "nahi",
+  "hai,",
+  "bhai.",
+  "Ye",
+  "hai",
+  "*commercial",
+  "*laundry.",
+  "Hotel,",
+  "hospital,",
+  "hostel,",
+  "banquet",
+  "hall.",
+  "Bedsheet,",
+  "towel,",
+  "uniform.",
+  "Roz",
+  "*saikdon",
+  "*kilo.",
+  "Ab",
+  "*kamaai",
+  "ka",
+  "*ganit",
+  "dekho.",
+  "Subah",
+  "*truck",
+  "pickup",
+  "karta",
+  "hai.",
+  "Plant",
+  "mein",
+  "wash,",
+  "iron,",
+  "fold.",
+  "Shaam",
+  "ko",
+  "*delivery.",
+  "Agle",
+  "din...",
+  "phir",
+  "wahi.",
+  "Extremely",
+  "*boring.",
+  "Lekin",
+  "*contract",
+  "mil",
+  "gaya,",
+  "toh",
+  "revenue",
+  "bhi",
+  "*repeat",
+  "hokar",
+  "aata",
+  "hai.",
+  "Par",
+  "*kharche",
+  "bhi",
+  "hain.",
+  "*Machinein",
+  "mehngi.",
+  "Upar",
+  "se",
+  "paani,",
+  "bijli,",
+  "chemical,",
+  "labour,",
+  "delivery.",
+  "Aur",
+  "ek",
+  "*hospital",
+  "*contract",
+  "gaya,",
+  "toh",
+  "capacity",
+  "ka",
+  "bada",
+  "hissa",
+  "achaanak",
+  "*khaali",
+  "baith",
+  "jaata",
+  "hai.",
+  "Toh",
+  "isme",
+  "*paisa",
+  "kahan",
+  "hai?",
+  "Machine",
+  "*kharidne",
+  "mein",
+  "nahi.",
+  "Machine",
+  "ko",
+  "*lagaataar",
+  "*busy",
+  "rakhne",
+  "mein.",
+  "Isliye",
+  "ye",
+  "business",
+  "*washing",
+  "*machine",
+  "ka",
+  "nahi",
+  "hai.",
+  "Ye",
+  "hai",
+  "*contract,",
+  "plus",
+  "*volume,",
+  "plus",
+  "*route",
+  "ka",
+  "business.",
+  "Pehle",
+  "*repeat",
+  "*contract,",
+  "phir",
+  "machine.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*cafe",
+  "kholte",
+  "hain,",
+  "Instagram",
+  "par",
+  "mast",
+  "lagega.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo cafe kholna chahta hai",
+  "line2_at": "कैफे खोलते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · laundry business decoded"
+ },
+ "episode": 8
 }
