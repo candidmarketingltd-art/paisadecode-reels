@@ -1,22 +1,19 @@
 slot 2 (money) -> row 34: k-bazkQ4sEE A | dry_run=True
-[1/4] script  k-bazkQ4sEE A: You Retire With ₹1 Crore. When Does the Money Run Out?
+[1/4] script  k-bazkQ4sEE A: reusing saved plan
 [2/4] voice
-      [eleven] with-timestamps eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"2fe611dee02909270bcb4881f9f7bd64
-      [eleven] with-timestamps eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"abcccc94a858f1603819b66e850b665b
-      [eleven] with-timestamps eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"bb9f640062bd5d56a5c52a7aba921c4a
-      [eleven] plain TTS eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"2b26c5b94d3bfb58207c8558f3b7df2b
-      [eleven] plain TTS eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"6a6dda05336ca9bc4aab3248cdab1bb2
-      [eleven] plain TTS eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"e25feaaedf7205c6be681f09fdda0a6e
-Traceback (most recent call last):
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 169, in main
-    mp4, caption = make_reel(row, wd)
-                   ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 98, in make_reel
-    words, model = voice.synthesize(plan["voiceover"], mp3)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 83, in synthesize
-    return _eleven(text, mp3_path)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 157, in _eleven
-    raise RuntimeError(f"ElevenLabs TTS failed: {last}")
-RuntimeError: ElevenLabs TTS failed: eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"e25feaaedf7205c6be681f09fdda0a6e"}}
+      voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Rohan (IcsYcP26eMwajlgx2SDe)
+      using voice Rohan (IcsYcP26eMwajlgx2SDe)
+      178 words, 80.9s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpax04efj5/video_only.mp4
+DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1330_k-bazkQ4sEE_A.mp4
+--- caption ---
+₹1 करोड़ का रिटायरमेंट फंड भी लगभग 79 की उम्र तक खत्म हो सकता है 😳 पहले 5 साल तो पता भी नहीं चलता।
+
+उस दोस्त को भेजो जो कहता है "बस ₹1 करोड़ हो जाएं, फिर रिटायर" 👇
+
+Follow @makemoneywithrohan for daily money math
+Full video: YouTube @PaisaDecodeHQ
+Numbers illustrative, not financial advice.
+
+#Retirement #RetirementPlanning #PaisaDecode #PersonalFinanceIndia #Inflation #MoneyMath #Hindi
