@@ -1,18 +1,22 @@
-slot 3 (ideas) -> row 35: BD2IoRlhECg I2 | dry_run=True
-[1/4] script  BD2IoRlhECg I2: reusing saved plan
+slot 2 (money) -> row 34: k-bazkQ4sEE A | dry_run=True
+[1/4] script  k-bazkQ4sEE A: You Retire With ₹1 Crore. When Does the Money Run Out?
 [2/4] voice
-      179 words, 72.1s, model eleven_v4
-[3/4] render
-      remotion: Reel /tmp/tmpw9k8p2u1/video_only.mp4
-DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1930_BD2IoRlhECg_I2.mp4
---- caption ---
-CCTV चल रहा है... पर रिकॉर्डिंग बंद है 📹 यही है सबसे ख़तरनाक सिचुएशन।
-
-कैमरा बेचना एक बार की कमाई है, AMC हर साल की।
-
-उस दोस्त को भेजो जिसने दुकान में CCTV लगवाया और कभी चेक नहीं किया 👇
-
-Follow @makemoneywithrohan for daily money math
-Full video: YouTube @PaisaDecodeHQ
-
-#CCTV #AMC #BoringBusiness #RecurringRevenue #BusinessIdeasHindi #PaisaDecode #SmallBusinessIndia
+      [eleven] with-timestamps eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"2fe611dee02909270bcb4881f9f7bd64
+      [eleven] with-timestamps eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"abcccc94a858f1603819b66e850b665b
+      [eleven] with-timestamps eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"bb9f640062bd5d56a5c52a7aba921c4a
+      [eleven] plain TTS eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"2b26c5b94d3bfb58207c8558f3b7df2b
+      [eleven] plain TTS eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"6a6dda05336ca9bc4aab3248cdab1bb2
+      [eleven] plain TTS eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"e25feaaedf7205c6be681f09fdda0a6e
+Traceback (most recent call last):
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 169, in main
+    mp4, caption = make_reel(row, wd)
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 98, in make_reel
+    words, model = voice.synthesize(plan["voiceover"], mp3)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 83, in synthesize
+    return _eleven(text, mp3_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 157, in _eleven
+    raise RuntimeError(f"ElevenLabs TTS failed: {last}")
+RuntimeError: ElevenLabs TTS failed: eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"e25feaaedf7205c6be681f09fdda0a6e"}}

@@ -49,3 +49,4 @@ run_at_ist,video_id,angle,status,note
 2026-10-30 19:34,BD2IoRlhECg,I2,dry_run,/home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1930_BD2IoRlhECg_I2.mp4
 2026-10-30 19:40,BD2IoRlhECg,I2,dry_run,/home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-10_1930_BD2IoRlhECg_I2.mp4
 2026-10-30 19:58,BD2IoRlhECg,I2,in_buffer,6ae4a9979394ea34c11b3c45
+2026-10-31 15:54,k-bazkQ4sEE,A,error,"ElevenLabs TTS failed: eleven_multilingual_v2: 404 {""detail"":{""type"":""not_found"",""code"":""voice_not_found"",""message"":""A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found."",""status"":""voice_not_found"",""request_id"":""e25feaaedf7205c6be681f09fdda0a6e""}}"
