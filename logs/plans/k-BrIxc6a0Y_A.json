@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹11,000... ₹6 लाख... और 2018 की एक पुरानी पेट्रोल गाड़ी।\n\n[intrigued, building energy] E20 की वजह से तुम्हारा साल का पेट्रोल बिल ₹7,000 से ₹11,000 बढ़ सकता है। और इसे बचाने के लिए लोग ₹6 लाख extra देने को तैयार हैं। ये मैथ किसने सिखाया?\n\n[excited, fast] देखो हिसाब। गाड़ी 15 kmpl देती थी। साल में 12,000 कि.मी., पेट्रोल ₹100 लीटर। मतलब 800 लीटर, ₹80,000। अब माइलेज 8% गिरी, तो 870 लीटर, ₹87,000। फ़र्क़ सिर्फ़ ₹7,000। [serious] 12% गिरी? तब भी बस ₹11,000।\n\n[punchy] अब दूसरी तरफ़। पुरानी गाड़ी ₹4 लाख में बेचो, नई के लिए जेब से ₹6 लाख extra। [amused] यानी 5 साल में ₹55,000 का पेट्रोल बचाने के लिए ₹6 लाख फूँक दिए।\n\n[mysterious, slower] असली खेल ये है। तुम्हारा प्रॉब्लम छोटा सा running cost का था। [emphatic] तुमने उसे ₹6 लाख का capital cost प्रॉब्लम बना दिया।\n\n[confident] तो क्या करें? पहला: फ्यूल कैप, ओनर मैनुअल या service center से अपनी गाड़ी की E20 compatibility चेक करो। दूसरा: अपनी असली kmpl नापो और extra खर्च ₹ में निकालो। तीसरा: अगली सर्विस पर फ्यूल सिस्टम inspect कराओ। ₹5,000 से ₹10,000 का upgrade बनाम ₹6 लाख का रिप्लेसमेंट।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोल रहा है, \"यार E20 आ गया, अब गाड़ी बेचनी पड़ेगी।\"",
- "ig_caption": "₹10,000 के साल के प्रॉब्लम के लिए ₹6 लाख का फ़ैसला? 🚗 E20 का असली मैथ देखो।\n\nउस दोस्त को भेजो जो पुरानी गाड़ी बेचने की सोच रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
+ "ig_caption": "₹10,000 ke saal ke problem ke liye ₹6 lakh ka faisla? 🚗 E20 ka asli math dekho.\n\nUs dost ko bhejo jo purani gaadi bechne ki soch raha hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative, not financial advice.",
  "hashtags": [
   "#E20Petrol",
   "#CarMath",
@@ -48,237 +48,585 @@
  ],
  "scenes": [
   {
-   "at": "E20 की वजह",
-   "mood": "neutral",
-   "beats": [
+   "at": "₹11,000...",
+   "tint": "warm",
+   "elements": [
     {
-     "at": "बढ़ सकता",
-     "mood": "shocked"
+     "type": "pill",
+     "text": "E20 · ASLI HISAAB",
+     "at": "₹11,000..."
+    },
+    {
+     "type": "stat_row",
+     "at": "₹11,000...",
+     "cards": [
+      {
+       "label": "EXTRA PETROL",
+       "value": "₹11K",
+       "sub": "har saal",
+       "color": "gold",
+       "ill": "fuel_pump",
+       "at": "₹11,000..."
+      },
+      {
+       "label": "NAYI GAADI",
+       "value": "₹6L",
+       "sub": "extra",
+       "color": "red",
+       "at": "₹6 लाख..."
+      },
+      {
+       "label": "PURANI GAADI",
+       "value": "2018",
+       "sub": "petrol",
+       "color": "blue",
+       "ill": "automobile",
+       "at": "और 2018"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "big_number",
-    "label": "E20: साल का extra बिल",
-    "value": "₹7,000–₹11,000",
-    "value_at": "₹7,000 से",
-    "note": "पेट्रोल बिल बढ़ा",
-    "note_at": "बढ़ सकता",
-    "color": "gold"
-   }
+   ]
+  },
+  {
+   "at": "E20 की वजह",
+   "elements": [
+    {
+     "type": "label",
+     "text": "E20 KA ASAR · PETROL BILL",
+     "at": "E20 की वजह"
+    },
+    {
+     "type": "illustration",
+     "name": "fuel_pump",
+     "size": "m",
+     "at": "E20 की वजह"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹7,000 से",
+     "cards": [
+      {
+       "label": "SAAL KA EXTRA · KAM",
+       "value": "₹7,000",
+       "color": "gold",
+       "at": "₹7,000 से"
+      },
+      {
+       "label": "SAAL KA EXTRA · ZYADA",
+       "value": "₹11,000",
+       "color": "red",
+       "at": "₹11,000 बढ़"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "और इसे बचाने",
-   "mood": "shocked",
-   "beats": [
+   "elements": [
     {
-     "at": "ये मैथ",
+     "type": "label",
+     "text": "ISE BACHANE KE LIYE",
+     "at": "और इसे बचाने"
+    },
+    {
+     "type": "big_number",
+     "value": "₹6 LAKH",
+     "color": "red",
+     "ill": "automobile",
+     "at": "₹6 लाख extra",
+     "note": "YE MATH KISNE SIKHAYA?",
+     "note_at": "ये मैथ"
+    }
+   ],
+   "react": [
+    {
+     "at": "किसने सिखाया?",
      "mood": "smirk"
     }
-   ],
-   "card": {
-    "type": "headline",
-    "title": "₹6 लाख extra?",
-    "at": "₹6 लाख extra",
-    "sub": "ये मैथ किसने सिखाया?",
-    "sub_at": "ये मैथ",
-    "color": "gold",
-    "sub_color": "white"
-   }
+   ]
   },
   {
-   "at": "देखो हिसाब",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "पुराना हिसाब",
-    "items": [
-     {
-      "text": "15 kmpl",
-      "at": "15 kmpl"
-     },
-     {
-      "text": "12,000 कि.मी./साल",
-      "at": "12,000 कि.मी."
-     },
-     {
-      "text": "पेट्रोल ₹100/लीटर",
-      "at": "₹100 लीटर"
-     }
-    ],
-    "final": "800 लीटर = ₹80,000",
-    "final_at": "₹80,000"
-   }
-  },
-  {
-   "at": "अब माइलेज 8%",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "at": "देखो हिसाब।",
+   "elements": [
     {
-     "at": "फ़र्क़ सिर्फ़",
-     "mood": "smirk",
-     "point": false
-    }
-   ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "माइलेज 8% गिरी",
-    "from_text": "870 लीटर",
-    "from_at": "870 लीटर",
-    "to_text": "₹87,000",
-    "to_at": "₹87,000",
-    "result": "फ़र्क़ सिर्फ़ ₹7,000",
-    "result_at": "फ़र्क़ सिर्फ़"
-   }
-  },
-  {
-   "at": "12% गिरी",
-   "mood": "serious",
-   "card": {
-    "type": "big_number",
-    "label": "माइलेज 12% गिरी?",
-    "value": "₹11,000",
-    "value_at": "बस ₹11,000",
-    "note": "तब भी बस इतना",
-    "note_at": "तब भी",
-    "color": "gold"
-   }
-  },
-  {
-   "at": "अब दूसरी तरफ़",
-   "mood": "serious",
-   "tint": "red",
-   "card": {
-    "type": "split",
-    "title": "दूसरी तरफ़",
-    "title_at": "दूसरी तरफ़",
-    "left": {
-     "text": "पुरानी: ₹4 लाख",
-     "at": "₹4 लाख",
-     "color": "white"
+     "type": "label",
+     "text": "PEHLE KA HISAAB",
+     "color": "gold",
+     "at": "देखो हिसाब।"
     },
-    "right": {
-     "text": "जेब से +₹6 लाख",
-     "at": "जेब से",
-     "color": "red"
+    {
+     "type": "stat_row",
+     "at": "गाड़ी 15",
+     "cards": [
+      {
+       "label": "MILEAGE",
+       "value": "15",
+       "sub": "kmpl",
+       "color": "blue",
+       "at": "गाड़ी 15"
+      },
+      {
+       "label": "SAAL MEIN",
+       "value": "12,000",
+       "sub": "km",
+       "color": "blue",
+       "at": "12,000 कि.मी.,"
+      },
+      {
+       "label": "PETROL",
+       "value": "₹100",
+       "sub": "per litre",
+       "color": "gold",
+       "ill": "fuel_pump",
+       "at": "₹100 लीटर।"
+      }
+     ]
     }
-   }
+   ]
   },
   {
-   "at": "यानी 5 साल",
-   "mood": "smirk",
-   "tint": "red",
-   "beats": [
+   "at": "मतलब 800",
+   "elements": [
     {
-     "at": "फूँक दिए",
+     "type": "arrow_pair",
+     "at": "मतलब 800",
+     "left": {
+      "label": "800 LITRE",
+      "value": "₹80,000",
+      "sub": "pehle"
+     },
+     "right": {
+      "label": "870 LITRE",
+      "value": "₹87,000",
+      "sub": "mileage −8%",
+      "color": "red",
+      "at": "870 लीटर,"
+     }
+    },
+    {
+     "type": "big_number",
+     "value": "₹7,000",
+     "color": "gold",
+     "at": "सिर्फ़ ₹7,000।",
+     "note": "SAAL KA FARQ",
+     "note_at": "सिर्फ़ ₹7,000।"
+    }
+   ]
+  },
+  {
+   "at": "12% गिरी?",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Mileage −12%",
+     "size": "m",
+     "color": "red",
+     "at": "12% गिरी?"
+    },
+    {
+     "type": "big_number",
+     "value": "₹11,000",
+     "color": "gold",
+     "at": "बस ₹11,000।",
+     "note": "MAX · PER SAAL",
+     "note_at": "बस ₹11,000।"
+    }
+   ]
+  },
+  {
+   "at": "अब दूसरी",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "DOOSRI TARAF · NAYI GAADI",
+     "color": "red",
+     "at": "अब दूसरी"
+    },
+    {
+     "type": "stat_row",
+     "at": "₹4 लाख में",
+     "cards": [
+      {
+       "label": "PURANI BECHO",
+       "value": "₹4L",
+       "sub": "2018 model",
+       "color": "blue",
+       "ill": "automobile",
+       "at": "₹4 लाख में"
+      },
+      {
+       "label": "JEB SE EXTRA",
+       "value": "₹6L",
+       "sub": "nayi ke liye",
+       "color": "red",
+       "ill": "credit_card",
+       "at": "₹6 लाख extra।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "यानी 5",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "5 SAAL KA HISAAB",
+     "at": "यानी 5"
+    },
+    {
+     "type": "vs",
+     "at": "₹55,000 का",
+     "left": {
+      "label": "PETROL BACHAT",
+      "value": "₹55,000",
+      "sub": "5 saal mein"
+     },
+     "right": {
+      "label": "FOONK DIYE",
+      "value": "₹6L",
+      "sub": "nayi gaadi",
+      "color": "red",
+      "ill": "fire",
+      "at": "₹6 लाख फूँक"
+     }
+    }
+   ],
+   "react": [
+    {
+     "at": "फूँक दिए।",
      "mood": "shocked"
     }
-   ],
-   "card": {
-    "type": "split",
-    "title": "5 साल का हिसाब",
-    "title_at": "यानी 5 साल",
-    "left": {
-     "text": "बचत ₹55,000",
-     "at": "₹55,000",
-     "color": "green"
-    },
-    "right": {
-     "text": "फूँके ₹6 लाख",
-     "at": "फूँक दिए",
-     "color": "red"
-    }
-   }
+   ]
   },
   {
    "at": "असली खेल",
-   "mood": "smirk",
    "tint": "cold",
-   "card": {
-    "type": "title_slam",
-    "title": "असली खेल",
-    "at": "असली खेल",
-    "color": "ice"
-   }
-  },
-  {
-   "at": "तुम्हारा प्रॉब्लम",
-   "mood": "serious",
-   "point": true,
-   "tint": "cold",
-   "card": {
-    "type": "compare_arrow",
-    "title": "प्रॉब्लम बदल गया",
-    "from_text": "छोटा running cost",
-    "from_at": "running cost",
-    "to_text": "₹6 लाख capital cost",
-    "to_at": "capital cost",
-    "result": "खुद बना दिया!",
-    "result_at": "बना दिया"
-   }
-  },
-  {
-   "at": "तो क्या",
-   "mood": "neutral",
-   "point": true,
-   "tint": "green",
-   "card": {
-    "type": "checklist",
-    "title": "3 काम करो",
-    "items": [
-     {
-      "text": "E20 compatibility चेक",
-      "at": "फ्यूल कैप"
+   "elements": [
+    {
+     "type": "pill",
+     "text": "ASLI KHEL",
+     "color": "blue",
+     "at": "असली खेल"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "running cost",
+     "left": {
+      "label": "RUNNING COST",
+      "value": "₹11K",
+      "sub": "chhota problem",
+      "color": "blue"
      },
-     {
-      "text": "असली kmpl नापो",
-      "at": "असली kmpl"
-     },
-     {
-      "text": "फ्यूल सिस्टम inspect",
-      "at": "फ्यूल सिस्टम"
+     "right": {
+      "label": "CAPITAL COST",
+      "value": "₹6L",
+      "sub": "bada problem",
+      "color": "red",
+      "at": "capital cost"
      }
-    ],
-    "final": "फिर फ़ैसला करो",
-    "final_at": "inspect कराओ"
-   }
+    }
+   ],
+   "react": [
+    {
+     "at": "तुमने उसे",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "तो क्या करें?",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "तो क्या करें?"
+    },
+    {
+     "type": "steps",
+     "at": "पहला: फ्यूल",
+     "dim_at": "तीसरा: अगली",
+     "items": [
+      {
+       "text": "E20 compatibility check",
+       "at": "पहला: फ्यूल",
+       "ill": "fuel_pump"
+      },
+      {
+       "text": "Asli kmpl naapo, ₹ nikalo",
+       "at": "दूसरा: अपनी",
+       "ill": "abacus"
+      },
+      {
+       "text": "Fuel system inspect karao",
+       "at": "तीसरा: अगली",
+       "ill": "wrench"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "तो क्या करें?",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   },
   {
    "at": "₹5,000 से",
-   "mood": "smirk",
    "tint": "green",
-   "card": {
-    "type": "split",
-    "title": "बनाम",
-    "title_at": "₹5,000 से",
-    "left": {
-     "text": "upgrade ₹5,000–10,000",
-     "at": "₹10,000 का",
-     "color": "green"
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "₹5,000 से",
+     "cards": [
+      {
+       "label": "UPGRADE",
+       "value": "₹5–10K",
+       "sub": "fuel system",
+       "color": "green",
+       "ill": "hammer_and_wrench",
+       "at": "₹5,000 से"
+      },
+      {
+       "label": "REPLACEMENT",
+       "value": "₹6L",
+       "sub": "nayi gaadi",
+       "color": "red",
+       "at": "बनाम ₹6"
+      }
+     ]
     },
-    "right": {
-     "text": "रिप्लेसमेंट ₹6 लाख",
-     "at": "रिप्लेसमेंट",
-     "color": "red"
+    {
+     "type": "pill",
+     "text": "PEHLE CHECK, PHIR FAISLA",
+     "color": "green",
+     "at": "रिप्लेसमेंट।"
     }
-   }
-  },
-  {
-   "at": "ये रील",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "जो गाड़ी बेचने चला है",
-    "line2_at": "यार E20"
-   }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "E20 PETROL",
+ "disclaimer": true,
+ "captions": [
+  "*₹11,000...",
+  "*₹6",
+  "*lakh...",
+  "Aur",
+  "*2018",
+  "ki",
+  "ek",
+  "purani",
+  "petrol",
+  "*gaadi.",
+  "*E20",
+  "ki",
+  "wajah",
+  "se",
+  "tumhara",
+  "saal",
+  "ka",
+  "petrol",
+  "bill",
+  "*₹7,000",
+  "se",
+  "*₹11,000",
+  "badh",
+  "sakta",
+  "hai.",
+  "Aur",
+  "ise",
+  "bachane",
+  "ke",
+  "liye",
+  "log",
+  "*₹6",
+  "*lakh",
+  "extra",
+  "dene",
+  "ko",
+  "taiyaar",
+  "hain.",
+  "Ye",
+  "*math",
+  "kisne",
+  "sikhaya?",
+  "Dekho",
+  "*hisaab.",
+  "Gaadi",
+  "*15",
+  "*kmpl",
+  "deti",
+  "thi.",
+  "Saal",
+  "mein",
+  "*12,000",
+  "km,",
+  "petrol",
+  "*₹100",
+  "litre.",
+  "Matlab",
+  "*800",
+  "litre,",
+  "*₹80,000.",
+  "Ab",
+  "mileage",
+  "*8%",
+  "giri,",
+  "toh",
+  "870",
+  "litre,",
+  "*₹87,000.",
+  "Farq",
+  "sirf",
+  "*₹7,000.",
+  "*12%",
+  "giri?",
+  "Tab",
+  "bhi",
+  "bas",
+  "*₹11,000.",
+  "Ab",
+  "doosri",
+  "taraf.",
+  "Purani",
+  "gaadi",
+  "*₹4",
+  "*lakh",
+  "mein",
+  "becho,",
+  "nayi",
+  "ke",
+  "liye",
+  "jeb",
+  "se",
+  "*₹6",
+  "*lakh",
+  "extra.",
+  "Yaani",
+  "5",
+  "saal",
+  "mein",
+  "*₹55,000",
+  "ka",
+  "petrol",
+  "bachane",
+  "ke",
+  "liye",
+  "*₹6",
+  "*lakh",
+  "phoonk",
+  "diye.",
+  "Asli",
+  "*khel",
+  "ye",
+  "hai.",
+  "Tumhara",
+  "problem",
+  "chhota",
+  "sa",
+  "*running",
+  "*cost",
+  "ka",
+  "tha.",
+  "Tumne",
+  "use",
+  "₹6",
+  "lakh",
+  "ka",
+  "*capital",
+  "*cost",
+  "problem",
+  "bana",
+  "diya.",
+  "Toh",
+  "kya",
+  "karein?",
+  "Pehla:",
+  "*fuel",
+  "*cap,",
+  "owner",
+  "manual",
+  "ya",
+  "service",
+  "center",
+  "se",
+  "apni",
+  "gaadi",
+  "ki",
+  "E20",
+  "*compatibility",
+  "check",
+  "karo.",
+  "Doosra:",
+  "apni",
+  "asli",
+  "*kmpl",
+  "naapo",
+  "aur",
+  "extra",
+  "kharch",
+  "*₹",
+  "mein",
+  "nikalo.",
+  "Teesra:",
+  "agli",
+  "service",
+  "par",
+  "*fuel",
+  "*system",
+  "inspect",
+  "karao.",
+  "*₹5,000",
+  "se",
+  "*₹10,000",
+  "ka",
+  "upgrade",
+  "banaam",
+  "*₹6",
+  "*lakh",
+  "ka",
+  "replacement.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bol",
+  "raha",
+  "hai,",
+  "\"Yaar",
+  "*E20",
+  "aa",
+  "gaya,",
+  "ab",
+  "gaadi",
+  "*bechni",
+  "padegi.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo E20 se gaadi bechne chala",
+  "line2_at": "\"यार E20"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · ₹6 lakh bach gaye"
+ },
+ "episode": 13
 }
