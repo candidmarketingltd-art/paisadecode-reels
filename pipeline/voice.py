@@ -93,20 +93,27 @@ class QuotaError(RuntimeError):
 _RESOLVED = {}
 
 
-def _voice_id():
-    """The Rohan voice: use ELEVENLABS_VOICE_ID if this key can see it, else look it up by name ("Rohan")."""
-    if "id" in _RESOLVED: return _RESOLVED["id"]
+def _voice_id(force_lookup=False):
+    """The Rohan voice: ELEVENLABS_VOICE_ID if this key can use it, else the voice named "Rohan" in the key's account."""
+    if "id" in _RESOLVED and not force_lookup: return _RESOLVED["id"]
     r = requests.get(f"{API}/voices/{VOICE}", headers=_hdr(), timeout=60)
-    if r.status_code != 404:  # found it, or the key just isn't allowed to read voices -> use the configured id
+    if r.status_code == 200 and not force_lookup:
         _RESOLVED["id"] = VOICE; return VOICE
     want = (os.environ.get("ELEVENLABS_VOICE_NAME") or "Rohan").lower()
     lst = requests.get(f"{API}/voices", headers=_hdr(), timeout=60)
-    lst.raise_for_status()
+    if lst.status_code != 200:
+        print(f"      [eleven] can't list voices ({lst.status_code}: {lst.text[:160]})", flush=True)
+        if r.status_code == 404 or force_lookup:
+            raise RuntimeError("ElevenLabs: the configured voice id isn't in this account and the key can't list voices — "
+                               "give the key 'Voices: Read' access or set ELEVENLABS_VOICE_ID to the new Rohan voice id")
+        _RESOLVED["id"] = VOICE; return VOICE
     voices = lst.json().get("voices", [])
     print("      voices this ElevenLabs key can use: " + ", ".join(f"{v['name']} ({v['voice_id']})" for v in voices[:40]), flush=True)
     mine = [v for v in voices if v["name"].lower().startswith(want) and v.get("category") in ("cloned", "professional", "generated")]
     match = mine or [v for v in voices if v["name"].lower().startswith(want)]
     if not match:
+        if r.status_code != 404 and not force_lookup:
+            _RESOLVED["id"] = VOICE; return VOICE
         raise RuntimeError(f"ElevenLabs: voice '{want}' not found for this API key — create the key in the workspace that has the Rohan voice")
     _RESOLVED["id"] = match[0]["voice_id"]
     print(f"      using voice {match[0]['name']} ({match[0]['voice_id']})", flush=True)
@@ -131,6 +138,12 @@ def _eleven(text, mp3_path):
     for model in MODELS:
         r = requests.post(f"{API}/text-to-speech/{vid}/with-timestamps", params={"output_format": "mp3_44100_128"},
                           headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
+        if r.status_code == 404 and "voice_not_found" in r.text and not _RESOLVED.get("relooked"):
+            _RESOLVED["relooked"] = True  # configured id belongs to another account -> find "Rohan" in this one, retry
+            print(f"      [eleven] voice {vid} not in this account; looking up the Rohan voice by name", flush=True)
+            vid = _voice_id(force_lookup=True)
+            r = requests.post(f"{API}/text-to-speech/{vid}/with-timestamps", params={"output_format": "mp3_44100_128"},
+                              headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
         if r.status_code >= 400:
             last = f"{model}: {r.status_code} {r.text[:300]}"
             print(f"      [eleven] with-timestamps {model}: {r.status_code} {r.text[:200]}", flush=True)
