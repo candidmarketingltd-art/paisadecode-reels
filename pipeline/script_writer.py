@@ -181,11 +181,25 @@ def edit_v2(script, transcript, title):
     user = (f"VIDEO TOPIC: {title}\n\nVOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\n"
             f"SPOKEN WORDS ({len(spoken)}) — write exactly one caption token for each, in this order:\n"
             + "\n".join(f"{i + 1}. {w}" for i, w in enumerate(spoken))
-            + "\n\nReturn only the JSON with `tag`, `disclaimer`, `captions`, `scenes`, `cta`, `endcard`.")
+            + f"\n\nINSTAGRAM CAPTION (rewrite it in Roman Hinglish as `ig_caption` — same lines, emojis, share line, follow/YouTube lines; "
+              "Hindi written in English letters like \"CCTV chal raha hai... par recording band hai\"; no Devanagari):\n" + (script.get("ig_caption") or "")
+            + "\n\nReturn only the JSON with `tag`, `disclaimer`, `captions`, `scenes`, `cta`, `endcard`, `ig_caption`.")
 
     def check(d):
         _check_v2(d, script["voiceover"])
+        if re.search(r"[\u0900-\u097F]", d.get("ig_caption") or "x"):
+            raise ValueError("`ig_caption` must be Roman Hinglish (English letters) with no Devanagari")
         fact_check({"voiceover": script["voiceover"], "scenes": d["scenes"], "cold_open": [d["cta"]]}, transcript, title, derived=True)
     edit = _ask_json(EDIT_MODEL, sysp, user, check, attempts=4)
     return {**script, "style": "v2", **{k: edit.get(k) for k in ("tag", "disclaimer", "captions", "scenes", "cta", "endcard")},
+            "ig_caption": edit.get("ig_caption") or script.get("ig_caption"),
             "models": {"script": SCRIPT_MODEL, "edit": EDIT_MODEL}}
+
+
+def roman_caption(caption):
+    """Rewrite an Instagram caption from Devanagari Hindi into Roman Hinglish (cheap Sonnet call)."""
+    sysp = ("Rewrite this Instagram caption so every Hindi word is written in English letters the way Indians type Hinglish "
+            "(e.g. 'CCTV chal raha hai... par recording band hai'). Keep English words, numbers, ₹, emojis, line breaks, "
+            "@handles and the share line exactly. Return only the caption text.")
+    out = _chat(SCRIPT_MODEL, sysp, [{"role": "user", "content": caption}], max_tokens=2000).strip()
+    return caption if (not out or re.search(r"[\u0900-\u097F]", out)) else out

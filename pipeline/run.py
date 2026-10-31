@@ -5,7 +5,7 @@ python -m pipeline.run --dry-run       # everything except posting to Instagram
 python -m pipeline.run --row 12        # force a specific calendar row (0-based)
 python -m pipeline.run --slot 3        # force a slot's category
 """
-import csv, datetime as dt, json, os, sys, tempfile, traceback
+import csv, datetime as dt, json, os, re, sys, tempfile, traceback
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -45,6 +45,8 @@ def current_slot(now):
 
 def pick(rows, slot):
     open_rows = [(i, r) for i, r in enumerate(rows) if r["status"] in ("queued", "rendered")]
+    pri = [x for x in open_rows if x[1].get("priority")]
+    if pri: open_rows = pri  # remakes / priority rows go first, whatever the slot
     key = lambda x: (0 if x[1].get("priority") else 1, x[1]["date"], x[1]["time_ist"])
     same = sorted([x for x in open_rows if x[1]["category"] == SLOT_CAT[slot]], key=key)
     return (same or sorted(open_rows, key=key) or [(None, None)])[0]
@@ -91,6 +93,8 @@ def make_reel(row, workdir):
         plan = script_writer.write(tr["text"], tr.get("title") or row["title"], angle, row["angle_brief"], previous_hooks(vid, angle))
     if plan.get("style") == "v2" and not plan.get("episode"):
         plan["episode"] = next_episode()
+    if re.search(r"[\u0900-\u097F]", plan.get("ig_caption") or ""):  # captions are Roman Hinglish now
+        plan["ig_caption"] = script_writer.roman_caption(plan["ig_caption"])
     PLANS.mkdir(parents=True, exist_ok=True)
     plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     print("[2/4] voice", flush=True)
@@ -100,7 +104,7 @@ def make_reel(row, workdir):
     print(f"      {len(words)} words, {dur:.1f}s, model {model}", flush=True)
     print("[3/4] render", flush=True)
     OUT.mkdir(exist_ok=True)
-    final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}.mp4")
+    final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}{'_hisaab' if plan.get('style') == 'v2' else ''}.mp4")
     if plan.get("style") == "v2":
         remo.render(plan, words, dur, mp3, final, workdir, episode=plan.get("episode"))
         return final, caption_of(plan, row)
