@@ -13,7 +13,7 @@ Hooks are click-bait in the honest sense: a curiosity gap, a shocking real numbe
 - Short punchy sentences. No "hey guys", no channel intro, no "like and subscribe".
 - Write numbers with digits and ₹ (₹6 लाख, ₹15,000, 87%) so captions show them clearly.
 
-## Structure (60–75 seconds spoken; HARD LIMIT 150–190 spoken words — longer scripts are rejected)
+## Structure (60–75 seconds spoken; HARD LIMIT 135–170 spoken words — longer scripts are rejected)
 1. **Cold open (0–5s)**: 2–3 ultra-short dramatic fragments, each a stated fact from the video. Start the voiceover with `[slow, deep, dramatic]`.
 2. **Hook (5–12s)**: the curiosity gap with a real number. Tag e.g. `[intrigued, building energy]`.
 3. **Body**: 3 fast beats with numbers (problems, hidden costs, the math). Use tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`, `[sighs]`.
