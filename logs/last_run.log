@@ -3,15 +3,15 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 23}
+      [buffer] post statuses seen: {'scheduled': 9, 'sent': 24}
 Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 2 (money) row 19: k-BrIxc6a0Y A
-[1/4] script  k-BrIxc6a0Y A: reusing saved plan
+--- reel 1/1: slot 3 (ideas) row 20: _CFtyRX8Mb0 I1
+[1/4] script  _CFtyRX8Mb0 I1: reusing saved plan
       re-editing the saved script for the HISAAB style
 [2/4] voice
       voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Rohan (IcsYcP26eMwajlgx2SDe)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      195 words, 86.1s, model eleven_v4
+      230 words, 89.9s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmp6qvp0a17/video_only.mp4
+      remotion: Reel /tmp/tmphwi2gu8e/video_only.mp4
 added 1 reel(s) to Buffer
