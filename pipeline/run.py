@@ -106,7 +106,13 @@ def make_reel(row, workdir):
     OUT.mkdir(exist_ok=True)
     final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}{'_hisaab' if plan.get('style') == 'v2' else ''}.mp4")
     if plan.get("style") == "v2":
-        remo.render(plan, words, dur, mp3, final, workdir, episode=plan.get("episode"))
+        props = remo.render(plan, words, dur, mp3, final, workdir, episode=plan.get("episode"))
+        try:  # keep the exact timeline (scene starts, element times, word timings) for retention analysis later
+            tdir = ROOT / "logs" / "timings"; tdir.mkdir(parents=True, exist_ok=True)
+            keep = {k: props[k] for k in ("duration", "scenes", "reacts", "cta", "endcard", "words", "badge")}
+            (tdir / f"{vid}_{angle}.json").write_text(json.dumps(keep, ensure_ascii=False), encoding="utf-8")
+        except Exception as e:
+            print("      (could not save timings:", e, ")", flush=True)
         return final, caption_of(plan, row)
     vid_only = f"{workdir}/video_only.mp4"
     cues = engine.render(plan, words, dur, vid_only)
