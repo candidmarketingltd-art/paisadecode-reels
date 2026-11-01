@@ -1,6 +1,6 @@
 {
  "voiceover": "[slow, deep, dramatic] ₹50 लाख का लोन... ₹43,391 की EMI... और 240 बार वही ग्रीन टिक।\n\n[intrigued, building energy] बैंक से लिए ₹50 लाख। लेकिन बैंक को कुल जाएंगे करीब ₹1.04 करोड़। डबल! ये हुआ कैसे?\n\n[excited, fast] 8.5% रेट, 20 साल। EMI ₹43,391 देखकर लगता है, \"डील रीज़नेबल है।\" पर 240 महीने जोड़ो, तो सिर्फ़ इंटरेस्ट ही करीब ₹54 लाख। [serious] और असली झटका पहली EMI में है। ₹43,391 गए, पर लोन कम हुआ सिर्फ़ ₹7,974। बाकी सब इंटरेस्ट खा गया।\n\n[punchy] अब 5 साल बाद की सोचो। एक भी EMI मिस नहीं की। करीब ₹26 लाख भर दिए। [amused] अब बिना कैलकुलेटर गेस करो, कितना बचा? 30 लाख? 32 लाख? [sighs] बचा है करीब ₹44 लाख।\n\n[mysterious, slower] प्रॉब्लम EMI नहीं है। प्रॉब्लम इंटरेस्ट भी नहीं है। [emphatic] प्रॉब्लम ये है कि हम 20 साल की डील को एक महीने के नंबर से जज करते हैं।\n\n[confident] तो अगली बार EMI के साथ तीन नंबर और देखो: टोटल इंटरेस्ट, 5 साल बाद बचा लोन, और टेन्योर। 15 साल करने पर EMI ₹49,237 होती है, पर इंटरेस्ट करीब ₹15.5 लाख कम। बस इतना लो जितनी EMI आराम से भर सको।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो अभी-अभी फ्लैट देखकर आया है और बोल रहा है, \"EMI तो सिर्फ़ ₹43,000 है यार।\"",
- "ig_caption": "₹50 लाख का लोन, और बैंक को जाएंगे करीब ₹1.04 करोड़ 🏠 EMI सिर्फ़ पहला नंबर है, पूरी डील कुछ और है।\n\nउस दोस्त को भेजो जो घर लेने की सोच रहा है 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nसाधारण उदाहरण: 8.5% रेट constant माना है। असली लोन में रेट बदल सकता है। Not financial advice.",
+ "ig_caption": "₹50 lakh ka loan, aur bank ko jaayenge kareeb ₹1.04 crore 🏠 EMI sirf pehla number hai, poori deal kuch aur hai.\n\nUs dost ko bhejo jo ghar lene ki soch raha hai 👇\n\nFollow @makemoneywithrohan for daily money math\nFull video: YouTube @PaisaDecodeHQ\nSimple example: 8.5% rate constant maana hai. Asli loan mein rate badal sakta hai. Not financial advice.",
  "hashtags": [
   "#HomeLoan",
   "#EMI",
@@ -42,289 +42,621 @@
  ],
  "scenes": [
   {
-   "at": "बैंक से लिए",
-   "mood": "neutral",
-   "beats": [
+   "at": "₹50 लाख का",
+   "tint": "warm",
+   "elements": [
     {
-     "at": "₹1.04 करोड़",
-     "mood": "shocked"
+     "type": "pill",
+     "text": "HOME LOAN · ASLI HISAAB",
+     "at": "₹50 लाख का"
     },
     {
-     "at": "ये हुआ कैसे",
-     "mood": "smirk"
+     "type": "stat_row",
+     "at": "₹50 लाख का",
+     "cards": [
+      {
+       "label": "LOAN",
+       "value": "₹50L",
+       "sub": "bank se",
+       "color": "gold",
+       "ill": "house",
+       "at": "₹50 लाख का"
+      },
+      {
+       "label": "EMI",
+       "value": "₹43,391",
+       "sub": "har mahine",
+       "color": "white",
+       "at": "₹43,391 की"
+      },
+      {
+       "label": "PAYMENTS",
+       "value": "240",
+       "sub": "green tick",
+       "color": "green",
+       "ill": "check_mark_button",
+       "at": "और 240 बार"
+      }
+     ]
     }
-   ],
-   "card": {
-    "type": "split",
-    "title": "होम लोन",
-    "title_at": "बैंक से लिए",
-    "left": {
-     "text": "लिए ₹50 लाख",
-     "at": "लिए ₹50 लाख",
-     "color": "white"
-    },
-    "right": {
-     "text": "जाएंगे ₹1.04 करोड़",
-     "at": "₹1.04 करोड़",
-     "color": "red"
-    },
-    "result": "डबल!",
-    "result_at": "डबल"
-   }
+   ]
   },
   {
-   "at": "8.5% रेट",
-   "mood": "neutral",
-   "point": true,
-   "beats": [
+   "at": "बैंक से लिए",
+   "tint": "red",
+   "elements": [
     {
-     "at": "डील रीज़नेबल",
-     "mood": "smirk",
-     "point": false
+     "type": "arrow_pair",
+     "at": "बैंक से लिए",
+     "left": {
+      "label": "LIYE",
+      "value": "₹50L",
+      "sub": "bank se",
+      "color": "white"
+     },
+     "right": {
+      "label": "WAPAS DENA",
+      "value": "₹1.04Cr",
+      "sub": "kareeb",
+      "color": "red",
+      "at": "₹1.04 करोड़।"
+     }
+    },
+    {
+     "type": "title_slam",
+     "text": "2X",
+     "sub": "DOUBLE",
+     "color": "red",
+     "at": "डबल!"
     }
    ],
-   "card": {
-    "type": "big_number",
-    "label": "8.5% · 20 साल",
-    "value": "₹43,391",
-    "value_at": "EMI ₹43,391",
-    "note": "\"डील रीज़नेबल है\"",
-    "note_at": "डील रीज़नेबल",
-    "color": "gold"
-   }
+   "react": [
+    {
+     "at": "डबल!",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "8.5% रेट,",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "8.5% रेट,",
+     "cards": [
+      {
+       "label": "RATE",
+       "value": "8.5%",
+       "color": "blue",
+       "at": "8.5% रेट,"
+      },
+      {
+       "label": "TENURE",
+       "value": "20 SAAL",
+       "color": "blue",
+       "ill": "calendar",
+       "at": "20 साल।"
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "text": "₹43,391",
+     "size": "l",
+     "color": "gold",
+     "at": "EMI ₹43,391 देखकर"
+    },
+    {
+     "type": "pill",
+     "text": "DEAL REASONABLE?",
+     "outline": true,
+     "at": "\"डील रीज़नेबल"
+    }
+   ]
   },
   {
    "at": "पर 240 महीने",
-   "mood": "serious",
    "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "₹54 लाख",
-     "mood": "shocked"
+     "type": "label",
+     "text": "240 MAHINE KA TOTAL",
+     "at": "पर 240 महीने"
+    },
+    {
+     "type": "split_bar",
+     "at": "पर 240 महीने",
+     "parts": [
+      {
+       "label": "PRINCIPAL",
+       "value": 50,
+       "text": "₹50L",
+       "color": "blue",
+       "at": "पर 240 महीने"
+      },
+      {
+       "label": "INTEREST",
+       "value": 54,
+       "text": "₹54L",
+       "color": "red",
+       "at": "₹54 लाख।"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹54L",
+     "color": "red",
+     "at": "₹54 लाख।",
+     "note": "SIRF INTEREST",
+     "note_at": "₹54 लाख।"
     }
-   ],
-   "card": {
-    "type": "counter",
-    "label": "240 महीने का इंटरेस्ट",
-    "prefix": "₹",
-    "to": 5400000,
-    "at": "240 महीने जोड़ो",
-    "done_text": "सिर्फ़ इंटरेस्ट!",
-    "done_at": "₹54 लाख"
-   }
+   ]
   },
   {
    "at": "और असली झटका",
-   "mood": "serious",
    "tint": "red",
-   "card": {
-    "type": "title_slam",
-    "title": "पहली EMI",
-    "at": "पहली EMI",
-    "color": "red"
-   }
-  },
-  {
-   "at": "₹43,391 गए",
-   "mood": "serious",
-   "tint": "red",
-   "beats": [
+   "elements": [
     {
-     "at": "₹7,974",
-     "mood": "shocked"
+     "type": "label",
+     "text": "PEHLI EMI · ANDAR KYA HAI",
+     "color": "red",
+     "at": "और असली झटका"
     },
     {
-     "at": "बाकी सब",
-     "mood": "serious"
+     "type": "headline",
+     "text": "₹43,391",
+     "size": "l",
+     "at": "₹43,391 गए,"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹7,974।",
+     "parts": [
+      {
+       "label": "LOAN KAM",
+       "value": 7974,
+       "text": "₹7,974",
+       "color": "green",
+       "at": "₹7,974।"
+      },
+      {
+       "label": "INTEREST",
+       "value": 35417,
+       "text": "BAAKI SAB",
+       "color": "red",
+       "at": "इंटरेस्ट खा"
+      }
+     ]
     }
    ],
-   "card": {
-    "type": "split",
-    "title": "पहली EMI का हिसाब",
-    "title_at": "₹43,391 गए",
-    "left": {
-     "text": "EMI ₹43,391",
-     "at": "₹43,391 गए",
-     "color": "white"
-    },
-    "right": {
-     "text": "लोन कम ₹7,974",
-     "at": "₹7,974",
-     "color": "red"
-    },
-    "result": "बाकी सब इंटरेस्ट",
-    "result_at": "इंटरेस्ट खा गया"
-   }
+   "react": [
+    {
+     "at": "₹7,974।",
+     "mood": "shocked"
+    }
+   ]
   },
   {
    "at": "अब 5 साल",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "counter",
-    "label": "5 साल, 0 EMI मिस",
-    "prefix": "₹",
-    "to": 2600000,
-    "at": "एक भी EMI",
-    "done_text": "₹26 लाख भर दिए",
-    "done_at": "भर दिए"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "5 SAAL BAAD",
+     "color": "gold",
+     "at": "अब 5 साल"
+    },
+    {
+     "type": "stat_row",
+     "at": "मिस नहीं",
+     "cards": [
+      {
+       "label": "EMI MISS",
+       "value": "0",
+       "sub": "ek bhi nahi",
+       "color": "green",
+       "ill": "check_mark_button",
+       "at": "मिस नहीं"
+      },
+      {
+       "label": "BHAR DIYE",
+       "value": "₹26L",
+       "sub": "kareeb",
+       "color": "gold",
+       "ill": "coin",
+       "at": "₹26 लाख"
+      }
+     ]
+    }
+   ]
   },
   {
    "at": "अब बिना कैलकुलेटर",
-   "mood": "smirk",
-   "card": {
-    "type": "strike_list",
-    "title": "कितना बचा?",
-    "color": "gold",
-    "items": [
-     {
-      "text": "30 लाख?",
-      "at": "30 लाख",
-      "strike": true
-     },
-     {
-      "text": "32 लाख?",
-      "at": "32 लाख",
-      "strike": true
-     }
-    ]
-   }
-  },
-  {
-   "at": "बचा है करीब",
-   "mood": "serious",
-   "tint": "red",
-   "beats": [
+   "tint": "cold",
+   "elements": [
     {
-     "at": "₹44 लाख",
-     "mood": "shocked"
+     "type": "headline",
+     "text": "KITNA BACHA?",
+     "at": "अब बिना कैलकुलेटर"
+    },
+    {
+     "type": "strike_list",
+     "at": "30 लाख?",
+     "items": [
+      {
+       "text": "₹30 LAKH?",
+       "at": "30 लाख?"
+      },
+      {
+       "text": "₹32 LAKH?",
+       "at": "32 लाख?"
+      }
+     ]
+    },
+    {
+     "type": "big_number",
+     "value": "₹44L",
+     "color": "red",
+     "at": "₹44 लाख।",
+     "note": "₹50L MEIN SE BAAKI",
+     "note_at": "₹44 लाख।"
     }
    ],
-   "card": {
-    "type": "big_number",
-    "label": "5 साल बाद बचा लोन",
-    "value": "₹44 लाख",
-    "value_at": "₹44 लाख",
-    "note": "₹26 लाख भरने के बाद",
-    "note_at": "₹44 लाख",
-    "color": "red"
-   }
+   "react": [
+    {
+     "at": "अब बिना कैलकुलेटर",
+     "mood": "smirk"
+    }
+   ]
   },
   {
    "at": "प्रॉब्लम EMI नहीं",
-   "mood": "neutral",
    "tint": "cold",
-   "card": {
-    "type": "strike_list",
-    "title": "असली प्रॉब्लम?",
-    "color": "ice",
-    "items": [
-     {
-      "text": "EMI",
-      "at": "EMI नहीं",
-      "strike": true
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "प्रॉब्लम EMI नहीं",
+     "items": [
+      {
+       "text": "EMI",
+       "at": "प्रॉब्लम EMI नहीं"
+      },
+      {
+       "text": "INTEREST",
+       "at": "प्रॉब्लम इंटरेस्ट भी"
+      }
+     ]
+    },
+    {
+     "type": "vs",
+     "at": "हम 20 साल",
+     "strike_at": "जज करते",
+     "left": {
+      "label": "1 MAHINE KA NUMBER",
+      "value": "₹43,391",
+      "sub": "EMI"
      },
-     {
-      "text": "इंटरेस्ट",
-      "at": "इंटरेस्ट भी",
-      "strike": true
+     "right": {
+      "label": "20 SAAL KI DEAL",
+      "value": "₹1.04Cr",
+      "sub": "poora hisaab",
+      "color": "red",
+      "at": "हम 20 साल"
      }
-    ]
-   }
-  },
-  {
-   "at": "प्रॉब्लम ये है",
-   "mood": "serious",
-   "point": true,
-   "tint": "cold",
-   "card": {
-    "type": "headline",
-    "title": "20 साल की डील",
-    "at": "20 साल की",
-    "sub": "1 महीने के नंबर से जज",
-    "sub_at": "एक महीने",
-    "color": "ice",
-    "sub_color": "white"
-   }
+    }
+   ],
+   "react": [
+    {
+     "at": "प्रॉब्लम ये है",
+     "mood": "serious",
+     "point": true
+    }
+   ]
   },
   {
    "at": "तो अगली बार",
-   "mood": "neutral",
-   "point": true,
-   "card": {
-    "type": "checklist",
-    "title": "EMI + ये 3 नंबर",
-    "items": [
-     {
-      "text": "टोटल इंटरेस्ट",
-      "at": "टोटल इंटरेस्ट"
-     },
-     {
-      "text": "5 साल बाद बचा लोन",
-      "at": "बचा लोन"
-     },
-     {
-      "text": "टेन्योर",
-      "at": "और टेन्योर"
-     }
-    ],
-    "final": "पूरी डील देखो",
-    "final_at": "और टेन्योर"
-   }
+   "elements": [
+    {
+     "type": "label",
+     "text": "EMI KE SAATH · 3 NUMBER",
+     "color": "gold",
+     "at": "तो अगली बार"
+    },
+    {
+     "type": "steps",
+     "at": "टोटल इंटरेस्ट,",
+     "items": [
+      {
+       "text": "Total interest",
+       "at": "टोटल इंटरेस्ट,",
+       "ill": "receipt"
+      },
+      {
+       "text": "5 saal baad bacha loan",
+       "at": "बचा लोन,",
+       "ill": "hourglass_not_done"
+      },
+      {
+       "text": "Tenure",
+       "at": "और टेन्योर।",
+       "ill": "calendar"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "तीन नंबर",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
   },
   {
    "at": "15 साल करने",
-   "mood": "neutral",
-   "point": true,
    "tint": "green",
-   "beats": [
+   "elements": [
     {
+     "type": "vs",
+     "at": "15 साल करने",
+     "left": {
+      "label": "20 SAAL · EMI",
+      "value": "₹43,391"
+     },
+     "right": {
+      "label": "15 SAAL · EMI",
+      "value": "₹49,237",
+      "sub": "thodi zyada",
+      "color": "gold",
+      "at": "₹49,237 होती"
+     }
+    },
+    {
+     "type": "big_number",
+     "value": "−₹15.5L",
+     "color": "green",
      "at": "₹15.5 लाख",
-     "mood": "smirk"
+     "note": "INTEREST KAM",
+     "note_at": "लाख कम।",
+     "note_color": "green"
     }
-   ],
-   "card": {
-    "type": "compare_arrow",
-    "title": "20 → 15 साल",
-    "from_text": "EMI ₹49,237",
-    "from_at": "₹49,237",
-    "to_text": "इंटरेस्ट कम",
-    "to_at": "पर इंटरेस्ट",
-    "result": "₹15.5 लाख बचत",
-    "result_at": "₹15.5 लाख"
-   }
+   ]
   },
   {
    "at": "बस इतना लो",
-   "mood": "serious",
-   "point": true,
    "tint": "green",
-   "card": {
-    "type": "headline",
-    "title": "उतना ही लो",
-    "at": "बस इतना",
-    "sub": "जितनी EMI आराम से भरो",
-    "sub_at": "आराम से",
-    "color": "green",
-    "sub_color": "white"
-   }
-  },
-  {
-   "at": "ये रील",
-   "mood": "smirk",
-   "point": true,
-   "card": {
-    "type": "cta",
-    "line1": "उस दोस्त को भेजो",
-    "line1_at": "भेजो",
-    "line2": "\"EMI तो सिर्फ़ ₹43,000\"",
-    "line2_at": "सिर्फ़ ₹43,000"
-   }
+   "elements": [
+    {
+     "type": "pill",
+     "text": "EMI JO AARAAM SE BHARO",
+     "color": "green",
+     "at": "बस इतना लो"
+    },
+    {
+     "type": "illustration",
+     "name": "house_with_garden",
+     "size": "l",
+     "at": "आराम से"
+    }
+   ]
   }
  ],
  "models": {
   "script": "claude-sonnet-5-5",
   "edit": "claude-opus-5-5"
- }
+ },
+ "style": "v2",
+ "tag": "HOME LOAN",
+ "disclaimer": true,
+ "captions": [
+  "*₹50",
+  "*lakh",
+  "ka",
+  "loan...",
+  "*₹43,391",
+  "ki",
+  "EMI...",
+  "aur",
+  "*240",
+  "baar",
+  "wahi",
+  "green",
+  "tick.",
+  "Bank",
+  "se",
+  "liye",
+  "*₹50",
+  "lakh.",
+  "Lekin",
+  "bank",
+  "ko",
+  "kul",
+  "jaayenge",
+  "kareeb",
+  "*₹1.04",
+  "*crore.",
+  "*Double!",
+  "Ye",
+  "hua",
+  "kaise?",
+  "*8.5%",
+  "rate,",
+  "*20",
+  "saal.",
+  "EMI",
+  "*₹43,391",
+  "dekhkar",
+  "lagta",
+  "hai,",
+  "\"Deal",
+  "reasonable",
+  "hai.\"",
+  "Par",
+  "240",
+  "mahine",
+  "jodo,",
+  "toh",
+  "sirf",
+  "*interest",
+  "hi",
+  "kareeb",
+  "*₹54",
+  "lakh.",
+  "Aur",
+  "asli",
+  "*jhatka",
+  "pehli",
+  "EMI",
+  "mein",
+  "hai.",
+  "₹43,391",
+  "gaye,",
+  "par",
+  "loan",
+  "kam",
+  "hua",
+  "sirf",
+  "*₹7,974.",
+  "Baaki",
+  "sab",
+  "*interest",
+  "kha",
+  "gaya.",
+  "Ab",
+  "*5",
+  "*saal",
+  "baad",
+  "ki",
+  "socho.",
+  "Ek",
+  "bhi",
+  "EMI",
+  "miss",
+  "nahi",
+  "ki.",
+  "Kareeb",
+  "*₹26",
+  "lakh",
+  "bhar",
+  "diye.",
+  "Ab",
+  "bina",
+  "calculator",
+  "guess",
+  "karo,",
+  "kitna",
+  "*bacha?",
+  "30",
+  "lakh?",
+  "32",
+  "lakh?",
+  "Bacha",
+  "hai",
+  "kareeb",
+  "*₹44",
+  "*lakh.",
+  "Problem",
+  "*EMI",
+  "nahi",
+  "hai.",
+  "Problem",
+  "*interest",
+  "bhi",
+  "nahi",
+  "hai.",
+  "Problem",
+  "ye",
+  "hai",
+  "ki",
+  "hum",
+  "*20",
+  "*saal",
+  "ki",
+  "deal",
+  "ko",
+  "*ek",
+  "*mahine",
+  "ke",
+  "number",
+  "se",
+  "judge",
+  "karte",
+  "hain.",
+  "Toh",
+  "agli",
+  "baar",
+  "EMI",
+  "ke",
+  "saath",
+  "*teen",
+  "*number",
+  "aur",
+  "dekho:",
+  "total",
+  "interest,",
+  "5",
+  "saal",
+  "baad",
+  "bacha",
+  "loan,",
+  "aur",
+  "tenure.",
+  "*15",
+  "saal",
+  "karne",
+  "par",
+  "EMI",
+  "₹49,237",
+  "hoti",
+  "hai,",
+  "par",
+  "interest",
+  "kareeb",
+  "*₹15.5",
+  "lakh",
+  "kam.",
+  "Bas",
+  "itna",
+  "lo",
+  "jitni",
+  "EMI",
+  "*aaraam",
+  "se",
+  "bhar",
+  "sako.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "abhi-abhi",
+  "*flat",
+  "dekhkar",
+  "aaya",
+  "hai",
+  "aur",
+  "bol",
+  "raha",
+  "hai,",
+  "\"EMI",
+  "toh",
+  "sirf",
+  "*₹43,000",
+  "hai",
+  "yaar.\""
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo abhi flat dekh ke aaya hai",
+  "line2_at": "फ्लैट देखकर"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 home loan decoded"
+ },
+ "episode": 16
 }
