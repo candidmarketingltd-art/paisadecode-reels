@@ -3,21 +3,14 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 8, 'sent': 26}
-Buffer queue: 8 waiting (buffer); target 10 -> making 2
---- reel 1/2: slot 1 (economics) row 33: 3r6gDnUxLQk A
-[1/4] script  3r6gDnUxLQk A: ₹20 Lakh EV Charger: How Many Cars to Break Even?
+      [buffer] post statuses seen: {'scheduled': 9, 'sent': 27}
+Buffer queue: 9 waiting (buffer); target 10 -> making 1
+--- reel 1/1: slot 3 (ideas) row 38: EUkrMjD8JwQ I2
+[1/4] script  EUkrMjD8JwQ I2: 7 Boring Businesses You Can Start Under ₹5 Lakh in India
 [2/4] voice
       voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Rohan (IcsYcP26eMwajlgx2SDe)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      159 words, 67.6s, model eleven_v4
+      166 words, 67.6s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmpho7h4o7j/video_only.mp4
---- reel 2/2: slot 2 (money) row 22: sS9yqTJHx0Q A
-[1/4] script  sS9yqTJHx0Q A: reusing saved plan
-      re-editing the saved script for the HISAAB style
-[2/4] voice
-      197 words, 86.2s, model eleven_v4
-[3/4] render
-      remotion: Reel /tmp/tmpn625v36b/video_only.mp4
-added 2 reel(s) to Buffer
+      remotion: Reel /tmp/tmpl_pvdgug/video_only.mp4
+added 1 reel(s) to Buffer
