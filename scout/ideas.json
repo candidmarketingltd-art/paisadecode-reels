@@ -1,0 +1,104 @@
+{
+ "idea-medical-store-100-rupee-medicine-profit": {
+  "slug": "medical-store-100-rupee-medicine-profit",
+  "title": "₹100 Ki Dawai Pe Medical Store Owner Kitna Kamata Hai?",
+  "topic": "Retail chemist margin on branded medicines vs generics (trade margin from MRP, PTR/PTS structure, NPPA-capped drugs), plus shop rent, pharmacist licence, expiry losses, and what a typical store nets monthly. Include Jan Aushadhi/generic margin vs branded.",
+  "angle": "Hook: you pay ₹100 for a strip and trace where every rupee goes, from company to stockist to chemist. Payoff: the chemist's margin looks small on branded drugs and huge on generics. Expiry stock and the licensing requirement decide whether the shop actually makes money.",
+  "hook_pattern": "Follow ₹100 through a counter you use every month and reveal the owner's cut (the petrol pump pattern applied to a different counter).",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Our best reel breaks down what the owner keeps per ₹100 at a business everyone has visited. A medical store is just as familiar, nobody knows the margin, and it is a classic 'safe business' dream. The margin tiers are published and the numbers are shareable.",
+  "evidence": [],
+  "search_queries": [
+   "medical store retail margin on MRP India PTR PTS trade margin",
+   "pharmacy shop monthly profit India investment licence requirements",
+   "Jan Aushadhi Kendra margin vs branded medicine chemist margin",
+   "NPPA trade margin cap essential medicines retailer"
+  ],
+  "id": "idea-medical-store-100-rupee-medicine-profit",
+  "added": "2026-11-03"
+ },
+ "idea-car-showroom-dealer-margin-10-lakh-car": {
+  "slug": "car-showroom-dealer-margin-10-lakh-car",
+  "title": "₹10 Lakh Ki Car Bikti Hai, Dealer Ko Kitna Milta Hai?",
+  "topic": "Car dealership economics in India: dealer margin per new car (percent of ex-showroom price), where the real profit comes from (finance and insurance commissions, accessories, extended warranty, used cars, service), showroom capex, and inventory financing costs.",
+  "angle": "Hook: the showroom sells you a ₹10 lakh car but earns only a few thousand on the car itself. Payoff: reveal the add-ons and back-end commissions that make the dealership profitable, and what a dealer principal actually takes home.",
+  "hook_pattern": "Big visible price, tiny real margin, then reveal where the hidden profit sits.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Owning a car showroom is an aspirational dream, but nobody knows the economics. The surprise that the car is not the profit centre gives a strong hook and a reason to share. Dealer margin ranges are published in company filings and auto-industry reports.",
+  "evidence": [],
+  "search_queries": [
+   "car dealer margin percentage India Maruti Hyundai dealership",
+   "car dealership investment and profit India showroom service revenue",
+   "dealer income from insurance and finance commission India car sales",
+   "FADA dealer profitability margin report"
+  ],
+  "id": "idea-car-showroom-dealer-margin-10-lakh-car",
+  "added": "2026-11-03"
+ },
+ "idea-lpg-gas-agency-per-cylinder-commission": {
+  "slug": "lpg-gas-agency-per-cylinder-commission",
+  "title": "₹900 Ka Gas Cylinder: Gas Agency Owner Ko Kitna Bachta Hai?",
+  "topic": "LPG distributorship economics: how the cylinder price splits (product cost, bottling, freight, distributor commission, GST), the per-cylinder distributor commission structure, delivery staff cost, godown and vehicle costs, how dealerships are allotted, and typical monthly net for a mid-size agency.",
+  "angle": "Hook: you pay ₹900 for a cylinder and the delivery guy hands it over. Payoff: show the per-cylinder commission and how many cylinders an agency must move to cover its fixed costs, and why the licence is so hard to get.",
+  "hook_pattern": "Trace a regulated everyday price to the owner's fixed cut, the same structure as the petrol pump reel.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. It is the closest cousin to our top petrol pump reel: a regulated product, a fixed commission, and a famously coveted dealership. Audiences who shared the petrol pump reel will want the gas agency version. Prices change, so the reel should be framed as the structure of the split, not a current rate.",
+  "evidence": [],
+  "search_queries": [
+   "LPG distributor commission per cylinder India domestic 14.2 kg",
+   "gas agency distributorship investment and monthly income India",
+   "LPG cylinder price breakup distributor commission freight bottling",
+   "how LPG distributorship is allotted Indian Oil HP Bharat Gas eligibility"
+  ],
+  "id": "idea-lpg-gas-agency-per-cylinder-commission",
+  "added": "2026-11-03"
+ },
+ "idea-private-hospital-icu-bed-per-day-economi": {
+  "slug": "private-hospital-icu-bed-per-day-economics",
+  "title": "Hospital Ka 1 ICU Bed Roz Kitna Kamata Hai?",
+  "topic": "Hospital economics using public data: ARPOB (average revenue per occupied bed) from listed chains like Apollo, Max and Fortis, occupancy rates, cost per bed to build, doctor revenue sharing, and the share of revenue from pharmacy, diagnostics and room charges. Cover how a 50-bed hospital breaks even.",
+  "angle": "Hook: one hospital bed, 24 hours, and what it earns the owner. Payoff: show that occupancy and ICU mix decide profit, why a 100-bed hospital takes years to pay back, and what a doctor-owned nursing home really clears.",
+  "hook_pattern": "Take one small unit of a huge business (one bed, one day) and run its full P&L.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. 'Per unit per day' reels like the sleeper bus trip and the PS5 hour let viewers calculate along. Owning a hospital is a prestige dream for doctors and investors, and ARPOB is a public number listed hospital chains publish every quarter. The reel can contrast the glamorous image with slow payback.",
+  "evidence": [],
+  "search_queries": [
+   "ARPOB average revenue per occupied bed Apollo Max Fortis",
+   "cost to build 50 bed hospital India per bed investment",
+   "hospital break even occupancy India payback period",
+   "nursing home profit margin India doctor owned EBITDA per bed"
+  ],
+  "id": "idea-private-hospital-icu-bed-per-day-economi",
+  "added": "2026-11-03"
+ },
+ "idea-dominos-franchise-300-rupee-pizza-breaku": {
+  "slug": "dominos-franchise-300-rupee-pizza-breakup",
+  "title": "₹300 Ka Pizza: Domino's Franchise Owner Ke Haath Mein Kitna Aata Hai?",
+  "topic": "QSR franchise economics in India using Jubilant FoodWorks disclosures and franchise terms: store investment, royalty and marketing fees, food cost %, rent, staff, delivery aggregator commission, and typical store-level EBITDA. Compare with other franchises like Subway and Burger King only if the public numbers are solid.",
+  "angle": "Hook: split a ₹300 pizza into its parts. Payoff: food cost is only a fraction, rent, royalty and delivery commissions eat the rest, and the store owner's margin is a few rupees. Show the sales a store needs to reach breakeven and how long the payback runs.",
+  "hook_pattern": "Itemised bill breakdown of a famous brand's product, ending on the owner's small share.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Franchise ownership is a top dream for our audience, and Indian men 18-34 order pizza and wonder whether a franchise is easy money. The 'where the ₹ goes' reveal worked for the Blinkit ₹518 order and the UPI explainer. Franchise terms and store-level numbers are public in annual reports.",
+  "evidence": [],
+  "search_queries": [
+   "Domino's India franchise investment royalty fee percentage",
+   "Jubilant FoodWorks store level EBITDA margin per store annual report",
+   "QSR franchise payback period India pizza store cost breakup",
+   "Zomato Swiggy commission percentage restaurant delivery order"
+  ],
+  "id": "idea-dominos-franchise-300-rupee-pizza-breaku",
+  "added": "2026-11-03"
+ },
+ "idea-budget-hotel-room-night-profit-20-rooms": {
+  "slug": "budget-hotel-room-night-profit-20-rooms",
+  "title": "₹3,000 Ka Hotel Room: 20 Rooms Wale Hotel Ka Owner Kitna Kamata Hai?",
+  "topic": "Economics of a 20-room budget or business hotel in India: cost to build or lease per key, occupancy and ADR benchmarks, OTA commission (MakeMyTrip, Booking.com), staff, laundry, electricity, GST slab on room tariff, RevPAR, and payback. Contrast with the franchise model from budget chains, using only public terms.",
+  "angle": "Hook: a ₹3,000 room, empty or full. Payoff: show how occupancy swings profit, how much the online booking platforms take, and why most hotel owners earn more from rooms they never fill than viewers expect. Land on the occupancy the owner needs to survive.",
+  "hook_pattern": "Occupancy-driven breakeven on a dream asset, using the same flow as the turf and gym reels.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Hotels are on our list of dream-to-own businesses, and the breakeven-by-occupancy format matches reels that held attention, like the turf and gym ones. OTA commissions and RevPAR benchmarks are published, so the math can be shown on screen.",
+  "evidence": [],
+  "search_queries": [
+   "budget hotel investment per room India cost of building 20 room hotel",
+   "RevPAR occupancy ADR India budget hotels benchmark HVS report",
+   "OTA commission percentage hotels India MakeMyTrip Booking.com",
+   "hotel GST slab on room tariff India explained"
+  ],
+  "id": "idea-budget-hotel-room-night-profit-20-rooms",
+  "added": "2026-11-03"
+ }
+}
