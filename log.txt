@@ -1,0 +1,14 @@
+      photo 'Toyota Fortuner' -> 7d911f57b287.jpg (Wikimedia Commons / Matti Blume · CC BY-SA 4.0)
+Toyota Fortuner [product] -> {'src': 'photos/7d911f57b287.jpg', 'credit': 'Wikimedia Commons / Matti Blume · CC BY-SA 4.0'}
+      photo 'Amul' -> 30f130be1d47.png (Wikimedia Commons / Amul Uploaded by Chinimilli.naresh at en.wikipedia · Public domain)
+Amul [logo] -> {'src': 'photos/30f130be1d47.png', 'credit': 'Wikimedia Commons / Amul Uploaded by Chinimilli.naresh at en.wikipedia · Public domain'}
+      photo 'Domino's Pizza' -> faa48c001b1a.png (Wikimedia Commons / Domino's Pizza · Public domain)
+Domino's Pizza [logo] -> {'src': 'photos/faa48c001b1a.png', 'credit': "Wikimedia Commons / Domino's Pizza · Public domain"}
+      photo 'Indian Oil' -> 13f19f9322d4.png (Wikimedia Commons / Indian Oil · Public domain)
+Indian Oil [logo] -> {'src': 'photos/13f19f9322d4.png', 'credit': 'Wikimedia Commons / Indian Oil · Public domain'}
+      photo 'PVR Cinemas' -> 28e9b832c685.jpg (Wikimedia Commons / PVR Cinemas · Public domain)
+PVR Cinemas [logo] -> {'src': 'photos/28e9b832c685.jpg', 'credit': 'Wikimedia Commons / PVR Cinemas · Public domain'}
+      photo 'Tata Nexon' -> 44769e33ae2f.jpg (Wikimedia Commons / Vauxford · CC BY-SA 4.0)
+Tata Nexon [product] -> {'src': 'photos/44769e33ae2f.jpg', 'credit': 'Wikimedia Commons / Vauxford · CC BY-SA 4.0'}
+      photo 'Tata Nexon' -> 44769e33ae2f.jpg (Wikimedia Commons / Vauxford · CC BY-SA 4.0)
+Tata Nexon [product] -> {'src': 'photos/44769e33ae2f.jpg', 'credit': 'Wikimedia Commons / Vauxford · CC BY-SA 4.0'}
