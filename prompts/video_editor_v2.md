@@ -35,7 +35,9 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
   keep English words in English ("margin", "business", "Calculator"); keep the word's punctuation (". , ? ... : quotes").
   Prefix the 1–2 most important words of each sentence (numbers, key nouns) with `*` to light them gold (e.g. "*₹26", "*machine,").
 - `scenes`: array of `{ "at", "tint"?, "react"?: [{"at", "mood": neutral|smirk|shocked|serious, "point"?: bool}], "elements": [...] }`.
-  The first scene is the cinematic cold open (starts at 0 s): make it punchy — e.g. a pill plus a `stat_row` whose cards land on each dramatic fragment.
+  The first scene is the HOOK (starts at 0 s) and doubles as the reel's cover: ONE giant element that is readable on a phone in under a second —
+  a `big_number` (with `ill`) or a `headline` size "l" (with `ill`) showing the hook's single number or contradiction (e.g. "₹100 → ₹4", "1 PHONE · 3 DAAM"),
+  landing on the very first spoken word. Optionally one `pill` above it. Do NOT use `stat_row` or more than 2 elements in the first scene.
 - `cta`: `{ "at": first words of the share line, "line1": e.g. "Us dost ko bhejo", "line1_at", "line2": who to send it to (Roman Hinglish, short), "line2_at" }`.
   A paper plane flies in automatically; Rohan points.
 - `endcard`: `{ "title": "Hisaab clear?", "terminal": "> hisaab.saved · 1 business decoded" }` (adapt the terminal line to the topic, keep it short, lowercase).
@@ -51,7 +53,7 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
 - `vs` {left: {label, value, sub?}, right: {label, value, sub?, color?, ill?, at}, strike_at?}: two cards; left value gets struck out when right lands.
 - `arrow_pair` {left: {label, value, sub?, color?}, right: {label, value, sub?, color?, at}}: buy → sell, before → after (arrow draws itself).
 - `strike_list` {items: [{text, at, strike?: true|false}] (max 4)}: ✕ + gold strike-through ("Na machine, na borewell, na shed"); strike:false shows ✓.
-- `steps` {items: [{text, at, ill?}] (max 3), dim_at?}: numbered plan cards; earlier steps dim as the next lands.
+- `steps` {items: [{text, at, ill?}] (max 2), dim_at?}: numbered plan cards; earlier steps dim as the next lands.
 - `ledger` {title, rows: [{text, mark?, at}] (max 4)}: cream notebook page, handwritten rows, optional red stamp like "₹0".
 - `calculator` {value, label?, value_at?}: keys get pressed, the display rolls to `value` (e.g. "87%").
 - `title_slam` {text, sub?, color?}: giant word/number with a screen shake (e.g. "3" + "CHOT").

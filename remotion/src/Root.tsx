@@ -20,6 +20,6 @@ export const RemotionRoot: React.FC = () => (
     width={1080}
     height={1920}
     defaultProps={sample as unknown as Record<string, unknown>}
-    calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil(((props as unknown as ReelProps).duration + 3) * 30) })}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil(((props as unknown as ReelProps).duration + 1.8) * 30) })}
   />
 );

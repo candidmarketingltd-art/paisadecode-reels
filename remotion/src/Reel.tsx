@@ -226,7 +226,7 @@ const EndCard: React.FC<{ e: ReelProps["endcard"]; handle: string }> = ({ e, han
 
 export const Reel: React.FC<ReelProps> = (p) => {
   const f = useCurrentFrame();
-  const fade = interpolate(f, [fx(p.duration + 2.4), fx(p.duration + 2.9)], [0, 1], clamp);
+  const fade = interpolate(f, [fx(p.duration + 1.4), fx(p.duration + 1.8)], [0, 1], clamp);
   return (
     <AbsoluteFill style={{ background: COL.bg, overflow: "hidden" }}>
       <Background scenes={p.scenes} />

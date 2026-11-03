@@ -32,7 +32,7 @@ def _ask_json(model, system, user, check, attempts=3):
     raise FactCheckError(f"{model} output rejected after {attempts} attempts: {err}")
 
 
-MIN_WORDS, MAX_WORDS = 135, int(os.environ.get("MAX_WORDS") or 170)  # ~170 Hindi words ≈ 72 s in the (slower) new Rohan voice
+MIN_WORDS, MAX_WORDS = 110, int(os.environ.get("MAX_WORDS") or 145)  # ~145 Hindi words ≈ 55 s in the new Rohan voice
 
 
 class FactCheckError(Exception):

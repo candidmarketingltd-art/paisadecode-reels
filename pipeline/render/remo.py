@@ -212,7 +212,7 @@ def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
     print("      remotion:", " ".join(cmd[3:5]), flush=True)
     subprocess.run(cmd, cwd=RDIR, check=True)
     hits = sfx_hits(props)
-    sfx = str(Path(workdir) / "sfx.wav"); audio.build_ui_sfx(hits, duration + 3.0, sfx)
+    sfx = str(Path(workdir) / "sfx.wav"); audio.build_ui_sfx(hits, duration + 1.8, sfx)
     audio.mix(vid, voice_mp3, sfx, out_path, workdir, music_start=0.0, music_gain=float(os.environ.get("MUSIC_GAIN") or 0.16), duck_sfx=False, sfx_gain=0.85)
     return props
 

@@ -13,13 +13,20 @@ Hooks are click-bait in the honest sense: a curiosity gap, a shocking real numbe
 - Short punchy sentences. No "hey guys", no channel intro, no "like and subscribe".
 - Write numbers with digits and ₹ (₹6 लाख, ₹15,000, 87%) so captions show them clearly.
 
-## Structure (60–75 seconds spoken; HARD LIMIT 135–170 spoken words — longer scripts are rejected)
-1. **Cold open (0–5s)**: 2–3 ultra-short dramatic fragments, each a stated fact from the video. Start the voiceover with `[slow, deep, dramatic]`.
-2. **Hook (5–12s)**: the curiosity gap with a real number. Tag e.g. `[intrigued, building energy]`.
-3. **Body**: 3 fast beats with numbers (problems, hidden costs, the math). Use tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`, `[sighs]`.
-4. **Twist / payoff**: the counter-intuitive insight from the video. `[mysterious, slower]` then `[emphatic]`.
-5. **What to do instead**: the video's practical advice in 2–3 steps. `[confident]`.
-6. **Share trigger (last line)**: "ये रील उस दोस्त को भेजो जो …" naming a specific person relevant to the topic. `[playful, warm]`.
+## Structure (45–55 seconds spoken; HARD LIMIT 110–145 spoken words — longer scripts are rejected)
+Retention data from our reels: about HALF of viewers leave in the first 3–8 seconds, and the last 15 seconds lose most of the rest.
+The hook and a short, tight ending matter more than anything else.
+1. **Hook (0–3s), ONE sentence, starts on the very first word**: a contradiction about something the viewer personally pays for or sees
+   every day, with ONE number, framed around "you/तुम". Good: "₹100 का पेट्रोल भरवाते हो? पंप वाले को मिलते हैं सिर्फ़ ₹4।" /
+   "एक ही फ़ोन, तीन दाम — और सबसे महँगा तुमने लिया।" Bad: lists of fragments ("60 कैमरे… 80 कैमरे… 120 कैमरे"), B2B setups the viewer
+   has never experienced ("100 ऑफ़िस, सोमवार, चाय ख़त्म"), slow dramatic pauses. If the business is B2B, enter through the consumer object
+   ("तुम्हारे ऑफ़िस की चाय…"). Start the voiceover with `[urgent, punchy]` — never a slow or dramatic tag at the start.
+2. **Open loop (3–8s)**: one line that promises a payoff at the end ("और आख़िरी वाली बात सबसे shocking है") so viewers stay.
+3. **Body**: 2–3 fast beats with numbers (hidden costs, the math). Tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`.
+4. **Twist / payoff** (pays off the open loop): the counter-intuitive insight from the video. `[emphatic]`.
+5. **What to do instead**: at most 2 short steps. `[confident]`.
+6. **Share trigger (last line, short)**: "ये रील उस दोस्त को भेजो जो …" naming a specific person. `[playful, warm]`. Nothing after it.
+The example below is older and longer than allowed — copy its tone, not its length or its slow opening.
 
 ## HARD RULES — facts
 - Use ONLY numbers, prices, percentages, dates and claims that appear in the transcript. Never invent or round to a new figure.
