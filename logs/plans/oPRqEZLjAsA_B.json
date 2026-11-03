@@ -1,0 +1,491 @@
+{
+ "voiceover": "[urgent, punchy] तुम्हारे पंप के सामने से हज़ारों गाड़ियाँ निकलती हैं? फिर भी 5 कि.मी. का यू-टर्न लेकर कोई नहीं आएगा।\n\n[intrigued, building energy] नए owners की सबसे बड़ी गलती यही है। आख़िर में वो नंबर, जो बताएगा पंप चलेगा या डूबेगा।\n\n[excited, fast] सब सोचते हैं, जहाँ ट्रैफिक ज़्यादा, वहीं बेस्ट लोकेशन। गलत। गिनती उनकी होती है जो असल में रुकते हैं।\n\n[serious] बिक्री 1 लाख लीटर पर आई, तो कमीशन आधा। [punchy] पर रेंट, सैलरी, जनरेटर आधे नहीं होते। हमारे मॉडल में 2 लाख लीटर पर ₹1.7 लाख प्रॉफिट, और 1 लाख लीटर पर सीधा लॉस।\n\n[emphatic] ब्रेक-इवन करीब 1.45 लाख लीटर महीना। मतलब लगभग 5000 लीटर रोज़।\n\n[confident] इसलिए पंप से पहले 7 से 14 दिन असली ट्रैफिक गिनो। फिर 1.25 या 1.5 लाख लीटर पर stress test करो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"हाईवे पे ज़मीन है, पंप खोल दें।\"",
+ "ig_caption": "Petrol pump ke saamne se hazaaron gaadiyaan guzarti hain... par 5 km ka U-turn lekar koi nahi aata ⛽ Naye owners ki sabse badi galti yahi hai.\n\nUs dost ko bhejo jo bolta hai \"highway pe zameen hai, pump khol dein\" 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are from an illustrative example model, not financial advice.",
+ "hashtags": [
+  "#PetrolPumpBusiness",
+  "#PetrolPumpDealership",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "5 कि.मी.",
+  "1 लाख लीटर",
+  "2 लाख लीटर",
+  "₹1.7 लाख",
+  "1.45 लाख लीटर",
+  "5000 लीटर",
+  "7 से 14 दिन",
+  "1.25 या 1.5 लाख लीटर"
+ ],
+ "style": "v2",
+ "tag": "PETROL PUMP",
+ "disclaimer": true,
+ "captions": [
+  "Tumhare",
+  "*pump",
+  "ke",
+  "saamne",
+  "se",
+  "*hazaaron",
+  "gaadiyaan",
+  "nikalti",
+  "hain?",
+  "Phir",
+  "bhi",
+  "*5",
+  "*km",
+  "ka",
+  "U-turn",
+  "lekar",
+  "koi",
+  "nahi",
+  "aayega.",
+  "Naye",
+  "owners",
+  "ki",
+  "sabse",
+  "*badi",
+  "*galti",
+  "yahi",
+  "hai.",
+  "Aakhir",
+  "mein",
+  "wo",
+  "*number,",
+  "jo",
+  "batayega",
+  "pump",
+  "*chalega",
+  "ya",
+  "*doobega.",
+  "Sab",
+  "sochte",
+  "hain,",
+  "jahan",
+  "*traffic",
+  "zyada,",
+  "wahin",
+  "best",
+  "*location.",
+  "*Galat.",
+  "Ginti",
+  "unki",
+  "hoti",
+  "hai",
+  "jo",
+  "asal",
+  "mein",
+  "*rukte",
+  "hain.",
+  "Bikri",
+  "*1",
+  "*lakh",
+  "litre",
+  "par",
+  "aayi,",
+  "toh",
+  "commission",
+  "*aadha.",
+  "Par",
+  "*rent,",
+  "salary,",
+  "generator",
+  "aadhe",
+  "nahi",
+  "hote.",
+  "Hamare",
+  "model",
+  "mein",
+  "*2",
+  "lakh",
+  "litre",
+  "par",
+  "*₹1.7",
+  "*lakh",
+  "profit,",
+  "aur",
+  "1",
+  "lakh",
+  "litre",
+  "par",
+  "seedha",
+  "*loss.",
+  "*Break-even",
+  "kareeb",
+  "*1.45",
+  "lakh",
+  "litre",
+  "mahina.",
+  "Matlab",
+  "lagbhag",
+  "*5000",
+  "litre",
+  "*roz.",
+  "Isliye",
+  "pump",
+  "se",
+  "pehle",
+  "*7",
+  "se",
+  "*14",
+  "din",
+  "asli",
+  "traffic",
+  "gino.",
+  "Phir",
+  "*1.25",
+  "ya",
+  "*1.5",
+  "lakh",
+  "litre",
+  "par",
+  "stress",
+  "test",
+  "karo.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Highway",
+  "pe",
+  "*zameen",
+  "hai,",
+  "*pump",
+  "khol",
+  "dein.\""
+ ],
+ "scenes": [
+  {
+   "at": "तुम्हारे पंप",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "PETROL PUMP · ASLI HISAAB",
+     "at": "तुम्हारे पंप"
+    },
+    {
+     "type": "headline",
+     "text": "TRAFFIC ≠ GRAHAK",
+     "size": "l",
+     "ill": "fuel_pump",
+     "at": "तुम्हारे पंप"
+    }
+   ]
+  },
+  {
+   "at": "फिर भी 5",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "5 KM",
+     "color": "red",
+     "ill": "automobile",
+     "at": "फिर भी 5",
+     "note": "U-TURN? KOI NAHI",
+     "note_at": "यू-टर्न लेकर",
+     "note_color": "red"
+    }
+   ],
+   "react": [
+    {
+     "at": "कोई नहीं आएगा।",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "नए owners की",
+   "elements": [
+    {
+     "type": "label",
+     "text": "NAYE OWNERS",
+     "color": "gold",
+     "at": "नए owners की"
+    },
+    {
+     "type": "headline",
+     "text": "SABSE BADI GALTI",
+     "color": "red",
+     "ill": "warning",
+     "at": "सबसे बड़ी गलती"
+    },
+    {
+     "type": "stat_row",
+     "at": "वो नंबर,",
+     "cards": [
+      {
+       "label": "PUMP",
+       "value": "CHALEGA",
+       "color": "green",
+       "at": "पंप चलेगा"
+      },
+      {
+       "label": "YA",
+       "value": "DOOBEGA",
+       "color": "red",
+       "at": "डूबेगा।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "सब सोचते",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "SABKI SOCH",
+     "at": "सब सोचते"
+    },
+    {
+     "type": "headline",
+     "text": "TRAFFIC = BEST LOCATION",
+     "size": "m",
+     "at": "ट्रैफिक ज़्यादा,"
+    },
+    {
+     "type": "title_slam",
+     "text": "GALAT",
+     "color": "red",
+     "at": "गलत।"
+    }
+   ]
+  },
+  {
+   "at": "गिनती उनकी",
+   "elements": [
+    {
+     "type": "label",
+     "text": "GINO SIRF UNKO JO RUKTE HAIN",
+     "color": "gold",
+     "at": "गिनती उनकी"
+    },
+    {
+     "type": "dot_grid",
+     "total": 200,
+     "lost": 170,
+     "at": "गिनती उनकी",
+     "lost_at": "रुकते हैं।",
+     "label": "GAADIYAN",
+     "total_text": "TRAFFIC",
+     "left_text": "GRAHAK"
+    }
+   ],
+   "react": [
+    {
+     "at": "गिनती उनकी",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "बिक्री 1",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "बिक्री 1",
+     "cards": [
+      {
+       "label": "BIKRI / MAHINA",
+       "value": "1L LTR",
+       "color": "blue",
+       "ill": "fuel_pump",
+       "at": "बिक्री 1"
+      },
+      {
+       "label": "COMMISSION",
+       "value": "½",
+       "color": "red",
+       "at": "कमीशन आधा।"
+      }
+     ]
+    },
+    {
+     "type": "label",
+     "text": "KHARCHE · AADHE NAHI",
+     "color": "red",
+     "at": "पर रेंट,"
+    },
+    {
+     "type": "stat_row",
+     "at": "पर रेंट,",
+     "cards": [
+      {
+       "label": "RENT",
+       "value": "FULL",
+       "color": "red",
+       "ill": "house",
+       "at": "पर रेंट,"
+      },
+      {
+       "label": "SALARY",
+       "value": "FULL",
+       "color": "red",
+       "at": "सैलरी,"
+      },
+      {
+       "label": "GENERATOR",
+       "value": "FULL",
+       "color": "red",
+       "ill": "high_voltage",
+       "at": "जनरेटर"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "हमारे मॉडल",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "HAMARA MODEL · PER MAHINA",
+     "at": "हमारे मॉडल"
+    },
+    {
+     "type": "stat_row",
+     "at": "2 लाख",
+     "cards": [
+      {
+       "label": "2 LAKH LITRE",
+       "value": "+₹1.7L",
+       "sub": "profit",
+       "color": "green",
+       "glow": true,
+       "at": "₹1.7 लाख"
+      },
+      {
+       "label": "1 LAKH LITRE",
+       "value": "LOSS",
+       "sub": "seedha",
+       "color": "red",
+       "ill": "chart_decreasing",
+       "at": "सीधा लॉस।"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "सीधा लॉस।",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "ब्रेक-इवन करीब",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "BREAK-EVEN · WO NUMBER",
+     "color": "blue",
+     "at": "ब्रेक-इवन करीब"
+    },
+    {
+     "type": "big_number",
+     "value": "1.45L",
+     "color": "gold",
+     "ill": "balance_scale",
+     "at": "1.45 लाख",
+     "note": "LITRE / MAHINA",
+     "note_at": "लीटर महीना।"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "मतलब लगभग",
+     "left": {
+      "label": "MAHINA",
+      "value": "1.45L",
+      "sub": "litre"
+     },
+     "right": {
+      "label": "ROZ",
+      "value": "~5000",
+      "sub": "litre",
+      "color": "gold",
+      "at": "5000 लीटर"
+     }
+    }
+   ],
+   "react": [
+    {
+     "at": "ब्रेक-इवन करीब",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "इसलिए पंप",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "gold",
+     "at": "इसलिए पंप"
+    },
+    {
+     "type": "steps",
+     "at": "पहले 7",
+     "dim_at": "stress test",
+     "items": [
+      {
+       "text": "7–14 din asli traffic gino",
+       "at": "पहले 7",
+       "ill": "stopwatch"
+      },
+      {
+       "text": "1.25L / 1.5L pe stress test",
+       "at": "1.25 या",
+       "ill": "bar_chart"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "PUMP SE PEHLE HISAAB",
+     "color": "green",
+     "at": "test करो।"
+    }
+   ],
+   "react": [
+    {
+     "at": "इसलिए पंप",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo highway pe pump kholna chahta hai",
+  "line2_at": "\"हाईवे पे"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · break-even = 5000 litre/roz"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 20
+}

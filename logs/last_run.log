@@ -1,16 +1,19 @@
-  ANTHROPIC_API_KEY: set
-  ELEVENLABS_API_KEY: set
-  APIFY_TOKEN: set
-  BUFFER_API_KEY: set
-  BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 44}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 3 (ideas) row 41: 5mD9vskyDM8 I2
-[1/4] script  5mD9vskyDM8 I2: 5 Boring Businesses You Can Start Under ₹2 Lakh in India
+slot 3 (ideas) -> row 81: oPRqEZLjAsA B | dry_run=True
+[1/4] script  oPRqEZLjAsA B: ₹100 Petrol Mein Petrol Pump Owner Kitna Kamata Hai? Real Profit Explained
 [2/4] voice
-      voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu), Rohan (IcsYcP26eMwajlgx2SDe)
+      voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Rohan (IcsYcP26eMwajlgx2SDe), Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      149 words, 63.8s, model eleven_v4
+      137 words, 52.8s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmprmilgq3i/video_only.mp4
-added 1 reel(s) to Buffer
+      remotion: Reel /tmp/tmpaeuk3n9u/video_only.mp4
+DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-26_0830_oPRqEZLjAsA_B_hisaab.mp4
+--- caption ---
+Petrol pump ke saamne se hazaaron gaadiyaan guzarti hain... par 5 km ka U-turn lekar koi nahi aata ⛽ Naye owners ki sabse badi galti yahi hai.
+
+Us dost ko bhejo jo bolta hai "highway pe zameen hai, pump khol dein" 👇
+
+Follow @rohandecoder for daily money math
+Full video: YouTube @PaisaDecodeHQ
+Numbers are from an illustrative example model, not financial advice.
+
+#PetrolPumpBusiness #PetrolPumpDealership #BusinessIdeas #PaisaDecode #SmallBusinessIndia #Hindi
