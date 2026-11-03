@@ -27,8 +27,14 @@ APIFY = "https://api.apify.com/v2/acts/{}/run-sync-get-dataset-items"
 def _apify(actor, payload):
     r = requests.post(APIFY.format(actor), params={"token": os.environ["APIFY_TOKEN"], "timeout": 280}, json=payload, timeout=320)
     if r.status_code >= 400:
-        print(f"  apify {actor}: {r.status_code} {r.text[:200]}", flush=True); return []
-    return r.json()
+        print(f"  apify {actor}: {r.status_code} {r.text[:300]}", flush=True); return []
+    items = r.json()
+    print(f"  apify {actor} {list(payload)[0]}: {len(items)} items", flush=True)
+    if items:
+        it = items[0]
+        print("    sample keys:", sorted(it.keys())[:60], flush=True)
+        print("    sample:", {k: it.get(k) for k in ("type", "productType", "shortCode", "videoPlayCount", "videoViewCount", "playCount", "likesCount", "timestamp", "error", "errorDescription")}, flush=True)
+    return items
 
 
 def scrape():
@@ -115,7 +121,17 @@ def add_to_calendar(new):
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(rows)
 
 
+class _Tee:
+    def __init__(self, *s): self.s = s
+    def write(self, x):
+        for t in self.s: t.write(x)
+    def flush(self):
+        for t in self.s: t.flush()
+
+
 def main():
+    SCOUT.mkdir(exist_ok=True)
+    sys.stdout = _Tee(sys.__stdout__, open(SCOUT / "last_run.log", "w", encoding="utf-8"))
     dry = "--dry-run" in sys.argv
     reels = scrape(); top = proven(reels)
     stamp = dt.datetime.now().strftime("%Y-%m-%d")
