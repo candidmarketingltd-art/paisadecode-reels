@@ -1,8 +1,0 @@
-Toyota Fortuner:product
-Amul:logo
-Domino's Pizza:logo
-Indian Oil petrol pump:place
-Maruti Suzuki Swift:product
-Zomato:logo
-PVR Cinemas:logo
-Tata Ace:product
