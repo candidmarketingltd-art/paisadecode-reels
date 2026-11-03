@@ -100,5 +100,101 @@
   ],
   "id": "idea-budget-hotel-room-night-profit-20-rooms",
   "added": "2026-11-03"
+ },
+ "idea-liquor-shop-licence-1000-bottle-economic": {
+  "slug": "liquor-shop-licence-1000-bottle-economics",
+  "title": "₹1,000 Ki Whisky Bottle: Wine Shop Owner Ko Kitna Milta Hai?",
+  "topic": "Break up the MRP of a ₹1,000 IMFL bottle into excise duty, state tax, distributor and retailer margin, and the licence fee and rent a retail liquor shop owner carries. Use one state's public excise structure as the worked example.",
+  "angle": "Hook: you pay ₹1,000 for a bottle, so who takes what? Show the bottle's price as a stack: government first, then the distributor, then the shop owner. Payoff: the licence costs far more than the shelf stock, and the owner's real profit per bottle is a small slice. Then show how many bottles a day make the licence worth it.",
+  "hook_pattern": "'₹100 of X, owner kitna kamata hai' (our top performer, the petrol pump reel) applied to a heavily regulated, licence-driven business people assume is a goldmine.",
+  "why_it_works": "Reasoning: the petrol pump reel works because it shows a visible price split for a business people dream of owning. Liquor has the same structure plus taboo curiosity, and almost nobody knows the real split. Men 18-34 are the main buyers and the main daydreamers about owning a shop. It is also a very shareable 'guess the number' format.",
+  "evidence": [],
+  "search_queries": [
+   "liquor retail shop licence fee India excise duty structure per bottle",
+   "retail margin on IMFL bottle wine shop owner profit percentage",
+   "state excise policy L-1 retail vend licence fee how it works"
+  ],
+  "id": "idea-liquor-shop-licence-1000-bottle-economic",
+  "added": "2026-11-03"
+ },
+ "idea-jewellery-shop-1-lakh-gold-making-charge": {
+  "slug": "jewellery-shop-1-lakh-gold-making-charges",
+  "title": "₹1 Lakh Ka Gold Set Bika: Jeweller Ki Jeb Mein Kitna Gaya?",
+  "topic": "How a jewellery retailer earns on a ₹1 lakh purchase: making charges, wastage, margin on plain gold versus studded jewellery, old-gold exchange deductions, and the stock and insurance capital locked in inventory.",
+  "angle": "Hook: you buy ₹1 lakh of gold jewellery, so where does the shop actually make its money? It is rarely on the gold itself. Walk through making charges, wastage and the exchange deduction, then show why the capital tied up in inventory makes this a thin-margin business despite the shiny showroom.",
+  "hook_pattern": "'Price on the tag vs what the owner actually keeps' for a business with a glamorous image. The payoff is a myth-bust: the margin is not where you think it is.",
+  "why_it_works": "Reasoning: jewellery shops are one of the most visible dream businesses in Indian towns, and everyone has bought gold at least once, so the topic is deeply relatable. The hidden-charges angle (making charges, wastage) is both an insider secret and a useful consumer tip, which drives saves and shares.",
+  "evidence": [],
+  "search_queries": [
+   "jewellery retail gross margin India making charges wastage explained",
+   "jeweller profit on gold jewellery vs studded jewellery margin",
+   "gold jewellery shop inventory working capital gold metal loan India"
+  ],
+  "id": "idea-jewellery-shop-1-lakh-gold-making-charge",
+  "added": "2026-11-03"
+ },
+ "idea-pathology-lab-franchise-500-blood-test": {
+  "slug": "pathology-lab-franchise-500-blood-test",
+  "title": "₹500 Ka Blood Test: Lab Owner Ke Paas Asli Mein Kitna Bachta Hai?",
+  "topic": "Unit economics of a diagnostic collection centre or lab franchise: reagent and machine cost per test, the franchise or collection-centre revenue share, tech and phlebotomist pay, rent, and the volume needed to break even. Use public franchise terms from listed chains.",
+  "angle": "Hook: a blood test takes 2 minutes and costs ₹500, but what does it cost the lab? Show the cost per test, the split between the main lab and the collection centre owner, and why home-collection and package tests matter. Payoff: the break-even number of patients per day.",
+  "hook_pattern": "'₹X service, what does the owner actually keep' in healthcare. This is a close cousin of our ICU bed and medical store reels, but with a different business.",
+  "why_it_works": "Reasoning: our medical store and ICU bed reels show healthcare economics is of high interest. A diagnostic lab is the next dream-to-own business in that vein (many pharma and science graduates consider it), and franchise terms are public, so the numbers can be researched.",
+  "evidence": [],
+  "search_queries": [
+   "diagnostic collection centre franchise investment revenue share India",
+   "pathology lab cost per test reagent analyzer cost India",
+   "Dr Lal PathLabs Metropolis franchise model collection centre earnings"
+  ],
+  "id": "idea-pathology-lab-franchise-500-blood-test",
+  "added": "2026-11-03"
+ },
+ "idea-mobile-shop-80000-phone-retailer-margin": {
+  "slug": "mobile-shop-80000-phone-retailer-margin",
+  "title": "₹80,000 Ka Phone Becha: Mobile Shop Wale Ko Kitna Mila?",
+  "topic": "Retailer margin on smartphones by price band, why accessories, insurance and extended warranties often earn more than the phone, how distributor credit and stock financing work, and the real monthly profit of a mid-size mobile store.",
+  "angle": "Hook: the shop sells you an ₹80,000 phone, and the owner's margin is smaller than on the ₹500 back cover sold alongside it. Compare phone margin, accessory margin and protection-plan margin as three bars. Payoff: why shopkeepers push covers, screen guards and plans, and what a good month looks like.",
+  "hook_pattern": "'Big sticker price, tiny real margin' with a twist reveal that the profit sits in the add-on, the same shock structure as the popcorn-vs-movie reel.",
+  "why_it_works": "Reasoning: every young Indian male has bought a phone and been upsold at the counter, so the hook is instantly relatable. The popcorn-over-the-movie reel on the multiplex shows our audience likes 'profit is hidden somewhere unexpected' stories. It also gives a practical takeaway for the viewer.",
+  "evidence": [],
+  "search_queries": [
+   "mobile phone retailer margin percentage India smartphone distributor",
+   "mobile accessories margin retailer India back cover tempered glass profit",
+   "extended warranty screen protection plan retailer commission India"
+  ],
+  "id": "idea-mobile-shop-80000-phone-retailer-margin",
+  "added": "2026-11-03"
+ },
+ "idea-amul-parlour-franchise-real-earnings": {
+  "slug": "amul-parlour-franchise-real-earnings",
+  "title": "Amul Parlour Kholna Hai? ₹100 Ki Sales Pe Kitna Commission Milta Hai?",
+  "topic": "Amul parlour and kiosk franchise economics using Amul's public commission structure: percentage on milk, ice cream, and other products; the investment (security deposit, equipment, interiors); the footfall needed for a decent monthly income; and the fixed-commission model versus a retailer buying outright.",
+  "angle": "Hook: Amul parlours look like a safe dream business, so what's the real commission on each product? Show a typical ₹10,000 day of sales split by category, with a different commission percentage per category. Payoff: the monthly take-home after rent and staff, and why the ice cream corner drives most of the profit.",
+  "hook_pattern": "'₹X of sales, owner kitna kamata hai' on a trusted-brand franchise (like the Domino's franchise reel), with a category-level breakdown as the reveal.",
+  "why_it_works": "Reasoning: franchise-economics reels fit the proven petrol pump and Domino's formula. Amul is the most trusted franchise brand in India and a first-search franchise for small-town aspirants. Commission rates are published by the company, so the numbers hold up under fact-checking.",
+  "evidence": [],
+  "search_queries": [
+   "Amul parlour franchise investment commission on milk ice cream products",
+   "Amul franchise monthly income realistic parlour kiosk",
+   "Amul preferred outlet vs kiosk vs railway parlour terms"
+  ],
+  "id": "idea-amul-parlour-franchise-real-earnings",
+  "added": "2026-11-03"
+ },
+ "idea-own-a-truck-delhi-mumbai-trip-economics": {
+  "slug": "own-a-truck-delhi-mumbai-trip-economics",
+  "title": "Ek Truck Delhi Se Mumbai Gaya: Owner Ko Kitna Bachta Hai?",
+  "topic": "Per-trip economics of one commercial truck on a long route such as Delhi to Mumbai: freight earned, diesel, tolls, driver and helper pay, tyre and maintenance cost per km, EMI, insurance, permits, empty return runs, and the monthly net of an owner with 1 truck versus 5.",
+  "angle": "Hook: a truck earns a freight bill of some lakh rupees for one trip, but the owner may keep only a small fraction. Show the trip as a bill, with diesel as the biggest line and then tolls. Payoff: why return load (backhaul) decides profit or loss, and why most owners stay stuck at 1-3 trucks.",
+  "hook_pattern": "'One trip, one big number, how much stays' (the same structure as our sleeper bus reel) applied to the most visible fleet business on Indian highways.",
+  "why_it_works": "Reasoning: the sleeper bus reel (₹43,200 from one trip) shows our audience engages with fleet economics told through a single trip. Trucks are a classic 'buy a truck and earn' dream in small-town India, and diesel, tolls and freight rates are public enough to build a defensible model.",
+  "evidence": [],
+  "search_queries": [
+   "truck owner per trip cost diesel toll driver salary Delhi Mumbai freight",
+   "truck operating cost per km India tyre maintenance EMI breakdown",
+   "single truck owner monthly profit India fleet operator return load empty running"
+  ],
+  "id": "idea-own-a-truck-delhi-mumbai-trip-economics",
+  "added": "2026-11-03"
  }
 }
