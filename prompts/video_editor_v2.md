@@ -22,13 +22,14 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 - Show, don't caption: the voiceover is already captioned, so elements carry the *data* (numbers, labels, comparisons, lists), not sentences.
 - Use illustrations (`ill` / `illustration`) for concrete objects in the story — at most one or two per scene, only when they fit.
 - `tint`: "warm" (default), "red" for losses/problems, "cold" for the twist or a surprise turn, "green" for the win/payoff.
-- Rohan's REAL face clips (A-roll) and B-roll — see the CLIPS list below. Use them like this:
-  * In about half the reels the hook scene gets `"aroll": "<face clip>"` — Rohan's face full-screen behind the hook number (e.g. face_shocked,
-    face_point, face_shocked_phone). Faces stop the scroll.
-  * `react` entries get `"clip": "<face clip>"`: Rohan's real reaction pops up as a picture-in-picture card instead of the cartoon.
-    Match the clip to the moment (face_shocked on a painful number, face_smirk_phone on irony, face_thinking on a question, face_serious on the insight).
-  * B-roll (`broll_*`) can be a scene's full-screen `aroll` when it fits the topic (broll_cctv for CCTV, broll_papers for licences/paperwork,
-    broll_clock for payback time). Max 2 full-screen clips per reel besides the hook; never the same clip twice.
+- Rohan's REAL face clips (A-roll) and B-roll — see the CLIPS list below. Use them ONLY where they are natural, never as decoration:
+  * INTRO: the hook scene gets `"aroll": "<face clip>"` — Rohan's face full-screen behind the hook number (face_shocked, face_point,
+    face_shocked_phone…) when it matches the hook's emotion.
+  * OUTRO: `cta.clip` — Rohan pointing/talking to camera for the share line (default face_point).
+  * Mid-reel: NO face clips by default — reactions use the cartoon (`react` without `clip`). Only add a face `clip` to a react when the
+    clip literally shows what is being said (e.g. face_credit_card when the script talks about paying by card) — at most ONE per reel.
+  * B-roll (`broll_*`) only when it literally shows the subject being discussed (broll_cctv for CCTV, broll_papers for licence paperwork);
+    at most one per reel. If nothing truly fits, use none.
 - `react` (Rohan): 3–5 per reel total, on the moments a viewer would react: smirk on irony/jokes, shocked on a painful number,
   serious (+ point) on the key insight, neutral + point when giving steps. He leaves by himself after ~3 s.
 - On-screen text is Roman Hinglish or English, SHORT, mostly UPPERCASE for labels/pills (max ~24 characters for pills/labels,

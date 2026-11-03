@@ -146,6 +146,18 @@ def build_props(plan, words, duration, episode=None):
             for e in sc["elements"]:
                 if e["at"] < new: e["at"] = new
     reacts.sort(key=lambda r: r["at"])
+    # real-face clips belong to the intro/outro: keep at most one mid-reel face reaction, the rest fall back to the cartoon
+    seen = 0
+    for r in reacts:
+        if r.get("clip"):
+            seen += 1
+            if seen > 1: r.pop("clip")
+    # and at most one B-roll background besides the hook
+    broll = 0
+    for k, sc in enumerate(scenes):
+        if k and sc.get("aroll"):
+            broll += 1
+            if broll > 1 or AROLL.get(sc["aroll"], {}).get("kind") == "face": sc.pop("aroll")
     for i, r in enumerate(reacts):
         nxt = reacts[i + 1]["at"] if i + 1 < len(reacts) else 1e9
         r["until"] = round(min(nxt - 0.4, r["at"] + 3.2, cta_start - 0.1), 3)
