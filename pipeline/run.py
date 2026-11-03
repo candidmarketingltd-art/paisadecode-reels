@@ -201,9 +201,21 @@ def main():
         print(f"POSTED {mid} {link}")
 
 
+def _wake(rows):
+    """Rows parked because Apify was out of credit get another chance every run."""
+    for r in rows:
+        if r["status"] == "waiting_apify": r["status"] = "queued"
+
+
+def _park(rows, row, e):
+    row["status"] = "waiting_apify"; row["notes"] = str(e)[:200]; save(rows); log(row, "waiting_apify", str(e)[:200])
+    print(f"      skipped for now (transcript unavailable): {e}", flush=True)
+
+
 def refill(rows, target, dry):
     """Buffer mode: keep `target` reels waiting in Buffer's queue (stays inside the free plan's queue limit)."""
     from pipeline import buffer
+    _wake(rows)
     for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "APIFY_TOKEN", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"):
         print(f"  {k}: {'set' if os.environ.get(k) else 'MISSING'}", flush=True)
     level, how = buffer.queued_count()
@@ -224,7 +236,7 @@ def refill(rows, target, dry):
         row.update(status="in_buffer", ig_media_id=pid, posted_at=f"queued {dt.datetime.now(IST):%Y-%m-%d %H:%M}")
         save(rows); log(row, "in_buffer", pid); made += 1
         print(f"--- queued ready-made reel {row['video_id']} {row['angle']}", flush=True)
-    while made < need and tries < need + 4:
+    while made < need and tries < need + 30:
         tries += 1
         slot = k % 3 + 1
         i, row = pick(rows, slot)
@@ -235,6 +247,8 @@ def refill(rows, target, dry):
                 mp4, caption = make_reel(row, wd)
             except script_writer.FactCheckError as e:
                 row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
+            except transcript.ApifyPaused as e:
+                _park(rows, row, e); continue
             except Exception as e:
                 traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); break
             if dry:
@@ -261,6 +275,7 @@ def make_batch(rows, n, cap):
     """Make n reels now. Queue them in Buffer while it has room (keeps <= cap waiting, free plan max is 10);
     the rest are hosted and marked 'ready' so the twice-daily top-ups queue them later without re-rendering."""
     from pipeline import buffer
+    _wake(rows)
     level, how = buffer.queued_count()
     print(f"Batch: making {n} reels; Buffer has {level} waiting ({how}), cap {cap}", flush=True)
     st_path = ROOT / "logs" / "rotation.json"
@@ -278,6 +293,8 @@ def make_batch(rows, n, cap):
                 url = buffer.host_video(mp4, f"reel-{row['video_id']}-{row['angle']}".replace("_", "-"))
             except script_writer.FactCheckError as e:
                 row["status"] = "skipped_factcheck"; row["notes"] = str(e)[:300]; save(rows); log(row, "skipped_factcheck", str(e)[:300]); continue
+            except transcript.ApifyPaused as e:
+                _park(rows, row, e); continue
             except Exception as e:
                 traceback.print_exc(); fail(row, f"render failed: {str(e)[:250]}"); save(rows); log(row, "error", str(e)[:300]); errors.append(str(e)[:200]); continue
         made += 1; k += 1; st_path.write_text(json.dumps({"next": k}))

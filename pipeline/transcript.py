@@ -9,6 +9,10 @@ CACHE = ROOT / "transcripts"
 ACTOR = (os.environ.get("APIFY_TRANSCRIPT_ACTOR") or "johnvc~YoutubeTranscripts")
 
 
+class ApifyPaused(RuntimeError):
+    """Apify's monthly credit is used up: skip this video for now, retry on a later run."""
+
+
 def get(video_id):
     if video_id.startswith("idea-"):  # scout idea: researched on the web instead of a YouTube transcript
         from pipeline import research
@@ -21,6 +25,8 @@ def get(video_id):
     r = requests.post(url, params={"token": os.environ["APIFY_TOKEN"], "timeout": 240},
                       json={"youtube_url": f"https://www.youtube.com/watch?v={video_id}", "languages": ["hi", "en"],
                             "output_formats": ["text"], "include_metadata": True}, timeout=300)
+    if r.status_code in (402, 403) and ("limit" in r.text.lower() or "platform-feature-disabled" in r.text):
+        raise ApifyPaused(f"Apify usage limit reached: {r.text[:160]}")
     r.raise_for_status()
     items = r.json()
     text = title = description = ""

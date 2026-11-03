@@ -90,7 +90,9 @@ def covered():
 
 def ideas_from(reels, n):
     titles, old = covered()
-    user = ("VIRAL REELS IN OUR NICHE (views, likes, comments, age in days, duration s, owner, caption):\n"
+    user = (("VIRAL REELS IN OUR NICHE (views, likes, comments, age in days, duration s, owner, caption):\n" if reels else
+             "No scraped reels this week. Base the ideas on what we know works for our audience (see system prompt) and on dream-to-own "
+             "businesses Indians are curious about; set evidence to [] and why_it_works to your reasoning.\n")
             + "\n".join(f"- [{r['code']}] {r['views']:,} views · {r['likes']:,} likes · {r['comments']} comments · {r['age_days']}d · {r['duration']}s · @{r['owner']}: {r['caption'][:300]}" for r in reels)
             + "\n\nALREADY COVERED (don't repeat):\n- " + "\n- ".join(titles[-150:])
             + f"\n\nPropose the {n} strongest new ideas. Return only the JSON.")
@@ -138,7 +140,7 @@ def main():
     (SCOUT / "raw").mkdir(parents=True, exist_ok=True)
     (SCOUT / "raw" / f"{stamp}.json").write_text(json.dumps(top, ensure_ascii=False, indent=0), encoding="utf-8")
     if not top:
-        print("no proven reels found this week — nothing to add"); return
+        print("no scraped reels this week (Apify unavailable?) — planning ideas from our own insights + web research instead", flush=True)
     ideas, old = ideas_from(top, CFG.get("ideas_per_week", 6))
     new = []
     for i in ideas:
