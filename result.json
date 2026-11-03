@@ -1,0 +1,58 @@
+{
+ "Toyota Fortuner": {
+  "file": "7d911f57b287.png",
+  "credit": "Toyota Fortuner, Cape Town (P1060077).jpg by Matti Blume (CC BY-SA 4.0, Wikimedia Commons)",
+  "kind": "product",
+  "w": 900,
+  "h": 675
+ },
+ "Amul": {
+  "file": "30f130be1d47.png",
+  "credit": "Amul Logo.png by Amul Uploaded by Chinimilli.naresh at en.wikipedia (Public domain, Wikimedia Commons)",
+  "kind": "logo",
+  "w": 220,
+  "h": 85
+ },
+ "Domino's Pizza": {
+  "file": "faa48c001b1a.png",
+  "credit": "Domino's pizza logo.svg by Domino's Pizza (Public domain, Wikimedia Commons)",
+  "kind": "logo",
+  "w": 895,
+  "h": 900
+ },
+ "Indian Oil petrol pump": {
+  "file": "425210abadea.png",
+  "credit": "Indian Oil Petrol Pump at Chanchalguda jail.jpg by HyderabadEditor (CC BY-SA 4.0, Wikimedia Commons)",
+  "kind": "place",
+  "w": 900,
+  "h": 600
+ },
+ "Maruti Suzuki Swift": {
+  "file": "5f2b2a7df01e.png",
+  "credit": "Maruti Suzuki Swift LXi.jpg by Julian Lim (CC BY 2.0, Wikimedia Commons)",
+  "kind": "product",
+  "w": 640,
+  "h": 480
+ },
+ "Zomato": {
+  "file": "e20a798b5558.png",
+  "credit": "Zomato Logo.svg by Zomato (Public domain, Wikimedia Commons)",
+  "kind": "logo",
+  "w": 900,
+  "h": 193
+ },
+ "PVR Cinemas": {
+  "file": "28e9b832c685.png",
+  "credit": "Pvrcinemas logo.jpg by PVR Cinemas (Public domain, Wikimedia Commons)",
+  "kind": "logo",
+  "w": 250,
+  "h": 242
+ },
+ "Tata Ace": {
+  "file": "b1aae5942a51.png",
+  "credit": "Tata Ace, Korle-Klottey (P1100226).jpg by Matti Blume (CC BY-SA 4.0, Wikimedia Commons)",
+  "kind": "product",
+  "w": 900,
+  "h": 675
+ }
+}
