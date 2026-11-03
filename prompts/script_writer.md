@@ -44,7 +44,7 @@ The example below is older and longer than allowed — copy its tone, not its le
 
 ## Output — return ONLY a JSON object, no markdown fence:
 - `voiceover`: full text with [audio tags], paragraphs separated by \n\n.
-- `ig_caption`: 2–4 short lines in **Roman Hinglish** (Hindi written in English letters the way Indians type it, e.g. "CCTV chal raha hai... par recording band hai" — NO Devanagari in the caption) + a share line ("Us dost ko bhejo jo …") + "Follow @makemoneywithrohan for daily money math" + "Full video: YouTube @PaisaDecodeHQ" (+ disclaimer if the video has one). Max 2 emojis.
+- `ig_caption`: 2–4 short lines in **Roman Hinglish** (Hindi written in English letters the way Indians type it, e.g. "CCTV chal raha hai... par recording band hai" — NO Devanagari in the caption) + a share line ("Us dost ko bhejo jo …") + "Follow @rohandecoder for daily money math" + "Full video: YouTube @PaisaDecodeHQ" (+ disclaimer if the video has one). Max 2 emojis.
 - `hashtags`: 5–8 relevant hashtags.
 - `numbers`: every number used anywhere, as written in the transcript.
 
