@@ -109,7 +109,7 @@ const GoldBars: React.FC<{ t: number }> = ({ t }) => {
 const Padlock: React.FC<{ t: number }> = ({ t }) => {
   const body = useMemo(() => rbox(2, 1.7, 0.8, 0.18), []);
   const open = ease(t, 0.5, 0.75);           // shackle pops up
-  const fall = Math.max(0, t - 1.1);          // then the lock drops away
+  const fall = 0;                              // stays on screen, open (dropping it away left the scene empty)
   return (
     <group position={[0, -0.4 - 0.5 * G * fall * fall * 0.3, 0]} rotation={[0, 0, fall * 1.2]}>
       <mesh geometry={body}><meshStandardMaterial {...CHARCOAL} /></mesh>

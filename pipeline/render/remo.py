@@ -191,7 +191,7 @@ def obj_sfx(add, kind, t):
         for i in range(6): add(t + i * 0.12 + 0.52, "stamp")
         add(t + 1.3, "sparkle")
     elif kind == "padlock":
-        add(t + fall, "impact", p=1.3); add(t + 0.55, "tick", p=0.7); add(t + 0.58, "ding", p=0.8); add(t + 1.1, "whoosh", dur=0.6)
+        add(t + fall, "impact", p=1.3); add(t + 0.55, "tick", p=0.7); add(t + 0.58, "ding", p=0.8)
     elif kind == "vault":
         add(t + fall, "impact", p=0.8); add(t + 0.5, "glide", dur=0.8, p=0.5); add(t + 1.3, "ding", p=0.9); add(t + 1.35, "sparkle")
     elif kind == "funnel":

@@ -74,7 +74,7 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
 - `object3d` {kind}: a real-time 3D HERO object with physical motion — the strongest visual we have; use 2–4 per reel on the big moments.
   Kinds and their action: coin (spins in), coin_stack (coins drop one by one into a growing stack — savings, profit adding up),
   coin_rain (coins pour down into a pile — revenue, "paisa hi paisa"), cash_stack (cash bundles stack up — investment, lakhs),
-  gold_bars (gold bars stack into a pyramid — wealth, premium), padlock (unlocks and drops — a secret revealed, licence/rights unlocked),
+  gold_bars (gold bars stack into a pyramid — wealth, premium), padlock (snaps open — a secret revealed, licence/rights unlocked),
   vault (door swings open, gold glow — hidden money, the real profit), funnel (coins pour through — costs/commissions taking a cut),
   chart_up / chart_down (bars grow — growth / decline), building (windows light up floor by floor — hotel, hospital, mall, office, company),
   shop (shutter rolls up — store, dukaan, franchise outlet), truck (drives in — logistics, delivery, fleet), fuel_pump (petrol pump),
