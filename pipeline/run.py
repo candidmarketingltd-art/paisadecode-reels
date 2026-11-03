@@ -109,6 +109,9 @@ def make_reel(row, workdir):
     final = str(OUT / f"{row['date']}_{row['time_ist'].replace(':', '')}_{vid}_{angle}{'_hisaab' if plan.get('style') == 'v2' else ''}.mp4")
     if plan.get("style") == "v2":
         props = remo.render(plan, words, dur, mp3, final, workdir, episode=plan.get("episode"))
+        if props.get("photo_credits"):
+            plan["photo_credits"] = props["photo_credits"]
+            plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
         try:  # keep the exact timeline (scene starts, element times, word timings) for retention analysis later
             tdir = ROOT / "logs" / "timings"; tdir.mkdir(parents=True, exist_ok=True)
             keep = {k: props[k] for k in ("duration", "scenes", "reacts", "cta", "endcard", "words", "badge")}
@@ -144,6 +147,8 @@ def fail(row, note):
 
 def caption_of(plan, row):
     cap = (plan.get("ig_caption") or row["title"]).replace("@makemoneywithrohan", "@rohandecoder")  # handle renamed
+    if plan.get("photo_credits"):
+        cap += "\n\nImages: " + "; ".join(plan["photo_credits"])
     tags = " ".join(plan.get("hashtags", []) or ["#PaisaDecode"])
     return f"{cap}\n\n{tags}"[:2150]
 

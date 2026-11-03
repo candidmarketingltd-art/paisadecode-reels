@@ -128,3 +128,25 @@ export const Ill: React.FC<{ name: string; size: number; at: number; style?: Rea
       translate: `0 ${Math.sin(f / 14) * size * 0.025}px`, filter: `drop-shadow(0 ${size * 0.12}px ${size * 0.15}px rgba(0,0,0,.55))`, ...style }} />
   );
 };
+
+/** real photo / logo (freely licensed, see pipeline/render/photos.py): logos on a white plate, photos cropped with a slow zoom */
+export const Photo: React.FC<{ src: string; logo?: boolean; w: number; h: number; at: number; credit?: string; radius?: number }> = ({ src, logo, w, h, at, credit, radius = 22 }) => {
+  const f = useCurrentFrame();
+  const s = spring({ frame: f - fx(at), fps: FPS, config: { damping: 13, stiffness: 150 } });
+  const zoom = 1.04 + 0.06 * interpolate(f, [fx(at), fx(at) + 150], [0, 1], clamp);
+  return (
+    <div style={{ width: w, height: h, borderRadius: radius, overflow: "hidden", position: "relative", scale: `${0.85 + 0.15 * s}`,
+      background: logo ? "linear-gradient(180deg,#FFFFFF,#ECEAE4)" : "#111", border: `2px solid ${logo ? "rgba(255,255,255,.6)" : COL.edge}`,
+      boxShadow: "0 24px 60px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.15)" }}>
+      <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: logo ? "contain" : "cover", padding: logo ? Math.min(w, h) * 0.12 : 0,
+        scale: logo ? "1" : `${zoom}` }} />
+      {credit && Math.min(w, h) >= 160 && <div style={{ position: "absolute", right: 8, bottom: 6, font: `500 13px ${MONO}`, color: logo ? "#666" : "rgba(255,255,255,.75)",
+        textShadow: logo ? "none" : "0 1px 3px #000", maxWidth: w - 16, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{credit}</div>}
+    </div>
+  );
+};
+
+/** the visual slot on cards/headlines/steps: real photo or logo when the pipeline found one, else the 3D illustration */
+export const Vis: React.FC<{ o: any; size: number; at: number }> = ({ o, size, at }) =>
+  o.photo ? <Photo src={o.photo} logo={(o.photo_kind || "") === "logo"} w={size} h={size} at={at} radius={Math.max(12, size * 0.18)} />
+    : o.ill ? <Ill name={o.ill} size={size} at={at} /> : null;

@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, random, Easing } from "remotion";
-import { COL, MONO, SANS, FPS, clamp, easeOut, fx, col, fit, Card, Pill, Mono, Big, Ill, Reveal } from "./lib";
+import { COL, MONO, SANS, FPS, clamp, easeOut, fx, col, fit, Card, Pill, Mono, Big, Ill, Vis, Photo, Reveal } from "./lib";
 import { Object3D } from "./Object3D";
 
 /* All times are seconds (already resolved from cue words by the pipeline). Width of the content column is 940. */
@@ -29,10 +29,10 @@ const DotGrid: React.FC<{ at: number; n: number; cols: number; size: number; gap
 
 const StatCard: React.FC<{ c: any; w: number; h: number }> = ({ c, w, h }) => {
   const color = col(c.color, COL.gold);
-  const vs = fit(c.value || "", w - 56 - (c.ill ? Math.min(110, h * 0.36) * 0.75 : 0), h * 0.42, 0.7);
+  const vs = fit(c.value || "", w - 56 - ((c.ill || c.photo) ? Math.min(110, h * 0.36) * 0.75 : 0), h * 0.42, 0.7);
   return (
     <Card w={w} h={h} label={c.label} accent={color} glow={c.glow ? color : undefined} glowAt={c.at} shineAt={c.at + 0.15}>
-      {c.ill && <div style={{ position: "absolute", right: 14, top: 10 }}><Ill name={c.ill} size={Math.min(110, h * 0.36)} at={c.at + 0.1} /></div>}
+      {(c.ill || c.photo) && <div style={{ position: "absolute", right: 14, top: 10 }}><Vis o={c} size={Math.min(110, h * 0.36)} at={c.at + 0.1} /></div>}
       <div style={{ position: "absolute", left: 26, top: h * 0.27 }}><Big s={vs} c={color} at={c.at}>{c.value || ""}</Big></div>
       {c.sub && <Mono s={22} style={{ position: "absolute", left: 28, bottom: 22 }}>{c.sub}</Mono>}
     </Card>
@@ -52,11 +52,11 @@ export const SPECS: Record<string, Spec> = {
   headline: {
     h: (e) => (e.sub ? 70 : 0) + (e.size === "l" ? 150 : 100),
     R: ({ e }) => {
-      const s = fit(e.text, e.ill ? 760 : 920, e.size === "l" ? 130 : 84, 0.55);
+      const s = fit(e.text, (e.ill || e.photo) ? 760 : 920, e.size === "l" ? 130 : 84, 0.55);
       return (
         <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-            {e.ill && <Ill name={e.ill} size={s * 1.3} at={e.at} />}
+            {(e.ill || e.photo) && <Vis o={e} size={s * 1.3} at={e.at} />}
             <Big s={s} c={col(e.color)} at={e.at}>{e.text}</Big>
           </div>
           {e.sub && <Reveal at={e.sub_at ?? e.at + 0.3} style={{}}><div style={{ font: `700 ${fit(e.sub, 900, 48)}px ${SANS}`, color: col(e.sub_color, COL.gold), whiteSpace: "nowrap" }}>{e.sub}</div></Reveal>}
@@ -84,8 +84,8 @@ export const SPECS: Record<string, Spec> = {
     R: ({ e }) => (
       <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          {e.ill && <Ill name={e.ill} size={200} at={e.at + 0.15} />}
-          <Big s={fit(e.value, e.ill ? 680 : 900, 320, 0.7)} c={col(e.color, COL.gold)} at={e.at}>{e.value}</Big>
+          {(e.ill || e.photo) && <Vis o={e} size={200} at={e.at + 0.15} />}
+          <Big s={fit(e.value, (e.ill || e.photo) ? 680 : 900, 320, 0.7)} c={col(e.color, COL.gold)} at={e.at}>{e.value}</Big>
         </div>
         {e.note && <Reveal at={e.note_at ?? e.at + 0.5} style={{ marginTop: 18 }}><Pill text={e.note} bg={col(e.note_color, COL.red)} outline size={fit(e.note, 860, 30, 0.72)} /></Reveal>}
       </div>
@@ -147,7 +147,7 @@ export const SPECS: Record<string, Spec> = {
       const sa = e.strike_at ?? Rr.at + 0.3;
       const strike = interpolate(f, [fx(sa), fx(sa + 0.3)], [0, 1], { ...clamp, easing: easeOut });
       const lose = f >= fx(Rr.at);
-      const vsL = fit(L.value, 395, 150, 0.7), vsR = fit(Rr.value, Rr.ill ? 330 : 395, 150, 0.7);
+      const vsL = fit(L.value, 395, 150, 0.7), vsR = fit(Rr.value, (Rr.ill || Rr.photo) ? 330 : 395, 150, 0.7);
       return (
         <div style={{ position: "relative", width: W, height: 380 }}>
           <Reveal at={e.at} style={{ position: "absolute", left: 0 }}>
@@ -161,7 +161,7 @@ export const SPECS: Record<string, Spec> = {
           </Reveal>
           <Reveal at={Rr.at} style={{ position: "absolute", left: 490 }}>
             <Card w={450} h={380} label={Rr.label} accent={col(Rr.color, COL.red)} glow={col(Rr.color, COL.red)} glowAt={Rr.at} shineAt={Rr.at + 0.15}>
-              {Rr.ill && <div style={{ position: "absolute", right: 14, top: 12 }}><Ill name={Rr.ill} size={100} at={Rr.at} /></div>}
+              {(Rr.ill || Rr.photo) && <div style={{ position: "absolute", right: 14, top: 12 }}><Vis o={Rr} size={100} at={Rr.at} /></div>}
               <div style={{ position: "absolute", left: 26, top: 110 }}><Big s={vsR} c={col(Rr.color, COL.red)} at={Rr.at}>{Rr.value}</Big></div>
               {Rr.sub && <Mono s={22} style={{ position: "absolute", left: 28, bottom: 22 }}>{Rr.sub}</Mono>}
             </Card>
@@ -224,9 +224,9 @@ export const SPECS: Record<string, Spec> = {
             <Card w={W} h={125} glow={COL.gold} glowAt={it.at} shineAt={it.at + 0.1}>
               <div style={{ position: "absolute", left: 32, top: 0, bottom: 0, display: "flex", alignItems: "center", gap: 30 }}>
                 <Mono s={38} c={COL.gold} w={800}>{String(i + 1).padStart(2, "0")}</Mono>
-                <div style={{ font: `800 ${fit(it.text, it.ill ? 640 : 760, 52, 0.55)}px ${SANS}`, color: COL.txt, letterSpacing: -1, whiteSpace: "nowrap" }}>{it.text}</div>
+                <div style={{ font: `800 ${fit(it.text, (it.ill || it.photo) ? 640 : 760, 52, 0.55)}px ${SANS}`, color: COL.txt, letterSpacing: -1, whiteSpace: "nowrap" }}>{it.text}</div>
               </div>
-              {it.ill && <div style={{ position: "absolute", right: 22, top: 12 }}><Ill name={it.ill} size={100} at={it.at + 0.1} /></div>}
+              {(it.ill || it.photo) && <div style={{ position: "absolute", right: 22, top: 12 }}><Vis o={it} size={100} at={it.at + 0.1} /></div>}
             </Card>
           </Reveal>
         ))}
@@ -310,6 +310,20 @@ export const SPECS: Record<string, Spec> = {
           <div style={{ position: "absolute", inset: "10%", borderRadius: "50%", background: `radial-gradient(closest-side, ${col(e.glow, COL.gold)}40, transparent)`, scale: "1.6" }} />
           <Ill name={e.name} size={e.size === "l" ? 400 : 280} at={e.at} />
         </div>
+        {e.caption && <Mono s={fit(e.caption, 900, 34, 0.66)} c={COL.txt} w={800} style={{ marginTop: 16 }}>{e.caption}</Mono>}
+      </div>
+    ),
+  },
+
+  photo_card: {
+    h: (e) => (e.photo ? ((e.photo_kind || "") === "logo" ? 300 : 540) : (e.ill ? 300 : 0)) + (e.caption ? 70 : 0),
+    R: ({ e }) => (
+      <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center" }}>
+        {e.photo
+          ? ((e.photo_kind || "") === "logo"
+            ? <Photo src={e.photo} logo w={520} h={300} at={e.at} credit={e.photo_credit} radius={28} />
+            : <Photo src={e.photo} w={W} h={540} at={e.at} credit={e.photo_credit} radius={28} />)
+          : e.ill ? <Ill name={e.ill} size={280} at={e.at} /> : null}
         {e.caption && <Mono s={fit(e.caption, 900, 34, 0.66)} c={COL.txt} w={800} style={{ marginTop: 16 }}>{e.caption}</Mono>}
       </div>
     ),

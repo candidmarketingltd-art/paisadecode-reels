@@ -129,7 +129,7 @@ def write(transcript, title, angle_code, angle_brief, previous_hooks=()):
 V2_TYPES = {
     "pill": ["text"], "label": ["text"], "headline": ["text"], "stat_row": ["cards"], "big_number": ["value"], "split_bar": ["parts"],
     "dot_grid": ["total"], "vs": ["left", "right"], "arrow_pair": ["left", "right"], "strike_list": ["items"], "steps": ["items"],
-    "ledger": ["rows"], "calculator": ["value"], "title_slam": ["text"], "illustration": ["name"], "object3d": ["kind"], "money_rain": [],
+    "ledger": ["rows"], "calculator": ["value"], "title_slam": ["text"], "illustration": ["name"], "object3d": ["kind"], "money_rain": [], "photo_card": ["photo"],
 }
 
 

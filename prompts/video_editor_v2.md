@@ -59,8 +59,17 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
 - `title_slam` {text, sub?, color?}: giant word/number with a screen shake (e.g. "3" + "CHOT").
 - `illustration` {name, size?: "m"|"l", caption?, glow?}: one big 3D illustration.
 - `object3d` {kind: "jar"|"coin"|"box"}: real-time 3D object that spins in (use at most twice per reel: water jar, coin for money, box for products/delivery).
+- `photo_card` {photo, photo_kind: "logo"|"product"|"place", caption?, ill}: a REAL photo or logo, fetched automatically by search query
+  `photo` (e.g. "Toyota Fortuner", "Amul", "Indian Oil", "PVR cinema", "Domino's Pizza"). Logo = brand mark on a white plate; product/place =
+  a big cropped photo. Always also give `ill` as the fallback if no freely licensed image exists.
 - `money_rain` {}: green ₹ notes rain down for ~2 s (for "money printing machine", windfalls). Put it alongside other elements.
 Layout is automatic: elements stack top to bottom in the order you list them; keep a scene to what fits (roughly ≤ 3 big elements).
+
+## Real brands, products and places (important)
+Whenever the voiceover names a real brand, company, vehicle/product model or famous place (Fortuner, Amul, Domino's, Indian Oil, PVR,
+Zomato, Blinkit, Taj hotel…), SHOW IT the moment it is first named: a `photo_card` (logo for brands/companies, product for vehicles and
+products, place for buildings) — or put `photo` + `photo_kind` on a stat card / headline / big_number / step instead of `ill`.
+Use 1–3 per reel, only for the brands the reel is actually about. Generic things (water, chai, a truck in general) stay illustrations.
 
 ## Illustrations (`ill` on cards/steps/headline/big_number/vs-right, or `illustration.name`) — use ONLY these exact names
 {ILLUSTRATIONS}

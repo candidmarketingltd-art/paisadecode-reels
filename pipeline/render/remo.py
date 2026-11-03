@@ -17,7 +17,7 @@ SERIES = os.environ.get("SERIES_NAME") or "HISAAB"
 FPS = 30
 
 TYPES = {"pill", "label", "headline", "stat_row", "big_number", "split_bar", "dot_grid", "vs", "arrow_pair", "strike_list",
-         "steps", "ledger", "calculator", "title_slam", "illustration", "object3d", "money_rain"}
+         "steps", "ledger", "calculator", "title_slam", "illustration", "object3d", "money_rain", "photo_card"}
 MOODS = {"neutral", "smirk", "shocked", "serious"}
 
 
@@ -188,6 +188,7 @@ def sfx_hits(props):
                 add(e.get("value_at", t + 0.8), "thud")
             elif ty == "title_slam": add(t, "thud")
             elif ty == "illustration": add(t, "pop")
+            elif ty == "photo_card": add(t - 0.1, "whoosh"); add(t + 0.05, "pop")
             elif ty == "object3d": add(t - 0.1, "whoosh"); add(t + 0.3, "pop")
             elif ty == "money_rain": add(t, "ding")
     c = props["cta"]; add(c["start"] - 0.1, "whoosh"); add(c["line1_at"], "pop"); add(c.get("line2_at"), "pop")
@@ -203,6 +204,8 @@ def _npm_ready():
 
 def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
     props = build_props(plan, words, duration, episode)
+    from pipeline.render import photos
+    props["photo_credits"] = photos.resolve(props)  # real photos/logos (free licences only), else illustration fallback
     pj = Path(workdir) / "props.json"; pj.write_text(json.dumps(props, ensure_ascii=False))
     _npm_ready()
     vid = str(Path(workdir) / "video_only.mp4")
