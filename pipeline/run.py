@@ -143,7 +143,7 @@ def fail(row, note):
 
 
 def caption_of(plan, row):
-    cap = plan.get("ig_caption") or row["title"]
+    cap = (plan.get("ig_caption") or row["title"]).replace("@makemoneywithrohan", "@rohandecoder")  # handle renamed
     tags = " ".join(plan.get("hashtags", []) or ["#PaisaDecode"])
     return f"{cap}\n\n{tags}"[:2150]
 
