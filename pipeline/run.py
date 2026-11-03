@@ -46,7 +46,9 @@ def current_slot(now):
 def pick(rows, slot):
     open_rows = [(i, r) for i, r in enumerate(rows) if r["status"] in ("queued", "rendered")]
     pri = [x for x in open_rows if x[1].get("priority")]
-    if pri: open_rows = pri  # remakes / priority rows go first, whatever the slot
+    if pri:  # priority rows go first, whatever the slot, lowest number first
+        rank = lambda x: int(x[1]["priority"]) if str(x[1]["priority"]).isdigit() else 999
+        return sorted(pri, key=lambda x: (rank(x), x[1]["date"], x[1]["time_ist"]))[0]
     key = lambda x: (0 if x[1].get("priority") else 1, x[1]["date"], x[1]["time_ist"])
     same = sorted([x for x in open_rows if x[1]["category"] == SLOT_CAT[slot]], key=key)
     return (same or sorted(open_rows, key=key) or [(None, None)])[0]
