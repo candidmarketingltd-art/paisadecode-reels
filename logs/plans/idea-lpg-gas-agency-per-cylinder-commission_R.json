@@ -1,0 +1,538 @@
+{
+ "voiceover": "[urgent, punchy] ₹942 का गैस सिलेंडर लेते हो? एजेंसी मालिक को मिलते हैं सिर्फ़ ₹62 से ₹73।\n\n[intrigued, building energy] और आख़िर में बताऊँगा, ये कमीशन कितने साल से हिला ही नहीं।\n\n[excited, fast] दाम में तीन चीज़ें: गैस का दाम, एजेंसी का कमीशन, और 5% GST। कमीशन पेट्रोलियम मंत्रालय तय करता है।\n\n[serious] और ये प्रॉफ़िट नहीं है। इसी में सिलेंडर उठाना, तुम्हारे घर पहुँचाना, सैलरी, किराया, बिजली, फ़ोन, सब आता है।\n\n[punchy] मंत्रालय के मुताबिक एक सिलेंडर की सप्लाई लागत लगभग ₹1,600 से ₹1,700 है। जून की बढ़ोतरी से पहले तेल कंपनियाँ हर सिलेंडर पर करीब ₹703 गँवा रही थीं।\n\n[emphatic] और कमीशन? नवंबर 2018 में ₹50.58। अब पाँच साल से जस का तस।\n\n[confident] एजेंसी खोलनी है? पहले PPAC की Ready Reckoner में कमीशन खुद देखो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो कहता है, \"यार, गैस एजेंसी में तो बैठे-बैठे कमाई है।\"",
+ "ig_caption": "₹942 ke cylinder mein agency owner ko milte hain sirf ₹62 se ₹73 🔥 Aur wo bhi paanch saal se frozen hai.\n\nUs dost ko bhejo jo bolta hai \"gas agency mein toh baithe-baithe kamai hai\" 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se hain, approximate\nCommission figure source ke hisaab se alag hai (₹61.84 se ₹73.08). Not financial advice.",
+ "hashtags": [
+  "#GasAgency",
+  "#LPG",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹942",
+  "₹62–₹73",
+  "5% GST",
+  "₹1,600 to ₹1,700",
+  "₹703",
+  "₹50.58 from Nov 2018",
+  "unchanged for five years",
+  "₹61.84",
+  "₹73.08"
+ ],
+ "style": "v2",
+ "tag": "GAS AGENCY",
+ "disclaimer": true,
+ "captions": [
+  "*₹942",
+  "ka",
+  "gas",
+  "*cylinder",
+  "lete",
+  "ho?",
+  "Agency",
+  "maalik",
+  "ko",
+  "milte",
+  "hain",
+  "sirf",
+  "*₹62",
+  "se",
+  "*₹73.",
+  "Aur",
+  "aakhir",
+  "mein",
+  "bataunga,",
+  "ye",
+  "*commission",
+  "kitne",
+  "*saal",
+  "se",
+  "hila",
+  "hi",
+  "nahi.",
+  "Daam",
+  "mein",
+  "*teen",
+  "cheezein:",
+  "gas",
+  "ka",
+  "daam,",
+  "agency",
+  "ka",
+  "commission,",
+  "aur",
+  "*5%",
+  "*GST.",
+  "Commission",
+  "*Petroleum",
+  "*Mantralay",
+  "tay",
+  "karta",
+  "hai.",
+  "Aur",
+  "ye",
+  "*profit",
+  "nahi",
+  "hai.",
+  "Isi",
+  "mein",
+  "cylinder",
+  "uthaana,",
+  "tumhare",
+  "ghar",
+  "pahunchana,",
+  "*salary,",
+  "*kiraya,",
+  "bijli,",
+  "phone,",
+  "sab",
+  "aata",
+  "hai.",
+  "Mantralay",
+  "ke",
+  "mutabik",
+  "ek",
+  "cylinder",
+  "ki",
+  "supply",
+  "*laagat",
+  "lagbhag",
+  "*₹1,600",
+  "se",
+  "*₹1,700",
+  "hai.",
+  "June",
+  "ki",
+  "badhotari",
+  "se",
+  "pehle",
+  "tel",
+  "*companiyan",
+  "har",
+  "cylinder",
+  "par",
+  "kareeb",
+  "*₹703",
+  "*ganwa",
+  "rahi",
+  "thi.",
+  "Aur",
+  "*commission?",
+  "November",
+  "*2018",
+  "mein",
+  "*₹50.58.",
+  "Ab",
+  "*paanch",
+  "*saal",
+  "se",
+  "jas",
+  "ka",
+  "tas.",
+  "Agency",
+  "kholni",
+  "hai?",
+  "Pehle",
+  "*PPAC",
+  "ki",
+  "*Ready",
+  "*Reckoner",
+  "mein",
+  "commission",
+  "khud",
+  "dekho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "kehta",
+  "hai,",
+  "\"Yaar,",
+  "gas",
+  "agency",
+  "mein",
+  "toh",
+  "*baithe-baithe",
+  "*kamai",
+  "hai.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹942 का गैस",
+   "chapter": "₹942 KA CYLINDER",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹942",
+     "color": "gold",
+     "ill": "fire",
+     "at": "₹942 का गैस",
+     "note": "AGENCY KO KITNA?",
+     "note_at": "एजेंसी मालिक"
+    }
+   ]
+  },
+  {
+   "at": "एजेंसी मालिक",
+   "chapter": "MALIK KA HISSA",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹73।",
+     "mood": "shocked",
+     "clip": "face_shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "एजेंसी मालिक",
+     "parts": [
+      {
+       "label": "₹942 MEIN BAAKI",
+       "value": 942,
+       "color": "muted",
+       "at": "एजेंसी मालिक"
+      },
+      {
+       "label": "AGENCY",
+       "value": 62,
+       "text": "₹62–73",
+       "color": "gold",
+       "at": "₹62 से"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और आख़िर",
+   "chapter": "TEASER",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "हिला ही",
+     "mood": "neutral",
+     "clip": "face_thinking"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "और आख़िर"
+    },
+    {
+     "type": "pill",
+     "text": "KITNE SAAL SE FROZEN?",
+     "color": "blue",
+     "at": "कितने साल"
+    }
+   ]
+  },
+  {
+   "at": "दाम में तीन",
+   "chapter": "DAAM KA BREAKUP",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "3",
+     "sub": "CHEEZEIN",
+     "color": "gold",
+     "at": "दाम में तीन"
+    }
+   ]
+  },
+  {
+   "at": "गैस का दाम,",
+   "chapter": "₹942 KE ANDAR",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "गैस का दाम,",
+     "parts": [
+      {
+       "label": "GAS KA DAAM",
+       "value": 703,
+       "color": "blue",
+       "at": "गैस का दाम,"
+      },
+      {
+       "label": "COMMISSION",
+       "value": 73,
+       "text": "₹62–73",
+       "color": "gold",
+       "at": "एजेंसी का कमीशन,"
+      },
+      {
+       "label": "GST",
+       "value": 62,
+       "text": "5%",
+       "color": "red",
+       "at": "5% GST।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "कमीशन पेट्रोलियम",
+   "chapter": "KAUN TAY KARTA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "PETROLEUM MANTRALAY",
+     "size": "l",
+     "ill": "classical_building",
+     "at": "कमीशन पेट्रोलियम"
+    },
+    {
+     "type": "pill",
+     "text": "COMMISSION FIXED",
+     "color": "gold",
+     "at": "तय करता"
+    }
+   ]
+  },
+  {
+   "at": "और ये प्रॉफ़िट",
+   "chapter": "PROFIT NAHI",
+   "tint": "red",
+   "react": [
+    {
+     "at": "और ये प्रॉफ़िट",
+     "mood": "serious",
+     "point": true,
+     "clip": "face_serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "COMMISSION ≠ PROFIT",
+     "size": "l",
+     "color": "red",
+     "ill": "cross_mark",
+     "at": "और ये प्रॉफ़िट"
+    }
+   ]
+  },
+  {
+   "at": "इसी में सिलेंडर",
+   "chapter": "ISI MEIN SAB",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "इसी में सिलेंडर",
+     "items": [
+      {
+       "text": "Cylinder uthaana",
+       "at": "सिलेंडर उठाना,"
+      },
+      {
+       "text": "Ghar tak delivery",
+       "at": "घर पहुँचाना,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "सैलरी, किराया,",
+   "chapter": "KHARCHE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "सैलरी, किराया,"
+    },
+    {
+     "type": "pill",
+     "text": "SAB ISI ₹62–73 MEIN",
+     "color": "red",
+     "at": "सब आता"
+    }
+   ]
+  },
+  {
+   "at": "मंत्रालय के मुताबिक",
+   "chapter": "ASLI LAAGAT",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "gas_cylinder",
+     "at": "मंत्रालय के मुताबिक"
+    },
+    {
+     "type": "label",
+     "text": "1 CYLINDER · SUPPLY LAAGAT",
+     "at": "सप्लाई लागत"
+    }
+   ]
+  },
+  {
+   "at": "लगभग ₹1,600",
+   "chapter": "₹942 SE ZYADA",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹1,700 है।",
+     "mood": "shocked",
+     "clip": "face_disbelief"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹1,600",
+     "color": "red",
+     "at": "लगभग ₹1,600",
+     "note": "SE ₹1,700 TAK",
+     "note_at": "₹1,700 है।",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "जून की बढ़ोतरी",
+   "chapter": "JUNE SE PEHLE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "chart_down",
+     "at": "जून की बढ़ोतरी"
+    },
+    {
+     "type": "pill",
+     "text": "TEL COMPANIES · LOSS",
+     "color": "red",
+     "at": "तेल कंपनियाँ"
+    }
+   ]
+  },
+  {
+   "at": "करीब ₹703",
+   "chapter": "HAR CYLINDER LOSS",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−₹703",
+     "color": "red",
+     "ill": "oil_drum",
+     "at": "करीब ₹703",
+     "note": "HAR CYLINDER PE",
+     "note_at": "गँवा रही",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "नवंबर 2018",
+   "chapter": "COMMISSION FREEZE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "NOV 2018 · COMMISSION",
+     "color": "blue",
+     "at": "नवंबर 2018"
+    },
+    {
+     "type": "big_number",
+     "value": "₹50.58",
+     "color": "gold",
+     "ill": "spiral_calendar",
+     "at": "₹50.58।"
+    }
+   ]
+  },
+  {
+   "at": "अब पाँच साल",
+   "chapter": "5 SAAL FROZEN",
+   "tint": "cold",
+   "aroll": "broll_clock",
+   "react": [
+    {
+     "at": "जस का",
+     "mood": "smirk",
+     "clip": "face_smirk_phone"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "5 SAAL",
+     "sub": "JAS KA TAS",
+     "color": "blue",
+     "at": "अब पाँच साल"
+    }
+   ]
+  },
+  {
+   "at": "एजेंसी खोलनी",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "AGENCY KHOLNI HAI?",
+     "size": "l",
+     "ill": "office_building",
+     "at": "एजेंसी खोलनी"
+    }
+   ]
+  },
+  {
+   "at": "पहले PPAC",
+   "chapter": "PEHLE YE DEKHO",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "PPAC Petroleum Planning and Analysis Cell",
+     "photo_kind": "logo",
+     "caption": "READY RECKONER",
+     "ill": "bookmark_tabs",
+     "at": "पहले PPAC"
+    },
+    {
+     "type": "pill",
+     "text": "COMMISSION KHUD DEKHO",
+     "color": "green",
+     "at": "खुद देखो।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo agency mein baithe-baithe kamai sochta hai",
+  "line2_at": "बैठे-बैठे कमाई"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 gas agency decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 23
+}
