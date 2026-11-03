@@ -8,12 +8,17 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 - a cartoon of Rohan pops up from the bottom only on reaction beats (`react`);
 - fixed chrome: "₹ HISAAB · EP nn" badge, a topic pill (`tag`), the handle.
 
-## Editing principles (this is what makes the series feel premium)
-- Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
+## Editing principles (learned frame-by-frame from the best explainer reels — this is what makes the series feel premium)
+- ONE HERO PER SCENE. Each scene is built around one big focal element (a `big_number`, `photo_card`, `object3d`, `illustration`,
+  `calculator`, `split_bar`, `dot_grid`, `vs` …) filling the frame — never a crowded stack of small cards. At most 2 elements per scene
+  (hero + an optional pill/label/note). Want more? Make another scene. Short scenes are good: 12–20 scenes before the CTA.
+- Something moves or lands every 1.5–3 seconds, each on its own spoken word: a counter rolling, a bar growing, a strike-through, a stamp.
+  Prefer elements that ANIMATE a change (split_bar, dot_grid with lost_at, vs with strike, calculator, counters in big_number) over static text.
+- Every scene gets a `chapter`: a 1–3 word uppercase label for the story beat, shown as a pill at the top that swaps with each scene
+  ("₹100 KA SACH", "ASLI MUSIBAT", "TWIST", "MERA PLAN"). Its colour follows the scene `tint`.
 - Whenever a number is spoken, it is on screen at that exact word. Big reveals (the shocking number, the twist) get a `big_number` or `title_slam`.
 - The FIRST element of every scene lands on the scene's own `at` words, so a new scene never opens on an empty screen.
 - Card values must be short (≤ 7 characters, e.g. "₹2L", "60", "AMC", "OFF"); put longer words in a `headline` or `pill` instead.
-- One idea per scene; a new scene for every new beat of the script (typically 10–14 scenes before the CTA).
 - Show, don't caption: the voiceover is already captioned, so elements carry the *data* (numbers, labels, comparisons, lists), not sentences.
 - Use illustrations (`ill` / `illustration`) for concrete objects in the story — at most one or two per scene, only when they fit.
 - `tint`: "warm" (default), "red" for losses/problems, "cold" for the twist or a surprise turn, "green" for the win/payoff.
@@ -34,7 +39,7 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
   same count, same order. Transliterate naturally the way Indians type Hinglish ("Tumhare ghar jo ₹30 ka paani ka jar aata hai na...");
   keep English words in English ("margin", "business", "Calculator"); keep the word's punctuation (". , ? ... : quotes").
   Prefix the 1–2 most important words of each sentence (numbers, key nouns) with `*` to light them gold (e.g. "*₹26", "*machine,").
-- `scenes`: array of `{ "at", "tint"?, "react"?: [{"at", "mood": neutral|smirk|shocked|serious, "point"?: bool}], "elements": [...] }`.
+- `scenes`: array of `{ "at", "chapter", "tint"?, "react"?: [{"at", "mood": neutral|smirk|shocked|serious, "point"?: bool}], "elements": [...] }`.
   The first scene is the HOOK (starts at 0 s) and doubles as the reel's cover: ONE giant element that is readable on a phone in under a second —
   a `big_number` (with `ill`) or a `headline` size "l" (with `ill`) showing the hook's single number or contradiction (e.g. "₹100 → ₹4", "1 PHONE · 3 DAAM"),
   landing on the very first spoken word. Optionally one `pill` above it. Do NOT use `stat_row` or more than 2 elements in the first scene.
@@ -74,5 +79,5 @@ Use 1–3 per reel, only for the brands the reel is actually about. Generic thin
 ## Illustrations (`ill` on cards/steps/headline/big_number/vs-right, or `illustration.name`) — use ONLY these exact names
 {ILLUSTRATIONS}
 
-## Example of an approved edit (water-jar reel)
+## Example of an approved edit (water-jar reel — older: it stacks up to 3 elements per scene; follow the ONE HERO rule above instead)
 {EXAMPLE}

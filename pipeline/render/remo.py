@@ -128,7 +128,7 @@ def build_props(plan, words, duration, episode=None):
             r = R.walk(e, st, st + 0.05 + 0.25 * k)
             if "at" not in r: r["at"] = round(st + 0.05 + 0.25 * k, 3)
             els.append(r)
-        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "elements": els})
+        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "chapter": (s.get("chapter") or "")[:26], "elements": els})
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
             reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}"})
@@ -156,44 +156,77 @@ def build_props(plan, words, duration, episode=None):
 
 
 # ------------------------------------------------------------------ sound design (one hit per visual event)
+LAND = 0.07  # elements visibly "land" ~2 frames after they start (spring + blur-to-sharp), so hits sit there
+
+
+def _one_number(v):
+    return len(re.findall(r"\d[\d,]*", str(v or ""))) == 1
+
+
 def sfx_hits(props):
+    """One designed sound per visual event, timed to the frame it lands (see audio.build_ui_sfx)."""
     H = []
-    add = lambda t, k: H.append((round(t, 3), k)) if t is not None else None
-    def roll(t, n=8):
-        for i in range(n): add(t + i * 0.1, "tick")
+    def add(t, k, **kw):
+        if t is not None: H.append({"t": round(float(t), 3), "k": k, **kw})
+    def counter(t, dur=0.9, p=1.0, land="ding"):  # tone climbs with the rolling number, chime when it stops
+        add(t, "glide", dur=dur, p=p); add(t + dur, land)
     for i, s in enumerate(props["scenes"]):
-        if i: add(s["start"] - 0.12, "whoosh")
+        if i: add(s["start"], "whoosh")
+        if s.get("chapter"): add(s["start"] + 0.05, "tick", p=1.3)
         for e in s["elements"]:
-            t, ty = e["at"], e["type"]
-            if ty == "pill": add(t, "ding" if e.get("color") == "green" else "pop")
-            elif ty == "label": add(t, "tick")
-            elif ty == "headline": add(t, "thud" if e.get("size") == "l" else "pop"); add(e.get("sub_at"), "pop")
+            t, ty = e["at"], e["type"]; L = t + LAND
+            if ty == "pill": add(L, "ding" if e.get("color") == "green" else "pop", p=1.1)
+            elif ty == "label": add(L, "tick")
+            elif ty == "headline":
+                add(L, "impact" if e.get("size") == "l" else "pop")
+                if _one_number(e.get("text")): counter(t, 0.9, land="tick")
+                if e.get("ill") or e.get("photo"): add(L + 0.08, "sparkle")
+                add(e.get("sub_at"), "pop")
             elif ty == "stat_row":
-                for c in e["cards"]: add(c["at"], "pop"); roll(c["at"], 5) if re.search(r"\d", str(c.get("value", ""))) else None
-            elif ty == "big_number": add(t, "thud"); roll(t); add(e.get("note_at"), "pop")
+                for k, c in enumerate(e["cards"]):
+                    add(c["at"] + LAND, "pop", p=1 + 0.12 * k)
+                    if _one_number(c.get("value")): counter(c["at"], 0.75, p=1 + 0.1 * k, land="tick")
+            elif ty == "big_number":
+                if i: add(t, "riser", dur=0.7)
+                add(L, "impact")
+                if _one_number(e.get("value")): counter(t, 0.9, p=0.9)
+                add(e.get("note_at"), "pop")
             elif ty == "split_bar":
-                for p in e["parts"]: add(p["at"], "pop")
+                tot = sum(max(0.0001, float(x.get("value") or 1)) for x in e["parts"])
+                for k, x in enumerate(e["parts"]):
+                    add(x["at"], "glide", dur=0.5, p=0.8 + 0.6 * float(x.get("value") or 1) / tot); add(x["at"] + 0.5, "tick")
             elif ty == "dot_grid":
-                for k in range(12): add(t + k * 0.1, "tick")
-                add(e.get("lost_at"), "thud")
-            elif ty in ("vs", "arrow_pair"): add(t, "pop"); add(e["right"]["at"], "thud")
+                for k in range(16): add(t + 1.2 * (k / 16) ** 0.8, "tick", p=0.9 + 0.5 * k / 16)
+                if e.get("lost_at") is not None:
+                    add(e["lost_at"], "impact", p=1.3)
+                    for k in range(8): add(e["lost_at"] + 0.06 * k, "drop", p=1.2 - 0.06 * k)
+            elif ty == "vs":
+                add(L, "pop"); add(e["right"]["at"] + LAND, "impact"); add(e.get("strike_at") or e["right"]["at"] + 0.3, "swipe")
+                if _one_number(e["right"].get("value")): counter(e["right"]["at"], 0.5, land="tick")
+            elif ty == "arrow_pair":
+                add(L, "pop"); add(e["right"]["at"] - 0.45, "swipe", dur=0.4); add(e["right"]["at"] + LAND, "impact", p=1.2)
             elif ty == "strike_list":
-                for it in e["items"]: add(it["at"], "pop"); add(it["at"] + 0.22, "tick")
+                for it in e["items"]:
+                    add(it["at"] + LAND, "pop")
+                    if it.get("strike", True) is not False: add(it["at"] + 0.2, "swipe")
             elif ty == "steps":
-                for it in e["items"]: add(it["at"], "pop")
+                for k, it in enumerate(e["items"]): add(it["at"] + LAND, "note", p=(1, 1.26, 1.5)[min(k, 2)])
             elif ty == "ledger":
-                for r in e["rows"]: add(r["at"], "tick"); add(r["at"] + 0.15, "thud") if r.get("mark") else None
+                for r in e["rows"]:
+                    add(r["at"], "scribble", dur=0.3)
+                    if r.get("mark"): add(r["at"] + 0.2, "stamp")
             elif ty == "calculator":
-                for k in range(8): add(t + k * 0.13, "tick")
-                add(e.get("value_at", t + 0.8), "thud")
-            elif ty == "title_slam": add(t, "thud")
-            elif ty == "illustration": add(t, "pop")
-            elif ty == "photo_card": add(t - 0.1, "whoosh"); add(t + 0.05, "pop")
-            elif ty == "object3d": add(t - 0.1, "whoosh"); add(t + 0.3, "pop")
-            elif ty == "money_rain": add(t, "ding")
-    c = props["cta"]; add(c["start"] - 0.1, "whoosh"); add(c["line1_at"], "pop"); add(c.get("line2_at"), "pop")
-    add(props["endcard"]["at"], "ding")
-    return sorted(set(H))
+                for k in range(8): add(t + k * 0.13, "tick", p=0.8)
+                va = e.get("value_at", t + 0.8); counter(va - 0.8, 1.1, land="ding")
+            elif ty == "title_slam": add(t, "riser", dur=0.8); add(L, "impact", p=0.8)
+            elif ty == "illustration": add(L, "pop"); add(L + 0.1, "sparkle")
+            elif ty == "photo_card": add(t, "whoosh", dur=0.3); add(L, "shutter")
+            elif ty == "object3d": add(t, "whoosh"); add(t + 0.35, "sparkle")
+            elif ty == "money_rain": add(t, "coins", dur=2.0); add(t, "ding", p=1.2)
+    for r in props.get("reacts", []): add(r["at"] + 0.1, "boing")
+    c = props["cta"]; add(c["start"] + 0.3, "whoosh", dur=0.9); add(c["line1_at"] + LAND, "pop"); add(c.get("line2_at"), "pop", p=1.2)
+    ec = props["endcard"]["at"]; add(ec + LAND, "impact", p=0.9); add(ec + 0.4, "keys", dur=1.0); add(ec + 1.0 + LAND, "ding")
+    return sorted(H, key=lambda h: h["t"])
 
 
 # ------------------------------------------------------------------ render

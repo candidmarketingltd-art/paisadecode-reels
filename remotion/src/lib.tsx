@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from "react";
-import { interpolate, spring, useCurrentFrame, Easing, Img, staticFile } from "remotion";
+import { interpolate, spring, useCurrentFrame, Easing, Img, staticFile, random } from "remotion";
 
 export const FPS = 30;
 export const COL = {
@@ -20,8 +20,8 @@ export const SceneCtx = createContext<{ end: number }>({ end: 1e9 });
 export const fit = (text: string, w: number, max: number, k = 0.56) => Math.min(max, w / Math.max(1, text.length * k));
 
 /** spring-in from `at`: rise + scale + blur-to-sharp; exits with the scene */
-export const Reveal: React.FC<{ at: number; children: React.ReactNode; style?: React.CSSProperties; dy?: number; scale?: number; blur?: number; damping?: number; dim?: number }> = ({
-  at, children, style, dy = 46, scale = 0.92, blur = 14, damping = 13, dim,
+export const Reveal: React.FC<{ at: number; children: React.ReactNode; style?: React.CSSProperties; dy?: number; scale?: number; blur?: number; damping?: number; dim?: number; tilt?: number }> = ({
+  at, children, style, dy = 46, scale = 0.92, blur = 14, damping = 13, dim, tilt = 0,
 }) => {
   const f = useCurrentFrame();
   const { end } = useContext(SceneCtx);
@@ -32,7 +32,8 @@ export const Reveal: React.FC<{ at: number; children: React.ReactNode; style?: R
   const dimK = dim === undefined ? 1 : interpolate(f, [fx(dim), fx(dim) + 10], [1, 0.32], clamp);
   return (
     <div style={{ ...style, opacity: lin * (1 - out) * dimK, translate: `0px ${(1 - s) * dy - out * 40}px`,
-      scale: `${(scale + (1 - scale) * s) * (1 - out * 0.05)}`, filter: `blur(${(1 - lin) * blur + out * 10}px)` }}>
+      scale: `${(scale + (1 - scale) * s) * (1 - out * 0.05)}`, filter: `blur(${(1 - lin) * blur + out * 10}px)`,
+      transform: tilt ? `perspective(1400px) rotateX(${(1 - s) * tilt}deg)` : undefined, transformOrigin: "50% 100%" }}>
       {children}
     </div>
   );
@@ -150,3 +151,24 @@ export const Photo: React.FC<{ src: string; logo?: boolean; w: number; h: number
 export const Vis: React.FC<{ o: any; size: number; at: number }> = ({ o, size, at }) =>
   o.photo ? <Photo src={o.photo} logo={(o.photo_kind || "") === "logo"} w={size} h={size} at={at} radius={Math.max(12, size * 0.18)} />
     : o.ill ? <Ill name={o.ill} size={size} at={at} /> : null;
+
+/** particle burst on impact (big reveals): sparks fly out from the centre and fade */
+export const Burst: React.FC<{ at: number; color?: string; n?: number; spread?: number }> = ({ at, color = COL.gold, n = 26, spread = 420 }) => {
+  const f = useCurrentFrame();
+  const t = (f - fx(at)) / FPS;
+  if (t < 0 || t > 0.9) return null;
+  const k = Easing.out(Easing.cubic)(Math.min(1, t / 0.6));
+  return (
+    <div style={{ position: "absolute", left: "50%", top: "50%", width: 0, height: 0, pointerEvents: "none" }}>
+      <div style={{ position: "absolute", left: -spread * 0.45, top: -spread * 0.45, width: spread * 0.9, height: spread * 0.9, borderRadius: "50%",
+        border: `3px solid ${color}`, opacity: (1 - t / 0.5) * 0.7, scale: `${0.2 + k * 1.1}`, filter: "blur(1px)" }} />
+      {Array.from({ length: n }).map((_, i) => {
+        const a = (i / n) * Math.PI * 2 + (random(`ba${i}`) - 0.5) * 0.4;
+        const d = spread * (0.35 + random(`bd${i}`) * 0.65) * k;
+        const sz = 4 + random(`bs${i}`) * 8;
+        return <div key={i} style={{ position: "absolute", left: Math.cos(a) * d, top: Math.sin(a) * d + 60 * t * t, width: sz, height: sz * (1.6 + random(`bl${i}`) * 2),
+          rotate: `${(a * 180) / Math.PI + 90}deg`, borderRadius: sz, background: color, opacity: Math.max(0, 1 - t / 0.85), boxShadow: `0 0 12px ${color}` }} />;
+      })}
+    </div>
+  );
+};

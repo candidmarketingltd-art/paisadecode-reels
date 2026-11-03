@@ -176,6 +176,9 @@ def main():
     slot = int(args[args.index("--slot") + 1]) if "--slot" in args else current_slot(now)
     if "--row" in args:
         i = int(args[args.index("--row") + 1]); row = rows[i]
+    elif "--pick" in args:  # --pick <video_id> <angle>
+        v, a = args[args.index("--pick") + 1], args[args.index("--pick") + 2]
+        i, row = next((k, r) for k, r in enumerate(rows) if r["video_id"] == v and r["angle"] == a)
     else:
         i, row = pick(rows, slot)
     if row is None:

@@ -1,10 +1,10 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, random, Easing } from "remotion";
-import { COL, SANS, MONO, FPS, clamp, easeOut, fx, SceneCtx, Reveal, Big, Mono, Pill } from "./lib";
+import { COL, SANS, MONO, FPS, clamp, easeOut, fx, SceneCtx, Reveal, Big, Mono, Pill, Burst, col } from "./lib";
 import { SPECS, El, W, MoneyRain } from "./Elements";
 
 export type Word = { t: string; k: boolean; s: number; e: number };
-export type SceneT = { start: number; end: number; tint?: string; elements: El[] };
+export type SceneT = { start: number; end: number; tint?: string; chapter?: string; elements: El[] };
 export type ReelProps = {
   duration: number; badge: string; tag: string; handle: string; disclaimer?: string;
   words: Word[]; chunks: number[][]; scenes: SceneT[];
@@ -52,7 +52,10 @@ const Background: React.FC<{ scenes: SceneT[] }> = ({ scenes }) => {
 };
 
 /* ---------------------------------------------------------------- one scene: auto-stacked elements, camera push-in */
-const TOP = 190, AREA = 900, GAP = 36;
+const TOP = 262, AREA = 830, GAP = 36;
+const TINT_PILL: Record<string, string> = { warm: COL.gold, red: COL.red, cold: COL.blue, green: COL.green };
+const IMPACT = new Set(["big_number", "title_slam"]);
+const TILT = new Set(["stat_row", "vs", "arrow_pair", "calculator", "ledger", "dot_grid", "photo_card", "steps"]);
 const Scene: React.FC<{ s: SceneT; i: number }> = ({ s, i }) => {
   const f = useCurrentFrame();
   if (f < fx(s.start) - 2 || f > fx(s.end) + 12) return null;
@@ -66,16 +69,26 @@ const Scene: React.FC<{ s: SceneT; i: number }> = ({ s, i }) => {
   let y = 0;
   return (
     <SceneCtx.Provider value={{ end: s.end }}>
+      {s.chapter && (
+        <Reveal at={s.start} dy={-14} scale={0.85} blur={10} style={{ position: "absolute", left: 0, width: 1080, top: 150, display: "flex", justifyContent: "center", zIndex: 5 }}>
+          <Pill text={s.chapter.toUpperCase()} bg={TINT_PILL[s.tint || "warm"] ?? COL.gold} size={24} />
+        </Reveal>
+      )}
       <AbsoluteFill style={{ scale: `${1 + 0.035 * p}`, translate: `${(i % 2 ? -1 : 1) * (p - 0.5) * 14}px ${-p * 10}px`, transformOrigin: "540px 650px" }}>
         <div style={{ position: "absolute", left: 70, top, width: W, scale: `${k}`, transformOrigin: "50% 0" }}>
           {els.map((e, j) => {
             const h = hs[j];
             if (h === 0) return e.type === "money_rain" ? <div key={j} style={{ position: "absolute", left: -70, top: -top }}><MoneyRain at={e.at} /></div> : null;
             const R = SPECS[e.type].R;
+            const big = IMPACT.has(e.type) || (e.type === "headline" && e.size === "l");
             const node = (
-              <Reveal key={j} at={e.at} style={{ position: "absolute", left: 0, top: y, width: W }} dy={e.type === "stat_row" || e.type === "vs" || e.type === "arrow_pair" ? 0 : 46} blur={e.type === "stat_row" || e.type === "vs" ? 0 : 14} scale={e.type === "stat_row" || e.type === "vs" ? 1 : 0.92}>
-                <R e={e} />
-              </Reveal>
+              <React.Fragment key={j}>
+                <Reveal at={e.at} style={{ position: "absolute", left: 0, top: y, width: W }} dy={e.type === "stat_row" || e.type === "vs" || e.type === "arrow_pair" ? 0 : 46}
+                  blur={e.type === "stat_row" || e.type === "vs" ? 0 : 14} scale={big ? 0.6 : e.type === "stat_row" || e.type === "vs" ? 1 : 0.92} damping={big ? 9 : 13} tilt={TILT.has(e.type) ? 32 : 0}>
+                  <R e={e} />
+                </Reveal>
+                {big && <div style={{ position: "absolute", left: 0, top: y, width: W, height: h }}><Burst at={e.at + 0.07} color={col(e.color, e.type === "title_slam" ? COL.red : COL.gold)} /></div>}
+              </React.Fragment>
             );
             y += h + GAP;
             return node;

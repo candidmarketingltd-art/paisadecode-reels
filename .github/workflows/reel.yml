@@ -84,6 +84,7 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ inputs.slot }}" ]; then ARGS="--slot ${{ inputs.slot }}"; fi
+          if [ "${{ github.event_name }}" = "push" ] && grep -q '^pick:' triggers/preview.txt; then ARGS="--pick $(grep '^pick:' triggers/preview.txt | cut -d: -f2-)"; fi
           python -m pipeline.run $ARGS
 
       - name: Keep the reel (7 days)
