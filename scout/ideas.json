@@ -196,5 +196,121 @@
   ],
   "id": "idea-own-a-truck-delhi-mumbai-trip-economics",
   "added": "2026-11-03"
+ },
+ "idea-amul-milk-packet-60-rupees-who-gets-what": {
+  "slug": "amul-milk-packet-60-rupees-who-gets-what",
+  "title": "₹60 Ka Milk Packet: Farmer, Amul, Retailer – Kisko Kitna?",
+  "topic": "Split of the consumer rupee on a packet of milk across the farmer, village cooperative, district union, federation, distributor and retailer. Also why a cooperative can't IPO and where its surplus goes.",
+  "angle": "Hook: 'Amul ke milk packet ka sabse zyada paisa kiske paas jaata hai? Retailer ke paas nahi.' Walk one ₹60 packet step by step and show the surprising winner and loser. Payoff: why a cooperative structure means the profit never reaches a billionaire.",
+  "hook_pattern": "'Why X will NEVER do Y' structural reveal, combined with a rupee-by-rupee split of a familiar product",
+  "why_it_works": "The Amul IPO reel and two Amul franchise reels all pulled strong numbers (the Amul/Fortuner reel hit 21.7M). The audience clearly wants to know who really earns in the Amul system, and our covered Amul reel only touches the parlour's commission.",
+  "evidence": [
+   "DQrLr2piIpL",
+   "DaXqhwpBVHJ",
+   "DcnFycEhoLC"
+  ],
+  "search_queries": [
+   "Amul share of consumer rupee paid to farmers percentage",
+   "GCMMF Amul annual report milk procurement price vs sales",
+   "milk retailer margin per litre India Amul distributor commission"
+  ],
+  "id": "idea-amul-milk-packet-60-rupees-who-gets-what",
+  "added": "2026-11-03"
+ },
+ "idea-zomato-400-rupee-order-restaurant-owner-": {
+  "slug": "zomato-400-rupee-order-restaurant-owner-payout",
+  "title": "₹400 Ka Zomato Order: Restaurant Owner Ko Asli Mein Kitna Milta Hai?",
+  "topic": "Breakdown of a ₹400 food delivery order: platform commission, GST, packaging, delivery fee, discounts funded by the restaurant, food cost, and what the restaurant is left with. Compare with a dine-in order of the same value.",
+  "angle": "Hook: 'Customer ne ₹400 diye. Restaurant ke account mein kitne aaye?' Show the final number against the dine-in margin. Payoff: why many restaurants push their own app or counter sales.",
+  "hook_pattern": "'₹100 pe kitna bachta hai' breakdown, where the owner's small take is the shock",
+  "why_it_works": "Our top reel and the petrol-pump margin reels (₹3-4 per ₹100, or 1.15% net) work because the owner's real cut is far smaller than people assume. Reveals like the ₹1 screen-card cost also get millions of views.",
+  "evidence": [
+   "DemI6RCzhwu",
+   "Deg4lvSKRWI",
+   "DMjpOrCCOV7"
+  ],
+  "search_queries": [
+   "Zomato Swiggy restaurant commission percentage breakdown order example",
+   "restaurant food cost percentage India typical margin",
+   "NRAI restaurant delivery aggregator commission impact on margins"
+  ],
+  "id": "idea-zomato-400-rupee-order-restaurant-owner-",
+  "added": "2026-11-03"
+ },
+ "idea-private-school-owner-fee-economics-india": {
+  "slug": "private-school-owner-fee-economics-india",
+  "title": "₹60,000 School Fee: School Chalane Wale Ke Paas Kitna Bachta Hai?",
+  "topic": "Economics of a mid-size private CBSE school: land and building cost, affiliation rules, teacher salaries, fee per student, the not-for-profit legal structure, and how owners legally earn (rent, trust-linked vendors, expansion).",
+  "angle": "Hook: 'School ek non-profit hota hai, phir owners amir kaise?' Walk through one 1,000-student school's income and expenses. Payoff: where the real earning sits.",
+  "hook_pattern": "'Owner's real earning is hidden in a side stream' reveal, like the pump owner's mart, tyre shop and car wash",
+  "why_it_works": "The pump-owner reels with 1.8M and 2.7M views show people click to learn where the owner's money really comes from. Schools are a classic dream business with almost no public insider explanation. Our preschool reel doesn't cover the full CBSE school.",
+  "evidence": [
+   "Deg4lvSKRWI",
+   "DemI6RCzhwu",
+   "DTLDlw5D9ca"
+  ],
+  "search_queries": [
+   "CBSE affiliation bye-laws land requirement society trust not for profit",
+   "private school cost to set up CBSE school India investment break-even",
+   "private school teacher salary share of fee income India"
+  ],
+  "id": "idea-private-school-owner-fee-economics-india",
+  "added": "2026-11-03"
+ },
+ "idea-innova-on-rent-corporate-cab-fleet-month": {
+  "slug": "innova-on-rent-corporate-cab-fleet-monthly-hisaab",
+  "title": "₹20 Lakh Ki Innova Corporate Rent Pe Lagayi: Mahine Ke Ant Mein Kitna Bachta Hai?",
+  "topic": "Economics of buying one SUV or MPV and attaching it to a corporate or travel-company contract: EMI, driver salary, fuel, insurance, permit and commercial tax, maintenance, idle days, monthly contract rate, resale value.",
+  "angle": "Hook: 'Gaadi kharidi aur company ko rent pe de di. Maze hi maze? EMI aur driver ke baad haath mein kya aata hai?' Show the monthly P&L of one vehicle, then of 5 vehicles.",
+  "hook_pattern": "'Fixed contract income whether the vehicle is full or empty' (the ₹/km bus reel), applied to a single-vehicle fleet",
+  "why_it_works": "The ₹745/km contract-bus reel got 8.7M views and 524k likes on 'predictable income from a vehicle'. Trucks and sleeper buses are covered, but a small cab fleet is the entry point for most viewers.",
+  "evidence": [
+   "DUgXopsEjri",
+   "DaXqhwpBVHJ"
+  ],
+  "search_queries": [
+   "corporate car rental monthly contract rate Innova Crysta per month India",
+   "commercial taxi permit All India Tourist permit cost Innova monthly EMI driver salary",
+   "cab fleet owner monthly profit idle days utilization India"
+  ],
+  "id": "idea-innova-on-rent-corporate-cab-fleet-month",
+  "added": "2026-11-03"
+ },
+ "idea-state-bus-wet-lease-per-km-contract-econ": {
+  "slug": "state-bus-wet-lease-per-km-contract-economics",
+  "title": "Sarkari Bus Ka Contract: Bus Khaali Ho Ya Bhari, Owner Ko Paisa Kyun Milta Hai?",
+  "topic": "How private operators run buses for state transport undertakings on a per-km wet-lease or gross-cost contract: how the tender works, who pays for fuel, driver and maintenance, payment risk, the typical rate range, and where margins come from.",
+  "angle": "Hook: 'Passenger ho ya na ho, owner ko per km ka paisa milta hai. Toh risk kahan hai?' Show a bus's monthly math, then the 3 risks (delayed payments, penalties, fuel and maintenance overruns). Payoff: who should and shouldn't try it.",
+  "hook_pattern": "'Paid per km, not per passenger' reveal of a hidden government-linked income model, followed by a balancing 'catch'",
+  "why_it_works": "The OSRTC reel reached 8.7M views and 524k likes because viewers had never heard of this model. Our own angle adds the risks and a state-agnostic framework instead of one state's figures.",
+  "evidence": [
+   "DUgXopsEjri"
+  ],
+  "search_queries": [
+   "state transport undertaking gross cost contract wet lease private buses per km rate",
+   "RSRTC UPSRTC OSRTC private bus tender per km payment terms",
+   "electric bus GCC contract per km model operator revenue explained"
+  ],
+  "id": "idea-state-bus-wet-lease-per-km-contract-econ",
+  "added": "2026-11-03"
+ },
+ "idea-mall-shop-owner-vs-tenant-rent-revenue-s": {
+  "slug": "mall-shop-owner-vs-tenant-rent-revenue-share",
+  "title": "Mall Mein Ek Dukaan Ka Rent Kitna Hota Hai? Mall Owner Kaise Kamata Hai?",
+  "topic": "How a mall earns: fixed rent per sq ft vs revenue share for tenants, CAM charges, anchor-tenant discounts, the lease-lock-in, what a brand store needs to sell to cover rent, and why mall owners care about footfall.",
+  "angle": "Hook: 'Mall mein 1,000 sq ft ki dukaan ka rent Gaadi ki EMI se zyada hai. Dukaandar kitna bechega tab bachega?' Walk through one store's break-even and one mall's income mix. Payoff: why food courts and a cinema anchor the layout.",
+  "hook_pattern": "'Why every X has Y' (pump with mart, tyre shop and car wash) reveal, applied to mall layout and rent structure",
+  "why_it_works": "The 'har pump pe mart, tyre shop aur car wash kyun' payoff in the ₹17 crore pump reel pulled 1.8M views. Our multiplex and banquet reels covered one tenant type but not the mall owner's model.",
+  "evidence": [
+   "Deg4lvSKRWI",
+   "DTLDlw5D9ca"
+  ],
+  "search_queries": [
+   "shopping mall rental income per sq ft India revenue share vs fixed rent",
+   "mall CAM charges anchor tenant discount structure India",
+   "REIT mall portfolio rent breakdown Phoenix Mills Nexus annual report"
+  ],
+  "id": "idea-mall-shop-owner-vs-tenant-rent-revenue-s",
+  "added": "2026-11-03"
  }
 }
