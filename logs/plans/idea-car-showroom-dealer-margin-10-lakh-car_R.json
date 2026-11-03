@@ -1,0 +1,529 @@
+{
+ "voiceover": "[urgent, punchy] ₹10 लाख की कार खरीदते हो? शोरूम को उस कार पर कागज़ पर मिलता है सिर्फ़ 5%।\n\n[intrigued, building energy] यानी ₹50,000। और एक listed premium डीलर का असली new-car margin? सिर्फ़ 2.0%। तो शोरूम चलता कैसे है? आख़िरी बात सबसे shocking है।\n\n[serious] पहली कमाई: सर्विस। अनुमान है कि सर्विस रेवेन्यू का पाँचवाँ हिस्सा है, पर operating profit का करीब 70%।\n\n[punchy] दूसरी: insurance। डीलर नई गाड़ी की पॉलिसी पर औसतन 38% commission कमाते हैं। FY25 में ₹29,000 करोड़ के प्रीमियम पर लगभग ₹7,050 करोड़ commission।\n\n[emphatic] और IRDAI खुद कहता है, पॉलिसी का चुनाव ज़्यादातर डीलर करता है, तुम नहीं। यानी कार तो बस दरवाज़ा है। असली कमाई पीछे है।\n\n[confident] अगली बार insurance का quote खुद compare करो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, कार शोरूम खोलते हैं।\"",
+ "ig_caption": "₹10 lakh ki car pe showroom ka margin kaagaz pe sirf 5% 🚗 Aur asli kamai car se nahi, kahin aur se aati hai.\n\nUs dost ko bhejo jo car showroom kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate. ₹50,000 sirf ek illustrative example hai; 2.0% ek premium dealer (Landmark) ka hai, typical Maruti/Hyundai dealer ka nahi; service profit share ek unaudited estimate hai. Not financial advice.",
+ "hashtags": [
+  "#CarDealership",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#CarBusiness",
+  "#MotorInsurance",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹10 लाख",
+  "5%",
+  "₹50,000",
+  "2.0%",
+  "about a fifth of revenue",
+  "70%",
+  "38%",
+  "FY25",
+  "₹29,000 करोड़",
+  "₹7,050 करोड़"
+ ],
+ "style": "v2",
+ "tag": "CAR DEALER",
+ "disclaimer": true,
+ "captions": [
+  "*₹10",
+  "*lakh",
+  "ki",
+  "car",
+  "kharidte",
+  "ho?",
+  "Showroom",
+  "ko",
+  "us",
+  "car",
+  "par",
+  "kaagaz",
+  "par",
+  "milta",
+  "hai",
+  "sirf",
+  "*5%.",
+  "Yaani",
+  "*₹50,000.",
+  "Aur",
+  "ek",
+  "listed",
+  "premium",
+  "*dealer",
+  "ka",
+  "asli",
+  "new-car",
+  "margin?",
+  "Sirf",
+  "*2.0%.",
+  "Toh",
+  "showroom",
+  "chalta",
+  "kaise",
+  "hai?",
+  "Aakhiri",
+  "baat",
+  "sabse",
+  "*shocking",
+  "hai.",
+  "Pehli",
+  "kamai:",
+  "*Service.",
+  "Anumaan",
+  "hai",
+  "ki",
+  "service",
+  "revenue",
+  "ka",
+  "*paanchvaan",
+  "hissa",
+  "hai,",
+  "par",
+  "operating",
+  "*profit",
+  "ka",
+  "kareeb",
+  "*70%.",
+  "Doosri:",
+  "*Insurance.",
+  "Dealer",
+  "nayi",
+  "gaadi",
+  "ki",
+  "policy",
+  "par",
+  "ausatan",
+  "*38%",
+  "*commission",
+  "kamaate",
+  "hain.",
+  "FY25",
+  "mein",
+  "*₹29,000",
+  "crore",
+  "ke",
+  "premium",
+  "par",
+  "lagbhag",
+  "*₹7,050",
+  "*crore",
+  "commission.",
+  "Aur",
+  "*IRDAI",
+  "khud",
+  "kehta",
+  "hai,",
+  "policy",
+  "ka",
+  "chunaav",
+  "zyaadatar",
+  "*dealer",
+  "karta",
+  "hai,",
+  "*tum",
+  "nahi.",
+  "Yaani",
+  "car",
+  "toh",
+  "bas",
+  "*darwaaza",
+  "hai.",
+  "Asli",
+  "*kamai",
+  "*peeche",
+  "hai.",
+  "Agli",
+  "baar",
+  "*insurance",
+  "ka",
+  "*quote",
+  "khud",
+  "*compare",
+  "karo.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "car",
+  "*showroom",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹10 लाख की",
+   "chapter": "₹10 LAKH KI CAR",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹10L",
+     "color": "gold",
+     "ill": "automobile",
+     "at": "₹10 लाख की",
+     "note": "DEALER KO KITNA?",
+     "note_at": "खरीदते हो?"
+    }
+   ]
+  },
+  {
+   "at": "शोरूम को उस",
+   "chapter": "KAAGAZ PE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "KAAGAZ PE MARGIN",
+     "color": "gold",
+     "outline": true,
+     "at": "शोरूम को उस"
+    },
+    {
+     "type": "big_number",
+     "value": "5%",
+     "color": "gold",
+     "ill": "page_facing_up",
+     "at": "सिर्फ़ 5%।"
+    }
+   ]
+  },
+  {
+   "at": "यानी ₹50,000।",
+   "chapter": "₹50,000",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "₹50,000",
+     "label": "₹10L × 5%",
+     "at": "यानी ₹50,000।",
+     "value_at": "यानी ₹50,000।"
+    }
+   ]
+  },
+  {
+   "at": "और एक listed",
+   "chapter": "ASLI MARGIN",
+   "tint": "red",
+   "react": [
+    {
+     "at": "सिर्फ़ 2.0%।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "और एक listed",
+     "left": {
+      "label": "KAAGAZ PE",
+      "value": "5%",
+      "sub": "dealer margin"
+     },
+     "right": {
+      "label": "PREMIUM DEALER",
+      "value": "2.0%",
+      "sub": "asli new-car margin",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "सिर्फ़ 2.0%।"
+     },
+     "strike_at": "सिर्फ़ 2.0%।"
+    }
+   ]
+  },
+  {
+   "at": "तो शोरूम चलता",
+   "chapter": "SAWAAL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Showroom chalta kaise?",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "तो शोरूम चलता"
+    },
+    {
+     "type": "pill",
+     "text": "LAST POINT = SHOCKING",
+     "color": "blue",
+     "at": "सबसे shocking"
+    }
+   ]
+  },
+  {
+   "at": "पहली कमाई: सर्विस।",
+   "chapter": "KAMAI #1",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "SERVICE",
+     "sub": "KAMAI #1",
+     "color": "gold",
+     "at": "पहली कमाई: सर्विस।"
+    }
+   ]
+  },
+  {
+   "at": "अनुमान है कि",
+   "chapter": "REVENUE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "SHOWROOM KA REVENUE",
+     "at": "अनुमान है कि"
+    },
+    {
+     "type": "split_bar",
+     "at": "अनुमान है कि",
+     "parts": [
+      {
+       "label": "CAR SALES",
+       "value": 4,
+       "color": "muted",
+       "at": "अनुमान है कि"
+      },
+      {
+       "label": "SERVICE",
+       "value": 1,
+       "text": "1/5",
+       "color": "gold",
+       "at": "पाँचवाँ हिस्सा"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "पर operating profit",
+   "chapter": "ASLI PROFIT",
+   "tint": "green",
+   "react": [
+    {
+     "at": "करीब 70%।",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "OPERATING PROFIT · SERVICE",
+     "color": "green",
+     "at": "पर operating profit"
+    },
+    {
+     "type": "big_number",
+     "value": "70%",
+     "color": "green",
+     "ill": "wrench",
+     "at": "करीब 70%।"
+    }
+   ]
+  },
+  {
+   "at": "दूसरी: insurance।",
+   "chapter": "KAMAI #2",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "shield",
+     "size": "l",
+     "caption": "KAMAI #2 · INSURANCE",
+     "glow": true,
+     "at": "दूसरी: insurance।"
+    }
+   ]
+  },
+  {
+   "at": "डीलर नई गाड़ी",
+   "chapter": "COMMISSION",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "38%",
+     "label": "AVG COMMISSION · NAYI GAADI",
+     "at": "डीलर नई गाड़ी",
+     "value_at": "38% commission"
+    }
+   ]
+  },
+  {
+   "at": "FY25 में ₹29,000",
+   "chapter": "FY25",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "text": "FY25 · CRORE MEIN",
+     "at": "FY25 में ₹29,000"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "FY25 में ₹29,000",
+     "left": {
+      "label": "PREMIUM",
+      "value": "₹29,000",
+      "sub": "crore"
+     },
+     "right": {
+      "label": "COMMISSION",
+      "value": "₹7,050",
+      "sub": "crore",
+      "color": "green",
+      "at": "₹7,050 करोड़"
+     }
+    }
+   ]
+  },
+  {
+   "at": "और IRDAI खुद",
+   "chapter": "IRDAI KEHTA HAI",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "IRDAI",
+     "photo_kind": "logo",
+     "caption": "INSURANCE REGULATOR",
+     "ill": "classical_building",
+     "at": "और IRDAI खुद"
+    }
+   ]
+  },
+  {
+   "at": "पॉलिसी का चुनाव",
+   "chapter": "KAUN CHUNTA?",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "तुम नहीं।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "पॉलिसी का चुनाव",
+     "left": {
+      "label": "POLICY CHUNTA",
+      "value": "TUM",
+      "sub": "socha tha"
+     },
+     "right": {
+      "label": "ASLI MEIN",
+      "value": "DEALER",
+      "sub": "zyaadatar",
+      "color": "red",
+      "ill": "briefcase",
+      "at": "ज़्यादातर डीलर"
+     },
+     "strike_at": "तुम नहीं।"
+    }
+   ]
+  },
+  {
+   "at": "यानी कार तो",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "door",
+     "size": "l",
+     "glow": true,
+     "at": "यानी कार तो"
+    },
+    {
+     "type": "pill",
+     "text": "CAR = SIRF DARWAZA",
+     "color": "blue",
+     "at": "बस दरवाज़ा"
+    }
+   ]
+  },
+  {
+   "at": "असली कमाई पीछे",
+   "chapter": "ASLI KAMAI",
+   "tint": "green",
+   "react": [
+    {
+     "at": "असली कमाई पीछे",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "असली कमाई पीछे"
+    },
+    {
+     "type": "pill",
+     "text": "SERVICE + INSURANCE",
+     "color": "green",
+     "at": "असली कमाई पीछे"
+    }
+   ]
+  },
+  {
+   "at": "अगली बार insurance",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "खुद compare",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "steps",
+     "at": "अगली बार insurance",
+     "items": [
+      {
+       "text": "Insurance quote khud lo",
+       "at": "अगली बार insurance",
+       "ill": "receipt"
+      },
+      {
+       "text": "Compare karo, phir sign",
+       "at": "खुद compare",
+       "ill": "balance_scale"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo car showroom kholna chahta hai",
+  "line2_at": "कार शोरूम खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · car dealer decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 17
+}

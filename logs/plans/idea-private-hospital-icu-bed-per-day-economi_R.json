@@ -1,0 +1,561 @@
+{
+ "voiceover": "[urgent, punchy] अस्पताल के बेड पर कभी लेटे हो? Max का एक भरा हुआ बेड रोज़ ₹77.3 हज़ार कमाता है।\n\n[intrigued, building energy] पर छोटे नर्सिंग होम का बेड? सिर्फ़ ₹8,000 से 12,000। और असली वजह आख़िर में बताऊँगा।\n\n[excited, fast] इसे कहते हैं ARPOB, यानी एक भरे बेड की रोज़ की कमाई। जितना complex केस, उतना ज़्यादा ARPOB। और ज़्यादातर कमाई पहले 1–2 दिन में होती है, जाँच और प्रोसीजर से।\n\n[serious] अब असली वजह: occupancy। Max के बेड 77% भरे रहते हैं। डॉक्टर वाले नर्सिंग होम का टारगेट 55–65%। और Yatharth का 300 बेड वाला Model Town अस्पताल? Q1 में 0 से 32%। [emphatic] खाली बेड एक रुपया नहीं कमाता।\n\n[confident] इसलिए अस्पताल का सपना देखने से पहले बेड नहीं, occupancy गिनो। छोटे अस्पताल के आँकड़े estimates हैं।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, नर्सिंग होम खोलते हैं।\"",
+ "ig_caption": "Max ka ek bhara hua bed roz ₹77.3 hazaar kamata hai 🏥 Par chhote nursing home ka sirf ₹8,000-12,000... fark bed ka nahi, occupancy ka hai.\n\nUs dost ko bhejo jo nursing home kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate. Small-hospital figures are consultant estimates, not financial advice.",
+ "hashtags": [
+  "#HospitalBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#ARPOB",
+  "#HealthcareIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹77.3 thousand per day",
+  "₹8,000–12,000 a day",
+  "55–65% target occupancy",
+  "first 1–2 days of admission",
+  "77% average occupancy (Max)",
+  "300-bed Model Town hospital",
+  "0–32% occupancy in Q1"
+ ],
+ "style": "v2",
+ "tag": "HOSPITAL BED",
+ "disclaimer": true,
+ "captions": [
+  "Aspataal",
+  "ke",
+  "*bed",
+  "par",
+  "kabhi",
+  "lete",
+  "ho?",
+  "*Max",
+  "ka",
+  "ek",
+  "bhara",
+  "hua",
+  "bed",
+  "roz",
+  "*₹77.3",
+  "*hazaar",
+  "kamata",
+  "hai.",
+  "Par",
+  "*chhote",
+  "*nursing",
+  "home",
+  "ka",
+  "bed?",
+  "sirf",
+  "*₹8,000",
+  "se",
+  "*12,000.",
+  "Aur",
+  "*asli",
+  "*wajah",
+  "aakhir",
+  "mein",
+  "bataunga.",
+  "Ise",
+  "kehte",
+  "hain",
+  "*ARPOB,",
+  "yaani",
+  "ek",
+  "bhare",
+  "bed",
+  "ki",
+  "*roz",
+  "ki",
+  "*kamai.",
+  "Jitna",
+  "*complex",
+  "case,",
+  "utna",
+  "zyada",
+  "*ARPOB.",
+  "Aur",
+  "zyadatar",
+  "kamai",
+  "pehle",
+  "*1–2",
+  "*din",
+  "mein",
+  "hoti",
+  "hai,",
+  "jaanch",
+  "aur",
+  "procedure",
+  "se.",
+  "Ab",
+  "asli",
+  "wajah:",
+  "*occupancy.",
+  "*Max",
+  "ke",
+  "bed",
+  "*77%",
+  "bhare",
+  "rehte",
+  "hain.",
+  "Doctor",
+  "waale",
+  "nursing",
+  "home",
+  "ka",
+  "target",
+  "*55–65%.",
+  "Aur",
+  "*Yatharth",
+  "ka",
+  "*300",
+  "bed",
+  "wala",
+  "Model",
+  "Town",
+  "aspataal?",
+  "Q1",
+  "mein",
+  "*0",
+  "se",
+  "*32%.",
+  "*Khaali",
+  "bed",
+  "ek",
+  "*rupaya",
+  "nahi",
+  "kamata.",
+  "Isliye",
+  "aspataal",
+  "ka",
+  "sapna",
+  "dekhne",
+  "se",
+  "pehle",
+  "bed",
+  "nahi,",
+  "*occupancy",
+  "*gino.",
+  "Chhote",
+  "aspataal",
+  "ke",
+  "aankde",
+  "*estimates",
+  "hain.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*nursing",
+  "*home",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "अस्पताल के",
+   "chapter": "1 BED KA HISAAB",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "1 BED · ROZ KI KAMAI",
+     "at": "अस्पताल के"
+    },
+    {
+     "type": "big_number",
+     "value": "₹77.3K",
+     "color": "gold",
+     "ill": "bed",
+     "at": "अस्पताल के"
+    }
+   ]
+  },
+  {
+   "at": "Max का एक",
+   "chapter": "MAX HOSPITAL",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Max Healthcare",
+     "photo_kind": "logo",
+     "caption": "1 BHARA BED",
+     "ill": "hospital",
+     "at": "Max का एक"
+    }
+   ]
+  },
+  {
+   "at": "रोज़ ₹77.3",
+   "chapter": "ROZ KI KAMAI",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹77.3K",
+     "color": "gold",
+     "note": "HAR DIN · 1 BED",
+     "note_at": "₹77.3 हज़ार",
+     "at": "रोज़ ₹77.3"
+    },
+    {
+     "type": "object3d",
+     "kind": "coin_rain",
+     "at": "₹77.3 हज़ार"
+    }
+   ]
+  },
+  {
+   "at": "पर छोटे",
+   "chapter": "CHHOTA BED",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "पर छोटे",
+     "left": {
+      "label": "MAX · 1 BED",
+      "value": "₹77.3K",
+      "sub": "roz"
+     },
+     "right": {
+      "label": "NURSING HOME",
+      "value": "₹8–12K",
+      "sub": "roz",
+      "color": "red",
+      "ill": "bed",
+      "at": "सिर्फ़ ₹8,000"
+     },
+     "strike_at": "सिर्फ़ ₹8,000"
+    }
+   ]
+  },
+  {
+   "at": "और असली वजह",
+   "chapter": "SUSPENSE",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "बताऊँगा।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "ASLI WAJAH: ?",
+     "size": "l",
+     "ill": "locked",
+     "at": "और असली वजह"
+    },
+    {
+     "type": "pill",
+     "text": "AAKHIR MEIN",
+     "color": "blue",
+     "at": "आख़िर में"
+    }
+   ]
+  },
+  {
+   "at": "इसे कहते",
+   "chapter": "ARPOB",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "IS KAMAI KA NAAM",
+     "at": "इसे कहते"
+    },
+    {
+     "type": "title_slam",
+     "text": "ARPOB",
+     "sub": "1 BHARA BED · ROZ",
+     "color": "gold",
+     "at": "ARPOB, यानी"
+    }
+   ]
+  },
+  {
+   "at": "जितना complex",
+   "chapter": "COMPLEX CASE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "chart_up",
+     "at": "जितना complex"
+    },
+    {
+     "type": "pill",
+     "text": "COMPLEX = ZYADA ARPOB",
+     "color": "gold",
+     "at": "ज़्यादा ARPOB।"
+    }
+   ]
+  },
+  {
+   "at": "और ज़्यादातर",
+   "chapter": "PEHLE 1–2 DIN",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ZYADATAR KAMAI",
+     "at": "और ज़्यादातर"
+    },
+    {
+     "type": "big_number",
+     "value": "1–2",
+     "color": "gold",
+     "ill": "calendar",
+     "note": "DIN",
+     "note_at": "1–2 दिन",
+     "at": "पहले 1–2"
+    }
+   ]
+  },
+  {
+   "at": "जाँच और",
+   "chapter": "KAMAI KAHAN SE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "जाँच और",
+     "cards": [
+      {
+       "label": "JAANCH",
+       "value": "TESTS",
+       "color": "blue",
+       "ill": "microscope",
+       "at": "जाँच और"
+      },
+      {
+       "label": "PROCEDURE",
+       "value": "OT",
+       "color": "gold",
+       "ill": "syringe",
+       "at": "प्रोसीजर से।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब असली वजह:",
+   "chapter": "ASLI WAJAH",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "occupancy।",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "अब असली वजह:"
+    },
+    {
+     "type": "title_slam",
+     "text": "OCCUPANCY",
+     "sub": "KITNE BED BHARE",
+     "color": "blue",
+     "at": "occupancy।"
+    }
+   ]
+  },
+  {
+   "at": "Max के बेड",
+   "chapter": "MAX: 77%",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 100,
+     "lost": 23,
+     "label": "MAX · BED BHARE",
+     "total_text": "100%",
+     "left_text": "77%",
+     "at": "Max के बेड",
+     "lost_at": "77% भरे"
+    }
+   ]
+  },
+  {
+   "at": "डॉक्टर वाले",
+   "chapter": "NURSING HOME",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "DOCTOR KA NURSING HOME",
+     "at": "डॉक्टर वाले"
+    },
+    {
+     "type": "big_number",
+     "value": "55–65%",
+     "color": "blue",
+     "ill": "stethoscope",
+     "note": "TARGET",
+     "note_at": "टारगेट 55–65%।",
+     "at": "टारगेट 55–65%।"
+    }
+   ]
+  },
+  {
+   "at": "और Yatharth का",
+   "chapter": "NAYA HOSPITAL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Yatharth Hospital",
+     "photo_kind": "logo",
+     "caption": "MODEL TOWN",
+     "ill": "hospital",
+     "at": "और Yatharth का"
+    },
+    {
+     "type": "pill",
+     "text": "300 BED",
+     "color": "blue",
+     "at": "300 बेड"
+    }
+   ]
+  },
+  {
+   "at": "Q1 में",
+   "chapter": "Q1 KA SACH",
+   "tint": "red",
+   "react": [
+    {
+     "at": "32%।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "32%",
+     "label": "Q1 OCCUPANCY · 0 SE",
+     "at": "Q1 में",
+     "value_at": "32%।"
+    }
+   ]
+  },
+  {
+   "at": "खाली बेड",
+   "chapter": "KHAALI = ₹0",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹0",
+     "color": "red",
+     "ill": "bed",
+     "note": "KHAALI BED",
+     "note_at": "रुपया नहीं",
+     "at": "खाली बेड"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए अस्पताल",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "इसलिए अस्पताल"
+    },
+    {
+     "type": "pill",
+     "text": "SAPNE SE PEHLE...",
+     "color": "gold",
+     "at": "देखने से पहले"
+    }
+   ]
+  },
+  {
+   "at": "बेड नहीं,",
+   "chapter": "ASLI GINTI",
+   "tint": "green",
+   "react": [
+    {
+     "at": "occupancy गिनो।",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "बेड नहीं,",
+     "items": [
+      {
+       "text": "Bed gino",
+       "at": "बेड नहीं,",
+       "strike": true
+      },
+      {
+       "text": "Occupancy gino",
+       "at": "occupancy गिनो।",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "छोटे अस्पताल के",
+   "chapter": "NOTE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHHOTE HOSPITAL KE AANKDE",
+     "color": "muted",
+     "at": "छोटे अस्पताल के"
+    },
+    {
+     "type": "pill",
+     "text": "ESTIMATES",
+     "color": "muted",
+     "outline": true,
+     "at": "estimates हैं।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo nursing home kholna chahta hai",
+  "line2_at": "नर्सिंग होम खोलते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 hospital bed decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 20,
+ "photo_credits": [
+  "Wikimedia Commons / Max Group · Public domain"
+ ]
+}
