@@ -1,0 +1,11 @@
+{
+  "_help": "Weekly idea scout. Edit freely: hashtags/keywords to scan, creator accounts in our niche, and the bar a reel must clear to count as proven.",
+  "hashtags": ["businessideas", "businessideasindia", "franchisebusiness", "businessmodel", "indianbusiness",
+               "businessknowledge", "startupindia", "entrepreneurindia"],
+  "keywords": ["petrol pump owner profit", "franchise kitna kamata hai", "business kaise kamata hai"],
+  "accounts": ["samjho.exe"],
+  "results_per_source": 30,
+  "min_views": 50000,
+  "min_age_days": 10,
+  "ideas_per_week": 6
+}

@@ -1,0 +1,41 @@
+name: Weekly idea scout (Instagram niche research)
+
+on:
+  schedule:
+    - cron: "40 2 * * 1"   # Mondays 08:10 IST
+  push:
+    paths: ["triggers/scout.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Scout + plan new ideas
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
+        run: python -m pipeline.scout
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "paisadecode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for d in calendar scout transcripts; do [ -e "$d" ] && git add "$d"; done
+          git diff --cached --quiet || git commit -m "idea scout ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"

@@ -10,6 +10,9 @@ ACTOR = (os.environ.get("APIFY_TRANSCRIPT_ACTOR") or "johnvc~YoutubeTranscripts"
 
 
 def get(video_id):
+    if video_id.startswith("idea-"):  # scout idea: researched on the web instead of a YouTube transcript
+        from pipeline import research
+        return research.get(video_id)
     CACHE.mkdir(exist_ok=True)
     f = CACHE / f"{video_id}.json"
     if f.exists():
