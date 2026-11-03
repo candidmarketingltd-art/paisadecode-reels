@@ -1,0 +1,22 @@
+name: Photo search check
+on:
+  push:
+    paths: ["triggers/photo-check.txt"]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          xargs -a triggers/photo-check.txt -d '\n' python tools/photo_check.py | tee photo_check/log.txt
+          cd photo_check && git init -q && git checkout -q -b photo-check && git add . && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm check
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" photo-check
