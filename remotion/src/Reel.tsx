@@ -1,14 +1,14 @@
 import React from "react";
-import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, random, Easing } from "remotion";
+import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, random, Easing, OffthreadVideo, Sequence } from "remotion";
 import { COL, SANS, MONO, FPS, clamp, easeOut, fx, SceneCtx, Reveal, Big, Mono, Pill, Burst, col } from "./lib";
 import { SPECS, El, W, MoneyRain } from "./Elements";
 
 export type Word = { t: string; k: boolean; s: number; e: number };
-export type SceneT = { start: number; end: number; tint?: string; chapter?: string; elements: El[] };
+export type SceneT = { start: number; end: number; tint?: string; chapter?: string; aroll?: string; elements: El[] };
 export type ReelProps = {
   duration: number; badge: string; tag: string; handle: string; disclaimer?: string;
   words: Word[]; chunks: number[][]; scenes: SceneT[];
-  reacts: { at: number; until: number; pose: string }[];
+  reacts: { at: number; until: number; pose: string; clip?: string }[];
   cta: { start: number; line1: string; line1_at: number; line2?: string; line2_at?: number };
   endcard: { at: number; title: string; terminal: string };
 };
@@ -47,6 +47,24 @@ const Background: React.FC<{ scenes: SceneT[] }> = ({ scenes }) => {
         return <div key={i} style={{ position: "absolute", left: x, top: y, width: r, height: r, borderRadius: "50%", background: "#fff", opacity: 0.08 + random(`o${i}`) * 0.18 }} />;
       })}
       <AbsoluteFill style={{ background: "radial-gradient(ellipse 90% 70% at 50% 45%, transparent 55%, rgba(0,0,0,0.75) 100%)" }} />
+    </AbsoluteFill>
+  );
+};
+
+/* ---------------------------------------------------------------- full-screen clip behind a scene (face hook or B-roll) */
+const SceneClip: React.FC<{ s: SceneT }> = ({ s }) => {
+  const f = useCurrentFrame();
+  if (!s.aroll || f < fx(s.start) - 2 || f > fx(s.end) + 8) return null;
+  const inn = interpolate(f, [fx(s.start), fx(s.start) + 6], [0, 1], clamp);
+  const out = interpolate(f, [fx(s.end) - 2, fx(s.end) + 6], [1, 0], clamp);
+  const p = interpolate(f, [fx(s.start), fx(s.end)], [0, 1], clamp);
+  return (
+    <AbsoluteFill style={{ opacity: inn * out }}>
+      <Sequence from={fx(s.start) - 2} layout="none">
+        <OffthreadVideo src={staticFile(`aroll/${s.aroll}.mp4`)} muted style={{ width: 1080, height: 1920, objectFit: "cover", scale: `${1.04 + 0.05 * p}`, filter: `blur(${(1 - inn) * 12}px)` }} />
+      </Sequence>
+      {/* keep the graphics and captions readable on top of the footage */}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(10,10,11,0.82) 0%, rgba(10,10,11,0.35) 30%, rgba(10,10,11,0.25) 50%, rgba(10,10,11,0.75) 62%, rgba(10,10,11,0.92) 100%)" }} />
     </AbsoluteFill>
   );
 };
@@ -146,6 +164,14 @@ const Mascot: React.FC<{ reacts: ReelProps["reacts"]; words: Word[] }> = ({ reac
         if (t < r.at - 0.05 || t > r.until + 0.5) return null;
         const inn = spring({ frame: f - fx(r.at), fps: FPS, config: { damping: 12, stiffness: 140 } });
         const out = interpolate(t, [r.until, r.until + 0.35], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
+        if (r.clip) return (
+          <div key={i} style={{ position: "absolute", left: 676, top: 1318 + (1 - inn) * 640 + out * 640, width: 350, height: 520, borderRadius: 34, overflow: "hidden",
+            rotate: `${(1 - inn) * 8 - 2}deg`, border: "4px solid rgba(255,255,255,0.9)", boxShadow: "0 30px 60px rgba(0,0,0,.7), 0 0 40px rgba(245,194,66,.25)" }}>
+            <Sequence from={fx(r.at) - 2} layout="none">
+              <OffthreadVideo src={staticFile(`aroll/${r.clip}.mp4`)} muted style={{ width: 350, height: 622, marginTop: -40, objectFit: "cover" }} />
+            </Sequence>
+          </div>
+        );
         const mood = r.pose.split("_")[0];
         const mouth = mouthAt(words, t) ?? REST[mood] ?? "smile";
         return (
@@ -244,6 +270,7 @@ export const Reel: React.FC<ReelProps> = (p) => {
   return (
     <AbsoluteFill style={{ background: COL.bg, overflow: "hidden" }}>
       <Background scenes={p.scenes} />
+      {p.scenes.map((s, i) => <SceneClip key={`c${i}`} s={s} />)}
       {p.scenes.map((s, i) => <Scene key={i} s={s} i={i} />)}
       <Cta c={p.cta} end={p.endcard.at} />
       <EndCard e={p.endcard} handle={p.handle} />

@@ -13,6 +13,7 @@ from pipeline.render import audio
 ROOT = Path(__file__).resolve().parents[2]
 RDIR = ROOT / "remotion"
 CATALOG = set(json.loads((RDIR / "illustrations.json").read_text()))
+AROLL = json.loads((RDIR / "aroll.json").read_text()) if (RDIR / "aroll.json").exists() else {}
 SERIES = os.environ.get("SERIES_NAME") or "HISAAB"
 FPS = 30
 
@@ -128,10 +129,12 @@ def build_props(plan, words, duration, episode=None):
             r = R.walk(e, st, st + 0.05 + 0.25 * k)
             if "at" not in r: r["at"] = round(st + 0.05 + 0.25 * k, 3)
             els.append(r)
-        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "chapter": (s.get("chapter") or "")[:26], "elements": els})
+        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "chapter": (s.get("chapter") or "")[:26], "elements": els,
+                       **({"aroll": s["aroll"]} if s.get("aroll") in AROLL else {})})
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
-            reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}"})
+            reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}",
+                           **({"clip": rc["clip"]} if rc.get("clip") in AROLL else {})})
     # never open a scene on an empty screen: if its hero lands well after the scene's first words (only a pill/label
     # before it), start the scene with the hero and let the previous scene stay up a little longer instead.
     for i in range(1, len(scenes)):
@@ -147,7 +150,8 @@ def build_props(plan, words, duration, episode=None):
         nxt = reacts[i + 1]["at"] if i + 1 < len(reacts) else 1e9
         r["until"] = round(min(nxt - 0.4, r["at"] + 3.2, cta_start - 0.1), 3)
     reacts = [r for r in reacts if r["until"] > r["at"] + 0.8]
-    reacts.append({"at": cta_start, "until": duration + 3, "pose": "neutral_point"})
+    cta_clip = cta.get("clip") if cta.get("clip") in AROLL else ("face_point" if "face_point" in AROLL else None)
+    reacts.append({"at": cta_start, "until": duration + 3, "pose": "neutral_point", **({"clip": cta_clip} if cta_clip else {})})
 
     c = R.walk({k: v for k, v in cta.items() if k != "at"}, cta_start)
     cta_p = {"start": cta_start, "line1": cta.get("line1") or "Us dost ko bhejo", "line1_at": c.get("line1_at", cta_start + 0.3),
@@ -171,6 +175,41 @@ LAND = 0.07  # elements visibly "land" ~2 frames after they start (spring + blur
 
 def _one_number(v):
     return len(re.findall(r"\d[\d,]*", str(v or ""))) == 1
+
+
+def obj_sfx(add, kind, t):
+    """Sounds for the 3D hero objects, matched to their animation (see remotion/src/Object3D.tsx)."""
+    fall = (2 * 5 / 22) ** 0.5  # time a dropped object takes to hit the floor
+    if kind == "coin_stack":
+        for i in range(12): add(t + i * 0.09 + 0.52, "tick", p=1.6 + 0.04 * i)
+        add(t + 11 * 0.09 + 0.6, "ding")
+    elif kind == "coin_rain":
+        add(t, "coins", dur=2.2); add(t + 1.6, "ding", p=1.1)
+    elif kind == "cash_stack":
+        for i in range(7): add(t + i * 0.14 + 0.56, "thud", p=1.7)
+    elif kind == "gold_bars":
+        for i in range(6): add(t + i * 0.12 + 0.52, "stamp")
+        add(t + 1.3, "sparkle")
+    elif kind == "padlock":
+        add(t + fall, "impact", p=1.3); add(t + 0.55, "tick", p=0.7); add(t + 0.58, "ding", p=0.8); add(t + 1.1, "whoosh", dur=0.6)
+    elif kind == "vault":
+        add(t + fall, "impact", p=0.8); add(t + 0.5, "glide", dur=0.8, p=0.5); add(t + 1.3, "ding", p=0.9); add(t + 1.35, "sparkle")
+    elif kind == "funnel":
+        add(t, "coins", dur=2.6)
+    elif kind in ("chart_up", "chart_down"):
+        for i in range(5): add(t + i * 0.15 + 0.1, "note", p=(1, 1.12, 1.26, 1.41, 1.6)[i] if kind == "chart_up" else (1.6, 1.41, 1.26, 1.12, 1)[i])
+    elif kind == "building":
+        add(t + fall, "impact"); [add(t + 0.25 + f * 0.12, "tick", p=1 + 0.08 * f) for f in range(7)]
+    elif kind == "truck":
+        add(t + 0.2, "whoosh", dur=0.9); add(t + 1.0, "thud", p=0.7)
+    elif kind == "shop":
+        add(t + fall, "impact"); add(t + 0.4, "scribble", dur=0.6); add(t + 1.0, "ding")
+    elif kind == "pizza_box":
+        add(t + fall, "thud"); add(t + 0.5, "swipe", dur=0.5); add(t + 1.1, "sparkle")
+    elif kind == "coin":
+        add(t + fall, "ding", p=0.9); add(t + 0.1, "glide", dur=0.5, p=1.4)
+    else:
+        add(t + fall, "impact"); add(t + fall + 0.05, "sparkle")
 
 
 def sfx_hits(props):
@@ -231,9 +270,18 @@ def sfx_hits(props):
             elif ty == "title_slam": add(t, "riser", dur=0.8); add(L, "impact", p=0.8)
             elif ty == "illustration": add(L, "pop"); add(L + 0.1, "sparkle")
             elif ty == "photo_card": add(t, "whoosh", dur=0.3); add(L, "shutter")
-            elif ty == "object3d": add(t, "whoosh"); add(t + 0.35, "sparkle")
+            elif ty == "object3d": obj_sfx(add, e.get("kind", "box"), t)
             elif ty == "money_rain": add(t, "coins", dur=2.0); add(t, "ding", p=1.2)
-    for r in props.get("reacts", []): add(r["at"] + 0.1, "boing")
+    for r in props.get("reacts", []):
+        if r.get("clip"): add(r["at"], "whoosh", dur=0.3); add(r["at"] + 0.12, "pop", p=0.8)
+        else: add(r["at"] + 0.1, "boing")
+    for s_ in props["scenes"]:
+        if s_.get("aroll"): add(s_["start"], "whoosh", dur=0.5); add(s_["start"] + 0.05, "impact", p=1.6)
+    # micro layer: a soft blip on every gold keyword and a faint tick when a new caption line appears
+    for w in props.get("words", []):
+        if w.get("k"): add(w["s"] + 0.02, "blip", p=1.45)
+    for ch in props.get("chunks", []):
+        add(props["words"][ch[0]]["s"] - 0.05, "softtick", p=1.2)
     c = props["cta"]; add(c["start"] + 0.3, "whoosh", dur=0.9); add(c["line1_at"] + LAND, "pop"); add(c.get("line2_at"), "pop", p=1.2)
     ec = props["endcard"]["at"]; add(ec + LAND, "impact", p=0.9); add(ec + 0.4, "keys", dur=1.0); add(ec + 1.0 + LAND, "ding")
     return sorted(H, key=lambda h: h["t"])

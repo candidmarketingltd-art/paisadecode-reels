@@ -329,7 +329,12 @@ export const SPECS: Record<string, Spec> = {
     ),
   },
 
-  object3d: { h: () => 480, R: ({ e }) => centerRow(<div style={{ width: 480, height: 480 }}><Object3D kind={e.kind} at={e.at} size={480} /></div>) },
+  object3d: { h: () => 600, R: ({ e }) => centerRow(
+    <div style={{ position: "relative", width: 600, height: 600 }}>
+      <div style={{ position: "absolute", left: 140, right: 140, bottom: 70, height: 60, borderRadius: "50%", background: "radial-gradient(closest-side, rgba(0,0,0,.7), transparent)" }} />
+      <div style={{ position: "absolute", left: 60, right: 60, top: 60, bottom: 60, borderRadius: "50%", background: "radial-gradient(closest-side, rgba(245,194,66,.16), transparent)" }} />
+      <Object3D kind={e.kind} at={e.at} size={600} />
+    </div>) },
 
   money_rain: { h: () => 0, R: () => null },
 };

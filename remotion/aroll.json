@@ -1,0 +1,142 @@
+{
+ "face_point": {
+  "kind": "face",
+  "use": "Rohan smiling, points at the camera — hook / CTA / 'tum'",
+  "dur": 7.83
+ },
+ "face_shocked": {
+  "kind": "face",
+  "use": "Rohan shocked, mouth open — painful number, big reveal",
+  "dur": 7.83
+ },
+ "face_shocked_phone": {
+  "kind": "face",
+  "use": "Rohan wide-eyed staring at his phone — shocking price/bill",
+  "dur": 7.83
+ },
+ "face_smirk_phone": {
+  "kind": "face",
+  "use": "Rohan smirking at his phone — irony, 'I knew it'",
+  "dur": 4.53
+ },
+ "face_disbelief": {
+  "kind": "face",
+  "use": "Rohan frowning, shaking head at phone — bad deal, disbelief",
+  "dur": 7.83
+ },
+ "face_thinking": {
+  "kind": "face",
+  "use": "Rohan hand on chin, thinking — question, 'socho'",
+  "dur": 7.83
+ },
+ "face_serious": {
+  "kind": "face",
+  "use": "Rohan serious, intense look — key insight",
+  "dur": 7.83
+ },
+ "face_alert": {
+  "kind": "face",
+  "use": "Rohan alarmed, screen light flashing on his face — warning, risk",
+  "dur": 7.83
+ },
+ "face_compare": {
+  "kind": "face",
+  "use": "Rohan comparing phone and laptop — comparing prices/options",
+  "dur": 7.83
+ },
+ "face_phone_scroll": {
+  "kind": "face",
+  "use": "Rohan scrolling his phone, focused — searching, browsing",
+  "dur": 7.83
+ },
+ "face_credit_card": {
+  "kind": "face",
+  "use": "Rohan holding a credit card at laptop — payments, EMI, buying",
+  "dur": 7.83
+ },
+ "face_laptop_start": {
+  "kind": "face",
+  "use": "Rohan at laptop, fists up, getting started — 'chalo hisaab karte hain'",
+  "dur": 7.83
+ },
+ "face_tired": {
+  "kind": "face",
+  "use": "Rohan tired, rubbing his head at night — stress, losses, overwork",
+  "dur": 7.83
+ },
+ "face_frown": {
+  "kind": "face",
+  "use": "Rohan frowning in concentration — confusion, tough math",
+  "dur": 7.83
+ },
+ "face_studying": {
+  "kind": "face",
+  "use": "Rohan reading notes at laptop — research, learning",
+  "dur": 4.43
+ },
+ "face_on_call": {
+  "kind": "face",
+  "use": "Rohan on a phone call — dealer/supplier call, negotiation",
+  "dur": 7.83
+ },
+ "face_phone_hold": {
+  "kind": "face",
+  "use": "Rohan holding phone up, unimpressed — showing something",
+  "dur": 7.83
+ },
+ "face_creator": {
+  "kind": "face",
+  "use": "Rohan behind phone on ring light — creator, 'video banao'",
+  "dur": 7.83
+ },
+ "face_team": {
+  "kind": "face",
+  "use": "Rohan with team at laptops — business, office, staff",
+  "dur": 4.27
+ },
+ "face_coffee": {
+  "kind": "face",
+  "use": "Rohan sipping coffee at laptop — calm, routine",
+  "dur": 3.1
+ },
+ "broll_clock": {
+  "kind": "broll",
+  "use": "ticking clock in front of person working — time, deadlines, payback period",
+  "dur": 7.83
+ },
+ "broll_papers": {
+  "kind": "broll",
+  "use": "pile of papers dropped on desk — paperwork, licences, bureaucracy",
+  "dur": 7.83
+ },
+ "broll_servers": {
+  "kind": "broll",
+  "use": "server corridor — tech, data, platforms, apps",
+  "dur": 7.83
+ },
+ "broll_eye": {
+  "kind": "broll",
+  "use": "close-up eye reflecting a screen — watching, attention, secret",
+  "dur": 7.83
+ },
+ "broll_typing": {
+  "kind": "broll",
+  "use": "fingers typing on laptop — online work, research",
+  "dur": 7.83
+ },
+ "broll_phone_typing": {
+  "kind": "broll",
+  "use": "thumbs typing on phone — ordering online, UPI, apps",
+  "dur": 7.83
+ },
+ "broll_robot": {
+  "kind": "broll",
+  "use": "robotic hand typing — automation, AI",
+  "dur": 7.83
+ },
+ "broll_cctv": {
+  "kind": "broll",
+  "use": "security camera turning on a wall — CCTV, surveillance, security",
+  "dur": 7.83
+ }
+}

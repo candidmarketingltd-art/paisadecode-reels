@@ -11,7 +11,7 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 ## Editing principles (learned frame-by-frame from the best explainer reels — this is what makes the series feel premium)
 - ONE HERO PER SCENE. Each scene is built around one big focal element (a `big_number`, `photo_card`, `object3d`, `illustration`,
   `calculator`, `split_bar`, `dot_grid`, `vs` …) filling the frame — never a crowded stack of small cards. At most 2 elements per scene
-  (hero + an optional pill/label/note). Want more? Make another scene. Short scenes are good: 12–20 scenes before the CTA.
+  (hero + an optional pill/label/note). Want more? Make another scene. Keep it FAST: a new scene every 2–3.5 seconds (16–24 scenes before the CTA); never hold one static scene longer than ~4 s.
 - Something moves or lands every 1.5–3 seconds, each on its own spoken word: a counter rolling, a bar growing, a strike-through, a stamp.
   Prefer elements that ANIMATE a change (split_bar, dot_grid with lost_at, vs with strike, calculator, counters in big_number) over static text.
 - Every scene gets a `chapter`: a 1–3 word uppercase label for the story beat, shown as a pill at the top that swaps with each scene
@@ -22,6 +22,13 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 - Show, don't caption: the voiceover is already captioned, so elements carry the *data* (numbers, labels, comparisons, lists), not sentences.
 - Use illustrations (`ill` / `illustration`) for concrete objects in the story — at most one or two per scene, only when they fit.
 - `tint`: "warm" (default), "red" for losses/problems, "cold" for the twist or a surprise turn, "green" for the win/payoff.
+- Rohan's REAL face clips (A-roll) and B-roll — see the CLIPS list below. Use them like this:
+  * In about half the reels the hook scene gets `"aroll": "<face clip>"` — Rohan's face full-screen behind the hook number (e.g. face_shocked,
+    face_point, face_shocked_phone). Faces stop the scroll.
+  * `react` entries get `"clip": "<face clip>"`: Rohan's real reaction pops up as a picture-in-picture card instead of the cartoon.
+    Match the clip to the moment (face_shocked on a painful number, face_smirk_phone on irony, face_thinking on a question, face_serious on the insight).
+  * B-roll (`broll_*`) can be a scene's full-screen `aroll` when it fits the topic (broll_cctv for CCTV, broll_papers for licences/paperwork,
+    broll_clock for payback time). Max 2 full-screen clips per reel besides the hook; never the same clip twice.
 - `react` (Rohan): 3–5 per reel total, on the moments a viewer would react: smirk on irony/jokes, shocked on a painful number,
   serious (+ point) on the key insight, neutral + point when giving steps. He leaves by himself after ~3 s.
 - On-screen text is Roman Hinglish or English, SHORT, mostly UPPERCASE for labels/pills (max ~24 characters for pills/labels,
@@ -39,7 +46,8 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
   same count, same order. Transliterate naturally the way Indians type Hinglish ("Tumhare ghar jo ₹30 ka paani ka jar aata hai na...");
   keep English words in English ("margin", "business", "Calculator"); keep the word's punctuation (". , ? ... : quotes").
   Prefix the 1–2 most important words of each sentence (numbers, key nouns) with `*` to light them gold (e.g. "*₹26", "*machine,").
-- `scenes`: array of `{ "at", "chapter", "tint"?, "react"?: [{"at", "mood": neutral|smirk|shocked|serious, "point"?: bool}], "elements": [...] }`.
+- `scenes`: array of `{ "at", "chapter", "tint"?, "aroll"?: "<clip id>", "react"?: [{"at", "mood", "point"?, "clip"?: "<face clip id>"}] (react fields as below), "elements": [...] }` —
+  the older form below is the same without the clips: `{ "at", "chapter", "tint"?, "react"?: [{"at", "mood": neutral|smirk|shocked|serious, "point"?: bool}], "elements": [...] }`.
   The first scene is the HOOK (starts at 0 s) and doubles as the reel's cover: ONE giant element that is readable on a phone in under a second —
   a `big_number` (with `ill`) or a `headline` size "l" (with `ill`) showing the hook's single number or contradiction (e.g. "₹100 → ₹4", "1 PHONE · 3 DAAM"),
   landing on the very first spoken word. Optionally one `pill` above it. Do NOT use `stat_row` or more than 2 elements in the first scene.
@@ -63,7 +71,14 @@ follow voiceover order. A scene's `at` is the first words of that scene; its ele
 - `calculator` {value, label?, value_at?}: keys get pressed, the display rolls to `value` (e.g. "87%").
 - `title_slam` {text, sub?, color?}: giant word/number with a screen shake (e.g. "3" + "CHOT").
 - `illustration` {name, size?: "m"|"l", caption?, glow?}: one big 3D illustration.
-- `object3d` {kind: "jar"|"coin"|"box"}: real-time 3D object that spins in (use at most twice per reel: water jar, coin for money, box for products/delivery).
+- `object3d` {kind}: a real-time 3D HERO object with physical motion — the strongest visual we have; use 2–4 per reel on the big moments.
+  Kinds and their action: coin (spins in), coin_stack (coins drop one by one into a growing stack — savings, profit adding up),
+  coin_rain (coins pour down into a pile — revenue, "paisa hi paisa"), cash_stack (cash bundles stack up — investment, lakhs),
+  gold_bars (gold bars stack into a pyramid — wealth, premium), padlock (unlocks and drops — a secret revealed, licence/rights unlocked),
+  vault (door swings open, gold glow — hidden money, the real profit), funnel (coins pour through — costs/commissions taking a cut),
+  chart_up / chart_down (bars grow — growth / decline), building (windows light up floor by floor — hotel, hospital, mall, office, company),
+  shop (shutter rolls up — store, dukaan, franchise outlet), truck (drives in — logistics, delivery, fleet), fuel_pump (petrol pump),
+  gas_cylinder (LPG), pizza_box (lid opens — food business, QSR), phone (app, online order), house (property, rent, EMI), box (parcel, product), jar (water jar).
 - `photo_card` {photo, photo_kind: "logo"|"product"|"place", caption?, ill}: a REAL photo or logo, fetched automatically by search query
   `photo` (e.g. "Toyota Fortuner", "Amul", "Indian Oil", "PVR cinema", "Domino's Pizza"). Logo = brand mark on a white plate; product/place =
   a big cropped photo. Always also give `ill` as the fallback if no freely licensed image exists.
@@ -75,6 +90,9 @@ Whenever the voiceover names a real brand, company, vehicle/product model or fam
 Zomato, Blinkit, Taj hotel…), SHOW IT the moment it is first named: a `photo_card` (logo for brands/companies, product for vehicles and
 products, place for buildings) — or put `photo` + `photo_kind` on a stat card / headline / big_number / step instead of `ill`.
 Use 1–3 per reel, only for the brands the reel is actually about. Generic things (water, chai, a truck in general) stay illustrations.
+
+## CLIPS (A-roll of Rohan and B-roll; use the exact id)
+{CLIPS}
 
 ## Illustrations (`ill` on cards/steps/headline/big_number/vs-right, or `illustration.name`) — use ONLY these exact names
 {ILLUSTRATIONS}

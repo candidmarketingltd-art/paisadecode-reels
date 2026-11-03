@@ -133,6 +133,15 @@ V2_TYPES = {
 }
 
 
+OBJ_KINDS = ["coin", "coin_stack", "coin_rain", "cash_stack", "gold_bars", "padlock", "vault", "funnel", "chart_up", "chart_down",
+             "building", "shop", "truck", "fuel_pump", "gas_cylinder", "pizza_box", "phone", "house", "box", "jar"]
+
+
+def _clips():
+    p = ROOT / "remotion" / "aroll.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+
+
 def _catalog():
     return json.loads((ROOT / "remotion" / "illustrations.json").read_text())
 
@@ -155,7 +164,7 @@ def _check_v2(d, voiceover):
                 if f not in e: bad.append(f"{t} needs '{f}'")
             if "at" not in e: bad.append(f"{t} needs 'at'")
             if t in ("vs", "arrow_pair") and "at" not in (e.get("right") or {}): bad.append(f"{t}.right needs 'at'")
-            if t == "object3d" and e.get("kind") not in ("jar", "coin", "box"): bad.append("object3d.kind must be jar, coin or box")
+            if t == "object3d" and e.get("kind") not in OBJ_KINDS: bad.append(f"object3d.kind must be one of {', '.join(OBJ_KINDS)}")
         def walk(o):
             if isinstance(o, dict):
                 for k, v in o.items():
@@ -164,6 +173,10 @@ def _check_v2(d, voiceover):
             elif isinstance(o, list):
                 for x in o: walk(x)
         walk(sc.get("elements", []))
+        clips = _clips()
+        if sc.get("aroll") and sc["aroll"] not in clips: bad.append(f"aroll '{sc['aroll']}' is not in the CLIPS list")
+        for rc in sc.get("react", []) or []:
+            if rc.get("clip") and (rc["clip"] not in clips or clips[rc["clip"]]["kind"] != "face"): bad.append(f"react clip '{rc['clip']}' must be a face clip from the CLIPS list")
     if bad: raise ValueError("; ".join(dict.fromkeys(bad))[:900])
     _check_cues({"scenes": d["scenes"], "cold_open": [d["cta"]]}, voiceover)
 
@@ -175,7 +188,8 @@ def edit_v2(script, transcript, title):
     groups = {}
     for name, g in _catalog().items(): groups.setdefault(g, []).append(name)
     ill = "\n".join(f"- {g}: " + ", ".join(sorted(v)) for g, v in sorted(groups.items()))
-    sysp = (ROOT / "prompts" / "video_editor_v2.md").read_text(encoding="utf-8").replace("{ILLUSTRATIONS}", ill).replace(
+    clips = "\n".join(f"- {k} ({v['kind']}, {v['dur']}s): {v['use']}" for k, v in _clips().items()) or "(none)"
+    sysp = (ROOT / "prompts" / "video_editor_v2.md").read_text(encoding="utf-8").replace("{ILLUSTRATIONS}", ill).replace("{CLIPS}", clips).replace(
         "{EXAMPLE}", json.dumps(example, ensure_ascii=False))
     spoken = spoken_tokens(script["voiceover"])
     user = (f"VIDEO TOPIC: {title}\n\nVOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\n"

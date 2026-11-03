@@ -223,7 +223,7 @@ def build_ui_sfx(hits, duration, path, seed=5):
 
     GAIN = {"pop": 0.30, "tick": 0.14, "impact": 0.75, "thud": 0.75, "ding": 0.26, "whoosh": 0.24, "riser": 0.30, "glide": 0.30,
             "drop": 0.16, "shutter": 0.45, "coins": 0.22, "keys": 0.30, "scribble": 0.35, "swipe": 0.42, "stamp": 0.7, "sparkle": 0.18,
-            "boing": 0.30, "note": 0.24}
+            "boing": 0.30, "note": 0.24, "blip": 0.11, "softtick": 0.07}
     for h in hits:
         if isinstance(h, (list, tuple)): h = {"t": h[0], "k": h[1]}
         k, t, d, p = h["k"], h["t"], h.get("dur"), h.get("p", 1.0)
@@ -235,7 +235,8 @@ def build_ui_sfx(hits, duration, path, seed=5):
         elif k == "scribble": sig = scribble(d or 0.3)
         elif k == "swipe": sig = swipe(d or 0.25)
         elif k in ("impact", "thud"): sig = impact(p)
-        elif k in ("pop", "tick", "ding", "drop", "note"): sig = {"pop": pop, "tick": tick, "ding": ding, "drop": drop, "note": note}[k](p)
+        elif k in ("pop", "tick", "ding", "drop", "note", "blip", "softtick"):
+            sig = {"pop": pop, "tick": tick, "ding": ding, "drop": drop, "note": note, "blip": pop, "softtick": tick}[k](p)
         else: sig = {"shutter": shutter, "stamp": stamp, "sparkle": sparkle, "boing": boing}.get(k, lambda: None)()
         if sig is None: continue
         i = int(max(0, t) * sr); j = min(n_total, i + len(sig))
