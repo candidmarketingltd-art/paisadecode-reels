@@ -1,22 +1,22 @@
-slot 3 (ideas) -> row 174: idea-dominos-franchise-300-rupee-pizza-breaku R | dry_run=True
-[1/4] script  idea-dominos-franchise-300-rupee-pizza-breaku R: ₹300 Ka Pizza: Domino's Franchise Owner Ke Haath Mein Kitna Aata Hai?
+  ANTHROPIC_API_KEY: set
+  ELEVENLABS_API_KEY: set
+  APIFY_TOKEN: set
+  BUFFER_API_KEY: set
+  BUFFER_CHANNEL_ID: set
+      [buffer] post statuses seen: {'sent': 53, 'scheduled': 8}
+Buffer queue: 8 waiting (buffer); target 10 -> making 2
+--- reel 1/2: slot 1 (economics) row 81: oPRqEZLjAsA B
+[1/4] script  oPRqEZLjAsA B: reusing saved plan
 [2/4] voice
       voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu), Rohan (IcsYcP26eMwajlgx2SDe)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      131 words, 53.9s, model eleven_v4
+      137 words, 52.3s, model eleven_v4
 [3/4] render
-      photo 'Domino's Pizza' -> faa48c001b1a.png (Wikimedia Commons / Domino's Pizza · Public domain)
-      no free image for 'Jubilant FoodWorks' (logo) -> illustration
-      remotion: Reel /tmp/tmpn1wjbmz8/video_only.mp4
-DRY RUN — reel at /home/runner/work/paisadecode-reels/paisadecode-reels/out/2026-11-03_0830_idea-dominos-franchise-300-rupee-pizza-breaku_R_hisaab.mp4
---- caption ---
-Domino's store ki roz ki sale ₹83,155... par franchise khareedna aasaan nahi 🍕 Payback sirf ~2 saal, baaki chains mein 3 saal se zyada.
-
-Us dost ko bhejo jo Domino's franchise lene ki baat karta hai 👇
-
-Follow @rohandecoder for daily money math
-Numbers from public sources, approximate. Store setup and payback are analyst estimates (2023), not financial advice.
-
-Images: Wikimedia Commons / Domino's Pizza · Public domain
-
-#Dominos #JubilantFoodWorks #FranchiseIndia #BusinessIdeas #QSR #PaisaDecode #Hindi
+      remotion: Reel /tmp/tmpqzjppi8d/video_only.mp4
+--- reel 2/2: slot 2 (money) row 170: idea-medical-store-100-rupee-medicine-profit R
+[1/4] script  idea-medical-store-100-rupee-medicine-profit R: ₹100 Ki Dawai Pe Medical Store Owner Kitna Kamata Hai?
+[2/4] voice
+      138 words, 53.5s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpl6fvrn5k/video_only.mp4
+added 2 reel(s) to Buffer

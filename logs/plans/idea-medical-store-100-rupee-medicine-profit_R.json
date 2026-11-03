@@ -1,0 +1,456 @@
+{
+ "voiceover": "[urgent, punchy] ₹100 की स्ट्रिप खरीदते हो? केमिस्ट उसे ₹71.43 में लाता है।\n\n[intrigued, building energy] तो क्या बाकी सब उसका मुनाफ़ा है? नहीं। और आख़िरी वाली बात दुकान खोलने से पहले जाननी ज़रूरी है।\n\n[excited, fast] कंपनी स्ट्रिप देती है स्टॉकिस्ट को ₹64.29 में। स्टॉकिस्ट देता है केमिस्ट को ₹71.43 में। केमिस्ट तुम्हें देता है ₹100 में। ये 12% GST वाला example है।\n\n[serious] ब्रांडेड दवाई पर केमिस्ट का margin आमतौर पर 16 से 22%। पूरी trade मिलाकर MRP का करीब 24% रखती है।\n\n[emphatic] ट्विस्ट: ये margin पक्का नहीं। कंपनी और ब्रांड के हिसाब से बदलता है। calculators भी इस पर लड़ते हैं, margin MRP पर या GST हटाकर?\n\n[confident] इसलिए दुकान सोचने से पहले किसी असली केमिस्ट का purchase invoice देखो। हिसाब उसी से लगाओ।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, मेडिकल स्टोर खोलते हैं, दवाई पे तो 20% मिलता है।\"",
+ "ig_caption": "₹100 ki strip, chemist ko aati hai ₹71.43 mein 💊 Toh baaki sab uska munafa? Jawab alag hi nikla.\n\nUs dost ko bhejo jo medical store kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se hain, approximate. Example 12% GST wala hai; asli margin brand aur company ke hisaab se badalta hai.",
+ "hashtags": [
+  "#MedicalStoreBusiness",
+  "#ChemistShop",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹100",
+  "₹71.43",
+  "₹64.29",
+  "12% GST",
+  "16–22%",
+  "24%",
+  "20%"
+ ],
+ "style": "v2",
+ "tag": "MEDICAL STORE",
+ "disclaimer": true,
+ "captions": [
+  "*₹100",
+  "ki",
+  "*strip",
+  "kharidte",
+  "ho?",
+  "*Chemist",
+  "use",
+  "*₹71.43",
+  "mein",
+  "laata",
+  "hai.",
+  "Toh",
+  "kya",
+  "baaki",
+  "sab",
+  "uska",
+  "*munafa",
+  "hai?",
+  "*Nahi.",
+  "Aur",
+  "aakhiri",
+  "waali",
+  "*baat",
+  "*dukaan",
+  "kholne",
+  "se",
+  "pehle",
+  "jaanni",
+  "zaroori",
+  "hai.",
+  "*Company",
+  "strip",
+  "deti",
+  "hai",
+  "stockist",
+  "ko",
+  "*₹64.29",
+  "mein.",
+  "Stockist",
+  "deta",
+  "hai",
+  "chemist",
+  "ko",
+  "*₹71.43",
+  "mein.",
+  "Chemist",
+  "tumhe",
+  "deta",
+  "hai",
+  "*₹100",
+  "mein.",
+  "Ye",
+  "*12%",
+  "*GST",
+  "wala",
+  "example",
+  "hai.",
+  "Branded",
+  "dawai",
+  "par",
+  "chemist",
+  "ka",
+  "*margin",
+  "aamtaur",
+  "par",
+  "*16",
+  "se",
+  "*22%.",
+  "Poori",
+  "trade",
+  "milaakar",
+  "MRP",
+  "ka",
+  "kareeb",
+  "*24%",
+  "rakhti",
+  "hai.",
+  "*Twist:",
+  "ye",
+  "margin",
+  "*pakka",
+  "nahi.",
+  "Company",
+  "aur",
+  "brand",
+  "ke",
+  "hisaab",
+  "se",
+  "*badalta",
+  "hai.",
+  "*Calculators",
+  "bhi",
+  "is",
+  "par",
+  "ladte",
+  "hain,",
+  "margin",
+  "*MRP",
+  "par",
+  "ya",
+  "*GST",
+  "hatakar?",
+  "Isliye",
+  "dukaan",
+  "sochne",
+  "se",
+  "pehle",
+  "kisi",
+  "asli",
+  "chemist",
+  "ka",
+  "*purchase",
+  "*invoice",
+  "dekho.",
+  "Hisaab",
+  "usi",
+  "se",
+  "lagao.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*medical",
+  "*store",
+  "kholte",
+  "hain,",
+  "dawai",
+  "pe",
+  "toh",
+  "*20%",
+  "milta",
+  "hai.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹100 की स्ट्रिप",
+   "chapter": "₹100 KI STRIP",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹100",
+     "color": "gold",
+     "ill": "pill",
+     "at": "₹100 की स्ट्रिप",
+     "note": "CHEMIST KO ₹71.43",
+     "note_at": "₹71.43 में",
+     "note_color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "तो क्या बाकी",
+   "chapter": "SAB MUNAFA?",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "नहीं।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "SAB MUNAFA?",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "तो क्या बाकी",
+     "sub": "NAHI",
+     "sub_at": "नहीं।",
+     "sub_color": "red"
+    },
+    {
+     "type": "pill",
+     "text": "LAST POINT · ZAROORI",
+     "color": "gold",
+     "outline": true,
+     "at": "आख़िरी वाली"
+    }
+   ]
+  },
+  {
+   "at": "कंपनी स्ट्रिप देती",
+   "chapter": "SUPPLY CHAIN",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "COMPANY → STOCKIST → CHEMIST",
+     "at": "कंपनी स्ट्रिप देती"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "₹64.29 में।",
+     "left": {
+      "label": "COMPANY SE",
+      "value": "₹64.29",
+      "sub": "stockist ko",
+      "color": "blue"
+     },
+     "right": {
+      "label": "STOCKIST SE",
+      "value": "₹71.43",
+      "sub": "chemist ko",
+      "color": "gold",
+      "at": "₹71.43 में।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "केमिस्ट तुम्हें देता",
+   "chapter": "CHEMIST → TUM",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "केमिस्ट तुम्हें देता",
+     "left": {
+      "label": "CHEMIST KO",
+      "value": "₹71.43",
+      "sub": "kharid",
+      "color": "blue"
+     },
+     "right": {
+      "label": "TUMHE",
+      "value": "₹100",
+      "sub": "MRP",
+      "color": "gold",
+      "at": "₹100 में।"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "12% GST WALA EXAMPLE",
+     "color": "muted",
+     "outline": true,
+     "at": "12% GST"
+    }
+   ]
+  },
+  {
+   "at": "ब्रांडेड दवाई",
+   "chapter": "CHEMIST KA CUT",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "16 से 22%।",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "BRANDED DAWAI · CHEMIST MARGIN",
+     "color": "gold",
+     "at": "ब्रांडेड दवाई"
+    },
+    {
+     "type": "big_number",
+     "value": "16–22%",
+     "color": "gold",
+     "ill": "pill",
+     "at": "16 से 22%।",
+     "note": "AAMTAUR PAR",
+     "note_at": "16 से 22%।",
+     "note_color": "muted"
+    }
+   ]
+  },
+  {
+   "at": "पूरी trade",
+   "chapter": "POORI TRADE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MRP · TRADE KA HISSA",
+     "at": "पूरी trade"
+    },
+    {
+     "type": "split_bar",
+     "at": "पूरी trade",
+     "parts": [
+      {
+       "label": "BAAKI MRP",
+       "value": 76,
+       "color": "muted",
+       "at": "पूरी trade"
+      },
+      {
+       "label": "POORI TRADE",
+       "value": 24,
+       "text": "~24%",
+       "color": "gold",
+       "at": "करीब 24%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "ट्विस्ट: ये",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "पक्का नहीं।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "TWIST",
+     "sub": "MARGIN PAKKA NAHI",
+     "color": "blue",
+     "at": "ट्विस्ट: ये"
+    }
+   ]
+  },
+  {
+   "at": "कंपनी और ब्रांड",
+   "chapter": "HAR BRAND ALAG",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "HAR BRAND, ALAG MARGIN",
+     "size": "l",
+     "ill": "balance_scale",
+     "at": "कंपनी और ब्रांड"
+    },
+    {
+     "type": "pill",
+     "text": "BADALTA HAI",
+     "color": "blue",
+     "at": "बदलता है।"
+    }
+   ]
+  },
+  {
+   "at": "calculators भी",
+   "chapter": "CALCULATOR FIGHT",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "लड़ते हैं,",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "calculators भी",
+     "left": {
+      "label": "MARGIN ON",
+      "value": "MRP",
+      "sub": "calculator #1"
+     },
+     "right": {
+      "label": "MARGIN ON",
+      "value": "EX-GST",
+      "sub": "GST hatakar",
+      "color": "blue",
+      "ill": "abacus",
+      "at": "GST हटाकर?"
+     }
+    }
+   ]
+  },
+  {
+   "at": "इसलिए दुकान",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "purchase invoice",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "steps",
+     "at": "इसलिए दुकान",
+     "dim_at": "purchase invoice",
+     "items": [
+      {
+       "text": "Dukaan se pehle",
+       "ill": "convenience_store",
+       "at": "इसलिए दुकान"
+      },
+      {
+       "text": "Asli purchase invoice dekho",
+       "ill": "receipt",
+       "at": "purchase invoice"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "HISAAB INVOICE SE",
+     "color": "green",
+     "at": "हिसाब उसी"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo medical store kholna chahta hai",
+  "line2_at": "मेडिकल स्टोर"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 medical store decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 22
+}
