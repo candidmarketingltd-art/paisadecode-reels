@@ -221,7 +221,7 @@ def build_ui_sfx(hits, duration, path, seed=5):
     def note(p=1.0):
         return tone(880 * p, 0.35, r=0.09, h=(1, 0.3))
 
-    GAIN = {"pop": 0.30, "tick": 0.14, "impact": 0.75, "thud": 0.75, "ding": 0.26, "whoosh": 0.32, "riser": 0.30, "glide": 0.30,
+    GAIN = {"pop": 0.30, "tick": 0.14, "impact": 0.75, "thud": 0.75, "ding": 0.26, "whoosh": 0.24, "riser": 0.30, "glide": 0.30,
             "drop": 0.16, "shutter": 0.45, "coins": 0.22, "keys": 0.30, "scribble": 0.35, "swipe": 0.42, "stamp": 0.7, "sparkle": 0.18,
             "boing": 0.30, "note": 0.24}
     for h in hits:

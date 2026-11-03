@@ -63,8 +63,9 @@ const Scene: React.FC<{ s: SceneT; i: number }> = ({ s, i }) => {
   const hs = els.map((e) => SPECS[e.type].h(e));
   const stacked = els.filter((_, k) => hs[k] > 0);
   const total = hs.filter((h) => h > 0).reduce((a, b) => a + b, 0) + GAP * Math.max(0, stacked.length - 1);
-  const k = total > AREA ? AREA / total : 1;
-  const top = TOP + (total < AREA ? (AREA - total) * 0.42 : 0);
+  // small heroes are scaled up (max 1.12 so 940px stays inside the frame) and the stack is centred in the content area
+  const k = total > AREA ? AREA / total : Math.min(1.12, AREA / total);
+  const top = TOP + Math.max(0, (AREA - total * k) * 0.45);
   const p = interpolate(f, [fx(s.start), fx(s.end)], [0, 1], clamp);
   let y = 0;
   return (

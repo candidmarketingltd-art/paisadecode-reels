@@ -132,6 +132,16 @@ def build_props(plan, words, duration, episode=None):
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
             reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}"})
+    # never open a scene on an empty screen: if its hero lands well after the scene's first words (only a pill/label
+    # before it), start the scene with the hero and let the previous scene stay up a little longer instead.
+    for i in range(1, len(scenes)):
+        sc = scenes[i]
+        hero = next((e for e in sc["elements"] if e["type"] not in ("pill", "label", "money_rain")), None)
+        if hero and hero["at"] - sc["start"] > 0.8:
+            new = round(hero["at"] - 0.12, 3)
+            scenes[i - 1]["end"] = new; sc["start"] = new
+            for e in sc["elements"]:
+                if e["at"] < new: e["at"] = new
     reacts.sort(key=lambda r: r["at"])
     for i, r in enumerate(reacts):
         nxt = reacts[i + 1]["at"] if i + 1 < len(reacts) else 1e9
