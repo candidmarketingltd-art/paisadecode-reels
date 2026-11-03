@@ -1,0 +1,20 @@
+  apify apify~instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+  apify apify~instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+  apify apify~instagram-reel-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+scraped 0 items -> 0 reels with view counts
+no proven reels found this week — nothing to add
