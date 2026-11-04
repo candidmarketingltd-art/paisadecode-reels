@@ -1,5 +1,5 @@
 """ElevenLabs voiceover with word timings (Rohan voice, Eleven v4 with audio tags)."""
-import base64, os
+import base64, os, re
 import requests
 
 API = "https://api.elevenlabs.io/v1"
@@ -75,15 +75,42 @@ def _quota_error(status, body):
     return status in (400, 401, 402, 429) and any(k in b for k in ("quota", "credit", "limit", "subscription", "payment"))
 
 
+# Decimals: Hindi TTS reads "1.2" as "1 दशमलव 2"; people say "ek point do". We speak "1 पॉइंट 2" and then merge
+# the three timed words back into the script's own token ("1.2"), so cue words and captions still line up.
+_DEC = re.compile(r"(\d+)\.(\d+)")
+_POINT = {"पॉइंट", "पॉईंट", "प्वाइंट", "पॉइन्ट", "point", "दशमलव"}
+
+
+def speakable(text):
+    return _DEC.sub(lambda m: f"{m.group(1)} पॉइंट {m.group(2)}", text)
+
+
+def _merge_points(words, text):
+    want = [w for w in re.sub(r"\[[^\]]*\]", " ", text).split() if _DEC.search(w)]
+    out, i = [], 0
+    while i < len(words):
+        w = words[i]
+        if i + 2 < len(words) and words[i + 1][0].strip(".,!?:;") in _POINT and re.search(r"\d$", w[0]) and re.match(r"\d", words[i + 2][0]):
+            a, b = w[0], words[i + 2][0]
+            merged = next((t for t in want if re.sub(r"[^\d.]", "", t).startswith(re.sub(r"\D", "", a) + "." + re.match(r"\d+", b).group())), None)
+            out.append((merged or f"{a}.{b}", w[1], words[i + 2][2])); i += 3
+            if merged: want.remove(merged)
+            continue
+        out.append(w); i += 1
+    return out
+
+
 def synthesize(text, mp3_path):
     """Returns (words, voice_used). Uses ElevenLabs (Rohan) while credits last, else the free Microsoft voice."""
+    spoken = speakable(text)
     if os.environ.get("VOICE_PROVIDER", "").lower() == "edge" or not os.environ.get("ELEVENLABS_API_KEY"):
-        return _edge(text, mp3_path), f"edge:{EDGE_VOICE}"
+        return _merge_points(_edge(spoken, mp3_path), text), f"edge:{EDGE_VOICE}"
     try:
-        return _eleven(text, mp3_path)
+        words, model = _eleven(spoken, mp3_path)
+        return _merge_points(words, text), model
     except QuotaError as e:
         print(f"      ElevenLabs out of credits ({e}) -> using free voice {EDGE_VOICE}", flush=True)
-        return _edge(text, mp3_path), f"edge:{EDGE_VOICE}"
+        return _merge_points(_edge(spoken, mp3_path), text), f"edge:{EDGE_VOICE}"
 
 
 class QuotaError(RuntimeError):
