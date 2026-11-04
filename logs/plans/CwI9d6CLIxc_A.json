@@ -1,0 +1,574 @@
+{
+ "voiceover": "[urgent, punchy] तुम ₹273 की मूवी टिकट लेते हो? उसमें से मल्टीप्लेक्स के पास बचते हैं सिर्फ़ ₹153।\n\n[intrigued, building energy] और असली कमाई कहाँ से आती है, वो आख़िर में बताऊँगा।\n\n[serious] पहली चोट: ₹273 में से करीब ₹120 फ़िल्म वालों को। [punchy] दूसरी: ऑक्यूपेंसी सिर्फ़ 25.3%। हर 4 में से 3 सीट खाली। शनिवार 7 बजे की सीट नहीं बिकी, तो एक्सपायर। तीसरी: एक क्वार्टर का रेंट ₹341 करोड़। चाहे 200 लोग बैठें या 40।\n\n[amused] अब पॉपकॉर्न वाला twist। कस्टमर फ़ूड पे ₹161 उड़ाता है, ingredient cost सिर्फ़ करीब 21%। यानी बचते हैं ₹127। टिकट के ₹153 के बिल्कुल पास!\n\n[emphatic] पर पॉपकॉर्न तभी बिकेगा, जब मूवी कस्टमर को अंदर लाए।\n\n[confident] इसलिए पहले सीटें भरो। फिर हर कस्टमर से टिकट, खाना, ऐड, सबकी कमाई गिनो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, मल्टीप्लेक्स खोलते हैं।\"",
+ "ig_caption": "₹273 ki ticket mein multiplex ke paas bachte hain sirf ₹153 🍿 Baaki paisa kahan jaata hai, aur asli kamai kahan se aati hai?\n\nUs dost ko bhejo jo multiplex kholne ki baat karta hai 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers PVR INOX ke latest quarter ke reported/blended figures hain, not financial advice.",
+ "hashtags": [
+  "#MultiplexBusiness",
+  "#PVRINOX",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#PopcornEconomics",
+  "#BusinessInIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹273",
+  "₹153",
+  "₹120",
+  "25.3%",
+  "4 में से 3 सीट खाली",
+  "7 बजे",
+  "₹341 करोड़",
+  "200",
+  "40",
+  "₹161",
+  "21%",
+  "₹127"
+ ],
+ "style": "v2",
+ "tag": "MULTIPLEX",
+ "disclaimer": true,
+ "captions": [
+  "Tum",
+  "*₹273",
+  "ki",
+  "movie",
+  "*ticket",
+  "lete",
+  "ho?",
+  "Usmein",
+  "se",
+  "multiplex",
+  "ke",
+  "paas",
+  "bachte",
+  "hain",
+  "sirf",
+  "*₹153.",
+  "Aur",
+  "*asli",
+  "*kamai",
+  "kahan",
+  "se",
+  "aati",
+  "hai,",
+  "wo",
+  "aakhir",
+  "mein",
+  "bataunga.",
+  "Pehli",
+  "chot:",
+  "₹273",
+  "mein",
+  "se",
+  "kareeb",
+  "*₹120",
+  "*film",
+  "waalon",
+  "ko.",
+  "Doosri:",
+  "*occupancy",
+  "sirf",
+  "*25.3%.",
+  "Har",
+  "*4",
+  "mein",
+  "se",
+  "*3",
+  "seat",
+  "khaali.",
+  "Shanivaar",
+  "*7",
+  "baje",
+  "ki",
+  "seat",
+  "nahi",
+  "biki,",
+  "toh",
+  "*expire.",
+  "Teesri:",
+  "ek",
+  "quarter",
+  "ka",
+  "*rent",
+  "*₹341",
+  "crore.",
+  "Chahe",
+  "*200",
+  "log",
+  "baithein",
+  "ya",
+  "*40.",
+  "Ab",
+  "*popcorn",
+  "wala",
+  "twist.",
+  "Customer",
+  "food",
+  "pe",
+  "*₹161",
+  "udaata",
+  "hai,",
+  "ingredient",
+  "cost",
+  "sirf",
+  "kareeb",
+  "*21%.",
+  "Yaani",
+  "bachte",
+  "hain",
+  "*₹127.",
+  "Ticket",
+  "ke",
+  "*₹153",
+  "ke",
+  "bilkul",
+  "paas!",
+  "Par",
+  "*popcorn",
+  "tabhi",
+  "bikega,",
+  "jab",
+  "*movie",
+  "customer",
+  "ko",
+  "andar",
+  "laaye.",
+  "Isliye",
+  "pehle",
+  "*seatein",
+  "*bharo.",
+  "Phir",
+  "har",
+  "customer",
+  "se",
+  "ticket,",
+  "khaana,",
+  "ad,",
+  "sabki",
+  "*kamai",
+  "gino.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*multiplex",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "तुम ₹273",
+   "chapter": "₹273 KA SACH",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "₹273 → ₹153",
+     "size": "l",
+     "ill": "admission_tickets",
+     "at": "तुम ₹273"
+    }
+   ]
+  },
+  {
+   "at": "उसमें से",
+   "chapter": "MULTIPLEX KA HISSA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "उसमें से"
+    },
+    {
+     "type": "pill",
+     "text": "MULTIPLEX KE PAAS ₹153",
+     "color": "gold",
+     "at": "सिर्फ़ ₹153।"
+    }
+   ]
+  },
+  {
+   "at": "और असली",
+   "chapter": "ASLI KAMAI?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "और असली"
+    },
+    {
+     "type": "pill",
+     "text": "REVEAL · AAKHIR MEIN",
+     "color": "blue",
+     "outline": true,
+     "at": "आख़िर में"
+    }
+   ]
+  },
+  {
+   "at": "पहली चोट:",
+   "chapter": "CHOT #1",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #1 · FILM KA HISSA",
+     "color": "red",
+     "at": "पहली चोट:"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹273 में",
+     "parts": [
+      {
+       "label": "FILM WAALE",
+       "value": 120,
+       "text": "₹120",
+       "color": "red",
+       "at": "₹120 फ़िल्म"
+      },
+      {
+       "label": "MULTIPLEX",
+       "value": 153,
+       "text": "₹153",
+       "color": "gold",
+       "at": "वालों को।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "दूसरी: ऑक्यूपेंसी",
+   "chapter": "CHOT #2",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #2 · OCCUPANCY",
+     "color": "red",
+     "at": "दूसरी: ऑक्यूपेंसी"
+    },
+    {
+     "type": "big_number",
+     "value": "25.3%",
+     "color": "red",
+     "ill": "seat",
+     "at": "सिर्फ़ 25.3%।"
+    }
+   ]
+  },
+  {
+   "at": "हर 4",
+   "chapter": "KHAALI SEATEIN",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 4,
+     "lost": 3,
+     "at": "हर 4",
+     "lost_at": "3 सीट खाली।",
+     "label": "HAR 4 SEAT",
+     "total_text": "4",
+     "left_text": "1"
+    }
+   ]
+  },
+  {
+   "at": "शनिवार 7 बजे",
+   "chapter": "SEAT EXPIRE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "7 BAJE",
+     "color": "white",
+     "ill": "hourglass_done",
+     "at": "शनिवार 7 बजे",
+     "note": "SEAT EXPIRE",
+     "note_at": "एक्सपायर।",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "तीसरी: एक",
+   "chapter": "CHOT #3",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHOT #3 · 1 QUARTER RENT",
+     "color": "red",
+     "at": "तीसरी: एक"
+    },
+    {
+     "type": "big_number",
+     "value": "₹341 Cr",
+     "color": "red",
+     "ill": "office_building",
+     "at": "रेंट ₹341"
+    }
+   ],
+   "react": [
+    {
+     "at": "₹341 करोड़।",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "चाहे 200",
+   "chapter": "RENT FIXED",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "चाहे 200",
+     "left": {
+      "label": "HOUSEFULL",
+      "value": "200",
+      "sub": "log"
+     },
+     "right": {
+      "label": "KHAALI HALL",
+      "value": "40",
+      "sub": "log",
+      "color": "red",
+      "ill": "seat",
+      "at": "या 40।"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "RENT UTNA HI",
+     "color": "red",
+     "outline": true,
+     "at": "या 40।"
+    }
+   ]
+  },
+  {
+   "at": "अब पॉपकॉर्न",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "popcorn",
+     "size": "l",
+     "glow": true,
+     "at": "अब पॉपकॉर्न"
+    },
+    {
+     "type": "pill",
+     "text": "POPCORN TWIST",
+     "color": "blue",
+     "at": "वाला twist।"
+    }
+   ],
+   "react": [
+    {
+     "at": "वाला twist।",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "कस्टमर फ़ूड",
+   "chapter": "FOOD KA BILL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹161",
+     "color": "gold",
+     "ill": "popcorn",
+     "at": "कस्टमर फ़ूड",
+     "note": "FOOD PE KHARCHA",
+     "note_at": "उड़ाता है,"
+    }
+   ]
+  },
+  {
+   "at": "ingredient cost",
+   "chapter": "POPCORN MARGIN",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹161 · ANDAR KYA HAI",
+     "at": "ingredient cost"
+    },
+    {
+     "type": "split_bar",
+     "at": "ingredient cost",
+     "parts": [
+      {
+       "label": "INGREDIENT",
+       "value": 21,
+       "text": "21%",
+       "color": "muted",
+       "at": "ingredient cost"
+      },
+      {
+       "label": "BACHAT",
+       "value": 79,
+       "text": "₹127",
+       "color": "gold",
+       "at": "हैं ₹127।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "टिकट के ₹153",
+   "chapter": "LAGBHAG BARABAR",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "टिकट के ₹153",
+     "left": {
+      "label": "TICKET SE",
+      "value": "₹153",
+      "sub": "bachat"
+     },
+     "right": {
+      "label": "FOOD SE",
+      "value": "₹127",
+      "sub": "bachat",
+      "color": "green",
+      "ill": "popcorn",
+      "at": "बिल्कुल पास!"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "BILKUL PAAS!",
+     "color": "green",
+     "at": "बिल्कुल पास!"
+    }
+   ]
+  },
+  {
+   "at": "पर पॉपकॉर्न",
+   "chapter": "ASLI SACH",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Movie laaye, popcorn bike",
+     "size": "m",
+     "ill": "film_projector",
+     "at": "पर पॉपकॉर्न"
+    },
+    {
+     "type": "pill",
+     "text": "PEHLE CUSTOMER ANDAR",
+     "color": "gold",
+     "at": "अंदर लाए।"
+    }
+   ],
+   "react": [
+    {
+     "at": "जब मूवी",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "इसलिए पहले",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "इसलिए पहले",
+     "items": [
+      {
+       "text": "Pehle seatein bharo",
+       "at": "इसलिए पहले",
+       "ill": "seat"
+      },
+      {
+       "text": "Har customer ki kamai gino",
+       "at": "फिर हर",
+       "ill": "abacus"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "इसलिए पहले",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "टिकट, खाना,",
+   "chapter": "POORA HISAAB",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "टिकट, खाना,",
+     "items": [
+      {
+       "text": "TICKET",
+       "at": "टिकट,",
+       "strike": false
+      },
+      {
+       "text": "KHAANA",
+       "at": "खाना,",
+       "strike": false
+      },
+      {
+       "text": "AD",
+       "at": "ऐड,",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "SABKI KAMAI GINO",
+     "color": "green",
+     "at": "सबकी कमाई"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo multiplex kholna chahta hai",
+  "line2_at": "मल्टीप्लेक्स खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 multiplex decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 23
+}
