@@ -75,29 +75,58 @@ def _quota_error(status, body):
     return status in (400, 401, 402, 429) and any(k in b for k in ("quota", "credit", "limit", "subscription", "payment"))
 
 
-# Decimals: Hindi TTS reads "1.2" as "1 दशमलव 2"; people say "ek point do". We speak "1 पॉइंट 2" and then merge
-# the three timed words back into the script's own token ("1.2"), so cue words and captions still line up.
-_DEC = re.compile(r"(\d+)\.(\d+)")
+# How Rohan says numbers: "1.2" -> "ek point do" (not "dashamlav"), "2×4" / "2 x 4" / "2 गुणा 4" -> "2 into 4" (not "guna").
+# The spoken text gets "पॉइंट" / "इनटू"; afterwards the timed words are folded back into the script's own tokens,
+# so cue words and captions still line up with the script.
+_DEC = re.compile(r"(\d)\.(\d)")
+_MUL = re.compile(r"(\d)\s*[×xX*✕]\s*(?=[₹]?\d)")
+_MUL_SIGNS = {"×", "x", "X", "*", "✕"}
+_MUL_WORDS = {"गुणा", "गुना"}
 _POINT = {"पॉइंट", "पॉईंट", "प्वाइंट", "पॉइन्ट", "point", "दशमलव"}
+_INTO = {"इनटू", "इंटू", "इन्टू", "into"}
+
+
+def _plan(text):
+    """(spoken text, ops): ops in order — ("glue", token, n_words) | ("drop",) | ("rename", word)."""
+    parts = re.split(r"(\s+)", text); toks = parts[0::2]; seps = parts[1::2] + [""]; out, ops = [], []
+    for i, t in enumerate(toks):
+        prev = toks[i - 1] if i else ""; nxt = toks[i + 1] if i + 1 < len(toks) else ""
+        bare = t.strip(".,!?:;।\n")
+        num_around = bool(re.search(r"\d\W*$", prev)) and bool(re.match(r"\W*[₹]?\d", nxt))
+        if bare in _MUL_SIGNS and num_around:
+            out.append(t.replace(bare, "इनटू")); ops.append(("drop",)); continue
+        if bare in _MUL_WORDS and num_around:
+            out.append(t.replace(bare, "इनटू")); ops.append(("rename", t)); continue
+        sp = _MUL.sub(lambda m: f"{m.group(1)} इनटू ", _DEC.sub(lambda m: f"{m.group(1)} पॉइंट {m.group(2)}", t))
+        if sp != t:
+            n = len(sp.split()); k = sum(1 for w in sp.split() if w in ("पॉइंट", "इनटू"))
+            ops += [("glue", t.strip(), n)] + [("skip",)] * (k - 1); out.append(sp); continue
+        out.append(t)
+    return "".join(x + seps[i] for i, x in enumerate(out)), ops
 
 
 def speakable(text):
-    return _DEC.sub(lambda m: f"{m.group(1)} पॉइंट {m.group(2)}", text)
+    return _plan(text)[0]
 
 
-def _merge_points(words, text):
-    want = [w for w in re.sub(r"\[[^\]]*\]", " ", text).split() if _DEC.search(w)]
-    out, i = [], 0
+def _fold(words, text):
+    ops = list(_plan(text)[1]); out, i = [], 0
     while i < len(words):
-        w = words[i]
-        if i + 2 < len(words) and words[i + 1][0].strip(".,!?:;") in _POINT and re.search(r"\d$", w[0]) and re.match(r"\d", words[i + 2][0]):
-            a, b = w[0], words[i + 2][0]
-            merged = next((t for t in want if re.sub(r"[^\d.]", "", t).startswith(re.sub(r"\D", "", a) + "." + re.match(r"\d+", b).group())), None)
-            out.append((merged or f"{a}.{b}", w[1], words[i + 2][2])); i += 3
-            if merged: want.remove(merged)
-            continue
+        w = words[i]; bare = w[0].strip(".,!?:;।")
+        if ops and (bare in _POINT or bare in _INTO):
+            op = ops.pop(0)
+            if op[0] == "drop": i += 1; continue
+            if op[0] == "rename": out.append((op[1], w[1], w[2])); i += 1; continue
+            if op[0] == "glue" and out:
+                n = op[2]; first = out.pop(); last = words[min(len(words), i + n - 1) - 1]
+                out.append((op[1], first[1], last[2])); i += n - 1
+                while ops and ops[0][0] == "skip": ops.pop(0)
+                continue
         out.append(w); i += 1
     return out
+
+
+_merge_points = _fold
 
 
 def synthesize(text, mp3_path):
