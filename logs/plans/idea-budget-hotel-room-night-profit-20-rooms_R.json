@@ -1,0 +1,626 @@
+{
+ "voiceover": "[urgent, punchy] ₹3,000 का रूम बुक करते हो? होटल मालिक तक पूरे ₹3,000 कभी नहीं पहुँचते।\n\n[intrigued, building energy] और आख़िरी नंबर बताएगा कि होटल चलेगा या नहीं।\n\n[excited, fast] 20 कमरे का होटल। ₹4 करोड़ का प्रोजेक्ट, ₹2.60 करोड़ का loan। कमरा भरे या ख़ाली, किराया, सैलरी और EMI चलती रहती है।\n\n[serious] और जो कमरा बिकता है? ऑनलाइन प्लेटफ़ॉर्म 15–25% कमीशन लेता है। ₹4,000 का रूम, 20% कमीशन, यानी ₹800 गए। [punchy] उस कमीशन पर भी 18% GST। रूम पर अलग से 5% GST, बिना input credit के।\n\n[emphatic] अब असली बात। Budget होटल का औसत रेट ₹4,049 है, पर एक कमरा रात में कमाता है सिर्फ़ ₹2,294। क्योंकि औसत occupancy सिर्फ़ 56.7% है।\n\n[confident] होटल खोलने से पहले एक सवाल पूछो: EMI निकालने के लिए रोज़ कितने कमरे भरने होंगे?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, 20 कमरे का होटल खोलते हैं।\"",
+ "ig_caption": "₹3,000 ka room book karte ho, par hotel owner tak poore ₹3,000 nahi pahunchte 🏨 Budget hotel ka average rate ₹4,049, par ek room raat mein kamata hai sirf ₹2,294.\n\nUs dost ko bhejo jo 20 kamre ka hotel kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate\nProject numbers are illustrative, not financial advice.",
+ "hashtags": [
+  "#HotelBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#OTA",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹3,000",
+  "20 कमरे",
+  "₹4 करोड़ (₹4.00 crore)",
+  "₹2.60 करोड़ (₹2.60 crore)",
+  "15–25%",
+  "₹4,000",
+  "20%",
+  "₹800",
+  "18% GST",
+  "5% GST",
+  "₹4,049",
+  "₹2,294",
+  "56.7%"
+ ],
+ "style": "v2",
+ "tag": "HOTEL BUSINESS",
+ "disclaimer": true,
+ "captions": [
+  "*₹3,000",
+  "ka",
+  "room",
+  "book",
+  "karte",
+  "ho?",
+  "Hotel",
+  "*maalik",
+  "tak",
+  "poore",
+  "*₹3,000",
+  "kabhi",
+  "nahi",
+  "pahunchte.",
+  "Aur",
+  "*aakhri",
+  "*number",
+  "batayega",
+  "ki",
+  "hotel",
+  "chalega",
+  "ya",
+  "nahi.",
+  "*20",
+  "*kamre",
+  "ka",
+  "hotel.",
+  "*₹4",
+  "*crore",
+  "ka",
+  "project,",
+  "*₹2.60",
+  "crore",
+  "ka",
+  "*loan.",
+  "Kamra",
+  "bhare",
+  "ya",
+  "khaali,",
+  "kiraya,",
+  "salary",
+  "aur",
+  "*EMI",
+  "chalti",
+  "rehti",
+  "hai.",
+  "Aur",
+  "jo",
+  "kamra",
+  "bikta",
+  "hai?",
+  "Online",
+  "*platform",
+  "*15–25%",
+  "commission",
+  "leta",
+  "hai.",
+  "*₹4,000",
+  "ka",
+  "room,",
+  "20%",
+  "commission,",
+  "yaani",
+  "*₹800",
+  "gaye.",
+  "Us",
+  "commission",
+  "par",
+  "bhi",
+  "*18%",
+  "*GST.",
+  "Room",
+  "par",
+  "alag",
+  "se",
+  "*5%",
+  "GST,",
+  "bina",
+  "*input",
+  "*credit",
+  "ke.",
+  "Ab",
+  "asli",
+  "baat.",
+  "Budget",
+  "hotel",
+  "ka",
+  "ausat",
+  "rate",
+  "*₹4,049",
+  "hai,",
+  "par",
+  "ek",
+  "kamra",
+  "raat",
+  "mein",
+  "kamata",
+  "hai",
+  "sirf",
+  "*₹2,294.",
+  "Kyunki",
+  "ausat",
+  "*occupancy",
+  "sirf",
+  "*56.7%",
+  "hai.",
+  "Hotel",
+  "kholne",
+  "se",
+  "pehle",
+  "ek",
+  "*sawaal",
+  "poochho:",
+  "*EMI",
+  "nikaalne",
+  "ke",
+  "liye",
+  "roz",
+  "*kitne",
+  "*kamre",
+  "bharne",
+  "honge?",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*20",
+  "*kamre",
+  "ka",
+  "hotel",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹3,000 का रूम",
+   "chapter": "₹3,000 KA ROOM",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹3,000",
+     "color": "gold",
+     "ill": "bellhop_bell",
+     "at": "₹3,000 का रूम",
+     "note": "OWNER TAK? NAHI",
+     "note_at": "कभी नहीं"
+    }
+   ]
+  },
+  {
+   "at": "होटल मालिक तक",
+   "chapter": "KAHAN GAYA?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "होटल मालिक तक",
+     "left": {
+      "label": "TUM DETE HO",
+      "value": "₹3,000",
+      "sub": "per room"
+     },
+     "right": {
+      "label": "MAALIK TAK",
+      "value": "<₹3,000",
+      "sub": "kabhi poora nahi",
+      "color": "red",
+      "ill": "hotel",
+      "at": "कभी नहीं पहुँचते।"
+     },
+     "strike_at": "कभी नहीं पहुँचते।"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िरी नंबर",
+   "chapter": "AAKHRI NUMBER",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "CHALEGA YA NAHI?",
+     "size": "l",
+     "ill": "crystal_ball",
+     "at": "और आख़िरी नंबर"
+    }
+   ]
+  },
+  {
+   "at": "20 कमरे का",
+   "chapter": "20 KAMRE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "20 कमरे का"
+    },
+    {
+     "type": "pill",
+     "text": "20 ROOMS KA HOTEL",
+     "color": "gold",
+     "at": "20 कमरे का"
+    }
+   ]
+  },
+  {
+   "at": "₹4 करोड़ का",
+   "chapter": "PROJECT COST",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "cash_stack",
+     "at": "₹4 करोड़ का"
+    },
+    {
+     "type": "big_number",
+     "value": "₹4 CR",
+     "color": "gold",
+     "at": "₹4 करोड़ का",
+     "note": "PROJECT",
+     "note_at": "का प्रोजेक्ट,"
+    }
+   ]
+  },
+  {
+   "at": "₹2.60 करोड़ का",
+   "chapter": "LOAN KA BOJH",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹4 CR PROJECT",
+     "color": "gold",
+     "at": "₹2.60 करोड़ का"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹2.60 करोड़ का",
+     "parts": [
+      {
+       "label": "LOAN",
+       "value": 2.6,
+       "text": "₹2.60Cr",
+       "color": "red",
+       "at": "₹2.60 करोड़ का"
+      },
+      {
+       "label": "APNA PAISA",
+       "value": 1.4,
+       "color": "gold",
+       "at": "का loan।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "कमरा भरे या",
+   "chapter": "FIXED KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "BHARA YA KHAALI?",
+     "size": "l",
+     "ill": "bed",
+     "at": "कमरा भरे या"
+    }
+   ]
+  },
+  {
+   "at": "किराया, सैलरी और",
+   "chapter": "ROZ KA KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "HAR MAHINE",
+     "at": "किराया, सैलरी और",
+     "rows": [
+      {
+       "text": "Kiraya",
+       "at": "किराया, सैलरी और"
+      },
+      {
+       "text": "Salary",
+       "at": "सैलरी और"
+      },
+      {
+       "text": "EMI",
+       "mark": "NON-STOP",
+       "at": "EMI चलती"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "CHALTA RAHEGA",
+     "color": "red",
+     "at": "चलती रहती है।"
+    }
+   ]
+  },
+  {
+   "at": "और जो कमरा",
+   "chapter": "ONLINE BOOKING",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "phone",
+     "at": "और जो कमरा"
+    },
+    {
+     "type": "pill",
+     "text": "ONLINE PLATFORM",
+     "color": "blue",
+     "at": "ऑनलाइन प्लेटफ़ॉर्म"
+    }
+   ]
+  },
+  {
+   "at": "15–25% कमीशन",
+   "chapter": "PLATFORM KA CUT",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "15–25% कमीशन"
+    },
+    {
+     "type": "big_number",
+     "value": "15–25%",
+     "color": "red",
+     "at": "15–25% कमीशन",
+     "note": "COMMISSION",
+     "note_at": "लेता है।"
+    }
+   ]
+  },
+  {
+   "at": "₹4,000 का रूम,",
+   "chapter": "₹800 GAYE",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹800 गए।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹4,000 KA ROOM",
+     "color": "gold",
+     "at": "₹4,000 का रूम,"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹4,000 का रूम,",
+     "parts": [
+      {
+       "label": "BAAKI",
+       "value": 80,
+       "color": "gold",
+       "at": "₹4,000 का रूम,"
+      },
+      {
+       "label": "20% COMMISSION",
+       "value": 20,
+       "text": "₹800",
+       "color": "red",
+       "at": "यानी ₹800"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "उस कमीशन पर",
+   "chapter": "GST #1",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "COMMISSION PAR BHI",
+     "color": "red",
+     "at": "उस कमीशन पर"
+    },
+    {
+     "type": "big_number",
+     "value": "18%",
+     "color": "red",
+     "ill": "receipt",
+     "at": "18% GST।",
+     "note": "GST",
+     "note_at": "18% GST।"
+    }
+   ]
+  },
+  {
+   "at": "रूम पर अलग",
+   "chapter": "GST #2",
+   "tint": "red",
+   "react": [
+    {
+     "at": "बिना input credit",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "ROOM PAR ALAG SE",
+     "color": "red",
+     "at": "रूम पर अलग"
+    },
+    {
+     "type": "big_number",
+     "value": "+5%",
+     "color": "red",
+     "at": "5% GST,",
+     "note": "NO INPUT CREDIT",
+     "note_at": "बिना input credit",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "अब असली बात।",
+   "chapter": "ASLI BAAT",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "ASLI",
+     "sub": "BAAT",
+     "color": "blue",
+     "at": "अब असली बात।"
+    }
+   ]
+  },
+  {
+   "at": "Budget होटल का",
+   "chapter": "AVG RATE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "BUDGET HOTEL · AVG RATE",
+     "color": "blue",
+     "at": "Budget होटल का"
+    },
+    {
+     "type": "big_number",
+     "value": "₹4,049",
+     "color": "gold",
+     "ill": "hotel",
+     "at": "₹4,049 है,"
+    }
+   ]
+  },
+  {
+   "at": "पर एक कमरा",
+   "chapter": "ASLI KAMAI",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "₹2,294।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "पर एक कमरा",
+     "left": {
+      "label": "AVG RATE",
+      "value": "₹4,049",
+      "sub": "kaagaz pe"
+     },
+     "right": {
+      "label": "ASLI KAMAI",
+      "value": "₹2,294",
+      "sub": "per room · raat",
+      "color": "red",
+      "ill": "bed",
+      "at": "₹2,294।"
+     },
+     "strike_at": "₹2,294।"
+    }
+   ]
+  },
+  {
+   "at": "क्योंकि औसत occupancy",
+   "chapter": "KHAALI KAMRE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "AVG OCCUPANCY",
+     "color": "red",
+     "at": "क्योंकि औसत occupancy"
+    },
+    {
+     "type": "split_bar",
+     "at": "56.7% है।",
+     "parts": [
+      {
+       "label": "BHARE KAMRE",
+       "value": 56.7,
+       "text": "56.7%",
+       "color": "gold",
+       "at": "56.7% है।"
+      },
+      {
+       "label": "KHAALI",
+       "value": 43.3,
+       "color": "red",
+       "at": "56.7% है।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "होटल खोलने से",
+   "chapter": "MERA SAWAAL",
+   "tint": "green",
+   "react": [
+    {
+     "at": "होटल खोलने से",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "PEHLE EK SAWAAL",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "होटल खोलने से"
+    }
+   ]
+  },
+  {
+   "at": "EMI निकालने के",
+   "chapter": "BREAK-EVEN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "?",
+     "label": "EMI KE LIYE ROZ KITNE KAMRE",
+     "at": "EMI निकालने के",
+     "value_at": "कितने कमरे"
+    },
+    {
+     "type": "pill",
+     "text": "YAHI ASLI HISAAB",
+     "color": "green",
+     "at": "भरने होंगे?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo 20 kamre ka hotel kholna chahta hai",
+  "line2_at": "होटल खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 hotel decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 24
+}
