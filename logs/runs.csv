@@ -101,3 +101,13 @@ run_at_ist,video_id,angle,status,note
 2026-11-05 00:14,idea-budget-hotel-room-night-profit-20-rooms,R,in_buffer,6aeb7d2479e2b7f790e49e06
 2026-11-05 00:20,COFgL_RnQzs,C,in_buffer,6aeb7e797631b8ab98c04c61
 2026-11-05 12:15,idea-jewellery-shop-1-lakh-gold-making-charge,R,in_buffer,6aec25f37877e0eab27c96c3
+2026-11-06 00:12,xsuvqCTZqIY,A,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-06 00:19,idea-pathology-lab-franchise-500-blood-test,R,in_buffer,6aeccfa66708587e9e63988f
+2026-11-06 00:19,xsuvqCTZqIY,B,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-06 00:25,idea-mobile-shop-80000-phone-retailer-margin,R,in_buffer,6aecd1196708587e9e63eacf

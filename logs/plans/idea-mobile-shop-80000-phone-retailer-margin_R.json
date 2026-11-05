@@ -1,0 +1,505 @@
+{
+ "voiceover": "[urgent, punchy] फ़ोन के हर ₹100 पर दुकानदार को मिलते हैं सिर्फ़ ₹6–7। और कवर के हर ₹100 पर? ₹40–70।\n\n[intrigued, building energy] इसीलिए फ़ोन देते ही पूछता है, \"कवर लोगे? ग्लास लगा दूँ?\" और तीसरी चीज़ सबसे shocking है।\n\n[excited, fast] फ़ोन पर मार्जिन 6–7%। छोटे रिटेलर का नेट प्रॉफ़िट 1.5% से भी कम। कवर पर 40–70%, टेम्पर्ड ग्लास पर 50–80%। [amused] ब्लॉग के अंदाज़े हैं, पर हर फ़ोन के साथ ग्लास पूछना आसान है।\n\n[emphatic] और तीसरा: प्रोटेक्शन प्लान। एक कंपनी काउंटर पर रिटेलर को 35% तक कमीशन देती है। न स्टॉक, न डिपॉज़िट। यानी फ़ोन तो बस एंट्री है, कमाई ऊपर के add-ons में।\n\n[confident] प्लान लेने से पहले पूछो: वारंटी कब शुरू होगी? और याद रखो, प्लान मना करके भी फ़ोन मिलता है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो नया फ़ोन लेने जा रहा है।",
+ "ig_caption": "Phone ke har ₹100 par dukaandaar ko ₹6–7, cover ke har ₹100 par ₹40–70 📱 Isliye phone dete hi cover aur glass poochha jaata hai.\n\nUs dost ko bhejo jo naya phone lene ja raha hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate. Accessory aur plan margins blog/supplier ke andaaze hain. Not financial advice.",
+ "hashtags": [
+  "#MobileShopBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#MobileAccessories",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹100",
+  "₹6–7",
+  "₹40–70",
+  "6–7%",
+  "1.5%",
+  "40–70%",
+  "50–80%",
+  "35%"
+ ],
+ "style": "v2",
+ "tag": "MOBILE SHOP",
+ "disclaimer": true,
+ "captions": [
+  "Phone",
+  "ke",
+  "har",
+  "*₹100",
+  "par",
+  "dukaandaar",
+  "ko",
+  "milte",
+  "hain",
+  "sirf",
+  "*₹6–7.",
+  "Aur",
+  "*cover",
+  "ke",
+  "har",
+  "₹100",
+  "par?",
+  "*₹40–70.",
+  "Isiliye",
+  "phone",
+  "dete",
+  "hi",
+  "poochhta",
+  "hai,",
+  "\"*Cover",
+  "loge?",
+  "*Glass",
+  "laga",
+  "doon?\"",
+  "Aur",
+  "*teesri",
+  "cheez",
+  "sabse",
+  "*shocking",
+  "hai.",
+  "Phone",
+  "par",
+  "margin",
+  "*6–7%.",
+  "Chhote",
+  "retailer",
+  "ka",
+  "net",
+  "profit",
+  "*1.5%",
+  "se",
+  "bhi",
+  "kam.",
+  "Cover",
+  "par",
+  "*40–70%,",
+  "tempered",
+  "glass",
+  "par",
+  "*50–80%.",
+  "Blog",
+  "ke",
+  "andaaze",
+  "hain,",
+  "par",
+  "har",
+  "phone",
+  "ke",
+  "saath",
+  "*glass",
+  "poochhna",
+  "aasaan",
+  "hai.",
+  "Aur",
+  "teesra:",
+  "*Protection",
+  "*plan.",
+  "Ek",
+  "company",
+  "counter",
+  "par",
+  "retailer",
+  "ko",
+  "*35%",
+  "tak",
+  "*commission",
+  "deti",
+  "hai.",
+  "Na",
+  "*stock,",
+  "na",
+  "*deposit.",
+  "Yaani",
+  "phone",
+  "toh",
+  "bas",
+  "*entry",
+  "hai,",
+  "*kamaai",
+  "upar",
+  "ke",
+  "*add-ons",
+  "mein.",
+  "Plan",
+  "lene",
+  "se",
+  "pehle",
+  "poochho:",
+  "*warranty",
+  "kab",
+  "*shuru",
+  "hogi?",
+  "Aur",
+  "yaad",
+  "rakho,",
+  "plan",
+  "*mana",
+  "karke",
+  "bhi",
+  "*phone",
+  "milta",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "naya",
+  "phone",
+  "lene",
+  "ja",
+  "raha",
+  "hai."
+ ],
+ "scenes": [
+  {
+   "at": "फ़ोन के हर",
+   "chapter": "₹100 KA SACH",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "PHONE KE HAR ₹100 PAR",
+     "at": "फ़ोन के हर"
+    },
+    {
+     "type": "big_number",
+     "value": "₹6–7",
+     "color": "gold",
+     "ill": "mobile_phone",
+     "at": "फ़ोन के हर",
+     "note": "DUKAANDAAR KO",
+     "note_at": "₹6–7।"
+    }
+   ]
+  },
+  {
+   "at": "और कवर",
+   "chapter": "COVER KA KHEL",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "₹40–70।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "और कवर",
+     "left": {
+      "label": "PHONE · PER ₹100",
+      "value": "₹6–7",
+      "sub": "dukaandaar ko"
+     },
+     "right": {
+      "label": "COVER · PER ₹100",
+      "value": "₹40–70",
+      "sub": "dukaandaar ko",
+      "color": "green",
+      "ill": "shield",
+      "at": "₹40–70।"
+     },
+     "strike_at": "₹40–70।"
+    }
+   ]
+  },
+  {
+   "at": "इसीलिए फ़ोन",
+   "chapter": "COUNTER PE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "phone",
+     "at": "इसीलिए फ़ोन"
+    },
+    {
+     "type": "pill",
+     "text": "COVER LOGE? GLASS?",
+     "color": "gold",
+     "at": "\"कवर लोगे?"
+    }
+   ]
+  },
+  {
+   "at": "और तीसरी चीज़",
+   "chapter": "TEESRI CHEEZ",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "3",
+     "sub": "SABSE SHOCKING",
+     "color": "blue",
+     "at": "और तीसरी चीज़"
+    }
+   ]
+  },
+  {
+   "at": "फ़ोन पर मार्जिन",
+   "chapter": "PHONE MARGIN",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "6–7%",
+     "label": "PHONE PE MARGIN",
+     "at": "फ़ोन पर मार्जिन",
+     "value_at": "6–7%।"
+    }
+   ]
+  },
+  {
+   "at": "छोटे रिटेलर",
+   "chapter": "NET PROFIT",
+   "tint": "red",
+   "react": [
+    {
+     "at": "1.5% से",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHHOTA RETAILER · NET PROFIT",
+     "color": "red",
+     "at": "छोटे रिटेलर"
+    },
+    {
+     "type": "big_number",
+     "value": "<1.5%",
+     "color": "red",
+     "ill": "chart_decreasing",
+     "at": "1.5% से"
+    }
+   ]
+  },
+  {
+   "at": "कवर पर 40–70%,",
+   "chapter": "COVER MARGIN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "40–70%",
+     "color": "green",
+     "ill": "shield",
+     "at": "कवर पर 40–70%,",
+     "note": "COVER PE MARGIN",
+     "note_at": "कवर पर 40–70%,"
+    }
+   ]
+  },
+  {
+   "at": "टेम्पर्ड ग्लास",
+   "chapter": "GLASS MARGIN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "50–80%",
+     "color": "green",
+     "ill": "sparkles",
+     "at": "टेम्पर्ड ग्लास",
+     "note": "TEMPERED GLASS",
+     "note_at": "50–80%।"
+    }
+   ]
+  },
+  {
+   "at": "ब्लॉग के",
+   "chapter": "ANDAAZA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "BLOG KE ANDAAZE",
+     "color": "muted",
+     "outline": true,
+     "at": "ब्लॉग के"
+    },
+    {
+     "type": "headline",
+     "text": "HAR PHONE + GLASS?",
+     "size": "l",
+     "ill": "mobile_phone",
+     "at": "हर फ़ोन"
+    }
+   ]
+  },
+  {
+   "at": "और तीसरा:",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "और तीसरा:"
+    },
+    {
+     "type": "pill",
+     "text": "PROTECTION PLAN",
+     "color": "blue",
+     "at": "प्रोटेक्शन प्लान।"
+    }
+   ]
+  },
+  {
+   "at": "एक कंपनी",
+   "chapter": "PLAN COMMISSION",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "COUNTER PE · RETAILER KO",
+     "at": "एक कंपनी"
+    },
+    {
+     "type": "big_number",
+     "value": "35%",
+     "color": "gold",
+     "ill": "coin",
+     "at": "35% तक",
+     "note": "TAK COMMISSION",
+     "note_at": "कमीशन देती"
+    }
+   ]
+  },
+  {
+   "at": "न स्टॉक,",
+   "chapter": "ZERO RISK",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "न स्टॉक,",
+     "items": [
+      {
+       "text": "Stock",
+       "at": "न स्टॉक,"
+      },
+      {
+       "text": "Deposit",
+       "at": "न डिपॉज़िट।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "यानी फ़ोन",
+   "chapter": "ASLI KAMAAI",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "यानी फ़ोन",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "यानी फ़ोन",
+     "parts": [
+      {
+       "label": "PHONE · SIRF ENTRY",
+       "value": 2,
+       "color": "muted",
+       "at": "यानी फ़ोन"
+      },
+      {
+       "label": "ADD-ONS · ASLI KAMAAI",
+       "value": 8,
+       "color": "gold",
+       "at": "कमाई ऊपर"
+      }
+     ]
+    },
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "add-ons में।"
+    }
+   ]
+  },
+  {
+   "at": "प्लान लेने",
+   "chapter": "PEHLE POOCHHO",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "पूछो:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "PLAN SE PEHLE",
+     "color": "gold",
+     "at": "प्लान लेने"
+    },
+    {
+     "type": "headline",
+     "text": "WARRANTY KAB SHURU?",
+     "size": "l",
+     "ill": "calendar",
+     "at": "वारंटी कब"
+    }
+   ]
+  },
+  {
+   "at": "और याद",
+   "chapter": "YAAD RAKHO",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "और याद",
+     "items": [
+      {
+       "text": "Plan lena zaroori",
+       "at": "प्लान मना"
+      },
+      {
+       "text": "Phone phir bhi milega",
+       "strike": false,
+       "at": "फ़ोन मिलता"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "MANA KAR SAKTE HO",
+     "color": "green",
+     "at": "मिलता है।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo naya phone lene ja raha hai",
+  "line2_at": "नया फ़ोन"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · mobile shop decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 28
+}

@@ -3,14 +3,29 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 58}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 1 (economics) row 177: idea-jewellery-shop-1-lakh-gold-making-charge R
-[1/4] script  idea-jewellery-shop-1-lakh-gold-making-charge R: ₹1 Lakh Ka Gold Set Bika: Jeweller Ki Jeb Mein Kitna Gaya?
+      [buffer] post statuses seen: {'scheduled': 8, 'error': 1, 'sent': 59}
+Buffer queue: 8 waiting (buffer); target 10 -> making 2
+--- reel 1/2: slot 2 (money) row 57: xsuvqCTZqIY A
+      skipped for now (transcript unavailable): Apify usage limit reached: {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
+--- reel 1/2: slot 2 (money) row 178: idea-pathology-lab-franchise-500-blood-test R
+[1/4] script  idea-pathology-lab-franchise-500-blood-test R: ₹500 Ka Blood Test: Lab Owner Ke Paas Asli Mein Kitna Bachta Hai?
 [2/4] voice
-      voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu), Rohan (IcsYcP26eMwajlgx2SDe)
-      using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      133 words, 54.3s, model eleven_v4
+      137 words, 50.3s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmpj9ki97h0/video_only.mp4
-added 1 reel(s) to Buffer
+      no free image for 'Dr Lal PathLabs' (logo) -> illustration
+      remotion: Reel /tmp/tmphsmzaomh/video_only.mp4
+--- reel 2/2: slot 3 (ideas) row 123: xsuvqCTZqIY B
+      skipped for now (transcript unavailable): Apify usage limit reached: {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
+--- reel 2/2: slot 3 (ideas) row 179: idea-mobile-shop-80000-phone-retailer-margin R
+[1/4] script  idea-mobile-shop-80000-phone-retailer-margin R: ₹80,000 Ka Phone Becha: Mobile Shop Wale Ko Kitna Mila?
+[2/4] voice
+      130 words, 51.4s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpqer4c_m8/video_only.mp4
+added 2 reel(s) to Buffer

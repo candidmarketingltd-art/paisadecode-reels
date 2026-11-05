@@ -1,0 +1,544 @@
+{
+ "voiceover": "[urgent, punchy] ₹340 का CBC टेस्ट कराते हो? उसका reagent सिर्फ़ ₹5 से 15 का आता है।\n\n[intrigued, building energy] असली खर्च कहीं और छुपा है, आख़िर में बताता हूँ।\n\n[excited, fast] Dr Lal हर ₹100 के बिल में करीब ₹19 reagents पर लगाती है, और ₹15 तक collection centre को देती है।\n\n[serious] अब छोटी लैब का हिसाब। Fixed cost हर टेस्ट पर ₹100। पैथोलॉजिस्ट ₹25। [punchy] और मशीन ₹4.5 लाख की, हर 5 साल में।\n\n[emphatic] Twist ये है: असली खर्च reagent नहीं, fixed cost है। और वो तभी बँटता है जब रोज़ ज़्यादा पेशेंट आएं। इसीलिए पैकेज और home collection चलते हैं। Dr Lal का एक पेशेंट औसतन ₹956 दे जाता है।\n\n[confident] फ्रेंचाइज़ी लेनी है? Revenue share लिखित में माँगो, चेन इसे publish नहीं करतीं। फिर रोज़ के पेशेंट गिनो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, collection centre खोलते हैं।\"",
+ "ig_caption": "₹340 ke CBC test mein reagent sirf ₹5 se 15 ka hai 🩸 Toh lab owner ka asli kharcha kahan hai?\n\nAsli game hai fixed cost aur roz ke patients ka. Break-even ka exact number brand publish hi nahi karte.\n\nUs dost ko bhejo jo collection centre kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate",
+ "hashtags": [
+  "#PathLabBusiness",
+  "#DiagnosticCentre",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#DrLalPathLabs",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹340",
+  "₹5-15",
+  "₹100",
+  "19.2%",
+  "14.6%",
+  "₹100 (fixed cost)",
+  "₹25",
+  "₹4.5 lakh every 5 years",
+  "INR956"
+ ],
+ "style": "v2",
+ "tag": "BLOOD TEST LAB",
+ "disclaimer": true,
+ "captions": [
+  "*₹340",
+  "ka",
+  "*CBC",
+  "test",
+  "karaate",
+  "ho?",
+  "Uska",
+  "*reagent",
+  "sirf",
+  "*₹5",
+  "se",
+  "*15",
+  "ka",
+  "aata",
+  "hai.",
+  "Asli",
+  "*kharch",
+  "kahin",
+  "aur",
+  "*chhupa",
+  "hai,",
+  "aakhir",
+  "mein",
+  "batata",
+  "hoon.",
+  "*Dr",
+  "*Lal",
+  "har",
+  "₹100",
+  "ke",
+  "bill",
+  "mein",
+  "kareeb",
+  "*₹19",
+  "reagents",
+  "par",
+  "lagaati",
+  "hai,",
+  "aur",
+  "*₹15",
+  "tak",
+  "collection",
+  "centre",
+  "ko",
+  "deti",
+  "hai.",
+  "Ab",
+  "*chhoti",
+  "*lab",
+  "ka",
+  "hisaab.",
+  "*Fixed",
+  "cost",
+  "har",
+  "test",
+  "par",
+  "*₹100.",
+  "Pathologist",
+  "*₹25.",
+  "Aur",
+  "machine",
+  "*₹4.5",
+  "*lakh",
+  "ki,",
+  "har",
+  "5",
+  "saal",
+  "mein.",
+  "*Twist",
+  "ye",
+  "hai:",
+  "asli",
+  "kharch",
+  "reagent",
+  "nahi,",
+  "*fixed",
+  "*cost",
+  "hai.",
+  "Aur",
+  "wo",
+  "tabhi",
+  "bantta",
+  "hai",
+  "jab",
+  "*roz",
+  "zyada",
+  "*patient",
+  "aayein.",
+  "Isiliye",
+  "*package",
+  "aur",
+  "*home",
+  "collection",
+  "chalte",
+  "hain.",
+  "Dr",
+  "Lal",
+  "ka",
+  "ek",
+  "patient",
+  "ausatan",
+  "*₹956",
+  "de",
+  "jaata",
+  "hai.",
+  "*Franchise",
+  "leni",
+  "hai?",
+  "*Revenue",
+  "*share",
+  "likhit",
+  "mein",
+  "maango,",
+  "chain",
+  "ise",
+  "publish",
+  "nahi",
+  "kartin.",
+  "Phir",
+  "roz",
+  "ke",
+  "*patient",
+  "*gino.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*collection",
+  "centre",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹340 का",
+   "chapter": "CBC KA BILL",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹340",
+     "color": "gold",
+     "ill": "test_tube",
+     "at": "₹340 का",
+     "note": "CBC TEST",
+     "note_at": "CBC टेस्ट"
+    }
+   ]
+  },
+  {
+   "at": "उसका reagent",
+   "chapter": "REAGENT KA SACH",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "सिर्फ़ ₹5",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "उसका reagent",
+     "left": {
+      "label": "BILL",
+      "value": "₹340",
+      "sub": "CBC test"
+     },
+     "right": {
+      "label": "REAGENT",
+      "value": "₹5–15",
+      "sub": "bas itna",
+      "color": "green",
+      "ill": "test_tube",
+      "at": "₹5 से"
+     },
+     "strike_at": "₹5 से"
+    }
+   ]
+  },
+  {
+   "at": "असली खर्च कहीं",
+   "chapter": "CHHUPA KHARCH",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "असली खर्च कहीं"
+    },
+    {
+     "type": "pill",
+     "text": "AAKHIR MEIN REVEAL",
+     "color": "blue",
+     "outline": true,
+     "at": "आख़िर में"
+    }
+   ]
+  },
+  {
+   "at": "Dr Lal हर",
+   "chapter": "DR LAL",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Dr Lal PathLabs",
+     "photo_kind": "logo",
+     "caption": "DR LAL PATHLABS",
+     "ill": "microscope",
+     "at": "Dr Lal हर"
+    }
+   ]
+  },
+  {
+   "at": "₹100 के बिल",
+   "chapter": "₹100 KA BILL",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹100 KA BILL · KAHAN GAYA",
+     "at": "₹100 के बिल"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹100 के बिल",
+     "parts": [
+      {
+       "label": "REAGENTS",
+       "value": 19,
+       "text": "₹19",
+       "color": "blue",
+       "at": "₹19 reagents"
+      },
+      {
+       "label": "COLLECTION CENTRE",
+       "value": 15,
+       "text": "₹15",
+       "color": "red",
+       "at": "₹15 तक"
+      },
+      {
+       "label": "BAAKI",
+       "value": 66,
+       "color": "muted",
+       "at": "को देती है।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब छोटी लैब",
+   "chapter": "CHHOTI LAB",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "अब छोटी लैब"
+    },
+    {
+     "type": "label",
+     "text": "CHHOTI LAB KA HISAAB",
+     "color": "red",
+     "at": "लैब का हिसाब।"
+    }
+   ]
+  },
+  {
+   "at": "Fixed cost हर",
+   "chapter": "FIXED COST",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹100",
+     "color": "red",
+     "ill": "receipt",
+     "at": "Fixed cost हर",
+     "note": "FIXED COST · HAR TEST",
+     "note_at": "टेस्ट पर ₹100।"
+    }
+   ]
+  },
+  {
+   "at": "पैथोलॉजिस्ट ₹25।",
+   "chapter": "PATHOLOGIST",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹25",
+     "color": "red",
+     "ill": "stethoscope",
+     "at": "पैथोलॉजिस्ट ₹25।",
+     "note": "PATHOLOGIST · HAR TEST",
+     "note_at": "पैथोलॉजिस्ट ₹25।"
+    }
+   ]
+  },
+  {
+   "at": "और मशीन ₹4.5",
+   "chapter": "MACHINE",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹4.5 लाख",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹4.5L",
+     "color": "red",
+     "ill": "microscope",
+     "at": "और मशीन ₹4.5",
+     "note": "HAR 5 SAAL",
+     "note_at": "हर 5 साल"
+    }
+   ]
+  },
+  {
+   "at": "Twist ये है:",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "TWIST",
+     "color": "blue",
+     "at": "Twist ये है:"
+    }
+   ]
+  },
+  {
+   "at": "असली खर्च reagent",
+   "chapter": "ASLI KHARCH",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "असली खर्च reagent",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "असली खर्च reagent",
+     "left": {
+      "label": "SOCHA THA",
+      "value": "REAGENT",
+      "sub": "sasta"
+     },
+     "right": {
+      "label": "ASLI KHARCH",
+      "value": "FIXED",
+      "sub": "cost",
+      "color": "red",
+      "ill": "building_construction",
+      "at": "fixed cost है।"
+     },
+     "strike_at": "fixed cost है।"
+    }
+   ]
+  },
+  {
+   "at": "और वो तभी",
+   "chapter": "BANTWARA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 120,
+     "label": "ROZ KE PATIENT",
+     "at": "और वो तभी"
+    },
+    {
+     "type": "pill",
+     "text": "FIXED COST ÷ PATIENTS",
+     "color": "gold",
+     "at": "ज़्यादा पेशेंट"
+    }
+   ]
+  },
+  {
+   "at": "इसीलिए पैकेज और",
+   "chapter": "ASLI KHEL",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "इसीलिए पैकेज और",
+     "items": [
+      {
+       "text": "Health package",
+       "at": "इसीलिए पैकेज और",
+       "strike": false
+      },
+      {
+       "text": "Home collection",
+       "at": "home collection",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Dr Lal का",
+   "chapter": "₹956 / PATIENT",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "coin_rain",
+     "at": "Dr Lal का"
+    },
+    {
+     "type": "big_number",
+     "value": "₹956",
+     "color": "green",
+     "ill": "receipt",
+     "at": "औसतन ₹956",
+     "note": "1 PATIENT · AUSATAN",
+     "note_at": "दे जाता"
+    }
+   ]
+  },
+  {
+   "at": "फ्रेंचाइज़ी लेनी है?",
+   "chapter": "FRANCHISE?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "FRANCHISE?",
+     "size": "l",
+     "color": "gold",
+     "ill": "convenience_store",
+     "at": "फ्रेंचाइज़ी लेनी है?"
+    }
+   ]
+  },
+  {
+   "at": "Revenue share लिखित",
+   "chapter": "MERA PLAN",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "Revenue share लिखित",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "FRANCHISE DEAL",
+     "at": "Revenue share लिखित",
+     "rows": [
+      {
+       "text": "Revenue share: likhit mein",
+       "at": "लिखित में माँगो,"
+      },
+      {
+       "text": "Chain publish karti hai?",
+       "mark": "NAHI",
+       "at": "publish नहीं करतीं।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "फिर रोज़ के",
+   "chapter": "STEP 2",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "ROZ KE PATIENT GINO",
+     "size": "l",
+     "color": "green",
+     "ill": "abacus",
+     "at": "फिर रोज़ के"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo collection centre kholna chahta hai",
+  "line2_at": "collection centre खोलते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 lab decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 27
+}
