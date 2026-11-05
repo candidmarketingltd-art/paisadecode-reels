@@ -3,7 +3,7 @@ import base64, os, re
 import requests
 
 API = "https://api.elevenlabs.io/v1"
-VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or "dVIifp6W0jifqeThgNN0")  # "Rohan"
+VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or "0ynj1kxK93EAXGRqL9Rm")  # "Rohan" (cloned, current account)
 MODELS = [m for m in ((os.environ.get("ELEVENLABS_MODEL") or "eleven_v4"), "eleven_v3", "eleven_multilingual_v2") if m]
 
 
@@ -75,54 +75,86 @@ def _quota_error(status, body):
     return status in (400, 401, 402, 429) and any(k in b for k in ("quota", "credit", "limit", "subscription", "payment"))
 
 
-# How Rohan says numbers: "1.2" -> "ek point do" (not "dashamlav"), "2×4" / "2 x 4" / "2 गुणा 4" -> "2 into 4" (not "guna").
-# The spoken text gets "पॉइंट" / "इनटू"; afterwards the timed words are folded back into the script's own tokens,
-# so cue words and captions still line up with the script.
-_DEC = re.compile(r"(\d)\.(\d)")
-_MUL = re.compile(r"(\d)\s*[×xX*✕]\s*(?=[₹]?\d)")
+# How Rohan says numbers and symbols (the AI voice reads them like a textbook otherwise):
+#   1.2 -> "1 पॉइंट 2" (not dashamlav) · 2×4 / 2 x 4 / 2 गुणा 4 / lone × -> "into" (not guna) · 77% -> "77 परसेंट" (not pratishat)
+#   55–65 / 12-13% -> "55 से 65" (not minus) · "=" -> "यानी" · ₹500/महीना -> "₹500 पर महीना" · 24/7 -> "24 बाय 7"
+#   ₹2L / ₹3Cr / 10K -> लाख / करोड़ / हज़ार · 7:30 -> "साढ़े 7", 7:15 -> "सवा 7", 7:45 -> "पौने 8"
+# Only the text sent to the voice changes. The timed words are folded back onto the script's own tokens afterwards,
+# so cue words, captions and on-screen numbers stay exactly as written ("1.2", "77%").
+_DIG = r"[₹]?\d[\d,]*(?:\.\d+)?"
 _MUL_SIGNS = {"×", "x", "X", "*", "✕"}
 _MUL_WORDS = {"गुणा", "गुना"}
-_POINT = {"पॉइंट", "पॉईंट", "प्वाइंट", "पॉइन्ट", "point", "दशमलव"}
-_INTO = {"इनटू", "इंटू", "इन्टू", "into"}
+_SUFFIX = {"L": "लाख", "l": "लाख", "Cr": "करोड़", "cr": "करोड़", "K": "हज़ार", "k": "हज़ार"}
+
+
+def _clock(m):
+    h, mi = int(m.group(1)), m.group(2)
+    if mi == "30": return f"साढ़े {h}"
+    if mi == "15": return f"सवा {h}"
+    if mi == "45": return f"पौने {h % 12 + 1}"
+    return f"{h} बजकर {int(mi)} मिनट" if mi != "00" else f"{h} बजे"
+
+
+def _say(t):
+    """How one script token should be spoken."""
+    t = re.sub(r"\b(\d{1,2}):([0-5]\d)\b", _clock, t)                                   # 7:30 -> साढ़े 7
+    t = re.sub(r"(\d)(Cr|cr|L|K|k)(?![A-Za-z])", lambda m: f"{m.group(1)} {_SUFFIX[m.group(2)]}", t)  # ₹2L -> ₹2 लाख
+    t = re.sub(r"(\d)\s*[–—-]\s*(?=[₹]?\d)", r"\1 से ", t)                                # 55–65 -> 55 से 65
+    t = re.sub(r"(\d)\s*[×xX*✕]\s*(?=[₹]?\d)", r"\1 इनटू ", t)                              # 2×4 -> 2 इनटू 4
+    t = re.sub(r"(\d)\.(\d)", r"\1 पॉइंट \2", t)                                             # 1.2 -> 1 पॉइंट 2
+    t = re.sub(r"(\d)%", r"\1 परसेंट", t)                                                     # 77% -> 77 परसेंट
+    t = re.sub(r"(\d)/(\d)", r"\1 बाय \2", t)                                                # 24/7 -> 24 बाय 7
+    t = re.sub(r"(\d)\s*/\s*(?=[^\d\s])", r"\1 पर ", t)                                     # ₹500/महीना -> ₹500 पर महीना
+    return t
 
 
 def _plan(text):
-    """(spoken text, ops): ops in order — ("glue", token, n_words) | ("drop",) | ("rename", word)."""
-    parts = re.split(r"(\s+)", text); toks = parts[0::2]; seps = parts[1::2] + [""]; out, ops = [], []
+    """(spoken text, units): one unit per script token = (the token, the words actually spoken for it)."""
+    parts = re.split(r"(\s+)", text); toks = parts[0::2]; seps = parts[1::2] + [""]; out, units = [], []
+    depth = 0
     for i, t in enumerate(toks):
+        if "[" in t or depth:  # audio tags like [excited] pass through untouched
+            depth += t.count("[") - t.count("]"); out.append(t); continue
         prev = toks[i - 1] if i else ""; nxt = toks[i + 1] if i + 1 < len(toks) else ""
-        bare = t.strip(".,!?:;।\n")
+        bare = t.strip(".,!?:;।")
         num_around = bool(re.search(r"\d\W*$", prev)) and bool(re.match(r"\W*[₹]?\d", nxt))
-        if bare in _MUL_SIGNS and num_around:
-            out.append(t.replace(bare, "इनटू")); ops.append(("drop",)); continue
-        if bare in _MUL_WORDS and num_around:
-            out.append(t.replace(bare, "इनटू")); ops.append(("rename", t)); continue
-        sp = _MUL.sub(lambda m: f"{m.group(1)} इनटू ", _DEC.sub(lambda m: f"{m.group(1)} पॉइंट {m.group(2)}", t))
-        if sp != t:
-            n = len(sp.split()); k = sum(1 for w in sp.split() if w in ("पॉइंट", "इनटू"))
-            ops += [("glue", t.strip(), n)] + [("skip",)] * (k - 1); out.append(sp); continue
-        out.append(t)
-    return "".join(x + seps[i] for i, x in enumerate(out)), ops
+        if bare in ("×", "✕", "*") or (bare in _MUL_SIGNS and num_around) or (bare in _MUL_WORDS and num_around):
+            sp = t.replace(bare, "इनटू")
+        elif bare == "=":
+            sp = t.replace("=", "यानी")
+        elif bare in ("–", "—", "-") and num_around:
+            sp = t.replace(bare, "से")
+        else:
+            sp = _say(t)
+        out.append(sp); units.append((t, sp.split()))
+    return "".join(x + seps[i] for i, x in enumerate(out)), units
 
 
 def speakable(text):
     return _plan(text)[0]
 
 
+def _key(w):
+    return re.sub(r"[^\w₹]", "", w.lower())
+
+
 def _fold(words, text):
-    ops = list(_plan(text)[1]); out, i = [], 0
-    while i < len(words):
-        w = words[i]; bare = w[0].strip(".,!?:;।")
-        if ops and (bare in _POINT or bare in _INTO):
-            op = ops.pop(0)
-            if op[0] == "drop": i += 1; continue
-            if op[0] == "rename": out.append((op[1], w[1], w[2])); i += 1; continue
-            if op[0] == "glue" and out:
-                n = op[2]; first = out.pop(); last = words[min(len(words), i + n - 1) - 1]
-                out.append((op[1], first[1], last[2])); i += n - 1
-                while ops and ops[0][0] == "skip": ops.pop(0)
-                continue
-        out.append(w); i += 1
+    """Map the voice's timed words back onto the script tokens (start of the first spoken word -> end of the last)."""
+    import difflib
+    units = _plan(text)[1]
+    flat = [(k, _key(w)) for k, (_, sp) in enumerate(units) for w in sp if any(c.isalnum() for c in w)]
+    sm = difflib.SequenceMatcher(None, [f for _, f in flat], [_key(w[0]) for w in words], autojunk=False)
+    got = {}
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "equal" or (tag == "replace" and i2 - i1 == j2 - j1):
+            for a, b in zip(range(i1, i2), range(j1, j2)): got.setdefault(flat[a][0], []).append(words[b])
+        elif tag == "replace":  # different word counts (speech-to-text fallback): give the block to its first unit
+            got.setdefault(flat[i1][0], []).extend(words[j1:j2])
+    out = []
+    for k, (orig, _) in enumerate(units):
+        ws = got.get(k)
+        if ws and any(c.isalnum() for c in orig):
+            out.append((orig, ws[0][1], ws[-1][2]))
     return out
 
 
