@@ -1,0 +1,582 @@
+{
+ "voiceover": "[urgent, punchy] ₹1 लाख का गोल्ड सेट ख़रीदा? ज्वेलर को सोने पर लगभग कुछ नहीं बचता।\n\n[intrigued, building energy] तो कमाई कहाँ से आती है? और आख़िरी बात सबसे shocking है।\n\n[excited, fast] पहला: making charge। ₹1 लाख की सेल पर 12-13% gross margin, यानी ₹12,000 से ₹13,000।\n\n[amused] दूसरा: wastage। मशीन से बने गहने में असली वेस्टेज लगभग zero है, फिर भी बिल में 3-10% लगता है। ये margin का दूसरा नाम है।\n\n[serious] तीसरा: पुराना गहना बदलो, तो 2-5% कटौती। और making charge वापस नहीं मिलता।\n\n[emphatic] अब shocking बात: ₹12,000-₹13,000 भी रेंट, स्टाफ़ और ब्याज से पहले का है। शोरूम का हर गहना फँसा हुआ पैसा है। चमक बड़ी, margin पतला।\n\n[confident] इसलिए ख़रीदने से पहले making, wastage और exchange की कटौती पूछो। कटौती negotiable है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो शादी के लिए गहने लेने जा रहा है।",
+ "ig_caption": "₹1 lakh ka gold set bika, par jeweller ko sone pe kuch nahi bachta 💍 Asli kamai making charge, wastage aur exchange deduction mein hai.\n\nWo ₹12,000-₹13,000 bhi gross margin hai, rent, staff aur interest se pehle.\n\nUs dost ko bhejo jo shaadi ke liye gehne lene ja raha hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate",
+ "hashtags": [
+  "#GoldJewellery",
+  "#JewellerBusiness",
+  "#MakingCharges",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹1 लाख",
+  "12-13%",
+  "₹12,000 से ₹13,000",
+  "3-10%",
+  "2-5%"
+ ],
+ "style": "v2",
+ "tag": "GOLD JEWELLERY",
+ "disclaimer": true,
+ "captions": [
+  "*₹1",
+  "*lakh",
+  "ka",
+  "gold",
+  "set",
+  "khareeda?",
+  "Jeweller",
+  "ko",
+  "*sone",
+  "par",
+  "lagbhag",
+  "*kuch",
+  "nahi",
+  "bachta.",
+  "Toh",
+  "*kamai",
+  "kahan",
+  "se",
+  "aati",
+  "hai?",
+  "Aur",
+  "aakhri",
+  "baat",
+  "sabse",
+  "*shocking",
+  "hai.",
+  "Pehla:",
+  "*making",
+  "*charge.",
+  "₹1",
+  "lakh",
+  "ki",
+  "sale",
+  "par",
+  "*12-13%",
+  "gross",
+  "margin,",
+  "yaani",
+  "*₹12,000",
+  "se",
+  "*₹13,000.",
+  "Doosra:",
+  "*wastage.",
+  "Machine",
+  "se",
+  "bane",
+  "gehne",
+  "mein",
+  "asli",
+  "wastage",
+  "lagbhag",
+  "*zero",
+  "hai,",
+  "phir",
+  "bhi",
+  "bill",
+  "mein",
+  "*3-10%",
+  "lagta",
+  "hai.",
+  "Ye",
+  "*margin",
+  "ka",
+  "doosra",
+  "naam",
+  "hai.",
+  "Teesra:",
+  "purana",
+  "*gehna",
+  "badlo,",
+  "toh",
+  "*2-5%",
+  "katauti.",
+  "Aur",
+  "making",
+  "charge",
+  "*wapas",
+  "nahi",
+  "milta.",
+  "Ab",
+  "shocking",
+  "baat:",
+  "*₹12,000-₹13,000",
+  "bhi",
+  "rent,",
+  "staff",
+  "aur",
+  "*byaaj",
+  "se",
+  "pehle",
+  "ka",
+  "hai.",
+  "Showroom",
+  "ka",
+  "har",
+  "gehna",
+  "*phansa",
+  "hua",
+  "*paisa",
+  "hai.",
+  "Chamak",
+  "badi,",
+  "*margin",
+  "*patla.",
+  "Isliye",
+  "khareedne",
+  "se",
+  "pehle",
+  "*making,",
+  "*wastage",
+  "aur",
+  "*exchange",
+  "ki",
+  "katauti",
+  "poochho.",
+  "Katauti",
+  "*negotiable",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "*shaadi",
+  "ke",
+  "liye",
+  "gehne",
+  "lene",
+  "ja",
+  "raha",
+  "hai."
+ ],
+ "scenes": [
+  {
+   "at": "₹1 लाख का",
+   "chapter": "₹1 LAKH KA SET",
+   "tint": "warm",
+   "aroll": "face_shocked",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "GOLD SET · ASLI HISAAB",
+     "at": "₹1 लाख का"
+    },
+    {
+     "type": "big_number",
+     "value": "₹1L",
+     "color": "gold",
+     "ill": "gem_stone",
+     "at": "₹1 लाख का"
+    }
+   ]
+  },
+  {
+   "at": "ज्वेलर को सोने",
+   "chapter": "SONE PE?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "SONE PE: KUCH NAHI",
+     "size": "l",
+     "color": "red",
+     "ill": "coin",
+     "at": "ज्वेलर को सोने"
+    }
+   ]
+  },
+  {
+   "at": "तो कमाई कहाँ",
+   "chapter": "KAMAI KAHAN?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "तो कमाई कहाँ"
+    },
+    {
+     "type": "pill",
+     "text": "KAMAI KAHAN SE?",
+     "color": "gold",
+     "at": "कहाँ से आती"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िरी बात",
+   "chapter": "AAKHRI BAAT",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "SHOCKING",
+     "sub": "AAKHRI BAAT",
+     "color": "blue",
+     "at": "और आख़िरी बात"
+    }
+   ]
+  },
+  {
+   "at": "पहला: making charge।",
+   "chapter": "#1 MAKING",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "RAAZ #1",
+     "color": "gold",
+     "at": "पहला: making charge।"
+    },
+    {
+     "type": "headline",
+     "text": "MAKING CHARGE",
+     "size": "l",
+     "color": "gold",
+     "ill": "hammer_and_wrench",
+     "at": "पहला: making charge।"
+    }
+   ]
+  },
+  {
+   "at": "₹1 लाख की",
+   "chapter": "GROSS MARGIN",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "12-13%",
+     "label": "GROSS MARGIN",
+     "at": "₹1 लाख की",
+     "value_at": "12-13% gross"
+    }
+   ]
+  },
+  {
+   "at": "यानी ₹12,000 से",
+   "chapter": "JEWELLER KI JEB",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹12–13K",
+     "color": "gold",
+     "ill": "purse",
+     "at": "यानी ₹12,000 से",
+     "note": "₹1L KI SALE PE",
+     "note_at": "₹13,000।"
+    }
+   ]
+  },
+  {
+   "at": "दूसरा: wastage।",
+   "chapter": "#2 WASTAGE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "RAAZ #2",
+     "color": "gold",
+     "at": "दूसरा: wastage।"
+    },
+    {
+     "type": "headline",
+     "text": "WASTAGE",
+     "size": "l",
+     "color": "gold",
+     "ill": "factory",
+     "at": "दूसरा: wastage।"
+    }
+   ]
+  },
+  {
+   "at": "मशीन से बने",
+   "chapter": "BILL KA KHEL",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "मशीन से बने",
+     "left": {
+      "label": "ASLI WASTAGE",
+      "value": "≈ZERO",
+      "sub": "machine se bane"
+     },
+     "right": {
+      "label": "BILL MEIN",
+      "value": "3-10%",
+      "sub": "phir bhi",
+      "color": "red",
+      "ill": "receipt",
+      "at": "3-10% लगता"
+     }
+    }
+   ]
+  },
+  {
+   "at": "ये margin का",
+   "chapter": "DOOSRA NAAM",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "दूसरा नाम",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "MARGIN KA DOOSRA NAAM",
+     "size": "l",
+     "color": "gold",
+     "ill": "label",
+     "at": "ये margin का"
+    }
+   ]
+  },
+  {
+   "at": "तीसरा: पुराना गहना",
+   "chapter": "#3 EXCHANGE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "RAAZ #3 · PURANA GEHNA",
+     "color": "red",
+     "at": "तीसरा: पुराना गहना"
+    },
+    {
+     "type": "big_number",
+     "value": "−2-5%",
+     "color": "red",
+     "ill": "ring",
+     "at": "2-5% कटौती।",
+     "note": "EXCHANGE KATAUTI",
+     "note_at": "2-5% कटौती।"
+    }
+   ]
+  },
+  {
+   "at": "और making charge",
+   "chapter": "WAPAS NAHI",
+   "tint": "red",
+   "react": [
+    {
+     "at": "वापस नहीं",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "और making charge",
+     "items": [
+      {
+       "text": "Making charge wapas",
+       "at": "और making charge",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब shocking बात:",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "SHOCKING BAAT",
+     "color": "blue",
+     "at": "अब shocking बात:"
+    },
+    {
+     "type": "big_number",
+     "value": "₹12–13K",
+     "color": "white",
+     "at": "₹12,000-₹13,000 भी",
+     "note": "SIRF GROSS",
+     "note_at": "₹12,000-₹13,000 भी",
+     "note_color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "रेंट, स्टाफ़",
+   "chapter": "KHARCHE PEHLE",
+   "tint": "red",
+   "react": [
+    {
+     "at": "ब्याज से",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "रेंट, स्टाफ़",
+     "parts": [
+      {
+       "label": "RENT",
+       "value": 4,
+       "color": "red",
+       "at": "रेंट, स्टाफ़"
+      },
+      {
+       "label": "STAFF",
+       "value": 4,
+       "color": "muted",
+       "at": "स्टाफ़ और"
+      },
+      {
+       "label": "BYAAJ",
+       "value": 3,
+       "color": "blue",
+       "at": "ब्याज से"
+      },
+      {
+       "label": "BACHAT",
+       "value": 2,
+       "color": "gold",
+       "at": "पहले का है।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "शोरूम का हर",
+   "chapter": "PHANSA PAISA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "gold_bars",
+     "at": "शोरूम का हर"
+    },
+    {
+     "type": "pill",
+     "text": "PHANSA HUA PAISA",
+     "color": "red",
+     "at": "फँसा हुआ पैसा"
+    }
+   ]
+  },
+  {
+   "at": "चमक बड़ी,",
+   "chapter": "ASLI SACH",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "चमक बड़ी,",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "चमक बड़ी,",
+     "left": {
+      "label": "CHAMAK",
+      "value": "BADI",
+      "sub": "showroom"
+     },
+     "right": {
+      "label": "MARGIN",
+      "value": "PATLA",
+      "sub": "jeweller ka",
+      "color": "red",
+      "ill": "gem_stone",
+      "at": "margin पतला।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "इसलिए ख़रीदने से",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए ख़रीदने से",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "KHAREEDNE SE PEHLE POOCHHO",
+     "color": "gold",
+     "at": "इसलिए ख़रीदने से"
+    },
+    {
+     "type": "strike_list",
+     "at": "making,",
+     "items": [
+      {
+       "text": "Making charge",
+       "at": "making,",
+       "strike": false
+      },
+      {
+       "text": "Wastage",
+       "at": "wastage और",
+       "strike": false
+      },
+      {
+       "text": "Exchange katauti",
+       "at": "exchange की",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "कटौती negotiable",
+   "chapter": "BARGAIN KARO",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "NEGOTIABLE",
+     "size": "l",
+     "color": "green",
+     "ill": "balance_scale",
+     "at": "कटौती negotiable"
+    },
+    {
+     "type": "pill",
+     "text": "KATAUTI PE BARGAIN KARO",
+     "color": "green",
+     "at": "negotiable है।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo shaadi ke gehne lene ja raha hai",
+  "line2_at": "शादी के लिए",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · gold margin decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 26
+}

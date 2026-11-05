@@ -3,20 +3,14 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 8, 'sent': 57}
-Buffer queue: 8 waiting (buffer); target 10 -> making 2
---- reel 1/2: slot 2 (money) row 175: idea-budget-hotel-room-night-profit-20-rooms R
-[1/4] script  idea-budget-hotel-room-night-profit-20-rooms R: ₹3,000 Ka Hotel Room: 20 Rooms Wale Hotel Ka Owner Kitna Kamata Hai?
+      [buffer] post statuses seen: {'scheduled': 9, 'sent': 58}
+Buffer queue: 9 waiting (buffer); target 10 -> making 1
+--- reel 1/1: slot 1 (economics) row 177: idea-jewellery-shop-1-lakh-gold-making-charge R
+[1/4] script  idea-jewellery-shop-1-lakh-gold-making-charge R: ₹1 Lakh Ka Gold Set Bika: Jeweller Ki Jeb Mein Kitna Gaya?
 [2/4] voice
       voices this ElevenLabs key can use: Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17), Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL), Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5), Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD), George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb), Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO), River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww), Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr), Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ), Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2), Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX), Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o), Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9), Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal), Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us), Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B), Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb), Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9), Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku), Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB), Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4), Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu), Rohan (IcsYcP26eMwajlgx2SDe)
       using voice Rohan (IcsYcP26eMwajlgx2SDe)
-      138 words, 57.3s, model eleven_v4
+      133 words, 54.3s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmpxqna_9ok/video_only.mp4
---- reel 2/2: slot 3 (ideas) row 161: COFgL_RnQzs C
-[1/4] script  COFgL_RnQzs C: The Economics of an Indian Wedding Banquet Hall: Can 50 Weddings Pay for the Entire Year?
-[2/4] voice
-      137 words, 52.1s, model eleven_v4
-[3/4] render
-      remotion: Reel /tmp/tmpzo5w5ras/video_only.mp4
-added 2 reel(s) to Buffer
+      remotion: Reel /tmp/tmpj9ki97h0/video_only.mp4
+added 1 reel(s) to Buffer
