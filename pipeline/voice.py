@@ -77,7 +77,7 @@ def _quota_error(status, body):
 
 # How Rohan says numbers and symbols (the AI voice reads them like a textbook otherwise):
 #   1.2 -> "1 पॉइंट 2" (not dashamlav) · 2×4 / 2 x 4 / 2 गुणा 4 / lone × -> "into" (not guna) · 77% -> "77 परसेंट" (not pratishat)
-#   55–65 / 12-13% -> "55 से 65" (not minus) · "=" -> "यानी" · ₹500/महीना -> "₹500 पर महीना" · 24/7 -> "24 बाय 7"
+#   55–65 / 12-13% -> "55 से 65" (not minus) · "=" -> "यानी" · ₹500/महीना -> "₹500 पर मंथ" · 24/7 -> "24 बाय 7"
 #   ₹2L / ₹3Cr / 10K -> लाख / करोड़ / हज़ार · 7:30 -> "साढ़े 7", 7:15 -> "सवा 7", 7:45 -> "पौने 8"
 # Only the text sent to the voice changes. The timed words are folded back onto the script's own tokens afterwards,
 # so cue words, captions and on-screen numbers stay exactly as written ("1.2", "77%").
@@ -104,7 +104,8 @@ def _say(t):
     t = re.sub(r"(\d)\.(\d)", r"\1 पॉइंट \2", t)                                             # 1.2 -> 1 पॉइंट 2
     t = re.sub(r"(\d)%", r"\1 परसेंट", t)                                                     # 77% -> 77 परसेंट
     t = re.sub(r"(\d)/(\d)", r"\1 बाय \2", t)                                                # 24/7 -> 24 बाय 7
-    t = re.sub(r"(\d)\s*/\s*(?=[^\d\s])", r"\1 पर ", t)                                     # ₹500/महीना -> ₹500 पर महीना
+    t = re.sub(r"(\d)\s*/\s*(?:महीना|महीने|माह|month)", r"\1 पर मंथ", t)                       # ₹500/महीना -> ₹500 पर मंथ
+    t = re.sub(r"(\d)\s*/\s*(?=[^\d\s])", r"\1 पर ", t)                                     # ₹20/किलो -> ₹20 पर किलो
     return t
 
 
