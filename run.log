@@ -1,0 +1,12 @@
+      [eleven] can't list voices (400: {"detail":{"type":"authentication_error","code":"invalid_api_key","message":"API key ID used as API key - only valid API keys can be used. API keys start with ')
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice_check.py", line 45, in <module>
+    main()
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice_check.py", line 33, in main
+    vid = voice._voice_id(force_lookup=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/voice.py", line 163, in _voice_id
+    raise RuntimeError("ElevenLabs: the configured voice id isn't in this account and the key can't list voices — "
+RuntimeError: ElevenLabs: the configured voice id isn't in this account and the key can't list voices — give the key 'Voices: Read' access or set ELEVENLABS_VOICE_ID to the new Rohan voice id
