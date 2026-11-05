@@ -1,0 +1,27 @@
+name: Voice check
+on:
+  push:
+    paths: ["triggers/voice-check.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests
+      - name: Speak + transcribe the test script
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+        run: mkdir -p voice_check && (python -m pipeline.voice_check 2>&1 | tee voice_check/run.log) || true
+      - name: Publish to the "voicecheck" branch
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          mkdir -p voice_check && cd voice_check
+          git init -q && git checkout -q -b voicecheck && git add . && git -c user.name=paisadecode-bot -c user.email=bot@users.noreply.github.com commit -qm "voice check ${{ github.run_number }}"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" voicecheck

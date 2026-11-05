@@ -153,8 +153,8 @@ def _voice_id(force_lookup=False):
     """The Rohan voice: ELEVENLABS_VOICE_ID if this key can use it, else the voice named "Rohan" in the key's account."""
     if "id" in _RESOLVED and not force_lookup: return _RESOLVED["id"]
     r = requests.get(f"{API}/voices/{VOICE}", headers=_hdr(), timeout=60)
-    if r.status_code == 200 and not force_lookup:
-        _RESOLVED["id"] = VOICE; return VOICE
+    if r.status_code == 200 and not force_lookup and r.json().get("name", "").lower().startswith((os.environ.get("ELEVENLABS_VOICE_NAME") or "rohan").lower()):
+        _RESOLVED["id"] = VOICE; return VOICE  # the configured id is this account's Rohan voice
     want = (os.environ.get("ELEVENLABS_VOICE_NAME") or "Rohan").lower()
     lst = requests.get(f"{API}/voices", headers=_hdr(), timeout=60)
     if lst.status_code != 200:
@@ -168,8 +168,6 @@ def _voice_id(force_lookup=False):
     mine = [v for v in voices if v["name"].lower().startswith(want) and v.get("category") in ("cloned", "professional", "generated")]
     match = mine or [v for v in voices if v["name"].lower().startswith(want)]
     if not match:
-        if r.status_code != 404 and not force_lookup:
-            _RESOLVED["id"] = VOICE; return VOICE
         raise RuntimeError(f"ElevenLabs: voice '{want}' not found for this API key — create the key in the workspace that has the Rohan voice")
     _RESOLVED["id"] = match[0]["voice_id"]
     print(f"      using voice {match[0]['name']} ({match[0]['voice_id']})", flush=True)
