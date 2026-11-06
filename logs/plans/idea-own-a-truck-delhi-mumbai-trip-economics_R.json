@@ -1,0 +1,539 @@
+{
+ "voiceover": "[urgent, punchy] दिल्ली से मुंबई ट्रक का भाड़ा ₹48,000 — पर मालिक के हाथ में आधा भी नहीं आता।\n\n[intrigued, building energy] ये estimates वाला बिल है, और आख़िरी लाइन सबसे ज़्यादा चुभेगी।\n\n[excited, fast] पहली लाइन, डीज़ल: ₹24,992। आधे से ज़्यादा भाड़ा तो टंकी पी गई। दूसरी, टोल: sources अलग हैं, ₹3,479 से ₹12,000 तक। तीसरी, ड्राइवर बाटा: ₹3,000। [amused] और टायर? हर किलोमीटर ₹3.5 से 5.5।\n\n[serious] ट्रक खड़ा रहे, तब भी ₹35 लाख के ट्रक की EMI चलती है: ₹55,000–65,000 महीना। मुंबई में 4–8 घंटे इंतज़ार? वो भी मालिक की जेब से।\n\n[emphatic] अब असली खेल: वापसी। खाली लौटा, तो डीज़ल-टोल फिर लगे, कमाई ज़ीरो। रिटर्न लोड ही तय करता है, मुनाफ़ा या घाटा।\n\n[confident] इसलिए ट्रक से पहले वापसी का माल पक्का करो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, ट्रक डाल देते हैं, EMI तो निकल ही आएगी।\"",
+ "ig_caption": "Delhi se Mumbai ka bhaada ₹48,000... par truck owner ke haath mein aadha bhi nahi aata 🚚 Diesel hi ₹24,992 kha gaya.\n\nAsli khel wapsi ke load ka hai. Khaali laute toh kamaai zero, EMI phir bhi chalti rahegi.\n\nUs dost ko bhejo jo bolta hai \"yaar, truck daal dete hain\" 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate",
+ "hashtags": [
+  "#TruckBusiness",
+  "#TransportBusiness",
+  "#BusinessIdeas",
+  "#Logistics",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹48,000",
+  "₹24,992",
+  "₹3,479",
+  "₹12,000",
+  "₹3,000",
+  "₹3.5–5.5 per km",
+  "₹35 lakh",
+  "₹55,000–65,000 a month",
+  "4–8 hours"
+ ],
+ "style": "v2",
+ "tag": "TRUCK BUSINESS",
+ "disclaimer": true,
+ "captions": [
+  "*Delhi",
+  "se",
+  "*Mumbai",
+  "truck",
+  "ka",
+  "bhaada",
+  "*₹48,000",
+  "par",
+  "*maalik",
+  "ke",
+  "haath",
+  "mein",
+  "*aadha",
+  "bhi",
+  "nahi",
+  "aata.",
+  "Ye",
+  "estimates",
+  "wala",
+  "*bill",
+  "hai,",
+  "aur",
+  "*aakhiri",
+  "*line",
+  "sabse",
+  "zyada",
+  "chubhegi.",
+  "Pehli",
+  "line,",
+  "*Diesel:",
+  "*₹24,992.",
+  "Aadhe",
+  "se",
+  "zyada",
+  "bhaada",
+  "toh",
+  "*tanki",
+  "pi",
+  "gayi.",
+  "Doosri,",
+  "*Toll:",
+  "sources",
+  "alag",
+  "hain,",
+  "*₹3,479",
+  "se",
+  "*₹12,000",
+  "tak.",
+  "Teesri,",
+  "*driver",
+  "*bata:",
+  "*₹3,000.",
+  "Aur",
+  "*tyre?",
+  "har",
+  "kilometer",
+  "*₹3.5",
+  "se",
+  "*5.5.",
+  "Truck",
+  "*khada",
+  "rahe,",
+  "tab",
+  "bhi",
+  "*₹35",
+  "*lakh",
+  "ke",
+  "truck",
+  "ki",
+  "*EMI",
+  "chalti",
+  "hai:",
+  "*₹55,000–65,000",
+  "mahina.",
+  "Mumbai",
+  "mein",
+  "*4–8",
+  "*ghante",
+  "intezaar?",
+  "Woh",
+  "bhi",
+  "maalik",
+  "ki",
+  "*jeb",
+  "se.",
+  "Ab",
+  "asli",
+  "khel:",
+  "*wapsi.",
+  "*Khaali",
+  "lauta,",
+  "toh",
+  "diesel-toll",
+  "phir",
+  "lage,",
+  "kamaai",
+  "*zero.",
+  "*Return",
+  "*load",
+  "hi",
+  "tay",
+  "karta",
+  "hai,",
+  "munafa",
+  "ya",
+  "ghaata.",
+  "Isliye",
+  "truck",
+  "se",
+  "pehle",
+  "*wapsi",
+  "ka",
+  "*maal",
+  "pakka",
+  "karo.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*truck",
+  "daal",
+  "dete",
+  "hain,",
+  "*EMI",
+  "toh",
+  "nikal",
+  "hi",
+  "aayegi.\""
+ ],
+ "scenes": [
+  {
+   "at": "दिल्ली से",
+   "chapter": "₹48,000 KA BHAADA",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "DELHI → MUMBAI",
+     "at": "दिल्ली से"
+    },
+    {
+     "type": "big_number",
+     "value": "₹48,000",
+     "color": "gold",
+     "ill": "articulated_lorry",
+     "at": "दिल्ली से"
+    }
+   ]
+  },
+  {
+   "at": "पर मालिक",
+   "chapter": "MAALIK KA HISSA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "पर मालिक"
+    },
+    {
+     "type": "pill",
+     "text": "AADHA BHI NAHI",
+     "color": "red",
+     "at": "आधा भी"
+    }
+   ]
+  },
+  {
+   "at": "ये estimates",
+   "chapter": "TRIP KA BILL",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "DELHI → MUMBAI · BILL",
+     "at": "ये estimates",
+     "rows": [
+      {
+       "text": "Estimates wala bill",
+       "at": "ये estimates"
+      },
+      {
+       "text": "Bhaada: ₹48,000",
+       "at": "बिल है,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और आख़िरी",
+   "chapter": "AAKHIRI LINE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "AAKHIRI LINE = ?",
+     "size": "l",
+     "color": "red",
+     "ill": "warning",
+     "at": "और आख़िरी"
+    }
+   ]
+  },
+  {
+   "at": "पहली लाइन,",
+   "chapter": "LINE #1 · DIESEL",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "LINE #1 · DIESEL",
+     "color": "red",
+     "at": "पहली लाइन,"
+    },
+    {
+     "type": "big_number",
+     "value": "₹24,992",
+     "color": "red",
+     "ill": "fuel_pump",
+     "at": "₹24,992।"
+    }
+   ]
+  },
+  {
+   "at": "आधे से",
+   "chapter": "TANKI PI GAYI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "आधे से",
+     "parts": [
+      {
+       "label": "DIESEL",
+       "value": 24992,
+       "text": "₹24,992",
+       "color": "red",
+       "at": "आधे से"
+      },
+      {
+       "label": "BAAKI SAB",
+       "value": 23008,
+       "color": "muted",
+       "at": "टंकी पी"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "दूसरी, टोल:",
+   "chapter": "LINE #2 · TOLL",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "LINE #2 · TOLL",
+     "color": "gold",
+     "at": "दूसरी, टोल:"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "₹3,479 से",
+     "left": {
+      "label": "KAM SE KAM",
+      "value": "₹3,479",
+      "sub": "ek source"
+     },
+     "right": {
+      "label": "ZYADA SE ZYADA",
+      "value": "₹12,000",
+      "sub": "doosra source",
+      "color": "red",
+      "at": "₹12,000 तक।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "तीसरी, ड्राइवर",
+   "chapter": "LINE #3 · BATA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "LINE #3 · DRIVER BATA",
+     "color": "gold",
+     "at": "तीसरी, ड्राइवर"
+    },
+    {
+     "type": "big_number",
+     "value": "₹3,000",
+     "color": "gold",
+     "ill": "billed_cap",
+     "at": "₹3,000।"
+    }
+   ]
+  },
+  {
+   "at": "और टायर?",
+   "chapter": "LINE #4 · TYRE",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "और टायर?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹3.5–5.5",
+     "color": "gold",
+     "ill": "wheel",
+     "at": "और टायर?",
+     "note": "HAR KM",
+     "note_at": "हर किलोमीटर"
+    }
+   ]
+  },
+  {
+   "at": "ट्रक खड़ा",
+   "chapter": "KHADA TRUCK",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TRUCK KHADA · KHARCHA CHALU",
+     "color": "red",
+     "outline": true,
+     "at": "ट्रक खड़ा"
+    },
+    {
+     "type": "big_number",
+     "value": "₹35 LAKH",
+     "color": "gold",
+     "ill": "articulated_lorry",
+     "at": "₹35 लाख"
+    }
+   ]
+  },
+  {
+   "at": "EMI चलती",
+   "chapter": "EMI KA METER",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹55,000–65,000 महीना।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "₹55K–65K",
+     "label": "EMI / MAHINA",
+     "at": "EMI चलती",
+     "value_at": "₹55,000–65,000 महीना।"
+    }
+   ]
+  },
+  {
+   "at": "मुंबई में 4–8",
+   "chapter": "INTEZAAR",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "4–8 HRS",
+     "color": "red",
+     "ill": "hourglass_not_done",
+     "at": "मुंबई में 4–8",
+     "note": "MAALIK KI JEB SE",
+     "note_at": "जेब से।",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "अब असली",
+   "chapter": "ASLI KHEL",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "वापसी।",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "truck",
+     "at": "अब असली"
+    },
+    {
+     "type": "pill",
+     "text": "ASLI KHEL · WAPSI",
+     "color": "blue",
+     "at": "वापसी।"
+    }
+   ]
+  },
+  {
+   "at": "खाली लौटा,",
+   "chapter": "KHAALI WAPSI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "KHAALI WAPSI",
+     "at": "खाली लौटा,",
+     "rows": [
+      {
+       "text": "Truck khaali lauta",
+       "at": "खाली लौटा,"
+      },
+      {
+       "text": "Diesel phir laga",
+       "at": "डीज़ल-टोल फिर"
+      },
+      {
+       "text": "Toll phir laga",
+       "at": "फिर लगे,"
+      },
+      {
+       "text": "Kamaai",
+       "mark": "₹0",
+       "at": "कमाई ज़ीरो।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "रिटर्न लोड",
+   "chapter": "RETURN LOAD",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "रिटर्न लोड",
+     "left": {
+      "label": "KHAALI WAPSI",
+      "value": "GHAATA"
+     },
+     "right": {
+      "label": "RETURN LOAD",
+      "value": "MUNAFA",
+      "color": "green",
+      "ill": "package",
+      "at": "मुनाफ़ा या"
+     },
+     "strike_at": "मुनाफ़ा या"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए ट्रक",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए ट्रक",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Truck se pehle: wapsi",
+     "size": "l",
+     "color": "gold",
+     "ill": "package",
+     "at": "इसलिए ट्रक"
+    },
+    {
+     "type": "pill",
+     "text": "RETURN LOAD PAKKA",
+     "color": "green",
+     "at": "पक्का करो।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo truck daalna chahta hai",
+  "line2_at": "ट्रक डाल",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 truck trip decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 31
+}

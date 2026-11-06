@@ -1,0 +1,562 @@
+{
+ "voiceover": "[urgent, punchy] जहाँ ट्रैफिक ज़्यादा, वहीं EV चार्जर लगा दिया? ₹20 लाख लगाकर भी साल का ₹2 लाख घाटा हो सकता है।\n\n[intrigued, building energy] और इसमें एक नंबर रेट से भी बड़ा है। वो आख़िर में।\n\n[excited, fast] एक कार से करीब ₹300 बचते हैं। स्टेशन का साल का खर्चा ₹7.5 लाख। यानी रोज़ 10 से 11 कारें चाहिए। सिर्फ़ 5 आईं? कमाई ₹5.5 लाख, घाटा पक्का।\n\n[serious] क्योंकि ट्रैफिक मतलब डिमांड नहीं। ज़्यादातर EV वाले रात को घर पर ही चार्ज कर लेते हैं।\n\n[emphatic] वो नंबर है utilization। चार्जर तभी कमाता है जब कार जुड़ी हो। 25 कारें रोज़ आईं? कमाई ₹27 लाख से ऊपर, खर्चा लगभग वही।\n\n[confident] इसलिए जगह वो चुनो जहाँ लोग वैसे भी 20 से 40 मिनट रुकें। हाईवे फूड कोर्ट, मॉल। वहाँ कॉफी और खाना भी तुम्हारी कमाई है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"EV चार्जिंग स्टेशन खोलते हैं।\"",
+ "ig_caption": "Traffic zyada hai toh EV charger chalega? Nahi 🔌 ₹20 lakh lagake bhi saal ka ₹2 lakh ghaata ho sakta hai.\n\nUs dost ko bhejo jo bolta hai \"EV charging station kholte hain\" 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are illustrative assumptions from the video, not financial advice.",
+ "hashtags": [
+  "#EVCharging",
+  "#EVChargingStation",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹20 लाख",
+  "₹2 लाख",
+  "₹300",
+  "₹7.5 लाख",
+  "10 से 11",
+  "5",
+  "₹5.5 लाख",
+  "25",
+  "₹27 लाख",
+  "20 से 40 मिनट"
+ ],
+ "style": "v2",
+ "tag": "EV CHARGER",
+ "disclaimer": true,
+ "captions": [
+  "Jahan",
+  "*traffic",
+  "zyada,",
+  "wahin",
+  "EV",
+  "*charger",
+  "laga",
+  "diya?",
+  "*₹20",
+  "*lakh",
+  "lagakar",
+  "bhi",
+  "saal",
+  "ka",
+  "*₹2",
+  "lakh",
+  "*ghaata",
+  "ho",
+  "sakta",
+  "hai.",
+  "Aur",
+  "ismein",
+  "ek",
+  "*number",
+  "*rate",
+  "se",
+  "bhi",
+  "bada",
+  "hai.",
+  "Woh",
+  "aakhir",
+  "mein.",
+  "Ek",
+  "*car",
+  "se",
+  "kareeb",
+  "*₹300",
+  "bachte",
+  "hain.",
+  "Station",
+  "ka",
+  "saal",
+  "ka",
+  "kharcha",
+  "*₹7.5",
+  "*lakh.",
+  "Yaani",
+  "roz",
+  "*10",
+  "se",
+  "*11",
+  "kaarein",
+  "chahiye.",
+  "Sirf",
+  "*5",
+  "aayin?",
+  "Kamaai",
+  "*₹5.5",
+  "lakh,",
+  "*ghaata",
+  "pakka.",
+  "Kyunki",
+  "*traffic",
+  "matlab",
+  "*demand",
+  "nahi.",
+  "Zyaadatar",
+  "EV",
+  "waale",
+  "*raat",
+  "ko",
+  "*ghar",
+  "par",
+  "hi",
+  "charge",
+  "kar",
+  "lete",
+  "hain.",
+  "Woh",
+  "number",
+  "hai",
+  "*utilization.",
+  "Charger",
+  "tabhi",
+  "*kamaata",
+  "hai",
+  "jab",
+  "car",
+  "*judi",
+  "ho.",
+  "*25",
+  "kaarein",
+  "roz",
+  "aayin?",
+  "Kamaai",
+  "*₹27",
+  "*lakh",
+  "se",
+  "upar,",
+  "kharcha",
+  "lagbhag",
+  "wahi.",
+  "Isliye",
+  "*jagah",
+  "woh",
+  "chuno",
+  "jahan",
+  "log",
+  "waise",
+  "bhi",
+  "*20",
+  "se",
+  "*40",
+  "minute",
+  "rukein.",
+  "*Highway",
+  "food",
+  "court,",
+  "*mall.",
+  "Wahan",
+  "*coffee",
+  "aur",
+  "*khaana",
+  "bhi",
+  "tumhari",
+  "kamaai",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"*EV",
+  "charging",
+  "station",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "जहाँ ट्रैफिक",
+   "chapter": "TRAFFIC = PAISA?",
+   "tint": "warm",
+   "aroll": "face_alert",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "EV CHARGER · HISAAB",
+     "at": "जहाँ ट्रैफिक"
+    },
+    {
+     "type": "headline",
+     "text": "₹20L → −₹2L",
+     "size": "l",
+     "ill": "high_voltage",
+     "at": "जहाँ ट्रैफिक"
+    }
+   ]
+  },
+  {
+   "at": "₹20 लाख लगाकर",
+   "chapter": "ULTA HISAAB",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "₹20 लाख लगाकर",
+     "left": {
+      "label": "INVESTMENT",
+      "value": "₹20L",
+      "sub": "charger setup",
+      "color": "gold"
+     },
+     "right": {
+      "label": "SAAL KA",
+      "value": "−₹2L",
+      "sub": "ghaata",
+      "color": "red",
+      "at": "₹2 लाख घाटा"
+     }
+    }
+   ]
+  },
+  {
+   "at": "और इसमें",
+   "chapter": "EK SECRET",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "और इसमें"
+    },
+    {
+     "type": "pill",
+     "text": "RATE SE BHI BADA NUMBER",
+     "color": "blue",
+     "at": "रेट से"
+    }
+   ]
+  },
+  {
+   "at": "एक कार से",
+   "chapter": "1 CAR KA MUNAFA",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹300",
+     "color": "gold",
+     "ill": "automobile",
+     "at": "एक कार से",
+     "note": "BACHAT / CAR",
+     "note_at": "बचते हैं।"
+    }
+   ]
+  },
+  {
+   "at": "स्टेशन का साल",
+   "chapter": "FIXED KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹7.5L",
+     "color": "red",
+     "ill": "receipt",
+     "at": "स्टेशन का साल",
+     "note": "SAAL KA KHARCHA",
+     "note_at": "₹7.5 लाख।"
+    }
+   ]
+  },
+  {
+   "at": "यानी रोज़",
+   "chapter": "BREAK-EVEN",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "10–11",
+     "label": "CARS / DIN CHAHIYE",
+     "at": "यानी रोज़",
+     "value_at": "10 से 11"
+    }
+   ]
+  },
+  {
+   "at": "सिर्फ़ 5",
+   "chapter": "SIRF 5 CARS",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "सिर्फ़ 5",
+     "left": {
+      "label": "CHAHIYE",
+      "value": "11",
+      "sub": "cars / din"
+     },
+     "right": {
+      "label": "AAYIN",
+      "value": "5",
+      "sub": "cars / din",
+      "color": "red",
+      "ill": "automobile",
+      "at": "सिर्फ़ 5"
+     },
+     "strike_at": "सिर्फ़ 5"
+    }
+   ]
+  },
+  {
+   "at": "कमाई ₹5.5",
+   "chapter": "GHAATA PAKKA",
+   "tint": "red",
+   "react": [
+    {
+     "at": "घाटा पक्का।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "KHARCHA ₹7.5L · KAMAAI?",
+     "color": "red",
+     "at": "कमाई ₹5.5"
+    },
+    {
+     "type": "split_bar",
+     "at": "कमाई ₹5.5",
+     "parts": [
+      {
+       "label": "KAMAAI",
+       "value": 5.5,
+       "text": "₹5.5L",
+       "color": "blue",
+       "at": "कमाई ₹5.5"
+      },
+      {
+       "label": "GHAATA",
+       "value": 2,
+       "text": "−₹2L",
+       "color": "red",
+       "at": "घाटा पक्का।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "क्योंकि ट्रैफिक",
+   "chapter": "ASLI MUSIBAT",
+   "tint": "red",
+   "react": [
+    {
+     "at": "क्योंकि ट्रैफिक",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "क्योंकि ट्रैफिक",
+     "left": {
+      "label": "TRAFFIC",
+      "value": "HIGH",
+      "sub": "road pe"
+     },
+     "right": {
+      "label": "DEMAND",
+      "value": "LOW",
+      "sub": "charger pe",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "डिमांड नहीं।"
+     },
+     "strike_at": "डिमांड नहीं।"
+    }
+   ]
+  },
+  {
+   "at": "ज़्यादातर EV",
+   "chapter": "GHAR PE CHARGE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "house",
+     "at": "ज़्यादातर EV"
+    },
+    {
+     "type": "pill",
+     "text": "RAAT KO GHAR PE CHARGE",
+     "color": "blue",
+     "at": "रात को"
+    }
+   ]
+  },
+  {
+   "at": "वो नंबर है",
+   "chapter": "WOH NUMBER",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "utilization।",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "UTILIZATION",
+     "sub": "RATE SE BHI BADA",
+     "color": "blue",
+     "at": "वो नंबर है"
+    }
+   ]
+  },
+  {
+   "at": "चार्जर तभी",
+   "chapter": "PLUG = PAISA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "CAR JUDI = KAMAAI",
+     "size": "l",
+     "ill": "electric_plug",
+     "at": "चार्जर तभी"
+    }
+   ]
+  },
+  {
+   "at": "25 कारें",
+   "chapter": "25 CARS",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "25",
+     "color": "green",
+     "ill": "automobile",
+     "at": "25 कारें",
+     "note": "CARS / DIN",
+     "note_at": "कारें रोज़"
+    }
+   ]
+  },
+  {
+   "at": "कमाई ₹27",
+   "chapter": "PAISA HI PAISA",
+   "tint": "green",
+   "react": [
+    {
+     "at": "₹27 लाख",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹27L+",
+     "color": "green",
+     "ill": "coin",
+     "at": "कमाई ₹27",
+     "note": "KHARCHA ~ WAHI",
+     "note_at": "खर्चा लगभग",
+     "note_color": "gold"
+    },
+    {
+     "type": "money_rain",
+     "at": "₹27 लाख"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए जगह",
+   "chapter": "MERA PLAN",
+   "react": [
+    {
+     "at": "इसलिए जगह",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "SAHI JAGAH CHUNO",
+     "size": "l",
+     "ill": "round_pushpin",
+     "at": "इसलिए जगह"
+    }
+   ]
+  },
+  {
+   "at": "20 से 40",
+   "chapter": "RUKNE KA TIME",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "20–40",
+     "color": "gold",
+     "ill": "stopwatch",
+     "at": "20 से 40",
+     "note": "MINUTE RUKTE HAIN",
+     "note_at": "मिनट रुकें।"
+    }
+   ]
+  },
+  {
+   "at": "हाईवे फूड",
+   "chapter": "SAHI JAGAH",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "हाईवे फूड",
+     "items": [
+      {
+       "text": "Highway food court",
+       "at": "हाईवे फूड",
+       "ill": "fork_and_knife_with_plate"
+      },
+      {
+       "text": "Mall",
+       "at": "मॉल।",
+       "ill": "department_store"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "वहाँ कॉफी",
+   "chapter": "EXTRA KAMAAI",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "coin_stack",
+     "at": "वहाँ कॉफी"
+    },
+    {
+     "type": "pill",
+     "text": "COFFEE + KHAANA = KAMAAI",
+     "color": "green",
+     "at": "कॉफी और खाना"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo EV station kholna chahta hai",
+  "line2_at": "\"EV चार्जिंग"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 ev charger decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 30
+}
