@@ -1,0 +1,524 @@
+{
+ "voiceover": "[urgent, punchy] डार्क स्टोर खोलना है? सबसे बड़ी गलती: 10 मिनट डिलीवरी के पीछे भागना।\n\n[intrigued, building energy] असली चीज़ आख़िर में बताता हूँ। वही तय करती है कि स्टोर चलेगा या डूबेगा।\n\n[excited, fast] डार्क स्टोर बस 2 से 3 कि.मी. का एरिया सर्व करता है। राइडर फॉर्मूला वन नहीं चलाता, बस दूरी कम है।\n\n[serious] अब गलत जगह स्टोर खोल दिया, और 500 ऑर्डर कम आए? रेंट वही, मैनेजर वही, फ्रीजर वही। हर ऑर्डर पर भारी फिक्स्ड कॉस्ट, स्टोर लॉस में।\n\n[emphatic] असली बिज़नेस है डेंसिटी। ब्रेक इवन के लिए रोज़ 1500 से 2000 ऑर्डर चाहिए। ऑर्डर 4 गुना हों, तो रेंट वही रहता है और हर ऑर्डर सस्ता पड़ता है।\n\n[confident] इसलिए पहले देखो: 2 से 3 कि.मी. में रोज़ कितने ऑर्डर आएँगे? स्पीड बाद की बात है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, डार्क स्टोर खोलते हैं।\"",
+ "ig_caption": "Dark store kholne wale sabse badi galti yahi karte hain 🛵 Business speed ka hai hi nahi.\n\nAsli game hai density: 2 se 3 km ke andar kitne orders aate hain.\n\nUs dost ko bhejo jo dark store kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are industry estimates, not financial advice.",
+ "hashtags": [
+  "#DarkStore",
+  "#Blinkit",
+  "#QuickCommerce",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "10 मिनट",
+  "2 से 3 कि.मी.",
+  "500 ऑर्डर",
+  "1500 से 2000 ऑर्डर्स डेली",
+  "4x"
+ ],
+ "style": "v2",
+ "tag": "DARK STORE",
+ "disclaimer": true,
+ "captions": [
+  "Dark",
+  "*store",
+  "kholna",
+  "hai?",
+  "Sabse",
+  "badi",
+  "*galti:",
+  "*10",
+  "*minute",
+  "delivery",
+  "ke",
+  "peeche",
+  "bhaagna.",
+  "Asli",
+  "*cheez",
+  "aakhir",
+  "mein",
+  "batata",
+  "hoon.",
+  "Wahi",
+  "tay",
+  "karti",
+  "hai",
+  "ki",
+  "store",
+  "*chalega",
+  "ya",
+  "*doobega.",
+  "Dark",
+  "store",
+  "bas",
+  "*2",
+  "se",
+  "*3",
+  "*km",
+  "ka",
+  "area",
+  "serve",
+  "karta",
+  "hai.",
+  "Rider",
+  "*Formula",
+  "*One",
+  "nahi",
+  "chalata,",
+  "bas",
+  "*doori",
+  "*kam",
+  "hai.",
+  "Ab",
+  "*galat",
+  "*jagah",
+  "store",
+  "khol",
+  "diya,",
+  "aur",
+  "*500",
+  "order",
+  "kam",
+  "aaye?",
+  "*Rent",
+  "wahi,",
+  "manager",
+  "wahi,",
+  "freezer",
+  "wahi.",
+  "Har",
+  "order",
+  "par",
+  "bhaari",
+  "*fixed",
+  "*cost,",
+  "store",
+  "*loss",
+  "mein.",
+  "Asli",
+  "business",
+  "hai",
+  "*density.",
+  "Break",
+  "even",
+  "ke",
+  "liye",
+  "roz",
+  "*1500",
+  "se",
+  "*2000",
+  "order",
+  "chahiye.",
+  "Order",
+  "*4",
+  "*guna",
+  "hon,",
+  "toh",
+  "rent",
+  "wahi",
+  "rehta",
+  "hai",
+  "aur",
+  "har",
+  "order",
+  "*sasta",
+  "padta",
+  "hai.",
+  "Isliye",
+  "pehle",
+  "dekho:",
+  "*2",
+  "se",
+  "*3",
+  "km",
+  "mein",
+  "roz",
+  "kitne",
+  "*order",
+  "aayenge?",
+  "*Speed",
+  "baad",
+  "ki",
+  "baat",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*dark",
+  "*store",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "डार्क स्टोर खोलना",
+   "chapter": "BADI GALTI",
+   "tint": "red",
+   "aroll": "face_alert",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "DARK STORE?",
+     "size": "l",
+     "ill": "convenience_store",
+     "at": "डार्क स्टोर खोलना"
+    },
+    {
+     "type": "pill",
+     "text": "SABSE BADI GALTI",
+     "color": "red",
+     "at": "सबसे बड़ी"
+    }
+   ]
+  },
+  {
+   "at": "10 मिनट डिलीवरी",
+   "chapter": "10 MIN TRAP",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "10 MIN",
+     "color": "red",
+     "ill": "stopwatch",
+     "at": "10 मिनट डिलीवरी",
+     "note": "PEECHE MAT BHAAGO",
+     "note_at": "पीछे भागना।",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "असली चीज़",
+   "chapter": "ASLI SECRET",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "असली चीज़"
+    },
+    {
+     "type": "pill",
+     "text": "AAKHIR MEIN",
+     "color": "blue",
+     "at": "आख़िर में"
+    }
+   ]
+  },
+  {
+   "at": "वही तय करती",
+   "chapter": "CHALEGA YA DOOBEGA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "वही तय करती",
+     "left": {
+      "label": "STORE",
+      "value": "CHALEGA"
+     },
+     "right": {
+      "label": "YA",
+      "value": "DOOBEGA",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "डूबेगा।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "2 से 3",
+   "chapter": "2–3 KM",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "2–3 KM",
+     "color": "gold",
+     "ill": "round_pushpin",
+     "at": "2 से 3",
+     "note": "SIRF ITNA AREA",
+     "note_at": "एरिया सर्व"
+    }
+   ]
+  },
+  {
+   "at": "राइडर फॉर्मूला वन",
+   "chapter": "SPEED KA SACH",
+   "react": [
+    {
+     "at": "फॉर्मूला वन",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "राइडर फॉर्मूला वन",
+     "items": [
+      {
+       "text": "Formula One speed",
+       "at": "फॉर्मूला वन"
+      },
+      {
+       "text": "Bas doori kam",
+       "at": "दूरी कम",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब गलत जगह",
+   "chapter": "ASLI MUSIBAT",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "GALAT JAGAH",
+     "size": "l",
+     "color": "red",
+     "ill": "warning",
+     "at": "अब गलत जगह"
+    }
+   ]
+  },
+  {
+   "at": "और 500 ऑर्डर",
+   "chapter": "500 KAM",
+   "tint": "red",
+   "react": [
+    {
+     "at": "कम आए?",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−500",
+     "color": "red",
+     "ill": "package",
+     "at": "और 500 ऑर्डर",
+     "note": "ORDER KAM",
+     "note_at": "कम आए?",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "रेंट वही,",
+   "chapter": "FIXED COST",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "रेंट वही,",
+     "cards": [
+      {
+       "label": "RENT",
+       "value": "WAHI",
+       "color": "red",
+       "ill": "house",
+       "at": "रेंट वही,"
+      },
+      {
+       "label": "MANAGER",
+       "value": "WAHI",
+       "color": "red",
+       "ill": "necktie",
+       "at": "मैनेजर वही,"
+      },
+      {
+       "label": "FREEZER",
+       "value": "WAHI",
+       "color": "red",
+       "ill": "ice",
+       "at": "फ्रीजर वही।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "हर ऑर्डर पर",
+   "chapter": "LOSS",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "हर ऑर्डर पर"
+    },
+    {
+     "type": "pill",
+     "text": "STORE LOSS MEIN",
+     "color": "red",
+     "at": "लॉस में।"
+    }
+   ]
+  },
+  {
+   "at": "असली बिज़नेस है",
+   "chapter": "ASLI KHEL",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "असली बिज़नेस है",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI BUSINESS =",
+     "color": "blue",
+     "at": "असली बिज़नेस है"
+    },
+    {
+     "type": "title_slam",
+     "text": "DENSITY",
+     "color": "blue",
+     "at": "डेंसिटी।"
+    }
+   ]
+  },
+  {
+   "at": "ब्रेक इवन",
+   "chapter": "BREAK EVEN",
+   "elements": [
+    {
+     "type": "label",
+     "text": "BREAK EVEN · ROZ",
+     "color": "gold",
+     "at": "ब्रेक इवन"
+    },
+    {
+     "type": "big_number",
+     "value": "1500–2000",
+     "color": "gold",
+     "ill": "package",
+     "at": "रोज़ 1500 से",
+     "note": "ORDER ROZ",
+     "note_at": "ऑर्डर चाहिए।"
+    }
+   ]
+  },
+  {
+   "at": "ऑर्डर 4 गुना",
+   "chapter": "4 GUNA",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "4X",
+     "sub": "ORDER",
+     "color": "green",
+     "at": "ऑर्डर 4 गुना"
+    }
+   ]
+  },
+  {
+   "at": "तो रेंट वही",
+   "chapter": "SASTA ORDER",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "RENT WAHI",
+     "color": "muted",
+     "at": "तो रेंट वही"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "ऑर्डर सस्ता पड़ता",
+     "left": {
+      "label": "PER ORDER · PEHLE",
+      "value": "BHAARI",
+      "color": "red"
+     },
+     "right": {
+      "label": "PER ORDER · 4X",
+      "value": "SASTA",
+      "color": "green",
+      "at": "ऑर्डर सस्ता पड़ता"
+     }
+    }
+   ]
+  },
+  {
+   "at": "इसलिए पहले देखो:",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए पहले देखो:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "ROZ KITNE ORDER?",
+     "size": "l",
+     "color": "gold",
+     "ill": "magnifying_glass_tilted_right",
+     "at": "इसलिए पहले देखो:",
+     "sub": "2–3 KM MEIN",
+     "sub_at": "कि.मी. में रोज़"
+    }
+   ]
+  },
+  {
+   "at": "स्पीड बाद",
+   "chapter": "SPEED BAAD MEIN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "स्पीड बाद",
+     "left": {
+      "label": "PEHLE",
+      "value": "DENSITY"
+     },
+     "right": {
+      "label": "BAAD MEIN",
+      "value": "SPEED",
+      "color": "blue",
+      "ill": "stopwatch",
+      "at": "स्पीड बाद"
+     }
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo dark store kholna chahta hai",
+  "line2_at": "डार्क स्टोर खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · dark store decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 34
+}

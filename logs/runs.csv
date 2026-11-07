@@ -151,3 +151,17 @@ run_at_ist,video_id,angle,status,note
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
 2026-11-07 11:26,3r6gDnUxLQk,C,in_buffer,6aeebd90af7e526d43024b38
+2026-11-07 22:21,xsuvqCTZqIY,A,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-07 22:21,xsuvqCTZqIY,B,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-07 22:21,xsuvqCTZqIY,C,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-07 22:27,idea-amul-milk-packet-60-rupees-who-gets-what,R,in_buffer,6aef589051492b796eebbb5c
+2026-11-07 22:32,mjpT-dwFNuA,B,in_buffer,6aef59bf51492b796eec6385

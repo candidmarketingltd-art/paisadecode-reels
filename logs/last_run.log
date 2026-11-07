@@ -3,27 +3,35 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 63, 'error': 1}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 1 (economics) row 57: xsuvqCTZqIY A
+      [buffer] post statuses seen: {'scheduled': 8, 'sent': 65, 'error': 1}
+Buffer queue: 8 waiting (buffer); target 10 -> making 2
+--- reel 1/2: slot 2 (money) row 57: xsuvqCTZqIY A
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 123: xsuvqCTZqIY B
+--- reel 1/2: slot 2 (money) row 123: xsuvqCTZqIY B
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 167: xsuvqCTZqIY C
+--- reel 1/2: slot 2 (money) row 167: xsuvqCTZqIY C
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 158: 3r6gDnUxLQk C
-[1/4] script  3r6gDnUxLQk C: ₹20 Lakh EV Charger: How Many Cars to Break Even?
+--- reel 1/2: slot 2 (money) row 182: idea-amul-milk-packet-60-rupees-who-gets-what R
+[1/4] script  idea-amul-milk-packet-60-rupees-who-gets-what R: ₹60 Ka Milk Packet: Farmer, Amul, Retailer – Kisko Kitna?
 [2/4] voice
-      133 words, 49.9s, model eleven_v4
+      135 words, 57.1s, model eleven_v4
 [3/4] render
-      remotion: Reel /tmp/tmpqplc92f3/video_only.mp4
-added 1 reel(s) to Buffer
+      no free image for 'Amul milk packet' (product) -> illustration
+      photo 'Amul' -> 30f130be1d47.png (Wikimedia Commons / Amul Uploaded by Chinimilli.naresh at en.wikipedia · Public domain)
+      remotion: Reel /tmp/tmpudahsird/video_only.mp4
+--- reel 2/2: slot 3 (ideas) row 75: mjpT-dwFNuA B
+[1/4] script  mjpT-dwFNuA B: How Does Blinkit Make Money on a ₹518 Order? | Dark Store Economics
+[2/4] voice
+      135 words, 45.5s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmptau9nv3k/video_only.mp4
+added 2 reel(s) to Buffer

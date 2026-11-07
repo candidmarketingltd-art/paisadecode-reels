@@ -1,0 +1,605 @@
+{
+ "voiceover": "[urgent, punchy] ₹60 का Amul का दूध लेते हो? सबसे ज़्यादा पैसा रिटेलर के पास नहीं जाता।\n\n[intrigued, building energy] और आख़िरी वाली बात सबसे shocking है।\n\n[excited, fast] Amul का दावा है, हर ₹1 में करीब 80 पैसे किसान को। यानी ₹60 में ₹48। रिटेलर को? सिर्फ़ ₹1.50, यानी 2.5% margin। बाकी ₹12 में सोसाइटी, प्रोसेसिंग, डिस्ट्रीब्यूटर, ट्रांसपोर्ट का हिस्सा।\n\n[serious] अब shocking बात। Amul की फ़ेडरेशन का revenue ₹55,125 करोड़। Profit? सिर्फ़ ₹82 करोड़। [amused] margin 0.15%। रिटेलर के 2.5% से भी कम।\n\n[emphatic] क्योंकि ये कंपनी नहीं, किसानों की cooperative है। जो बचता है, वो किसी अरबपति की जेब में नहीं जाता, साल के आख़िर में किसानों तक लौटता है।\n\n[confident] अगली बार पैकेट उठाओ तो याद रखना: ₹60 का बड़ा हिस्सा खेत तक जाता है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, दूध वालों की तो बड़ी कमाई है।\"",
+ "ig_caption": "Amul ke ₹60 ke packet ka sabse bada hissa retailer ko nahi jaata 🥛 Federation ka profit margin sirf 0.15% hai.\n\nUs dost ko bhejo jo sochta hai ki doodh wale sabse zyada kamate hain 👇\n\nFollow @rohandecoder for daily money math\nYouTube: @PaisaDecodeHQ\nNumbers public sources se hain, approximate. ₹60 ek round-number example hai; kisaan ko 80 paise wala figure Amul ka apna daava hai.",
+ "hashtags": [
+  "#Amul",
+  "#MilkBusiness",
+  "#DairyIndia",
+  "#Cooperative",
+  "#PaisaDecode",
+  "#BusinessIdeas",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹60",
+  "80 paise of every rupee",
+  "₹48",
+  "₹1.50",
+  "2.5%",
+  "₹12",
+  "₹55,125 crore",
+  "₹82 crore",
+  "0.15%"
+ ],
+ "style": "v2",
+ "tag": "AMUL DOODH",
+ "disclaimer": true,
+ "captions": [
+  "*₹60",
+  "ka",
+  "*Amul",
+  "ka",
+  "doodh",
+  "lete",
+  "ho?",
+  "Sabse",
+  "zyada",
+  "paisa",
+  "*retailer",
+  "ke",
+  "paas",
+  "*nahi",
+  "jaata.",
+  "Aur",
+  "aakhiri",
+  "waali",
+  "baat",
+  "sabse",
+  "*shocking",
+  "hai.",
+  "*Amul",
+  "ka",
+  "daava",
+  "hai,",
+  "har",
+  "*₹1",
+  "mein",
+  "kareeb",
+  "*80",
+  "paise",
+  "*kisaan",
+  "ko.",
+  "Yaani",
+  "₹60",
+  "mein",
+  "*₹48.",
+  "Retailer",
+  "ko?",
+  "Sirf",
+  "*₹1.50,",
+  "yaani",
+  "*2.5%",
+  "margin.",
+  "Baaki",
+  "*₹12",
+  "mein",
+  "society,",
+  "processing,",
+  "distributor,",
+  "transport",
+  "ka",
+  "hissa.",
+  "Ab",
+  "*shocking",
+  "baat.",
+  "Amul",
+  "ki",
+  "*federation",
+  "ka",
+  "revenue",
+  "*₹55,125",
+  "crore.",
+  "Profit?",
+  "Sirf",
+  "*₹82",
+  "crore.",
+  "Margin",
+  "*0.15%.",
+  "Retailer",
+  "ke",
+  "2.5%",
+  "se",
+  "bhi",
+  "*kam.",
+  "Kyunki",
+  "ye",
+  "*company",
+  "nahi,",
+  "kisaanon",
+  "ki",
+  "*cooperative",
+  "hai.",
+  "Jo",
+  "bachta",
+  "hai,",
+  "wo",
+  "kisi",
+  "*arabpati",
+  "ki",
+  "jeb",
+  "mein",
+  "nahi",
+  "jaata,",
+  "saal",
+  "ke",
+  "aakhir",
+  "mein",
+  "*kisaanon",
+  "tak",
+  "*lautta",
+  "hai.",
+  "Agli",
+  "baar",
+  "*packet",
+  "uthao",
+  "toh",
+  "yaad",
+  "rakhna:",
+  "*₹60",
+  "ka",
+  "bada",
+  "hissa",
+  "*khet",
+  "tak",
+  "jaata",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*doodh",
+  "waalon",
+  "ki",
+  "toh",
+  "badi",
+  "*kamaai",
+  "hai.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹60 का Amul",
+   "chapter": "₹60 KA PACKET",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹60",
+     "color": "gold",
+     "ill": "glass_of_milk",
+     "photo": "Amul milk packet",
+     "photo_kind": "product",
+     "at": "₹60 का Amul"
+    }
+   ]
+  },
+  {
+   "at": "सबसे ज़्यादा पैसा",
+   "chapter": "KISKO KITNA?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "SABSE ZYADA ₹ KISKO?",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "सबसे ज़्यादा पैसा",
+     "sub": "RETAILER NAHI",
+     "sub_at": "नहीं जाता।",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िरी वाली",
+   "chapter": "TEASER",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "सबसे shocking",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "और आख़िरी वाली"
+    },
+    {
+     "type": "pill",
+     "text": "AAKHIRI BAAT = SHOCKING",
+     "color": "blue",
+     "at": "सबसे shocking"
+    }
+   ]
+  },
+  {
+   "at": "Amul का दावा",
+   "chapter": "AMUL KA DAAVA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Amul",
+     "photo_kind": "logo",
+     "caption": "AMUL KA DAAVA",
+     "ill": "glass_of_milk",
+     "at": "Amul का दावा"
+    }
+   ]
+  },
+  {
+   "at": "हर ₹1 में",
+   "chapter": "₹1 KA HISAAB",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "हर ₹1 में",
+     "left": {
+      "label": "HAR",
+      "value": "₹1",
+      "sub": "jo tum dete ho",
+      "color": "gold"
+     },
+     "right": {
+      "label": "KISAAN KO",
+      "value": "80p",
+      "sub": "kareeb",
+      "color": "green",
+      "at": "80 पैसे"
+     }
+    }
+   ]
+  },
+  {
+   "at": "यानी ₹60 में",
+   "chapter": "KISAAN KA HISSA",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹48",
+     "color": "green",
+     "ill": "cow",
+     "at": "यानी ₹60 में",
+     "note": "KISAAN KO",
+     "note_at": "₹48।",
+     "note_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "रिटेलर को?",
+   "chapter": "RETAILER KA HISSA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹1.50",
+     "color": "gold",
+     "ill": "convenience_store",
+     "at": "रिटेलर को?",
+     "note": "2.5% MARGIN",
+     "note_at": "2.5% margin।"
+    }
+   ]
+  },
+  {
+   "at": "बाकी ₹12 में",
+   "chapter": "BAAKI ₹12",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "BAAKI ₹12 KAHAN?",
+     "color": "gold",
+     "at": "बाकी ₹12 में"
+    },
+    {
+     "type": "strike_list",
+     "at": "बाकी ₹12 में",
+     "items": [
+      {
+       "text": "Society",
+       "at": "सोसाइटी,",
+       "strike": false
+      },
+      {
+       "text": "Processing",
+       "at": "प्रोसेसिंग,",
+       "strike": false
+      },
+      {
+       "text": "Distributor",
+       "at": "डिस्ट्रीब्यूटर,",
+       "strike": false
+      },
+      {
+       "text": "Transport",
+       "at": "ट्रांसपोर्ट का",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "अब shocking बात।",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "SHOCKING",
+     "sub": "AAKHIRI BAAT",
+     "color": "blue",
+     "at": "अब shocking बात।"
+    }
+   ]
+  },
+  {
+   "at": "Amul की फ़ेडरेशन",
+   "chapter": "FEDERATION",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "Amul की फ़ेडरेशन"
+    },
+    {
+     "type": "label",
+     "text": "AMUL FEDERATION",
+     "color": "blue",
+     "at": "Amul की फ़ेडरेशन"
+    }
+   ]
+  },
+  {
+   "at": "revenue ₹55,125",
+   "chapter": "REVENUE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹55,125 Cr",
+     "color": "gold",
+     "ill": "coin",
+     "at": "revenue ₹55,125",
+     "note": "REVENUE",
+     "note_at": "₹55,125 करोड़।"
+    }
+   ]
+  },
+  {
+   "at": "Profit? सिर्फ़",
+   "chapter": "PROFIT?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹82 करोड़।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "Profit? सिर्फ़",
+     "strike_at": "₹82 करोड़।",
+     "left": {
+      "label": "REVENUE",
+      "value": "₹55,125",
+      "sub": "crore"
+     },
+     "right": {
+      "label": "PROFIT",
+      "value": "₹82",
+      "sub": "crore",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "₹82 करोड़।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "margin 0.15%।",
+   "chapter": "0.15% MARGIN",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "0.15%",
+     "label": "PROFIT MARGIN",
+     "at": "margin 0.15%।",
+     "value_at": "margin 0.15%।"
+    }
+   ]
+  },
+  {
+   "at": "रिटेलर के 2.5%",
+   "chapter": "RETAILER SE KAM",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "से भी कम।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "रिटेलर के 2.5%",
+     "left": {
+      "label": "AMUL FEDERATION",
+      "value": "0.15%",
+      "sub": "margin"
+     },
+     "right": {
+      "label": "RETAILER",
+      "value": "2.5%",
+      "sub": "margin",
+      "color": "gold",
+      "ill": "convenience_store",
+      "at": "से भी कम।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "क्योंकि ये कंपनी",
+   "chapter": "ASLI WAJAH",
+   "tint": "green",
+   "react": [
+    {
+     "at": "किसानों की cooperative",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "क्योंकि ये कंपनी",
+     "items": [
+      {
+       "text": "Company",
+       "at": "क्योंकि ये कंपनी",
+       "strike": true
+      },
+      {
+       "text": "Kisaanon ki cooperative",
+       "at": "cooperative है।",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "जो बचता है,",
+   "chapter": "JO BACHTA HAI",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "जो बचता है,"
+    },
+    {
+     "type": "pill",
+     "text": "ARABPATI KI JEB ✕",
+     "color": "red",
+     "at": "किसी अरबपति"
+    }
+   ]
+  },
+  {
+   "at": "साल के आख़िर",
+   "chapter": "PAISA WAPAS",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "साल के आख़िर",
+     "left": {
+      "label": "SAAL KE AAKHIR",
+      "value": "PROFIT",
+      "color": "gold"
+     },
+     "right": {
+      "label": "KISAANON TAK",
+      "value": "WAPAS",
+      "color": "green",
+      "at": "किसानों तक लौटता"
+     }
+    }
+   ]
+  },
+  {
+   "at": "अगली बार पैकेट",
+   "chapter": "YAAD RAKHNA",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "याद रखना:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "box",
+     "at": "अगली बार पैकेट"
+    },
+    {
+     "type": "label",
+     "text": "AGLI BAAR PACKET UTHAO",
+     "color": "gold",
+     "at": "अगली बार पैकेट"
+    }
+   ]
+  },
+  {
+   "at": "₹60 का बड़ा",
+   "chapter": "KHET TAK",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "₹60 का बड़ा",
+     "parts": [
+      {
+       "label": "KISAAN · KHET",
+       "value": 48,
+       "text": "₹48",
+       "color": "green",
+       "at": "₹60 का बड़ा"
+      },
+      {
+       "label": "BAAKI SAB",
+       "value": 12,
+       "text": "₹12",
+       "color": "muted",
+       "at": "खेत तक जाता"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "BADA HISSA KHET TAK",
+     "color": "green",
+     "at": "खेत तक जाता"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo doodh walon ki kamaai pe jalta hai",
+  "line2_at": "दूध वालों"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 doodh packet decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 33,
+ "photo_credits": [
+  "Wikimedia Commons / Amul Uploaded by Chinimilli.naresh at en.wikipedia · Public domain"
+ ]
+}
