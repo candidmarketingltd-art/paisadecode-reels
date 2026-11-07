@@ -1,0 +1,524 @@
+{
+ "voiceover": "[urgent, punchy] EV चार्ज करवाते हो? चार्जर वाले को हर कार से मिलते हैं सिर्फ़ करीब ₹300।\n\n[intrigued, fast] और ₹20 लाख वापस आने का नंबर सुनके चौंक जाओगे।\n\n[excited, fast] ₹20 लाख के स्टेशन में 60 kW की मशीन सिर्फ़ करीब ₹3.4 लाख की है। बाकी पैसा केबल, पैनल, सिविल वर्क और ज़मीन में जाता है।\n\n[serious] साल का खर्चा करीब ₹7.5 लाख। रोज़ 5 कार आईं? कमाई ₹5.5 लाख। खर्चा भी नहीं निकला। [amused] चार्जर बिज़ी दिखेगा, Google रिव्यू आएँगे, पर स्प्रेडशीट में लॉस।\n\n[emphatic] 5 साल में ₹20 लाख निकालने हैं? रोज़ चाहिए 10 से 11 कार। सोमवार हो या जनवरी की ठंडी सुबह, हर दिन।\n\n[confident] इसलिए ट्रैफिक नहीं, ऐसी लोकेशन देखो जहाँ कस्टमर 20 से 40 मिनट रुके। फ़ूड कोर्ट, मॉल।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"भाई, EV चार्जर लगाते हैं, मशीन पैसा छापेगी।\"",
+ "ig_caption": "EV charge karte ho? Charger wale ko har car se milte hain sirf ~₹300 ⚡ Wo bhi rent aur staff se pehle.\n\n₹20 lakh ke station mein machine sirf ~₹3.4 lakh ki hai... baaki paisa kahan jaata hai, dekho.\n\nUs dost ko bhejo jo EV charger lagana chahta hai 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative (example model), not financial advice.",
+ "hashtags": [
+  "#EVCharging",
+  "#EVChargingStation",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#ElectricVehicles",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹300",
+  "₹20 लाख",
+  "60 kW",
+  "₹3.4 लाख",
+  "₹7.5 लाख",
+  "5 कार पर डे",
+  "₹5.5 लाख",
+  "5 साल",
+  "10 से 11 गाड़ियां पर डे",
+  "20 से 40 मिनट"
+ ],
+ "style": "v2",
+ "tag": "EV CHARGER",
+ "disclaimer": true,
+ "captions": [
+  "EV",
+  "charge",
+  "karwate",
+  "ho?",
+  "Charger",
+  "waale",
+  "ko",
+  "har",
+  "*car",
+  "se",
+  "milte",
+  "hain",
+  "sirf",
+  "kareeb",
+  "*₹300.",
+  "Aur",
+  "*₹20",
+  "*lakh",
+  "wapas",
+  "aane",
+  "ka",
+  "number",
+  "sunke",
+  "chaunk",
+  "jaoge.",
+  "*₹20",
+  "lakh",
+  "ke",
+  "station",
+  "mein",
+  "*60",
+  "kW",
+  "ki",
+  "*machine",
+  "sirf",
+  "kareeb",
+  "*₹3.4",
+  "lakh",
+  "ki",
+  "hai.",
+  "Baaki",
+  "paisa",
+  "*cable,",
+  "*panel,",
+  "civil",
+  "work",
+  "aur",
+  "*zameen",
+  "mein",
+  "jaata",
+  "hai.",
+  "Saal",
+  "ka",
+  "kharcha",
+  "kareeb",
+  "*₹7.5",
+  "lakh.",
+  "Roz",
+  "*5",
+  "car",
+  "aayin?",
+  "Kamaai",
+  "*₹5.5",
+  "lakh.",
+  "Kharcha",
+  "bhi",
+  "nahi",
+  "*nikla.",
+  "Charger",
+  "*busy",
+  "dikhega,",
+  "Google",
+  "review",
+  "aayenge,",
+  "par",
+  "spreadsheet",
+  "mein",
+  "*loss.",
+  "5",
+  "saal",
+  "mein",
+  "*₹20",
+  "lakh",
+  "nikaalne",
+  "hain?",
+  "Roz",
+  "chahiye",
+  "*10",
+  "se",
+  "*11",
+  "car.",
+  "Monday",
+  "ho",
+  "ya",
+  "January",
+  "ki",
+  "thandi",
+  "subah,",
+  "*har",
+  "*din.",
+  "Isliye",
+  "*traffic",
+  "nahi,",
+  "aisi",
+  "*location",
+  "dekho",
+  "jahan",
+  "customer",
+  "*20",
+  "se",
+  "*40",
+  "minute",
+  "ruke.",
+  "Food",
+  "court,",
+  "mall.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Bhai,",
+  "EV",
+  "charger",
+  "lagaate",
+  "hain,",
+  "machine",
+  "*paisa",
+  "chhapegi.\""
+ ],
+ "scenes": [
+  {
+   "at": "EV चार्ज करवाते",
+   "chapter": "₹300 PER CAR",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "EV CHARGER · ASLI HISAAB",
+     "at": "EV चार्ज करवाते"
+    },
+    {
+     "type": "big_number",
+     "value": "₹300",
+     "color": "gold",
+     "ill": "high_voltage",
+     "at": "EV चार्ज करवाते",
+     "note": "PER CAR",
+     "note_at": "हर कार से"
+    }
+   ]
+  },
+  {
+   "at": "चार्जर वाले को",
+   "chapter": "CHARGER WALA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "coin",
+     "at": "चार्जर वाले को"
+    },
+    {
+     "type": "pill",
+     "text": "~₹300 HAR CAR SE",
+     "color": "gold",
+     "at": "₹300।"
+    }
+   ]
+  },
+  {
+   "at": "और ₹20 लाख",
+   "chapter": "₹20 LAKH",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "cash_stack",
+     "at": "और ₹20 लाख"
+    },
+    {
+     "type": "pill",
+     "text": "₹20L WAPAS KAB?",
+     "color": "gold",
+     "outline": true,
+     "at": "वापस आने"
+    }
+   ]
+  },
+  {
+   "at": "₹20 लाख के",
+   "chapter": "MACHINE KA DAAM",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹20L STATION KE ANDAR",
+     "at": "₹20 लाख के"
+    },
+    {
+     "type": "big_number",
+     "value": "₹3.4L",
+     "color": "gold",
+     "ill": "electric_plug",
+     "at": "₹3.4 लाख",
+     "note": "60 kW MACHINE",
+     "note_at": "₹3.4 लाख"
+    }
+   ]
+  },
+  {
+   "at": "बाकी पैसा केबल,",
+   "chapter": "PAISA KAHAN GAYA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "बाकी पैसा केबल,",
+     "parts": [
+      {
+       "label": "MACHINE",
+       "value": 3.4,
+       "text": "₹3.4L",
+       "color": "gold",
+       "at": "बाकी पैसा केबल,"
+      },
+      {
+       "label": "CABLE · PANEL",
+       "value": 6,
+       "color": "blue",
+       "at": "केबल, पैनल,"
+      },
+      {
+       "label": "CIVIL WORK",
+       "value": 4,
+       "color": "muted",
+       "at": "सिविल वर्क"
+      },
+      {
+       "label": "ZAMEEN",
+       "value": 6.6,
+       "color": "red",
+       "at": "ज़मीन में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "साल का खर्चा",
+   "chapter": "SAAL KA KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "SAAL KA KHARCHA",
+     "color": "red",
+     "at": "साल का खर्चा"
+    },
+    {
+     "type": "big_number",
+     "value": "₹7.5L",
+     "color": "red",
+     "ill": "receipt",
+     "at": "₹7.5 लाख।"
+    }
+   ]
+  },
+  {
+   "at": "रोज़ 5 कार",
+   "chapter": "5 CAR ROZ",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "5 CAR ROZ",
+     "size": "l",
+     "ill": "automobile",
+     "at": "रोज़ 5 कार",
+     "sub": "KAMAI ₹5.5L",
+     "sub_at": "₹5.5 लाख।",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "खर्चा भी नहीं",
+   "chapter": "KHARCHA BHI NAHI",
+   "tint": "red",
+   "react": [
+    {
+     "at": "निकला।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "खर्चा भी नहीं",
+     "left": {
+      "label": "KAMAI",
+      "value": "₹5.5L",
+      "sub": "5 car roz"
+     },
+     "right": {
+      "label": "KHARCHA",
+      "value": "₹7.5L",
+      "sub": "nahi nikla",
+      "color": "red",
+      "ill": "chart_decreasing",
+      "at": "खर्चा भी नहीं"
+     }
+    }
+   ]
+  },
+  {
+   "at": "चार्जर बिज़ी दिखेगा,",
+   "chapter": "BAHAR SE BUSY",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "चार्जर बिज़ी दिखेगा,",
+     "items": [
+      {
+       "text": "Charger busy",
+       "strike": false,
+       "at": "चार्जर बिज़ी दिखेगा,"
+      },
+      {
+       "text": "Google reviews",
+       "strike": false,
+       "at": "Google रिव्यू"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "पर स्प्रेडशीट",
+   "chapter": "ANDAR SE LOSS",
+   "tint": "red",
+   "react": [
+    {
+     "at": "लॉस।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "chart_down",
+     "at": "पर स्प्रेडशीट"
+    },
+    {
+     "type": "pill",
+     "text": "SPREADSHEET: LOSS",
+     "color": "red",
+     "at": "लॉस।"
+    }
+   ]
+  },
+  {
+   "at": "5 साल में",
+   "chapter": "BREAK-EVEN",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "TARGET · 5 SAAL",
+     "color": "blue",
+     "at": "5 साल में"
+    },
+    {
+     "type": "big_number",
+     "value": "₹20L",
+     "color": "gold",
+     "ill": "hourglass_not_done",
+     "at": "₹20 लाख निकालने"
+    }
+   ]
+  },
+  {
+   "at": "रोज़ चाहिए 10",
+   "chapter": "ASLI NUMBER",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "11 कार।",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "10–11",
+     "sub": "CAR ROZ",
+     "color": "gold",
+     "at": "रोज़ चाहिए 10"
+    }
+   ]
+  },
+  {
+   "at": "सोमवार हो या",
+   "chapter": "HAR DIN",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "HAR DIN",
+     "size": "l",
+     "ill": "spiral_calendar",
+     "at": "सोमवार हो या",
+     "sub": "MONDAY · JANUARY · THAND",
+     "sub_at": "जनवरी की ठंडी"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए ट्रैफिक नहीं,",
+   "chapter": "SAHI LOCATION",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए ट्रैफिक नहीं,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "इसलिए ट्रैफिक नहीं,",
+     "strike_at": "20 से 40",
+     "left": {
+      "label": "GALAT",
+      "value": "TRAFFIC",
+      "sub": "bas guzarte hain"
+     },
+     "right": {
+      "label": "SAHI",
+      "value": "20–40m",
+      "sub": "customer rukta hai",
+      "color": "green",
+      "ill": "hourglass_not_done",
+      "at": "20 से 40"
+     }
+    }
+   ]
+  },
+  {
+   "at": "फ़ूड कोर्ट,",
+   "chapter": "YAHAN LAGAO",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "फ़ूड कोर्ट,",
+     "items": [
+      {
+       "text": "Food court",
+       "ill": "fork_and_knife_with_plate",
+       "at": "फ़ूड कोर्ट,"
+      },
+      {
+       "text": "Mall",
+       "ill": "department_store",
+       "at": "मॉल।"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo EV charger lagana chahta hai",
+  "line2_at": "EV चार्जर लगाते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 ev charger decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 32
+}
