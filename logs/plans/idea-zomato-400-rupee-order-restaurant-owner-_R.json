@@ -1,0 +1,569 @@
+{
+ "voiceover": "[urgent, punchy] तुमने Zomato पे ₹400 दिए। रेस्टोरेंट के अकाउंट में कितने आए?\n\n[intrigued, building energy] और आख़िर में बताऊँगा, रेस्टोरेंट वाले तुम्हें अपने काउंटर की तरफ़ क्यों खींचते हैं।\n\n[excited, fast] ऐप कहता है कमीशन 18 से 25%। पर उस पे 18% GST अलग। फिर पेमेंट फ़ीस 1.9–2%, ऐड्स 3 से 10%। सब मिलाके असली कटौती 25–35%।\n\n[serious] अब डिस्काउंट। \"₹100 off\" का पैसा अक्सर रेस्टोरेंट की जेब से जाता है। ₹500 का ऑर्डर, बिल बचा ₹400, कमीशन ₹92, पैकेजिंग ₹15। ऐसे ऑर्डर पे असली कट 38–52% तक।\n\n[emphatic] ₹1,000 के ऑर्डर पे हाथ में बचे ≈₹487... और ये खाने, गैस, किराए, सैलरी से पहले। [amused] चेन 8–9% देती हैं, छोटे रेस्टोरेंट 22–30%।\n\n[confident] इसीलिए बोलते हैं, \"भैया, सीधा काउंटर पे ऑर्डर कर लो।\" वहाँ ऐप का कमीशन नहीं कटता।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो हर हफ़्ते Zomato खोलके बोलता है, \"डिस्काउंट मिल गया!\"",
+ "ig_caption": "Tumne Zomato pe ₹400 diye... restaurant ke account mein kitne pahunche? 🍕 Discount ka paisa aksar owner ki jeb se jaata hai.\n\nUs dost ko bhejo jo har hafte Zomato se order karta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate\nRates vary by restaurant contract. Not financial advice.",
+ "hashtags": [
+  "#Zomato",
+  "#Swiggy",
+  "#RestaurantBusiness",
+  "#FoodDelivery",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹400",
+  "18 से 25%",
+  "18% GST",
+  "1.9–2%",
+  "3 से 10%",
+  "25–35%",
+  "₹100 off",
+  "₹500",
+  "₹92",
+  "₹15",
+  "38–52%",
+  "₹1,000",
+  "≈₹487",
+  "8–9%",
+  "22–30%"
+ ],
+ "style": "v2",
+ "tag": "ZOMATO ORDER",
+ "disclaimer": true,
+ "captions": [
+  "Tumne",
+  "*Zomato",
+  "pe",
+  "*₹400",
+  "diye.",
+  "Restaurant",
+  "ke",
+  "*account",
+  "mein",
+  "*kitne",
+  "aaye?",
+  "Aur",
+  "aakhir",
+  "mein",
+  "bataunga,",
+  "restaurant",
+  "waale",
+  "tumhein",
+  "apne",
+  "*counter",
+  "ki",
+  "taraf",
+  "kyun",
+  "*kheenchte",
+  "hain.",
+  "App",
+  "kehta",
+  "hai",
+  "*commission",
+  "*18",
+  "se",
+  "*25%.",
+  "Par",
+  "us",
+  "pe",
+  "*18%",
+  "*GST",
+  "alag.",
+  "Phir",
+  "payment",
+  "fees",
+  "*1.9–2%,",
+  "ads",
+  "*3",
+  "se",
+  "*10%.",
+  "Sab",
+  "milake",
+  "asli",
+  "*katauti",
+  "*25–35%.",
+  "Ab",
+  "*discount.",
+  "\"₹100",
+  "off\"",
+  "ka",
+  "paisa",
+  "aksar",
+  "restaurant",
+  "ki",
+  "*jeb",
+  "se",
+  "jaata",
+  "hai.",
+  "*₹500",
+  "ka",
+  "order,",
+  "bill",
+  "bacha",
+  "*₹400,",
+  "commission",
+  "*₹92,",
+  "packaging",
+  "*₹15.",
+  "Aise",
+  "order",
+  "pe",
+  "asli",
+  "cut",
+  "*38–52%",
+  "tak.",
+  "*₹1,000",
+  "ke",
+  "order",
+  "pe",
+  "haath",
+  "mein",
+  "bache",
+  "*≈₹487...",
+  "Aur",
+  "ye",
+  "khaane,",
+  "gas,",
+  "kiraaye,",
+  "salary",
+  "se",
+  "*pehle.",
+  "*Chain",
+  "*8–9%",
+  "deti",
+  "hain,",
+  "chhote",
+  "restaurant",
+  "*22–30%.",
+  "Isiliye",
+  "bolte",
+  "hain,",
+  "\"Bhaiya,",
+  "seedha",
+  "*counter",
+  "pe",
+  "order",
+  "kar",
+  "lo.\"",
+  "Wahan",
+  "app",
+  "ka",
+  "*commission",
+  "nahi",
+  "*katta.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "har",
+  "hafte",
+  "Zomato",
+  "kholke",
+  "bolta",
+  "hai,",
+  "\"Discount",
+  "mil",
+  "gaya!\""
+ ],
+ "scenes": [
+  {
+   "at": "तुमने Zomato",
+   "chapter": "₹400 KA ORDER",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹400",
+     "color": "gold",
+     "photo": "Zomato",
+     "photo_kind": "logo",
+     "ill": "takeout_box",
+     "at": "तुमने Zomato"
+    }
+   ]
+  },
+  {
+   "at": "रेस्टोरेंट के अकाउंट",
+   "chapter": "ACCOUNT MEIN?",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "₹400 → ₹?",
+     "size": "l",
+     "color": "gold",
+     "ill": "red_question_mark",
+     "at": "रेस्टोरेंट के अकाउंट"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िर",
+   "chapter": "END MEIN RAAZ",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "और आख़िर"
+    },
+    {
+     "type": "pill",
+     "text": "COUNTER KI TARAF KYUN?",
+     "color": "blue",
+     "at": "काउंटर की"
+    }
+   ]
+  },
+  {
+   "at": "ऐप कहता",
+   "chapter": "COMMISSION",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "APP KA COMMISSION",
+     "at": "ऐप कहता"
+    },
+    {
+     "type": "big_number",
+     "value": "18–25%",
+     "color": "gold",
+     "ill": "mobile_phone",
+     "at": "कमीशन 18"
+    }
+   ]
+  },
+  {
+   "at": "पर उस पे",
+   "chapter": "GST UPAR SE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "18%",
+     "color": "red",
+     "ill": "receipt",
+     "at": "पर उस पे",
+     "note": "GST ALAG SE",
+     "note_at": "GST अलग।",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "फिर पेमेंट",
+   "chapter": "CHHUPE CUT",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "फिर पेमेंट",
+     "cards": [
+      {
+       "label": "PAYMENT FEE",
+       "value": "1.9–2%",
+       "color": "red",
+       "ill": "credit_card",
+       "at": "फिर पेमेंट"
+      },
+      {
+       "label": "ADS",
+       "value": "3–10%",
+       "color": "red",
+       "ill": "loudspeaker",
+       "at": "ऐड्स 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "सब मिलाके",
+   "chapter": "ASLI KATAUTI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "सब मिलाके"
+    },
+    {
+     "type": "pill",
+     "text": "ASLI KATAUTI 25–35%",
+     "color": "red",
+     "at": "कटौती 25–35%।"
+    }
+   ]
+  },
+  {
+   "at": "अब डिस्काउंट।",
+   "chapter": "DISCOUNT KA SACH",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "\"₹100 OFF\"",
+     "size": "l",
+     "color": "blue",
+     "ill": "ticket",
+     "at": "अब डिस्काउंट।"
+    }
+   ]
+  },
+  {
+   "at": "पैसा अक्सर",
+   "chapter": "KISKI JEB?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "जेब से",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−₹100",
+     "color": "red",
+     "ill": "purse",
+     "at": "पैसा अक्सर",
+     "note": "OWNER KI JEB SE",
+     "note_at": "जेब से",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "₹500 का",
+   "chapter": "₹500 KA ORDER",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "₹500 का",
+     "left": {
+      "label": "ORDER",
+      "value": "₹500",
+      "sub": "menu price"
+     },
+     "right": {
+      "label": "BILL BACHA",
+      "value": "₹400",
+      "sub": "discount ke baad",
+      "color": "gold",
+      "at": "बचा ₹400,"
+     }
+    }
+   ]
+  },
+  {
+   "at": "कमीशन ₹92,",
+   "chapter": "₹400 KA BATWARA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "कमीशन ₹92,",
+     "parts": [
+      {
+       "label": "COMMISSION",
+       "value": 92,
+       "text": "₹92",
+       "color": "red",
+       "at": "कमीशन ₹92,"
+      },
+      {
+       "label": "PACKAGING",
+       "value": 15,
+       "text": "₹15",
+       "color": "muted",
+       "at": "पैकेजिंग"
+      },
+      {
+       "label": "BAAKI",
+       "value": 293,
+       "color": "gold",
+       "at": "₹15।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "असली कट",
+   "chapter": "ASLI CUT",
+   "tint": "red",
+   "react": [
+    {
+     "at": "38–52% तक।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "38–52%",
+     "sub": "ASLI CUT",
+     "color": "red",
+     "at": "असली कट"
+    }
+   ]
+  },
+  {
+   "at": "₹1,000 के",
+   "chapter": "₹1,000 → ₹487",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "₹1,000 के",
+     "strike_at": "≈₹487...",
+     "left": {
+      "label": "ORDER",
+      "value": "₹1,000",
+      "sub": "tumne diye"
+     },
+     "right": {
+      "label": "HAATH MEIN",
+      "value": "≈₹487",
+      "sub": "restaurant ko",
+      "color": "gold",
+      "ill": "coin",
+      "at": "≈₹487..."
+     }
+    }
+   ]
+  },
+  {
+   "at": "और ये खाने,",
+   "chapter": "ABHI BAAKI HAI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "YE SAB ABHI KATNA HAI",
+     "color": "red",
+     "at": "और ये खाने,"
+    },
+    {
+     "type": "strike_list",
+     "at": "खाने,",
+     "items": [
+      {
+       "text": "Khaana",
+       "at": "खाने,"
+      },
+      {
+       "text": "Gas",
+       "at": "गैस,"
+      },
+      {
+       "text": "Kiraaya",
+       "at": "किराए,"
+      },
+      {
+       "text": "Salary",
+       "at": "सैलरी से"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "चेन 8–9%",
+   "chapter": "CHAIN vs CHHOTE",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "छोटे रेस्टोरेंट",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "चेन 8–9%",
+     "left": {
+      "label": "BADI CHAIN",
+      "value": "8–9%",
+      "sub": "commission"
+     },
+     "right": {
+      "label": "CHHOTA RESTAURANT",
+      "value": "22–30%",
+      "sub": "commission",
+      "color": "red",
+      "ill": "convenience_store",
+      "at": "छोटे रेस्टोरेंट"
+     }
+    }
+   ]
+  },
+  {
+   "at": "इसीलिए बोलते",
+   "chapter": "COUNTER KA RAAZ",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "इसीलिए बोलते"
+    },
+    {
+     "type": "pill",
+     "text": "SEEDHA COUNTER PE",
+     "color": "gold",
+     "at": "सीधा काउंटर"
+    }
+   ]
+  },
+  {
+   "at": "वहाँ ऐप का",
+   "chapter": "PAYOFF",
+   "tint": "green",
+   "react": [
+    {
+     "at": "वहाँ ऐप का",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "APP COMMISSION ✕",
+     "size": "l",
+     "color": "green",
+     "ill": "check_mark_button",
+     "at": "वहाँ ऐप का"
+    },
+    {
+     "type": "pill",
+     "text": "COMMISSION NAHI KATTA",
+     "color": "green",
+     "at": "नहीं कटता।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo har hafte Zomato kholta hai",
+  "line2_at": "हफ़्ते Zomato",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 food order decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 35,
+ "photo_credits": [
+  "Wikimedia Commons / Zomato · Public domain"
+ ]
+}

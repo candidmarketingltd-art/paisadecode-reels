@@ -165,3 +165,16 @@ run_at_ist,video_id,angle,status,note
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
 2026-11-07 22:27,idea-amul-milk-packet-60-rupees-who-gets-what,R,in_buffer,6aef589051492b796eebbb5c
 2026-11-07 22:32,mjpT-dwFNuA,B,in_buffer,6aef59bf51492b796eec6385
+2026-11-08 11:24,xsuvqCTZqIY,A,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-08 11:24,xsuvqCTZqIY,B,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-08 11:24,xsuvqCTZqIY,C,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-08 11:31,idea-zomato-400-rupee-order-restaurant-owner-,R,in_buffer,6af01045229bf05daf92e484
