@@ -1,0 +1,570 @@
+{
+ "voiceover": "[urgent, punchy] तुम्हारे ₹518 के ऑर्डर पर ब्लिंकिट को ₹140 मिलते हैं — पर स्टोर के ख़र्चे के बाद बचते हैं सिर्फ़ ₹27।\n\n[intrigued, building energy] और आख़िर में कंपनी की जेब में कितने आते हैं? वो नंबर सबसे shocking है।\n\n[excited, fast] ₹140 में से जाता है रेंट, स्टाफ, राइडर, पैकेजिंग, एक्सपायरी, चोरी, डिस्काउंट। बचे ₹27। फिर हेड ऑफ़िस और टेक्नोलॉजी का ख़र्चा... [amused] और हाथ में बचते हैं सिर्फ़ ₹3।\n\n[emphatic] पर असली खेल ये है: स्टोर का रेंट वही, मैनेजर वही, फ्रीज़र वही। ऑर्डर 500 हों या 2000, ख़र्चा सेम। इसलिए ब्लिंकिट स्पीड नहीं बेच रहा... वो एक स्टोर के 2 से 3 कि.मी. में ज़्यादा से ज़्यादा ऑर्डर इकट्ठे कर रहा है।\n\n[confident] तो डार्क स्टोर का सपना देखने से पहले एक सवाल पूछो: आसपास कितने ऑर्डर आएँगे?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, डार्क स्टोर खोलते हैं।\"",
+ "ig_caption": "Blinkit ko ₹518 ke order pe ₹140 milte hain, par bachte hain sirf ₹3 🛒 Baaki paisa kahan jaata hai, ye dekho.\n\nUs dost ko bhejo jo dark store kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers are network-average simplified estimates, not financial advice.",
+ "hashtags": [
+  "#Blinkit",
+  "#DarkStore",
+  "#QuickCommerce",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#StartupIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹518",
+  "₹140",
+  "₹27",
+  "₹3",
+  "500",
+  "2000",
+  "2 से 3 कि.मी."
+ ],
+ "style": "v2",
+ "tag": "BLINKIT",
+ "disclaimer": true,
+ "captions": [
+  "Tumhare",
+  "*₹518",
+  "ke",
+  "order",
+  "par",
+  "*Blinkit",
+  "ko",
+  "*₹140",
+  "milte",
+  "hain",
+  "par",
+  "store",
+  "ke",
+  "kharche",
+  "ke",
+  "baad",
+  "bachte",
+  "hain",
+  "sirf",
+  "*₹27.",
+  "Aur",
+  "aakhir",
+  "mein",
+  "*company",
+  "ki",
+  "*jeb",
+  "mein",
+  "kitne",
+  "aate",
+  "hain?",
+  "Wo",
+  "number",
+  "sabse",
+  "*shocking",
+  "hai.",
+  "*₹140",
+  "mein",
+  "se",
+  "jaata",
+  "hai",
+  "rent,",
+  "staff,",
+  "rider,",
+  "packaging,",
+  "expiry,",
+  "chori,",
+  "discount.",
+  "Bache",
+  "*₹27.",
+  "Phir",
+  "*head",
+  "*office",
+  "aur",
+  "technology",
+  "ka",
+  "kharcha...",
+  "Aur",
+  "haath",
+  "mein",
+  "bachte",
+  "hain",
+  "sirf",
+  "*₹3.",
+  "Par",
+  "*asli",
+  "*khel",
+  "ye",
+  "hai:",
+  "store",
+  "ka",
+  "rent",
+  "wahi,",
+  "manager",
+  "wahi,",
+  "freezer",
+  "wahi.",
+  "Order",
+  "*500",
+  "hon",
+  "ya",
+  "*2000,",
+  "kharcha",
+  "*same.",
+  "Isliye",
+  "Blinkit",
+  "*speed",
+  "nahi",
+  "bech",
+  "raha...",
+  "Wo",
+  "ek",
+  "store",
+  "ke",
+  "*2",
+  "se",
+  "*3",
+  "km",
+  "mein",
+  "zyada",
+  "se",
+  "zyada",
+  "*order",
+  "ikatthe",
+  "kar",
+  "raha",
+  "hai.",
+  "Toh",
+  "*dark",
+  "*store",
+  "ka",
+  "sapna",
+  "dekhne",
+  "se",
+  "pehle",
+  "ek",
+  "sawaal",
+  "poocho:",
+  "*aaspaas",
+  "kitne",
+  "*order",
+  "aayenge?",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*dark",
+  "*store",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "तुम्हारे ₹518",
+   "chapter": "₹518 KA ORDER",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "BLINKIT · 1 ORDER",
+     "at": "तुम्हारे ₹518"
+    },
+    {
+     "type": "big_number",
+     "value": "₹518",
+     "color": "gold",
+     "ill": "shopping_cart",
+     "at": "तुम्हारे ₹518"
+    }
+   ]
+  },
+  {
+   "at": "ब्लिंकिट को ₹140",
+   "chapter": "BLINKIT KA HISSA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹140",
+     "color": "gold",
+     "photo": "Blinkit",
+     "photo_kind": "logo",
+     "ill": "shopping_bags",
+     "at": "ब्लिंकिट को ₹140",
+     "note": "BLINKIT KO MILTE HAIN",
+     "note_at": "मिलते हैं"
+    }
+   ]
+  },
+  {
+   "at": "पर स्टोर",
+   "chapter": "STORE KE BAAD",
+   "tint": "red",
+   "react": [
+    {
+     "at": "सिर्फ़ ₹27।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "पर स्टोर",
+     "parts": [
+      {
+       "label": "STORE KHARCHA",
+       "value": 113,
+       "color": "red",
+       "at": "ख़र्चे के बाद"
+      },
+      {
+       "label": "BACHA",
+       "value": 27,
+       "text": "₹27",
+       "color": "gold",
+       "at": "सिर्फ़ ₹27।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और आख़िर",
+   "chapter": "COMPANY KI JEB",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "और आख़िर"
+    },
+    {
+     "type": "pill",
+     "text": "SABSE SHOCKING NUMBER",
+     "color": "blue",
+     "at": "सबसे shocking"
+    }
+   ]
+  },
+  {
+   "at": "₹140 में से",
+   "chapter": "KHARCHE KA FUNNEL",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "₹140 में से"
+    },
+    {
+     "type": "pill",
+     "text": "₹140 SE KATAUTI",
+     "color": "red",
+     "at": "जाता है"
+    }
+   ]
+  },
+  {
+   "at": "रेंट, स्टाफ,",
+   "chapter": "KATAUTI #1",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "रेंट, स्टाफ,",
+     "items": [
+      {
+       "text": "Rent",
+       "at": "रेंट, स्टाफ,"
+      },
+      {
+       "text": "Staff",
+       "at": "स्टाफ, राइडर,"
+      },
+      {
+       "text": "Rider",
+       "at": "राइडर, पैकेजिंग,"
+      },
+      {
+       "text": "Packaging",
+       "at": "पैकेजिंग, एक्सपायरी,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "एक्सपायरी, चोरी,",
+   "chapter": "KATAUTI #2",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "एक्सपायरी, चोरी,",
+     "items": [
+      {
+       "text": "Expiry",
+       "at": "एक्सपायरी, चोरी,"
+      },
+      {
+       "text": "Chori",
+       "at": "चोरी, डिस्काउंट।"
+      },
+      {
+       "text": "Discount",
+       "at": "डिस्काउंट।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "बचे ₹27।",
+   "chapter": "BACHE ₹27",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹27",
+     "color": "gold",
+     "ill": "coin",
+     "at": "बचे ₹27।"
+    }
+   ]
+  },
+  {
+   "at": "फिर हेड",
+   "chapter": "₹27 KA HISAAB",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "फिर हेड",
+     "parts": [
+      {
+       "label": "HEAD OFFICE",
+       "value": 12,
+       "color": "muted",
+       "at": "हेड ऑफ़िस"
+      },
+      {
+       "label": "TECHNOLOGY",
+       "value": 12,
+       "color": "blue",
+       "at": "टेक्नोलॉजी का"
+      },
+      {
+       "label": "HAATH MEIN",
+       "value": 3,
+       "text": "₹3",
+       "color": "gold",
+       "at": "हाथ में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "सिर्फ़ ₹3।",
+   "chapter": "ASLI MUNAFA",
+   "tint": "red",
+   "react": [
+    {
+     "at": "सिर्फ़ ₹3।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "₹3",
+     "sub": "HAATH MEIN",
+     "color": "gold",
+     "at": "सिर्फ़ ₹3।"
+    }
+   ]
+  },
+  {
+   "at": "पर असली",
+   "chapter": "ASLI KHEL",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "असली खेल",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "ASLI KHEL",
+     "sub": "FIXED KHARCHA",
+     "color": "blue",
+     "at": "पर असली"
+    }
+   ]
+  },
+  {
+   "at": "स्टोर का रेंट",
+   "chapter": "FIXED KHARCHA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "स्टोर का रेंट",
+     "items": [
+      {
+       "text": "Rent · wahi",
+       "at": "रेंट वही,",
+       "strike": false
+      },
+      {
+       "text": "Manager · wahi",
+       "at": "मैनेजर वही,",
+       "strike": false
+      },
+      {
+       "text": "Freezer · wahi",
+       "at": "फ्रीज़र वही।",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "ऑर्डर 500",
+   "chapter": "500 YA 2000",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "ऑर्डर 500",
+     "left": {
+      "label": "ORDERS",
+      "value": "500",
+      "color": "white"
+     },
+     "right": {
+      "label": "ORDERS",
+      "value": "2000",
+      "color": "gold",
+      "at": "या 2000,"
+     }
+    },
+    {
+     "type": "pill",
+     "text": "KHARCHA SAME",
+     "color": "gold",
+     "at": "ख़र्चा सेम।"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए ब्लिंकिट",
+   "chapter": "SPEED NAHI",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "इसलिए ब्लिंकिट",
+     "left": {
+      "label": "JO DIKHTA HAI",
+      "value": "SPEED",
+      "sub": "10 minute?"
+     },
+     "right": {
+      "label": "ASLI KHEL",
+      "value": "2–3 KM",
+      "sub": "ek store ke paas",
+      "color": "green",
+      "ill": "round_pushpin",
+      "at": "2 से 3"
+     },
+     "strike_at": "नहीं बेच"
+    }
+   ]
+  },
+  {
+   "at": "ज़्यादा से ज़्यादा",
+   "chapter": "ORDER DENSITY",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 300,
+     "label": "ORDERS · 2–3 KM",
+     "at": "ज़्यादा से ज़्यादा"
+    },
+    {
+     "type": "pill",
+     "text": "ORDERS IKATTHE",
+     "color": "green",
+     "at": "इकट्ठे कर"
+    }
+   ]
+  },
+  {
+   "at": "तो डार्क",
+   "chapter": "DARK STORE?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "तो डार्क"
+    },
+    {
+     "type": "pill",
+     "text": "SAPNA SE PEHLE",
+     "at": "सपना देखने"
+    }
+   ]
+  },
+  {
+   "at": "एक सवाल",
+   "chapter": "PEHLE YE POOCHO",
+   "tint": "green",
+   "react": [
+    {
+     "at": "आसपास कितने",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Aaspaas kitne order?",
+     "size": "l",
+     "color": "gold",
+     "ill": "magnifying_glass_tilted_right",
+     "at": "एक सवाल"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo dark store kholna chahta hai",
+  "line2_at": "डार्क स्टोर खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 dark store decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 36,
+ "photo_credits": [
+  "Wikimedia Commons / Hirebettu · Public domain"
+ ]
+}

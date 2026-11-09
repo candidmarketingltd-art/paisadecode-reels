@@ -178,3 +178,16 @@ run_at_ist,video_id,angle,status,note
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
 2026-11-08 11:31,idea-zomato-400-rupee-order-restaurant-owner-,R,in_buffer,6af01045229bf05daf92e484
+2026-11-09 11:44,xsuvqCTZqIY,A,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-09 11:44,xsuvqCTZqIY,B,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-09 11:44,xsuvqCTZqIY,C,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-09 11:51,mjpT-dwFNuA,C,publish_error,Buffer rejected the post: Invalid post: Video could not be read from its URL.

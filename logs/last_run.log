@@ -3,28 +3,36 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 66, 'error': 1}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 1 (economics) row 57: xsuvqCTZqIY A
+      [buffer] post statuses seen: {'scheduled': 7, 'sent': 69, 'error': 1}
+Buffer queue: 7 waiting (buffer); target 10 -> making 3
+--- reel 1/3: slot 2 (money) row 57: xsuvqCTZqIY A
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 123: xsuvqCTZqIY B
+--- reel 1/3: slot 2 (money) row 123: xsuvqCTZqIY B
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 167: xsuvqCTZqIY C
+--- reel 1/3: slot 2 (money) row 167: xsuvqCTZqIY C
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 183: idea-zomato-400-rupee-order-restaurant-owner- R
-[1/4] script  idea-zomato-400-rupee-order-restaurant-owner- R: ₹400 Ka Zomato Order: Restaurant Owner Ko Asli Mein Kitna Milta Hai?
+--- reel 1/3: slot 2 (money) row 141: mjpT-dwFNuA C
+[1/4] script  mjpT-dwFNuA C: How Does Blinkit Make Money on a ₹518 Order? | Dark Store Economics
 [2/4] voice
-      136 words, 58.7s, model eleven_v4
+      135 words, 51.1s, model eleven_v4
 [3/4] render
-      photo 'Zomato' -> e20a798b5558.png (Wikimedia Commons / Zomato · Public domain)
-      remotion: Reel /tmp/tmpletv_5a4/video_only.mp4
-added 1 reel(s) to Buffer
+      photo 'Blinkit' -> fe60c4233351.png (Wikimedia Commons / Hirebettu · Public domain)
+      remotion: Reel /tmp/tmp8sivr9n0/video_only.mp4
+Traceback (most recent call last):
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 267, in refill
+    pid = buffer.add_to_queue(url, caption)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/buffer.py", line 123, in add_to_queue
+    raise RuntimeError(f"Buffer rejected the post: {res.get('message')}")
+RuntimeError: Buffer rejected the post: Invalid post: Video could not be read from its URL.
+added 0 reel(s) to Buffer
+::error::Buffer rejected the post: Invalid post: Video could not be read from its URL.
