@@ -1,0 +1,557 @@
+{
+ "voiceover": "[urgent, punchy] जिस स्कूल की फ़ीस भरते हो, वो क़ानून में non-profit है — तो ₹9–20 करोड़ लगाने वाला कमाता कैसे है?\n\n[intrigued, building energy] और आख़िर में बताऊँगा, नज़र कहाँ रखनी है।\n\n[excited, fast] पहले नियम। RTE Act 2009: स्कूल सिर्फ़ trust, society या Section 8 company चला सकती है। Profit वाली कंपनी को affiliation नहीं।\n\n[serious] बिल्डिंग में ₹9–20 करोड़। ज़मीन ऊपर से, 30–40% और।\n\n[punchy] सुप्रीम कोर्ट बोलता है: \"profit yes, profiteering no।\" एक जज के हिसाब से reasonable surplus 6–15%। टैक्स छूट के लिए कम से कम 85% income स्कूल के कामों में लगानी पड़ती है।\n\n[emphatic] किसी स्कूल का audited हिसाब public नहीं होता। प्रमोटर को दिया किराया, vendors का margin — इनका रुपये का आँकड़ा कहीं नहीं मिलता। नज़र वहीं रखो।\n\n[confident] स्कूल खोलना है? पहले trust या society बनाओ।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, स्कूल खोलते हैं, पैसा ही पैसा है।\"",
+ "ig_caption": "School non-profit hota hai... phir ₹9–20 crore lagane wala kamata kaise hai? 🏫\nSach ye hai ki koi school apna audited hisaab public nahi karta.\n\nUs dost ko bhejo jo bolta hai \"yaar, school kholte hain, paisa hi paisa hai\" 👇\n\nFollow @rohandecoder for daily money math\nNumbers from public sources, approximate. Not financial advice.",
+ "hashtags": [
+  "#SchoolBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#CBSE",
+  "#MoneyMath",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹9–20 करोड़",
+  "RTE Act 2009",
+  "30–40%",
+  "6–15%",
+  "85%"
+ ],
+ "style": "v2",
+ "tag": "SCHOOL BUSINESS",
+ "disclaimer": true,
+ "captions": [
+  "Jis",
+  "*school",
+  "ki",
+  "*fees",
+  "bharte",
+  "ho,",
+  "woh",
+  "kaanoon",
+  "mein",
+  "*non-profit",
+  "hai",
+  "toh",
+  "*₹9–20",
+  "*crore",
+  "lagaane",
+  "wala",
+  "kamaata",
+  "kaise",
+  "hai?",
+  "Aur",
+  "aakhir",
+  "mein",
+  "bataunga,",
+  "*nazar",
+  "kahan",
+  "rakhni",
+  "hai.",
+  "Pehle",
+  "*niyam.",
+  "*RTE",
+  "Act",
+  "*2009:",
+  "School",
+  "sirf",
+  "*trust,",
+  "*society",
+  "ya",
+  "Section",
+  "8",
+  "company",
+  "chala",
+  "sakti",
+  "hai.",
+  "*Profit",
+  "wali",
+  "company",
+  "ko",
+  "*affiliation",
+  "nahi.",
+  "Building",
+  "mein",
+  "*₹9–20",
+  "*crore.",
+  "*Zameen",
+  "upar",
+  "se,",
+  "*30–40%",
+  "aur.",
+  "*Supreme",
+  "*Court",
+  "bolta",
+  "hai:",
+  "\"profit",
+  "yes,",
+  "*profiteering",
+  "no.\"",
+  "Ek",
+  "judge",
+  "ke",
+  "hisaab",
+  "se",
+  "reasonable",
+  "*surplus",
+  "*6–15%.",
+  "*Tax",
+  "chhoot",
+  "ke",
+  "liye",
+  "kam",
+  "se",
+  "kam",
+  "*85%",
+  "income",
+  "school",
+  "ke",
+  "kaamon",
+  "mein",
+  "lagaani",
+  "padti",
+  "hai.",
+  "Kisi",
+  "school",
+  "ka",
+  "*audited",
+  "hisaab",
+  "*public",
+  "nahi",
+  "hota.",
+  "*Promoter",
+  "ko",
+  "diya",
+  "*kiraya,",
+  "vendors",
+  "ka",
+  "*margin",
+  "inka",
+  "rupaye",
+  "ka",
+  "aankda",
+  "kahin",
+  "nahi",
+  "milta.",
+  "*Nazar",
+  "wahin",
+  "rakho.",
+  "School",
+  "kholna",
+  "hai?",
+  "Pehle",
+  "*trust",
+  "ya",
+  "*society",
+  "banao.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "school",
+  "kholte",
+  "hain,",
+  "*paisa",
+  "hi",
+  "paisa",
+  "hai.\""
+ ],
+ "scenes": [
+  {
+   "at": "जिस स्कूल",
+   "chapter": "NON-PROFIT?",
+   "tint": "warm",
+   "aroll": "face_thinking",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "NON-PROFIT?",
+     "size": "l",
+     "ill": "school",
+     "at": "जिस स्कूल"
+    }
+   ]
+  },
+  {
+   "at": "तो ₹9–20",
+   "chapter": "KAMAI KAISE?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹9–20Cr",
+     "color": "gold",
+     "ill": "school",
+     "at": "तो ₹9–20",
+     "note": "KAMAATA KAISE HAI?",
+     "note_at": "कमाता कैसे"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िर",
+   "chapter": "END MEIN",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "magnifying_glass_tilted_right",
+     "size": "l",
+     "caption": "NAZAR KAHAN?",
+     "at": "और आख़िर"
+    }
+   ]
+  },
+  {
+   "at": "पहले नियम।",
+   "chapter": "PEHLE NIYAM",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "PEHLE NIYAM",
+     "color": "gold",
+     "at": "पहले नियम।"
+    },
+    {
+     "type": "title_slam",
+     "text": "RTE",
+     "sub": "ACT 2009",
+     "color": "gold",
+     "at": "RTE Act 2009:"
+    }
+   ]
+  },
+  {
+   "at": "स्कूल सिर्फ़ trust,",
+   "chapter": "KAUN CHALA SAKTA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "स्कूल सिर्फ़ trust,",
+     "items": [
+      {
+       "text": "Trust",
+       "strike": false,
+       "at": "स्कूल सिर्फ़ trust,"
+      },
+      {
+       "text": "Society",
+       "strike": false,
+       "at": "society या"
+      },
+      {
+       "text": "Section 8 company",
+       "strike": false,
+       "at": "Section 8 company"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Profit वाली",
+   "chapter": "PROFIT CO. OUT",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "PROFIT WALI COMPANY",
+     "color": "red",
+     "at": "Profit वाली"
+    },
+    {
+     "type": "title_slam",
+     "text": "NO",
+     "sub": "AFFILIATION",
+     "color": "red",
+     "at": "affiliation नहीं।"
+    }
+   ]
+  },
+  {
+   "at": "बिल्डिंग में",
+   "chapter": "INVESTMENT",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "बिल्डिंग में"
+    },
+    {
+     "type": "pill",
+     "text": "BUILDING · ₹9–20 CR",
+     "color": "gold",
+     "at": "₹9–20 करोड़।"
+    }
+   ]
+  },
+  {
+   "at": "ज़मीन ऊपर",
+   "chapter": "ZAMEEN ALAG",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "ज़मीन ऊपर",
+     "parts": [
+      {
+       "label": "BUILDING",
+       "value": 100,
+       "text": "₹9–20 CR",
+       "color": "gold",
+       "at": "ज़मीन ऊपर"
+      },
+      {
+       "label": "ZAMEEN",
+       "value": 35,
+       "text": "+30–40%",
+       "color": "red",
+       "at": "30–40% और।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "सुप्रीम कोर्ट",
+   "chapter": "COURT KA RULE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Supreme Court of India",
+     "photo_kind": "place",
+     "caption": "SUPREME COURT",
+     "ill": "classical_building",
+     "at": "सुप्रीम कोर्ट"
+    }
+   ]
+  },
+  {
+   "at": "\"profit yes,",
+   "chapter": "PROFIT VS LOOT",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "profiteering no।\"",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "\"profit yes,",
+     "items": [
+      {
+       "text": "Profit",
+       "strike": false,
+       "at": "\"profit yes,"
+      },
+      {
+       "text": "Profiteering",
+       "strike": true,
+       "at": "profiteering no।\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "एक जज",
+   "chapter": "KITNA THEEK?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "1 JUDGE KA HISAAB",
+     "at": "एक जज"
+    },
+    {
+     "type": "big_number",
+     "value": "6–15%",
+     "color": "gold",
+     "ill": "balance_scale",
+     "at": "surplus 6–15%।",
+     "note": "REASONABLE SURPLUS",
+     "note_at": "surplus 6–15%।"
+    }
+   ]
+  },
+  {
+   "at": "टैक्स छूट",
+   "chapter": "85% RULE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "TAX CHHOOT KI SHART",
+     "at": "टैक्स छूट"
+    },
+    {
+     "type": "split_bar",
+     "at": "85% income",
+     "parts": [
+      {
+       "label": "SCHOOL KE KAAM",
+       "value": 85,
+       "text": "85%+",
+       "color": "blue",
+       "at": "85% income"
+      },
+      {
+       "label": "BAAKI",
+       "value": 15,
+       "color": "gold",
+       "at": "कामों में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "किसी स्कूल",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "public नहीं",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "किसी स्कूल"
+    },
+    {
+     "type": "pill",
+     "text": "AUDITED HISAAB · PRIVATE",
+     "color": "red",
+     "at": "public नहीं"
+    }
+   ]
+  },
+  {
+   "at": "प्रमोटर को",
+   "chapter": "ASLI KAMAI?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "JO DIKHTA NAHI",
+     "at": "प्रमोटर को",
+     "rows": [
+      {
+       "text": "Promoter ko kiraya",
+       "mark": "₹ ?",
+       "at": "प्रमोटर को"
+      },
+      {
+       "text": "Vendors ka margin",
+       "mark": "₹ ?",
+       "at": "vendors का"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "इनका रुपये",
+   "chapter": "AANKDA GAAYAB",
+   "tint": "red",
+   "react": [
+    {
+     "at": "कहीं नहीं मिलता।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "₹ ?",
+     "sub": "KAHIN NAHI MILTA",
+     "color": "red",
+     "at": "इनका रुपये"
+    }
+   ]
+  },
+  {
+   "at": "नज़र वहीं",
+   "chapter": "NAZAR YAHAN",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "नज़र वहीं",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "magnifying_glass_tilted_left",
+     "size": "l",
+     "caption": "KIRAYA + VENDOR MARGIN",
+     "at": "नज़र वहीं"
+    }
+   ]
+  },
+  {
+   "at": "स्कूल खोलना",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "पहले trust",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "SCHOOL KHOLNA HAI?",
+     "color": "green",
+     "at": "स्कूल खोलना"
+    },
+    {
+     "type": "headline",
+     "text": "PEHLE TRUST / SOCIETY",
+     "size": "m",
+     "color": "green",
+     "ill": "scroll",
+     "at": "पहले trust"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo school kholna chahta hai",
+  "line2_at": "स्कूल खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 school decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 37,
+ "photo_credits": [
+  "Wikimedia Commons / Subhashish Panigrahi · CC BY-SA 4.0"
+ ]
+}

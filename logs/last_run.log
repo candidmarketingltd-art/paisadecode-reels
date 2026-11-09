@@ -3,36 +3,40 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 7, 'sent': 69, 'error': 1}
-Buffer queue: 7 waiting (buffer); target 10 -> making 3
---- reel 1/3: slot 2 (money) row 57: xsuvqCTZqIY A
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/3: slot 2 (money) row 123: xsuvqCTZqIY B
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/3: slot 2 (money) row 167: xsuvqCTZqIY C
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/3: slot 2 (money) row 141: mjpT-dwFNuA C
-[1/4] script  mjpT-dwFNuA C: How Does Blinkit Make Money on a ₹518 Order? | Dark Store Economics
+      [buffer] post statuses seen: {'scheduled': 5, 'sent': 70, 'error': 2}
+Buffer queue: 5 waiting (buffer); target 10 -> making 5
+--- reel 1/5: slot 2 (money) row 141: mjpT-dwFNuA C
+[1/4] script  mjpT-dwFNuA C: reusing saved plan
 [2/4] voice
-      135 words, 51.1s, model eleven_v4
+      135 words, 50.5s, model eleven_v4
 [3/4] render
       photo 'Blinkit' -> fe60c4233351.png (Wikimedia Commons / Hirebettu · Public domain)
-      remotion: Reel /tmp/tmp8sivr9n0/video_only.mp4
-Traceback (most recent call last):
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 267, in refill
-    pid = buffer.add_to_queue(url, caption)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/buffer.py", line 123, in add_to_queue
-    raise RuntimeError(f"Buffer rejected the post: {res.get('message')}")
-RuntimeError: Buffer rejected the post: Invalid post: Video could not be read from its URL.
-added 0 reel(s) to Buffer
-::error::Buffer rejected the post: Invalid post: Video could not be read from its URL.
+      remotion: Reel /tmp/tmpiglss2jo/video_only.mp4
+--- reel 2/5: slot 3 (ideas) row 184: idea-private-school-owner-fee-economics-india R
+[1/4] script  idea-private-school-owner-fee-economics-india R: ₹60,000 School Fee: School Chalane Wale Ke Paas Kitna Bachta Hai?
+[2/4] voice
+      140 words, 56.9s, model eleven_v4
+[3/4] render
+      photo 'Supreme Court of India' -> 51ecdb7f239a.jpg (Wikimedia Commons / Subhashish Panigrahi · CC BY-SA 4.0)
+      remotion: Reel /tmp/tmpittmp894/video_only.mp4
+--- reel 3/5: slot 1 (economics) row 72: _p-vDXmt1HI B
+[1/4] script  _p-vDXmt1HI B: ₹43,200 From One Sleeper Bus Trip — How Much Does the Owner Keep?
+[2/4] voice
+      143 words, 56.0s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpr_zmzumu/video_only.mp4
+--- reel 4/5: slot 2 (money) row 185: idea-innova-on-rent-corporate-cab-fleet-month R
+[1/4] script  idea-innova-on-rent-corporate-cab-fleet-month R: ₹20 Lakh Ki Innova Corporate Rent Pe Lagayi: Mahine Ke Ant Mein Kitna Bachta Hai?
+[2/4] voice
+      143 words, 59.9s, model eleven_v4
+[3/4] render
+      photo 'Toyota Innova Crysta' -> 41fa41ae7c1d.jpg (Wikimedia Commons / Premnath Kudva · CC BY-SA 4.0)
+      no free image for 'Maruti Suzuki Ertiga Tour' (product) -> illustration
+      remotion: Reel /tmp/tmpghb7cc7x/video_only.mp4
+--- reel 5/5: slot 3 (ideas) row 138: _p-vDXmt1HI C
+[1/4] script  _p-vDXmt1HI C: ₹43,200 From One Sleeper Bus Trip — How Much Does the Owner Keep?
+[2/4] voice
+      140 words, 58.1s, model eleven_v4
+[3/4] render
+      remotion: Reel /tmp/tmpixaymz8l/video_only.mp4
+added 5 reel(s) to Buffer

@@ -1,0 +1,595 @@
+{
+ "voiceover": "[urgent, punchy] जिस स्लीपर बस में तुम सोते हो, उसके मालिक के पास महीने में बचते हैं सिर्फ़ ₹47,000।\n\n[intrigued, building energy] ₹80 लाख की बस, और असली खेल एक खाली सीट का है — आख़िर में बताता हूँ।\n\n[excited, fast] बस 70% भरी तो टिकट सेल लगभग ₹9 लाख। ऐप और एजेंट का कमीशन 12%। डीज़ल ₹11,200 हर ट्रिप। बचे ₹4,62,000।\n\n[serious] फिर ड्राइवर, टोल, मेंटेनेंस, परमिट — ₹2,85,000 और गए। बचे ₹1,77,000। [punchy] अब ₹60 लाख के लोन की EMI... और हाथ में सिर्फ़ ₹47,000।\n\n[emphatic] अब खाली सीट। बस 55% भरी तो महीने का ₹1,24,000 का घाटा। क्योंकि डीज़ल, ड्राइवर, EMI कम नहीं होते। और खाली सीट कल डबल दाम पे नहीं बिकती।\n\n[confident] इसलिए बस लेने से पहले दोनों तरफ़ की डिमांड चेक करो। रिटर्न ट्रिप भरो। और 2-3 बुरे महीनों का कैश रखो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, स्लीपर बस ले लेते हैं।\"",
+ "ig_caption": "₹80 lakh ki sleeper bus, aur owner ke haath mein mahine ke sirf ₹47,000 🚌 Baaki paisa kahan jaata hai, ye dekho.\n\nUs dost ko bhejo jo kehta hai \"yaar, sleeper bus le lete hain\" 👇\n\nFollow @rohandecoder for daily money math\nFull video: YouTube @PaisaDecodeHQ\nNumbers illustrative (imaginary case study), not financial advice.",
+ "hashtags": [
+  "#SleeperBusBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#BusOperator",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹47,000",
+  "₹80 लाख",
+  "70%",
+  "₹9 लाख",
+  "12%",
+  "₹11,200",
+  "₹4,62,000",
+  "₹2,85,000",
+  "₹1,77,000",
+  "₹60 लाख",
+  "55%",
+  "₹1,24,000",
+  "2-3 खराब महीने"
+ ],
+ "style": "v2",
+ "tag": "SLEEPER BUS",
+ "disclaimer": true,
+ "captions": [
+  "Jis",
+  "*sleeper",
+  "*bus",
+  "mein",
+  "tum",
+  "sote",
+  "ho,",
+  "uske",
+  "*maalik",
+  "ke",
+  "paas",
+  "mahine",
+  "mein",
+  "bachte",
+  "hain",
+  "sirf",
+  "*₹47,000.",
+  "*₹80",
+  "*lakh",
+  "ki",
+  "bus,",
+  "aur",
+  "asli",
+  "khel",
+  "ek",
+  "*khaali",
+  "*seat",
+  "ka",
+  "hai",
+  "aakhir",
+  "mein",
+  "batata",
+  "hoon.",
+  "Bus",
+  "*70%",
+  "bhari",
+  "toh",
+  "ticket",
+  "sale",
+  "lagbhag",
+  "*₹9",
+  "*lakh.",
+  "App",
+  "aur",
+  "agent",
+  "ka",
+  "commission",
+  "*12%.",
+  "*Diesel",
+  "*₹11,200",
+  "har",
+  "trip.",
+  "Bache",
+  "*₹4,62,000.",
+  "Phir",
+  "driver,",
+  "toll,",
+  "maintenance,",
+  "permit",
+  "*₹2,85,000",
+  "aur",
+  "gaye.",
+  "Bache",
+  "*₹1,77,000.",
+  "Ab",
+  "*₹60",
+  "*lakh",
+  "ke",
+  "loan",
+  "ki",
+  "EMI...",
+  "aur",
+  "haath",
+  "mein",
+  "sirf",
+  "*₹47,000.",
+  "Ab",
+  "*khaali",
+  "*seat.",
+  "Bus",
+  "*55%",
+  "bhari",
+  "toh",
+  "mahine",
+  "ka",
+  "*₹1,24,000",
+  "ka",
+  "*ghaata.",
+  "Kyunki",
+  "diesel,",
+  "driver,",
+  "EMI",
+  "kam",
+  "nahi",
+  "hote.",
+  "Aur",
+  "khaali",
+  "seat",
+  "kal",
+  "*double",
+  "daam",
+  "pe",
+  "nahi",
+  "bikti.",
+  "Isliye",
+  "bus",
+  "lene",
+  "se",
+  "pehle",
+  "*dono",
+  "taraf",
+  "ki",
+  "*demand",
+  "check",
+  "karo.",
+  "*Return",
+  "*trip",
+  "bharo.",
+  "Aur",
+  "*2-3",
+  "bure",
+  "mahinon",
+  "ka",
+  "*cash",
+  "rakho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*sleeper",
+  "*bus",
+  "le",
+  "lete",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "जिस स्लीपर",
+   "chapter": "OWNER KI KAMAI",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "SLEEPER BUS · OWNER",
+     "at": "जिस स्लीपर"
+    },
+    {
+     "type": "big_number",
+     "value": "₹47,000",
+     "color": "gold",
+     "ill": "bus",
+     "at": "जिस स्लीपर",
+     "note": "MAHINE MEIN BACHTE",
+     "note_at": "महीने में बचते"
+    }
+   ]
+  },
+  {
+   "at": "₹80 लाख",
+   "chapter": "₹80 LAKH KI BUS",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹80L",
+     "color": "gold",
+     "ill": "bus",
+     "at": "₹80 लाख",
+     "note": "BUS KI KEEMAT",
+     "note_at": "की बस,"
+    }
+   ]
+  },
+  {
+   "at": "और असली",
+   "chapter": "ASLI KHEL",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "आख़िर में",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "KHAALI SEAT",
+     "sub": "ASLI KHEL",
+     "color": "blue",
+     "at": "और असली"
+    }
+   ]
+  },
+  {
+   "at": "बस 70%",
+   "chapter": "70% BHARI",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 100,
+     "lost": 30,
+     "at": "बस 70%",
+     "lost_at": "70% भरी",
+     "label": "SEATS BHARI",
+     "total_text": "BUS",
+     "left_text": "70%"
+    }
+   ]
+  },
+  {
+   "at": "टिकट सेल",
+   "chapter": "TICKET SALE",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹9 LAKH",
+     "color": "gold",
+     "ill": "admission_tickets",
+     "at": "टिकट सेल",
+     "note": "TICKET SALE · MAHINA",
+     "note_at": "₹9 लाख।"
+    }
+   ]
+  },
+  {
+   "at": "ऐप और",
+   "chapter": "COMMISSION",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "ऐप और"
+    },
+    {
+     "type": "pill",
+     "text": "APP + AGENT · −12%",
+     "color": "red",
+     "at": "12%।"
+    }
+   ]
+  },
+  {
+   "at": "डीज़ल ₹11,200",
+   "chapter": "DIESEL",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−₹11,200",
+     "color": "red",
+     "ill": "fuel_pump",
+     "at": "डीज़ल ₹11,200",
+     "note": "HAR TRIP",
+     "note_at": "हर ट्रिप।"
+    }
+   ]
+  },
+  {
+   "at": "बचे ₹4,62,000।",
+   "chapter": "ABHI BACHE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹4,62,000",
+     "color": "gold",
+     "at": "बचे ₹4,62,000।",
+     "note": "ABHI BAAKI HAI",
+     "note_at": "बचे ₹4,62,000।"
+    }
+   ]
+  },
+  {
+   "at": "फिर ड्राइवर,",
+   "chapter": "AUR KHARCHE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "फिर ड्राइवर,",
+     "items": [
+      {
+       "text": "Driver",
+       "at": "फिर ड्राइवर,"
+      },
+      {
+       "text": "Toll",
+       "at": "टोल,"
+      },
+      {
+       "text": "Maintenance",
+       "at": "मेंटेनेंस,"
+      },
+      {
+       "text": "Permit",
+       "at": "परमिट"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "₹2,85,000 और",
+   "chapter": "₹2,85,000 GAYE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−₹2,85,000",
+     "color": "red",
+     "ill": "receipt",
+     "at": "₹2,85,000 और"
+    }
+   ]
+  },
+  {
+   "at": "बचे ₹1,77,000।",
+   "chapter": "AB BACHE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹1,77,000",
+     "color": "gold",
+     "ill": "coin",
+     "at": "बचे ₹1,77,000।",
+     "note": "AB BACHE",
+     "note_at": "बचे ₹1,77,000।"
+    }
+   ]
+  },
+  {
+   "at": "अब ₹60 लाख",
+   "chapter": "EMI KA BOJH",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹60L",
+     "color": "red",
+     "ill": "classical_building",
+     "at": "अब ₹60 लाख",
+     "note": "LOAN KI EMI",
+     "note_at": "EMI..."
+    }
+   ]
+  },
+  {
+   "at": "और हाथ में",
+   "chapter": "HAATH MEIN",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "में सिर्फ़ ₹47,000।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "coin_stack",
+     "at": "और हाथ में"
+    },
+    {
+     "type": "pill",
+     "text": "SIRF ₹47,000 / MAHINA",
+     "color": "gold",
+     "at": "में सिर्फ़ ₹47,000।"
+    }
+   ]
+  },
+  {
+   "at": "अब खाली सीट।",
+   "chapter": "KHAALI SEAT",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "seat",
+     "size": "l",
+     "caption": "KHAALI SEAT",
+     "glow": true,
+     "at": "अब खाली सीट।"
+    }
+   ]
+  },
+  {
+   "at": "बस 55%",
+   "chapter": "55% BHARI",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "dot_grid",
+     "total": 100,
+     "lost": 45,
+     "at": "बस 55%",
+     "lost_at": "55% भरी",
+     "label": "SEATS BHARI",
+     "total_text": "BUS",
+     "left_text": "55%"
+    }
+   ]
+  },
+  {
+   "at": "तो महीने",
+   "chapter": "GHAATA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "−₹1,24,000",
+     "color": "red",
+     "ill": "chart_decreasing",
+     "at": "तो महीने",
+     "note": "HAR MAHINE GHAATA",
+     "note_at": "घाटा।"
+    }
+   ]
+  },
+  {
+   "at": "क्योंकि डीज़ल,",
+   "chapter": "FIXED KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "KAM NAHI HOTE",
+     "color": "red",
+     "at": "क्योंकि डीज़ल,"
+    },
+    {
+     "type": "strike_list",
+     "at": "क्योंकि डीज़ल,",
+     "items": [
+      {
+       "text": "Diesel",
+       "at": "क्योंकि डीज़ल,",
+       "strike": false
+      },
+      {
+       "text": "Driver",
+       "at": "डीज़ल, ड्राइवर,",
+       "strike": false
+      },
+      {
+       "text": "EMI",
+       "at": "EMI कम",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और खाली सीट",
+   "chapter": "SEAT = EXPIRY",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "डबल दाम",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "और खाली सीट",
+     "strike_at": "नहीं बिकती।",
+     "left": {
+      "label": "AAJ KHAALI SEAT",
+      "value": "LOST"
+     },
+     "right": {
+      "label": "KAL DOUBLE DAAM?",
+      "value": "NAHI",
+      "color": "red",
+      "ill": "cross_mark",
+      "at": "नहीं बिकती।"
+     }
+    }
+   ]
+  },
+  {
+   "at": "इसलिए बस",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए बस",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "BUS LENE SE PEHLE",
+     "color": "gold",
+     "at": "इसलिए बस"
+    },
+    {
+     "type": "steps",
+     "at": "इसलिए बस",
+     "items": [
+      {
+       "text": "Dono taraf ki demand",
+       "at": "दोनों तरफ़",
+       "ill": "magnifying_glass_tilted_right"
+      },
+      {
+       "text": "Return trip bharo",
+       "at": "रिटर्न ट्रिप",
+       "ill": "bus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और 2-3",
+   "chapter": "SAFETY CASH",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "cash_stack",
+     "at": "और 2-3"
+    },
+    {
+     "type": "pill",
+     "text": "2-3 BURE MAHINE KA CASH",
+     "color": "green",
+     "at": "कैश रखो।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo sleeper bus lena chahta hai",
+  "line2_at": "स्लीपर बस ले"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 sleeper bus decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 40
+}
