@@ -1,53 +1,42 @@
-  apify apify~instagram-hashtag-scraper hashtags: 237 items
-    sample keys: ['caption', 'childPosts', 'commentsCount', 'dimensionsHeight', 'dimensionsWidth', 'displayUrl', 'firstComment', 'hashtags', 'id', 'igPlayCount', 'images', 'inputUrl', 'isPinned', 'latestComments', 'likesCount', 'mentions', 'musicInfo', 'ownerFullName', 'ownerId', 'ownerUsername', 'paidPartnership', 'productType', 'sharesCount', 'shortCode', 'timestamp', 'type', 'url', 'videoDuration', 'videoPlayCount', 'videoUrl']
-    sample: {'type': 'Video', 'productType': 'clips', 'shortCode': 'DfHsMxHStgD', 'videoPlayCount': 340451, 'videoViewCount': None, 'playCount': None, 'likesCount': 12332, 'timestamp': '2026-10-30T13:31:18.000Z', 'error': None, 'errorDescription': None}
-  apify apify~instagram-hashtag-scraper hashtags: 35 items
-    sample keys: ['alt', 'audioUrl', 'caption', 'childPosts', 'commentsCount', 'dimensionsHeight', 'dimensionsWidth', 'displayUrl', 'firstComment', 'hashtags', 'id', 'igPlayCount', 'images', 'inputUrl', 'isCommentsDisabled', 'isPinned', 'latestComments', 'likesCount', 'mentions', 'musicInfo', 'originalHeight', 'originalWidth', 'ownerFullName', 'ownerId', 'ownerUsername', 'paidPartnership', 'productType', 'sharesCount', 'shortCode', 'timestamp', 'type', 'url', 'videoDuration', 'videoPlayCount', 'videoUrl', 'videoViewCount']
-    sample: {'type': 'Video', 'productType': 'clips', 'shortCode': 'DVkdD7qEm6D', 'videoPlayCount': 17429, 'videoViewCount': None, 'playCount': None, 'likesCount': 663, 'timestamp': '2026-03-07T04:23:36.000Z', 'error': None, 'errorDescription': None}
-  apify apify~instagram-reel-scraper username: 25 items
-    sample keys: ['alt', 'audioUrl', 'caption', 'childPosts', 'commentsCount', 'dimensionsHeight', 'dimensionsWidth', 'displayUrl', 'firstComment', 'hashtags', 'id', 'images', 'inputUrl', 'isCommentsDisabled', 'isPinned', 'latestComments', 'likesCount', 'mentions', 'musicInfo', 'originalHeight', 'originalWidth', 'ownerFullName', 'ownerId', 'ownerUsername', 'paidPartnership', 'productType', 'shortCode', 'timestamp', 'type', 'url', 'videoDuration', 'videoPlayCount', 'videoUrl', 'videoViewCount']
-    sample: {'type': 'Video', 'productType': 'clips', 'shortCode': 'DfBlwZlsf9G', 'videoPlayCount': 32309, 'videoViewCount': None, 'playCount': None, 'likesCount': 1037, 'timestamp': '2026-10-28T04:37:51.000Z', 'error': None, 'errorDescription': None}
-scraped 297 items -> 285 reels with view counts
-# Idea scout 2026-11-03
+  apify apify~instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
+  apify apify~instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
+  apify apify~instagram-reel-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
+scraped 0 items -> 0 reels with view counts
+no scraped reels this week (Apify unavailable?) — planning ideas from our own insights + web research instead
+# Idea scout 2026-11-09
 
-Proven reels scanned: 60 (of 285 scraped; ≥50000 views, ≥10 days old)
+Proven reels scanned: 0 (of 0 scraped; ≥50000 views, ≥10 days old)
 
 ## Top reels this week
 
-- 21,788,567 views · @abhirathore_1 · instagram.com/reel/DaXqhwpBVHJ · 1 Fortuner Ya Amul Franchise? Kaunsa Banayega Paisa? 💰🚗 . . 🥛 Amul Franchise kaise khole? Is video mein jaaniye Amul dea
-- 9,370,680 views · @infoholia · instagram.com/reel/DMiQoKLyNYr · Small Business Idea 💡🧠📚 . . . #infoholia #businessdevelopment #businessidea #businessideas #businessknowledge #finance #
-- 8,780,138 views · @indiafounder · instagram.com/reel/DUgXopsEjri · In Odisha, a silent money machine runs on government contracts. Private operators deploy buses under OSRTC tenders and g
-- 8,104,470 views · @harsh.solankii · instagram.com/reel/DMpp_YktdFb · Ep 55 – How to Open a Petrol Pump in India⛽ Everyone’s thought about it at some point: “Khud ka petrol pump kholte hai..
-- 7,117,369 views · @ashrayyscales · instagram.com/reel/DTMn4noCVre · Cafés and Hotels want Custom branded water bottles, but there is no one who supplies them in small batches at present. T
-- 6,966,079 views · @thisisrahulpatidar · instagram.com/reel/DX6LzarzXq7 · Chaina ❌ Delhi ✅ Treasure of Delhi’s wholesale market China se maal lene ki zarurat hi nahi 🔥 Delhi ke wholesale market 
-- 6,329,830 views · @indiarupee.in · instagram.com/reel/DY7B3p7vcRF · 💰 Low Investment, High Cashflow? These franchises could be your shortcut to building a steady monthly income. From logis
-- 6,123,897 views · @d2crush · instagram.com/reel/DNeu11-gA6a · 🚨 Japan’s street vendors are doing THIS with their food packaging and customers are obsessed. A simple string, folded pa
-- 5,571,753 views · @story.talks1 · instagram.com/reel/DZm9e2xoAa5 · The Business Of egg industry how they make money with the eggs let's figure it out. #eggindustry #businessmodel #eggbusi
-- 5,153,471 views · @rishabhh.unfiltered · instagram.com/reel/Dcqjk-hSKeU · Being a business owner, don’t just test your management skills, they test your character ER every single day. Showing up
-- 4,558,372 views · @finanshull · instagram.com/reel/DVsTmGpExfX · Quick commerce looks massive. But almost everyone is losing money. Swiggy Instamart: ₹1000+ Cr loss Zepto: ₹1250+ Cr los
-- 4,522,510 views · @teluguentrepreneursindia · instagram.com/reel/DMjpOrCCOV7 · Shocking Truth Behind Mobile Shop Profits! Ever wondered how much a 99₹ or 299₹ screen card really costs? 🤔 Real price =
-- 4,078,446 views · @samjho.exe · instagram.com/reel/DewoJwTsdAS · Jio IPO mein 14 lot ya 1… parchi ek hi milti hai. 🎟️ Shares paise se nahi, lottery se milte hain. Jo dost 14 lot laga ra
-- 3,839,245 views · @business.fortunes · instagram.com/reel/DQhkxm6gssi · 🎥”No Reservations” (2007) follows Kate Armstrong (Catherine Zeta-Jones), a perfectionist chef who runs her New York rest
-- 3,625,012 views · @indianinfocus · instagram.com/reel/Dej6KUMO4s6 · Slow internet, expensive data, and limited access kept millions from fully experiencing the digital world. Then came Jio
 
 ## New ideas added
 
-- **₹60 Ka Milk Packet: Farmer, Amul, Retailer – Kisko Kitna?** — Hook: 'Amul ke milk packet ka sabse zyada paisa kiske paas jaata hai? Retailer ke paas nahi.' Walk one ₹60 packet step by step and show the surprising winner and loser. Payoff: why a cooperative structure means the profit never reaches a billionaire. _(pattern: 'Why X will NEVER do Y' structural reveal, combined with a rupee-by-rupee split of a familiar product; evidence: DQrLr2piIpL, DaXqhwpBVHJ, DcnFycEhoLC)_
-- **₹400 Ka Zomato Order: Restaurant Owner Ko Asli Mein Kitna Milta Hai?** — Hook: 'Customer ne ₹400 diye. Restaurant ke account mein kitne aaye?' Show the final number against the dine-in margin. Payoff: why many restaurants push their own app or counter sales. _(pattern: '₹100 pe kitna bachta hai' breakdown, where the owner's small take is the shock; evidence: DemI6RCzhwu, Deg4lvSKRWI, DMjpOrCCOV7)_
-- **₹60,000 School Fee: School Chalane Wale Ke Paas Kitna Bachta Hai?** — Hook: 'School ek non-profit hota hai, phir owners amir kaise?' Walk through one 1,000-student school's income and expenses. Payoff: where the real earning sits. _(pattern: 'Owner's real earning is hidden in a side stream' reveal, like the pump owner's mart, tyre shop and car wash; evidence: Deg4lvSKRWI, DemI6RCzhwu, DTLDlw5D9ca)_
-- **₹20 Lakh Ki Innova Corporate Rent Pe Lagayi: Mahine Ke Ant Mein Kitna Bachta Hai?** — Hook: 'Gaadi kharidi aur company ko rent pe de di. Maze hi maze? EMI aur driver ke baad haath mein kya aata hai?' Show the monthly P&L of one vehicle, then of 5 vehicles. _(pattern: 'Fixed contract income whether the vehicle is full or empty' (the ₹/km bus reel), applied to a single-vehicle fleet; evidence: DUgXopsEjri, DaXqhwpBVHJ)_
-- **Sarkari Bus Ka Contract: Bus Khaali Ho Ya Bhari, Owner Ko Paisa Kyun Milta Hai?** — Hook: 'Passenger ho ya na ho, owner ko per km ka paisa milta hai. Toh risk kahan hai?' Show a bus's monthly math, then the 3 risks (delayed payments, penalties, fuel and maintenance overruns). Payoff: who should and shouldn't try it. _(pattern: 'Paid per km, not per passenger' reveal of a hidden government-linked income model, followed by a balancing 'catch'; evidence: DUgXopsEjri)_
-- **Mall Mein Ek Dukaan Ka Rent Kitna Hota Hai? Mall Owner Kaise Kamata Hai?** — Hook: 'Mall mein 1,000 sq ft ki dukaan ka rent Gaadi ki EMI se zyada hai. Dukaandar kitna bechega tab bachega?' Walk through one store's break-even and one mall's income mix. Payoff: why food courts and a cinema anchor the layout. _(pattern: 'Why every X has Y' (pump with mart, tyre shop and car wash) reveal, applied to mall layout and rent structure; evidence: Deg4lvSKRWI, DTLDlw5D9ca)_
+- **₹1,200 Water Park Ticket: What Does the Owner Keep?** — Hook: 'Ek family ne ₹1,200 ke 4 tickets liye, park owner ke paas kitna bacha?' Show the ride-and-land investment, why it only earns in 4 to 5 peak months, and how food and lockers carry the profit. Payoff: the real per-visitor margin and the footfall needed to break even. _(pattern: Rupee-per-unit breakdown of a dream-to-own business, ending in a surprising owner take-home figure (same as the petrol pump reel).; evidence: )_
+- **₹3,000 MRI Scan: How Many Scans Pay for a ₹3 Crore Machine?** — Hook: 'Ek MRI machine ₹3 crore ki hai. Roz kitne scan karne padte hain tab owner ka paisa wapas aata hai?' Walk through the machine cost, running cost and daily scan capacity. Payoff: the payback in months, and why the referral cut and utilisation decide who wins. _(pattern: Big capex vs small per-unit price ('how many X to break even'), the structure of the EV charger and gym reels.; evidence: )_
+- **₹250 Ka Cappuccino: Cafe Owner Ko Kitna Bachta Hai?** — Hook: 'Is ₹250 ke cup mein coffee sirf ₹20-25 ki hai, baaki paisa kahan gaya?' Split the cup into ingredient, rent, staff, royalty and profit. Payoff: the owner's real margin, and why rent and footfall matter more than the coffee. _(pattern: A familiar everyday price broken into slices with a shocking raw-cost figure, like the pizza and Zomato order reels.; evidence: )_
+- **₹1 Crore Ka Flat Bika: Builder Ke Paas Kitna Bacha?** — Hook: 'Aapne ₹1 crore ka flat kharida. Builder ne usme se kitna kamaya?' Show a stacked-bar breakdown by cost bucket. Payoff: the builder's EBITDA or margin range, and how much is land versus tax versus actual construction. _(pattern: Follow ₹X of the customer's money through the chain to the owner's pocket, the same as the gas cylinder and school fee reels.; evidence: )_
+- **₹5,000 Ki Flight Ticket: Airline Ko Kitna Bachta Hai?** — Hook: 'Ek flight bhar ke bhi airline ka profit sirf ₹300-400 kyun hota hai?' Slice the fare into fuel, lease, airport fees, taxes and crew. Payoff: break-even seat occupancy, and why bag fees, seat selection and food earn more than the ticket. _(pattern: Fare vs hidden costs, with a counter-intuitive twist that a full plane still doesn't mean profit (like the sleeper bus and sarkari bus contract reels).; evidence: )_
+- **Railway Station Pe Chai-Snacks Stall: Licence Kaise Milta Hai Aur Kitna Kamate Hain?** — Hook: 'Platform pe ₹20 ki chai bechne ka haq kaun deta hai, aur uski licence fee kitni hai?' Explain the licence route, the licence fee as a fixed monthly cost, and the footfall versus sales maths. Payoff: monthly profit at a busy station vs a small one, and the hidden costs. _(pattern: Insider access to a licensed, hard-to-enter business ('who actually gets to run this'), like the Amul parlour and gas agency reels.; evidence: )_
 added 6 ideas to the calendar
-      research: 7712 chars, 38 source links, 10 searches (last turn)
-  researched idea-amul-milk-packet-60-rupees-who-gets-what
-      research: 5609 chars, 30 source links, 8 searches (last turn)
-  researched idea-zomato-400-rupee-order-restaurant-owner-
-      research: 5836 chars, 36 source links, 10 searches (last turn)
-  researched idea-private-school-owner-fee-economics-india
-      research: 6573 chars, 40 source links, 10 searches (last turn)
-  researched idea-innova-on-rent-corporate-cab-fleet-month
-      research: 3623 chars, 18 source links, 10 searches (last turn)
-  researched idea-state-bus-wet-lease-per-km-contract-econ
-      research: 3074 chars, 9 source links, 10 searches (last turn)
-  researched idea-mall-shop-owner-vs-tenant-rent-revenue-s
+      research: 4256 chars, 24 source links, 10 searches (last turn)
+  researched idea-water-park-ticket-economics
+      research: 7421 chars, 38 source links, 10 searches (last turn)
+  researched idea-mri-scan-machine-break-even
+      research: 3855 chars, 15 source links, 10 searches (last turn)
+  researched idea-cafe-coffee-250-rupees-owner-margin
+      research: 5941 chars, 25 source links, 10 searches (last turn)
+  researched idea-builder-profit-on-1-crore-flat
+      research: 0 chars, 0 source links, 10 searches (last turn)
+  research failed for idea-airline-ticket-5000-where-money-goes: research for idea-airline-ticket-5000-where-money-goes found too few numbers to make an honest reel
+      research: 8910 chars, 46 source links, 10 searches (last turn)
+  researched idea-railway-platform-stall-licence-economics

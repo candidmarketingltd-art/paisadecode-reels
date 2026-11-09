@@ -312,5 +312,107 @@
   ],
   "id": "idea-mall-shop-owner-vs-tenant-rent-revenue-s",
   "added": "2026-11-03"
+ },
+ "idea-water-park-ticket-economics": {
+  "slug": "water-park-ticket-economics",
+  "title": "₹1,200 Water Park Ticket: What Does the Owner Keep?",
+  "topic": "Unit economics of an Indian water or amusement park: land and ride capex, electricity, water treatment, lifeguards and staff, ticket vs F&B and locker revenue, seasonality, break-even footfall.",
+  "angle": "Hook: 'Ek family ne ₹1,200 ke 4 tickets liye, park owner ke paas kitna bacha?' Show the ride-and-land investment, why it only earns in 4 to 5 peak months, and how food and lockers carry the profit. Payoff: the real per-visitor margin and the footfall needed to break even.",
+  "hook_pattern": "Rupee-per-unit breakdown of a dream-to-own business, ending in a surprising owner take-home figure (same as the petrol pump reel).",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Our best reel breaks one customer payment into the owner's cut. Water parks are a business many Indian men dream of owning but know nothing about, and the seasonality twist gives a 'where did the profit go' payoff. The cinema popcorn and turf reels already used this kind of hidden-revenue reveal.",
+  "evidence": [],
+  "search_queries": [
+   "water park business India investment and revenue breakdown",
+   "amusement park project report India cost per ride",
+   "Wonderla annual report revenue per visitor F&B share",
+   "water park break-even footfall India"
+  ],
+  "id": "idea-water-park-ticket-economics",
+  "added": "2026-11-09"
+ },
+ "idea-mri-scan-machine-break-even": {
+  "slug": "mri-scan-machine-break-even",
+  "title": "₹3,000 MRI Scan: How Many Scans Pay for a ₹3 Crore Machine?",
+  "topic": "Economics of a diagnostic imaging centre: MRI/CT machine cost, AMC, technician and radiologist cost, scans per day, referral commissions, payback period.",
+  "angle": "Hook: 'Ek MRI machine ₹3 crore ki hai. Roz kitne scan karne padte hain tab owner ka paisa wapas aata hai?' Walk through the machine cost, running cost and daily scan capacity. Payoff: the payback in months, and why the referral cut and utilisation decide who wins.",
+  "hook_pattern": "Big capex vs small per-unit price ('how many X to break even'), the structure of the EV charger and gym reels.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. The ICU bed and blood test reels show the audience likes hospital-adjacent insider economics. A machine-capex break-even reel has a clear number to chase, and diagnostic centres feel high-status but are opaque to outsiders.",
+  "evidence": [],
+  "search_queries": [
+   "MRI centre setup cost India machine price",
+   "diagnostic centre business plan MRI scans per day revenue",
+   "MRI machine AMC cost India",
+   "diagnostic centre referral commission India"
+  ],
+  "id": "idea-mri-scan-machine-break-even",
+  "added": "2026-11-09"
+ },
+ "idea-cafe-coffee-250-rupees-owner-margin": {
+  "slug": "cafe-coffee-250-rupees-owner-margin",
+  "title": "₹250 Ka Cappuccino: Cafe Owner Ko Kitna Bachta Hai?",
+  "topic": "Per-cup economics of a cafe, franchise or independent: coffee, milk and cup cost, rent share, staff, royalty, GST, and how many cups per day are needed to break even.",
+  "angle": "Hook: 'Is ₹250 ke cup mein coffee sirf ₹20-25 ki hai, baaki paisa kahan gaya?' Split the cup into ingredient, rent, staff, royalty and profit. Payoff: the owner's real margin, and why rent and footfall matter more than the coffee.",
+  "hook_pattern": "A familiar everyday price broken into slices with a shocking raw-cost figure, like the pizza and Zomato order reels.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Cafes are a very common dream business for men aged 18 to 34, and the pizza franchise reel already shows that a franchise unit-economics breakdown works. The low raw-material cost against a high menu price makes a curiosity hook that gets shared.",
+  "evidence": [],
+  "search_queries": [
+   "cafe business India cost of coffee per cup vs selling price",
+   "cafe franchise India investment royalty and margin",
+   "coffee shop break-even cups per day India",
+   "Coffee Day or Third Wave Coffee annual report gross margin"
+  ],
+  "id": "idea-cafe-coffee-250-rupees-owner-margin",
+  "added": "2026-11-09"
+ },
+ "idea-builder-profit-on-1-crore-flat": {
+  "slug": "builder-profit-on-1-crore-flat",
+  "title": "₹1 Crore Ka Flat Bika: Builder Ke Paas Kitna Bacha?",
+  "topic": "Where the ₹1 crore of a new flat goes: land cost, construction, approvals and FSI, GST and stamp duty, marketing and broker fees, finance cost, and builder margin, using listed developers' public margins.",
+  "angle": "Hook: 'Aapne ₹1 crore ka flat kharida. Builder ne usme se kitna kamaya?' Show a stacked-bar breakdown by cost bucket. Payoff: the builder's EBITDA or margin range, and how much is land versus tax versus actual construction.",
+  "hook_pattern": "Follow ₹X of the customer's money through the chain to the owner's pocket, the same as the gas cylinder and school fee reels.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. The home loan reels cover the buyer's side, and this is the seller's side, which people almost never see. Real estate is the most universal aspiration for this audience, and listed developers like DLF and Godrej Properties publish margins, so the numbers are researchable.",
+  "evidence": [],
+  "search_queries": [
+   "real estate developer EBITDA margin India DLF Godrej Properties",
+   "cost breakup of a flat India land construction approvals",
+   "builder profit margin per sq ft India",
+   "GST on under-construction flat and stamp duty share of price"
+  ],
+  "id": "idea-builder-profit-on-1-crore-flat",
+  "added": "2026-11-09"
+ },
+ "idea-airline-ticket-5000-where-money-goes": {
+  "slug": "airline-ticket-5000-where-money-goes",
+  "title": "₹5,000 Ki Flight Ticket: Airline Ko Kitna Bachta Hai?",
+  "topic": "Per-seat economics of an Indian airline: fuel share, aircraft lease, crew, airport and navigation charges, load factor, break-even load factor, ancillary revenue, and why airlines often lose money.",
+  "angle": "Hook: 'Ek flight bhar ke bhi airline ka profit sirf ₹300-400 kyun hota hai?' Slice the fare into fuel, lease, airport fees, taxes and crew. Payoff: break-even seat occupancy, and why bag fees, seat selection and food earn more than the ticket.",
+  "hook_pattern": "Fare vs hidden costs, with a counter-intuitive twist that a full plane still doesn't mean profit (like the sleeper bus and sarkari bus contract reels).",
+  "why_it_works": "No scraped reels this week, so this is reasoning. The sleeper bus and truck reels show the audience cares about transport economics and 'is it full, but still no profit?' twists. Airlines are the ultimate dream-business curiosity, and DGCA and listed airline filings give public numbers.",
+  "evidence": [],
+  "search_queries": [
+   "IndiGo annual report cost per available seat kilometre fuel share",
+   "airline break-even load factor India",
+   "airline ancillary revenue share India",
+   "airport charges and ATF share of airfare India"
+  ],
+  "id": "idea-airline-ticket-5000-where-money-goes",
+  "added": "2026-11-09"
+ },
+ "idea-railway-platform-stall-licence-economics": {
+  "slug": "railway-platform-stall-licence-economics",
+  "title": "Railway Station Pe Chai-Snacks Stall: Licence Kaise Milta Hai Aur Kitna Kamate Hain?",
+  "topic": "How IRCTC/Indian Railways catering stall licences are awarded (tender or bid, licence fee), typical fees for station categories, product price control, staff cost, daily sales, and realistic owner take-home.",
+  "angle": "Hook: 'Platform pe ₹20 ki chai bechne ka haq kaun deta hai, aur uski licence fee kitni hai?' Explain the licence route, the licence fee as a fixed monthly cost, and the footfall versus sales maths. Payoff: monthly profit at a busy station vs a small one, and the hidden costs.",
+  "hook_pattern": "Insider access to a licensed, hard-to-enter business ('who actually gets to run this'), like the Amul parlour and gas agency reels.",
+  "why_it_works": "No scraped reels this week, so this is reasoning. Licence-based businesses (gas agency, Amul parlour, wine shop) fit our best-performing 'dream business, hidden access' angle. Railway stalls are visible to everyone daily but the process is a mystery, and Railways' catering policy documents are public.",
+  "evidence": [],
+  "search_queries": [
+   "IRCTC catering stall licence fee tender process railway station",
+   "Indian Railways catering policy stall allotment categories",
+   "railway platform stall monthly licence fee",
+   "IRCTC stall owner income per day"
+  ],
+  "id": "idea-railway-platform-stall-licence-economics",
+  "added": "2026-11-09"
  }
 }
