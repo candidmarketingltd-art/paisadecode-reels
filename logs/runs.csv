@@ -197,3 +197,13 @@ run_at_ist,video_id,angle,status,note
 2026-11-10 03:20,idea-innova-on-rent-corporate-cab-fleet-month,R,in_buffer,6af2403b8e8ee9a32ae8b439
 2026-11-10 03:28,_p-vDXmt1HI,C,in_buffer,6af2420de862837263ac1218
 2026-11-10 12:56,idea-state-bus-wet-lease-per-km-contract-econ,R,in_buffer,6af2c733223aa16048f72c6e
+2026-11-11 00:10,Zcmg23GsW7I,A,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-11 00:17,idea-mall-shop-owner-vs-tenant-rent-revenue-s,R,in_buffer,6af366dbfcc41cfe14cc45d8
+2026-11-11 00:17,Zcmg23GsW7I,B,waiting_apify,"Apify usage limit reached: {
+  ""error"": {
+    ""type"": ""platform-feature-disabled"",
+    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe"
+2026-11-11 00:24,idea-water-park-ticket-economics,R,in_buffer,6af368556a5c5003d8ddd0ca

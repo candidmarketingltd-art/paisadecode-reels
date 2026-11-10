@@ -1,0 +1,457 @@
+{
+ "voiceover": "[urgent, punchy] मॉल की 1,000 sq ft की दुकान का औसत रेंट ₹3,46,000 महीना है। हर महीना।\n\n[intrigued, building energy] पर असली खेल रकम में नहीं, रेंट लेने के तरीके में है। वो आख़िर में बताता हूँ।\n\n[excited, fast] बेंगलुरु में ₹2,00,000 से ₹2,50,000। मुंबई में ₹4,00,000 से ₹4,50,000। [punchy] और छोटे kiosk का रेट ₹618 per sq ft।\n\n[serious] अब twist। 74.2% डील्स में किराया दो हिस्सों में होता है: minimum guarantee, और sales का revenue share, जो अक्सर 6 से 12% होता है। [emphatic] Nexus जैसे REIT में रेंट वही गिना जाता है जो इन दोनों में ज़्यादा हो। दुकान चली तो हिस्सा बढ़ेगा। नहीं चली, तो भी minimum देना पड़ेगा।\n\n[confident] इसलिए दुकान लेने से पहले पूछो: minimum guarantee कितना? Revenue share कितने % का?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, मॉल में दुकान खोलते हैं।\"",
+ "ig_caption": "Mall mein 1,000 sq ft ki dukaan ka average rent ₹3,46,000 mahina 🏬 Aur asli khel rent ki raqam mein nahi, rent lene ke tareeke mein hai.\n\nUs dost ko bhejo jo mall mein dukaan kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate",
+ "hashtags": [
+  "#MallBusiness",
+  "#RetailBusiness",
+  "#BusinessIdeas",
+  "#CommercialRealEstate",
+  "#PaisaDecode",
+  "#Hindi"
+ ],
+ "numbers": [
+  "1,000 sq ft",
+  "₹346 per sq ft (₹3,46,000 a month)",
+  "₹200–250 per sq ft (₹2,00,000–₹2,50,000 a month)",
+  "₹400–450 per sq ft (₹4,00,000–₹4,50,000 a month)",
+  "₹618 per sq ft (kiosks)",
+  "74.2%",
+  "6-12%"
+ ],
+ "style": "v2",
+ "tag": "MALL RENT",
+ "disclaimer": true,
+ "captions": [
+  "*Mall",
+  "ki",
+  "*1,000",
+  "sq",
+  "ft",
+  "ki",
+  "dukaan",
+  "ka",
+  "ausat",
+  "rent",
+  "*₹3,46,000",
+  "mahina",
+  "hai.",
+  "Har",
+  "*mahina.",
+  "Par",
+  "asli",
+  "*khel",
+  "raqam",
+  "mein",
+  "nahi,",
+  "rent",
+  "lene",
+  "ke",
+  "*tareeke",
+  "mein",
+  "hai.",
+  "Woh",
+  "aakhir",
+  "mein",
+  "batata",
+  "hoon.",
+  "*Bengaluru",
+  "mein",
+  "*₹2,00,000",
+  "se",
+  "*₹2,50,000.",
+  "*Mumbai",
+  "mein",
+  "*₹4,00,000",
+  "se",
+  "*₹4,50,000.",
+  "Aur",
+  "chhote",
+  "*kiosk",
+  "ka",
+  "rate",
+  "*₹618",
+  "per",
+  "sq",
+  "ft.",
+  "Ab",
+  "*twist.",
+  "*74.2%",
+  "deals",
+  "mein",
+  "kiraya",
+  "*do",
+  "hisson",
+  "mein",
+  "hota",
+  "hai:",
+  "*minimum",
+  "*guarantee,",
+  "aur",
+  "sales",
+  "ka",
+  "*revenue",
+  "*share,",
+  "jo",
+  "aksar",
+  "*6",
+  "se",
+  "*12%",
+  "hota",
+  "hai.",
+  "*Nexus",
+  "jaise",
+  "REIT",
+  "mein",
+  "rent",
+  "wahi",
+  "gina",
+  "jaata",
+  "hai",
+  "jo",
+  "in",
+  "dono",
+  "mein",
+  "*zyada",
+  "ho.",
+  "Dukaan",
+  "chali",
+  "toh",
+  "*hissa",
+  "*badhega.",
+  "Nahi",
+  "chali,",
+  "toh",
+  "bhi",
+  "*minimum",
+  "dena",
+  "padega.",
+  "Isliye",
+  "dukaan",
+  "lene",
+  "se",
+  "pehle",
+  "*poochho:",
+  "*minimum",
+  "*guarantee",
+  "kitna?",
+  "*Revenue",
+  "*share",
+  "kitne",
+  "%",
+  "ka?",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*mall",
+  "mein",
+  "dukaan",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "मॉल की 1,000",
+   "chapter": "MALL KA RENT",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹3,46,000",
+     "color": "gold",
+     "ill": "department_store",
+     "at": "मॉल की 1,000",
+     "note": "1,000 SQ FT · HAR MAHINA",
+     "note_at": "हर महीना।"
+    }
+   ]
+  },
+  {
+   "at": "पर असली खेल",
+   "chapter": "ASLI KHEL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "पर असली खेल"
+    },
+    {
+     "type": "pill",
+     "text": "RAQAM NAHI · TAREEKA",
+     "color": "blue",
+     "at": "तरीके में"
+    }
+   ],
+   "react": [
+    {
+     "at": "वो आख़िर",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "बेंगलुरु में",
+   "chapter": "BENGALURU",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹2,00,000",
+     "color": "gold",
+     "ill": "cityscape",
+     "at": "बेंगलुरु में",
+     "note": "SE ₹2,50,000 TAK",
+     "note_at": "₹2,50,000।"
+    }
+   ]
+  },
+  {
+   "at": "मुंबई में",
+   "chapter": "MUMBAI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹4,00,000",
+     "color": "red",
+     "ill": "cityscape_at_dusk",
+     "at": "मुंबई में",
+     "note": "SE ₹4,50,000 TAK",
+     "note_at": "₹4,50,000।"
+    }
+   ]
+  },
+  {
+   "at": "और छोटे kiosk",
+   "chapter": "KIOSK RATE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹618",
+     "color": "gold",
+     "ill": "convenience_store",
+     "at": "और छोटे kiosk",
+     "note": "PER SQ FT",
+     "note_at": "₹618 per"
+    }
+   ],
+   "react": [
+    {
+     "at": "₹618 per",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "अब twist।",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "74.2%",
+     "color": "blue",
+     "ill": "balance_scale",
+     "at": "अब twist।",
+     "note": "DEALS · KIRAYA DO HISSON MEIN",
+     "note_at": "दो हिस्सों"
+    }
+   ]
+  },
+  {
+   "at": "minimum guarantee,",
+   "chapter": "DO HISSE",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "minimum guarantee,",
+     "parts": [
+      {
+       "label": "MINIMUM GUARANTEE",
+       "value": 1,
+       "text": "MG",
+       "color": "gold",
+       "at": "minimum guarantee,"
+      },
+      {
+       "label": "REVENUE SHARE",
+       "value": 1,
+       "text": "SHARE",
+       "color": "blue",
+       "at": "revenue share,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "जो अक्सर 6",
+   "chapter": "SALES KA HISSA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "6–12%",
+     "label": "REVENUE SHARE",
+     "at": "जो अक्सर 6",
+     "value_at": "12% होता"
+    }
+   ]
+  },
+  {
+   "at": "Nexus जैसे REIT",
+   "chapter": "NEXUS REIT",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Nexus Select Malls",
+     "photo_kind": "logo",
+     "caption": "REIT",
+     "ill": "office_building",
+     "at": "Nexus जैसे REIT"
+    }
+   ]
+  },
+  {
+   "at": "रेंट वही गिना",
+   "chapter": "ASLI RULE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "JO ZYADA, WOHI RENT",
+     "size": "l",
+     "color": "gold",
+     "ill": "balance_scale",
+     "at": "रेंट वही गिना",
+     "sub": "MG vs SHARE",
+     "sub_at": "इन दोनों"
+    }
+   ],
+   "react": [
+    {
+     "at": "ज़्यादा हो।",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "दुकान चली तो",
+   "chapter": "DUKAAN CHALI",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "chart_up",
+     "at": "दुकान चली तो"
+    },
+    {
+     "type": "pill",
+     "text": "MALL KA HISSA BADHEGA",
+     "color": "green",
+     "at": "हिस्सा बढ़ेगा।"
+    }
+   ]
+  },
+  {
+   "at": "नहीं चली, तो",
+   "chapter": "NAHI CHALI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "chart_down",
+     "at": "नहीं चली, तो"
+    },
+    {
+     "type": "pill",
+     "text": "MINIMUM TOH DENA HAI",
+     "color": "red",
+     "at": "minimum देना"
+    }
+   ],
+   "react": [
+    {
+     "at": "minimum देना",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए दुकान",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "इसलिए दुकान"
+    },
+    {
+     "type": "pill",
+     "text": "LENE SE PEHLE POOCHHO",
+     "color": "gold",
+     "at": "पूछो:"
+    }
+   ],
+   "react": [
+    {
+     "at": "पूछो:",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "minimum guarantee कितना?",
+   "chapter": "DO SAWAAL",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "minimum guarantee कितना?",
+     "items": [
+      {
+       "text": "Minimum guarantee kitna?",
+       "at": "minimum guarantee कितना?",
+       "ill": "locked"
+      },
+      {
+       "text": "Revenue share kitne %?",
+       "at": "Revenue share कितने",
+       "ill": "bar_chart"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo mall mein dukaan kholna chahta hai",
+  "line2_at": "मॉल में दुकान"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 mall rent decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 42
+}

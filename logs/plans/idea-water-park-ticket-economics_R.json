@@ -1,0 +1,578 @@
+{
+ "voiceover": "[urgent, punchy] ₹983 का टिकट लिया? उस पार्क का सिर्फ़ एक रोलर कोस्टर ₹70 से 80 करोड़ का है।\n\n[intrigued, building energy] तो मालिक का पैसा जाता कहाँ है? आख़िर में बताऊँगा, छोटा वॉटर पार्क कितने में बनता है।\n\n[excited, fast] Wonderla चेन्नई: ₹611 करोड़, 64.3 एकड़, 43 राइड्स। आधे से ज़्यादा पैसा सिर्फ़ नई राइड्स में गया।\n\n[serious] और खर्चा यहीं नहीं रुकता। कमाई का 6-7% मेंटेनेंस में जाता है, और करीब 10% नई राइड्स में।\n\n[punchy] पार्क बना है रोज़ 6,500 लोगों के हिसाब से। तुम्हारा टिकट इसी बिल की किस्त है।\n\n[emphatic] हर टिकट पे कितना बचता है, ये पब्लिक नहीं है। पर असली बिज़नेस ज़मीन और राइड्स का है, टिकट तो बस वसूली।\n\n[confident] अब छोटा वाला: 2 से 5 एकड़, 8 से 12 attractions, ₹5 से 15 करोड़। अंदाज़ा है, ऑडिटेड नहीं।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, वॉटर पार्क खोलते हैं।\"",
+ "ig_caption": "₹983 ka ticket aur ek roller coaster ₹70-80 crore ka 🎢 Park owner ka paisa kahan jaata hai, dekho.\n\nUs dost ko bhejo jo water park kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se hain, approximate. Per-visitor margin public data mein nahi mila. Not financial advice.",
+ "hashtags": [
+  "#WaterParkBusiness",
+  "#Wonderla",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#BusinessInIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹983",
+  "₹70-80 crore",
+  "₹611 crore",
+  "64.3 acres",
+  "43 rides",
+  "over half of spend on new rides",
+  "6-7% of topline (maintenance capex)",
+  "about 10% of revenue (new rides or expansion)",
+  "6,500 visitors a day",
+  "2-5 acres",
+  "8-12 attractions",
+  "₹5-15 crore"
+ ],
+ "style": "v2",
+ "tag": "WATER PARK",
+ "disclaimer": true,
+ "captions": [
+  "*₹983",
+  "ka",
+  "ticket",
+  "liya?",
+  "Us",
+  "park",
+  "ka",
+  "sirf",
+  "ek",
+  "*roller",
+  "*coaster",
+  "*₹70",
+  "se",
+  "*80",
+  "crore",
+  "ka",
+  "hai.",
+  "Toh",
+  "*maalik",
+  "ka",
+  "*paisa",
+  "jaata",
+  "kahan",
+  "hai?",
+  "Aakhir",
+  "mein",
+  "bataunga,",
+  "*chhota",
+  "water",
+  "*park",
+  "kitne",
+  "mein",
+  "banta",
+  "hai.",
+  "*Wonderla",
+  "Chennai:",
+  "*₹611",
+  "crore,",
+  "64.3",
+  "acre,",
+  "43",
+  "rides.",
+  "Aadhe",
+  "se",
+  "zyada",
+  "*paisa",
+  "sirf",
+  "*nayi",
+  "*rides",
+  "mein",
+  "gaya.",
+  "Aur",
+  "*kharcha",
+  "yahin",
+  "nahi",
+  "rukta.",
+  "Kamai",
+  "ka",
+  "*6-7%",
+  "*maintenance",
+  "mein",
+  "jaata",
+  "hai,",
+  "aur",
+  "kareeb",
+  "*10%",
+  "nayi",
+  "rides",
+  "mein.",
+  "Park",
+  "bana",
+  "hai",
+  "roz",
+  "*6,500",
+  "*logon",
+  "ke",
+  "hisaab",
+  "se.",
+  "Tumhara",
+  "*ticket",
+  "isi",
+  "bill",
+  "ki",
+  "*kisht",
+  "hai.",
+  "Har",
+  "*ticket",
+  "pe",
+  "kitna",
+  "*bachta",
+  "hai,",
+  "ye",
+  "*public",
+  "nahi",
+  "hai.",
+  "Par",
+  "asli",
+  "business",
+  "*zameen",
+  "aur",
+  "*rides",
+  "ka",
+  "hai,",
+  "ticket",
+  "toh",
+  "bas",
+  "*vasooli.",
+  "Ab",
+  "*chhota",
+  "wala:",
+  "*2",
+  "se",
+  "*5",
+  "acre,",
+  "8",
+  "se",
+  "12",
+  "attractions,",
+  "*₹5",
+  "se",
+  "*15",
+  "crore.",
+  "*Andaaza",
+  "hai,",
+  "audited",
+  "nahi.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*water",
+  "*park",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹983 का टिकट",
+   "chapter": "₹983 KA TICKET",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "WATER PARK · ASLI HISAAB",
+     "at": "₹983 का टिकट"
+    },
+    {
+     "type": "big_number",
+     "value": "₹983",
+     "color": "gold",
+     "ill": "admission_tickets",
+     "at": "₹983 का टिकट"
+    }
+   ]
+  },
+  {
+   "at": "उस पार्क का",
+   "chapter": "SIRF 1 RIDE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "illustration",
+     "name": "roller_coaster",
+     "size": "l",
+     "caption": "1 ROLLER COASTER",
+     "at": "उस पार्क का"
+    }
+   ]
+  },
+  {
+   "at": "₹70 से 80",
+   "chapter": "RIDE KA DAAM",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹70 से 80",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹70–80 Cr",
+     "color": "red",
+     "ill": "roller_coaster",
+     "at": "₹70 से 80",
+     "note": "SIRF 1 RIDE",
+     "note_at": "करोड़ का है।"
+    }
+   ]
+  },
+  {
+   "at": "तो मालिक का",
+   "chapter": "PAISA KAHAN?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "तो मालिक का"
+    },
+    {
+     "type": "pill",
+     "text": "MAALIK KA PAISA?",
+     "color": "blue",
+     "at": "जाता कहाँ है?"
+    }
+   ]
+  },
+  {
+   "at": "आख़िर में बताऊँगा,",
+   "chapter": "END MEIN",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Chhota park = ₹?",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "आख़िर में बताऊँगा,"
+    }
+   ]
+  },
+  {
+   "at": "Wonderla चेन्नई:",
+   "chapter": "WONDERLA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Wonderla",
+     "photo_kind": "logo",
+     "caption": "WONDERLA CHENNAI",
+     "ill": "ferris_wheel",
+     "at": "Wonderla चेन्नई:"
+    }
+   ]
+  },
+  {
+   "at": "₹611 करोड़,",
+   "chapter": "₹611 CRORE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹611 Cr",
+     "color": "gold",
+     "ill": "building_construction",
+     "at": "₹611 करोड़,",
+     "note": "64.3 ACRE",
+     "note_at": "64.3 एकड़,"
+    }
+   ]
+  },
+  {
+   "at": "43 राइड्स।",
+   "chapter": "43 RIDES",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "43",
+     "sub": "RIDES",
+     "color": "gold",
+     "at": "43 राइड्स।"
+    }
+   ]
+  },
+  {
+   "at": "आधे से ज़्यादा",
+   "chapter": "PAISA GAYA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "₹611 CR KAHAN GAYE",
+     "at": "आधे से ज़्यादा"
+    },
+    {
+     "type": "split_bar",
+     "at": "आधे से ज़्यादा",
+     "parts": [
+      {
+       "label": "NAYI RIDES",
+       "value": 55,
+       "text": "AADHE+",
+       "color": "gold",
+       "at": "आधे से ज़्यादा"
+      },
+      {
+       "label": "BAAKI SAB",
+       "value": 45,
+       "color": "muted",
+       "at": "राइड्स में गया।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और खर्चा यहीं",
+   "chapter": "KHARCHA JAARI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "और खर्चा यहीं"
+    }
+   ]
+  },
+  {
+   "at": "कमाई का 6-7%",
+   "chapter": "HAR SAAL KATT",
+   "tint": "red",
+   "react": [
+    {
+     "at": "करीब 10%",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "HAR SAAL KI KAMAI",
+     "color": "red",
+     "at": "कमाई का 6-7%"
+    },
+    {
+     "type": "split_bar",
+     "at": "कमाई का 6-7%",
+     "parts": [
+      {
+       "label": "MAINTENANCE",
+       "value": 7,
+       "text": "6-7%",
+       "color": "red",
+       "at": "6-7% मेंटेनेंस"
+      },
+      {
+       "label": "NAYI RIDES",
+       "value": 10,
+       "text": "10%",
+       "color": "red",
+       "at": "करीब 10%"
+      },
+      {
+       "label": "BAAKI",
+       "value": 83,
+       "color": "muted",
+       "at": "नई राइड्स में।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "रोज़ 6,500",
+   "chapter": "ROZ KI BHEED",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "6,500",
+     "color": "blue",
+     "ill": "admission_tickets",
+     "at": "रोज़ 6,500",
+     "note": "LOG / DIN · CAPACITY",
+     "note_at": "हिसाब से।"
+    }
+   ]
+  },
+  {
+   "at": "तुम्हारा टिकट",
+   "chapter": "TICKET = KISHT",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "किस्त है।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "PARK KA BILL",
+     "at": "तुम्हारा टिकट",
+     "rows": [
+      {
+       "text": "Rides + zameen",
+       "at": "तुम्हारा टिकट"
+      },
+      {
+       "text": "Tumhara ticket",
+       "mark": "KISHT",
+       "at": "किस्त है।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "हर टिकट पे",
+   "chapter": "MARGIN?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹?",
+     "color": "blue",
+     "ill": "locked",
+     "at": "हर टिकट पे",
+     "note": "PUBLIC NAHI",
+     "note_at": "पब्लिक नहीं",
+     "note_color": "muted"
+    }
+   ]
+  },
+  {
+   "at": "पर असली",
+   "chapter": "ASLI BUSINESS",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "पर असली",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "पर असली",
+     "strike_at": "ज़मीन और",
+     "left": {
+      "label": "TICKET",
+      "value": "₹983",
+      "sub": "dikhta hai"
+     },
+     "right": {
+      "label": "ASLI BUSINESS",
+      "value": "ZAMEEN",
+      "sub": "+ rides",
+      "color": "gold",
+      "ill": "national_park",
+      "at": "ज़मीन और"
+     }
+    }
+   ]
+  },
+  {
+   "at": "टिकट तो बस",
+   "chapter": "TICKET = VASOOLI",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "VASOOLI",
+     "sub": "TICKET KA KAAM",
+     "color": "gold",
+     "at": "टिकट तो बस"
+    }
+   ]
+  },
+  {
+   "at": "अब छोटा वाला:",
+   "chapter": "CHHOTA PARK",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "text": "CHHOTA WATER PARK",
+     "color": "green",
+     "at": "अब छोटा वाला:"
+    },
+    {
+     "type": "stat_row",
+     "at": "अब छोटा वाला:",
+     "cards": [
+      {
+       "label": "ZAMEEN",
+       "value": "2–5",
+       "sub": "acre",
+       "color": "green",
+       "ill": "national_park",
+       "at": "2 से 5"
+      },
+      {
+       "label": "ATTRACTIONS",
+       "value": "8–12",
+       "sub": "rides + slides",
+       "color": "blue",
+       "ill": "water_wave",
+       "at": "8 से 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "₹5 से 15",
+   "chapter": "KITNE MEIN?",
+   "tint": "green",
+   "react": [
+    {
+     "at": "अंदाज़ा है,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹5–15 Cr",
+     "color": "green",
+     "ill": "water_wave",
+     "at": "₹5 से 15",
+     "note": "ANDAAZA · AUDITED NAHI",
+     "note_at": "अंदाज़ा है,",
+     "note_color": "muted"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील उस",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo water park kholna chahta hai",
+  "line2_at": "वॉटर पार्क खोलते",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 water park decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 43
+}
