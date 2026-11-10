@@ -3,40 +3,13 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 5, 'sent': 70, 'error': 2}
-Buffer queue: 5 waiting (buffer); target 10 -> making 5
---- reel 1/5: slot 2 (money) row 141: mjpT-dwFNuA C
-[1/4] script  mjpT-dwFNuA C: reusing saved plan
+      [buffer] post statuses seen: {'scheduled': 9, 'sent': 71, 'error': 2}
+Buffer queue: 9 waiting (buffer); target 10 -> making 1
+--- reel 1/1: slot 1 (economics) row 186: idea-state-bus-wet-lease-per-km-contract-econ R
+[1/4] script  idea-state-bus-wet-lease-per-km-contract-econ R: Sarkari Bus Ka Contract: Bus Khaali Ho Ya Bhari, Owner Ko Paisa Kyun Milta Hai?
 [2/4] voice
-      135 words, 50.5s, model eleven_v4
+      138 words, 52.3s, model eleven_v4
 [3/4] render
-      photo 'Blinkit' -> fe60c4233351.png (Wikimedia Commons / Hirebettu · Public domain)
-      remotion: Reel /tmp/tmpiglss2jo/video_only.mp4
---- reel 2/5: slot 3 (ideas) row 184: idea-private-school-owner-fee-economics-india R
-[1/4] script  idea-private-school-owner-fee-economics-india R: ₹60,000 School Fee: School Chalane Wale Ke Paas Kitna Bachta Hai?
-[2/4] voice
-      140 words, 56.9s, model eleven_v4
-[3/4] render
-      photo 'Supreme Court of India' -> 51ecdb7f239a.jpg (Wikimedia Commons / Subhashish Panigrahi · CC BY-SA 4.0)
-      remotion: Reel /tmp/tmpittmp894/video_only.mp4
---- reel 3/5: slot 1 (economics) row 72: _p-vDXmt1HI B
-[1/4] script  _p-vDXmt1HI B: ₹43,200 From One Sleeper Bus Trip — How Much Does the Owner Keep?
-[2/4] voice
-      143 words, 56.0s, model eleven_v4
-[3/4] render
-      remotion: Reel /tmp/tmpr_zmzumu/video_only.mp4
---- reel 4/5: slot 2 (money) row 185: idea-innova-on-rent-corporate-cab-fleet-month R
-[1/4] script  idea-innova-on-rent-corporate-cab-fleet-month R: ₹20 Lakh Ki Innova Corporate Rent Pe Lagayi: Mahine Ke Ant Mein Kitna Bachta Hai?
-[2/4] voice
-      143 words, 59.9s, model eleven_v4
-[3/4] render
-      photo 'Toyota Innova Crysta' -> 41fa41ae7c1d.jpg (Wikimedia Commons / Premnath Kudva · CC BY-SA 4.0)
-      no free image for 'Maruti Suzuki Ertiga Tour' (product) -> illustration
-      remotion: Reel /tmp/tmpghb7cc7x/video_only.mp4
---- reel 5/5: slot 3 (ideas) row 138: _p-vDXmt1HI C
-[1/4] script  _p-vDXmt1HI C: ₹43,200 From One Sleeper Bus Trip — How Much Does the Owner Keep?
-[2/4] voice
-      140 words, 58.1s, model eleven_v4
-[3/4] render
-      remotion: Reel /tmp/tmpixaymz8l/video_only.mp4
-added 5 reel(s) to Buffer
+      no free image for 'RSRTC Rajasthan State Road Transport Corporation' (logo) -> illustration
+      remotion: Reel /tmp/tmpr32h1k87/video_only.mp4
+added 1 reel(s) to Buffer

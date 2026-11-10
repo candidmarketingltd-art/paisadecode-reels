@@ -1,0 +1,557 @@
+{
+ "voiceover": "[urgent, punchy] तुम बस में बैठो या ना बैठो, सरकारी कॉन्ट्रैक्ट में बस मालिक को हर km का पैसा मिलता है।\n\n[intrigued, building energy] तो रिस्क कहाँ है? आख़िरी बात सबसे ज़रूरी है।\n\n[excited, fast] इसे कहते हैं Gross Cost Contract। मालिक बस, ड्राइवर और maintenance देता है। टिकट का पैसा सरकार रखती है। मालिक को fixed रेट मिलता है, per km।\n\n[serious] पहला रिस्क: रेट इस पर टिका है कि fuel, ड्राइवर और conductor का ख़र्चा कौन देता है। Punjab में fuel और conductor की सैलरी सरकार देती है। दूसरा: एंट्री का पैसा। RSRTC के 2025-26 नोटिस में bid security ₹3,10,000 से ₹3,46,000 तक है।\n\n[emphatic] सच ये है: बस का मुनाफ़ा कितना, इसका कोई public सोर्स नहीं मिला। जो बोले \"पक्का इतना\", उससे बचो।\n\n[confident] पहले tender पढ़ो: ख़र्चा किसके ज़िम्मे है।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, बस लगवा देते हैं।\"",
+ "ig_caption": "Bus khaali ho ya bhari, kai contracts mein owner ko per km ka paisa milta hai 🚌 Par risk kahan chhupa hai?\n\nBid security per bus hai ya per lot, notice mein clear nahi. Tender padh ke verify karo.\n\nUs dost ko bhejo jo bolta hai \"bus lagwate hain\" 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate hain",
+ "hashtags": [
+  "#BusBusiness",
+  "#SarkariContract",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹3,10,000",
+  "₹3,46,000",
+  "2025-26"
+ ],
+ "style": "v2",
+ "tag": "BUS CONTRACT",
+ "disclaimer": true,
+ "captions": [
+  "Tum",
+  "*bus",
+  "mein",
+  "baitho",
+  "ya",
+  "na",
+  "baitho,",
+  "*sarkari",
+  "*contract",
+  "mein",
+  "bus",
+  "*maalik",
+  "ko",
+  "har",
+  "*km",
+  "ka",
+  "*paisa",
+  "milta",
+  "hai.",
+  "Toh",
+  "*risk",
+  "kahan",
+  "hai?",
+  "Aakhiri",
+  "*baat",
+  "sabse",
+  "*zaroori",
+  "hai.",
+  "Ise",
+  "kehte",
+  "hain",
+  "*Gross",
+  "*Cost",
+  "Contract.",
+  "Maalik",
+  "*bus,",
+  "*driver",
+  "aur",
+  "*maintenance",
+  "deta",
+  "hai.",
+  "*Ticket",
+  "ka",
+  "paisa",
+  "*sarkar",
+  "rakhti",
+  "hai.",
+  "Maalik",
+  "ko",
+  "*fixed",
+  "*rate",
+  "milta",
+  "hai,",
+  "per",
+  "km.",
+  "Pehla",
+  "*risk:",
+  "rate",
+  "is",
+  "par",
+  "tika",
+  "hai",
+  "ki",
+  "*fuel,",
+  "driver",
+  "aur",
+  "*conductor",
+  "ka",
+  "kharcha",
+  "kaun",
+  "deta",
+  "hai.",
+  "*Punjab",
+  "mein",
+  "fuel",
+  "aur",
+  "conductor",
+  "ki",
+  "*salary",
+  "sarkar",
+  "deti",
+  "hai.",
+  "Doosra:",
+  "*entry",
+  "ka",
+  "paisa.",
+  "*RSRTC",
+  "ke",
+  "2025-26",
+  "notice",
+  "mein",
+  "bid",
+  "security",
+  "*₹3,10,000",
+  "se",
+  "*₹3,46,000",
+  "tak",
+  "hai.",
+  "Sach",
+  "ye",
+  "hai:",
+  "bus",
+  "ka",
+  "*munafa",
+  "kitna,",
+  "iska",
+  "koi",
+  "*public",
+  "*source",
+  "nahi",
+  "mila.",
+  "Jo",
+  "bole",
+  "\"pakka",
+  "itna\",",
+  "usse",
+  "*bacho.",
+  "Pehle",
+  "*tender",
+  "*padho:",
+  "kharcha",
+  "kiske",
+  "zimme",
+  "hai.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*bus",
+  "lagwa",
+  "dete",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "तुम बस में",
+   "chapter": "KHAALI YA BHARI",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "SARKARI BUS CONTRACT",
+     "at": "तुम बस में"
+    },
+    {
+     "type": "headline",
+     "text": "KHAALI BUS, PAISA PAKKA",
+     "size": "l",
+     "ill": "oncoming_bus",
+     "at": "तुम बस में"
+    }
+   ]
+  },
+  {
+   "at": "सरकारी कॉन्ट्रैक्ट में",
+   "chapter": "PER KM",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹ / KM",
+     "color": "gold",
+     "ill": "bus",
+     "at": "सरकारी कॉन्ट्रैक्ट में",
+     "note": "HAR KM KA PAISA",
+     "note_at": "हर km"
+    }
+   ]
+  },
+  {
+   "at": "तो रिस्क कहाँ",
+   "chapter": "RISK KAHAN?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "RISK?",
+     "color": "red",
+     "at": "तो रिस्क कहाँ"
+    },
+    {
+     "type": "pill",
+     "text": "AAKHIRI BAAT = ZAROORI",
+     "color": "gold",
+     "outline": true,
+     "at": "आख़िरी बात"
+    }
+   ]
+  },
+  {
+   "at": "इसे कहते हैं",
+   "chapter": "GCC MODEL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "Gross Cost Contract",
+     "size": "l",
+     "color": "blue",
+     "ill": "clipboard",
+     "at": "इसे कहते हैं"
+    }
+   ]
+  },
+  {
+   "at": "मालिक बस,",
+   "chapter": "MAALIK KA KAAM",
+   "elements": [
+    {
+     "type": "label",
+     "text": "MAALIK DETA HAI",
+     "color": "gold",
+     "at": "मालिक बस,"
+    },
+    {
+     "type": "strike_list",
+     "at": "मालिक बस,",
+     "items": [
+      {
+       "text": "Bus",
+       "at": "मालिक बस,",
+       "strike": false
+      },
+      {
+       "text": "Driver",
+       "at": "ड्राइवर और",
+       "strike": false
+      },
+      {
+       "text": "Maintenance",
+       "at": "maintenance देता",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "टिकट का पैसा",
+   "chapter": "TICKET KISKA?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "टिकट का पैसा"
+    },
+    {
+     "type": "pill",
+     "text": "TICKET KA PAISA → SARKAR",
+     "color": "blue",
+     "at": "सरकार रखती"
+    }
+   ]
+  },
+  {
+   "at": "मालिक को fixed",
+   "chapter": "FIXED RATE",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "coin_stack",
+     "at": "मालिक को fixed"
+    },
+    {
+     "type": "pill",
+     "text": "FIXED RATE · PER KM",
+     "color": "green",
+     "at": "per km।"
+    }
+   ]
+  },
+  {
+   "at": "पहला रिस्क:",
+   "chapter": "PEHLA RISK",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "RISK",
+     "sub": "RATE KISPE TIKA?",
+     "color": "red",
+     "at": "पहला रिस्क:"
+    }
+   ]
+  },
+  {
+   "at": "कि fuel,",
+   "chapter": "KHARCHA KISKA?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "कि fuel,",
+     "cards": [
+      {
+       "label": "FUEL",
+       "value": "?",
+       "color": "gold",
+       "ill": "fuel_pump",
+       "at": "कि fuel,"
+      },
+      {
+       "label": "DRIVER",
+       "value": "?",
+       "color": "gold",
+       "ill": "bus",
+       "at": "ड्राइवर और conductor"
+      },
+      {
+       "label": "CONDUCTOR",
+       "value": "?",
+       "color": "gold",
+       "ill": "ticket",
+       "at": "conductor का ख़र्चा"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "KHARCHA KAUN DEGA?",
+     "color": "red",
+     "at": "कौन देता"
+    }
+   ]
+  },
+  {
+   "at": "Punjab में",
+   "chapter": "PUNJAB MODEL",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "ledger",
+     "title": "PUNJAB · KAUN DETA HAI",
+     "at": "Punjab में",
+     "rows": [
+      {
+       "text": "Fuel → Sarkar",
+       "at": "Punjab में fuel"
+      },
+      {
+       "text": "Conductor salary → Sarkar",
+       "mark": "SARKAR",
+       "at": "सैलरी सरकार"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "दूसरा: एंट्री",
+   "chapter": "DOOSRA RISK",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "ENTRY",
+     "sub": "KA PAISA",
+     "color": "red",
+     "at": "दूसरा: एंट्री"
+    },
+    {
+     "type": "object3d",
+     "kind": "cash_stack",
+     "at": "का पैसा।"
+    }
+   ]
+  },
+  {
+   "at": "RSRTC के",
+   "chapter": "RSRTC NOTICE",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "RSRTC Rajasthan State Road Transport Corporation",
+     "photo_kind": "logo",
+     "caption": "2025-26 NOTICE",
+     "ill": "oncoming_bus",
+     "at": "RSRTC के"
+    },
+    {
+     "type": "label",
+     "text": "BID SECURITY",
+     "color": "gold",
+     "at": "bid security"
+    }
+   ]
+  },
+  {
+   "at": "₹3,10,000 से",
+   "chapter": "BID SECURITY",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "₹3,10,000",
+     "size": "l",
+     "color": "gold",
+     "ill": "locked",
+     "at": "₹3,10,000 से",
+     "sub": "TAK ₹3,46,000",
+     "sub_at": "₹3,46,000 तक",
+     "sub_color": "red"
+    }
+   ],
+   "react": [
+    {
+     "at": "₹3,46,000 तक",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "सच ये है:",
+   "chapter": "SACH",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹ ?",
+     "color": "blue",
+     "ill": "magnifying_glass_tilted_left",
+     "at": "सच ये है:",
+     "note": "MUNAFA KITNA?",
+     "note_at": "मुनाफ़ा कितना,"
+    }
+   ],
+   "react": [
+    {
+     "at": "सच ये है:",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "इसका कोई public",
+   "chapter": "NO DATA",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "PUBLIC SOURCE",
+     "size": "l",
+     "color": "white",
+     "ill": "page_facing_up",
+     "at": "इसका कोई public",
+     "sub": "NAHI MILA",
+     "sub_at": "नहीं मिला।",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "जो बोले",
+   "chapter": "SAVDHAN",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "जो बोले",
+     "items": [
+      {
+       "text": "\"Pakka itna\"",
+       "at": "\"पक्का इतना\","
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "USSE BACHO",
+     "color": "red",
+     "at": "उससे बचो।"
+    }
+   ],
+   "react": [
+    {
+     "at": "\"पक्का इतना\",",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "पहले tender",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "पहले tender",
+     "items": [
+      {
+       "text": "Pehle tender padho",
+       "at": "पहले tender",
+       "ill": "page_facing_up"
+      },
+      {
+       "text": "Kharcha kiske zimme?",
+       "at": "ख़र्चा किसके",
+       "ill": "balance_scale"
+      }
+     ]
+    }
+   ],
+   "react": [
+    {
+     "at": "पहले tender",
+     "mood": "neutral",
+     "point": true
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo bus lagwana chahta hai",
+  "line2_at": "बस लगवा"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 bus contract decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 41
+}
