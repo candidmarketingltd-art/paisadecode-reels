@@ -3,30 +3,27 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 8, 'sent': 73, 'error': 2}
-Buffer queue: 8 waiting (buffer); target 10 -> making 2
---- reel 1/2: slot 2 (money) row 48: Zcmg23GsW7I A
+      [buffer] post statuses seen: {'scheduled': 9, 'sent': 74, 'error': 2}
+Buffer queue: 9 waiting (buffer); target 10 -> making 1
+--- reel 1/1: slot 1 (economics) row 48: Zcmg23GsW7I A
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/2: slot 2 (money) row 187: idea-mall-shop-owner-vs-tenant-rent-revenue-s R
-[1/4] script  idea-mall-shop-owner-vs-tenant-rent-revenue-s R: Mall Mein Ek Dukaan Ka Rent Kitna Hota Hai? Mall Owner Kaise Kamata Hai?
-[2/4] voice
-      131 words, 53.2s, model eleven_v4
-[3/4] render
-      no free image for 'Nexus Select Malls' (logo) -> illustration
-      remotion: Reel /tmp/tmpxwyhr73y/video_only.mp4
---- reel 2/2: slot 3 (ideas) row 114: Zcmg23GsW7I B
+--- reel 1/1: slot 1 (economics) row 114: Zcmg23GsW7I B
       skipped for now (transcript unavailable): Apify usage limit reached: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 2/2: slot 3 (ideas) row 188: idea-water-park-ticket-economics R
-[1/4] script  idea-water-park-ticket-economics R: ₹1,200 Water Park Ticket: What Does the Owner Keep?
+--- reel 1/1: slot 1 (economics) row 164: Zcmg23GsW7I C
+      skipped for now (transcript unavailable): Apify usage limit reached: {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
+--- reel 1/1: slot 1 (economics) row 189: idea-mri-scan-machine-break-even R
+[1/4] script  idea-mri-scan-machine-break-even R: ₹3,000 MRI Scan: How Many Scans Pay for a ₹3 Crore Machine?
 [2/4] voice
-      140 words, 53.0s, model eleven_v4
+      141 words, 53.6s, model eleven_v4
 [3/4] render
-      no free image for 'Wonderla' (logo) -> illustration
-      remotion: Reel /tmp/tmpnmvcl649/video_only.mp4
-added 2 reel(s) to Buffer
+      remotion: Reel /tmp/tmp9zbc2y68/video_only.mp4
+added 1 reel(s) to Buffer
