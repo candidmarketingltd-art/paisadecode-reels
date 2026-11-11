@@ -1,0 +1,587 @@
+{
+ "voiceover": "[urgent, punchy] ₹180 का कैपुचीनो पीते हो? उसमें कॉफ़ी और दूध सिर्फ़ 13% है।\n\n[intrigued, building energy] तो बाकी पैसा कहाँ जाता है? और मालिक के हाथ में कितना आता है, ये आख़िर में चौंका देगा।\n\n[excited, fast] एक रोस्टर का हिसाब: कॉफ़ी ₹13.50, दूध ₹10.50। बाकी ₹156 में सब कुछ। कप, चीनी, वेस्टेज जोड़ो तो cost और ऊपर।\n\n[punchy] अब ₹10 लाख महीने की सेल वाला सैंपल कैफ़े देखो। हर ₹100 पे: ₹30 ingredients, ₹28 स्टाफ़, ₹15 रेंट, करीब ₹17 बिजली, royalty, marketing में। [serious] और मालिक को बचता है? करीब ₹10।\n\n[emphatic] रेंट ₹15, स्टाफ़ ₹28। रेंट तो कप बिके या ना बिके, देना ही है। इसलिए असली बिज़नेस कॉफ़ी नहीं... footfall है।\n\n[confident] कैफ़े खोलने से पहले बीन्स नहीं, लोकेशन देखो। पूछो: रेंट निकालने को रोज़ कितने कप बिकने चाहिए?\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, कैफ़े खोलते हैं।\"",
+ "ig_caption": "₹180 ke cappuccino mein coffee aur doodh sirf 13% hai ☕ Baaki paisa kahan jaata hai, aur owner ke paas kitna bachta hai?\n\nHar ₹100 ki sale pe owner ko bachte hain sirf ~₹10 (sample cafe).\n\nUs dost ko bhejo jo bolta hai \"yaar, cafe kholte hain\" 👇\n\nFollow @rohandecoder for daily money math\nYouTube: @PaisaDecodeHQ\nNumbers public sources se hain, approximate. Sample figures, not financial advice.",
+ "hashtags": [
+  "#CafeBusiness",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#CoffeeShop",
+  "#SmallBusinessIndia",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹180",
+  "13%",
+  "₹13.50",
+  "₹10.50",
+  "₹156",
+  "₹10,00,000 monthly revenue (₹10 लाख)",
+  "₹100",
+  "₹30 ingredients (30%)",
+  "₹28 staff (28%)",
+  "₹15 rent (15%)",
+  "about ₹17 other (scriptwriter arithmetic)",
+  "about ₹10 profit (10% net margin)"
+ ],
+ "style": "v2",
+ "tag": "CAFE BUSINESS",
+ "disclaimer": true,
+ "captions": [
+  "*₹180",
+  "ka",
+  "*cappuccino",
+  "peete",
+  "ho?",
+  "Usmein",
+  "coffee",
+  "aur",
+  "doodh",
+  "sirf",
+  "*13%",
+  "hai.",
+  "Toh",
+  "baaki",
+  "*paisa",
+  "kahan",
+  "jaata",
+  "hai?",
+  "Aur",
+  "*maalik",
+  "ke",
+  "haath",
+  "mein",
+  "kitna",
+  "aata",
+  "hai,",
+  "ye",
+  "aakhir",
+  "mein",
+  "*chaunka",
+  "dega.",
+  "Ek",
+  "*roaster",
+  "ka",
+  "hisaab:",
+  "coffee",
+  "*₹13.50,",
+  "doodh",
+  "*₹10.50.",
+  "Baaki",
+  "*₹156",
+  "mein",
+  "sab",
+  "kuch.",
+  "Cup,",
+  "cheeni,",
+  "*wastage",
+  "jodo",
+  "toh",
+  "*cost",
+  "aur",
+  "upar.",
+  "Ab",
+  "*₹10",
+  "*lakh",
+  "mahine",
+  "ki",
+  "sale",
+  "wala",
+  "sample",
+  "cafe",
+  "dekho.",
+  "Har",
+  "*₹100",
+  "pe:",
+  "*₹30",
+  "ingredients,",
+  "*₹28",
+  "staff,",
+  "*₹15",
+  "rent,",
+  "kareeb",
+  "*₹17",
+  "bijli,",
+  "royalty,",
+  "marketing",
+  "mein.",
+  "Aur",
+  "*maalik",
+  "ko",
+  "bachta",
+  "hai?",
+  "Kareeb",
+  "*₹10.",
+  "Rent",
+  "*₹15,",
+  "staff",
+  "*₹28.",
+  "*Rent",
+  "toh",
+  "cup",
+  "bike",
+  "ya",
+  "na",
+  "bike,",
+  "dena",
+  "hi",
+  "hai.",
+  "Isliye",
+  "asli",
+  "business",
+  "coffee",
+  "nahi...",
+  "*footfall",
+  "hai.",
+  "Cafe",
+  "kholne",
+  "se",
+  "pehle",
+  "*beans",
+  "nahi,",
+  "*location",
+  "dekho.",
+  "Poochho:",
+  "rent",
+  "nikaalne",
+  "ko",
+  "roz",
+  "kitne",
+  "*cup",
+  "bikne",
+  "chahiye?",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "*cafe",
+  "kholte",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹180 का",
+   "chapter": "₹180 KA CUP",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "CAFE KA ASLI HISAAB",
+     "at": "₹180 का"
+    },
+    {
+     "type": "big_number",
+     "value": "₹180",
+     "color": "gold",
+     "ill": "hot_beverage",
+     "at": "₹180 का"
+    }
+   ]
+  },
+  {
+   "at": "सिर्फ़ 13%",
+   "chapter": "13% KA SACH",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "सिर्फ़ 13%",
+     "parts": [
+      {
+       "label": "COFFEE + DOODH",
+       "value": 13,
+       "text": "13%",
+       "color": "blue",
+       "at": "सिर्फ़ 13%"
+      },
+      {
+       "label": "BAAKI · KAHAN?",
+       "value": 87,
+       "color": "gold",
+       "at": "बाकी पैसा"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और मालिक के",
+   "chapter": "MAALIK KA HISSA",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "चौंका देगा।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "vault",
+     "at": "और मालिक के"
+    },
+    {
+     "type": "pill",
+     "text": "REVEAL · AAKHIR MEIN",
+     "color": "blue",
+     "outline": true,
+     "at": "चौंका देगा।"
+    }
+   ]
+  },
+  {
+   "at": "एक रोस्टर",
+   "chapter": "ROASTER KA HISAAB",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "text": "1 CUP · RAW MATERIAL",
+     "color": "gold",
+     "at": "एक रोस्टर"
+    },
+    {
+     "type": "stat_row",
+     "at": "कॉफ़ी ₹13.50,",
+     "cards": [
+      {
+       "label": "COFFEE",
+       "value": "₹13.50",
+       "color": "gold",
+       "ill": "hot_beverage",
+       "at": "कॉफ़ी ₹13.50,"
+      },
+      {
+       "label": "DOODH",
+       "value": "₹10.50",
+       "color": "blue",
+       "ill": "glass_of_milk",
+       "at": "दूध ₹10.50।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "बाकी ₹156",
+   "chapter": "₹156 KAHAN?",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹156",
+     "color": "gold",
+     "ill": "red_question_mark",
+     "at": "बाकी ₹156",
+     "note": "SAB KUCH ISI MEIN",
+     "note_at": "सब कुछ।"
+    }
+   ]
+  },
+  {
+   "at": "कप, चीनी,",
+   "chapter": "COST UPAR",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "कप, चीनी,",
+     "items": [
+      {
+       "text": "+ Cup",
+       "at": "कप, चीनी,",
+       "strike": false
+      },
+      {
+       "text": "+ Cheeni",
+       "at": "चीनी,",
+       "strike": false
+      },
+      {
+       "text": "+ Wastage",
+       "at": "वेस्टेज जोड़ो",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "text": "COST ↑ AUR UPAR",
+     "color": "red",
+     "at": "और ऊपर।"
+    }
+   ]
+  },
+  {
+   "at": "अब ₹10",
+   "chapter": "SAMPLE CAFE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹10 LAKH",
+     "color": "gold",
+     "at": "अब ₹10",
+     "note": "SALE / MAHINA",
+     "note_at": "महीने की"
+    }
+   ]
+  },
+  {
+   "at": "सैंपल कैफ़े",
+   "chapter": "SAMPLE CAFE",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "shop",
+     "at": "सैंपल कैफ़े"
+    }
+   ]
+  },
+  {
+   "at": "हर ₹100",
+   "chapter": "₹100 KA BATWARA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "₹100",
+     "size": "l",
+     "color": "gold",
+     "at": "हर ₹100"
+    },
+    {
+     "type": "split_bar",
+     "at": "₹30 ingredients,",
+     "parts": [
+      {
+       "label": "INGREDIENTS",
+       "value": 30,
+       "text": "₹30",
+       "color": "blue",
+       "at": "₹30 ingredients,"
+      },
+      {
+       "label": "STAFF",
+       "value": 28,
+       "text": "₹28",
+       "color": "gold",
+       "at": "₹28 स्टाफ़,"
+      },
+      {
+       "label": "RENT",
+       "value": 15,
+       "text": "₹15",
+       "color": "red",
+       "at": "₹15 रेंट,"
+      },
+      {
+       "label": "BIJLI·ROYALTY·ADS",
+       "value": 17,
+       "text": "₹17",
+       "color": "muted",
+       "at": "₹17 बिजली,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "और मालिक को",
+   "chapter": "MAALIK KO?",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "करीब ₹10।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "text": "MAALIK KO BACHTA HAI?",
+     "color": "blue",
+     "at": "और मालिक को"
+    },
+    {
+     "type": "big_number",
+     "value": "₹10",
+     "color": "gold",
+     "ill": "coin",
+     "at": "करीब ₹10।",
+     "note": "HAR ₹100 PE",
+     "note_at": "करीब ₹10।"
+    }
+   ]
+  },
+  {
+   "at": "रेंट ₹15,",
+   "chapter": "FIXED KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "रेंट ₹15,",
+     "cards": [
+      {
+       "label": "RENT",
+       "value": "₹15",
+       "color": "red",
+       "ill": "house",
+       "at": "रेंट ₹15,"
+      },
+      {
+       "label": "STAFF",
+       "value": "₹28",
+       "color": "red",
+       "ill": "necktie",
+       "at": "स्टाफ़ ₹28।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "रेंट तो कप",
+   "chapter": "DENA HI HAI",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "FIXED",
+     "sub": "CUP BIKE YA NA BIKE",
+     "color": "red",
+     "at": "रेंट तो कप"
+    },
+    {
+     "type": "pill",
+     "text": "RENT · HAR MAHINA",
+     "color": "red",
+     "outline": true,
+     "at": "देना ही"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए असली",
+   "chapter": "ASLI BUSINESS",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ASLI BUSINESS =",
+     "color": "blue",
+     "at": "इसलिए असली"
+    },
+    {
+     "type": "strike_list",
+     "at": "कॉफ़ी नहीं...",
+     "items": [
+      {
+       "text": "Coffee",
+       "at": "कॉफ़ी नहीं...",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "footfall है।",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "footfall है।",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "text": "FOOTFALL",
+     "sub": "ROZ KITNE LOG AATE HAIN",
+     "color": "gold",
+     "at": "footfall है।"
+    }
+   ]
+  },
+  {
+   "at": "कैफ़े खोलने",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "कैफ़े खोलने",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "MERA PLAN",
+     "color": "green",
+     "at": "कैफ़े खोलने"
+    },
+    {
+     "type": "vs",
+     "at": "बीन्स नहीं,",
+     "left": {
+      "label": "PEHLE NAHI",
+      "value": "BEANS",
+      "sub": "coffee ki quality"
+     },
+     "right": {
+      "label": "PEHLE YE",
+      "value": "JAGAH",
+      "sub": "location · footfall",
+      "color": "green",
+      "ill": "round_pushpin",
+      "at": "लोकेशन देखो।"
+     },
+     "strike_at": "लोकेशन देखो।"
+    }
+   ]
+  },
+  {
+   "at": "पूछो: रेंट",
+   "chapter": "ASLI SAWAAL",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "? CUP",
+     "label": "RENT NIKAALNE KO · ROZ",
+     "at": "पूछो: रेंट",
+     "value_at": "कितने कप"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "clip": "face_point",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo bolta hai \"cafe kholte hain\"",
+  "line2_at": "कैफ़े खोलते"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 cafe decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 45
+}

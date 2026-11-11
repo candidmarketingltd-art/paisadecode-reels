@@ -1,0 +1,483 @@
+{
+ "voiceover": "[urgent, punchy] ₹1 करोड़ का फ्लैट लिया? बिल्डर का EBITDA मार्जिन करीब 30% है, यानी लगभग ₹30 लाख।\n\n[intrigued, building energy] और आख़िरी वाली बात सबसे ज़्यादा चुभेगी।\n\n[excited, fast] ज़मीन: 20 से 30%, यानी ₹20 से 30 लाख। Construction: सिर्फ़ करीब 40%। Approvals और सरकारी फ़ीस: 5 से 10%। [amused] Broker का कमीशन 1 से 3%। वो भी बिल्डर देता है।\n\n[serious] और GST, stamp duty इस ₹1 करोड़ में है ही नहीं। वो ऊपर से तुम देते हो: 5 से 8%। मतलब कुल खर्च 7 से 12% ज़्यादा।\n\n[emphatic] यानी जो दीवार-छत तुम्हें दिखती है, वो सिर्फ़ करीब 40% है। बाकी ज़मीन, फ़ीस और बिल्डर का margin।\n\n[confident] इसलिए सिर्फ़ रेट मत पूछो, टैक्स जोड़कर कुल cost पूछो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"भाई, बस ₹1 करोड़ में फ्लैट ले लूँगा।\"",
+ "ig_caption": "₹1 crore ke flat mein builder ka EBITDA margin lagbhag 30% hai 🏢 Aur GST-stamp duty toh upar se alag lagti hai.\n\nZameen 20-30%, construction sirf ~40%. Baaki kahan jaata hai, reel mein dekho.\n\nUs dost ko bhejo jo ₹1 crore mein flat lene ki baat karta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se, approximate\nTypical ranges hain, city aur project ke hisaab se badalti hain. Not financial advice.",
+ "hashtags": [
+  "#RealEstateIndia",
+  "#FlatBuying",
+  "#BuilderMargin",
+  "#HomeBuyers",
+  "#PaisaDecode",
+  "#PropertyInvestment",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹1 crore",
+  "EBITDA margin hovers around 30 per cent",
+  "₹30 lakh (30% of ₹1 crore, arithmetic on the sourced percentage)",
+  "land 20–30 per cent",
+  "₹20 से 30 लाख (20–30% of ₹1 crore, arithmetic on the sourced percentage)",
+  "construction around 40 per cent",
+  "approvals, FSI premiums and regulatory costs 5–10%",
+  "broker commission 1% to 3%",
+  "statutory charges (stamp duty, registration, GST) 5 to 8% of base price",
+  "total cost of buying 7 to 12 percent higher than quoted price"
+ ],
+ "style": "v2",
+ "tag": "FLAT KA HISAAB",
+ "disclaimer": true,
+ "captions": [
+  "*₹1",
+  "*crore",
+  "ka",
+  "flat",
+  "liya?",
+  "Builder",
+  "ka",
+  "EBITDA",
+  "margin",
+  "kareeb",
+  "*30%",
+  "hai,",
+  "yaani",
+  "lagbhag",
+  "*₹30",
+  "*lakh.",
+  "Aur",
+  "aakhiri",
+  "wali",
+  "baat",
+  "sabse",
+  "zyada",
+  "*chubhegi.",
+  "*Zameen:",
+  "*20",
+  "se",
+  "*30%,",
+  "yaani",
+  "₹20",
+  "se",
+  "30",
+  "lakh.",
+  "*Construction:",
+  "sirf",
+  "kareeb",
+  "*40%.",
+  "*Approvals",
+  "aur",
+  "sarkari",
+  "fees:",
+  "5",
+  "se",
+  "10%.",
+  "*Broker",
+  "ka",
+  "commission",
+  "1",
+  "se",
+  "*3%.",
+  "Wo",
+  "bhi",
+  "*builder",
+  "deta",
+  "hai.",
+  "Aur",
+  "*GST,",
+  "*stamp",
+  "duty",
+  "is",
+  "₹1",
+  "crore",
+  "mein",
+  "hai",
+  "hi",
+  "nahi.",
+  "Wo",
+  "upar",
+  "se",
+  "*tum",
+  "dete",
+  "ho:",
+  "*5",
+  "se",
+  "*8%.",
+  "Matlab",
+  "kul",
+  "kharch",
+  "*7",
+  "se",
+  "*12%",
+  "zyada.",
+  "Yaani",
+  "jo",
+  "*deewar-chhat",
+  "tumhein",
+  "dikhti",
+  "hai,",
+  "wo",
+  "sirf",
+  "kareeb",
+  "*40%",
+  "hai.",
+  "Baaki",
+  "zameen,",
+  "fees",
+  "aur",
+  "builder",
+  "ka",
+  "*margin.",
+  "Isliye",
+  "sirf",
+  "*rate",
+  "mat",
+  "poochho,",
+  "*tax",
+  "jodkar",
+  "kul",
+  "*cost",
+  "poochho.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Bhai,",
+  "bas",
+  "*₹1",
+  "*crore",
+  "mein",
+  "flat",
+  "le",
+  "loonga.\""
+ ],
+ "scenes": [
+  {
+   "at": "₹1 करोड़ का",
+   "chapter": "₹1 CRORE FLAT",
+   "tint": "warm",
+   "aroll": "face_point",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹1 CR",
+     "color": "gold",
+     "ill": "house",
+     "at": "₹1 करोड़ का",
+     "note": "BUILDER KO KITNA?",
+     "note_at": "बिल्डर का EBITDA"
+    }
+   ]
+  },
+  {
+   "at": "बिल्डर का EBITDA",
+   "chapter": "BUILDER MARGIN",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "30%",
+     "label": "EBITDA MARGIN",
+     "at": "बिल्डर का EBITDA",
+     "value_at": "करीब 30%"
+    }
+   ]
+  },
+  {
+   "at": "यानी लगभग",
+   "chapter": "BUILDER KA HISSA",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "cash_stack",
+     "at": "यानी लगभग"
+    },
+    {
+     "type": "pill",
+     "text": "₹30 LAKH · BUILDER",
+     "color": "gold",
+     "at": "₹30 लाख।"
+    }
+   ],
+   "react": [
+    {
+     "at": "₹30 लाख।",
+     "mood": "shocked"
+    }
+   ]
+  },
+  {
+   "at": "और आख़िरी",
+   "chapter": "WAIT KARO",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "AAKHIRI BAAT CHUBHEGI",
+     "size": "l",
+     "ill": "warning",
+     "at": "और आख़िरी"
+    }
+   ]
+  },
+  {
+   "at": "ज़मीन: 20",
+   "chapter": "ZAMEEN",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "20–30%",
+     "color": "gold",
+     "ill": "seedling",
+     "at": "ज़मीन: 20",
+     "note": "₹20–30 LAKH",
+     "note_at": "₹20 से 30"
+    }
+   ]
+  },
+  {
+   "at": "Construction: सिर्फ़",
+   "chapter": "CONSTRUCTION",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "building",
+     "at": "Construction: सिर्फ़"
+    },
+    {
+     "type": "pill",
+     "text": "SIRF ~40%",
+     "color": "blue",
+     "at": "करीब 40%।"
+    }
+   ]
+  },
+  {
+   "at": "Approvals और सरकारी",
+   "chapter": "SARKARI FEES",
+   "aroll": "broll_papers",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "5–10%",
+     "color": "white",
+     "ill": "page_facing_up",
+     "at": "Approvals और सरकारी",
+     "note": "APPROVALS + FEES",
+     "note_at": "5 से 10%।"
+    }
+   ]
+  },
+  {
+   "at": "Broker का कमीशन",
+   "chapter": "BROKER CUT",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "Broker का कमीशन"
+    },
+    {
+     "type": "pill",
+     "text": "1–3% COMMISSION",
+     "color": "gold",
+     "at": "1 से 3%।"
+    }
+   ]
+  },
+  {
+   "at": "वो भी बिल्डर",
+   "chapter": "KAUN DETA HAI",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "BUILDER KI JEB SE",
+     "size": "l",
+     "ill": "briefcase",
+     "at": "वो भी बिल्डर"
+    }
+   ],
+   "react": [
+    {
+     "at": "बिल्डर देता है।",
+     "mood": "smirk"
+    }
+   ]
+  },
+  {
+   "at": "और GST, stamp",
+   "chapter": "TWIST",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "GST + STAMP DUTY",
+     "size": "l",
+     "ill": "receipt",
+     "at": "और GST, stamp",
+     "sub": "₹1 CR MEIN SHAMIL NAHI",
+     "sub_at": "है ही नहीं।",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "वो ऊपर से",
+   "chapter": "UPAR SE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "+5–8%",
+     "color": "red",
+     "ill": "credit_card",
+     "at": "वो ऊपर से",
+     "note": "TUM DETE HO",
+     "note_at": "तुम देते"
+    }
+   ],
+   "react": [
+    {
+     "at": "तुम देते",
+     "mood": "serious",
+     "clip": "face_credit_card"
+    }
+   ]
+  },
+  {
+   "at": "मतलब कुल खर्च",
+   "chapter": "KUL KHARCH",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "मतलब कुल खर्च",
+     "left": {
+      "label": "RATE",
+      "value": "₹1 CR",
+      "sub": "jo bataya"
+     },
+     "right": {
+      "label": "KUL KHARCH",
+      "value": "+7–12%",
+      "sub": "zyada",
+      "color": "red",
+      "at": "7 से 12%"
+     }
+    }
+   ]
+  },
+  {
+   "at": "यानी जो दीवार-छत",
+   "chapter": "ASLI SACH",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "~40%",
+     "color": "blue",
+     "ill": "brick",
+     "at": "यानी जो दीवार-छत",
+     "note": "DEEWAR-CHHAT",
+     "note_at": "करीब 40% है।"
+    }
+   ],
+   "react": [
+    {
+     "at": "करीब 40% है।",
+     "mood": "serious",
+     "point": true
+    }
+   ]
+  },
+  {
+   "at": "बाकी ज़मीन,",
+   "chapter": "₹1 CR KA BATWARA",
+   "elements": [
+    {
+     "type": "split_bar",
+     "at": "बाकी ज़मीन,",
+     "parts": [
+      {
+       "label": "DEEWAR-CHHAT",
+       "value": 40,
+       "text": "40%",
+       "color": "blue",
+       "at": "बाकी ज़मीन,"
+      },
+      {
+       "label": "ZAMEEN",
+       "value": 25,
+       "text": "20–30%",
+       "color": "muted",
+       "at": "ज़मीन, फ़ीस"
+      },
+      {
+       "label": "FEES",
+       "value": 8,
+       "text": "5–10%",
+       "color": "white",
+       "at": "फ़ीस और"
+      },
+      {
+       "label": "MARGIN",
+       "value": 30,
+       "text": "~30%",
+       "color": "gold",
+       "at": "margin।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "इसलिए सिर्फ़ रेट",
+   "chapter": "MERA RULE",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "इसलिए सिर्फ़ रेट",
+     "left": {
+      "label": "SIRF RATE",
+      "value": "₹1 CR",
+      "sub": "adhoora"
+     },
+     "right": {
+      "label": "KUL COST",
+      "value": "+TAX",
+      "sub": "GST + stamp",
+      "color": "green",
+      "ill": "check_mark_button",
+      "at": "कुल cost"
+     },
+     "strike_at": "कुल cost"
+    },
+    {
+     "type": "pill",
+     "text": "TAX JODKAR POOCHHO",
+     "color": "green",
+     "at": "cost पूछो।"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo ₹1 crore mein flat lega",
+  "line2_at": "बस ₹1 करोड़",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 flat decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 46
+}
