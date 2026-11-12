@@ -1,0 +1,544 @@
+{
+ "voiceover": "[urgent, punchy] स्टेशन पर चाय ₹5 की है। और उसे बेचने का लाइसेंस, साल का ₹1,48,750।\n\n[intrigued, building energy] ये हक़ देता कौन है? और बड़े स्टेशन की फ़ीस सुनकर चौंक जाओगे।\n\n[excited, fast] रेलवे एक्ट की धारा 144 कहती है: बिना लाइसेंस प्लेटफ़ॉर्म पर कुछ नहीं बिकेगा। लाइसेंस टेंडर से मिलता है, 5 साल के लिए। जो ज़्यादा फ़ीस बोले, उसी का।\n\n[serious] घुसने से पहले ही, एक Chennai टेंडर में ₹2,03,700 EMD जमा करना पड़ता है।\n\n[punchy] छोटे स्टेशन पर ₹1,48,750 साल, यानी करीब ₹12,396 महीना।\n\n[emphatic] और Katpadi जैसे A कैटेगरी स्टेशन पर एक कैटरिंग स्टॉल: ₹18,83,200 साल, करीब ₹1.57 लाख महीना। चाय बिके या ना बिके, फ़ीस वही।\n\n[confident] असली कमाई का कोई पक्का सरकारी आँकड़ा नहीं है। इसलिए पहले टेंडर देखो, फिर footfall गिनो।\n\n[playful, warm] ये रील उस दोस्त को भेजो जो बोलता है, \"यार, स्टेशन पे चाय का स्टॉल लगा लेते हैं।\"",
+ "ig_caption": "Station pe chai ka rate ₹5, par bechne ka licence saal ka ₹1,48,750 ☕ Bade station pe fee sunkar hosh udd jayenge.\n\nUs dost ko bhejo jo station pe chai ka stall kholna chahta hai 👇\n\nFollow @rohandecoder for daily money math\nNumbers public sources se hain, approximate. Licence fees indicative tender examples hain, monthly figures simple division hain, not financial advice.",
+ "hashtags": [
+  "#RailwayStationBusiness",
+  "#ChaiStall",
+  "#BusinessIdeas",
+  "#PaisaDecode",
+  "#SmallBusinessIndia",
+  "#IndianRailways",
+  "#Hindi"
+ ],
+ "numbers": [
+  "₹5",
+  "₹1,48,750",
+  "धारा 144",
+  "5 साल",
+  "₹2,03,700",
+  "₹12,396",
+  "₹18,83,200",
+  "₹1.57 लाख"
+ ],
+ "style": "v2",
+ "tag": "STATION CHAI",
+ "disclaimer": true,
+ "captions": [
+  "Station",
+  "par",
+  "*chai",
+  "*₹5",
+  "ki",
+  "hai.",
+  "Aur",
+  "use",
+  "bechne",
+  "ka",
+  "licence,",
+  "saal",
+  "ka",
+  "*₹1,48,750.",
+  "Ye",
+  "*haq",
+  "deta",
+  "kaun",
+  "hai?",
+  "Aur",
+  "*bade",
+  "station",
+  "ki",
+  "*fees",
+  "sunkar",
+  "chaunk",
+  "jaoge.",
+  "*Railway",
+  "*Act",
+  "ki",
+  "dhara",
+  "*144",
+  "kehti",
+  "hai:",
+  "bina",
+  "*licence",
+  "platform",
+  "par",
+  "kuch",
+  "nahi",
+  "bikega.",
+  "Licence",
+  "*tender",
+  "se",
+  "milta",
+  "hai,",
+  "*5",
+  "*saal",
+  "ke",
+  "liye.",
+  "Jo",
+  "*zyada",
+  "*fees",
+  "bole,",
+  "usi",
+  "ka.",
+  "Ghusne",
+  "se",
+  "pehle",
+  "hi,",
+  "ek",
+  "Chennai",
+  "tender",
+  "mein",
+  "*₹2,03,700",
+  "*EMD",
+  "jama",
+  "karna",
+  "padta",
+  "hai.",
+  "Chhote",
+  "station",
+  "par",
+  "*₹1,48,750",
+  "saal,",
+  "yaani",
+  "kareeb",
+  "*₹12,396",
+  "mahina.",
+  "Aur",
+  "*Katpadi",
+  "jaise",
+  "A",
+  "category",
+  "station",
+  "par",
+  "ek",
+  "catering",
+  "stall:",
+  "*₹18,83,200",
+  "saal,",
+  "kareeb",
+  "*₹1.57",
+  "lakh",
+  "mahina.",
+  "Chai",
+  "bike",
+  "ya",
+  "na",
+  "bike,",
+  "*fees",
+  "*wahi.",
+  "Asli",
+  "*kamai",
+  "ka",
+  "koi",
+  "pakka",
+  "*sarkari",
+  "aankda",
+  "nahi",
+  "hai.",
+  "Isliye",
+  "pehle",
+  "*tender",
+  "dekho,",
+  "phir",
+  "*footfall",
+  "gino.",
+  "Ye",
+  "reel",
+  "us",
+  "*dost",
+  "ko",
+  "*bhejo",
+  "jo",
+  "bolta",
+  "hai,",
+  "\"Yaar,",
+  "station",
+  "pe",
+  "*chai",
+  "ka",
+  "stall",
+  "laga",
+  "lete",
+  "hain.\""
+ ],
+ "scenes": [
+  {
+   "at": "स्टेशन पर चाय",
+   "chapter": "₹5 KI CHAI",
+   "tint": "warm",
+   "aroll": "face_shocked_phone",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹5",
+     "color": "gold",
+     "ill": "hot_beverage",
+     "at": "स्टेशन पर चाय"
+    }
+   ]
+  },
+  {
+   "at": "और उसे बेचने",
+   "chapter": "LICENCE KA DAAM",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹1,48,750।",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "text": "BECHNE KA LICENCE",
+     "color": "red",
+     "at": "और उसे बेचने"
+    },
+    {
+     "type": "big_number",
+     "value": "₹1,48,750",
+     "color": "red",
+     "ill": "admission_tickets",
+     "at": "₹1,48,750।",
+     "note": "PER SAAL",
+     "note_at": "₹1,48,750।"
+    }
+   ]
+  },
+  {
+   "at": "ये हक़ देता",
+   "chapter": "HAQ KAUN DETA?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "HAQ KAUN DETA HAI?",
+     "size": "l",
+     "ill": "red_question_mark",
+     "at": "ये हक़ देता"
+    },
+    {
+     "type": "pill",
+     "text": "BADE STATION KI FEES?",
+     "color": "blue",
+     "at": "बड़े स्टेशन की"
+    }
+   ]
+  },
+  {
+   "at": "रेलवे एक्ट की",
+   "chapter": "KANOON",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "text": "RAILWAY ACT",
+     "color": "blue",
+     "at": "रेलवे एक्ट की"
+    },
+    {
+     "type": "title_slam",
+     "text": "144",
+     "sub": "DHARA",
+     "color": "gold",
+     "at": "धारा 144"
+    }
+   ]
+  },
+  {
+   "at": "बिना लाइसेंस प्लेटफ़ॉर्म",
+   "chapter": "BINA LICENCE?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "text": "NO LICENCE = NO SALE",
+     "size": "l",
+     "color": "red",
+     "ill": "no_entry",
+     "at": "बिना लाइसेंस प्लेटफ़ॉर्म"
+    },
+    {
+     "type": "pill",
+     "text": "PLATFORM PE KUCH NAHI",
+     "color": "red",
+     "outline": true,
+     "at": "कुछ नहीं बिकेगा।"
+    }
+   ]
+  },
+  {
+   "at": "लाइसेंस टेंडर से",
+   "chapter": "TENDER",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "padlock",
+     "at": "लाइसेंस टेंडर से"
+    },
+    {
+     "type": "pill",
+     "text": "LICENCE = TENDER",
+     "color": "gold",
+     "at": "टेंडर से मिलता"
+    }
+   ]
+  },
+  {
+   "at": "5 साल के",
+   "chapter": "5 SAAL KA HAQ",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "5 SAAL",
+     "color": "gold",
+     "ill": "calendar",
+     "at": "5 साल के"
+    }
+   ]
+  },
+  {
+   "at": "जो ज़्यादा फ़ीस",
+   "chapter": "BOLI KA KHEL",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "उसी का।",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "ZYADA FEES = LICENCE",
+     "size": "l",
+     "color": "gold",
+     "ill": "trophy",
+     "at": "जो ज़्यादा फ़ीस"
+    }
+   ]
+  },
+  {
+   "at": "घुसने से पहले",
+   "chapter": "ENTRY FEE",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "text": "ENTRY SE PEHLE",
+     "color": "red",
+     "at": "घुसने से पहले"
+    },
+    {
+     "type": "big_number",
+     "value": "₹2,03,700",
+     "color": "red",
+     "ill": "receipt",
+     "at": "₹2,03,700 EMD",
+     "note": "EMD · CHENNAI TENDER",
+     "note_at": "EMD जमा"
+    }
+   ]
+  },
+  {
+   "at": "छोटे स्टेशन पर",
+   "chapter": "CHHOTA STATION",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "big_number",
+     "value": "₹1,48,750",
+     "color": "gold",
+     "ill": "station",
+     "at": "छोटे स्टेशन पर",
+     "note": "PER SAAL",
+     "note_at": "₹1,48,750 साल,"
+    }
+   ]
+  },
+  {
+   "at": "यानी करीब",
+   "chapter": "MAHINE KA",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "calculator",
+     "value": "₹12,396",
+     "label": "PER MAHINA",
+     "at": "यानी करीब",
+     "value_at": "₹12,396 महीना।"
+    }
+   ]
+  },
+  {
+   "at": "और Katpadi जैसे",
+   "chapter": "BADA STATION",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "photo_card",
+     "photo": "Katpadi railway station",
+     "photo_kind": "place",
+     "caption": "KATPADI",
+     "ill": "station",
+     "at": "और Katpadi जैसे"
+    },
+    {
+     "type": "pill",
+     "text": "A CATEGORY",
+     "color": "blue",
+     "at": "A कैटेगरी"
+    }
+   ]
+  },
+  {
+   "at": "एक कैटरिंग स्टॉल:",
+   "chapter": "ASLI JHATKA",
+   "tint": "red",
+   "react": [
+    {
+     "at": "₹18,83,200 साल,",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "text": "1 CATERING STALL",
+     "color": "red",
+     "at": "एक कैटरिंग स्टॉल:"
+    },
+    {
+     "type": "title_slam",
+     "text": "₹18,83,200",
+     "sub": "PER SAAL",
+     "color": "red",
+     "at": "₹18,83,200 साल,"
+    }
+   ]
+  },
+  {
+   "at": "करीब ₹1.57 लाख",
+   "chapter": "MAHINE KA BOJH",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "करीब ₹1.57 लाख",
+     "left": {
+      "label": "CHHOTA STATION",
+      "value": "₹12,396",
+      "sub": "per mahina"
+     },
+     "right": {
+      "label": "KATPADI",
+      "value": "₹1.57L",
+      "sub": "per mahina",
+      "color": "red",
+      "ill": "station",
+      "at": "₹1.57 लाख"
+     }
+    }
+   ]
+  },
+  {
+   "at": "चाय बिके या",
+   "chapter": "FIXED KHARCHA",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "kind": "funnel",
+     "at": "चाय बिके या"
+    },
+    {
+     "type": "pill",
+     "text": "FEES WAHI",
+     "color": "red",
+     "at": "फ़ीस वही।"
+    }
+   ]
+  },
+  {
+   "at": "असली कमाई का",
+   "chapter": "KAMAI KA SACH",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "असली कमाई का",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "text": "ASLI KAMAI?",
+     "size": "l",
+     "color": "blue",
+     "ill": "magnifying_glass_tilted_left",
+     "at": "असली कमाई का"
+    },
+    {
+     "type": "pill",
+     "text": "NO SARKARI AANKDA",
+     "color": "blue",
+     "outline": true,
+     "at": "सरकारी आँकड़ा"
+    }
+   ]
+  },
+  {
+   "at": "इसलिए पहले टेंडर",
+   "chapter": "MERA PLAN",
+   "tint": "green",
+   "react": [
+    {
+     "at": "इसलिए पहले टेंडर",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "steps",
+     "at": "इसलिए पहले टेंडर",
+     "items": [
+      {
+       "text": "Pehle tender dekho",
+       "ill": "page_facing_up",
+       "at": "इसलिए पहले टेंडर"
+      },
+      {
+       "text": "Phir footfall gino",
+       "ill": "abacus",
+       "at": "फिर footfall"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "ये रील उस",
+  "line1": "Us dost ko bhejo",
+  "line1_at": "दोस्त को भेजो",
+  "line2": "jo chai stall lagana chahta hai",
+  "line2_at": "चाय का स्टॉल",
+  "clip": "face_point"
+ },
+ "endcard": {
+  "title": "Hisaab clear?",
+  "terminal": "> hisaab.saved · 1 station stall decoded"
+ },
+ "models": {
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 47,
+ "photo_credits": [
+  "Wikimedia Commons / Santosh4118 · CC BY-SA 4.0"
+ ]
+}
