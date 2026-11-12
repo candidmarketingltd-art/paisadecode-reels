@@ -3,63 +3,20 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'scheduled': 9, 'sent': 77, 'error': 2}
-Buffer queue: 9 waiting (buffer); target 10 -> making 1
---- reel 1/1: slot 1 (economics) row 48: Zcmg23GsW7I A
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 114: Zcmg23GsW7I B
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 164: Zcmg23GsW7I C
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 51: PE22oGWm3rA A
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 57: xsuvqCTZqIY A
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 117: PE22oGWm3rA B
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 123: xsuvqCTZqIY B
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 165: PE22oGWm3rA C
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 54: w9hUMH0fPw4 A
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 167: xsuvqCTZqIY C
-      skipped for now (transcript unavailable): Apify usage limit reached: {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
---- reel 1/1: slot 1 (economics) row 193: idea-railway-platform-stall-licence-economics R
-[1/4] script  idea-railway-platform-stall-licence-economics R: Railway Station Pe Chai-Snacks Stall: Licence Kaise Milta Hai Aur Kitna Kamate Hain?
-[2/4] voice
-      136 words, 57.8s, model eleven_v4
-[3/4] render
-      photo 'Katpadi railway station' -> fa71d6582a3f.jpg (Wikimedia Commons / Santosh4118 · CC BY-SA 4.0)
-      remotion: Reel /tmp/tmpb_v196gf/video_only.mp4
-added 1 reel(s) to Buffer
+      [buffer] post statuses seen: {'scheduled': 8, 'sent': 79, 'error': 2}
+Buffer queue: 8 waiting (buffer); target 10 -> making 2
+--- reel 1/2: slot 2 (money) row 48: Zcmg23GsW7I A
+Traceback (most recent call last):
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 255, in refill
+    mp4, caption = make_reel(row, wd)
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 93, in make_reel
+    tr = transcript.get(vid)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/transcript.py", line 30, in get
+    r.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240
+added 0 reel(s) to Buffer
+::error::401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240

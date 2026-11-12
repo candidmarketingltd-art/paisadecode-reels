@@ -47,25 +47,22 @@ date,time_ist,slot,category,video_id,title,angle,angle_brief,status,ig_media_id,
 2026-11-14,08:30,1,economics,YG196D8Lhx4,₹10 Lakh Laundry Business: Can Washing Clothes Make You Rich?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",queued,,,,32,
 2026-11-14,13:30,2,money,Wh1EY4M_ELQ,You Paid Your Home Loan for 5 Years. Why Do You Still Owe So Much?,A,"The core math answer to the video's question, told as a quick story with one surprising number.",queued,,,,,
 2026-11-14,19:30,3,ideas,GQ_iId8G1_I,5 Boring B2B Businesses Where Companies Pay You Every Month,I2,"Business #2 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-11-15,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",waiting_apify,,"Apify usage limit reached: {
-  ""error"": {
-    ""type"": ""platform-feature-disabled"",
-    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,7,
+2026-11-15,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",queued,,render failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240,,7,1
 2026-11-15,13:30,2,money,NNmfJfEVPV8,"₹50,000 Salary: How Much EMI Is Too Much?",A,"The core math answer to the video's question, told as a quick story with one surprising number.",queued,,,,,
 2026-11-15,19:30,3,ideas,_CFtyRX8Mb0,5 Boring Businesses You Can Start Under ₹1 Lakh,I2,"Business #2 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-11-16,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",waiting_apify,,"Apify usage limit reached: {
+2026-11-16,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,13,
 2026-11-16,13:30,2,money,3Su2k67fq3c,₹1 Crore Term Insurance: Is It Actually Enough for Your Family?,A,"The core math answer to the video's question, told as a quick story with one surprising number.",queued,,,,,
 2026-11-16,19:30,3,ideas,eYBQ6mIaCs4,"5 Boring Businesses You Can Start Testing Under ₹50,000",I2,"Business #2 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-11-17,08:30,1,economics,w9hUMH0fPw4,₹15 Lakh Preschool: Can 50 Kids Make It Profitable?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",waiting_apify,,"Apify usage limit reached: {
+2026-11-17,08:30,1,economics,w9hUMH0fPw4,₹15 Lakh Preschool: Can 50 Kids Make It Profitable?,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,19,
 2026-11-17,13:30,2,money,2w8WzUX_EG8,₹8 Lakh Health Insurance Claim Rejected? Do These 4 Things First,A,"The core math answer to the video's question, told as a quick story with one surprising number.",queued,,,,,
 2026-11-17,19:30,3,ideas,alAIJhAqD-k,Amazon & Flipkart Sale 2026: 7 Tricks to Check BEFORE You Buy Anything,T2,"Trick group 2 of 3 from the list (2-3 tricks), framed as 'check this before you buy'.",queued,,,,,
-2026-11-18,08:30,1,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",waiting_apify,,"Apify usage limit reached: {
+2026-11-18,08:30,1,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,A,"Full story arc: the dream number, the 3 hidden costs that hit, the twist, and what to do instead.",queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,15,
@@ -125,13 +122,13 @@ date,time_ist,slot,category,video_id,title,angle,angle_brief,status,ig_media_id,
 2026-12-06,08:30,1,economics,YG196D8Lhx4,₹10 Lakh Laundry Business: Can Washing Clothes Make You Rich?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,,,33,
 2026-12-06,13:30,2,money,T7oW6D8R8YI,No-Cost EMI Isn't Free. So Where Are You Actually Paying?,B,"The hidden cost / trap most people miss, and the simple rule to avoid it.",queued,,,,,
 2026-12-06,19:30,3,ideas,eYBQ6mIaCs4,"5 Boring Businesses You Can Start Testing Under ₹50,000",I4,"Business #4 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-12-07,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,waiting_apify,,"Apify usage limit reached: {
+2026-12-07,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,9,
 2026-12-07,13:30,2,money,k-bazkQ4sEE,You Retire With ₹1 Crore. When Does the Money Run Out?,B,"The hidden cost / trap most people miss, and the simple rule to avoid it.",queued,,,,,
 2026-12-07,19:30,3,ideas,cutJkJ4H7-U,"5 Boring Businesses Nobody Notices Behind Restaurants, Hotels & Hospital",I4,"Business #4 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-12-08,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,waiting_apify,,"Apify usage limit reached: {
+2026-12-08,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,15,
@@ -140,7 +137,7 @@ date,time_ist,slot,category,video_id,title,angle,angle_brief,status,ig_media_id,
 2026-12-09,08:30,1,economics,w9hUMH0fPw4,₹15 Lakh Preschool: Can 50 Kids Make It Profitable?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,,,21,
 2026-12-09,13:30,2,money,TmfaQA4wGqI,"UPI Above ₹2,000: Will YOU Pay 0.4% Extra From October 15?",B,"The hidden cost / trap most people miss, and the simple rule to avoid it.",queued,,,,,
 2026-12-09,19:30,3,ideas,BD2IoRlhECg,5 Boring Businesses in India That Get Paid Again and Again,I5,"Business #5 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-12-10,08:30,1,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,waiting_apify,,"Apify usage limit reached: {
+2026-12-10,08:30,1,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,17,
@@ -184,16 +181,16 @@ date,time_ist,slot,category,video_id,title,angle,angle_brief,status,ig_media_id,
 2026-12-22,19:30,3,economics,COFgL_RnQzs,The Economics of an Indian Wedding Banquet Hall: Can 50 Weddings Pay for the Entire Year?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,in_buffer,6aeb7e797631b8ab98c04c61,https://github.com/candidmarketingltd-art/paisadecode-reels/releases/download/reel-COFgL-RnQzs-C/2026-12-22_1930_COFgL_RnQzs_C_hisaab.mp4,queued 2026-11-05 00:20,13,
 2026-12-23,08:30,1,economics,saT-PPAGc9g,"Buy Chairs Once, Rent Them 100 Times? | Tent House Business Economics",C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,,,31,
 2026-12-23,13:30,2,economics,YG196D8Lhx4,₹10 Lakh Laundry Business: Can Washing Clothes Make You Rich?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,,,34,
-2026-12-23,19:30,3,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,waiting_apify,,"Apify usage limit reached: {
+2026-12-23,19:30,3,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,11,
-2026-12-24,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,waiting_apify,,"Apify usage limit reached: {
+2026-12-24,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,17,
 2026-12-24,13:30,2,economics,w9hUMH0fPw4,₹15 Lakh Preschool: Can 50 Kids Make It Profitable?,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,,,22,
-2026-12-24,19:30,3,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,waiting_apify,,"Apify usage limit reached: {
+2026-12-24,19:30,3,economics,xsuvqCTZqIY,Where Does Your ₹150 FASTag Payment Actually Go? | Toll Plaza Economics,C,Where every rupee goes: break the headline price into its parts and reveal what the owner actually keeps.,queued,,"Apify usage limit reached: {
   ""error"": {
     ""type"": ""platform-feature-disabled"",
     ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,19,
