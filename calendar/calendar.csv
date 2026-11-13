@@ -122,10 +122,7 @@ date,time_ist,slot,category,video_id,title,angle,angle_brief,status,ig_media_id,
 2026-12-06,08:30,1,economics,YG196D8Lhx4,₹10 Lakh Laundry Business: Can Washing Clothes Make You Rich?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,,,33,
 2026-12-06,13:30,2,money,T7oW6D8R8YI,No-Cost EMI Isn't Free. So Where Are You Actually Paying?,B,"The hidden cost / trap most people miss, and the simple rule to avoid it.",queued,,,,,
 2026-12-06,19:30,3,ideas,eYBQ6mIaCs4,"5 Boring Businesses You Can Start Testing Under ₹50,000",I4,"Business #4 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
-2026-12-07,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,"Apify usage limit reached: {
-  ""error"": {
-    ""type"": ""platform-feature-disabled"",
-    ""message"": ""You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe",,9,
+2026-12-07,08:30,1,economics,Zcmg23GsW7I,₹15 Lakh to Open a Gym: How Many Members Before You Make ₹1 Profit?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,render failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240,,9,1
 2026-12-07,13:30,2,money,k-bazkQ4sEE,You Retire With ₹1 Crore. When Does the Money Run Out?,B,"The hidden cost / trap most people miss, and the simple rule to avoid it.",queued,,,,,
 2026-12-07,19:30,3,ideas,cutJkJ4H7-U,"5 Boring Businesses Nobody Notices Behind Restaurants, Hotels & Hospital",I4,"Business #4 from the list only: what it is, the real startup cost, how it earns, and why it's boring-but-profitable.",queued,,,,,
 2026-12-08,08:30,1,economics,PE22oGWm3rA,₹10 Lakh Car Detailing Studio: How Many Cars to Break Even?,B,The one mistake new owners make (and the smarter move from the video). Lead with the mistake as the hook.,queued,,"Apify usage limit reached: {
