@@ -3,9 +3,9 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-      [buffer] post statuses seen: {'sent': 82, 'scheduled': 5, 'error': 3}
-Buffer queue: 5 waiting (buffer); target 10 -> making 5
---- reel 1/5: slot 2 (money) row 114: Zcmg23GsW7I B
+      [buffer] post statuses seen: {'sent': 83, 'scheduled': 4, 'error': 3}
+Buffer queue: 4 waiting (buffer); target 10 -> making 6
+--- reel 1/6: slot 2 (money) row 114: Zcmg23GsW7I B
 Traceback (most recent call last):
   File "/home/runner/work/paisadecode-reels/paisadecode-reels/pipeline/run.py", line 255, in refill
     mp4, caption = make_reel(row, wd)
