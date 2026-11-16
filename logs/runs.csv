@@ -294,3 +294,4 @@ run_at_ist,video_id,angle,status,note
 2026-11-14 22:32,Zcmg23GsW7I,C,error,401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240
 2026-11-15 11:49,Zcmg23GsW7I,C,error,401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240
 2026-11-15 23:11,PE22oGWm3rA,A,error,401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240
+2026-11-16 11:48,PE22oGWm3rA,A,error,401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/johnvc~YoutubeTranscripts/run-sync-get-dataset-items?token=apify_api_UIqoDsTvgy8JWc4d6nu4QkOQYDvXhw1bAGHU&timeout=240
