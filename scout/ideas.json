@@ -414,5 +414,101 @@
   ],
   "id": "idea-railway-platform-stall-licence-economics",
   "added": "2026-11-09"
+ },
+ "idea-ipl-team-owner-ticket-money": {
+  "slug": "ipl-team-owner-ticket-money",
+  "title": "IPL Team Owner: Where Does the Money Actually Come From?",
+  "topic": "IPL franchise economics: central rights pool share, sponsorship, gate and merchandise revenue, vs player salaries, travel and stadium costs. Is owning a team really profitable, and how did owners recover the franchise fee?",
+  "angle": "Hook: 'IPL team kharidne ke ₹1,000+ crore lagte hain. Owner ko wapas kaise milta hai?' Payoff: follow ₹100 of IPL revenue and show the central-pool share, how little comes from tickets, and where it goes (player purse, ops). Then show the real payoff, which is brand value.",
+  "hook_pattern": "Follow one rupee through a dream-to-own business, and reveal that the obvious income source (tickets) is the smallest slice.",
+  "why_it_works": "Reasoning: cricket plus 'how do owners make money' is mass-appeal for Indian men 18-34. It follows the petrol-pump format of 'what the owner keeps from ₹100', but on a business nobody has ever seen the books of. Surprise factor: tickets barely matter.",
+  "evidence": [],
+  "search_queries": [
+   "IPL franchise revenue breakdown central rights share sponsorship gate money",
+   "IPL team profit and loss annual report Rajasthan Royals Punjab Kings financials",
+   "IPL franchise valuation vs revenue how owners make money"
+  ],
+  "id": "idea-ipl-team-owner-ticket-money",
+  "added": "2026-11-16"
+ },
+ "idea-pub-bar-owner-500-beer-economics": {
+  "slug": "pub-bar-owner-500-beer-economics",
+  "title": "₹500 Ki Beer Pub Mein: Bar Owner Ko Kitna Bachta Hai?",
+  "topic": "Pub/bar unit economics in India: markup on beer and spirits vs MRP at a wine shop, excise licence fees by state, rent, staff, music and entertainment licences, and the share of revenue from food vs liquor.",
+  "angle": "Hook: 'Wine shop pe beer ₹180, pub mein ₹500. Fark kiske paas jaata hai?' Payoff: break the ₹500 into the liquor cost, licence and excise burden, rent and staff, leaving the owner's margin. Show why pubs are packed on weekends and still struggle.",
+  "hook_pattern": "Price-gap reveal: the same product at two prices, then show who gets the difference.",
+  "why_it_works": "Reasoning: our wine-shop reel is already covered, so this is the natural next step. Pubs are an aspirational business for young men, and the licence cost and markup are public, so the numbers are researchable. The 'why so expensive' question is something every viewer has asked.",
+  "evidence": [],
+  "search_queries": [
+   "bar licence fee state wise India Delhi Maharashtra Karnataka excise",
+   "pub restaurant profit margin liquor vs food revenue India",
+   "how much does a pub owner earn India cost structure"
+  ],
+  "id": "idea-pub-bar-owner-500-beer-economics",
+  "added": "2026-11-16"
+ },
+ "idea-airport-outlet-200-rupee-chai": {
+  "slug": "airport-outlet-200-rupee-chai",
+  "title": "Airport Pe ₹250 Ki Chai: Dukaan Wale Ko Kitna Bachta Hai?",
+  "topic": "Airport retail and F&B economics in India: how outlets win space, revenue-share or minimum-guarantee rent paid to the airport operator, staff and compliance costs, and why airport prices are 3-5x street prices.",
+  "angle": "Hook: 'Airport pe chai ₹250 kyun? Dukaan wala loot raha hai?' Payoff: the outlet gives a big share of every sale to the airport operator and still has to staff it 24x7. Show how much of the ₹250 is left. The twist is that the outlet owner is not the villain.",
+  "hook_pattern": "'Why is this so expensive?' myth-bust, where the obvious villain turns out to be squeezed too.",
+  "why_it_works": "Reasoning: 'why is X so expensive' is a universal, shareable curiosity. It follows the same structure as our mall-rent and railway-stall reels, with a 'who really gets the cut' reveal. Airport concession revenue-share figures are public via operator disclosures and tenders.",
+  "evidence": [],
+  "search_queries": [
+   "airport concession revenue share percentage F&B retail India GMR Adani tender",
+   "why airport food is expensive India rent per sq ft airport outlet",
+   "airport F&B operator margin Travel Food Services annual report"
+  ],
+  "id": "idea-airport-outlet-200-rupee-chai",
+  "added": "2026-11-16"
+ },
+ "idea-jcb-excavator-hourly-rent-economics": {
+  "slug": "jcb-excavator-hourly-rent-economics",
+  "title": "₹1,200/Hour JCB Rent: Machine Kitne Ghante Chalke Paisa Wapas Deti Hai?",
+  "topic": "Earth-moving equipment ownership economics in India: purchase price, EMI, operator wage, diesel, maintenance, insurance, typical hourly rental rates, and realistic monthly utilisation (monsoon idle time, site gaps).",
+  "angle": "Hook: 'Ek JCB ₹30 lakh ki. Roz kitne ghante chalni chahiye ki EMI nikle?' Payoff: a break-even hours-per-month calculation, then what happens when she idles for 2 monsoon months. Show who actually profits: the owner with 3+ machines and steady contractor tie-ups.",
+  "hook_pattern": "Break-even counter: 'how many X before you make ₹1 of profit' applied to a heavy asset.",
+  "why_it_works": "Reasoning: the break-even format fits our audience, as seen in the covered EV charger, MRI and gym reels. Fleet and machine ownership is a dream-to-own category that Reels rarely cover. It is practical, since many viewers know someone with a JCB. Machine prices and hourly rates are public on dealer sites and rental portals.",
+  "evidence": [],
+  "search_queries": [
+   "JCB 3DX price India on road EMI",
+   "JCB rental rate per hour India city wise",
+   "excavator owner monthly income expenses diesel operator maintenance"
+  ],
+  "id": "idea-jcb-excavator-hourly-rent-economics",
+  "added": "2026-11-16"
+ },
+ "idea-coaching-institute-1-lakh-fee-economics": {
+  "slug": "coaching-institute-1-lakh-fee-economics",
+  "title": "₹1 Lakh Coaching Fee: Institute Owner Ke Paas Kitna Bachta Hai?",
+  "topic": "Coaching institute unit economics in India: batch size, fee per student, faculty pay (star-teacher revenue shares), rent, marketing and scholarship costs, and the margin difference between a small local centre and a large chain.",
+  "angle": "Hook: 'Ek batch mein 100 bachche, ₹1 lakh fee. ₹1 crore aaya. Owner ke haath mein kitna?' Payoff: line up the costs (star faculty cut, rent, ads, staff) and show the margin. Then show why the real money is in the top-rank marketing machine and not in teaching.",
+  "hook_pattern": "Per-customer revenue to take-home, applied to a business with a huge emotional pull (parents' money, kids' futures).",
+  "why_it_works": "Reasoning: our school-fee reel is already covered, and this is the adjacent, higher-stakes question. Almost every Indian family has paid for coaching, so it has high relatability and shareability. Public numbers exist in listed edtech and coaching filings and in industry reports.",
+  "evidence": [],
+  "search_queries": [
+   "coaching institute profit margin India batch size fee faculty salary",
+   "Physics Wallah annual report revenue per student teacher cost",
+   "Kota coaching industry size fee per student cost structure"
+  ],
+  "id": "idea-coaching-institute-1-lakh-fee-economics",
+  "added": "2026-11-16"
+ },
+ "idea-uber-ola-500-ride-who-keeps-what": {
+  "slug": "uber-ola-500-ride-who-keeps-what",
+  "title": "₹500 Ki Cab Ride: Driver, Fleet Owner Aur App Ko Kitna Milta Hai?",
+  "topic": "Ride-hailing economics in India: fare split between platform commission or subscription fee, driver, and fleet owner. The driver's costs (fuel/CNG, EMI, maintenance, insurance), and how a car-owning fleet operator earns per car per month.",
+  "angle": "Hook: 'Aapne ₹500 ka cab liya. Driver ke haath mein kitna aaya?' Payoff: split one ₹500 ride across the app, the owner's EMI and the driver's fuel, with the driver's real hourly earning at the end. Compare driver-owner vs fleet-owner economics.",
+  "hook_pattern": "Split-the-ticket: one transaction we all make, shown as slices that go to different people.",
+  "why_it_works": "Reasoning: our UPI, FASTag, Zomato and Blinkit reels use the same 'follow one payment' format. Cabs are used by every urban viewer, and many also think about buying a car to attach to an app. Commission and subscription rates and fleet-lease numbers are public.",
+  "evidence": [],
+  "search_queries": [
+   "Uber Ola commission driver earnings per trip India breakdown",
+   "cab driver monthly income expenses CNG EMI India fleet owner attach car to Ola Uber",
+   "Namma Yatri Rapido subscription model vs commission driver earning"
+  ],
+  "id": "idea-uber-ola-500-ride-who-keeps-what",
+  "added": "2026-11-16"
  }
 }

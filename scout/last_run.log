@@ -1,18 +1,24 @@
-  apify apify~instagram-hashtag-scraper: 403 {
+  apify apify~instagram-hashtag-scraper: 401 {
   "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
-  apify apify~instagram-hashtag-scraper: 403 {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+  apify apify~instagram-hashtag-scraper: 401 {
   "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
-  apify apify~instagram-reel-scraper: 403 {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+  apify apify~instagram-reel-scraper: 401 {
   "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCyc
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
 scraped 0 items -> 0 reels with view counts
 no scraped reels this week (Apify unavailable?) — planning ideas from our own insights + web research instead
-# Idea scout 2026-11-09
+# Idea scout 2026-11-16
 
 Proven reels scanned: 0 (of 0 scraped; ≥50000 views, ≥10 days old)
 
@@ -21,22 +27,22 @@ Proven reels scanned: 0 (of 0 scraped; ≥50000 views, ≥10 days old)
 
 ## New ideas added
 
-- **₹1,200 Water Park Ticket: What Does the Owner Keep?** — Hook: 'Ek family ne ₹1,200 ke 4 tickets liye, park owner ke paas kitna bacha?' Show the ride-and-land investment, why it only earns in 4 to 5 peak months, and how food and lockers carry the profit. Payoff: the real per-visitor margin and the footfall needed to break even. _(pattern: Rupee-per-unit breakdown of a dream-to-own business, ending in a surprising owner take-home figure (same as the petrol pump reel).; evidence: )_
-- **₹3,000 MRI Scan: How Many Scans Pay for a ₹3 Crore Machine?** — Hook: 'Ek MRI machine ₹3 crore ki hai. Roz kitne scan karne padte hain tab owner ka paisa wapas aata hai?' Walk through the machine cost, running cost and daily scan capacity. Payoff: the payback in months, and why the referral cut and utilisation decide who wins. _(pattern: Big capex vs small per-unit price ('how many X to break even'), the structure of the EV charger and gym reels.; evidence: )_
-- **₹250 Ka Cappuccino: Cafe Owner Ko Kitna Bachta Hai?** — Hook: 'Is ₹250 ke cup mein coffee sirf ₹20-25 ki hai, baaki paisa kahan gaya?' Split the cup into ingredient, rent, staff, royalty and profit. Payoff: the owner's real margin, and why rent and footfall matter more than the coffee. _(pattern: A familiar everyday price broken into slices with a shocking raw-cost figure, like the pizza and Zomato order reels.; evidence: )_
-- **₹1 Crore Ka Flat Bika: Builder Ke Paas Kitna Bacha?** — Hook: 'Aapne ₹1 crore ka flat kharida. Builder ne usme se kitna kamaya?' Show a stacked-bar breakdown by cost bucket. Payoff: the builder's EBITDA or margin range, and how much is land versus tax versus actual construction. _(pattern: Follow ₹X of the customer's money through the chain to the owner's pocket, the same as the gas cylinder and school fee reels.; evidence: )_
-- **₹5,000 Ki Flight Ticket: Airline Ko Kitna Bachta Hai?** — Hook: 'Ek flight bhar ke bhi airline ka profit sirf ₹300-400 kyun hota hai?' Slice the fare into fuel, lease, airport fees, taxes and crew. Payoff: break-even seat occupancy, and why bag fees, seat selection and food earn more than the ticket. _(pattern: Fare vs hidden costs, with a counter-intuitive twist that a full plane still doesn't mean profit (like the sleeper bus and sarkari bus contract reels).; evidence: )_
-- **Railway Station Pe Chai-Snacks Stall: Licence Kaise Milta Hai Aur Kitna Kamate Hain?** — Hook: 'Platform pe ₹20 ki chai bechne ka haq kaun deta hai, aur uski licence fee kitni hai?' Explain the licence route, the licence fee as a fixed monthly cost, and the footfall versus sales maths. Payoff: monthly profit at a busy station vs a small one, and the hidden costs. _(pattern: Insider access to a licensed, hard-to-enter business ('who actually gets to run this'), like the Amul parlour and gas agency reels.; evidence: )_
+- **IPL Team Owner: Where Does the Money Actually Come From?** — Hook: 'IPL team kharidne ke ₹1,000+ crore lagte hain. Owner ko wapas kaise milta hai?' Payoff: follow ₹100 of IPL revenue and show the central-pool share, how little comes from tickets, and where it goes (player purse, ops). Then show the real payoff, which is brand value. _(pattern: Follow one rupee through a dream-to-own business, and reveal that the obvious income source (tickets) is the smallest slice.; evidence: )_
+- **₹500 Ki Beer Pub Mein: Bar Owner Ko Kitna Bachta Hai?** — Hook: 'Wine shop pe beer ₹180, pub mein ₹500. Fark kiske paas jaata hai?' Payoff: break the ₹500 into the liquor cost, licence and excise burden, rent and staff, leaving the owner's margin. Show why pubs are packed on weekends and still struggle. _(pattern: Price-gap reveal: the same product at two prices, then show who gets the difference.; evidence: )_
+- **Airport Pe ₹250 Ki Chai: Dukaan Wale Ko Kitna Bachta Hai?** — Hook: 'Airport pe chai ₹250 kyun? Dukaan wala loot raha hai?' Payoff: the outlet gives a big share of every sale to the airport operator and still has to staff it 24x7. Show how much of the ₹250 is left. The twist is that the outlet owner is not the villain. _(pattern: 'Why is this so expensive?' myth-bust, where the obvious villain turns out to be squeezed too.; evidence: )_
+- **₹1,200/Hour JCB Rent: Machine Kitne Ghante Chalke Paisa Wapas Deti Hai?** — Hook: 'Ek JCB ₹30 lakh ki. Roz kitne ghante chalni chahiye ki EMI nikle?' Payoff: a break-even hours-per-month calculation, then what happens when she idles for 2 monsoon months. Show who actually profits: the owner with 3+ machines and steady contractor tie-ups. _(pattern: Break-even counter: 'how many X before you make ₹1 of profit' applied to a heavy asset.; evidence: )_
+- **₹1 Lakh Coaching Fee: Institute Owner Ke Paas Kitna Bachta Hai?** — Hook: 'Ek batch mein 100 bachche, ₹1 lakh fee. ₹1 crore aaya. Owner ke haath mein kitna?' Payoff: line up the costs (star faculty cut, rent, ads, staff) and show the margin. Then show why the real money is in the top-rank marketing machine and not in teaching. _(pattern: Per-customer revenue to take-home, applied to a business with a huge emotional pull (parents' money, kids' futures).; evidence: )_
+- **₹500 Ki Cab Ride: Driver, Fleet Owner Aur App Ko Kitna Milta Hai?** — Hook: 'Aapne ₹500 ka cab liya. Driver ke haath mein kitna aaya?' Payoff: split one ₹500 ride across the app, the owner's EMI and the driver's fuel, with the driver's real hourly earning at the end. Compare driver-owner vs fleet-owner economics. _(pattern: Split-the-ticket: one transaction we all make, shown as slices that go to different people.; evidence: )_
 added 6 ideas to the calendar
-      research: 4256 chars, 24 source links, 10 searches (last turn)
-  researched idea-water-park-ticket-economics
-      research: 7421 chars, 38 source links, 10 searches (last turn)
-  researched idea-mri-scan-machine-break-even
-      research: 3855 chars, 15 source links, 10 searches (last turn)
-  researched idea-cafe-coffee-250-rupees-owner-margin
-      research: 5941 chars, 25 source links, 10 searches (last turn)
-  researched idea-builder-profit-on-1-crore-flat
       research: 0 chars, 0 source links, 10 searches (last turn)
-  research failed for idea-airline-ticket-5000-where-money-goes: research for idea-airline-ticket-5000-where-money-goes found too few numbers to make an honest reel
-      research: 8910 chars, 46 source links, 10 searches (last turn)
-  researched idea-railway-platform-stall-licence-economics
+  research failed for idea-ipl-team-owner-ticket-money: research for idea-ipl-team-owner-ticket-money found too few numbers to make an honest reel
+      research: 5040 chars, 26 source links, 10 searches (last turn)
+  researched idea-pub-bar-owner-500-beer-economics
+      research: 2693 chars, 12 source links, 10 searches (last turn)
+  researched idea-airport-outlet-200-rupee-chai
+      research: 6394 chars, 42 source links, 10 searches (last turn)
+  researched idea-jcb-excavator-hourly-rent-economics
+      research: 7715 chars, 45 source links, 10 searches (last turn)
+  researched idea-coaching-institute-1-lakh-fee-economics
+      research: 0 chars, 0 source links, 10 searches (last turn)
+  research failed for idea-uber-ola-500-ride-who-keeps-what: research for idea-uber-ola-500-ride-who-keeps-what found too few numbers to make an honest reel
