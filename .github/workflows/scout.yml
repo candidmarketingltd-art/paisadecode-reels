@@ -1,8 +1,8 @@
 name: Weekly idea scout (Instagram niche research)
 
 on:
-  schedule:
-    - cron: "40 2 * * 1"   # Mondays 08:10 IST
+  # schedule:  (paused)
+    # PAUSED by Rohan 2026-11-17 - cron: "40 2 * * 1"   # Mondays 08:10 IST
   push:
     paths: ["triggers/scout.txt"]
   workflow_dispatch:

@@ -5,9 +5,9 @@ name: Top up Buffer queue (free plan)
 # Ready-made reels (from a batch) are queued first, so nothing is rendered twice.
 # Buffer's own posting schedule (08:30 / 13:30 / 19:30 IST) publishes them.
 on:
-  schedule:
-    - cron: "10 0 * * *"    # 05:40 IST
-    - cron: "10 11 * * *"   # 16:40 IST
+  # schedule:  (paused)
+    # PAUSED by Rohan 2026-11-17 - cron: "10 0 * * *"    # 05:40 IST
+    # PAUSED by Rohan 2026-11-17 - cron: "10 11 * * *"   # 16:40 IST
   push:
     paths: ["triggers/run-now.txt", "triggers/buffer-reset.txt"]   # run-now: top up; buffer-reset: take back everything scheduled, then top up
   workflow_dispatch:

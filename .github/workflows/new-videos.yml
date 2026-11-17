@@ -1,8 +1,8 @@
 name: Add new YouTube uploads to the calendar
 
 on:
-  schedule:
-    - cron: "15 4 * * *"   # daily 09:45 IST
+  # schedule:  (paused)
+    # PAUSED by Rohan 2026-11-17 - cron: "15 4 * * *"   # daily 09:45 IST
   workflow_dispatch:
 
 permissions:

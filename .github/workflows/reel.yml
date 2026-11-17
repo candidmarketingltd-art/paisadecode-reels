@@ -1,11 +1,11 @@
 name: Make & post reel
 
 on:
-  schedule:
+  # schedule:  (paused)
     # 3 reels a day. Runs ~25 min before each post time (IST): 08:30, 13:30, 19:30
-    - cron: "35 2 * * *"    # 08:05 IST
-    - cron: "35 7 * * *"    # 13:05 IST
-    - cron: "35 13 * * *"   # 19:05 IST
+    # PAUSED by Rohan 2026-11-17 - cron: "35 2 * * *"    # 08:05 IST
+    # PAUSED by Rohan 2026-11-17 - cron: "35 7 * * *"    # 13:05 IST
+    # PAUSED by Rohan 2026-11-17 - cron: "35 13 * * *"   # 19:05 IST
   push:
     paths: ["triggers/preview.txt"]   # push any change to this file = make ONE preview reel (not posted; download it from the run)
   workflow_dispatch:
